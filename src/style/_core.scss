@@ -1,4 +1,4 @@
-$atomic: (
+$core: (
   "-moz-osx-font-smoothing",
   "-webkit-box-orient",
   "-webkit-font-smoothing",
@@ -188,7 +188,7 @@ $atomic: (
   "z-index"
 );
 
-@each $property in $atomic {
+@each $property in $core {
   /*x
   @mixin #{$property}($v, $rwd: null) {
     @if $rwd==null {

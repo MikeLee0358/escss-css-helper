@@ -1,6 +1,4 @@
 /*x
-// Setting - change default here
-
 // Breakpoints
 $sm: 640px;
 $md: 768px;
@@ -8,7 +6,6 @@ $lg: 1024px;
 $xl: 1280px;
 $\2xl: 1536px;
 
-// Colors (abbrev name for file size concern)
 // Black
 $bla: #000;
 // White
@@ -379,8 +376,8 @@ $wider: 0.05em;
 $widest: 0.1em;
 
 // Note:
-// The scss variables for better DX(no more var(--xxx) in stylesheets), the result is the same as Tailwind.
-// "tw-dummy-" means extra variables to reach the same result as Tailwind.
+//  1. The scss variables for better DX(no more var(--xxx) in stylesheets), the result is the same as Tailwind.
+//  2. "tw-dummy-" means extra variables to reach the same result as Tailwind.
 
 // Gradient Color Stops
 $tw-dummy-gradient-direction: null !default;

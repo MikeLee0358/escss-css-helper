@@ -15,7 +15,6 @@ $GridRowStartEnd: (
   "row-span-11": span 11 / span 11,
   "row-span-12": span 12 / span 12,
   "row-span-full": "#/*x{1 / -1}",
-  // workaround to support before sass@1.33
 );
 
 $GridRowStartEnd2: (
