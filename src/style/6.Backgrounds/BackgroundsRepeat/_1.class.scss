@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $BackgroundsRepeat: (
   "bg-repeat": repeat,
   "bg-no-repeat": no-repeat,
@@ -20,7 +19,7 @@ $BackgroundsRepeat: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $BackgroundsRepeat {
       /*x

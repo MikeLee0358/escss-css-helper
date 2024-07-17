@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $FlexShrink: (
   "shrink": "1",
   "shrink-0": "0",
@@ -16,7 +15,7 @@ $FlexShrink: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $FlexShrink {
       /*x

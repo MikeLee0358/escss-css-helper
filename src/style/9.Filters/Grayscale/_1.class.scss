@@ -1,9 +1,8 @@
 @use "../../setting" as *;
 
-
 $Grayscale: (
   "grayscale-0": grayscale(0),
-  "grayscale": grayscale(100%)
+  "grayscale": grayscale(100%),
 );
 
 @if $Basic {
@@ -17,7 +16,7 @@ $Grayscale: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $Grayscale {
       /*x

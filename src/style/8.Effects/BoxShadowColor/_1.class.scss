@@ -249,7 +249,6 @@ $BoxShadowColor: (
 );
 
 @if $Basic {
-
   /*x
   @mixin shadow-inherit {
     $tw-dummy-not-match--shadow-color: true !global;
@@ -280,9 +279,8 @@ $BoxShadowColor: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
-
     /*x
     @mixin #{$rwd}\:shadow-inherit {
       $tw-dummy-not-match--shadow-color: true !global;

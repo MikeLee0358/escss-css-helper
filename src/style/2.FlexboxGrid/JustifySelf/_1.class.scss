@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $JustifySelf: (
   "justify-self-auto": auto,
   "justify-self-start": start,
@@ -19,7 +18,7 @@ $JustifySelf: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $JustifySelf {
       /*x

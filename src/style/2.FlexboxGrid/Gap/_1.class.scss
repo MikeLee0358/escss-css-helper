@@ -1,7 +1,5 @@
 @use "../../setting" as *;
 
-
-
 $Gap: (
   "0": "$\\0",
   "px": "$\\px",
@@ -58,10 +56,10 @@ $Gap: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $Gap {
-    /*x
+      /*x
     @mixin #{$rwd}\:gap-#{$key} {
       @include gap(#{$value}, $#{$rwd});
     }
@@ -109,4 +107,3 @@ $Gap: (
     x*/
   }
 }
-

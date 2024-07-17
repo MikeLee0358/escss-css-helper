@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $TableLayout: (
   "table-auto": auto,
   "table-fixed": fixed,
@@ -16,7 +15,7 @@ $TableLayout: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $TableLayout {
       /*x

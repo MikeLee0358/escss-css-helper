@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $TextDecoration: (
   "underline": underline,
   "overline": overline,
@@ -18,7 +17,7 @@ $TextDecoration: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $TextDecoration {
       /*x

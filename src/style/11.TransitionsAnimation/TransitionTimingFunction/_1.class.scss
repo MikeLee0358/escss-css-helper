@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $TransitionTimingFunction: (
   "ease-linear": linear,
   "ease-in": cubic-bezier(0.4, 0, 1, 1),
@@ -18,7 +17,7 @@ $TransitionTimingFunction: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $TransitionTimingFunction {
       /*x

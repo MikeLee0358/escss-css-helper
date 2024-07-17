@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $ScrollSnapStop: (
   "snap-normal": normal,
   "snap-always": always,
@@ -16,7 +15,7 @@ $ScrollSnapStop: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $ScrollSnapStop {
       /*x

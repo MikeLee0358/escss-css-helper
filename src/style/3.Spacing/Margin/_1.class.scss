@@ -36,7 +36,7 @@ $Margin: (
   "72": "$\\72",
   "80": "$\\80",
   "96": "$\\96",
-  "auto": "auto"
+  "auto": "auto",
 );
 
 @if $Basic {
@@ -122,10 +122,10 @@ $Margin: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $Margin {
-    /*x
+      /*x
     @mixin #{$rwd}\:m-#{$key} {
       @include margin(#{$value}, $#{$rwd});
     }
@@ -168,7 +168,7 @@ $Margin: (
       @include margin-left(#{$value}, $#{$rwd});
     }
     x*/
-    /*x
+      /*x
     @mixin #{$rwd}\:-m-#{$key} {
       @include margin(-#{$value}, $#{$rwd});
     }

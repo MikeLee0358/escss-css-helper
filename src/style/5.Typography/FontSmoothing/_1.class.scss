@@ -4,8 +4,14 @@
 // 1st: -webkit-font-smoothing
 // 2nd: -moz-osx-font-smoothing
 $FontSmoothing: (
-  "antialiased": (antialiased, grayscale),
-  "subpixel-antialiased": (auto, auto),
+  "antialiased": (
+    antialiased,
+    grayscale,
+  ),
+  "subpixel-antialiased": (
+    auto,
+    auto,
+  ),
 );
 
 @if $Basic {
@@ -19,7 +25,7 @@ $FontSmoothing: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $FontSmoothing {
       /*x

@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $Overflow: (
   "overflow-auto": auto,
   "overflow-hidden": hidden,
@@ -51,7 +50,7 @@ $Overflow3: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $Overflow {
       /*x

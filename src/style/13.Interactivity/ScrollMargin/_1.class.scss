@@ -35,7 +35,7 @@ $ScrollMargin: (
   "64": "$\\64",
   "72": "$\\72",
   "80": "$\\80",
-  "96": "$\\96"
+  "96": "$\\96",
 );
 
 @if $Basic {
@@ -121,10 +121,10 @@ $ScrollMargin: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $ScrollMargin {
-    /*x
+      /*x
     @mixin #{$rwd}\:scroll-m-#{$key} {
       @include scroll-margin(#{$value}, $#{$rwd});
     }
@@ -167,7 +167,7 @@ $ScrollMargin: (
       @include scroll-margin-left(#{$value}, $#{$rwd});
     }
     x*/
-    /*x
+      /*x
     @mixin #{$rwd}\:-scroll-m-#{$key} {
       @include scroll-margin(-#{$value}, $#{$rwd});
     }

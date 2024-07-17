@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $WhiteSpace: (
   "whitespace-normal": normal,
   "whitespace-nowrap": nowrap,
@@ -20,7 +19,7 @@ $WhiteSpace: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $WhiteSpace {
       /*x

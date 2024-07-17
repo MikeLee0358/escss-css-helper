@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $BoxSizing: (
   "box-border": border-box,
   "box-content": content-box,
@@ -16,7 +15,7 @@ $BoxSizing: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $BoxSizing {
       /*x

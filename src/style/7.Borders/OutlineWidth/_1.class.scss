@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $OutlineWidth: (
   "outline-0": 0px,
   "outline-1": 1px,
@@ -19,7 +18,7 @@ $OutlineWidth: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $OutlineWidth {
       /*x

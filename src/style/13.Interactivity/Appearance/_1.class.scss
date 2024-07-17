@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $Appearance: (
   "appearance-none": none,
   "appearance-auto": auto,
@@ -16,7 +15,7 @@ $Appearance: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $Appearance {
       /*x

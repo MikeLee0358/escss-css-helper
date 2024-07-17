@@ -9,7 +9,6 @@ $DivideWidth: (
 );
 
 @if $Basic {
-
   /*x
   @mixin divide-x-reverse {
     $tw-divide-x-reverse: 1 !global;
@@ -52,9 +51,8 @@ $DivideWidth: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
-
     /*x
       @mixin #{$rwd}\:divide-x-reverse {
         $tw-divide-x-reverse: 1 !global;

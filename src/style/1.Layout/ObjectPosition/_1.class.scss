@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $ObjectPosition: (
   "object-bottom": bottom,
   "object-center": center,
@@ -23,7 +22,7 @@ $ObjectPosition: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $ObjectPosition {
       /*x

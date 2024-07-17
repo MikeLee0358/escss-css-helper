@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $AlignContent: (
   "content-normal": normal,
   "content-center": center,
@@ -23,7 +22,7 @@ $AlignContent: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $AlignContent {
       /*x

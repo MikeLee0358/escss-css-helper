@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $JustifyItems: (
   "justify-items-start": start,
   "justify-items-end": end,
@@ -18,7 +17,7 @@ $JustifyItems: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $JustifyItems {
       /*x

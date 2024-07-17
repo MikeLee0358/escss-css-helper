@@ -6,13 +6,48 @@
 // 3rd: -webkit-box-orient
 // 4th: -webkit-line-clamp
 $LineClamp: (
-  "line-clamp-1": (hidden, -webkit-box, vertical, 1),
-  "line-clamp-2": (hidden, -webkit-box, vertical, 2),
-  "line-clamp-3": (hidden, -webkit-box, vertical, 3),
-  "line-clamp-4": (hidden, -webkit-box, vertical, 4),
-  "line-clamp-5": (hidden, -webkit-box, vertical, 5),
-  "line-clamp-6": (hidden, -webkit-box, vertical, 6),
-  "line-clamp-none": (visible, block, horizontal, none),
+  "line-clamp-1": (
+    hidden,
+    -webkit-box,
+    vertical,
+    1,
+  ),
+  "line-clamp-2": (
+    hidden,
+    -webkit-box,
+    vertical,
+    2,
+  ),
+  "line-clamp-3": (
+    hidden,
+    -webkit-box,
+    vertical,
+    3,
+  ),
+  "line-clamp-4": (
+    hidden,
+    -webkit-box,
+    vertical,
+    4,
+  ),
+  "line-clamp-5": (
+    hidden,
+    -webkit-box,
+    vertical,
+    5,
+  ),
+  "line-clamp-6": (
+    hidden,
+    -webkit-box,
+    vertical,
+    6,
+  ),
+  "line-clamp-none": (
+    visible,
+    block,
+    horizontal,
+    none,
+  ),
 );
 
 @if $Basic {
@@ -28,7 +63,7 @@ $LineClamp: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $LineClamp {
       /*x

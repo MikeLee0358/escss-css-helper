@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $Visibility: (
   "visible": visible,
   "invisible": hidden,
@@ -17,7 +16,7 @@ $Visibility: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $Visibility {
       /*x

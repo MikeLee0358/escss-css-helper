@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $ForcedColorAdjust: (
   "forced-color-adjust-auto": auto,
   "forced-color-adjust-none": none,
@@ -16,7 +15,7 @@ $ForcedColorAdjust: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $ForcedColorAdjust {
       /*x

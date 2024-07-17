@@ -15,17 +15,17 @@ $Order: (
   "order-12": 12,
   "order-first": -9999,
   "order-last": 9999,
-  "order-none": 0
+  "order-none": 0,
 );
 
 @if $Basic {
   @each $key, $value in $Order {
-  /*x
+    /*x
   @mixin #{$key} {
     @include order(#{$value});
   }
   x*/
-  /*x
+    /*x
   @mixin -#{$key} {
     @include order(#{-$value});
   }
@@ -33,7 +33,7 @@ $Order: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $Order {
       /*x

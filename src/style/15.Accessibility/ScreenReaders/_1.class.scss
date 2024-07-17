@@ -11,8 +11,28 @@
 // 8th: white-space
 // 9th: border-width
 $ScreenReaders: (
-  "sr-only": (absolute, 1px, 1px, 0, -1px, hidden, rect(0, 0, 0, 0), nowrap, 0),
-  "not-sr-only": (static, auto, auto, 0, 0, visible, auto, normal, "null"),
+  "sr-only": (
+    absolute,
+    1px,
+    1px,
+    0,
+    -1px,
+    hidden,
+    rect(0, 0, 0, 0),
+    nowrap,
+    0,
+  ),
+  "not-sr-only": (
+    static,
+    auto,
+    auto,
+    0,
+    0,
+    visible,
+    auto,
+    normal,
+    "null",
+  ),
 );
 
 @if $Basic {
@@ -33,7 +53,7 @@ $ScreenReaders: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $ScreenReaders {
       /*x

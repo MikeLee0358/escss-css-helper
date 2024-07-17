@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $TransitionDelay: (
   "delay-0": 0s,
   "delay-75": 75ms,
@@ -23,7 +22,7 @@ $TransitionDelay: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $TransitionDelay {
       /*x

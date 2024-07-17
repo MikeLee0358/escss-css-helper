@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $OverscrollBehavior: (
   "overscroll-auto": auto,
   "overscroll-contain": contain,
@@ -45,7 +44,7 @@ $OverscrollBehavior3: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $OverscrollBehavior {
       /*x

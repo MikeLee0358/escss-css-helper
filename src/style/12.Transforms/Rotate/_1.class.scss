@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $Rotate: (
   "rotate-0": 0deg,
   "rotate-1": 1deg,
@@ -10,7 +9,7 @@ $Rotate: (
   "rotate-12": 12deg,
   "rotate-45": 45deg,
   "rotate-90": 90deg,
-  "rotate-180": 180deg
+  "rotate-180": 180deg,
 );
 
 @if $Basic {
@@ -30,16 +29,16 @@ $Rotate: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $Rotate {
-    /*x
+      /*x
     @mixin #{$rwd}\:#{$key} {
       $tw-rotate: #{$value} !global;
       @include transform(get_transform(), $#{$rwd});
     }
     x*/
-    /*x
+      /*x
     @mixin #{$rwd}\:-#{$key} {
       $tw-rotate: #{-$value} !global;
       @include transform(get_transform(), $#{$rwd});

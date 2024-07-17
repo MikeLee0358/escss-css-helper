@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $FlexDirection: (
   "flex-row": row,
   "flex-row-reverse": row-reverse,
@@ -18,7 +17,7 @@ $FlexDirection: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $FlexDirection {
       /*x
@@ -29,4 +28,3 @@ $FlexDirection: (
     }
   }
 }
-

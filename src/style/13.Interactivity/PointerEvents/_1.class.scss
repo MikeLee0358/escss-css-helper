@@ -15,7 +15,7 @@ $PointerEvents: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $PointerEvents {
       /*x

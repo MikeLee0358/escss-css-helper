@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $BackgroundsAttachment: (
   "bg-fixed": fixed,
   "bg-local": local,
@@ -17,7 +16,7 @@ $BackgroundsAttachment: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $BackgroundsAttachment {
       /*x

@@ -9,7 +9,7 @@ $TransitionOrigin: (
   "origin-bottom": bottom,
   "origin-bottom-left": bottom left,
   "origin-left": left,
-  "origin-top-left": top left
+  "origin-top-left": top left,
 );
 
 @if $Basic {
@@ -22,7 +22,7 @@ $TransitionOrigin: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $TransitionOrigin {
       /*x

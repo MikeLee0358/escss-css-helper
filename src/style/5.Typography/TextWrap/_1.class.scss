@@ -1,7 +1,5 @@
 @use "../../setting" as *;
 
-
-
 $TextWrap: (
   "text-wrap": wrap,
   "text-nowrap": nowrap,
@@ -19,7 +17,7 @@ $TextWrap: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $TextWrap {
       /*x

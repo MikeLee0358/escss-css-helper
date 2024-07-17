@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $TransitionDuration: (
   "duration-0": 0s,
   "duration-75": 75ms,
@@ -23,7 +22,7 @@ $TransitionDuration: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $TransitionDuration {
       /*x

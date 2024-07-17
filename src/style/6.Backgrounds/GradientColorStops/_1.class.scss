@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $GradientColorStops: (
   black: "$bla",
   white: "$whi",
@@ -273,7 +272,6 @@ $GradientColorStops2: (
 );
 
 @if $Basic {
-
   /*x
   @mixin from-inherit {
     @include background-image(inherit !important);
@@ -336,7 +334,7 @@ $GradientColorStops2: (
     }
     x*/
   }
-  
+
   @each $key, $value in $GradientColorStops2 {
     /*x
     @mixin from-#{$key} {
@@ -357,10 +355,8 @@ $GradientColorStops2: (
   }
 }
 
-
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
-
     /*x
     @mixin #{$rwd}\:from-inherit {
       @include background-image(inherit !important, $#{$rwd});
@@ -553,5 +549,3 @@ $GradientColorStops2: (
     x*/
   }
 }
-
-

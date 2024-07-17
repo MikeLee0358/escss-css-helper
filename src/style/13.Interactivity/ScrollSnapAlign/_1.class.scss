@@ -1,7 +1,5 @@
 @use "../../setting" as *;
 
-
-
 $ScrollSnapAlign: (
   "snap-start": start,
   "snap-end": end,
@@ -19,7 +17,7 @@ $ScrollSnapAlign: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $ScrollSnapAlign {
       /*x

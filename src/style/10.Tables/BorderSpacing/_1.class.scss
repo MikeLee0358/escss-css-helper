@@ -35,7 +35,7 @@ $BorderSpacing: (
   "64": "$\\64",
   "72": "$\\72",
   "80": "$\\80",
-  "96": "$\\96"
+  "96": "$\\96",
 );
 
 @if $Basic {
@@ -56,7 +56,7 @@ $BorderSpacing: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $BorderSpacing {
       /*x

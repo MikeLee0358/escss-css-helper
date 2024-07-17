@@ -2,10 +2,10 @@
 
 $BackdropBrightness: (
   "backdrop-brightness-0": brightness(0),
-  "backdrop-brightness-50": brightness(.5),
-  "backdrop-brightness-75": brightness(.75),
-  "backdrop-brightness-90": brightness(.9),
-  "backdrop-brightness-95": brightness(.95),
+  "backdrop-brightness-50": brightness(0.5),
+  "backdrop-brightness-75": brightness(0.75),
+  "backdrop-brightness-90": brightness(0.9),
+  "backdrop-brightness-95": brightness(0.95),
   "backdrop-brightness-100": brightness(1),
   "backdrop-brightness-105": brightness(1.05),
   "backdrop-brightness-110": brightness(1.1),
@@ -25,7 +25,7 @@ $BackdropBrightness: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $BackdropBrightness {
       /*x

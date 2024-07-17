@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $Blur: (
   "blur-none": blur(0),
   "blur-sm": blur(4px),
@@ -23,7 +22,7 @@ $Blur: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $Blur {
       /*x

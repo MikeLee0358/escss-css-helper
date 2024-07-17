@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $Clear: (
   "clear-start": inline-start,
   "clear-end": inline-end,
@@ -20,7 +19,7 @@ $Clear: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $Clear {
       /*x

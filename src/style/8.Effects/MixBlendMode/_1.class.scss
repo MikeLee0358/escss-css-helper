@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $MixBlendMode: (
   "mix-blend-normal": normal,
   "mix-blend-multiply": multiply,
@@ -32,7 +31,7 @@ $MixBlendMode: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $MixBlendMode {
       /*x

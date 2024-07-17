@@ -6,7 +6,7 @@ $Skew: (
   "2": 2deg,
   "3": 3deg,
   "6": 6deg,
-  "12": 12deg
+  "12": 12deg,
 );
 
 @if $Basic {
@@ -36,7 +36,7 @@ $Skew: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $Skew {
       /*x

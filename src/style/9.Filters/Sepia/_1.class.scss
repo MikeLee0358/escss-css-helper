@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $Sepia: (
   "sepia-0": sepia(0),
   "sepia": sepia(100%),
@@ -17,7 +16,7 @@ $Sepia: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $Sepia {
       /*x

@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $DivideStyle: (
   "divide-solid": solid,
   "divide-dashed": dashed,
@@ -21,7 +20,7 @@ $DivideStyle: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $DivideStyle {
       /*x

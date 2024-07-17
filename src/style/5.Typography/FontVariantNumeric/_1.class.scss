@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $FontVariantNumeric: (
   "normal-nums": normal,
   "ordinal": ordinal,
@@ -23,7 +22,7 @@ $FontVariantNumeric: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $FontVariantNumeric {
       /*x

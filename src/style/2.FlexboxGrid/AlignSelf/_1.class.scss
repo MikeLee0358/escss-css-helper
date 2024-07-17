@@ -1,7 +1,5 @@
 @use "../../setting" as *;
 
-
-
 $AlignSelf: (
   "self-auto": auto,
   "self-start": flex-start,
@@ -21,7 +19,7 @@ $AlignSelf: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $AlignSelf {
       /*x

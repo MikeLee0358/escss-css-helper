@@ -2,11 +2,11 @@
 
 $TextUnderlineOffset: (
   "underline-offset-auto": auto,
-  "underline-offset-0":0px,
-  "underline-offset-1":1px,
-  "underline-offset-2":2px,
-  "underline-offset-4":4px,
-  "underline-offset-8":8px,
+  "underline-offset-0": 0px,
+  "underline-offset-1": 1px,
+  "underline-offset-2": 2px,
+  "underline-offset-4": 4px,
+  "underline-offset-8": 8px,
 );
 
 @if $Basic {
@@ -19,7 +19,7 @@ $TextUnderlineOffset: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $TextUnderlineOffset {
       /*x

@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $CaptionSide: (
   "caption-top": top,
   "caption-bottom": bottom,
@@ -16,7 +15,7 @@ $CaptionSide: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $CaptionSide {
       /*x

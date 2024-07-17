@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $GridAutoRows: (
   "auto-rows-auto": auto,
   "auto-rows-min": min-content,
@@ -18,7 +17,7 @@ $GridAutoRows: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $GridAutoRows {
       /*x

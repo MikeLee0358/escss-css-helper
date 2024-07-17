@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $PlaceContent: (
   "place-content-center": center,
   "place-content-start": start,
@@ -22,7 +21,7 @@ $PlaceContent: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $PlaceContent {
       /*x

@@ -1,7 +1,5 @@
 @use "../../setting" as *;
 
-
-
 $Height: (
   "0": "$\\0",
   "px": "$\\px",
@@ -74,7 +72,7 @@ $Height: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $Height {
       /*x
@@ -101,4 +99,3 @@ $Height: (
     x*/
   }
 }
-

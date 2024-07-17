@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $GridTemplateRows: (
   "grid-rows-1": repeat(1, minmax(0, 1fr)),
   "grid-rows-2": repeat(2, minmax(0, 1fr)),
@@ -28,7 +27,7 @@ $GridTemplateRows: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $GridTemplateRows {
       /*x

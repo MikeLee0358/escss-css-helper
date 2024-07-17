@@ -18,7 +18,7 @@ $TextDecorationStyle: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $TextDecorationStyle {
       /*x

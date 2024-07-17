@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $Fill: (
   black: "$bla",
   white: "$whi",
@@ -275,7 +274,7 @@ $Fill: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     /*x
     @mixin fill-none {

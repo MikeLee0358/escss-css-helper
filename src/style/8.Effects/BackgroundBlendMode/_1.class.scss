@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $BackgroundsBlendMode: (
   "bg-blend-normal": normal,
   "bg-blend-multiply": multiply,
@@ -30,7 +29,7 @@ $BackgroundsBlendMode: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $BackgroundsBlendMode {
       /*x

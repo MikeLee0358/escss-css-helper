@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $AspectRatio: (
   "aspect-auto": auto,
   "aspect-square": "#/*x{1 / 1}",
@@ -25,10 +24,10 @@ $AspectRatio: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $AspectRatio {
-    /*x
+      /*x
     @mixin #{$rwd}\:#{$key} {
       @include aspect-ratio(#{$value}, $#{$rwd});
     }

@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $PlaceItems: (
   "place-items-start": start,
   "place-items-end": end,
@@ -19,7 +18,7 @@ $PlaceItems: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $PlaceItems {
       /*x

@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $PlaceSelf: (
   "place-self-auto": auto,
   "place-self-start": start,
@@ -19,7 +18,7 @@ $PlaceSelf: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $PlaceSelf {
       /*x

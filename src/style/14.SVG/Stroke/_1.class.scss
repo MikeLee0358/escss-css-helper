@@ -267,7 +267,7 @@ $Stroke: (
   }
   x*/
   @each $key, $value in $Stroke {
-  /*x
+    /*x
     @mixin stroke-#{$key}($v: 1) {
       @include stroke(c(#{$value}, $v));
     }
@@ -275,7 +275,7 @@ $Stroke: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     /*x
     @mixin stroke-none {

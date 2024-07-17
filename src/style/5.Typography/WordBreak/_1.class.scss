@@ -4,10 +4,22 @@
 // 1st: overflow-wrap
 // 2nd: word-break
 $WordBreak: (
-  "break-normal": (normal, normal),
-  "break-words": (break-word, "null"),
-  "break-all": ("null", break-all),
-  "break-keep": ("null", keep-all),
+  "break-normal": (
+    normal,
+    normal,
+  ),
+  "break-words": (
+    break-word,
+    "null",
+  ),
+  "break-all": (
+    "null",
+    break-all,
+  ),
+  "break-keep": (
+    "null",
+    keep-all,
+  ),
 );
 
 @if $Basic {
@@ -21,7 +33,7 @@ $WordBreak: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $WordBreak {
       /*x

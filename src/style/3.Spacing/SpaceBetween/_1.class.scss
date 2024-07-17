@@ -35,7 +35,7 @@ $SpaceBetween: (
   "64": "$\\64",
   "72": "$\\72",
   "80": "$\\80",
-  "96": "$\\96"
+  "96": "$\\96",
 );
 
 @if $Basic {
@@ -119,7 +119,7 @@ $SpaceBetween: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     /*x
     @mixin #{$rwd}\:space-x-reverse {

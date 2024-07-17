@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $Float: (
   "float-start": inline-start,
   "float-end": inline-end,
@@ -19,7 +18,7 @@ $Float: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $Float {
       /*x

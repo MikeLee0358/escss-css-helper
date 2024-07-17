@@ -6,7 +6,7 @@ $HueRotate: (
   "hue-rotate-30": 30deg,
   "hue-rotate-60": 60deg,
   "hue-rotate-90": 90deg,
-  "hue-rotate-180": 180deg
+  "hue-rotate-180": 180deg,
 );
 
 @if $Basic {
@@ -26,16 +26,16 @@ $HueRotate: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $HueRotate {
-    /*x
+      /*x
     @mixin #{$rwd}\:#{$key} {
       $tw-hue-rotate: hue-rotate(#{$value}) !global;
       @include filter(get_filter(), $#{$rwd});
     }
     x*/
-    /*x
+      /*x
     @mixin #{$rwd}\:-#{$key} {
       $tw-hue-rotate: hue-rotate(-#{$value}) !global;
       @include filter(get_filter(), $#{$rwd});

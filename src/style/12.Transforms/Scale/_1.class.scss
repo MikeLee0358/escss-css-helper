@@ -52,10 +52,10 @@ $Scale: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $Scale {
-    /*x
+      /*x
     @mixin #{$rwd}\:scale-#{$key} {
       $tw-scale-x: #{$value} !global;
       $tw-scale-y: #{$value} !global;
@@ -72,7 +72,7 @@ $Scale: (
       @include transform(get_transform(), $#{$rwd});
     }
     x*/
-    /*x
+      /*x
     @mixin #{$rwd}\:-scale-#{$key} {
       $tw-scale-x: #{-$value} !global;
       $tw-scale-y: #{-$value} !global;
@@ -130,7 +130,7 @@ $Scale: (
   x*/
 
   @each $rwd in $rwdBox {
-  /*x
+    /*x
   @mixin #{$rwd}\:scale-($v) {
     $tw-scale-x: $v !global;
     $tw-scale-y: $v !global;
@@ -147,7 +147,7 @@ $Scale: (
     @include transform(get_transform(), $#{$rwd});
   }
   x*/
-  /*x
+    /*x
   @mixin #{$rwd}\:-scale-($v) {
     $tw-scale-x: -$v !global;
     $tw-scale-y: -$v !global;

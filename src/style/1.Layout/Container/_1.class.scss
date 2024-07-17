@@ -2,7 +2,14 @@
 @use "sass:list";
 
 $Container: (
-  "container": ("100%", "$sm", "$md", "$lg", "$xl", "$\\2xl"),
+  "container": (
+    "100%",
+    "$sm",
+    "$md",
+    "$lg",
+    "$xl",
+    "$\\2xl",
+  ),
 );
 
 @if $Basic {
@@ -21,7 +28,7 @@ $Container: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $Container {
       /*x

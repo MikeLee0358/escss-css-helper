@@ -14,7 +14,8 @@ $GridRowStartEnd: (
   "row-span-10": span 10 / span 10,
   "row-span-11": span 11 / span 11,
   "row-span-12": span 12 / span 12,
-  "row-span-full": "#/*x{1 / -1}", // workaround to support before sass@1.33
+  "row-span-full": "#/*x{1 / -1}",
+  // workaround to support before sass@1.33
 );
 
 $GridRowStartEnd2: (
@@ -77,7 +78,7 @@ $GridRowStartEnd3: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $GridRowStartEnd {
       /*x

@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $TouchAction: (
   "touch-auto": auto,
   "touch-none": none,
@@ -24,7 +23,7 @@ $TouchAction: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $TouchAction {
       /*x

@@ -5,11 +5,31 @@
 // 2nd: outline-offset
 // 3rd: outline-style
 $OutlineStyle: (
-  "outline-none": ((2px solid transparent), 2px, "null"),
-  "outline": ("null", "null", solid),
-  "outline-dashed": ("null", "null", dashed),
-  "outline-dotted": ("null", "null", dotted),
-  "outline-double": ("null", "null", double),
+  "outline-none": (
+    (2px solid transparent),
+    2px,
+    "null",
+  ),
+  "outline": (
+    "null",
+    "null",
+    solid,
+  ),
+  "outline-dashed": (
+    "null",
+    "null",
+    dashed,
+  ),
+  "outline-dotted": (
+    "null",
+    "null",
+    dotted,
+  ),
+  "outline-double": (
+    "null",
+    "null",
+    double,
+  ),
 );
 
 @if $Basic {
@@ -24,7 +44,7 @@ $OutlineStyle: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $OutlineStyle {
       /*x

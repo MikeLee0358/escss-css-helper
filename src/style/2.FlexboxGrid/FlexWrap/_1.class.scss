@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $FlexWrap: (
   "flex-wrap": wrap,
   "flex-wrap-reverse": wrap-reverse,
@@ -17,7 +16,7 @@ $FlexWrap: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $FlexWrap {
       /*x

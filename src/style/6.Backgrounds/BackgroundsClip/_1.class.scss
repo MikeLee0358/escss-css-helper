@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $BackgroundsClip: (
   "bg-clip-border": border-box,
   "bg-clip-padding": padding-box,
@@ -18,7 +17,7 @@ $BackgroundsClip: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $BackgroundsClip {
       /*x

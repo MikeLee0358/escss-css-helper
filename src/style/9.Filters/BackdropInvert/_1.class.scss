@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $BackdropInvert: (
   "backdrop-invert-0": invert(0),
   "backdrop-invert": invert(100%),
@@ -17,7 +16,7 @@ $BackdropInvert: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $BackdropInvert {
       /*x

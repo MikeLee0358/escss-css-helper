@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $JustifyContent: (
   "justify-normal": normal,
   "justify-start": flex-start,
@@ -22,7 +21,7 @@ $JustifyContent: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $JustifyContent {
       /*x

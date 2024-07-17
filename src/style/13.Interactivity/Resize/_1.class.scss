@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $Resize: (
   "resize-none": none,
   "resize-y": vertical,
@@ -18,7 +17,7 @@ $Resize: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $Resize {
       /*x

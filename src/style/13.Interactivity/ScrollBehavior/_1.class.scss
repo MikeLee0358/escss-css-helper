@@ -1,7 +1,5 @@
 @use "../../setting" as *;
 
-
-
 $ScrollBehavior: (
   "scroll-auto": auto,
   "scroll-smooth": smooth,
@@ -17,7 +15,7 @@ $ScrollBehavior: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $ScrollBehavior {
       /*x

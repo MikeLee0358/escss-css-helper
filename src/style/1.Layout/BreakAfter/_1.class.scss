@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $BreakAfter: (
   "break-after-auto": auto,
   "break-after-avoid": avoid,
@@ -22,7 +21,7 @@ $BreakAfter: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $BreakAfter {
       /*x

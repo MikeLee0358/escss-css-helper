@@ -6,7 +6,7 @@ $LetterSpacing: (
   "tracking-normal": "$normal",
   "tracking-wide": "$wide",
   "tracking-wider": "$wider",
-  "tracking-widest": "$widest"
+  "tracking-widest": "$widest",
 );
 
 @if $Basic {
@@ -16,7 +16,7 @@ $LetterSpacing: (
       @include letter-spacing(#{$value});
     }
     x*/
-      /*x
+    /*x
     @mixin -#{$key} {
       @include letter-spacing(-#{$value});
     }
@@ -24,7 +24,7 @@ $LetterSpacing: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $LetterSpacing {
       /*x

@@ -5,9 +5,21 @@
 // 2nd: text-overflow
 // 3rd: white-space
 $TextOverflow: (
-  "truncate": (hidden, ellipsis, nowrap),
-  "text-ellipsis": ("null", ellipsis, "null"),
-  "text-clip": ("null", clip, "null")
+  "truncate": (
+    hidden,
+    ellipsis,
+    nowrap,
+  ),
+  "text-ellipsis": (
+    "null",
+    ellipsis,
+    "null",
+  ),
+  "text-clip": (
+    "null",
+    clip,
+    "null",
+  ),
 );
 
 @if $Basic {
@@ -22,7 +34,7 @@ $TextOverflow: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $TextOverflow {
       /*x

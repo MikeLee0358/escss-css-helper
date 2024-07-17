@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $Hyphens: (
   "hyphens-none": none,
   "hyphens-manual": manual,
@@ -17,7 +16,7 @@ $Hyphens: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $Hyphens {
       /*x

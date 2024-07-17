@@ -1,6 +1,5 @@
 @use "../../setting" as *;
 
-
 $GridAutoFlow: (
   "grid-flow-row": row,
   "grid-flow-col": column,
@@ -19,7 +18,7 @@ $GridAutoFlow: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $GridAutoFlow {
       /*x

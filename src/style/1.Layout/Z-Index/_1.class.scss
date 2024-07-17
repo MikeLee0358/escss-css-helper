@@ -7,7 +7,7 @@ $Z-Index: (
   "z-30": 30,
   "z-40": 40,
   "z-50": 50,
-  "z-auto": auto
+  "z-auto": auto,
 );
 
 @if $Basic {
@@ -26,7 +26,7 @@ $Z-Index: (
   }
 }
 
-@if $Rwd and ($sizeMode ==0 or $sizeMode ==1) {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $Z-Index {
       /*x
@@ -58,13 +58,13 @@ $Z-Index: (
   x*/
 
   @each $rwd in $rwdBox {
-  /*x
+    /*x
     @mixin #{$rwd}\:z-($v) {
       @include z-index($v, $#{$rwd});
     }
   x*/
 
-  /*x
+    /*x
   @mixin #{$rwd}\:-z-($v) {
     @include z-index(-$v, $#{$rwd});
   }

@@ -18,18 +18,14 @@ $ScrollSnapType: (
         @include scroll-snap-type(#{$value});
       }
       x*/
-    }
-
-    @else if list.index("snap-x" "snap-y" "snap-both", $key) {
+    } @else if list.index("snap-x" "snap-y" "snap-both", $key) {
       /*x
       @mixin #{$key} {
         $tw-dummy-not-match--snap: true !global;
         @include scroll-snap-type(#{$value});
       }
       x*/
-    }
-
-    @else if list.index("snap-mandatory" "snap-proximity", $key) {
+    } @else if list.index("snap-mandatory" "snap-proximity", $key) {
       /*x
       @mixin #{$key} {
         @if $tw-dummy-not-match--snap {
@@ -43,7 +39,7 @@ $ScrollSnapType: (
   }
 }
 
-@if $Rwd {
+@if $Breakpoint {
   @each $rwd in $rwdBox {
     @each $key, $value in $ScrollSnapType {
       @if list.index("snap-none", $key) {
@@ -52,18 +48,14 @@ $ScrollSnapType: (
           @include scroll-snap-type(#{$value}, $#{$rwd});
         }
         x*/
-      }
-
-      @else if list.index("snap-x" "snap-y" "snap-both", $key) {
+      } @else if list.index("snap-x" "snap-y" "snap-both", $key) {
         /*x
         @mixin #{$rwd}\:#{$key} {
           $tw-dummy-not-match--snap: true !global;
           @include scroll-snap-type(#{$value}, $#{$rwd});
         }
         x*/
-      }
-
-      @else if list.index("snap-mandatory" "snap-proximity", $key) {
+      } @else if list.index("snap-mandatory" "snap-proximity", $key) {
         /*x
         @mixin #{$rwd}\:#{$key} {
           @if $tw-dummy-not-match--snap {
