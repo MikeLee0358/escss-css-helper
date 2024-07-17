@@ -21,7 +21,7 @@ $rwdBox: "sm", "md", "lg", "xl", "\\2xl";
     @error "$v: Expected #/*x{$v / 100%} not #/*x{$v}, backward compatibility concern";
   }
 
-  // $alpha only accepts 0 ~ 1, https://sass-lang.com/documentation/modules/color/#change
+  // color.change $alpha only accepts 0 ~ 1
   @return color.change($token, $alpha: $v);
 }
 
