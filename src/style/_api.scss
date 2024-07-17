@@ -2,9 +2,9 @@
 //  --------------------------- Document ---------------------------
 // 
 //  1. @mixin sm/md/lg/xl/\2xl -> use rwd in your id/class
-//  2. @mixin dark -> use dark mode in your app
-//  3. @mixin hover_bg-gradient -> makes bg-gradient hover possible.
-//    .demo-1 {
+//  2. @mixin dark -> use dark mode in your project
+//  3. @mixin hover_bg-gradient -> makes bg-gradient util can be hovered.
+//    .demo {
 //        @include bg-gradient-to-r;
 //        @include from-red-500;
 //    
@@ -14,15 +14,15 @@
 //        }
 //    }
 //
-//  4. @mixin reset -> reset scss global variables
-//    .demo-2 {
-//      @include scale-50; // this one uses global variable so needs to be reset.
-//      @include reset;  // reset global variables to prevent unexpected behavior that relates to transform property. e.g. using scale、rotate、skew..
+//  4. @mixin reset -> reset global scss variables
+//    .demo {
+//      @include scale-50; // this one uses global scss variable so needs to be reset.
+//      @include reset;  // reset global scss variables to prevent unexpected behavior that relates to transform property. e.g. using scale、rotate、skew..
 //    }
 //  
-//    <Best Practice> use in every id/class. 
+//     <Note> Best practice is used in every id/class. 
 //      a. To reset specific necessary id/class is annoying
-//      b. To Know how many id/class used in project
+//      b. To Know how many id/class used in the project
 //
 //  5. @mixin init/escss-preflight -> a scope area to replace your base css(ResetCss/normalize/other..) to preflight
 //    .demo-3 {
