@@ -1,4 +1,4 @@
-// /*x
+/*x
 // Outer API:
 // 1. hover_bg-gradient: makes bg-gradient hover possible.
 // 2. reset: reset global variables($), if a class uses it.
@@ -47,7 +47,7 @@
   // Gradient Color Stops
   $tw-dummy-gradient-direction: null !global;
   $tw-gradient-from: #fff !global;
-  $tw-gradient-via: null !global; // detects the use of 2 or 3 gradient stops
+  $tw-gradient-via: null !global;
   $tw-gradient-to: transparent !global;
   $tw-gradient-from-position: null !global;
   $tw-gradient-via-position: null !global;
@@ -449,5 +449,4 @@
     }
   }
 }
-
-// x*/
+x*/

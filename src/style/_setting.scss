@@ -11,9 +11,8 @@ $Custom: true; // Tailwind classes which have arbitrary values
 
 $rwdBox: "sm", "md", "lg", "xl", "\\2xl";
 
+// internal helper function
 /*x
-// Inner API
-
 // c stands for color (file size concern)
 @function c($token, $v) {
   @if not math.is-unitless($v) {
