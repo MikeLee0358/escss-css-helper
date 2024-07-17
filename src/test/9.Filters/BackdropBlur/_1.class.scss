@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("9.Filters") {
-  @include describe("Backdrop Blur") {
-    @include describe("Basic") {
-      @include it("backdrop-blur-none") {
+@include describe('9.Filters') {
+  @include describe('Backdrop Blur') {
+    @include describe('Basic') {
+      @include it('backdrop-blur-none') {
         @include assert {
           @include output {
             @include backdrop-blur-none;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("backdrop-blur-sm") {
+      @include it('backdrop-blur-sm') {
         @include assert {
           @include output {
             @include backdrop-blur-sm;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("backdrop-blur") {
+      @include it('backdrop-blur') {
         @include assert {
           @include output {
             @include backdrop-blur;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("backdrop-blur-md") {
+      @include it('backdrop-blur-md') {
         @include assert {
           @include output {
             @include backdrop-blur-md;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("backdrop-blur-lg") {
+      @include it('backdrop-blur-lg') {
         @include assert {
           @include output {
             @include backdrop-blur-lg;
@@ -69,7 +69,7 @@
         }
       }
 
-      @include it("backdrop-blur-xl") {
+      @include it('backdrop-blur-xl') {
         @include assert {
           @include output {
             @include backdrop-blur-xl;
@@ -82,7 +82,7 @@
         }
       }
 
-      @include it("backdrop-blur-2xl") {
+      @include it('backdrop-blur-2xl') {
         @include assert {
           @include output {
             @include backdrop-blur-2xl;
@@ -95,7 +95,7 @@
         }
       }
 
-      @include it("backdrop-blur-3xl") {
+      @include it('backdrop-blur-3xl') {
         @include assert {
           @include output {
             @include backdrop-blur-3xl;
@@ -109,8 +109,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:backdrop-blur-none") {
+    @include describe('Rwd') {
+      @include it('sm\:backdrop-blur-none') {
         @include assert {
           @include output {
             @include sm\:backdrop-blur-none;
@@ -125,7 +125,7 @@
         }
       }
 
-      @include it("sm\:backdrop-blur-sm") {
+      @include it('sm\:backdrop-blur-sm') {
         @include assert {
           @include output {
             @include sm\:backdrop-blur-sm;
@@ -140,7 +140,7 @@
         }
       }
 
-      @include it("sm\:backdrop-blur") {
+      @include it('sm\:backdrop-blur') {
         @include assert {
           @include output {
             @include sm\:backdrop-blur;
@@ -155,7 +155,7 @@
         }
       }
 
-      @include it("sm\:backdrop-blur-md") {
+      @include it('sm\:backdrop-blur-md') {
         @include assert {
           @include output {
             @include sm\:backdrop-blur-md;
@@ -170,7 +170,7 @@
         }
       }
 
-      @include it("sm\:backdrop-blur-lg") {
+      @include it('sm\:backdrop-blur-lg') {
         @include assert {
           @include output {
             @include sm\:backdrop-blur-lg;
@@ -185,7 +185,7 @@
         }
       }
 
-      @include it("sm\:backdrop-blur-xl") {
+      @include it('sm\:backdrop-blur-xl') {
         @include assert {
           @include output {
             @include sm\:backdrop-blur-xl;
@@ -200,7 +200,7 @@
         }
       }
 
-      @include it("sm\:backdrop-blur-2xl") {
+      @include it('sm\:backdrop-blur-2xl') {
         @include assert {
           @include output {
             @include sm\:backdrop-blur-2xl;
@@ -215,7 +215,7 @@
         }
       }
 
-      @include it("sm\:backdrop-blur-3xl") {
+      @include it('sm\:backdrop-blur-3xl') {
         @include assert {
           @include output {
             @include sm\:backdrop-blur-3xl;
@@ -230,7 +230,7 @@
         }
       }
 
-      @include it("md\:backdrop-blur-none") {
+      @include it('md\:backdrop-blur-none') {
         @include assert {
           @include output {
             @include md\:backdrop-blur-none;
@@ -245,7 +245,7 @@
         }
       }
 
-      @include it("md\:backdrop-blur-sm") {
+      @include it('md\:backdrop-blur-sm') {
         @include assert {
           @include output {
             @include md\:backdrop-blur-sm;
@@ -260,7 +260,7 @@
         }
       }
 
-      @include it("md\:backdrop-blur") {
+      @include it('md\:backdrop-blur') {
         @include assert {
           @include output {
             @include md\:backdrop-blur;
@@ -275,7 +275,7 @@
         }
       }
 
-      @include it("md\:backdrop-blur-md") {
+      @include it('md\:backdrop-blur-md') {
         @include assert {
           @include output {
             @include md\:backdrop-blur-md;
@@ -290,7 +290,7 @@
         }
       }
 
-      @include it("md\:backdrop-blur-lg") {
+      @include it('md\:backdrop-blur-lg') {
         @include assert {
           @include output {
             @include md\:backdrop-blur-lg;
@@ -305,7 +305,7 @@
         }
       }
 
-      @include it("md\:backdrop-blur-xl") {
+      @include it('md\:backdrop-blur-xl') {
         @include assert {
           @include output {
             @include md\:backdrop-blur-xl;
@@ -320,7 +320,7 @@
         }
       }
 
-      @include it("md\:backdrop-blur-2xl") {
+      @include it('md\:backdrop-blur-2xl') {
         @include assert {
           @include output {
             @include md\:backdrop-blur-2xl;
@@ -335,7 +335,7 @@
         }
       }
 
-      @include it("md\:backdrop-blur-3xl") {
+      @include it('md\:backdrop-blur-3xl') {
         @include assert {
           @include output {
             @include md\:backdrop-blur-3xl;
@@ -350,7 +350,7 @@
         }
       }
 
-      @include it("lg\:backdrop-blur-none") {
+      @include it('lg\:backdrop-blur-none') {
         @include assert {
           @include output {
             @include lg\:backdrop-blur-none;
@@ -365,7 +365,7 @@
         }
       }
 
-      @include it("lg\:backdrop-blur-sm") {
+      @include it('lg\:backdrop-blur-sm') {
         @include assert {
           @include output {
             @include lg\:backdrop-blur-sm;
@@ -380,7 +380,7 @@
         }
       }
 
-      @include it("lg\:backdrop-blur") {
+      @include it('lg\:backdrop-blur') {
         @include assert {
           @include output {
             @include lg\:backdrop-blur;
@@ -395,7 +395,7 @@
         }
       }
 
-      @include it("lg\:backdrop-blur-md") {
+      @include it('lg\:backdrop-blur-md') {
         @include assert {
           @include output {
             @include lg\:backdrop-blur-md;
@@ -410,7 +410,7 @@
         }
       }
 
-      @include it("lg\:backdrop-blur-lg") {
+      @include it('lg\:backdrop-blur-lg') {
         @include assert {
           @include output {
             @include lg\:backdrop-blur-lg;
@@ -425,7 +425,7 @@
         }
       }
 
-      @include it("lg\:backdrop-blur-xl") {
+      @include it('lg\:backdrop-blur-xl') {
         @include assert {
           @include output {
             @include lg\:backdrop-blur-xl;
@@ -440,7 +440,7 @@
         }
       }
 
-      @include it("lg\:backdrop-blur-2xl") {
+      @include it('lg\:backdrop-blur-2xl') {
         @include assert {
           @include output {
             @include lg\:backdrop-blur-2xl;
@@ -455,7 +455,7 @@
         }
       }
 
-      @include it("lg\:backdrop-blur-3xl") {
+      @include it('lg\:backdrop-blur-3xl') {
         @include assert {
           @include output {
             @include lg\:backdrop-blur-3xl;
@@ -470,7 +470,7 @@
         }
       }
 
-      @include it("xl\:backdrop-blur-none") {
+      @include it('xl\:backdrop-blur-none') {
         @include assert {
           @include output {
             @include xl\:backdrop-blur-none;
@@ -485,7 +485,7 @@
         }
       }
 
-      @include it("xl\:backdrop-blur-sm") {
+      @include it('xl\:backdrop-blur-sm') {
         @include assert {
           @include output {
             @include xl\:backdrop-blur-sm;
@@ -500,7 +500,7 @@
         }
       }
 
-      @include it("xl\:backdrop-blur") {
+      @include it('xl\:backdrop-blur') {
         @include assert {
           @include output {
             @include xl\:backdrop-blur;
@@ -515,7 +515,7 @@
         }
       }
 
-      @include it("xl\:backdrop-blur-md") {
+      @include it('xl\:backdrop-blur-md') {
         @include assert {
           @include output {
             @include xl\:backdrop-blur-md;
@@ -530,7 +530,7 @@
         }
       }
 
-      @include it("xl\:backdrop-blur-lg") {
+      @include it('xl\:backdrop-blur-lg') {
         @include assert {
           @include output {
             @include xl\:backdrop-blur-lg;
@@ -545,7 +545,7 @@
         }
       }
 
-      @include it("xl\:backdrop-blur-xl") {
+      @include it('xl\:backdrop-blur-xl') {
         @include assert {
           @include output {
             @include xl\:backdrop-blur-xl;
@@ -560,7 +560,7 @@
         }
       }
 
-      @include it("xl\:backdrop-blur-2xl") {
+      @include it('xl\:backdrop-blur-2xl') {
         @include assert {
           @include output {
             @include xl\:backdrop-blur-2xl;
@@ -575,7 +575,7 @@
         }
       }
 
-      @include it("xl\:backdrop-blur-3xl") {
+      @include it('xl\:backdrop-blur-3xl') {
         @include assert {
           @include output {
             @include xl\:backdrop-blur-3xl;
@@ -590,7 +590,7 @@
         }
       }
 
-      @include it("2xl\:backdrop-blur-none") {
+      @include it('2xl\:backdrop-blur-none') {
         @include assert {
           @include output {
             @include \2xl\:backdrop-blur-none;
@@ -605,7 +605,7 @@
         }
       }
 
-      @include it("2xl\:backdrop-blur-sm") {
+      @include it('2xl\:backdrop-blur-sm') {
         @include assert {
           @include output {
             @include \2xl\:backdrop-blur-sm;
@@ -620,7 +620,7 @@
         }
       }
 
-      @include it("2xl\:backdrop-blur") {
+      @include it('2xl\:backdrop-blur') {
         @include assert {
           @include output {
             @include \2xl\:backdrop-blur;
@@ -635,7 +635,7 @@
         }
       }
 
-      @include it("2xl\:backdrop-blur-md") {
+      @include it('2xl\:backdrop-blur-md') {
         @include assert {
           @include output {
             @include \2xl\:backdrop-blur-md;
@@ -650,7 +650,7 @@
         }
       }
 
-      @include it("2xl\:backdrop-blur-lg") {
+      @include it('2xl\:backdrop-blur-lg') {
         @include assert {
           @include output {
             @include \2xl\:backdrop-blur-lg;
@@ -665,7 +665,7 @@
         }
       }
 
-      @include it("2xl\:backdrop-blur-xl") {
+      @include it('2xl\:backdrop-blur-xl') {
         @include assert {
           @include output {
             @include \2xl\:backdrop-blur-xl;
@@ -680,7 +680,7 @@
         }
       }
 
-      @include it("2xl\:backdrop-blur-2xl") {
+      @include it('2xl\:backdrop-blur-2xl') {
         @include assert {
           @include output {
             @include \2xl\:backdrop-blur-2xl;
@@ -695,7 +695,7 @@
         }
       }
 
-      @include it("2xl\:backdrop-blur-3xl") {
+      @include it('2xl\:backdrop-blur-3xl') {
         @include assert {
           @include output {
             @include \2xl\:backdrop-blur-3xl;
@@ -711,8 +711,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("backdrop-blur-(2px)") {
+    @include describe('Custom') {
+      @include it('backdrop-blur-(2px)') {
         @include assert {
           @include output {
             @include backdrop-blur-(2px);
@@ -725,7 +725,7 @@
         }
       }
 
-      @include it("sm\:backdrop-blur-(2px)") {
+      @include it('sm\:backdrop-blur-(2px)') {
         @include assert {
           @include output {
             @include sm\:backdrop-blur-(2px);
@@ -740,7 +740,7 @@
         }
       }
 
-      @include it("md\:backdrop-blur-(2px)") {
+      @include it('md\:backdrop-blur-(2px)') {
         @include assert {
           @include output {
             @include md\:backdrop-blur-(2px);
@@ -755,7 +755,7 @@
         }
       }
 
-      @include it("lg\:backdrop-blur-(2px)") {
+      @include it('lg\:backdrop-blur-(2px)') {
         @include assert {
           @include output {
             @include lg\:backdrop-blur-(2px);
@@ -770,7 +770,7 @@
         }
       }
 
-      @include it("xl\:backdrop-blur-(2px)") {
+      @include it('xl\:backdrop-blur-(2px)') {
         @include assert {
           @include output {
             @include xl\:backdrop-blur-(2px);
@@ -785,7 +785,7 @@
         }
       }
 
-      @include it("2xl\:backdrop-blur-(2px)") {
+      @include it('2xl\:backdrop-blur-(2px)') {
         @include assert {
           @include output {
             @include \2xl\:backdrop-blur-(2px);

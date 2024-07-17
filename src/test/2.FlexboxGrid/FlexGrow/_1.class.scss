@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("2.Flexbox & Grid") {
-  @include describe("Flex Grow") {
-    @include describe("Basic") {
-      @include it("grow") {
+@include describe('2.Flexbox & Grid') {
+  @include describe('Flex Grow') {
+    @include describe('Basic') {
+      @include it('grow') {
         @include assert {
           @include output {
             @include grow;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("grow-0") {
+      @include it('grow-0') {
         @include assert {
           @include output {
             @include grow-0;
@@ -31,8 +31,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:grow") {
+    @include describe('Rwd') {
+      @include it('sm\:grow') {
         @include assert {
           @include output {
             @include sm\:grow;
@@ -47,7 +47,7 @@
         }
       }
 
-      @include it("sm\:grow-0") {
+      @include it('sm\:grow-0') {
         @include assert {
           @include output {
             @include sm\:grow-0;
@@ -61,7 +61,7 @@
           }
         }
       }
-      @include it("md\:grow") {
+      @include it('md\:grow') {
         @include assert {
           @include output {
             @include md\:grow;
@@ -76,7 +76,7 @@
         }
       }
 
-      @include it("md\:grow-0") {
+      @include it('md\:grow-0') {
         @include assert {
           @include output {
             @include md\:grow-0;
@@ -90,7 +90,7 @@
           }
         }
       }
-      @include it("lg\:grow") {
+      @include it('lg\:grow') {
         @include assert {
           @include output {
             @include lg\:grow;
@@ -105,7 +105,7 @@
         }
       }
 
-      @include it("lg\:grow-0") {
+      @include it('lg\:grow-0') {
         @include assert {
           @include output {
             @include lg\:grow-0;
@@ -119,7 +119,7 @@
           }
         }
       }
-      @include it("xl\:grow") {
+      @include it('xl\:grow') {
         @include assert {
           @include output {
             @include xl\:grow;
@@ -134,7 +134,7 @@
         }
       }
 
-      @include it("xl\:grow-0") {
+      @include it('xl\:grow-0') {
         @include assert {
           @include output {
             @include xl\:grow-0;
@@ -148,7 +148,7 @@
           }
         }
       }
-      @include it("2xl\:grow") {
+      @include it('2xl\:grow') {
         @include assert {
           @include output {
             @include \2xl\:grow;
@@ -163,7 +163,7 @@
         }
       }
 
-      @include it("2xl\:grow-0") {
+      @include it('2xl\:grow-0') {
         @include assert {
           @include output {
             @include \2xl\:grow-0;
@@ -179,8 +179,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("grow-(2)") {
+    @include describe('Custom') {
+      @include it('grow-(2)') {
         @include assert {
           @include output {
             @include grow-(2);
@@ -193,7 +193,7 @@
         }
       }
 
-      @include it("sm\:grow-(2)") {
+      @include it('sm\:grow-(2)') {
         @include assert {
           @include output {
             @include sm\:grow-(2);
@@ -208,7 +208,7 @@
         }
       }
 
-      @include it("md\:grow-(2)") {
+      @include it('md\:grow-(2)') {
         @include assert {
           @include output {
             @include md\:grow-(2);
@@ -223,7 +223,7 @@
         }
       }
 
-      @include it("lg\:grow-(2)") {
+      @include it('lg\:grow-(2)') {
         @include assert {
           @include output {
             @include lg\:grow-(2);
@@ -238,7 +238,7 @@
         }
       }
 
-      @include it("xl\:grow-(2)") {
+      @include it('xl\:grow-(2)') {
         @include assert {
           @include output {
             @include xl\:grow-(2);
@@ -253,7 +253,7 @@
         }
       }
 
-      @include it("2xl\:grow-(2)") {
+      @include it('2xl\:grow-(2)') {
         @include assert {
           @include output {
             @include \2xl\:grow-(2);

@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("6.Backgrounds") {
-  @include describe("Background Clip") {
-    @include describe("Basic") {
-      @include it("bg-clip-border") {
+@include describe('6.Backgrounds') {
+  @include describe('Background Clip') {
+    @include describe('Basic') {
+      @include it('bg-clip-border') {
         @include assert {
           @include output {
             @include bg-clip-border;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("bg-clip-padding") {
+      @include it('bg-clip-padding') {
         @include assert {
           @include output {
             @include bg-clip-padding;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("bg-clip-content") {
+      @include it('bg-clip-content') {
         @include assert {
           @include output {
             @include bg-clip-content;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("bg-clip-text") {
+      @include it('bg-clip-text') {
         @include assert {
           @include output {
             @include bg-clip-text;
@@ -57,8 +57,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:bg-clip-border") {
+    @include describe('Rwd') {
+      @include it('sm\:bg-clip-border') {
         @include assert {
           @include output {
             @include sm\:bg-clip-border;
@@ -73,7 +73,7 @@
         }
       }
 
-      @include it("sm\:bg-clip-padding") {
+      @include it('sm\:bg-clip-padding') {
         @include assert {
           @include output {
             @include sm\:bg-clip-padding;
@@ -88,7 +88,7 @@
         }
       }
 
-      @include it("sm\:bg-clip-content") {
+      @include it('sm\:bg-clip-content') {
         @include assert {
           @include output {
             @include sm\:bg-clip-content;
@@ -103,7 +103,7 @@
         }
       }
 
-      @include it("sm\:bg-clip-text") {
+      @include it('sm\:bg-clip-text') {
         @include assert {
           @include output {
             @include sm\:bg-clip-text;

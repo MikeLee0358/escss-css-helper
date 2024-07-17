@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("7.Borders") {
-  @include describe("Outline Offset") {
-    @include describe("Basic") {
-      @include it("outline-offset-0") {
+@include describe('7.Borders') {
+  @include describe('Outline Offset') {
+    @include describe('Basic') {
+      @include it('outline-offset-0') {
         @include assert {
           @include output {
             @include outline-offset-0;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("outline-offset-1") {
+      @include it('outline-offset-1') {
         @include assert {
           @include output {
             @include outline-offset-1;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("outline-offset-2") {
+      @include it('outline-offset-2') {
         @include assert {
           @include output {
             @include outline-offset-2;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("outline-offset-4") {
+      @include it('outline-offset-4') {
         @include assert {
           @include output {
             @include outline-offset-4;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("outline-offset-8") {
+      @include it('outline-offset-8') {
         @include assert {
           @include output {
             @include outline-offset-8;
@@ -70,8 +70,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:outline-offset-0") {
+    @include describe('Rwd') {
+      @include it('sm\:outline-offset-0') {
         @include assert {
           @include output {
             @include sm\:outline-offset-0;
@@ -86,7 +86,7 @@
         }
       }
 
-      @include it("sm\:outline-offset-1") {
+      @include it('sm\:outline-offset-1') {
         @include assert {
           @include output {
             @include sm\:outline-offset-1;
@@ -101,7 +101,7 @@
         }
       }
 
-      @include it("sm\:outline-offset-2") {
+      @include it('sm\:outline-offset-2') {
         @include assert {
           @include output {
             @include sm\:outline-offset-2;
@@ -116,7 +116,7 @@
         }
       }
 
-      @include it("sm\:outline-offset-4") {
+      @include it('sm\:outline-offset-4') {
         @include assert {
           @include output {
             @include sm\:outline-offset-4;
@@ -131,7 +131,7 @@
         }
       }
 
-      @include it("sm\:outline-offset-8") {
+      @include it('sm\:outline-offset-8') {
         @include assert {
           @include output {
             @include sm\:outline-offset-8;
@@ -146,7 +146,7 @@
         }
       }
 
-      @include it("md\:outline-offset-0") {
+      @include it('md\:outline-offset-0') {
         @include assert {
           @include output {
             @include md\:outline-offset-0;
@@ -161,7 +161,7 @@
         }
       }
 
-      @include it("md\:outline-offset-1") {
+      @include it('md\:outline-offset-1') {
         @include assert {
           @include output {
             @include md\:outline-offset-1;
@@ -176,7 +176,7 @@
         }
       }
 
-      @include it("md\:outline-offset-2") {
+      @include it('md\:outline-offset-2') {
         @include assert {
           @include output {
             @include md\:outline-offset-2;
@@ -191,7 +191,7 @@
         }
       }
 
-      @include it("md\:outline-offset-4") {
+      @include it('md\:outline-offset-4') {
         @include assert {
           @include output {
             @include md\:outline-offset-4;
@@ -206,7 +206,7 @@
         }
       }
 
-      @include it("md\:outline-offset-8") {
+      @include it('md\:outline-offset-8') {
         @include assert {
           @include output {
             @include md\:outline-offset-8;
@@ -221,7 +221,7 @@
         }
       }
 
-      @include it("lg\:outline-offset-0") {
+      @include it('lg\:outline-offset-0') {
         @include assert {
           @include output {
             @include lg\:outline-offset-0;
@@ -236,7 +236,7 @@
         }
       }
 
-      @include it("lg\:outline-offset-1") {
+      @include it('lg\:outline-offset-1') {
         @include assert {
           @include output {
             @include lg\:outline-offset-1;
@@ -251,7 +251,7 @@
         }
       }
 
-      @include it("lg\:outline-offset-2") {
+      @include it('lg\:outline-offset-2') {
         @include assert {
           @include output {
             @include lg\:outline-offset-2;
@@ -266,7 +266,7 @@
         }
       }
 
-      @include it("lg\:outline-offset-4") {
+      @include it('lg\:outline-offset-4') {
         @include assert {
           @include output {
             @include lg\:outline-offset-4;
@@ -281,7 +281,7 @@
         }
       }
 
-      @include it("lg\:outline-offset-8") {
+      @include it('lg\:outline-offset-8') {
         @include assert {
           @include output {
             @include lg\:outline-offset-8;
@@ -296,7 +296,7 @@
         }
       }
 
-      @include it("xl\:outline-offset-0") {
+      @include it('xl\:outline-offset-0') {
         @include assert {
           @include output {
             @include xl\:outline-offset-0;
@@ -311,7 +311,7 @@
         }
       }
 
-      @include it("xl\:outline-offset-1") {
+      @include it('xl\:outline-offset-1') {
         @include assert {
           @include output {
             @include xl\:outline-offset-1;
@@ -326,7 +326,7 @@
         }
       }
 
-      @include it("xl\:outline-offset-2") {
+      @include it('xl\:outline-offset-2') {
         @include assert {
           @include output {
             @include xl\:outline-offset-2;
@@ -341,7 +341,7 @@
         }
       }
 
-      @include it("xl\:outline-offset-4") {
+      @include it('xl\:outline-offset-4') {
         @include assert {
           @include output {
             @include xl\:outline-offset-4;
@@ -356,7 +356,7 @@
         }
       }
 
-      @include it("xl\:outline-offset-8") {
+      @include it('xl\:outline-offset-8') {
         @include assert {
           @include output {
             @include xl\:outline-offset-8;
@@ -371,7 +371,7 @@
         }
       }
 
-      @include it("2xl\:outline-offset-0") {
+      @include it('2xl\:outline-offset-0') {
         @include assert {
           @include output {
             @include \2xl\:outline-offset-0;
@@ -386,7 +386,7 @@
         }
       }
 
-      @include it("2xl\:outline-offset-1") {
+      @include it('2xl\:outline-offset-1') {
         @include assert {
           @include output {
             @include \2xl\:outline-offset-1;
@@ -401,7 +401,7 @@
         }
       }
 
-      @include it("2xl\:outline-offset-2") {
+      @include it('2xl\:outline-offset-2') {
         @include assert {
           @include output {
             @include \2xl\:outline-offset-2;
@@ -416,7 +416,7 @@
         }
       }
 
-      @include it("2xl\:outline-offset-4") {
+      @include it('2xl\:outline-offset-4') {
         @include assert {
           @include output {
             @include \2xl\:outline-offset-4;
@@ -431,7 +431,7 @@
         }
       }
 
-      @include it("2xl\:outline-offset-8") {
+      @include it('2xl\:outline-offset-8') {
         @include assert {
           @include output {
             @include \2xl\:outline-offset-8;
@@ -447,8 +447,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("outline-offset-(3px)") {
+    @include describe('Custom') {
+      @include it('outline-offset-(3px)') {
         @include assert {
           @include output {
             @include outline-offset-(3px);
@@ -461,7 +461,7 @@
         }
       }
 
-      @include it("sm\:outline-offset-(3px)") {
+      @include it('sm\:outline-offset-(3px)') {
         @include assert {
           @include output {
             @include sm\:outline-offset-(3px);
@@ -476,7 +476,7 @@
         }
       }
 
-      @include it("md\:outline-offset-(3px)") {
+      @include it('md\:outline-offset-(3px)') {
         @include assert {
           @include output {
             @include md\:outline-offset-(3px);
@@ -491,7 +491,7 @@
         }
       }
 
-      @include it("lg\:outline-offset-(3px)") {
+      @include it('lg\:outline-offset-(3px)') {
         @include assert {
           @include output {
             @include lg\:outline-offset-(3px);
@@ -506,7 +506,7 @@
         }
       }
 
-      @include it("xl\:outline-offset-(3px)") {
+      @include it('xl\:outline-offset-(3px)') {
         @include assert {
           @include output {
             @include xl\:outline-offset-(3px);
@@ -521,7 +521,7 @@
         }
       }
 
-      @include it("2xl\:outline-offset-(3px)") {
+      @include it('2xl\:outline-offset-(3px)') {
         @include assert {
           @include output {
             @include \2xl\:outline-offset-(3px);

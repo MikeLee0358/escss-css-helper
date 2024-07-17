@@ -1,13 +1,13 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("10.Tables") {
-  @include describe("Title") {
-    @include describe("Basic") {
+@include describe('10.Tables') {
+  @include describe('Title') {
+    @include describe('Basic') {
     }
 
-    @include describe("Rwd") {
-      @include it("border-collapse") {
+    @include describe('Rwd') {
+      @include it('border-collapse') {
         @include assert {
           @include output {
             @include border-collapse;
@@ -20,7 +20,7 @@
         }
       }
 
-      @include it("border-separate") {
+      @include it('border-separate') {
         @include assert {
           @include output {
             @include border-separate;
@@ -34,8 +34,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:border-collapse") {
+    @include describe('Rwd') {
+      @include it('sm\:border-collapse') {
         @include assert {
           @include output {
             @include sm\:border-collapse;
@@ -50,7 +50,7 @@
         }
       }
 
-      @include it("sm\:border-separate") {
+      @include it('sm\:border-separate') {
         @include assert {
           @include output {
             @include sm\:border-separate;
@@ -65,7 +65,7 @@
         }
       }
 
-      @include it("md\:border-collapse") {
+      @include it('md\:border-collapse') {
         @include assert {
           @include output {
             @include md\:border-collapse;
@@ -80,7 +80,7 @@
         }
       }
 
-      @include it("md\:border-separate") {
+      @include it('md\:border-separate') {
         @include assert {
           @include output {
             @include md\:border-separate;
@@ -95,7 +95,7 @@
         }
       }
 
-      @include it("lg\:border-collapse") {
+      @include it('lg\:border-collapse') {
         @include assert {
           @include output {
             @include lg\:border-collapse;
@@ -110,7 +110,7 @@
         }
       }
 
-      @include it("lg\:border-separate") {
+      @include it('lg\:border-separate') {
         @include assert {
           @include output {
             @include lg\:border-separate;
@@ -125,7 +125,7 @@
         }
       }
 
-      @include it("xl\:border-collapse") {
+      @include it('xl\:border-collapse') {
         @include assert {
           @include output {
             @include xl\:border-collapse;
@@ -140,7 +140,7 @@
         }
       }
 
-      @include it("xl\:border-separate") {
+      @include it('xl\:border-separate') {
         @include assert {
           @include output {
             @include xl\:border-separate;
@@ -155,7 +155,7 @@
         }
       }
 
-      @include it("2xl\:border-collapse") {
+      @include it('2xl\:border-collapse') {
         @include assert {
           @include output {
             @include \2xl\:border-collapse;
@@ -170,7 +170,7 @@
         }
       }
 
-      @include it("2xl\:border-separate") {
+      @include it('2xl\:border-separate') {
         @include assert {
           @include output {
             @include \2xl\:border-separate;

@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("11.Transitions & Animation") {
-  @include describe("Transition Property") {
-    @include describe("Basic") {
-      @include it("transition-none") {
+@include describe('11.Transitions & Animation') {
+  @include describe('Transition Property') {
+    @include describe('Basic') {
+      @include it('transition-none') {
         @include assert {
           @include output {
             @include transition-none;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("transition-all") {
+      @include it('transition-all') {
         @include assert {
           @include output {
             @include transition-all;
@@ -32,7 +32,7 @@
         }
       }
 
-      @include it("transition") {
+      @include it('transition') {
         @include assert {
           @include output {
             @include transition;
@@ -49,7 +49,7 @@
         }
       }
 
-      @include it("transition-colors") {
+      @include it('transition-colors') {
         @include assert {
           @include output {
             @include transition-colors;
@@ -65,7 +65,7 @@
         }
       }
 
-      @include it("transition-opacity") {
+      @include it('transition-opacity') {
         @include assert {
           @include output {
             @include transition-opacity;
@@ -80,7 +80,7 @@
         }
       }
 
-      @include it("transition-shadow") {
+      @include it('transition-shadow') {
         @include assert {
           @include output {
             @include transition-shadow;
@@ -95,7 +95,7 @@
         }
       }
 
-      @include it("transition-transform") {
+      @include it('transition-transform') {
         @include assert {
           @include output {
             @include transition-transform;
@@ -111,8 +111,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:transition-none") {
+    @include describe('Rwd') {
+      @include it('sm\:transition-none') {
         @include assert {
           @include output {
             @include sm\:transition-none;
@@ -127,7 +127,7 @@
         }
       }
 
-      @include it("sm\:transition-all") {
+      @include it('sm\:transition-all') {
         @include assert {
           @include output {
             @include sm\:transition-all;
@@ -144,7 +144,7 @@
         }
       }
 
-      @include it("sm\:transition") {
+      @include it('sm\:transition') {
         @include assert {
           @include output {
             @include sm\:transition;
@@ -163,7 +163,7 @@
         }
       }
 
-      @include it("sm\:transition-colors") {
+      @include it('sm\:transition-colors') {
         @include assert {
           @include output {
             @include sm\:transition-colors;
@@ -181,7 +181,7 @@
         }
       }
 
-      @include it("sm\:transition-opacity") {
+      @include it('sm\:transition-opacity') {
         @include assert {
           @include output {
             @include sm\:transition-opacity;
@@ -198,7 +198,7 @@
         }
       }
 
-      @include it("sm\:transition-shadow") {
+      @include it('sm\:transition-shadow') {
         @include assert {
           @include output {
             @include sm\:transition-shadow;
@@ -215,7 +215,7 @@
         }
       }
 
-      @include it("sm\:transition-transform") {
+      @include it('sm\:transition-transform') {
         @include assert {
           @include output {
             @include sm\:transition-transform;
@@ -232,7 +232,7 @@
         }
       }
 
-      @include it("md\:transition-none") {
+      @include it('md\:transition-none') {
         @include assert {
           @include output {
             @include md\:transition-none;
@@ -247,7 +247,7 @@
         }
       }
 
-      @include it("md\:transition-all") {
+      @include it('md\:transition-all') {
         @include assert {
           @include output {
             @include md\:transition-all;
@@ -264,7 +264,7 @@
         }
       }
 
-      @include it("md\:transition") {
+      @include it('md\:transition') {
         @include assert {
           @include output {
             @include md\:transition;
@@ -283,7 +283,7 @@
         }
       }
 
-      @include it("md\:transition-colors") {
+      @include it('md\:transition-colors') {
         @include assert {
           @include output {
             @include md\:transition-colors;
@@ -301,7 +301,7 @@
         }
       }
 
-      @include it("md\:transition-opacity") {
+      @include it('md\:transition-opacity') {
         @include assert {
           @include output {
             @include md\:transition-opacity;
@@ -318,7 +318,7 @@
         }
       }
 
-      @include it("md\:transition-shadow") {
+      @include it('md\:transition-shadow') {
         @include assert {
           @include output {
             @include md\:transition-shadow;
@@ -335,7 +335,7 @@
         }
       }
 
-      @include it("md\:transition-transform") {
+      @include it('md\:transition-transform') {
         @include assert {
           @include output {
             @include md\:transition-transform;
@@ -352,7 +352,7 @@
         }
       }
 
-      @include it("lg\:transition-none") {
+      @include it('lg\:transition-none') {
         @include assert {
           @include output {
             @include lg\:transition-none;
@@ -367,7 +367,7 @@
         }
       }
 
-      @include it("lg\:transition-all") {
+      @include it('lg\:transition-all') {
         @include assert {
           @include output {
             @include lg\:transition-all;
@@ -384,7 +384,7 @@
         }
       }
 
-      @include it("lg\:transition") {
+      @include it('lg\:transition') {
         @include assert {
           @include output {
             @include lg\:transition;
@@ -403,7 +403,7 @@
         }
       }
 
-      @include it("lg\:transition-colors") {
+      @include it('lg\:transition-colors') {
         @include assert {
           @include output {
             @include lg\:transition-colors;
@@ -421,7 +421,7 @@
         }
       }
 
-      @include it("lg\:transition-opacity") {
+      @include it('lg\:transition-opacity') {
         @include assert {
           @include output {
             @include lg\:transition-opacity;
@@ -438,7 +438,7 @@
         }
       }
 
-      @include it("lg\:transition-shadow") {
+      @include it('lg\:transition-shadow') {
         @include assert {
           @include output {
             @include lg\:transition-shadow;
@@ -455,7 +455,7 @@
         }
       }
 
-      @include it("lg\:transition-transform") {
+      @include it('lg\:transition-transform') {
         @include assert {
           @include output {
             @include lg\:transition-transform;
@@ -472,7 +472,7 @@
         }
       }
 
-      @include it("xl\:transition-none") {
+      @include it('xl\:transition-none') {
         @include assert {
           @include output {
             @include xl\:transition-none;
@@ -487,7 +487,7 @@
         }
       }
 
-      @include it("xl\:transition-all") {
+      @include it('xl\:transition-all') {
         @include assert {
           @include output {
             @include xl\:transition-all;
@@ -504,7 +504,7 @@
         }
       }
 
-      @include it("xl\:transition") {
+      @include it('xl\:transition') {
         @include assert {
           @include output {
             @include xl\:transition;
@@ -523,7 +523,7 @@
         }
       }
 
-      @include it("xl\:transition-colors") {
+      @include it('xl\:transition-colors') {
         @include assert {
           @include output {
             @include xl\:transition-colors;
@@ -541,7 +541,7 @@
         }
       }
 
-      @include it("xl\:transition-opacity") {
+      @include it('xl\:transition-opacity') {
         @include assert {
           @include output {
             @include xl\:transition-opacity;
@@ -558,7 +558,7 @@
         }
       }
 
-      @include it("xl\:transition-shadow") {
+      @include it('xl\:transition-shadow') {
         @include assert {
           @include output {
             @include xl\:transition-shadow;
@@ -575,7 +575,7 @@
         }
       }
 
-      @include it("xl\:transition-transform") {
+      @include it('xl\:transition-transform') {
         @include assert {
           @include output {
             @include xl\:transition-transform;
@@ -592,7 +592,7 @@
         }
       }
 
-      @include it("2xl\:transition-none") {
+      @include it('2xl\:transition-none') {
         @include assert {
           @include output {
             @include \2xl\:transition-none;
@@ -607,7 +607,7 @@
         }
       }
 
-      @include it("2xl\:transition-all") {
+      @include it('2xl\:transition-all') {
         @include assert {
           @include output {
             @include \2xl\:transition-all;
@@ -624,7 +624,7 @@
         }
       }
 
-      @include it("2xl\:transition") {
+      @include it('2xl\:transition') {
         @include assert {
           @include output {
             @include \2xl\:transition;
@@ -643,7 +643,7 @@
         }
       }
 
-      @include it("2xl\:transition-colors") {
+      @include it('2xl\:transition-colors') {
         @include assert {
           @include output {
             @include \2xl\:transition-colors;
@@ -661,7 +661,7 @@
         }
       }
 
-      @include it("2xl\:transition-opacity") {
+      @include it('2xl\:transition-opacity') {
         @include assert {
           @include output {
             @include \2xl\:transition-opacity;
@@ -678,7 +678,7 @@
         }
       }
 
-      @include it("2xl\:transition-shadow") {
+      @include it('2xl\:transition-shadow') {
         @include assert {
           @include output {
             @include \2xl\:transition-shadow;
@@ -695,7 +695,7 @@
         }
       }
 
-      @include it("2xl\:transition-transform") {
+      @include it('2xl\:transition-transform') {
         @include assert {
           @include output {
             @include \2xl\:transition-transform;
@@ -713,8 +713,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("transition-(height)") {
+    @include describe('Custom') {
+      @include it('transition-(height)') {
         @include assert {
           @include output {
             @include transition-(height);
@@ -729,7 +729,7 @@
         }
       }
 
-      @include it("sm\:transition-(height)") {
+      @include it('sm\:transition-(height)') {
         @include assert {
           @include output {
             @include sm\:transition-(height);
@@ -746,7 +746,7 @@
         }
       }
 
-      @include it("md\:transition-(height)") {
+      @include it('md\:transition-(height)') {
         @include assert {
           @include output {
             @include md\:transition-(height);
@@ -763,7 +763,7 @@
         }
       }
 
-      @include it("lg\:transition-(height)") {
+      @include it('lg\:transition-(height)') {
         @include assert {
           @include output {
             @include lg\:transition-(height);
@@ -780,7 +780,7 @@
         }
       }
 
-      @include it("xl\:transition-(height)") {
+      @include it('xl\:transition-(height)') {
         @include assert {
           @include output {
             @include xl\:transition-(height);
@@ -797,7 +797,7 @@
         }
       }
 
-      @include it("2xl\:transition-(height)") {
+      @include it('2xl\:transition-(height)') {
         @include assert {
           @include output {
             @include \2xl\:transition-(height);

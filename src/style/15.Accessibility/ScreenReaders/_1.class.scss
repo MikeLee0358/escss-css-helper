@@ -1,5 +1,5 @@
-@use "../../setting" as *;
-@use "sass:list";
+@use '../../setting' as *;
+@use 'sass:list';
 
 // 1st: position
 // 2nd: width
@@ -11,7 +11,7 @@
 // 8th: white-space
 // 9th: border-width
 $ScreenReaders: (
-  "sr-only": (
+  'sr-only': (
     absolute,
     1px,
     1px,
@@ -22,7 +22,7 @@ $ScreenReaders: (
     nowrap,
     0,
   ),
-  "not-sr-only": (
+  'not-sr-only': (
     static,
     auto,
     auto,
@@ -31,7 +31,7 @@ $ScreenReaders: (
     visible,
     auto,
     normal,
-    "null",
+    'null',
   ),
 );
 

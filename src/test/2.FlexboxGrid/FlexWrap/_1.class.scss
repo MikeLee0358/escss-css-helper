@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("2.Flexbox & Grid") {
-  @include describe("Flex Wrap") {
-    @include describe("Basic") {
-      @include it("flex-wrap") {
+@include describe('2.Flexbox & Grid') {
+  @include describe('Flex Wrap') {
+    @include describe('Basic') {
+      @include it('flex-wrap') {
         @include assert {
           @include output {
             @include flex-wrap;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("flex-wrap-reverse") {
+      @include it('flex-wrap-reverse') {
         @include assert {
           @include output {
             @include flex-wrap-reverse;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("flex-nowrap") {
+      @include it('flex-nowrap') {
         @include assert {
           @include output {
             @include flex-nowrap;
@@ -44,8 +44,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:flex-wrap") {
+    @include describe('Rwd') {
+      @include it('sm\:flex-wrap') {
         @include assert {
           @include output {
             @include sm\:flex-wrap;
@@ -60,7 +60,7 @@
         }
       }
 
-      @include it("sm\:flex-wrap-reverse") {
+      @include it('sm\:flex-wrap-reverse') {
         @include assert {
           @include output {
             @include sm\:flex-wrap-reverse;
@@ -75,7 +75,7 @@
         }
       }
 
-      @include it("sm\:flex-nowrap") {
+      @include it('sm\:flex-nowrap') {
         @include assert {
           @include output {
             @include sm\:flex-nowrap;
@@ -90,7 +90,7 @@
         }
       }
 
-      @include it("md\:flex-wrap") {
+      @include it('md\:flex-wrap') {
         @include assert {
           @include output {
             @include md\:flex-wrap;
@@ -105,7 +105,7 @@
         }
       }
 
-      @include it("md\:flex-wrap-reverse") {
+      @include it('md\:flex-wrap-reverse') {
         @include assert {
           @include output {
             @include md\:flex-wrap-reverse;
@@ -120,7 +120,7 @@
         }
       }
 
-      @include it("md\:flex-nowrap") {
+      @include it('md\:flex-nowrap') {
         @include assert {
           @include output {
             @include md\:flex-nowrap;
@@ -135,7 +135,7 @@
         }
       }
 
-      @include it("lg\:flex-wrap") {
+      @include it('lg\:flex-wrap') {
         @include assert {
           @include output {
             @include lg\:flex-wrap;
@@ -150,7 +150,7 @@
         }
       }
 
-      @include it("lg\:flex-wrap-reverse") {
+      @include it('lg\:flex-wrap-reverse') {
         @include assert {
           @include output {
             @include lg\:flex-wrap-reverse;
@@ -165,7 +165,7 @@
         }
       }
 
-      @include it("lg\:flex-nowrap") {
+      @include it('lg\:flex-nowrap') {
         @include assert {
           @include output {
             @include lg\:flex-nowrap;
@@ -180,7 +180,7 @@
         }
       }
 
-      @include it("xl\:flex-wrap") {
+      @include it('xl\:flex-wrap') {
         @include assert {
           @include output {
             @include xl\:flex-wrap;
@@ -195,7 +195,7 @@
         }
       }
 
-      @include it("xl\:flex-wrap-reverse") {
+      @include it('xl\:flex-wrap-reverse') {
         @include assert {
           @include output {
             @include xl\:flex-wrap-reverse;
@@ -210,7 +210,7 @@
         }
       }
 
-      @include it("xl\:flex-nowrap") {
+      @include it('xl\:flex-nowrap') {
         @include assert {
           @include output {
             @include xl\:flex-nowrap;
@@ -225,7 +225,7 @@
         }
       }
 
-      @include it("2xl\:flex-wrap") {
+      @include it('2xl\:flex-wrap') {
         @include assert {
           @include output {
             @include \2xl\:flex-wrap;
@@ -240,7 +240,7 @@
         }
       }
 
-      @include it("2xl\:flex-wrap-reverse") {
+      @include it('2xl\:flex-wrap-reverse') {
         @include assert {
           @include output {
             @include \2xl\:flex-wrap-reverse;
@@ -255,7 +255,7 @@
         }
       }
 
-      @include it("2xl\:flex-nowrap") {
+      @include it('2xl\:flex-nowrap') {
         @include assert {
           @include output {
             @include \2xl\:flex-nowrap;

@@ -1,5 +1,5 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
 // private member(prefix - or _) can't be imported, so I put here for testing
 
@@ -31,10 +31,10 @@
   @include z-index(-$v);
 }
 
-@include describe("1.Layout") {
-  @include describe("Z-Index") {
-    @include describe("Basic") {
-      @include it("z-0") {
+@include describe('1.Layout') {
+  @include describe('Z-Index') {
+    @include describe('Basic') {
+      @include it('z-0') {
         @include assert {
           @include output {
             @include z-0;
@@ -47,7 +47,7 @@
         }
       }
 
-      @include it("z-10") {
+      @include it('z-10') {
         @include assert {
           @include output {
             @include z-10;
@@ -60,7 +60,7 @@
         }
       }
 
-      @include it("z-20") {
+      @include it('z-20') {
         @include assert {
           @include output {
             @include z-20;
@@ -73,7 +73,7 @@
         }
       }
 
-      @include it("z-30") {
+      @include it('z-30') {
         @include assert {
           @include output {
             @include z-30;
@@ -86,7 +86,7 @@
         }
       }
 
-      @include it("z-40") {
+      @include it('z-40') {
         @include assert {
           @include output {
             @include z-40;
@@ -99,7 +99,7 @@
         }
       }
 
-      @include it("z-50") {
+      @include it('z-50') {
         @include assert {
           @include output {
             @include z-50;
@@ -112,7 +112,7 @@
         }
       }
 
-      @include it("z-auto") {
+      @include it('z-auto') {
         @include assert {
           @include output {
             @include z-auto;
@@ -125,7 +125,7 @@
         }
       }
 
-      @include it("-z-0") {
+      @include it('-z-0') {
         @include assert {
           @include output {
             @include -z-0;
@@ -138,7 +138,7 @@
         }
       }
 
-      @include it("-z-10") {
+      @include it('-z-10') {
         @include assert {
           @include output {
             @include -z-10;
@@ -151,7 +151,7 @@
         }
       }
 
-      @include it("-z-20") {
+      @include it('-z-20') {
         @include assert {
           @include output {
             @include -z-20;
@@ -164,7 +164,7 @@
         }
       }
 
-      @include it("-z-30") {
+      @include it('-z-30') {
         @include assert {
           @include output {
             @include -z-30;
@@ -177,7 +177,7 @@
         }
       }
 
-      @include it("-z-40") {
+      @include it('-z-40') {
         @include assert {
           @include output {
             @include -z-40;
@@ -190,7 +190,7 @@
         }
       }
 
-      @include it("-z-50") {
+      @include it('-z-50') {
         @include assert {
           @include output {
             @include -z-50;
@@ -204,8 +204,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:z-0") {
+    @include describe('Rwd') {
+      @include it('sm\:z-0') {
         @include assert {
           @include output {
             @include sm\:z-0;
@@ -220,7 +220,7 @@
         }
       }
 
-      @include it("sm\:z-10") {
+      @include it('sm\:z-10') {
         @include assert {
           @include output {
             @include sm\:z-10;
@@ -235,7 +235,7 @@
         }
       }
 
-      @include it("sm\:z-20") {
+      @include it('sm\:z-20') {
         @include assert {
           @include output {
             @include sm\:z-20;
@@ -250,7 +250,7 @@
         }
       }
 
-      @include it("sm\:z-30") {
+      @include it('sm\:z-30') {
         @include assert {
           @include output {
             @include sm\:z-30;
@@ -265,7 +265,7 @@
         }
       }
 
-      @include it("sm\:z-40") {
+      @include it('sm\:z-40') {
         @include assert {
           @include output {
             @include sm\:z-40;
@@ -280,7 +280,7 @@
         }
       }
 
-      @include it("sm\:z-50") {
+      @include it('sm\:z-50') {
         @include assert {
           @include output {
             @include sm\:z-50;
@@ -295,7 +295,7 @@
         }
       }
 
-      @include it("sm\:z-auto") {
+      @include it('sm\:z-auto') {
         @include assert {
           @include output {
             @include sm\:z-auto;
@@ -310,7 +310,7 @@
         }
       }
 
-      @include it("sm\:-z-0") {
+      @include it('sm\:-z-0') {
         @include assert {
           @include output {
             @include sm\:-z-0;
@@ -325,7 +325,7 @@
         }
       }
 
-      @include it("sm\:-z-10") {
+      @include it('sm\:-z-10') {
         @include assert {
           @include output {
             @include sm\:-z-10;
@@ -340,7 +340,7 @@
         }
       }
 
-      @include it("sm\:-z-20") {
+      @include it('sm\:-z-20') {
         @include assert {
           @include output {
             @include sm\:-z-20;
@@ -355,7 +355,7 @@
         }
       }
 
-      @include it("sm\:-z-30") {
+      @include it('sm\:-z-30') {
         @include assert {
           @include output {
             @include sm\:-z-30;
@@ -370,7 +370,7 @@
         }
       }
 
-      @include it("sm\:-z-40") {
+      @include it('sm\:-z-40') {
         @include assert {
           @include output {
             @include sm\:-z-40;
@@ -385,7 +385,7 @@
         }
       }
 
-      @include it("sm\:-z-50") {
+      @include it('sm\:-z-50') {
         @include assert {
           @include output {
             @include sm\:-z-50;
@@ -400,7 +400,7 @@
         }
       }
 
-      @include it("md\:z-0") {
+      @include it('md\:z-0') {
         @include assert {
           @include output {
             @include md\:z-0;
@@ -415,7 +415,7 @@
         }
       }
 
-      @include it("md\:z-10") {
+      @include it('md\:z-10') {
         @include assert {
           @include output {
             @include md\:z-10;
@@ -430,7 +430,7 @@
         }
       }
 
-      @include it("md\:z-20") {
+      @include it('md\:z-20') {
         @include assert {
           @include output {
             @include md\:z-20;
@@ -445,7 +445,7 @@
         }
       }
 
-      @include it("md\:z-30") {
+      @include it('md\:z-30') {
         @include assert {
           @include output {
             @include md\:z-30;
@@ -460,7 +460,7 @@
         }
       }
 
-      @include it("md\:z-40") {
+      @include it('md\:z-40') {
         @include assert {
           @include output {
             @include md\:z-40;
@@ -475,7 +475,7 @@
         }
       }
 
-      @include it("md\:z-50") {
+      @include it('md\:z-50') {
         @include assert {
           @include output {
             @include md\:z-50;
@@ -490,7 +490,7 @@
         }
       }
 
-      @include it("md\:z-auto") {
+      @include it('md\:z-auto') {
         @include assert {
           @include output {
             @include md\:z-auto;
@@ -505,7 +505,7 @@
         }
       }
 
-      @include it("md\:-z-0") {
+      @include it('md\:-z-0') {
         @include assert {
           @include output {
             @include md\:-z-0;
@@ -520,7 +520,7 @@
         }
       }
 
-      @include it("md\:-z-10") {
+      @include it('md\:-z-10') {
         @include assert {
           @include output {
             @include md\:-z-10;
@@ -535,7 +535,7 @@
         }
       }
 
-      @include it("md\:-z-20") {
+      @include it('md\:-z-20') {
         @include assert {
           @include output {
             @include md\:-z-20;
@@ -550,7 +550,7 @@
         }
       }
 
-      @include it("md\:-z-30") {
+      @include it('md\:-z-30') {
         @include assert {
           @include output {
             @include md\:-z-30;
@@ -565,7 +565,7 @@
         }
       }
 
-      @include it("md\:-z-40") {
+      @include it('md\:-z-40') {
         @include assert {
           @include output {
             @include md\:-z-40;
@@ -580,7 +580,7 @@
         }
       }
 
-      @include it("md\:-z-50") {
+      @include it('md\:-z-50') {
         @include assert {
           @include output {
             @include md\:-z-50;
@@ -595,7 +595,7 @@
         }
       }
 
-      @include it("lg\:z-0") {
+      @include it('lg\:z-0') {
         @include assert {
           @include output {
             @include lg\:z-0;
@@ -610,7 +610,7 @@
         }
       }
 
-      @include it("lg\:z-10") {
+      @include it('lg\:z-10') {
         @include assert {
           @include output {
             @include lg\:z-10;
@@ -625,7 +625,7 @@
         }
       }
 
-      @include it("lg\:z-20") {
+      @include it('lg\:z-20') {
         @include assert {
           @include output {
             @include lg\:z-20;
@@ -640,7 +640,7 @@
         }
       }
 
-      @include it("lg\:z-30") {
+      @include it('lg\:z-30') {
         @include assert {
           @include output {
             @include lg\:z-30;
@@ -655,7 +655,7 @@
         }
       }
 
-      @include it("lg\:z-40") {
+      @include it('lg\:z-40') {
         @include assert {
           @include output {
             @include lg\:z-40;
@@ -670,7 +670,7 @@
         }
       }
 
-      @include it("lg\:z-50") {
+      @include it('lg\:z-50') {
         @include assert {
           @include output {
             @include lg\:z-50;
@@ -685,7 +685,7 @@
         }
       }
 
-      @include it("lg\:z-auto") {
+      @include it('lg\:z-auto') {
         @include assert {
           @include output {
             @include lg\:z-auto;
@@ -700,7 +700,7 @@
         }
       }
 
-      @include it("lg\:-z-0") {
+      @include it('lg\:-z-0') {
         @include assert {
           @include output {
             @include lg\:-z-0;
@@ -715,7 +715,7 @@
         }
       }
 
-      @include it("lg\:-z-10") {
+      @include it('lg\:-z-10') {
         @include assert {
           @include output {
             @include lg\:-z-10;
@@ -730,7 +730,7 @@
         }
       }
 
-      @include it("lg\:-z-20") {
+      @include it('lg\:-z-20') {
         @include assert {
           @include output {
             @include lg\:-z-20;
@@ -745,7 +745,7 @@
         }
       }
 
-      @include it("lg\:-z-30") {
+      @include it('lg\:-z-30') {
         @include assert {
           @include output {
             @include lg\:-z-30;
@@ -760,7 +760,7 @@
         }
       }
 
-      @include it("lg\:-z-40") {
+      @include it('lg\:-z-40') {
         @include assert {
           @include output {
             @include lg\:-z-40;
@@ -775,7 +775,7 @@
         }
       }
 
-      @include it("lg\:-z-50") {
+      @include it('lg\:-z-50') {
         @include assert {
           @include output {
             @include lg\:-z-50;
@@ -790,7 +790,7 @@
         }
       }
 
-      @include it("xl\:z-0") {
+      @include it('xl\:z-0') {
         @include assert {
           @include output {
             @include xl\:z-0;
@@ -805,7 +805,7 @@
         }
       }
 
-      @include it("xl\:z-10") {
+      @include it('xl\:z-10') {
         @include assert {
           @include output {
             @include xl\:z-10;
@@ -820,7 +820,7 @@
         }
       }
 
-      @include it("xl\:z-20") {
+      @include it('xl\:z-20') {
         @include assert {
           @include output {
             @include xl\:z-20;
@@ -835,7 +835,7 @@
         }
       }
 
-      @include it("xl\:z-30") {
+      @include it('xl\:z-30') {
         @include assert {
           @include output {
             @include xl\:z-30;
@@ -850,7 +850,7 @@
         }
       }
 
-      @include it("xl\:z-40") {
+      @include it('xl\:z-40') {
         @include assert {
           @include output {
             @include xl\:z-40;
@@ -865,7 +865,7 @@
         }
       }
 
-      @include it("xl\:z-50") {
+      @include it('xl\:z-50') {
         @include assert {
           @include output {
             @include xl\:z-50;
@@ -880,7 +880,7 @@
         }
       }
 
-      @include it("xl\:z-auto") {
+      @include it('xl\:z-auto') {
         @include assert {
           @include output {
             @include xl\:z-auto;
@@ -895,7 +895,7 @@
         }
       }
 
-      @include it("xl\:-z-0") {
+      @include it('xl\:-z-0') {
         @include assert {
           @include output {
             @include xl\:-z-0;
@@ -910,7 +910,7 @@
         }
       }
 
-      @include it("xl\:-z-10") {
+      @include it('xl\:-z-10') {
         @include assert {
           @include output {
             @include xl\:-z-10;
@@ -925,7 +925,7 @@
         }
       }
 
-      @include it("xl\:-z-20") {
+      @include it('xl\:-z-20') {
         @include assert {
           @include output {
             @include xl\:-z-20;
@@ -940,7 +940,7 @@
         }
       }
 
-      @include it("xl\:-z-30") {
+      @include it('xl\:-z-30') {
         @include assert {
           @include output {
             @include xl\:-z-30;
@@ -955,7 +955,7 @@
         }
       }
 
-      @include it("xl\:-z-40") {
+      @include it('xl\:-z-40') {
         @include assert {
           @include output {
             @include xl\:-z-40;
@@ -970,7 +970,7 @@
         }
       }
 
-      @include it("xl\:-z-50") {
+      @include it('xl\:-z-50') {
         @include assert {
           @include output {
             @include xl\:-z-50;
@@ -985,7 +985,7 @@
         }
       }
 
-      @include it("2xl\:z-0") {
+      @include it('2xl\:z-0') {
         @include assert {
           @include output {
             @include \2xl\:z-0;
@@ -1000,7 +1000,7 @@
         }
       }
 
-      @include it("2xl\:z-10") {
+      @include it('2xl\:z-10') {
         @include assert {
           @include output {
             @include \2xl\:z-10;
@@ -1015,7 +1015,7 @@
         }
       }
 
-      @include it("2xl\:z-20") {
+      @include it('2xl\:z-20') {
         @include assert {
           @include output {
             @include \2xl\:z-20;
@@ -1030,7 +1030,7 @@
         }
       }
 
-      @include it("2xl\:z-30") {
+      @include it('2xl\:z-30') {
         @include assert {
           @include output {
             @include \2xl\:z-30;
@@ -1045,7 +1045,7 @@
         }
       }
 
-      @include it("2xl\:z-40") {
+      @include it('2xl\:z-40') {
         @include assert {
           @include output {
             @include \2xl\:z-40;
@@ -1060,7 +1060,7 @@
         }
       }
 
-      @include it("2xl\:z-50") {
+      @include it('2xl\:z-50') {
         @include assert {
           @include output {
             @include \2xl\:z-50;
@@ -1075,7 +1075,7 @@
         }
       }
 
-      @include it("2xl\:z-auto") {
+      @include it('2xl\:z-auto') {
         @include assert {
           @include output {
             @include \2xl\:z-auto;
@@ -1090,7 +1090,7 @@
         }
       }
 
-      @include it("2xl\:-z-0") {
+      @include it('2xl\:-z-0') {
         @include assert {
           @include output {
             @include \2xl\:-z-0;
@@ -1105,7 +1105,7 @@
         }
       }
 
-      @include it("2xl\:-z-10") {
+      @include it('2xl\:-z-10') {
         @include assert {
           @include output {
             @include \2xl\:-z-10;
@@ -1120,7 +1120,7 @@
         }
       }
 
-      @include it("2xl\:-z-20") {
+      @include it('2xl\:-z-20') {
         @include assert {
           @include output {
             @include \2xl\:-z-20;
@@ -1135,7 +1135,7 @@
         }
       }
 
-      @include it("2xl\:-z-30") {
+      @include it('2xl\:-z-30') {
         @include assert {
           @include output {
             @include \2xl\:-z-30;
@@ -1150,7 +1150,7 @@
         }
       }
 
-      @include it("2xl\:-z-40") {
+      @include it('2xl\:-z-40') {
         @include assert {
           @include output {
             @include \2xl\:-z-40;
@@ -1165,7 +1165,7 @@
         }
       }
 
-      @include it("2xl\:-z-50") {
+      @include it('2xl\:-z-50') {
         @include assert {
           @include output {
             @include \2xl\:-z-50;
@@ -1181,8 +1181,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("z-(100)") {
+    @include describe('Custom') {
+      @include it('z-(100)') {
         @include assert {
           @include output {
             @include z-(100);
@@ -1195,7 +1195,7 @@
         }
       }
 
-      @include it("-z-(100)") {
+      @include it('-z-(100)') {
         @include assert {
           @include output {
             @include -z-(100);
@@ -1208,7 +1208,7 @@
         }
       }
 
-      @include it("sm\:z-(100)") {
+      @include it('sm\:z-(100)') {
         @include assert {
           @include output {
             @include sm\:z-(100);
@@ -1223,7 +1223,7 @@
         }
       }
 
-      @include it("sm\:-z-(100)") {
+      @include it('sm\:-z-(100)') {
         @include assert {
           @include output {
             @include sm\:-z-(100);
@@ -1238,7 +1238,7 @@
         }
       }
 
-      @include it("md\:z-(100)") {
+      @include it('md\:z-(100)') {
         @include assert {
           @include output {
             @include md\:z-(100);
@@ -1253,7 +1253,7 @@
         }
       }
 
-      @include it("md\:-z-(100)") {
+      @include it('md\:-z-(100)') {
         @include assert {
           @include output {
             @include md\:-z-(100);
@@ -1268,7 +1268,7 @@
         }
       }
 
-      @include it("lg\:z-(100)") {
+      @include it('lg\:z-(100)') {
         @include assert {
           @include output {
             @include lg\:z-(100);
@@ -1283,7 +1283,7 @@
         }
       }
 
-      @include it("lg\:-z-(100)") {
+      @include it('lg\:-z-(100)') {
         @include assert {
           @include output {
             @include lg\:-z-(100);
@@ -1298,7 +1298,7 @@
         }
       }
 
-      @include it("xl\:z-(100)") {
+      @include it('xl\:z-(100)') {
         @include assert {
           @include output {
             @include xl\:z-(100);
@@ -1313,7 +1313,7 @@
         }
       }
 
-      @include it("xl\:-z-(100)") {
+      @include it('xl\:-z-(100)') {
         @include assert {
           @include output {
             @include xl\:-z-(100);
@@ -1328,7 +1328,7 @@
         }
       }
 
-      @include it("2xl\:z-(100)") {
+      @include it('2xl\:z-(100)') {
         @include assert {
           @include output {
             @include \2xl\:z-(100);
@@ -1343,7 +1343,7 @@
         }
       }
 
-      @include it("2xl\:-z-(100)") {
+      @include it('2xl\:-z-(100)') {
         @include assert {
           @include output {
             @include \2xl\:-z-(100);

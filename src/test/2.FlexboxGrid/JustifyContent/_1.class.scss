@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("2.Flexbox & Grid") {
-  @include describe("Justify Content") {
-    @include describe("Basic") {
-      @include it("justify-normal") {
+@include describe('2.Flexbox & Grid') {
+  @include describe('Justify Content') {
+    @include describe('Basic') {
+      @include it('justify-normal') {
         @include assert {
           @include output {
             @include justify-normal;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("justify-start") {
+      @include it('justify-start') {
         @include assert {
           @include output {
             @include justify-start;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("justify-end") {
+      @include it('justify-end') {
         @include assert {
           @include output {
             @include justify-end;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("justify-center") {
+      @include it('justify-center') {
         @include assert {
           @include output {
             @include justify-center;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("justify-between") {
+      @include it('justify-between') {
         @include assert {
           @include output {
             @include justify-between;
@@ -69,7 +69,7 @@
         }
       }
 
-      @include it("justify-around") {
+      @include it('justify-around') {
         @include assert {
           @include output {
             @include justify-around;
@@ -82,7 +82,7 @@
         }
       }
 
-      @include it("justify-evenly") {
+      @include it('justify-evenly') {
         @include assert {
           @include output {
             @include justify-evenly;
@@ -95,7 +95,7 @@
         }
       }
 
-      @include it("justify-stretch") {
+      @include it('justify-stretch') {
         @include assert {
           @include output {
             @include justify-stretch;
@@ -109,8 +109,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:justify-normal") {
+    @include describe('Rwd') {
+      @include it('sm\:justify-normal') {
         @include assert {
           @include output {
             @include sm\:justify-normal;
@@ -125,7 +125,7 @@
         }
       }
 
-      @include it("sm\:justify-start") {
+      @include it('sm\:justify-start') {
         @include assert {
           @include output {
             @include sm\:justify-start;
@@ -140,7 +140,7 @@
         }
       }
 
-      @include it("sm\:justify-end") {
+      @include it('sm\:justify-end') {
         @include assert {
           @include output {
             @include sm\:justify-end;
@@ -155,7 +155,7 @@
         }
       }
 
-      @include it("sm\:justify-center") {
+      @include it('sm\:justify-center') {
         @include assert {
           @include output {
             @include sm\:justify-center;
@@ -170,7 +170,7 @@
         }
       }
 
-      @include it("sm\:justify-between") {
+      @include it('sm\:justify-between') {
         @include assert {
           @include output {
             @include sm\:justify-between;
@@ -185,7 +185,7 @@
         }
       }
 
-      @include it("sm\:justify-around") {
+      @include it('sm\:justify-around') {
         @include assert {
           @include output {
             @include sm\:justify-around;
@@ -200,7 +200,7 @@
         }
       }
 
-      @include it("sm\:justify-evenly") {
+      @include it('sm\:justify-evenly') {
         @include assert {
           @include output {
             @include sm\:justify-evenly;
@@ -215,7 +215,7 @@
         }
       }
 
-      @include it("sm\:justify-stretch") {
+      @include it('sm\:justify-stretch') {
         @include assert {
           @include output {
             @include sm\:justify-stretch;
@@ -230,7 +230,7 @@
         }
       }
 
-      @include it("md\:justify-normal") {
+      @include it('md\:justify-normal') {
         @include assert {
           @include output {
             @include md\:justify-normal;
@@ -245,7 +245,7 @@
         }
       }
 
-      @include it("md\:justify-start") {
+      @include it('md\:justify-start') {
         @include assert {
           @include output {
             @include md\:justify-start;
@@ -260,7 +260,7 @@
         }
       }
 
-      @include it("md\:justify-end") {
+      @include it('md\:justify-end') {
         @include assert {
           @include output {
             @include md\:justify-end;
@@ -275,7 +275,7 @@
         }
       }
 
-      @include it("md\:justify-center") {
+      @include it('md\:justify-center') {
         @include assert {
           @include output {
             @include md\:justify-center;
@@ -290,7 +290,7 @@
         }
       }
 
-      @include it("md\:justify-between") {
+      @include it('md\:justify-between') {
         @include assert {
           @include output {
             @include md\:justify-between;
@@ -305,7 +305,7 @@
         }
       }
 
-      @include it("md\:justify-around") {
+      @include it('md\:justify-around') {
         @include assert {
           @include output {
             @include md\:justify-around;
@@ -320,7 +320,7 @@
         }
       }
 
-      @include it("md\:justify-evenly") {
+      @include it('md\:justify-evenly') {
         @include assert {
           @include output {
             @include md\:justify-evenly;
@@ -335,7 +335,7 @@
         }
       }
 
-      @include it("md\:justify-stretch") {
+      @include it('md\:justify-stretch') {
         @include assert {
           @include output {
             @include md\:justify-stretch;
@@ -350,7 +350,7 @@
         }
       }
 
-      @include it("lg\:justify-normal") {
+      @include it('lg\:justify-normal') {
         @include assert {
           @include output {
             @include lg\:justify-normal;
@@ -365,7 +365,7 @@
         }
       }
 
-      @include it("lg\:justify-start") {
+      @include it('lg\:justify-start') {
         @include assert {
           @include output {
             @include lg\:justify-start;
@@ -380,7 +380,7 @@
         }
       }
 
-      @include it("lg\:justify-end") {
+      @include it('lg\:justify-end') {
         @include assert {
           @include output {
             @include lg\:justify-end;
@@ -395,7 +395,7 @@
         }
       }
 
-      @include it("lg\:justify-center") {
+      @include it('lg\:justify-center') {
         @include assert {
           @include output {
             @include lg\:justify-center;
@@ -410,7 +410,7 @@
         }
       }
 
-      @include it("lg\:justify-between") {
+      @include it('lg\:justify-between') {
         @include assert {
           @include output {
             @include lg\:justify-between;
@@ -425,7 +425,7 @@
         }
       }
 
-      @include it("lg\:justify-around") {
+      @include it('lg\:justify-around') {
         @include assert {
           @include output {
             @include lg\:justify-around;
@@ -440,7 +440,7 @@
         }
       }
 
-      @include it("lg\:justify-evenly") {
+      @include it('lg\:justify-evenly') {
         @include assert {
           @include output {
             @include lg\:justify-evenly;
@@ -455,7 +455,7 @@
         }
       }
 
-      @include it("lg\:justify-stretch") {
+      @include it('lg\:justify-stretch') {
         @include assert {
           @include output {
             @include lg\:justify-stretch;
@@ -470,7 +470,7 @@
         }
       }
 
-      @include it("xl\:justify-normal") {
+      @include it('xl\:justify-normal') {
         @include assert {
           @include output {
             @include xl\:justify-normal;
@@ -485,7 +485,7 @@
         }
       }
 
-      @include it("xl\:justify-start") {
+      @include it('xl\:justify-start') {
         @include assert {
           @include output {
             @include xl\:justify-start;
@@ -500,7 +500,7 @@
         }
       }
 
-      @include it("xl\:justify-end") {
+      @include it('xl\:justify-end') {
         @include assert {
           @include output {
             @include xl\:justify-end;
@@ -515,7 +515,7 @@
         }
       }
 
-      @include it("xl\:justify-center") {
+      @include it('xl\:justify-center') {
         @include assert {
           @include output {
             @include xl\:justify-center;
@@ -530,7 +530,7 @@
         }
       }
 
-      @include it("xl\:justify-between") {
+      @include it('xl\:justify-between') {
         @include assert {
           @include output {
             @include xl\:justify-between;
@@ -545,7 +545,7 @@
         }
       }
 
-      @include it("xl\:justify-around") {
+      @include it('xl\:justify-around') {
         @include assert {
           @include output {
             @include xl\:justify-around;
@@ -560,7 +560,7 @@
         }
       }
 
-      @include it("xl\:justify-evenly") {
+      @include it('xl\:justify-evenly') {
         @include assert {
           @include output {
             @include xl\:justify-evenly;
@@ -575,7 +575,7 @@
         }
       }
 
-      @include it("xl\:justify-stretch") {
+      @include it('xl\:justify-stretch') {
         @include assert {
           @include output {
             @include xl\:justify-stretch;
@@ -590,7 +590,7 @@
         }
       }
 
-      @include it("2xl\:justify-normal") {
+      @include it('2xl\:justify-normal') {
         @include assert {
           @include output {
             @include \2xl\:justify-normal;
@@ -605,7 +605,7 @@
         }
       }
 
-      @include it("2xl\:justify-start") {
+      @include it('2xl\:justify-start') {
         @include assert {
           @include output {
             @include \2xl\:justify-start;
@@ -620,7 +620,7 @@
         }
       }
 
-      @include it("2xl\:justify-end") {
+      @include it('2xl\:justify-end') {
         @include assert {
           @include output {
             @include \2xl\:justify-end;
@@ -635,7 +635,7 @@
         }
       }
 
-      @include it("2xl\:justify-center") {
+      @include it('2xl\:justify-center') {
         @include assert {
           @include output {
             @include \2xl\:justify-center;
@@ -650,7 +650,7 @@
         }
       }
 
-      @include it("2xl\:justify-between") {
+      @include it('2xl\:justify-between') {
         @include assert {
           @include output {
             @include \2xl\:justify-between;
@@ -665,7 +665,7 @@
         }
       }
 
-      @include it("2xl\:justify-around") {
+      @include it('2xl\:justify-around') {
         @include assert {
           @include output {
             @include \2xl\:justify-around;
@@ -680,7 +680,7 @@
         }
       }
 
-      @include it("2xl\:justify-evenly") {
+      @include it('2xl\:justify-evenly') {
         @include assert {
           @include output {
             @include \2xl\:justify-evenly;
@@ -695,7 +695,7 @@
         }
       }
 
-      @include it("2xl\:justify-stretch") {
+      @include it('2xl\:justify-stretch') {
         @include assert {
           @include output {
             @include \2xl\:justify-stretch;

@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("9.Filters") {
-  @include describe("Grayscale") {
-    @include describe("Basic") {
-      @include it("grayscale-0") {
+@include describe('9.Filters') {
+  @include describe('Grayscale') {
+    @include describe('Basic') {
+      @include it('grayscale-0') {
         @include assert {
           @include output {
             @include grayscale-0;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("grayscale") {
+      @include it('grayscale') {
         @include assert {
           @include output {
             @include grayscale;
@@ -31,8 +31,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:grayscale-0") {
+    @include describe('Rwd') {
+      @include it('sm\:grayscale-0') {
         @include assert {
           @include output {
             @include sm\:grayscale-0;
@@ -47,7 +47,7 @@
         }
       }
 
-      @include it("sm\:grayscale") {
+      @include it('sm\:grayscale') {
         @include assert {
           @include output {
             @include sm\:grayscale;
@@ -62,7 +62,7 @@
         }
       }
 
-      @include it("md\:grayscale-0") {
+      @include it('md\:grayscale-0') {
         @include assert {
           @include output {
             @include md\:grayscale-0;
@@ -77,7 +77,7 @@
         }
       }
 
-      @include it("md\:grayscale") {
+      @include it('md\:grayscale') {
         @include assert {
           @include output {
             @include md\:grayscale;
@@ -92,7 +92,7 @@
         }
       }
 
-      @include it("lg\:grayscale-0") {
+      @include it('lg\:grayscale-0') {
         @include assert {
           @include output {
             @include lg\:grayscale-0;
@@ -107,7 +107,7 @@
         }
       }
 
-      @include it("lg\:grayscale") {
+      @include it('lg\:grayscale') {
         @include assert {
           @include output {
             @include lg\:grayscale;
@@ -122,7 +122,7 @@
         }
       }
 
-      @include it("xl\:grayscale-0") {
+      @include it('xl\:grayscale-0') {
         @include assert {
           @include output {
             @include xl\:grayscale-0;
@@ -137,7 +137,7 @@
         }
       }
 
-      @include it("xl\:grayscale") {
+      @include it('xl\:grayscale') {
         @include assert {
           @include output {
             @include xl\:grayscale;
@@ -152,7 +152,7 @@
         }
       }
 
-      @include it("2xl\:grayscale-0") {
+      @include it('2xl\:grayscale-0') {
         @include assert {
           @include output {
             @include \2xl\:grayscale-0;
@@ -167,7 +167,7 @@
         }
       }
 
-      @include it("2xl\:grayscale") {
+      @include it('2xl\:grayscale') {
         @include assert {
           @include output {
             @include \2xl\:grayscale;
@@ -183,8 +183,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("grayscale-(50%)") {
+    @include describe('Custom') {
+      @include it('grayscale-(50%)') {
         @include assert {
           @include output {
             @include grayscale-(50%);
@@ -197,7 +197,7 @@
         }
       }
 
-      @include it("sm\:grayscale-(50%)") {
+      @include it('sm\:grayscale-(50%)') {
         @include assert {
           @include output {
             @include sm\:grayscale-(50%);
@@ -212,7 +212,7 @@
         }
       }
 
-      @include it("md\:grayscale-(50%)") {
+      @include it('md\:grayscale-(50%)') {
         @include assert {
           @include output {
             @include md\:grayscale-(50%);
@@ -227,7 +227,7 @@
         }
       }
 
-      @include it("lg\:grayscale-(50%)") {
+      @include it('lg\:grayscale-(50%)') {
         @include assert {
           @include output {
             @include lg\:grayscale-(50%);
@@ -242,7 +242,7 @@
         }
       }
 
-      @include it("xl\:grayscale-(50%)") {
+      @include it('xl\:grayscale-(50%)') {
         @include assert {
           @include output {
             @include xl\:grayscale-(50%);
@@ -257,7 +257,7 @@
         }
       }
 
-      @include it("2xl\:grayscale-(50%)") {
+      @include it('2xl\:grayscale-(50%)') {
         @include assert {
           @include output {
             @include \2xl\:grayscale-(50%);

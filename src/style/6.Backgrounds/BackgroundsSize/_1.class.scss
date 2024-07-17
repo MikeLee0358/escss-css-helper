@@ -1,9 +1,9 @@
-@use "../../setting" as *;
+@use '../../setting' as *;
 
 $BackgroundsSize: (
-  "bg-auto": auto,
-  "bg-cover": cover,
-  "bg-contain": contain,
+  'bg-auto': auto,
+  'bg-cover': cover,
+  'bg-contain': contain,
 );
 
 @if $Basic {

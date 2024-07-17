@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("2.Flexbox & Grid") {
-  @include describe("Flex Basis") {
-    @include describe("Basic") {
-      @include it("basis-0") {
+@include describe('2.Flexbox & Grid') {
+  @include describe('Flex Basis') {
+    @include describe('Basic') {
+      @include it('basis-0') {
         @include assert {
           @include output {
             @include basis-0;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("basis-1") {
+      @include it('basis-1') {
         @include assert {
           @include output {
             @include basis-1;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("basis-2") {
+      @include it('basis-2') {
         @include assert {
           @include output {
             @include basis-2;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("basis-3") {
+      @include it('basis-3') {
         @include assert {
           @include output {
             @include basis-3;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("basis-4") {
+      @include it('basis-4') {
         @include assert {
           @include output {
             @include basis-4;
@@ -69,7 +69,7 @@
         }
       }
 
-      @include it("basis-5") {
+      @include it('basis-5') {
         @include assert {
           @include output {
             @include basis-5;
@@ -82,7 +82,7 @@
         }
       }
 
-      @include it("basis-6") {
+      @include it('basis-6') {
         @include assert {
           @include output {
             @include basis-6;
@@ -95,7 +95,7 @@
         }
       }
 
-      @include it("basis-7") {
+      @include it('basis-7') {
         @include assert {
           @include output {
             @include basis-7;
@@ -108,7 +108,7 @@
         }
       }
 
-      @include it("basis-8") {
+      @include it('basis-8') {
         @include assert {
           @include output {
             @include basis-8;
@@ -121,7 +121,7 @@
         }
       }
 
-      @include it("basis-9") {
+      @include it('basis-9') {
         @include assert {
           @include output {
             @include basis-9;
@@ -134,7 +134,7 @@
         }
       }
 
-      @include it("basis-10") {
+      @include it('basis-10') {
         @include assert {
           @include output {
             @include basis-10;
@@ -147,7 +147,7 @@
         }
       }
 
-      @include it("basis-11") {
+      @include it('basis-11') {
         @include assert {
           @include output {
             @include basis-11;
@@ -160,7 +160,7 @@
         }
       }
 
-      @include it("basis-12") {
+      @include it('basis-12') {
         @include assert {
           @include output {
             @include basis-12;
@@ -173,7 +173,7 @@
         }
       }
 
-      @include it("basis-14") {
+      @include it('basis-14') {
         @include assert {
           @include output {
             @include basis-14;
@@ -186,7 +186,7 @@
         }
       }
 
-      @include it("basis-16") {
+      @include it('basis-16') {
         @include assert {
           @include output {
             @include basis-16;
@@ -199,7 +199,7 @@
         }
       }
 
-      @include it("basis-20") {
+      @include it('basis-20') {
         @include assert {
           @include output {
             @include basis-20;
@@ -212,7 +212,7 @@
         }
       }
 
-      @include it("basis-24") {
+      @include it('basis-24') {
         @include assert {
           @include output {
             @include basis-24;
@@ -225,7 +225,7 @@
         }
       }
 
-      @include it("basis-28") {
+      @include it('basis-28') {
         @include assert {
           @include output {
             @include basis-28;
@@ -238,7 +238,7 @@
         }
       }
 
-      @include it("basis-32") {
+      @include it('basis-32') {
         @include assert {
           @include output {
             @include basis-32;
@@ -251,7 +251,7 @@
         }
       }
 
-      @include it("basis-36") {
+      @include it('basis-36') {
         @include assert {
           @include output {
             @include basis-36;
@@ -264,7 +264,7 @@
         }
       }
 
-      @include it("basis-40") {
+      @include it('basis-40') {
         @include assert {
           @include output {
             @include basis-40;
@@ -277,7 +277,7 @@
         }
       }
 
-      @include it("basis-44") {
+      @include it('basis-44') {
         @include assert {
           @include output {
             @include basis-44;
@@ -290,7 +290,7 @@
         }
       }
 
-      @include it("basis-48") {
+      @include it('basis-48') {
         @include assert {
           @include output {
             @include basis-48;
@@ -303,7 +303,7 @@
         }
       }
 
-      @include it("basis-52") {
+      @include it('basis-52') {
         @include assert {
           @include output {
             @include basis-52;
@@ -316,7 +316,7 @@
         }
       }
 
-      @include it("basis-56") {
+      @include it('basis-56') {
         @include assert {
           @include output {
             @include basis-56;
@@ -329,7 +329,7 @@
         }
       }
 
-      @include it("basis-60") {
+      @include it('basis-60') {
         @include assert {
           @include output {
             @include basis-60;
@@ -342,7 +342,7 @@
         }
       }
 
-      @include it("basis-64") {
+      @include it('basis-64') {
         @include assert {
           @include output {
             @include basis-64;
@@ -355,7 +355,7 @@
         }
       }
 
-      @include it("basis-72") {
+      @include it('basis-72') {
         @include assert {
           @include output {
             @include basis-72;
@@ -368,7 +368,7 @@
         }
       }
 
-      @include it("basis-80") {
+      @include it('basis-80') {
         @include assert {
           @include output {
             @include basis-80;
@@ -381,7 +381,7 @@
         }
       }
 
-      @include it("basis-96") {
+      @include it('basis-96') {
         @include assert {
           @include output {
             @include basis-96;
@@ -394,7 +394,7 @@
         }
       }
 
-      @include it("basis-auto") {
+      @include it('basis-auto') {
         @include assert {
           @include output {
             @include basis-auto;
@@ -407,7 +407,7 @@
         }
       }
 
-      @include it("basis-px") {
+      @include it('basis-px') {
         @include assert {
           @include output {
             @include basis-px;
@@ -420,7 +420,7 @@
         }
       }
 
-      @include it("basis-0\.5") {
+      @include it('basis-0\.5') {
         @include assert {
           @include output {
             @include basis-0\.5;
@@ -433,7 +433,7 @@
         }
       }
 
-      @include it("basis-1\.5") {
+      @include it('basis-1\.5') {
         @include assert {
           @include output {
             @include basis-1\.5;
@@ -446,7 +446,7 @@
         }
       }
 
-      @include it("basis-2\.5") {
+      @include it('basis-2\.5') {
         @include assert {
           @include output {
             @include basis-2\.5;
@@ -459,7 +459,7 @@
         }
       }
 
-      @include it("basis-3\.5") {
+      @include it('basis-3\.5') {
         @include assert {
           @include output {
             @include basis-3\.5;
@@ -472,7 +472,7 @@
         }
       }
 
-      @include it("basis-1\/2") {
+      @include it('basis-1\/2') {
         @include assert {
           @include output {
             @include basis-1\/2;
@@ -485,7 +485,7 @@
         }
       }
 
-      @include it("basis-1\/3") {
+      @include it('basis-1\/3') {
         @include assert {
           @include output {
             @include basis-1\/3;
@@ -498,7 +498,7 @@
         }
       }
 
-      @include it("basis-2\/3") {
+      @include it('basis-2\/3') {
         @include assert {
           @include output {
             @include basis-2\/3;
@@ -511,7 +511,7 @@
         }
       }
 
-      @include it("basis-1\/4") {
+      @include it('basis-1\/4') {
         @include assert {
           @include output {
             @include basis-1\/4;
@@ -524,7 +524,7 @@
         }
       }
 
-      @include it("basis-2\/4") {
+      @include it('basis-2\/4') {
         @include assert {
           @include output {
             @include basis-2\/4;
@@ -537,7 +537,7 @@
         }
       }
 
-      @include it("basis-3\/4") {
+      @include it('basis-3\/4') {
         @include assert {
           @include output {
             @include basis-3\/4;
@@ -550,7 +550,7 @@
         }
       }
 
-      @include it("basis-1\/5") {
+      @include it('basis-1\/5') {
         @include assert {
           @include output {
             @include basis-1\/5;
@@ -563,7 +563,7 @@
         }
       }
 
-      @include it("basis-2\/5") {
+      @include it('basis-2\/5') {
         @include assert {
           @include output {
             @include basis-2\/5;
@@ -576,7 +576,7 @@
         }
       }
 
-      @include it("basis-3\/5") {
+      @include it('basis-3\/5') {
         @include assert {
           @include output {
             @include basis-3\/5;
@@ -589,7 +589,7 @@
         }
       }
 
-      @include it("basis-4\/5") {
+      @include it('basis-4\/5') {
         @include assert {
           @include output {
             @include basis-4\/5;
@@ -602,7 +602,7 @@
         }
       }
 
-      @include it("basis-1\/6") {
+      @include it('basis-1\/6') {
         @include assert {
           @include output {
             @include basis-1\/6;
@@ -615,7 +615,7 @@
         }
       }
 
-      @include it("basis-2\/6") {
+      @include it('basis-2\/6') {
         @include assert {
           @include output {
             @include basis-2\/6;
@@ -628,7 +628,7 @@
         }
       }
 
-      @include it("basis-3\/6") {
+      @include it('basis-3\/6') {
         @include assert {
           @include output {
             @include basis-3\/6;
@@ -641,7 +641,7 @@
         }
       }
 
-      @include it("basis-4\/6") {
+      @include it('basis-4\/6') {
         @include assert {
           @include output {
             @include basis-4\/6;
@@ -654,7 +654,7 @@
         }
       }
 
-      @include it("basis-5\/6") {
+      @include it('basis-5\/6') {
         @include assert {
           @include output {
             @include basis-5\/6;
@@ -667,7 +667,7 @@
         }
       }
 
-      @include it("basis-1\/12") {
+      @include it('basis-1\/12') {
         @include assert {
           @include output {
             @include basis-1\/12;
@@ -680,7 +680,7 @@
         }
       }
 
-      @include it("basis-2\/12") {
+      @include it('basis-2\/12') {
         @include assert {
           @include output {
             @include basis-2\/12;
@@ -693,7 +693,7 @@
         }
       }
 
-      @include it("basis-3\/12") {
+      @include it('basis-3\/12') {
         @include assert {
           @include output {
             @include basis-3\/12;
@@ -706,7 +706,7 @@
         }
       }
 
-      @include it("basis-4\/12") {
+      @include it('basis-4\/12') {
         @include assert {
           @include output {
             @include basis-4\/12;
@@ -719,7 +719,7 @@
         }
       }
 
-      @include it("basis-5\/12") {
+      @include it('basis-5\/12') {
         @include assert {
           @include output {
             @include basis-5\/12;
@@ -732,7 +732,7 @@
         }
       }
 
-      @include it("basis-6\/12") {
+      @include it('basis-6\/12') {
         @include assert {
           @include output {
             @include basis-6\/12;
@@ -745,7 +745,7 @@
         }
       }
 
-      @include it("basis-7\/12") {
+      @include it('basis-7\/12') {
         @include assert {
           @include output {
             @include basis-7\/12;
@@ -758,7 +758,7 @@
         }
       }
 
-      @include it("basis-8\/12") {
+      @include it('basis-8\/12') {
         @include assert {
           @include output {
             @include basis-8\/12;
@@ -771,7 +771,7 @@
         }
       }
 
-      @include it("basis-9\/12") {
+      @include it('basis-9\/12') {
         @include assert {
           @include output {
             @include basis-9\/12;
@@ -784,7 +784,7 @@
         }
       }
 
-      @include it("basis-10\/12") {
+      @include it('basis-10\/12') {
         @include assert {
           @include output {
             @include basis-10\/12;
@@ -797,7 +797,7 @@
         }
       }
 
-      @include it("basis-11\/12") {
+      @include it('basis-11\/12') {
         @include assert {
           @include output {
             @include basis-11\/12;
@@ -810,7 +810,7 @@
         }
       }
 
-      @include it("basis-full") {
+      @include it('basis-full') {
         @include assert {
           @include output {
             @include basis-full;
@@ -824,8 +824,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:basis-0") {
+    @include describe('Rwd') {
+      @include it('sm\:basis-0') {
         @include assert {
           @include output {
             @include sm\:basis-0;
@@ -840,7 +840,7 @@
         }
       }
 
-      @include it("sm\:basis-1") {
+      @include it('sm\:basis-1') {
         @include assert {
           @include output {
             @include sm\:basis-1;
@@ -855,7 +855,7 @@
         }
       }
 
-      @include it("sm\:basis-2") {
+      @include it('sm\:basis-2') {
         @include assert {
           @include output {
             @include sm\:basis-2;
@@ -870,7 +870,7 @@
         }
       }
 
-      @include it("sm\:basis-3") {
+      @include it('sm\:basis-3') {
         @include assert {
           @include output {
             @include sm\:basis-3;
@@ -885,7 +885,7 @@
         }
       }
 
-      @include it("sm\:basis-4") {
+      @include it('sm\:basis-4') {
         @include assert {
           @include output {
             @include sm\:basis-4;
@@ -900,7 +900,7 @@
         }
       }
 
-      @include it("sm\:basis-5") {
+      @include it('sm\:basis-5') {
         @include assert {
           @include output {
             @include sm\:basis-5;
@@ -915,7 +915,7 @@
         }
       }
 
-      @include it("sm\:basis-6") {
+      @include it('sm\:basis-6') {
         @include assert {
           @include output {
             @include sm\:basis-6;
@@ -930,7 +930,7 @@
         }
       }
 
-      @include it("sm\:basis-7") {
+      @include it('sm\:basis-7') {
         @include assert {
           @include output {
             @include sm\:basis-7;
@@ -945,7 +945,7 @@
         }
       }
 
-      @include it("sm\:basis-8") {
+      @include it('sm\:basis-8') {
         @include assert {
           @include output {
             @include sm\:basis-8;
@@ -960,7 +960,7 @@
         }
       }
 
-      @include it("sm\:basis-9") {
+      @include it('sm\:basis-9') {
         @include assert {
           @include output {
             @include sm\:basis-9;
@@ -975,7 +975,7 @@
         }
       }
 
-      @include it("sm\:basis-10") {
+      @include it('sm\:basis-10') {
         @include assert {
           @include output {
             @include sm\:basis-10;
@@ -990,7 +990,7 @@
         }
       }
 
-      @include it("sm\:basis-11") {
+      @include it('sm\:basis-11') {
         @include assert {
           @include output {
             @include sm\:basis-11;
@@ -1005,7 +1005,7 @@
         }
       }
 
-      @include it("sm\:basis-12") {
+      @include it('sm\:basis-12') {
         @include assert {
           @include output {
             @include sm\:basis-12;
@@ -1020,7 +1020,7 @@
         }
       }
 
-      @include it("sm\:basis-14") {
+      @include it('sm\:basis-14') {
         @include assert {
           @include output {
             @include sm\:basis-14;
@@ -1035,7 +1035,7 @@
         }
       }
 
-      @include it("sm\:basis-16") {
+      @include it('sm\:basis-16') {
         @include assert {
           @include output {
             @include sm\:basis-16;
@@ -1050,7 +1050,7 @@
         }
       }
 
-      @include it("sm\:basis-20") {
+      @include it('sm\:basis-20') {
         @include assert {
           @include output {
             @include sm\:basis-20;
@@ -1065,7 +1065,7 @@
         }
       }
 
-      @include it("sm\:basis-24") {
+      @include it('sm\:basis-24') {
         @include assert {
           @include output {
             @include sm\:basis-24;
@@ -1080,7 +1080,7 @@
         }
       }
 
-      @include it("sm\:basis-28") {
+      @include it('sm\:basis-28') {
         @include assert {
           @include output {
             @include sm\:basis-28;
@@ -1095,7 +1095,7 @@
         }
       }
 
-      @include it("sm\:basis-32") {
+      @include it('sm\:basis-32') {
         @include assert {
           @include output {
             @include sm\:basis-32;
@@ -1110,7 +1110,7 @@
         }
       }
 
-      @include it("sm\:basis-36") {
+      @include it('sm\:basis-36') {
         @include assert {
           @include output {
             @include sm\:basis-36;
@@ -1125,7 +1125,7 @@
         }
       }
 
-      @include it("sm\:basis-40") {
+      @include it('sm\:basis-40') {
         @include assert {
           @include output {
             @include sm\:basis-40;
@@ -1140,7 +1140,7 @@
         }
       }
 
-      @include it("sm\:basis-44") {
+      @include it('sm\:basis-44') {
         @include assert {
           @include output {
             @include sm\:basis-44;
@@ -1155,7 +1155,7 @@
         }
       }
 
-      @include it("sm\:basis-48") {
+      @include it('sm\:basis-48') {
         @include assert {
           @include output {
             @include sm\:basis-48;
@@ -1170,7 +1170,7 @@
         }
       }
 
-      @include it("sm\:basis-52") {
+      @include it('sm\:basis-52') {
         @include assert {
           @include output {
             @include sm\:basis-52;
@@ -1185,7 +1185,7 @@
         }
       }
 
-      @include it("sm\:basis-56") {
+      @include it('sm\:basis-56') {
         @include assert {
           @include output {
             @include sm\:basis-56;
@@ -1200,7 +1200,7 @@
         }
       }
 
-      @include it("sm\:basis-60") {
+      @include it('sm\:basis-60') {
         @include assert {
           @include output {
             @include sm\:basis-60;
@@ -1215,7 +1215,7 @@
         }
       }
 
-      @include it("sm\:basis-64") {
+      @include it('sm\:basis-64') {
         @include assert {
           @include output {
             @include sm\:basis-64;
@@ -1230,7 +1230,7 @@
         }
       }
 
-      @include it("sm\:basis-72") {
+      @include it('sm\:basis-72') {
         @include assert {
           @include output {
             @include sm\:basis-72;
@@ -1245,7 +1245,7 @@
         }
       }
 
-      @include it("sm\:basis-80") {
+      @include it('sm\:basis-80') {
         @include assert {
           @include output {
             @include sm\:basis-80;
@@ -1260,7 +1260,7 @@
         }
       }
 
-      @include it("sm\:basis-96") {
+      @include it('sm\:basis-96') {
         @include assert {
           @include output {
             @include sm\:basis-96;
@@ -1275,7 +1275,7 @@
         }
       }
 
-      @include it("sm\:basis-auto") {
+      @include it('sm\:basis-auto') {
         @include assert {
           @include output {
             @include sm\:basis-auto;
@@ -1290,7 +1290,7 @@
         }
       }
 
-      @include it("sm\:basis-px") {
+      @include it('sm\:basis-px') {
         @include assert {
           @include output {
             @include sm\:basis-px;
@@ -1305,7 +1305,7 @@
         }
       }
 
-      @include it("sm\:basis-0\.5") {
+      @include it('sm\:basis-0\.5') {
         @include assert {
           @include output {
             @include sm\:basis-0\.5;
@@ -1320,7 +1320,7 @@
         }
       }
 
-      @include it("sm\:basis-1\.5") {
+      @include it('sm\:basis-1\.5') {
         @include assert {
           @include output {
             @include sm\:basis-1\.5;
@@ -1335,7 +1335,7 @@
         }
       }
 
-      @include it("sm\:basis-2\.5") {
+      @include it('sm\:basis-2\.5') {
         @include assert {
           @include output {
             @include sm\:basis-2\.5;
@@ -1350,7 +1350,7 @@
         }
       }
 
-      @include it("sm\:basis-3\.5") {
+      @include it('sm\:basis-3\.5') {
         @include assert {
           @include output {
             @include sm\:basis-3\.5;
@@ -1365,7 +1365,7 @@
         }
       }
 
-      @include it("sm\:basis-1\/2") {
+      @include it('sm\:basis-1\/2') {
         @include assert {
           @include output {
             @include sm\:basis-1\/2;
@@ -1380,7 +1380,7 @@
         }
       }
 
-      @include it("sm\:basis-1\/3") {
+      @include it('sm\:basis-1\/3') {
         @include assert {
           @include output {
             @include sm\:basis-1\/3;
@@ -1395,7 +1395,7 @@
         }
       }
 
-      @include it("sm\:basis-2\/3") {
+      @include it('sm\:basis-2\/3') {
         @include assert {
           @include output {
             @include sm\:basis-2\/3;
@@ -1410,7 +1410,7 @@
         }
       }
 
-      @include it("sm\:basis-1\/4") {
+      @include it('sm\:basis-1\/4') {
         @include assert {
           @include output {
             @include sm\:basis-1\/4;
@@ -1425,7 +1425,7 @@
         }
       }
 
-      @include it("sm\:basis-2\/4") {
+      @include it('sm\:basis-2\/4') {
         @include assert {
           @include output {
             @include sm\:basis-2\/4;
@@ -1440,7 +1440,7 @@
         }
       }
 
-      @include it("sm\:basis-3\/4") {
+      @include it('sm\:basis-3\/4') {
         @include assert {
           @include output {
             @include sm\:basis-3\/4;
@@ -1455,7 +1455,7 @@
         }
       }
 
-      @include it("sm\:basis-1\/5") {
+      @include it('sm\:basis-1\/5') {
         @include assert {
           @include output {
             @include sm\:basis-1\/5;
@@ -1470,7 +1470,7 @@
         }
       }
 
-      @include it("sm\:basis-2\/5") {
+      @include it('sm\:basis-2\/5') {
         @include assert {
           @include output {
             @include sm\:basis-2\/5;
@@ -1485,7 +1485,7 @@
         }
       }
 
-      @include it("sm\:basis-3\/5") {
+      @include it('sm\:basis-3\/5') {
         @include assert {
           @include output {
             @include sm\:basis-3\/5;
@@ -1500,7 +1500,7 @@
         }
       }
 
-      @include it("sm\:basis-4\/5") {
+      @include it('sm\:basis-4\/5') {
         @include assert {
           @include output {
             @include sm\:basis-4\/5;
@@ -1515,7 +1515,7 @@
         }
       }
 
-      @include it("sm\:basis-1\/6") {
+      @include it('sm\:basis-1\/6') {
         @include assert {
           @include output {
             @include sm\:basis-1\/6;
@@ -1530,7 +1530,7 @@
         }
       }
 
-      @include it("sm\:basis-2\/6") {
+      @include it('sm\:basis-2\/6') {
         @include assert {
           @include output {
             @include sm\:basis-2\/6;
@@ -1545,7 +1545,7 @@
         }
       }
 
-      @include it("sm\:basis-3\/6") {
+      @include it('sm\:basis-3\/6') {
         @include assert {
           @include output {
             @include sm\:basis-3\/6;
@@ -1560,7 +1560,7 @@
         }
       }
 
-      @include it("sm\:basis-4\/6") {
+      @include it('sm\:basis-4\/6') {
         @include assert {
           @include output {
             @include sm\:basis-4\/6;
@@ -1575,7 +1575,7 @@
         }
       }
 
-      @include it("sm\:basis-5\/6") {
+      @include it('sm\:basis-5\/6') {
         @include assert {
           @include output {
             @include sm\:basis-5\/6;
@@ -1590,7 +1590,7 @@
         }
       }
 
-      @include it("sm\:basis-1\/12") {
+      @include it('sm\:basis-1\/12') {
         @include assert {
           @include output {
             @include sm\:basis-1\/12;
@@ -1605,7 +1605,7 @@
         }
       }
 
-      @include it("sm\:basis-2\/12") {
+      @include it('sm\:basis-2\/12') {
         @include assert {
           @include output {
             @include sm\:basis-2\/12;
@@ -1620,7 +1620,7 @@
         }
       }
 
-      @include it("sm\:basis-3\/12") {
+      @include it('sm\:basis-3\/12') {
         @include assert {
           @include output {
             @include sm\:basis-3\/12;
@@ -1635,7 +1635,7 @@
         }
       }
 
-      @include it("sm\:basis-4\/12") {
+      @include it('sm\:basis-4\/12') {
         @include assert {
           @include output {
             @include sm\:basis-4\/12;
@@ -1650,7 +1650,7 @@
         }
       }
 
-      @include it("sm\:basis-5\/12") {
+      @include it('sm\:basis-5\/12') {
         @include assert {
           @include output {
             @include sm\:basis-5\/12;
@@ -1665,7 +1665,7 @@
         }
       }
 
-      @include it("sm\:basis-6\/12") {
+      @include it('sm\:basis-6\/12') {
         @include assert {
           @include output {
             @include sm\:basis-6\/12;
@@ -1680,7 +1680,7 @@
         }
       }
 
-      @include it("sm\:basis-7\/12") {
+      @include it('sm\:basis-7\/12') {
         @include assert {
           @include output {
             @include sm\:basis-7\/12;
@@ -1695,7 +1695,7 @@
         }
       }
 
-      @include it("sm\:basis-8\/12") {
+      @include it('sm\:basis-8\/12') {
         @include assert {
           @include output {
             @include sm\:basis-8\/12;
@@ -1710,7 +1710,7 @@
         }
       }
 
-      @include it("sm\:basis-9\/12") {
+      @include it('sm\:basis-9\/12') {
         @include assert {
           @include output {
             @include sm\:basis-9\/12;
@@ -1725,7 +1725,7 @@
         }
       }
 
-      @include it("sm\:basis-10\/12") {
+      @include it('sm\:basis-10\/12') {
         @include assert {
           @include output {
             @include sm\:basis-10\/12;
@@ -1740,7 +1740,7 @@
         }
       }
 
-      @include it("sm\:basis-11\/12") {
+      @include it('sm\:basis-11\/12') {
         @include assert {
           @include output {
             @include sm\:basis-11\/12;
@@ -1755,7 +1755,7 @@
         }
       }
 
-      @include it("sm\:basis-full") {
+      @include it('sm\:basis-full') {
         @include assert {
           @include output {
             @include sm\:basis-full;
@@ -1770,7 +1770,7 @@
         }
       }
 
-      @include it("md\:basis-0") {
+      @include it('md\:basis-0') {
         @include assert {
           @include output {
             @include md\:basis-0;
@@ -1785,7 +1785,7 @@
         }
       }
 
-      @include it("md\:basis-1") {
+      @include it('md\:basis-1') {
         @include assert {
           @include output {
             @include md\:basis-1;
@@ -1800,7 +1800,7 @@
         }
       }
 
-      @include it("md\:basis-2") {
+      @include it('md\:basis-2') {
         @include assert {
           @include output {
             @include md\:basis-2;
@@ -1815,7 +1815,7 @@
         }
       }
 
-      @include it("md\:basis-3") {
+      @include it('md\:basis-3') {
         @include assert {
           @include output {
             @include md\:basis-3;
@@ -1830,7 +1830,7 @@
         }
       }
 
-      @include it("md\:basis-4") {
+      @include it('md\:basis-4') {
         @include assert {
           @include output {
             @include md\:basis-4;
@@ -1845,7 +1845,7 @@
         }
       }
 
-      @include it("md\:basis-5") {
+      @include it('md\:basis-5') {
         @include assert {
           @include output {
             @include md\:basis-5;
@@ -1860,7 +1860,7 @@
         }
       }
 
-      @include it("md\:basis-6") {
+      @include it('md\:basis-6') {
         @include assert {
           @include output {
             @include md\:basis-6;
@@ -1875,7 +1875,7 @@
         }
       }
 
-      @include it("md\:basis-7") {
+      @include it('md\:basis-7') {
         @include assert {
           @include output {
             @include md\:basis-7;
@@ -1890,7 +1890,7 @@
         }
       }
 
-      @include it("md\:basis-8") {
+      @include it('md\:basis-8') {
         @include assert {
           @include output {
             @include md\:basis-8;
@@ -1905,7 +1905,7 @@
         }
       }
 
-      @include it("md\:basis-9") {
+      @include it('md\:basis-9') {
         @include assert {
           @include output {
             @include md\:basis-9;
@@ -1920,7 +1920,7 @@
         }
       }
 
-      @include it("md\:basis-10") {
+      @include it('md\:basis-10') {
         @include assert {
           @include output {
             @include md\:basis-10;
@@ -1935,7 +1935,7 @@
         }
       }
 
-      @include it("md\:basis-11") {
+      @include it('md\:basis-11') {
         @include assert {
           @include output {
             @include md\:basis-11;
@@ -1950,7 +1950,7 @@
         }
       }
 
-      @include it("md\:basis-12") {
+      @include it('md\:basis-12') {
         @include assert {
           @include output {
             @include md\:basis-12;
@@ -1965,7 +1965,7 @@
         }
       }
 
-      @include it("md\:basis-14") {
+      @include it('md\:basis-14') {
         @include assert {
           @include output {
             @include md\:basis-14;
@@ -1980,7 +1980,7 @@
         }
       }
 
-      @include it("md\:basis-16") {
+      @include it('md\:basis-16') {
         @include assert {
           @include output {
             @include md\:basis-16;
@@ -1995,7 +1995,7 @@
         }
       }
 
-      @include it("md\:basis-20") {
+      @include it('md\:basis-20') {
         @include assert {
           @include output {
             @include md\:basis-20;
@@ -2010,7 +2010,7 @@
         }
       }
 
-      @include it("md\:basis-24") {
+      @include it('md\:basis-24') {
         @include assert {
           @include output {
             @include md\:basis-24;
@@ -2025,7 +2025,7 @@
         }
       }
 
-      @include it("md\:basis-28") {
+      @include it('md\:basis-28') {
         @include assert {
           @include output {
             @include md\:basis-28;
@@ -2040,7 +2040,7 @@
         }
       }
 
-      @include it("md\:basis-32") {
+      @include it('md\:basis-32') {
         @include assert {
           @include output {
             @include md\:basis-32;
@@ -2055,7 +2055,7 @@
         }
       }
 
-      @include it("md\:basis-36") {
+      @include it('md\:basis-36') {
         @include assert {
           @include output {
             @include md\:basis-36;
@@ -2070,7 +2070,7 @@
         }
       }
 
-      @include it("md\:basis-40") {
+      @include it('md\:basis-40') {
         @include assert {
           @include output {
             @include md\:basis-40;
@@ -2085,7 +2085,7 @@
         }
       }
 
-      @include it("md\:basis-44") {
+      @include it('md\:basis-44') {
         @include assert {
           @include output {
             @include md\:basis-44;
@@ -2100,7 +2100,7 @@
         }
       }
 
-      @include it("md\:basis-48") {
+      @include it('md\:basis-48') {
         @include assert {
           @include output {
             @include md\:basis-48;
@@ -2115,7 +2115,7 @@
         }
       }
 
-      @include it("md\:basis-52") {
+      @include it('md\:basis-52') {
         @include assert {
           @include output {
             @include md\:basis-52;
@@ -2130,7 +2130,7 @@
         }
       }
 
-      @include it("md\:basis-56") {
+      @include it('md\:basis-56') {
         @include assert {
           @include output {
             @include md\:basis-56;
@@ -2145,7 +2145,7 @@
         }
       }
 
-      @include it("md\:basis-60") {
+      @include it('md\:basis-60') {
         @include assert {
           @include output {
             @include md\:basis-60;
@@ -2160,7 +2160,7 @@
         }
       }
 
-      @include it("md\:basis-64") {
+      @include it('md\:basis-64') {
         @include assert {
           @include output {
             @include md\:basis-64;
@@ -2175,7 +2175,7 @@
         }
       }
 
-      @include it("md\:basis-72") {
+      @include it('md\:basis-72') {
         @include assert {
           @include output {
             @include md\:basis-72;
@@ -2190,7 +2190,7 @@
         }
       }
 
-      @include it("md\:basis-80") {
+      @include it('md\:basis-80') {
         @include assert {
           @include output {
             @include md\:basis-80;
@@ -2205,7 +2205,7 @@
         }
       }
 
-      @include it("md\:basis-96") {
+      @include it('md\:basis-96') {
         @include assert {
           @include output {
             @include md\:basis-96;
@@ -2220,7 +2220,7 @@
         }
       }
 
-      @include it("md\:basis-auto") {
+      @include it('md\:basis-auto') {
         @include assert {
           @include output {
             @include md\:basis-auto;
@@ -2235,7 +2235,7 @@
         }
       }
 
-      @include it("md\:basis-px") {
+      @include it('md\:basis-px') {
         @include assert {
           @include output {
             @include md\:basis-px;
@@ -2250,7 +2250,7 @@
         }
       }
 
-      @include it("md\:basis-0\.5") {
+      @include it('md\:basis-0\.5') {
         @include assert {
           @include output {
             @include md\:basis-0\.5;
@@ -2265,7 +2265,7 @@
         }
       }
 
-      @include it("md\:basis-1\.5") {
+      @include it('md\:basis-1\.5') {
         @include assert {
           @include output {
             @include md\:basis-1\.5;
@@ -2280,7 +2280,7 @@
         }
       }
 
-      @include it("md\:basis-2\.5") {
+      @include it('md\:basis-2\.5') {
         @include assert {
           @include output {
             @include md\:basis-2\.5;
@@ -2295,7 +2295,7 @@
         }
       }
 
-      @include it("md\:basis-3\.5") {
+      @include it('md\:basis-3\.5') {
         @include assert {
           @include output {
             @include md\:basis-3\.5;
@@ -2310,7 +2310,7 @@
         }
       }
 
-      @include it("md\:basis-1\/2") {
+      @include it('md\:basis-1\/2') {
         @include assert {
           @include output {
             @include md\:basis-1\/2;
@@ -2325,7 +2325,7 @@
         }
       }
 
-      @include it("md\:basis-1\/3") {
+      @include it('md\:basis-1\/3') {
         @include assert {
           @include output {
             @include md\:basis-1\/3;
@@ -2340,7 +2340,7 @@
         }
       }
 
-      @include it("md\:basis-2\/3") {
+      @include it('md\:basis-2\/3') {
         @include assert {
           @include output {
             @include md\:basis-2\/3;
@@ -2355,7 +2355,7 @@
         }
       }
 
-      @include it("md\:basis-1\/4") {
+      @include it('md\:basis-1\/4') {
         @include assert {
           @include output {
             @include md\:basis-1\/4;
@@ -2370,7 +2370,7 @@
         }
       }
 
-      @include it("md\:basis-2\/4") {
+      @include it('md\:basis-2\/4') {
         @include assert {
           @include output {
             @include md\:basis-2\/4;
@@ -2385,7 +2385,7 @@
         }
       }
 
-      @include it("md\:basis-3\/4") {
+      @include it('md\:basis-3\/4') {
         @include assert {
           @include output {
             @include md\:basis-3\/4;
@@ -2400,7 +2400,7 @@
         }
       }
 
-      @include it("md\:basis-1\/5") {
+      @include it('md\:basis-1\/5') {
         @include assert {
           @include output {
             @include md\:basis-1\/5;
@@ -2415,7 +2415,7 @@
         }
       }
 
-      @include it("md\:basis-2\/5") {
+      @include it('md\:basis-2\/5') {
         @include assert {
           @include output {
             @include md\:basis-2\/5;
@@ -2430,7 +2430,7 @@
         }
       }
 
-      @include it("md\:basis-3\/5") {
+      @include it('md\:basis-3\/5') {
         @include assert {
           @include output {
             @include md\:basis-3\/5;
@@ -2445,7 +2445,7 @@
         }
       }
 
-      @include it("md\:basis-4\/5") {
+      @include it('md\:basis-4\/5') {
         @include assert {
           @include output {
             @include md\:basis-4\/5;
@@ -2460,7 +2460,7 @@
         }
       }
 
-      @include it("md\:basis-1\/6") {
+      @include it('md\:basis-1\/6') {
         @include assert {
           @include output {
             @include md\:basis-1\/6;
@@ -2475,7 +2475,7 @@
         }
       }
 
-      @include it("md\:basis-2\/6") {
+      @include it('md\:basis-2\/6') {
         @include assert {
           @include output {
             @include md\:basis-2\/6;
@@ -2490,7 +2490,7 @@
         }
       }
 
-      @include it("md\:basis-3\/6") {
+      @include it('md\:basis-3\/6') {
         @include assert {
           @include output {
             @include md\:basis-3\/6;
@@ -2505,7 +2505,7 @@
         }
       }
 
-      @include it("md\:basis-4\/6") {
+      @include it('md\:basis-4\/6') {
         @include assert {
           @include output {
             @include md\:basis-4\/6;
@@ -2520,7 +2520,7 @@
         }
       }
 
-      @include it("md\:basis-5\/6") {
+      @include it('md\:basis-5\/6') {
         @include assert {
           @include output {
             @include md\:basis-5\/6;
@@ -2535,7 +2535,7 @@
         }
       }
 
-      @include it("md\:basis-1\/12") {
+      @include it('md\:basis-1\/12') {
         @include assert {
           @include output {
             @include md\:basis-1\/12;
@@ -2550,7 +2550,7 @@
         }
       }
 
-      @include it("md\:basis-2\/12") {
+      @include it('md\:basis-2\/12') {
         @include assert {
           @include output {
             @include md\:basis-2\/12;
@@ -2565,7 +2565,7 @@
         }
       }
 
-      @include it("md\:basis-3\/12") {
+      @include it('md\:basis-3\/12') {
         @include assert {
           @include output {
             @include md\:basis-3\/12;
@@ -2580,7 +2580,7 @@
         }
       }
 
-      @include it("md\:basis-4\/12") {
+      @include it('md\:basis-4\/12') {
         @include assert {
           @include output {
             @include md\:basis-4\/12;
@@ -2595,7 +2595,7 @@
         }
       }
 
-      @include it("md\:basis-5\/12") {
+      @include it('md\:basis-5\/12') {
         @include assert {
           @include output {
             @include md\:basis-5\/12;
@@ -2610,7 +2610,7 @@
         }
       }
 
-      @include it("md\:basis-6\/12") {
+      @include it('md\:basis-6\/12') {
         @include assert {
           @include output {
             @include md\:basis-6\/12;
@@ -2625,7 +2625,7 @@
         }
       }
 
-      @include it("md\:basis-7\/12") {
+      @include it('md\:basis-7\/12') {
         @include assert {
           @include output {
             @include md\:basis-7\/12;
@@ -2640,7 +2640,7 @@
         }
       }
 
-      @include it("md\:basis-8\/12") {
+      @include it('md\:basis-8\/12') {
         @include assert {
           @include output {
             @include md\:basis-8\/12;
@@ -2655,7 +2655,7 @@
         }
       }
 
-      @include it("md\:basis-9\/12") {
+      @include it('md\:basis-9\/12') {
         @include assert {
           @include output {
             @include md\:basis-9\/12;
@@ -2670,7 +2670,7 @@
         }
       }
 
-      @include it("md\:basis-10\/12") {
+      @include it('md\:basis-10\/12') {
         @include assert {
           @include output {
             @include md\:basis-10\/12;
@@ -2685,7 +2685,7 @@
         }
       }
 
-      @include it("md\:basis-11\/12") {
+      @include it('md\:basis-11\/12') {
         @include assert {
           @include output {
             @include md\:basis-11\/12;
@@ -2700,7 +2700,7 @@
         }
       }
 
-      @include it("md\:basis-full") {
+      @include it('md\:basis-full') {
         @include assert {
           @include output {
             @include md\:basis-full;
@@ -2715,7 +2715,7 @@
         }
       }
 
-      @include it("xl\:basis-0") {
+      @include it('xl\:basis-0') {
         @include assert {
           @include output {
             @include xl\:basis-0;
@@ -2730,7 +2730,7 @@
         }
       }
 
-      @include it("xl\:basis-1") {
+      @include it('xl\:basis-1') {
         @include assert {
           @include output {
             @include xl\:basis-1;
@@ -2745,7 +2745,7 @@
         }
       }
 
-      @include it("xl\:basis-2") {
+      @include it('xl\:basis-2') {
         @include assert {
           @include output {
             @include xl\:basis-2;
@@ -2760,7 +2760,7 @@
         }
       }
 
-      @include it("xl\:basis-3") {
+      @include it('xl\:basis-3') {
         @include assert {
           @include output {
             @include xl\:basis-3;
@@ -2775,7 +2775,7 @@
         }
       }
 
-      @include it("xl\:basis-4") {
+      @include it('xl\:basis-4') {
         @include assert {
           @include output {
             @include xl\:basis-4;
@@ -2790,7 +2790,7 @@
         }
       }
 
-      @include it("xl\:basis-5") {
+      @include it('xl\:basis-5') {
         @include assert {
           @include output {
             @include xl\:basis-5;
@@ -2805,7 +2805,7 @@
         }
       }
 
-      @include it("xl\:basis-6") {
+      @include it('xl\:basis-6') {
         @include assert {
           @include output {
             @include xl\:basis-6;
@@ -2820,7 +2820,7 @@
         }
       }
 
-      @include it("xl\:basis-7") {
+      @include it('xl\:basis-7') {
         @include assert {
           @include output {
             @include xl\:basis-7;
@@ -2835,7 +2835,7 @@
         }
       }
 
-      @include it("xl\:basis-8") {
+      @include it('xl\:basis-8') {
         @include assert {
           @include output {
             @include xl\:basis-8;
@@ -2850,7 +2850,7 @@
         }
       }
 
-      @include it("xl\:basis-9") {
+      @include it('xl\:basis-9') {
         @include assert {
           @include output {
             @include xl\:basis-9;
@@ -2865,7 +2865,7 @@
         }
       }
 
-      @include it("xl\:basis-10") {
+      @include it('xl\:basis-10') {
         @include assert {
           @include output {
             @include xl\:basis-10;
@@ -2880,7 +2880,7 @@
         }
       }
 
-      @include it("xl\:basis-11") {
+      @include it('xl\:basis-11') {
         @include assert {
           @include output {
             @include xl\:basis-11;
@@ -2895,7 +2895,7 @@
         }
       }
 
-      @include it("xl\:basis-12") {
+      @include it('xl\:basis-12') {
         @include assert {
           @include output {
             @include xl\:basis-12;
@@ -2910,7 +2910,7 @@
         }
       }
 
-      @include it("xl\:basis-14") {
+      @include it('xl\:basis-14') {
         @include assert {
           @include output {
             @include xl\:basis-14;
@@ -2925,7 +2925,7 @@
         }
       }
 
-      @include it("xl\:basis-16") {
+      @include it('xl\:basis-16') {
         @include assert {
           @include output {
             @include xl\:basis-16;
@@ -2940,7 +2940,7 @@
         }
       }
 
-      @include it("xl\:basis-20") {
+      @include it('xl\:basis-20') {
         @include assert {
           @include output {
             @include xl\:basis-20;
@@ -2955,7 +2955,7 @@
         }
       }
 
-      @include it("xl\:basis-24") {
+      @include it('xl\:basis-24') {
         @include assert {
           @include output {
             @include xl\:basis-24;
@@ -2970,7 +2970,7 @@
         }
       }
 
-      @include it("xl\:basis-28") {
+      @include it('xl\:basis-28') {
         @include assert {
           @include output {
             @include xl\:basis-28;
@@ -2985,7 +2985,7 @@
         }
       }
 
-      @include it("xl\:basis-32") {
+      @include it('xl\:basis-32') {
         @include assert {
           @include output {
             @include xl\:basis-32;
@@ -3000,7 +3000,7 @@
         }
       }
 
-      @include it("xl\:basis-36") {
+      @include it('xl\:basis-36') {
         @include assert {
           @include output {
             @include xl\:basis-36;
@@ -3015,7 +3015,7 @@
         }
       }
 
-      @include it("xl\:basis-40") {
+      @include it('xl\:basis-40') {
         @include assert {
           @include output {
             @include xl\:basis-40;
@@ -3030,7 +3030,7 @@
         }
       }
 
-      @include it("xl\:basis-44") {
+      @include it('xl\:basis-44') {
         @include assert {
           @include output {
             @include xl\:basis-44;
@@ -3045,7 +3045,7 @@
         }
       }
 
-      @include it("xl\:basis-48") {
+      @include it('xl\:basis-48') {
         @include assert {
           @include output {
             @include xl\:basis-48;
@@ -3060,7 +3060,7 @@
         }
       }
 
-      @include it("xl\:basis-52") {
+      @include it('xl\:basis-52') {
         @include assert {
           @include output {
             @include xl\:basis-52;
@@ -3075,7 +3075,7 @@
         }
       }
 
-      @include it("xl\:basis-56") {
+      @include it('xl\:basis-56') {
         @include assert {
           @include output {
             @include xl\:basis-56;
@@ -3090,7 +3090,7 @@
         }
       }
 
-      @include it("xl\:basis-60") {
+      @include it('xl\:basis-60') {
         @include assert {
           @include output {
             @include xl\:basis-60;
@@ -3105,7 +3105,7 @@
         }
       }
 
-      @include it("xl\:basis-64") {
+      @include it('xl\:basis-64') {
         @include assert {
           @include output {
             @include xl\:basis-64;
@@ -3120,7 +3120,7 @@
         }
       }
 
-      @include it("xl\:basis-72") {
+      @include it('xl\:basis-72') {
         @include assert {
           @include output {
             @include xl\:basis-72;
@@ -3135,7 +3135,7 @@
         }
       }
 
-      @include it("xl\:basis-80") {
+      @include it('xl\:basis-80') {
         @include assert {
           @include output {
             @include xl\:basis-80;
@@ -3150,7 +3150,7 @@
         }
       }
 
-      @include it("xl\:basis-96") {
+      @include it('xl\:basis-96') {
         @include assert {
           @include output {
             @include xl\:basis-96;
@@ -3165,7 +3165,7 @@
         }
       }
 
-      @include it("xl\:basis-auto") {
+      @include it('xl\:basis-auto') {
         @include assert {
           @include output {
             @include xl\:basis-auto;
@@ -3180,7 +3180,7 @@
         }
       }
 
-      @include it("xl\:basis-px") {
+      @include it('xl\:basis-px') {
         @include assert {
           @include output {
             @include xl\:basis-px;
@@ -3195,7 +3195,7 @@
         }
       }
 
-      @include it("xl\:basis-0\.5") {
+      @include it('xl\:basis-0\.5') {
         @include assert {
           @include output {
             @include xl\:basis-0\.5;
@@ -3210,7 +3210,7 @@
         }
       }
 
-      @include it("xl\:basis-1\.5") {
+      @include it('xl\:basis-1\.5') {
         @include assert {
           @include output {
             @include xl\:basis-1\.5;
@@ -3225,7 +3225,7 @@
         }
       }
 
-      @include it("xl\:basis-2\.5") {
+      @include it('xl\:basis-2\.5') {
         @include assert {
           @include output {
             @include xl\:basis-2\.5;
@@ -3240,7 +3240,7 @@
         }
       }
 
-      @include it("xl\:basis-3\.5") {
+      @include it('xl\:basis-3\.5') {
         @include assert {
           @include output {
             @include xl\:basis-3\.5;
@@ -3255,7 +3255,7 @@
         }
       }
 
-      @include it("xl\:basis-1\/2") {
+      @include it('xl\:basis-1\/2') {
         @include assert {
           @include output {
             @include xl\:basis-1\/2;
@@ -3270,7 +3270,7 @@
         }
       }
 
-      @include it("xl\:basis-1\/3") {
+      @include it('xl\:basis-1\/3') {
         @include assert {
           @include output {
             @include xl\:basis-1\/3;
@@ -3285,7 +3285,7 @@
         }
       }
 
-      @include it("xl\:basis-2\/3") {
+      @include it('xl\:basis-2\/3') {
         @include assert {
           @include output {
             @include xl\:basis-2\/3;
@@ -3300,7 +3300,7 @@
         }
       }
 
-      @include it("xl\:basis-1\/4") {
+      @include it('xl\:basis-1\/4') {
         @include assert {
           @include output {
             @include xl\:basis-1\/4;
@@ -3315,7 +3315,7 @@
         }
       }
 
-      @include it("xl\:basis-2\/4") {
+      @include it('xl\:basis-2\/4') {
         @include assert {
           @include output {
             @include xl\:basis-2\/4;
@@ -3330,7 +3330,7 @@
         }
       }
 
-      @include it("xl\:basis-3\/4") {
+      @include it('xl\:basis-3\/4') {
         @include assert {
           @include output {
             @include xl\:basis-3\/4;
@@ -3345,7 +3345,7 @@
         }
       }
 
-      @include it("xl\:basis-1\/5") {
+      @include it('xl\:basis-1\/5') {
         @include assert {
           @include output {
             @include xl\:basis-1\/5;
@@ -3360,7 +3360,7 @@
         }
       }
 
-      @include it("xl\:basis-2\/5") {
+      @include it('xl\:basis-2\/5') {
         @include assert {
           @include output {
             @include xl\:basis-2\/5;
@@ -3375,7 +3375,7 @@
         }
       }
 
-      @include it("xl\:basis-3\/5") {
+      @include it('xl\:basis-3\/5') {
         @include assert {
           @include output {
             @include xl\:basis-3\/5;
@@ -3390,7 +3390,7 @@
         }
       }
 
-      @include it("xl\:basis-4\/5") {
+      @include it('xl\:basis-4\/5') {
         @include assert {
           @include output {
             @include xl\:basis-4\/5;
@@ -3405,7 +3405,7 @@
         }
       }
 
-      @include it("xl\:basis-1\/6") {
+      @include it('xl\:basis-1\/6') {
         @include assert {
           @include output {
             @include xl\:basis-1\/6;
@@ -3420,7 +3420,7 @@
         }
       }
 
-      @include it("xl\:basis-2\/6") {
+      @include it('xl\:basis-2\/6') {
         @include assert {
           @include output {
             @include xl\:basis-2\/6;
@@ -3435,7 +3435,7 @@
         }
       }
 
-      @include it("xl\:basis-3\/6") {
+      @include it('xl\:basis-3\/6') {
         @include assert {
           @include output {
             @include xl\:basis-3\/6;
@@ -3450,7 +3450,7 @@
         }
       }
 
-      @include it("xl\:basis-4\/6") {
+      @include it('xl\:basis-4\/6') {
         @include assert {
           @include output {
             @include xl\:basis-4\/6;
@@ -3465,7 +3465,7 @@
         }
       }
 
-      @include it("xl\:basis-5\/6") {
+      @include it('xl\:basis-5\/6') {
         @include assert {
           @include output {
             @include xl\:basis-5\/6;
@@ -3480,7 +3480,7 @@
         }
       }
 
-      @include it("xl\:basis-1\/12") {
+      @include it('xl\:basis-1\/12') {
         @include assert {
           @include output {
             @include xl\:basis-1\/12;
@@ -3495,7 +3495,7 @@
         }
       }
 
-      @include it("xl\:basis-2\/12") {
+      @include it('xl\:basis-2\/12') {
         @include assert {
           @include output {
             @include xl\:basis-2\/12;
@@ -3510,7 +3510,7 @@
         }
       }
 
-      @include it("xl\:basis-3\/12") {
+      @include it('xl\:basis-3\/12') {
         @include assert {
           @include output {
             @include xl\:basis-3\/12;
@@ -3525,7 +3525,7 @@
         }
       }
 
-      @include it("xl\:basis-4\/12") {
+      @include it('xl\:basis-4\/12') {
         @include assert {
           @include output {
             @include xl\:basis-4\/12;
@@ -3540,7 +3540,7 @@
         }
       }
 
-      @include it("xl\:basis-5\/12") {
+      @include it('xl\:basis-5\/12') {
         @include assert {
           @include output {
             @include xl\:basis-5\/12;
@@ -3555,7 +3555,7 @@
         }
       }
 
-      @include it("xl\:basis-6\/12") {
+      @include it('xl\:basis-6\/12') {
         @include assert {
           @include output {
             @include xl\:basis-6\/12;
@@ -3570,7 +3570,7 @@
         }
       }
 
-      @include it("xl\:basis-7\/12") {
+      @include it('xl\:basis-7\/12') {
         @include assert {
           @include output {
             @include xl\:basis-7\/12;
@@ -3585,7 +3585,7 @@
         }
       }
 
-      @include it("xl\:basis-8\/12") {
+      @include it('xl\:basis-8\/12') {
         @include assert {
           @include output {
             @include xl\:basis-8\/12;
@@ -3600,7 +3600,7 @@
         }
       }
 
-      @include it("xl\:basis-9\/12") {
+      @include it('xl\:basis-9\/12') {
         @include assert {
           @include output {
             @include xl\:basis-9\/12;
@@ -3615,7 +3615,7 @@
         }
       }
 
-      @include it("xl\:basis-10\/12") {
+      @include it('xl\:basis-10\/12') {
         @include assert {
           @include output {
             @include xl\:basis-10\/12;
@@ -3630,7 +3630,7 @@
         }
       }
 
-      @include it("xl\:basis-11\/12") {
+      @include it('xl\:basis-11\/12') {
         @include assert {
           @include output {
             @include xl\:basis-11\/12;
@@ -3645,7 +3645,7 @@
         }
       }
 
-      @include it("xl\:basis-full") {
+      @include it('xl\:basis-full') {
         @include assert {
           @include output {
             @include xl\:basis-full;
@@ -3660,7 +3660,7 @@
         }
       }
 
-      @include it("2xl\:basis-0") {
+      @include it('2xl\:basis-0') {
         @include assert {
           @include output {
             @include \2xl\:basis-0;
@@ -3675,7 +3675,7 @@
         }
       }
 
-      @include it("2xl\:basis-1") {
+      @include it('2xl\:basis-1') {
         @include assert {
           @include output {
             @include \2xl\:basis-1;
@@ -3690,7 +3690,7 @@
         }
       }
 
-      @include it("2xl\:basis-2") {
+      @include it('2xl\:basis-2') {
         @include assert {
           @include output {
             @include \2xl\:basis-2;
@@ -3705,7 +3705,7 @@
         }
       }
 
-      @include it("2xl\:basis-3") {
+      @include it('2xl\:basis-3') {
         @include assert {
           @include output {
             @include \2xl\:basis-3;
@@ -3720,7 +3720,7 @@
         }
       }
 
-      @include it("2xl\:basis-4") {
+      @include it('2xl\:basis-4') {
         @include assert {
           @include output {
             @include \2xl\:basis-4;
@@ -3735,7 +3735,7 @@
         }
       }
 
-      @include it("2xl\:basis-5") {
+      @include it('2xl\:basis-5') {
         @include assert {
           @include output {
             @include \2xl\:basis-5;
@@ -3750,7 +3750,7 @@
         }
       }
 
-      @include it("2xl\:basis-6") {
+      @include it('2xl\:basis-6') {
         @include assert {
           @include output {
             @include \2xl\:basis-6;
@@ -3765,7 +3765,7 @@
         }
       }
 
-      @include it("2xl\:basis-7") {
+      @include it('2xl\:basis-7') {
         @include assert {
           @include output {
             @include \2xl\:basis-7;
@@ -3780,7 +3780,7 @@
         }
       }
 
-      @include it("2xl\:basis-8") {
+      @include it('2xl\:basis-8') {
         @include assert {
           @include output {
             @include \2xl\:basis-8;
@@ -3795,7 +3795,7 @@
         }
       }
 
-      @include it("2xl\:basis-9") {
+      @include it('2xl\:basis-9') {
         @include assert {
           @include output {
             @include \2xl\:basis-9;
@@ -3810,7 +3810,7 @@
         }
       }
 
-      @include it("2xl\:basis-10") {
+      @include it('2xl\:basis-10') {
         @include assert {
           @include output {
             @include \2xl\:basis-10;
@@ -3825,7 +3825,7 @@
         }
       }
 
-      @include it("2xl\:basis-11") {
+      @include it('2xl\:basis-11') {
         @include assert {
           @include output {
             @include \2xl\:basis-11;
@@ -3840,7 +3840,7 @@
         }
       }
 
-      @include it("2xl\:basis-12") {
+      @include it('2xl\:basis-12') {
         @include assert {
           @include output {
             @include \2xl\:basis-12;
@@ -3855,7 +3855,7 @@
         }
       }
 
-      @include it("2xl\:basis-14") {
+      @include it('2xl\:basis-14') {
         @include assert {
           @include output {
             @include \2xl\:basis-14;
@@ -3870,7 +3870,7 @@
         }
       }
 
-      @include it("2xl\:basis-16") {
+      @include it('2xl\:basis-16') {
         @include assert {
           @include output {
             @include \2xl\:basis-16;
@@ -3885,7 +3885,7 @@
         }
       }
 
-      @include it("2xl\:basis-20") {
+      @include it('2xl\:basis-20') {
         @include assert {
           @include output {
             @include \2xl\:basis-20;
@@ -3900,7 +3900,7 @@
         }
       }
 
-      @include it("2xl\:basis-24") {
+      @include it('2xl\:basis-24') {
         @include assert {
           @include output {
             @include \2xl\:basis-24;
@@ -3915,7 +3915,7 @@
         }
       }
 
-      @include it("2xl\:basis-28") {
+      @include it('2xl\:basis-28') {
         @include assert {
           @include output {
             @include \2xl\:basis-28;
@@ -3930,7 +3930,7 @@
         }
       }
 
-      @include it("2xl\:basis-32") {
+      @include it('2xl\:basis-32') {
         @include assert {
           @include output {
             @include \2xl\:basis-32;
@@ -3945,7 +3945,7 @@
         }
       }
 
-      @include it("2xl\:basis-36") {
+      @include it('2xl\:basis-36') {
         @include assert {
           @include output {
             @include \2xl\:basis-36;
@@ -3960,7 +3960,7 @@
         }
       }
 
-      @include it("2xl\:basis-40") {
+      @include it('2xl\:basis-40') {
         @include assert {
           @include output {
             @include \2xl\:basis-40;
@@ -3975,7 +3975,7 @@
         }
       }
 
-      @include it("2xl\:basis-44") {
+      @include it('2xl\:basis-44') {
         @include assert {
           @include output {
             @include \2xl\:basis-44;
@@ -3990,7 +3990,7 @@
         }
       }
 
-      @include it("2xl\:basis-48") {
+      @include it('2xl\:basis-48') {
         @include assert {
           @include output {
             @include \2xl\:basis-48;
@@ -4005,7 +4005,7 @@
         }
       }
 
-      @include it("2xl\:basis-52") {
+      @include it('2xl\:basis-52') {
         @include assert {
           @include output {
             @include \2xl\:basis-52;
@@ -4020,7 +4020,7 @@
         }
       }
 
-      @include it("2xl\:basis-56") {
+      @include it('2xl\:basis-56') {
         @include assert {
           @include output {
             @include \2xl\:basis-56;
@@ -4035,7 +4035,7 @@
         }
       }
 
-      @include it("2xl\:basis-60") {
+      @include it('2xl\:basis-60') {
         @include assert {
           @include output {
             @include \2xl\:basis-60;
@@ -4050,7 +4050,7 @@
         }
       }
 
-      @include it("2xl\:basis-64") {
+      @include it('2xl\:basis-64') {
         @include assert {
           @include output {
             @include \2xl\:basis-64;
@@ -4065,7 +4065,7 @@
         }
       }
 
-      @include it("2xl\:basis-72") {
+      @include it('2xl\:basis-72') {
         @include assert {
           @include output {
             @include \2xl\:basis-72;
@@ -4080,7 +4080,7 @@
         }
       }
 
-      @include it("2xl\:basis-80") {
+      @include it('2xl\:basis-80') {
         @include assert {
           @include output {
             @include \2xl\:basis-80;
@@ -4095,7 +4095,7 @@
         }
       }
 
-      @include it("2xl\:basis-96") {
+      @include it('2xl\:basis-96') {
         @include assert {
           @include output {
             @include \2xl\:basis-96;
@@ -4110,7 +4110,7 @@
         }
       }
 
-      @include it("2xl\:basis-auto") {
+      @include it('2xl\:basis-auto') {
         @include assert {
           @include output {
             @include \2xl\:basis-auto;
@@ -4125,7 +4125,7 @@
         }
       }
 
-      @include it("2xl\:basis-px") {
+      @include it('2xl\:basis-px') {
         @include assert {
           @include output {
             @include \2xl\:basis-px;
@@ -4140,7 +4140,7 @@
         }
       }
 
-      @include it("2xl\:basis-0\.5") {
+      @include it('2xl\:basis-0\.5') {
         @include assert {
           @include output {
             @include \2xl\:basis-0\.5;
@@ -4155,7 +4155,7 @@
         }
       }
 
-      @include it("2xl\:basis-1\.5") {
+      @include it('2xl\:basis-1\.5') {
         @include assert {
           @include output {
             @include \2xl\:basis-1\.5;
@@ -4170,7 +4170,7 @@
         }
       }
 
-      @include it("2xl\:basis-2\.5") {
+      @include it('2xl\:basis-2\.5') {
         @include assert {
           @include output {
             @include \2xl\:basis-2\.5;
@@ -4185,7 +4185,7 @@
         }
       }
 
-      @include it("2xl\:basis-3\.5") {
+      @include it('2xl\:basis-3\.5') {
         @include assert {
           @include output {
             @include \2xl\:basis-3\.5;
@@ -4200,7 +4200,7 @@
         }
       }
 
-      @include it("2xl\:basis-1\/2") {
+      @include it('2xl\:basis-1\/2') {
         @include assert {
           @include output {
             @include \2xl\:basis-1\/2;
@@ -4215,7 +4215,7 @@
         }
       }
 
-      @include it("2xl\:basis-1\/3") {
+      @include it('2xl\:basis-1\/3') {
         @include assert {
           @include output {
             @include \2xl\:basis-1\/3;
@@ -4230,7 +4230,7 @@
         }
       }
 
-      @include it("2xl\:basis-2\/3") {
+      @include it('2xl\:basis-2\/3') {
         @include assert {
           @include output {
             @include \2xl\:basis-2\/3;
@@ -4245,7 +4245,7 @@
         }
       }
 
-      @include it("2xl\:basis-1\/4") {
+      @include it('2xl\:basis-1\/4') {
         @include assert {
           @include output {
             @include \2xl\:basis-1\/4;
@@ -4260,7 +4260,7 @@
         }
       }
 
-      @include it("2xl\:basis-2\/4") {
+      @include it('2xl\:basis-2\/4') {
         @include assert {
           @include output {
             @include \2xl\:basis-2\/4;
@@ -4275,7 +4275,7 @@
         }
       }
 
-      @include it("2xl\:basis-3\/4") {
+      @include it('2xl\:basis-3\/4') {
         @include assert {
           @include output {
             @include \2xl\:basis-3\/4;
@@ -4290,7 +4290,7 @@
         }
       }
 
-      @include it("2xl\:basis-1\/5") {
+      @include it('2xl\:basis-1\/5') {
         @include assert {
           @include output {
             @include \2xl\:basis-1\/5;
@@ -4305,7 +4305,7 @@
         }
       }
 
-      @include it("2xl\:basis-2\/5") {
+      @include it('2xl\:basis-2\/5') {
         @include assert {
           @include output {
             @include \2xl\:basis-2\/5;
@@ -4320,7 +4320,7 @@
         }
       }
 
-      @include it("2xl\:basis-3\/5") {
+      @include it('2xl\:basis-3\/5') {
         @include assert {
           @include output {
             @include \2xl\:basis-3\/5;
@@ -4335,7 +4335,7 @@
         }
       }
 
-      @include it("2xl\:basis-4\/5") {
+      @include it('2xl\:basis-4\/5') {
         @include assert {
           @include output {
             @include \2xl\:basis-4\/5;
@@ -4350,7 +4350,7 @@
         }
       }
 
-      @include it("2xl\:basis-1\/6") {
+      @include it('2xl\:basis-1\/6') {
         @include assert {
           @include output {
             @include \2xl\:basis-1\/6;
@@ -4365,7 +4365,7 @@
         }
       }
 
-      @include it("2xl\:basis-2\/6") {
+      @include it('2xl\:basis-2\/6') {
         @include assert {
           @include output {
             @include \2xl\:basis-2\/6;
@@ -4380,7 +4380,7 @@
         }
       }
 
-      @include it("2xl\:basis-3\/6") {
+      @include it('2xl\:basis-3\/6') {
         @include assert {
           @include output {
             @include \2xl\:basis-3\/6;
@@ -4395,7 +4395,7 @@
         }
       }
 
-      @include it("2xl\:basis-4\/6") {
+      @include it('2xl\:basis-4\/6') {
         @include assert {
           @include output {
             @include \2xl\:basis-4\/6;
@@ -4410,7 +4410,7 @@
         }
       }
 
-      @include it("2xl\:basis-5\/6") {
+      @include it('2xl\:basis-5\/6') {
         @include assert {
           @include output {
             @include \2xl\:basis-5\/6;
@@ -4425,7 +4425,7 @@
         }
       }
 
-      @include it("2xl\:basis-1\/12") {
+      @include it('2xl\:basis-1\/12') {
         @include assert {
           @include output {
             @include \2xl\:basis-1\/12;
@@ -4440,7 +4440,7 @@
         }
       }
 
-      @include it("2xl\:basis-2\/12") {
+      @include it('2xl\:basis-2\/12') {
         @include assert {
           @include output {
             @include \2xl\:basis-2\/12;
@@ -4455,7 +4455,7 @@
         }
       }
 
-      @include it("2xl\:basis-3\/12") {
+      @include it('2xl\:basis-3\/12') {
         @include assert {
           @include output {
             @include \2xl\:basis-3\/12;
@@ -4470,7 +4470,7 @@
         }
       }
 
-      @include it("2xl\:basis-4\/12") {
+      @include it('2xl\:basis-4\/12') {
         @include assert {
           @include output {
             @include \2xl\:basis-4\/12;
@@ -4485,7 +4485,7 @@
         }
       }
 
-      @include it("2xl\:basis-5\/12") {
+      @include it('2xl\:basis-5\/12') {
         @include assert {
           @include output {
             @include \2xl\:basis-5\/12;
@@ -4500,7 +4500,7 @@
         }
       }
 
-      @include it("2xl\:basis-6\/12") {
+      @include it('2xl\:basis-6\/12') {
         @include assert {
           @include output {
             @include \2xl\:basis-6\/12;
@@ -4515,7 +4515,7 @@
         }
       }
 
-      @include it("2xl\:basis-7\/12") {
+      @include it('2xl\:basis-7\/12') {
         @include assert {
           @include output {
             @include \2xl\:basis-7\/12;
@@ -4530,7 +4530,7 @@
         }
       }
 
-      @include it("2xl\:basis-8\/12") {
+      @include it('2xl\:basis-8\/12') {
         @include assert {
           @include output {
             @include \2xl\:basis-8\/12;
@@ -4545,7 +4545,7 @@
         }
       }
 
-      @include it("2xl\:basis-9\/12") {
+      @include it('2xl\:basis-9\/12') {
         @include assert {
           @include output {
             @include \2xl\:basis-9\/12;
@@ -4560,7 +4560,7 @@
         }
       }
 
-      @include it("2xl\:basis-10\/12") {
+      @include it('2xl\:basis-10\/12') {
         @include assert {
           @include output {
             @include \2xl\:basis-10\/12;
@@ -4575,7 +4575,7 @@
         }
       }
 
-      @include it("2xl\:basis-11\/12") {
+      @include it('2xl\:basis-11\/12') {
         @include assert {
           @include output {
             @include \2xl\:basis-11\/12;
@@ -4590,7 +4590,7 @@
         }
       }
 
-      @include it("2xl\:basis-full") {
+      @include it('2xl\:basis-full') {
         @include assert {
           @include output {
             @include \2xl\:basis-full;
@@ -4606,8 +4606,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("basis-(14.2857143%)") {
+    @include describe('Custom') {
+      @include it('basis-(14.2857143%)') {
         @include assert {
           @include output {
             @include basis-(14.2857143%);
@@ -4620,7 +4620,7 @@
         }
       }
 
-      @include it("sm\:basis-(14.2857143%)") {
+      @include it('sm\:basis-(14.2857143%)') {
         @include assert {
           @include output {
             @include sm\:basis-(14.2857143%);
@@ -4635,7 +4635,7 @@
         }
       }
 
-      @include it("md\:basis-(14.2857143%)") {
+      @include it('md\:basis-(14.2857143%)') {
         @include assert {
           @include output {
             @include md\:basis-(14.2857143%);
@@ -4650,7 +4650,7 @@
         }
       }
 
-      @include it("lg\:basis-(14.2857143%)") {
+      @include it('lg\:basis-(14.2857143%)') {
         @include assert {
           @include output {
             @include lg\:basis-(14.2857143%);
@@ -4665,7 +4665,7 @@
         }
       }
 
-      @include it("xl\:basis-(14.2857143%)") {
+      @include it('xl\:basis-(14.2857143%)') {
         @include assert {
           @include output {
             @include xl\:basis-(14.2857143%);
@@ -4680,7 +4680,7 @@
         }
       }
 
-      @include it("2xl\:basis-(14.2857143%)") {
+      @include it('2xl\:basis-(14.2857143%)') {
         @include assert {
           @include output {
             @include \2xl\:basis-(14.2857143%);

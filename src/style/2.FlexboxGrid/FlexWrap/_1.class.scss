@@ -1,9 +1,9 @@
-@use "../../setting" as *;
+@use '../../setting' as *;
 
 $FlexWrap: (
-  "flex-wrap": wrap,
-  "flex-wrap-reverse": wrap-reverse,
-  "flex-nowrap": nowrap,
+  'flex-wrap': wrap,
+  'flex-wrap-reverse': wrap-reverse,
+  'flex-nowrap': nowrap,
 );
 
 @if $Basic {

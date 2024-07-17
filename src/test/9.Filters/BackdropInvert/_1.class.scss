@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("9.Filters") {
-  @include describe("Backdrop Invert") {
-    @include describe("Basic") {
-      @include it("backdrop-invert-0") {
+@include describe('9.Filters') {
+  @include describe('Backdrop Invert') {
+    @include describe('Basic') {
+      @include it('backdrop-invert-0') {
         @include assert {
           @include output {
             @include backdrop-invert-0;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("backdrop-invert") {
+      @include it('backdrop-invert') {
         @include assert {
           @include output {
             @include backdrop-invert;
@@ -31,8 +31,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("backdrop-invert-0") {
+    @include describe('Rwd') {
+      @include it('backdrop-invert-0') {
         @include assert {
           @include output {
             @include backdrop-invert-0;
@@ -45,7 +45,7 @@
         }
       }
 
-      @include it("backdrop-invert") {
+      @include it('backdrop-invert') {
         @include assert {
           @include output {
             @include backdrop-invert;
@@ -58,7 +58,7 @@
         }
       }
 
-      @include it("sm\:backdrop-invert-0") {
+      @include it('sm\:backdrop-invert-0') {
         @include assert {
           @include output {
             @include sm\:backdrop-invert-0;
@@ -73,7 +73,7 @@
         }
       }
 
-      @include it("sm\:backdrop-invert") {
+      @include it('sm\:backdrop-invert') {
         @include assert {
           @include output {
             @include sm\:backdrop-invert;
@@ -88,7 +88,7 @@
         }
       }
 
-      @include it("md\:backdrop-invert-0") {
+      @include it('md\:backdrop-invert-0') {
         @include assert {
           @include output {
             @include md\:backdrop-invert-0;
@@ -103,7 +103,7 @@
         }
       }
 
-      @include it("md\:backdrop-invert") {
+      @include it('md\:backdrop-invert') {
         @include assert {
           @include output {
             @include md\:backdrop-invert;
@@ -118,7 +118,7 @@
         }
       }
 
-      @include it("lg\:backdrop-invert-0") {
+      @include it('lg\:backdrop-invert-0') {
         @include assert {
           @include output {
             @include lg\:backdrop-invert-0;
@@ -133,7 +133,7 @@
         }
       }
 
-      @include it("lg\:backdrop-invert") {
+      @include it('lg\:backdrop-invert') {
         @include assert {
           @include output {
             @include lg\:backdrop-invert;
@@ -148,7 +148,7 @@
         }
       }
 
-      @include it("xl\:backdrop-invert-0") {
+      @include it('xl\:backdrop-invert-0') {
         @include assert {
           @include output {
             @include xl\:backdrop-invert-0;
@@ -163,7 +163,7 @@
         }
       }
 
-      @include it("xl\:backdrop-invert") {
+      @include it('xl\:backdrop-invert') {
         @include assert {
           @include output {
             @include xl\:backdrop-invert;
@@ -178,7 +178,7 @@
         }
       }
 
-      @include it("2xl\:backdrop-invert-0") {
+      @include it('2xl\:backdrop-invert-0') {
         @include assert {
           @include output {
             @include \2xl\:backdrop-invert-0;
@@ -193,7 +193,7 @@
         }
       }
 
-      @include it("2xl\:backdrop-invert") {
+      @include it('2xl\:backdrop-invert') {
         @include assert {
           @include output {
             @include \2xl\:backdrop-invert;
@@ -209,8 +209,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("backdrop-invert-(.25)") {
+    @include describe('Custom') {
+      @include it('backdrop-invert-(.25)') {
         @include assert {
           @include output {
             @include backdrop-invert-(0.25);
@@ -223,7 +223,7 @@
         }
       }
 
-      @include it("sm\:backdrop-invert-(.25)") {
+      @include it('sm\:backdrop-invert-(.25)') {
         @include assert {
           @include output {
             @include sm\:backdrop-invert-(0.25);
@@ -238,7 +238,7 @@
         }
       }
 
-      @include it("md\:backdrop-invert-(.25)") {
+      @include it('md\:backdrop-invert-(.25)') {
         @include assert {
           @include output {
             @include md\:backdrop-invert-(0.25);
@@ -253,7 +253,7 @@
         }
       }
 
-      @include it("lg\:backdrop-invert-(.25)") {
+      @include it('lg\:backdrop-invert-(.25)') {
         @include assert {
           @include output {
             @include lg\:backdrop-invert-(0.25);
@@ -268,7 +268,7 @@
         }
       }
 
-      @include it("xl\:backdrop-invert-(.25)") {
+      @include it('xl\:backdrop-invert-(.25)') {
         @include assert {
           @include output {
             @include xl\:backdrop-invert-(0.25);
@@ -283,7 +283,7 @@
         }
       }
 
-      @include it("2xl\:backdrop-invert-(.25)") {
+      @include it('2xl\:backdrop-invert-(.25)') {
         @include assert {
           @include output {
             @include \2xl\:backdrop-invert-(0.25);

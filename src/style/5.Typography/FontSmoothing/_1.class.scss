@@ -1,14 +1,14 @@
-@use "../../setting" as *;
-@use "sass:list";
+@use '../../setting' as *;
+@use 'sass:list';
 
 // 1st: -webkit-font-smoothing
 // 2nd: -moz-osx-font-smoothing
 $FontSmoothing: (
-  "antialiased": (
+  'antialiased': (
     antialiased,
     grayscale,
   ),
-  "subpixel-antialiased": (
+  'subpixel-antialiased': (
     auto,
     auto,
   ),

@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("2.Flexbox & Grid") {
-  @include describe("Grid Auto Columns") {
-    @include describe("Basic") {
-      @include it("auto-cols-auto") {
+@include describe('2.Flexbox & Grid') {
+  @include describe('Grid Auto Columns') {
+    @include describe('Basic') {
+      @include it('auto-cols-auto') {
         @include assert {
           @include output {
             @include auto-cols-auto;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("auto-cols-min") {
+      @include it('auto-cols-min') {
         @include assert {
           @include output {
             @include auto-cols-min;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("auto-cols-max") {
+      @include it('auto-cols-max') {
         @include assert {
           @include output {
             @include auto-cols-max;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("auto-cols-fr") {
+      @include it('auto-cols-fr') {
         @include assert {
           @include output {
             @include auto-cols-fr;
@@ -57,8 +57,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:auto-cols-auto") {
+    @include describe('Rwd') {
+      @include it('sm\:auto-cols-auto') {
         @include assert {
           @include output {
             @include sm\:auto-cols-auto;
@@ -73,7 +73,7 @@
         }
       }
 
-      @include it("sm\:auto-cols-min") {
+      @include it('sm\:auto-cols-min') {
         @include assert {
           @include output {
             @include sm\:auto-cols-min;
@@ -88,7 +88,7 @@
         }
       }
 
-      @include it("sm\:auto-cols-max") {
+      @include it('sm\:auto-cols-max') {
         @include assert {
           @include output {
             @include sm\:auto-cols-max;
@@ -103,7 +103,7 @@
         }
       }
 
-      @include it("sm\:auto-cols-fr") {
+      @include it('sm\:auto-cols-fr') {
         @include assert {
           @include output {
             @include sm\:auto-cols-fr;
@@ -117,7 +117,7 @@
           }
         }
       }
-      @include it("md\:auto-cols-auto") {
+      @include it('md\:auto-cols-auto') {
         @include assert {
           @include output {
             @include md\:auto-cols-auto;
@@ -132,7 +132,7 @@
         }
       }
 
-      @include it("md\:auto-cols-min") {
+      @include it('md\:auto-cols-min') {
         @include assert {
           @include output {
             @include md\:auto-cols-min;
@@ -147,7 +147,7 @@
         }
       }
 
-      @include it("md\:auto-cols-max") {
+      @include it('md\:auto-cols-max') {
         @include assert {
           @include output {
             @include md\:auto-cols-max;
@@ -162,7 +162,7 @@
         }
       }
 
-      @include it("md\:auto-cols-fr") {
+      @include it('md\:auto-cols-fr') {
         @include assert {
           @include output {
             @include md\:auto-cols-fr;
@@ -176,7 +176,7 @@
           }
         }
       }
-      @include it("lg\:auto-cols-auto") {
+      @include it('lg\:auto-cols-auto') {
         @include assert {
           @include output {
             @include lg\:auto-cols-auto;
@@ -191,7 +191,7 @@
         }
       }
 
-      @include it("lg\:auto-cols-min") {
+      @include it('lg\:auto-cols-min') {
         @include assert {
           @include output {
             @include lg\:auto-cols-min;
@@ -206,7 +206,7 @@
         }
       }
 
-      @include it("lg\:auto-cols-max") {
+      @include it('lg\:auto-cols-max') {
         @include assert {
           @include output {
             @include lg\:auto-cols-max;
@@ -221,7 +221,7 @@
         }
       }
 
-      @include it("lg\:auto-cols-fr") {
+      @include it('lg\:auto-cols-fr') {
         @include assert {
           @include output {
             @include lg\:auto-cols-fr;
@@ -235,7 +235,7 @@
           }
         }
       }
-      @include it("xl\:auto-cols-auto") {
+      @include it('xl\:auto-cols-auto') {
         @include assert {
           @include output {
             @include xl\:auto-cols-auto;
@@ -250,7 +250,7 @@
         }
       }
 
-      @include it("xl\:auto-cols-min") {
+      @include it('xl\:auto-cols-min') {
         @include assert {
           @include output {
             @include xl\:auto-cols-min;
@@ -265,7 +265,7 @@
         }
       }
 
-      @include it("xl\:auto-cols-max") {
+      @include it('xl\:auto-cols-max') {
         @include assert {
           @include output {
             @include xl\:auto-cols-max;
@@ -280,7 +280,7 @@
         }
       }
 
-      @include it("xl\:auto-cols-fr") {
+      @include it('xl\:auto-cols-fr') {
         @include assert {
           @include output {
             @include xl\:auto-cols-fr;
@@ -294,7 +294,7 @@
           }
         }
       }
-      @include it("2xl\:auto-cols-auto") {
+      @include it('2xl\:auto-cols-auto') {
         @include assert {
           @include output {
             @include \2xl\:auto-cols-auto;
@@ -309,7 +309,7 @@
         }
       }
 
-      @include it("2xl\:auto-cols-min") {
+      @include it('2xl\:auto-cols-min') {
         @include assert {
           @include output {
             @include \2xl\:auto-cols-min;
@@ -324,7 +324,7 @@
         }
       }
 
-      @include it("2xl\:auto-cols-max") {
+      @include it('2xl\:auto-cols-max') {
         @include assert {
           @include output {
             @include \2xl\:auto-cols-max;
@@ -339,7 +339,7 @@
         }
       }
 
-      @include it("2xl\:auto-cols-fr") {
+      @include it('2xl\:auto-cols-fr') {
         @include assert {
           @include output {
             @include \2xl\:auto-cols-fr;
@@ -355,8 +355,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("auto-cols-(minmax(0,_2fr))") {
+    @include describe('Custom') {
+      @include it('auto-cols-(minmax(0,_2fr))') {
         @include assert {
           @include output {
             @include auto-cols-(minmax(0, _2fr));
@@ -369,7 +369,7 @@
         }
       }
 
-      @include it("sm\:auto-cols-(minmax(0,_2fr))") {
+      @include it('sm\:auto-cols-(minmax(0,_2fr))') {
         @include assert {
           @include output {
             @include sm\:auto-cols-(minmax(0, _2fr));
@@ -384,7 +384,7 @@
         }
       }
 
-      @include it("md\:auto-cols-(minmax(0,_2fr))") {
+      @include it('md\:auto-cols-(minmax(0,_2fr))') {
         @include assert {
           @include output {
             @include md\:auto-cols-(minmax(0, _2fr));
@@ -399,7 +399,7 @@
         }
       }
 
-      @include it("lg\:auto-cols-(minmax(0,_2fr))") {
+      @include it('lg\:auto-cols-(minmax(0,_2fr))') {
         @include assert {
           @include output {
             @include lg\:auto-cols-(minmax(0, _2fr));
@@ -414,7 +414,7 @@
         }
       }
 
-      @include it("xl\:auto-cols-(minmax(0,_2fr))") {
+      @include it('xl\:auto-cols-(minmax(0,_2fr))') {
         @include assert {
           @include output {
             @include xl\:auto-cols-(minmax(0, _2fr));
@@ -429,7 +429,7 @@
         }
       }
 
-      @include it("2xl\:auto-cols-(minmax(0,_2fr))") {
+      @include it('2xl\:auto-cols-(minmax(0,_2fr))') {
         @include assert {
           @include output {
             @include \2xl\:auto-cols-(minmax(0, _2fr));

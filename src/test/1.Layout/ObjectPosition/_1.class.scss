@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("1.Layout") {
-  @include describe("Position") {
-    @include describe("Basic") {
-      @include it("object-bottom") {
+@include describe('1.Layout') {
+  @include describe('Position') {
+    @include describe('Basic') {
+      @include it('object-bottom') {
         @include assert {
           @include output {
             @include object-bottom;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("object-center") {
+      @include it('object-center') {
         @include assert {
           @include output {
             @include object-center;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("object-left") {
+      @include it('object-left') {
         @include assert {
           @include output {
             @include object-left;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("object-left-bottom") {
+      @include it('object-left-bottom') {
         @include assert {
           @include output {
             @include object-left-bottom;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("object-left-top") {
+      @include it('object-left-top') {
         @include assert {
           @include output {
             @include object-left-top;
@@ -69,7 +69,7 @@
         }
       }
 
-      @include it("object-right") {
+      @include it('object-right') {
         @include assert {
           @include output {
             @include object-right;
@@ -82,7 +82,7 @@
         }
       }
 
-      @include it("object-right-bottom") {
+      @include it('object-right-bottom') {
         @include assert {
           @include output {
             @include object-right-bottom;
@@ -95,7 +95,7 @@
         }
       }
 
-      @include it("object-right-top") {
+      @include it('object-right-top') {
         @include assert {
           @include output {
             @include object-right-top;
@@ -108,7 +108,7 @@
         }
       }
 
-      @include it("object-top") {
+      @include it('object-top') {
         @include assert {
           @include output {
             @include object-top;
@@ -122,8 +122,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:object-bottom") {
+    @include describe('Rwd') {
+      @include it('sm\:object-bottom') {
         @include assert {
           @include output {
             @include sm\:object-bottom;
@@ -138,7 +138,7 @@
         }
       }
 
-      @include it("sm\:object-center") {
+      @include it('sm\:object-center') {
         @include assert {
           @include output {
             @include sm\:object-center;
@@ -153,7 +153,7 @@
         }
       }
 
-      @include it("sm\:object-left") {
+      @include it('sm\:object-left') {
         @include assert {
           @include output {
             @include sm\:object-left;
@@ -168,7 +168,7 @@
         }
       }
 
-      @include it("sm\:object-left-bottom") {
+      @include it('sm\:object-left-bottom') {
         @include assert {
           @include output {
             @include sm\:object-left-bottom;
@@ -183,7 +183,7 @@
         }
       }
 
-      @include it("sm\:object-left-top") {
+      @include it('sm\:object-left-top') {
         @include assert {
           @include output {
             @include sm\:object-left-top;
@@ -198,7 +198,7 @@
         }
       }
 
-      @include it("sm\:object-right") {
+      @include it('sm\:object-right') {
         @include assert {
           @include output {
             @include sm\:object-right;
@@ -213,7 +213,7 @@
         }
       }
 
-      @include it("sm\:object-right-bottom") {
+      @include it('sm\:object-right-bottom') {
         @include assert {
           @include output {
             @include sm\:object-right-bottom;
@@ -228,7 +228,7 @@
         }
       }
 
-      @include it("sm\:object-right-top") {
+      @include it('sm\:object-right-top') {
         @include assert {
           @include output {
             @include sm\:object-right-top;
@@ -243,7 +243,7 @@
         }
       }
 
-      @include it("sm\:object-top") {
+      @include it('sm\:object-top') {
         @include assert {
           @include output {
             @include sm\:object-top;
@@ -258,7 +258,7 @@
         }
       }
 
-      @include it("md\:object-bottom") {
+      @include it('md\:object-bottom') {
         @include assert {
           @include output {
             @include md\:object-bottom;
@@ -273,7 +273,7 @@
         }
       }
 
-      @include it("md\:object-center") {
+      @include it('md\:object-center') {
         @include assert {
           @include output {
             @include md\:object-center;
@@ -288,7 +288,7 @@
         }
       }
 
-      @include it("md\:object-left") {
+      @include it('md\:object-left') {
         @include assert {
           @include output {
             @include md\:object-left;
@@ -303,7 +303,7 @@
         }
       }
 
-      @include it("md\:object-left-bottom") {
+      @include it('md\:object-left-bottom') {
         @include assert {
           @include output {
             @include md\:object-left-bottom;
@@ -318,7 +318,7 @@
         }
       }
 
-      @include it("md\:object-left-top") {
+      @include it('md\:object-left-top') {
         @include assert {
           @include output {
             @include md\:object-left-top;
@@ -333,7 +333,7 @@
         }
       }
 
-      @include it("md\:object-right") {
+      @include it('md\:object-right') {
         @include assert {
           @include output {
             @include md\:object-right;
@@ -348,7 +348,7 @@
         }
       }
 
-      @include it("md\:object-right-bottom") {
+      @include it('md\:object-right-bottom') {
         @include assert {
           @include output {
             @include md\:object-right-bottom;
@@ -363,7 +363,7 @@
         }
       }
 
-      @include it("md\:object-right-top") {
+      @include it('md\:object-right-top') {
         @include assert {
           @include output {
             @include md\:object-right-top;
@@ -378,7 +378,7 @@
         }
       }
 
-      @include it("md\:object-top") {
+      @include it('md\:object-top') {
         @include assert {
           @include output {
             @include md\:object-top;
@@ -393,7 +393,7 @@
         }
       }
 
-      @include it("lg\:object-bottom") {
+      @include it('lg\:object-bottom') {
         @include assert {
           @include output {
             @include lg\:object-bottom;
@@ -408,7 +408,7 @@
         }
       }
 
-      @include it("lg\:object-center") {
+      @include it('lg\:object-center') {
         @include assert {
           @include output {
             @include lg\:object-center;
@@ -423,7 +423,7 @@
         }
       }
 
-      @include it("lg\:object-left") {
+      @include it('lg\:object-left') {
         @include assert {
           @include output {
             @include lg\:object-left;
@@ -438,7 +438,7 @@
         }
       }
 
-      @include it("lg\:object-left-bottom") {
+      @include it('lg\:object-left-bottom') {
         @include assert {
           @include output {
             @include lg\:object-left-bottom;
@@ -453,7 +453,7 @@
         }
       }
 
-      @include it("lg\:object-left-top") {
+      @include it('lg\:object-left-top') {
         @include assert {
           @include output {
             @include lg\:object-left-top;
@@ -468,7 +468,7 @@
         }
       }
 
-      @include it("lg\:object-right") {
+      @include it('lg\:object-right') {
         @include assert {
           @include output {
             @include lg\:object-right;
@@ -483,7 +483,7 @@
         }
       }
 
-      @include it("lg\:object-right-bottom") {
+      @include it('lg\:object-right-bottom') {
         @include assert {
           @include output {
             @include lg\:object-right-bottom;
@@ -498,7 +498,7 @@
         }
       }
 
-      @include it("lg\:object-right-top") {
+      @include it('lg\:object-right-top') {
         @include assert {
           @include output {
             @include lg\:object-right-top;
@@ -513,7 +513,7 @@
         }
       }
 
-      @include it("lg\:object-top") {
+      @include it('lg\:object-top') {
         @include assert {
           @include output {
             @include lg\:object-top;
@@ -528,7 +528,7 @@
         }
       }
 
-      @include it("xl\:object-bottom") {
+      @include it('xl\:object-bottom') {
         @include assert {
           @include output {
             @include xl\:object-bottom;
@@ -543,7 +543,7 @@
         }
       }
 
-      @include it("xl\:object-center") {
+      @include it('xl\:object-center') {
         @include assert {
           @include output {
             @include xl\:object-center;
@@ -558,7 +558,7 @@
         }
       }
 
-      @include it("xl\:object-left") {
+      @include it('xl\:object-left') {
         @include assert {
           @include output {
             @include xl\:object-left;
@@ -573,7 +573,7 @@
         }
       }
 
-      @include it("xl\:object-left-bottom") {
+      @include it('xl\:object-left-bottom') {
         @include assert {
           @include output {
             @include xl\:object-left-bottom;
@@ -588,7 +588,7 @@
         }
       }
 
-      @include it("xl\:object-left-top") {
+      @include it('xl\:object-left-top') {
         @include assert {
           @include output {
             @include xl\:object-left-top;
@@ -603,7 +603,7 @@
         }
       }
 
-      @include it("xl\:object-right") {
+      @include it('xl\:object-right') {
         @include assert {
           @include output {
             @include xl\:object-right;
@@ -618,7 +618,7 @@
         }
       }
 
-      @include it("xl\:object-right-bottom") {
+      @include it('xl\:object-right-bottom') {
         @include assert {
           @include output {
             @include xl\:object-right-bottom;
@@ -633,7 +633,7 @@
         }
       }
 
-      @include it("xl\:object-right-top") {
+      @include it('xl\:object-right-top') {
         @include assert {
           @include output {
             @include xl\:object-right-top;
@@ -648,7 +648,7 @@
         }
       }
 
-      @include it("xl\:object-top") {
+      @include it('xl\:object-top') {
         @include assert {
           @include output {
             @include xl\:object-top;
@@ -663,7 +663,7 @@
         }
       }
 
-      @include it("2xl\:object-bottom") {
+      @include it('2xl\:object-bottom') {
         @include assert {
           @include output {
             @include \2xl\:object-bottom;
@@ -678,7 +678,7 @@
         }
       }
 
-      @include it("2xl\:object-center") {
+      @include it('2xl\:object-center') {
         @include assert {
           @include output {
             @include \2xl\:object-center;
@@ -693,7 +693,7 @@
         }
       }
 
-      @include it("2xl\:object-left") {
+      @include it('2xl\:object-left') {
         @include assert {
           @include output {
             @include \2xl\:object-left;
@@ -708,7 +708,7 @@
         }
       }
 
-      @include it("2xl\:object-left-bottom") {
+      @include it('2xl\:object-left-bottom') {
         @include assert {
           @include output {
             @include \2xl\:object-left-bottom;
@@ -723,7 +723,7 @@
         }
       }
 
-      @include it("2xl\:object-left-top") {
+      @include it('2xl\:object-left-top') {
         @include assert {
           @include output {
             @include \2xl\:object-left-top;
@@ -738,7 +738,7 @@
         }
       }
 
-      @include it("2xl\:object-right") {
+      @include it('2xl\:object-right') {
         @include assert {
           @include output {
             @include \2xl\:object-right;
@@ -753,7 +753,7 @@
         }
       }
 
-      @include it("2xl\:object-right-bottom") {
+      @include it('2xl\:object-right-bottom') {
         @include assert {
           @include output {
             @include \2xl\:object-right-bottom;
@@ -768,7 +768,7 @@
         }
       }
 
-      @include it("2xl\:object-right-top") {
+      @include it('2xl\:object-right-top') {
         @include assert {
           @include output {
             @include \2xl\:object-right-top;
@@ -783,7 +783,7 @@
         }
       }
 
-      @include it("2xl\:object-top") {
+      @include it('2xl\:object-top') {
         @include assert {
           @include output {
             @include \2xl\:object-top;
@@ -799,8 +799,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("object-(center bottom)") {
+    @include describe('Custom') {
+      @include it('object-(center bottom)') {
         @include assert {
           @include output {
             @include object-(center bottom);
@@ -813,7 +813,7 @@
         }
       }
 
-      @include it("sm\:object-(center bottom)") {
+      @include it('sm\:object-(center bottom)') {
         @include assert {
           @include output {
             @include sm\:object-(center bottom);
@@ -828,7 +828,7 @@
         }
       }
 
-      @include it("md\:object-(center bottom)") {
+      @include it('md\:object-(center bottom)') {
         @include assert {
           @include output {
             @include md\:object-(center bottom);
@@ -843,7 +843,7 @@
         }
       }
 
-      @include it("xl\:object-(center bottom)") {
+      @include it('xl\:object-(center bottom)') {
         @include assert {
           @include output {
             @include xl\:object-(center bottom);
@@ -858,7 +858,7 @@
         }
       }
 
-      @include it("2xl\:object-(center bottom)") {
+      @include it('2xl\:object-(center bottom)') {
         @include assert {
           @include output {
             @include \2xl\:object-(center bottom);

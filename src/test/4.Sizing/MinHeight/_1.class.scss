@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("4.Size") {
-  @include describe("Min-Height") {
-    @include describe("Basic") {
-      @include it("min-h-0") {
+@include describe('4.Size') {
+  @include describe('Min-Height') {
+    @include describe('Basic') {
+      @include it('min-h-0') {
         @include assert {
           @include output {
             @include min-h-0;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("min-h-1") {
+      @include it('min-h-1') {
         @include assert {
           @include output {
             @include min-h-1;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("min-h-2") {
+      @include it('min-h-2') {
         @include assert {
           @include output {
             @include min-h-2;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("min-h-3") {
+      @include it('min-h-3') {
         @include assert {
           @include output {
             @include min-h-3;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("min-h-4") {
+      @include it('min-h-4') {
         @include assert {
           @include output {
             @include min-h-4;
@@ -69,7 +69,7 @@
         }
       }
 
-      @include it("min-h-5") {
+      @include it('min-h-5') {
         @include assert {
           @include output {
             @include min-h-5;
@@ -82,7 +82,7 @@
         }
       }
 
-      @include it("min-h-6") {
+      @include it('min-h-6') {
         @include assert {
           @include output {
             @include min-h-6;
@@ -95,7 +95,7 @@
         }
       }
 
-      @include it("min-h-7") {
+      @include it('min-h-7') {
         @include assert {
           @include output {
             @include min-h-7;
@@ -108,7 +108,7 @@
         }
       }
 
-      @include it("min-h-8") {
+      @include it('min-h-8') {
         @include assert {
           @include output {
             @include min-h-8;
@@ -121,7 +121,7 @@
         }
       }
 
-      @include it("min-h-9") {
+      @include it('min-h-9') {
         @include assert {
           @include output {
             @include min-h-9;
@@ -134,7 +134,7 @@
         }
       }
 
-      @include it("min-h-10") {
+      @include it('min-h-10') {
         @include assert {
           @include output {
             @include min-h-10;
@@ -147,7 +147,7 @@
         }
       }
 
-      @include it("min-h-11") {
+      @include it('min-h-11') {
         @include assert {
           @include output {
             @include min-h-11;
@@ -160,7 +160,7 @@
         }
       }
 
-      @include it("min-h-12") {
+      @include it('min-h-12') {
         @include assert {
           @include output {
             @include min-h-12;
@@ -173,7 +173,7 @@
         }
       }
 
-      @include it("min-h-14") {
+      @include it('min-h-14') {
         @include assert {
           @include output {
             @include min-h-14;
@@ -186,7 +186,7 @@
         }
       }
 
-      @include it("min-h-16") {
+      @include it('min-h-16') {
         @include assert {
           @include output {
             @include min-h-16;
@@ -199,7 +199,7 @@
         }
       }
 
-      @include it("min-h-20") {
+      @include it('min-h-20') {
         @include assert {
           @include output {
             @include min-h-20;
@@ -212,7 +212,7 @@
         }
       }
 
-      @include it("min-h-24") {
+      @include it('min-h-24') {
         @include assert {
           @include output {
             @include min-h-24;
@@ -225,7 +225,7 @@
         }
       }
 
-      @include it("min-h-28") {
+      @include it('min-h-28') {
         @include assert {
           @include output {
             @include min-h-28;
@@ -238,7 +238,7 @@
         }
       }
 
-      @include it("min-h-32") {
+      @include it('min-h-32') {
         @include assert {
           @include output {
             @include min-h-32;
@@ -251,7 +251,7 @@
         }
       }
 
-      @include it("min-h-36") {
+      @include it('min-h-36') {
         @include assert {
           @include output {
             @include min-h-36;
@@ -264,7 +264,7 @@
         }
       }
 
-      @include it("min-h-40") {
+      @include it('min-h-40') {
         @include assert {
           @include output {
             @include min-h-40;
@@ -277,7 +277,7 @@
         }
       }
 
-      @include it("min-h-44") {
+      @include it('min-h-44') {
         @include assert {
           @include output {
             @include min-h-44;
@@ -290,7 +290,7 @@
         }
       }
 
-      @include it("min-h-48") {
+      @include it('min-h-48') {
         @include assert {
           @include output {
             @include min-h-48;
@@ -303,7 +303,7 @@
         }
       }
 
-      @include it("min-h-52") {
+      @include it('min-h-52') {
         @include assert {
           @include output {
             @include min-h-52;
@@ -316,7 +316,7 @@
         }
       }
 
-      @include it("min-h-56") {
+      @include it('min-h-56') {
         @include assert {
           @include output {
             @include min-h-56;
@@ -329,7 +329,7 @@
         }
       }
 
-      @include it("min-h-60") {
+      @include it('min-h-60') {
         @include assert {
           @include output {
             @include min-h-60;
@@ -342,7 +342,7 @@
         }
       }
 
-      @include it("min-h-64") {
+      @include it('min-h-64') {
         @include assert {
           @include output {
             @include min-h-64;
@@ -355,7 +355,7 @@
         }
       }
 
-      @include it("min-h-72") {
+      @include it('min-h-72') {
         @include assert {
           @include output {
             @include min-h-72;
@@ -368,7 +368,7 @@
         }
       }
 
-      @include it("min-h-80") {
+      @include it('min-h-80') {
         @include assert {
           @include output {
             @include min-h-80;
@@ -381,7 +381,7 @@
         }
       }
 
-      @include it("min-h-96") {
+      @include it('min-h-96') {
         @include assert {
           @include output {
             @include min-h-96;
@@ -394,7 +394,7 @@
         }
       }
 
-      @include it("min-h-px") {
+      @include it('min-h-px') {
         @include assert {
           @include output {
             @include min-h-px;
@@ -407,7 +407,7 @@
         }
       }
 
-      @include it("min-h-0\.5") {
+      @include it('min-h-0\.5') {
         @include assert {
           @include output {
             @include min-h-0\.5;
@@ -420,7 +420,7 @@
         }
       }
 
-      @include it("min-h-1\.5") {
+      @include it('min-h-1\.5') {
         @include assert {
           @include output {
             @include min-h-1\.5;
@@ -433,7 +433,7 @@
         }
       }
 
-      @include it("min-h-2\.5") {
+      @include it('min-h-2\.5') {
         @include assert {
           @include output {
             @include min-h-2\.5;
@@ -446,7 +446,7 @@
         }
       }
 
-      @include it("min-h-3\.5") {
+      @include it('min-h-3\.5') {
         @include assert {
           @include output {
             @include min-h-3\.5;
@@ -459,7 +459,7 @@
         }
       }
 
-      @include it("min-h-full") {
+      @include it('min-h-full') {
         @include assert {
           @include output {
             @include min-h-full;
@@ -472,7 +472,7 @@
         }
       }
 
-      @include it("min-h-screen") {
+      @include it('min-h-screen') {
         @include assert {
           @include output {
             @include min-h-screen;
@@ -485,7 +485,7 @@
         }
       }
 
-      @include it("min-h-svh") {
+      @include it('min-h-svh') {
         @include assert {
           @include output {
             @include min-h-svh;
@@ -498,7 +498,7 @@
         }
       }
 
-      @include it("min-h-lvh") {
+      @include it('min-h-lvh') {
         @include assert {
           @include output {
             @include min-h-lvh;
@@ -511,7 +511,7 @@
         }
       }
 
-      @include it("min-h-dvh") {
+      @include it('min-h-dvh') {
         @include assert {
           @include output {
             @include min-h-dvh;
@@ -524,7 +524,7 @@
         }
       }
 
-      @include it("min-h-min") {
+      @include it('min-h-min') {
         @include assert {
           @include output {
             @include min-h-min;
@@ -537,7 +537,7 @@
         }
       }
 
-      @include it("min-h-max") {
+      @include it('min-h-max') {
         @include assert {
           @include output {
             @include min-h-max;
@@ -550,7 +550,7 @@
         }
       }
 
-      @include it("min-h-fit") {
+      @include it('min-h-fit') {
         @include assert {
           @include output {
             @include min-h-fit;
@@ -564,8 +564,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:min-h-0") {
+    @include describe('Rwd') {
+      @include it('sm\:min-h-0') {
         @include assert {
           @include output {
             @include sm\:min-h-0;
@@ -580,7 +580,7 @@
         }
       }
 
-      @include it("sm\:min-h-1") {
+      @include it('sm\:min-h-1') {
         @include assert {
           @include output {
             @include sm\:min-h-1;
@@ -595,7 +595,7 @@
         }
       }
 
-      @include it("sm\:min-h-2") {
+      @include it('sm\:min-h-2') {
         @include assert {
           @include output {
             @include sm\:min-h-2;
@@ -610,7 +610,7 @@
         }
       }
 
-      @include it("sm\:min-h-3") {
+      @include it('sm\:min-h-3') {
         @include assert {
           @include output {
             @include sm\:min-h-3;
@@ -625,7 +625,7 @@
         }
       }
 
-      @include it("sm\:min-h-4") {
+      @include it('sm\:min-h-4') {
         @include assert {
           @include output {
             @include sm\:min-h-4;
@@ -640,7 +640,7 @@
         }
       }
 
-      @include it("sm\:min-h-5") {
+      @include it('sm\:min-h-5') {
         @include assert {
           @include output {
             @include sm\:min-h-5;
@@ -655,7 +655,7 @@
         }
       }
 
-      @include it("sm\:min-h-6") {
+      @include it('sm\:min-h-6') {
         @include assert {
           @include output {
             @include sm\:min-h-6;
@@ -670,7 +670,7 @@
         }
       }
 
-      @include it("sm\:min-h-7") {
+      @include it('sm\:min-h-7') {
         @include assert {
           @include output {
             @include sm\:min-h-7;
@@ -685,7 +685,7 @@
         }
       }
 
-      @include it("sm\:min-h-8") {
+      @include it('sm\:min-h-8') {
         @include assert {
           @include output {
             @include sm\:min-h-8;
@@ -700,7 +700,7 @@
         }
       }
 
-      @include it("sm\:min-h-9") {
+      @include it('sm\:min-h-9') {
         @include assert {
           @include output {
             @include sm\:min-h-9;
@@ -715,7 +715,7 @@
         }
       }
 
-      @include it("sm\:min-h-10") {
+      @include it('sm\:min-h-10') {
         @include assert {
           @include output {
             @include sm\:min-h-10;
@@ -730,7 +730,7 @@
         }
       }
 
-      @include it("sm\:min-h-11") {
+      @include it('sm\:min-h-11') {
         @include assert {
           @include output {
             @include sm\:min-h-11;
@@ -745,7 +745,7 @@
         }
       }
 
-      @include it("sm\:min-h-12") {
+      @include it('sm\:min-h-12') {
         @include assert {
           @include output {
             @include sm\:min-h-12;
@@ -760,7 +760,7 @@
         }
       }
 
-      @include it("sm\:min-h-14") {
+      @include it('sm\:min-h-14') {
         @include assert {
           @include output {
             @include sm\:min-h-14;
@@ -775,7 +775,7 @@
         }
       }
 
-      @include it("sm\:min-h-16") {
+      @include it('sm\:min-h-16') {
         @include assert {
           @include output {
             @include sm\:min-h-16;
@@ -790,7 +790,7 @@
         }
       }
 
-      @include it("sm\:min-h-20") {
+      @include it('sm\:min-h-20') {
         @include assert {
           @include output {
             @include sm\:min-h-20;
@@ -805,7 +805,7 @@
         }
       }
 
-      @include it("sm\:min-h-24") {
+      @include it('sm\:min-h-24') {
         @include assert {
           @include output {
             @include sm\:min-h-24;
@@ -820,7 +820,7 @@
         }
       }
 
-      @include it("sm\:min-h-28") {
+      @include it('sm\:min-h-28') {
         @include assert {
           @include output {
             @include sm\:min-h-28;
@@ -835,7 +835,7 @@
         }
       }
 
-      @include it("sm\:min-h-32") {
+      @include it('sm\:min-h-32') {
         @include assert {
           @include output {
             @include sm\:min-h-32;
@@ -850,7 +850,7 @@
         }
       }
 
-      @include it("sm\:min-h-36") {
+      @include it('sm\:min-h-36') {
         @include assert {
           @include output {
             @include sm\:min-h-36;
@@ -865,7 +865,7 @@
         }
       }
 
-      @include it("sm\:min-h-40") {
+      @include it('sm\:min-h-40') {
         @include assert {
           @include output {
             @include sm\:min-h-40;
@@ -880,7 +880,7 @@
         }
       }
 
-      @include it("sm\:min-h-44") {
+      @include it('sm\:min-h-44') {
         @include assert {
           @include output {
             @include sm\:min-h-44;
@@ -895,7 +895,7 @@
         }
       }
 
-      @include it("sm\:min-h-48") {
+      @include it('sm\:min-h-48') {
         @include assert {
           @include output {
             @include sm\:min-h-48;
@@ -910,7 +910,7 @@
         }
       }
 
-      @include it("sm\:min-h-52") {
+      @include it('sm\:min-h-52') {
         @include assert {
           @include output {
             @include sm\:min-h-52;
@@ -925,7 +925,7 @@
         }
       }
 
-      @include it("sm\:min-h-56") {
+      @include it('sm\:min-h-56') {
         @include assert {
           @include output {
             @include sm\:min-h-56;
@@ -940,7 +940,7 @@
         }
       }
 
-      @include it("sm\:min-h-60") {
+      @include it('sm\:min-h-60') {
         @include assert {
           @include output {
             @include sm\:min-h-60;
@@ -955,7 +955,7 @@
         }
       }
 
-      @include it("sm\:min-h-64") {
+      @include it('sm\:min-h-64') {
         @include assert {
           @include output {
             @include sm\:min-h-64;
@@ -970,7 +970,7 @@
         }
       }
 
-      @include it("sm\:min-h-72") {
+      @include it('sm\:min-h-72') {
         @include assert {
           @include output {
             @include sm\:min-h-72;
@@ -985,7 +985,7 @@
         }
       }
 
-      @include it("sm\:min-h-80") {
+      @include it('sm\:min-h-80') {
         @include assert {
           @include output {
             @include sm\:min-h-80;
@@ -1000,7 +1000,7 @@
         }
       }
 
-      @include it("sm\:min-h-96") {
+      @include it('sm\:min-h-96') {
         @include assert {
           @include output {
             @include sm\:min-h-96;
@@ -1015,7 +1015,7 @@
         }
       }
 
-      @include it("sm\:min-h-px") {
+      @include it('sm\:min-h-px') {
         @include assert {
           @include output {
             @include sm\:min-h-px;
@@ -1030,7 +1030,7 @@
         }
       }
 
-      @include it("sm\:min-h-0\.5") {
+      @include it('sm\:min-h-0\.5') {
         @include assert {
           @include output {
             @include sm\:min-h-0\.5;
@@ -1045,7 +1045,7 @@
         }
       }
 
-      @include it("sm\:min-h-1\.5") {
+      @include it('sm\:min-h-1\.5') {
         @include assert {
           @include output {
             @include sm\:min-h-1\.5;
@@ -1060,7 +1060,7 @@
         }
       }
 
-      @include it("sm\:min-h-2\.5") {
+      @include it('sm\:min-h-2\.5') {
         @include assert {
           @include output {
             @include sm\:min-h-2\.5;
@@ -1075,7 +1075,7 @@
         }
       }
 
-      @include it("sm\:min-h-3\.5") {
+      @include it('sm\:min-h-3\.5') {
         @include assert {
           @include output {
             @include sm\:min-h-3\.5;
@@ -1090,7 +1090,7 @@
         }
       }
 
-      @include it("sm\:min-h-full") {
+      @include it('sm\:min-h-full') {
         @include assert {
           @include output {
             @include sm\:min-h-full;
@@ -1105,7 +1105,7 @@
         }
       }
 
-      @include it("sm\:min-h-screen") {
+      @include it('sm\:min-h-screen') {
         @include assert {
           @include output {
             @include sm\:min-h-screen;
@@ -1120,7 +1120,7 @@
         }
       }
 
-      @include it("sm\:min-h-svh") {
+      @include it('sm\:min-h-svh') {
         @include assert {
           @include output {
             @include sm\:min-h-svh;
@@ -1135,7 +1135,7 @@
         }
       }
 
-      @include it("sm\:min-h-lvh") {
+      @include it('sm\:min-h-lvh') {
         @include assert {
           @include output {
             @include sm\:min-h-lvh;
@@ -1150,7 +1150,7 @@
         }
       }
 
-      @include it("sm\:min-h-dvh") {
+      @include it('sm\:min-h-dvh') {
         @include assert {
           @include output {
             @include sm\:min-h-dvh;
@@ -1165,7 +1165,7 @@
         }
       }
 
-      @include it("sm\:min-h-min") {
+      @include it('sm\:min-h-min') {
         @include assert {
           @include output {
             @include sm\:min-h-min;
@@ -1180,7 +1180,7 @@
         }
       }
 
-      @include it("sm\:min-h-max") {
+      @include it('sm\:min-h-max') {
         @include assert {
           @include output {
             @include sm\:min-h-max;
@@ -1195,7 +1195,7 @@
         }
       }
 
-      @include it("sm\:min-h-fit") {
+      @include it('sm\:min-h-fit') {
         @include assert {
           @include output {
             @include sm\:min-h-fit;
@@ -1210,7 +1210,7 @@
         }
       }
 
-      @include it("md\:min-h-0") {
+      @include it('md\:min-h-0') {
         @include assert {
           @include output {
             @include md\:min-h-0;
@@ -1225,7 +1225,7 @@
         }
       }
 
-      @include it("md\:min-h-1") {
+      @include it('md\:min-h-1') {
         @include assert {
           @include output {
             @include md\:min-h-1;
@@ -1240,7 +1240,7 @@
         }
       }
 
-      @include it("md\:min-h-2") {
+      @include it('md\:min-h-2') {
         @include assert {
           @include output {
             @include md\:min-h-2;
@@ -1255,7 +1255,7 @@
         }
       }
 
-      @include it("md\:min-h-3") {
+      @include it('md\:min-h-3') {
         @include assert {
           @include output {
             @include md\:min-h-3;
@@ -1270,7 +1270,7 @@
         }
       }
 
-      @include it("md\:min-h-4") {
+      @include it('md\:min-h-4') {
         @include assert {
           @include output {
             @include md\:min-h-4;
@@ -1285,7 +1285,7 @@
         }
       }
 
-      @include it("md\:min-h-5") {
+      @include it('md\:min-h-5') {
         @include assert {
           @include output {
             @include md\:min-h-5;
@@ -1300,7 +1300,7 @@
         }
       }
 
-      @include it("md\:min-h-6") {
+      @include it('md\:min-h-6') {
         @include assert {
           @include output {
             @include md\:min-h-6;
@@ -1315,7 +1315,7 @@
         }
       }
 
-      @include it("md\:min-h-7") {
+      @include it('md\:min-h-7') {
         @include assert {
           @include output {
             @include md\:min-h-7;
@@ -1330,7 +1330,7 @@
         }
       }
 
-      @include it("md\:min-h-8") {
+      @include it('md\:min-h-8') {
         @include assert {
           @include output {
             @include md\:min-h-8;
@@ -1345,7 +1345,7 @@
         }
       }
 
-      @include it("md\:min-h-9") {
+      @include it('md\:min-h-9') {
         @include assert {
           @include output {
             @include md\:min-h-9;
@@ -1360,7 +1360,7 @@
         }
       }
 
-      @include it("md\:min-h-10") {
+      @include it('md\:min-h-10') {
         @include assert {
           @include output {
             @include md\:min-h-10;
@@ -1375,7 +1375,7 @@
         }
       }
 
-      @include it("md\:min-h-11") {
+      @include it('md\:min-h-11') {
         @include assert {
           @include output {
             @include md\:min-h-11;
@@ -1390,7 +1390,7 @@
         }
       }
 
-      @include it("md\:min-h-12") {
+      @include it('md\:min-h-12') {
         @include assert {
           @include output {
             @include md\:min-h-12;
@@ -1405,7 +1405,7 @@
         }
       }
 
-      @include it("md\:min-h-14") {
+      @include it('md\:min-h-14') {
         @include assert {
           @include output {
             @include md\:min-h-14;
@@ -1420,7 +1420,7 @@
         }
       }
 
-      @include it("md\:min-h-16") {
+      @include it('md\:min-h-16') {
         @include assert {
           @include output {
             @include md\:min-h-16;
@@ -1435,7 +1435,7 @@
         }
       }
 
-      @include it("md\:min-h-20") {
+      @include it('md\:min-h-20') {
         @include assert {
           @include output {
             @include md\:min-h-20;
@@ -1450,7 +1450,7 @@
         }
       }
 
-      @include it("md\:min-h-24") {
+      @include it('md\:min-h-24') {
         @include assert {
           @include output {
             @include md\:min-h-24;
@@ -1465,7 +1465,7 @@
         }
       }
 
-      @include it("md\:min-h-28") {
+      @include it('md\:min-h-28') {
         @include assert {
           @include output {
             @include md\:min-h-28;
@@ -1480,7 +1480,7 @@
         }
       }
 
-      @include it("md\:min-h-32") {
+      @include it('md\:min-h-32') {
         @include assert {
           @include output {
             @include md\:min-h-32;
@@ -1495,7 +1495,7 @@
         }
       }
 
-      @include it("md\:min-h-36") {
+      @include it('md\:min-h-36') {
         @include assert {
           @include output {
             @include md\:min-h-36;
@@ -1510,7 +1510,7 @@
         }
       }
 
-      @include it("md\:min-h-40") {
+      @include it('md\:min-h-40') {
         @include assert {
           @include output {
             @include md\:min-h-40;
@@ -1525,7 +1525,7 @@
         }
       }
 
-      @include it("md\:min-h-44") {
+      @include it('md\:min-h-44') {
         @include assert {
           @include output {
             @include md\:min-h-44;
@@ -1540,7 +1540,7 @@
         }
       }
 
-      @include it("md\:min-h-48") {
+      @include it('md\:min-h-48') {
         @include assert {
           @include output {
             @include md\:min-h-48;
@@ -1555,7 +1555,7 @@
         }
       }
 
-      @include it("md\:min-h-52") {
+      @include it('md\:min-h-52') {
         @include assert {
           @include output {
             @include md\:min-h-52;
@@ -1570,7 +1570,7 @@
         }
       }
 
-      @include it("md\:min-h-56") {
+      @include it('md\:min-h-56') {
         @include assert {
           @include output {
             @include md\:min-h-56;
@@ -1585,7 +1585,7 @@
         }
       }
 
-      @include it("md\:min-h-60") {
+      @include it('md\:min-h-60') {
         @include assert {
           @include output {
             @include md\:min-h-60;
@@ -1600,7 +1600,7 @@
         }
       }
 
-      @include it("md\:min-h-64") {
+      @include it('md\:min-h-64') {
         @include assert {
           @include output {
             @include md\:min-h-64;
@@ -1615,7 +1615,7 @@
         }
       }
 
-      @include it("md\:min-h-72") {
+      @include it('md\:min-h-72') {
         @include assert {
           @include output {
             @include md\:min-h-72;
@@ -1630,7 +1630,7 @@
         }
       }
 
-      @include it("md\:min-h-80") {
+      @include it('md\:min-h-80') {
         @include assert {
           @include output {
             @include md\:min-h-80;
@@ -1645,7 +1645,7 @@
         }
       }
 
-      @include it("md\:min-h-96") {
+      @include it('md\:min-h-96') {
         @include assert {
           @include output {
             @include md\:min-h-96;
@@ -1660,7 +1660,7 @@
         }
       }
 
-      @include it("md\:min-h-px") {
+      @include it('md\:min-h-px') {
         @include assert {
           @include output {
             @include md\:min-h-px;
@@ -1675,7 +1675,7 @@
         }
       }
 
-      @include it("md\:min-h-0\.5") {
+      @include it('md\:min-h-0\.5') {
         @include assert {
           @include output {
             @include md\:min-h-0\.5;
@@ -1690,7 +1690,7 @@
         }
       }
 
-      @include it("md\:min-h-1\.5") {
+      @include it('md\:min-h-1\.5') {
         @include assert {
           @include output {
             @include md\:min-h-1\.5;
@@ -1705,7 +1705,7 @@
         }
       }
 
-      @include it("md\:min-h-2\.5") {
+      @include it('md\:min-h-2\.5') {
         @include assert {
           @include output {
             @include md\:min-h-2\.5;
@@ -1720,7 +1720,7 @@
         }
       }
 
-      @include it("md\:min-h-3\.5") {
+      @include it('md\:min-h-3\.5') {
         @include assert {
           @include output {
             @include md\:min-h-3\.5;
@@ -1735,7 +1735,7 @@
         }
       }
 
-      @include it("md\:min-h-full") {
+      @include it('md\:min-h-full') {
         @include assert {
           @include output {
             @include md\:min-h-full;
@@ -1750,7 +1750,7 @@
         }
       }
 
-      @include it("md\:min-h-screen") {
+      @include it('md\:min-h-screen') {
         @include assert {
           @include output {
             @include md\:min-h-screen;
@@ -1765,7 +1765,7 @@
         }
       }
 
-      @include it("md\:min-h-svh") {
+      @include it('md\:min-h-svh') {
         @include assert {
           @include output {
             @include md\:min-h-svh;
@@ -1780,7 +1780,7 @@
         }
       }
 
-      @include it("md\:min-h-lvh") {
+      @include it('md\:min-h-lvh') {
         @include assert {
           @include output {
             @include md\:min-h-lvh;
@@ -1795,7 +1795,7 @@
         }
       }
 
-      @include it("md\:min-h-dvh") {
+      @include it('md\:min-h-dvh') {
         @include assert {
           @include output {
             @include md\:min-h-dvh;
@@ -1810,7 +1810,7 @@
         }
       }
 
-      @include it("md\:min-h-min") {
+      @include it('md\:min-h-min') {
         @include assert {
           @include output {
             @include md\:min-h-min;
@@ -1825,7 +1825,7 @@
         }
       }
 
-      @include it("md\:min-h-max") {
+      @include it('md\:min-h-max') {
         @include assert {
           @include output {
             @include md\:min-h-max;
@@ -1840,7 +1840,7 @@
         }
       }
 
-      @include it("md\:min-h-fit") {
+      @include it('md\:min-h-fit') {
         @include assert {
           @include output {
             @include md\:min-h-fit;
@@ -1855,7 +1855,7 @@
         }
       }
 
-      @include it("lg\:min-h-0") {
+      @include it('lg\:min-h-0') {
         @include assert {
           @include output {
             @include lg\:min-h-0;
@@ -1870,7 +1870,7 @@
         }
       }
 
-      @include it("lg\:min-h-1") {
+      @include it('lg\:min-h-1') {
         @include assert {
           @include output {
             @include lg\:min-h-1;
@@ -1885,7 +1885,7 @@
         }
       }
 
-      @include it("lg\:min-h-2") {
+      @include it('lg\:min-h-2') {
         @include assert {
           @include output {
             @include lg\:min-h-2;
@@ -1900,7 +1900,7 @@
         }
       }
 
-      @include it("lg\:min-h-3") {
+      @include it('lg\:min-h-3') {
         @include assert {
           @include output {
             @include lg\:min-h-3;
@@ -1915,7 +1915,7 @@
         }
       }
 
-      @include it("lg\:min-h-4") {
+      @include it('lg\:min-h-4') {
         @include assert {
           @include output {
             @include lg\:min-h-4;
@@ -1930,7 +1930,7 @@
         }
       }
 
-      @include it("lg\:min-h-5") {
+      @include it('lg\:min-h-5') {
         @include assert {
           @include output {
             @include lg\:min-h-5;
@@ -1945,7 +1945,7 @@
         }
       }
 
-      @include it("lg\:min-h-6") {
+      @include it('lg\:min-h-6') {
         @include assert {
           @include output {
             @include lg\:min-h-6;
@@ -1960,7 +1960,7 @@
         }
       }
 
-      @include it("lg\:min-h-7") {
+      @include it('lg\:min-h-7') {
         @include assert {
           @include output {
             @include lg\:min-h-7;
@@ -1975,7 +1975,7 @@
         }
       }
 
-      @include it("lg\:min-h-8") {
+      @include it('lg\:min-h-8') {
         @include assert {
           @include output {
             @include lg\:min-h-8;
@@ -1990,7 +1990,7 @@
         }
       }
 
-      @include it("lg\:min-h-9") {
+      @include it('lg\:min-h-9') {
         @include assert {
           @include output {
             @include lg\:min-h-9;
@@ -2005,7 +2005,7 @@
         }
       }
 
-      @include it("lg\:min-h-10") {
+      @include it('lg\:min-h-10') {
         @include assert {
           @include output {
             @include lg\:min-h-10;
@@ -2020,7 +2020,7 @@
         }
       }
 
-      @include it("lg\:min-h-11") {
+      @include it('lg\:min-h-11') {
         @include assert {
           @include output {
             @include lg\:min-h-11;
@@ -2035,7 +2035,7 @@
         }
       }
 
-      @include it("lg\:min-h-12") {
+      @include it('lg\:min-h-12') {
         @include assert {
           @include output {
             @include lg\:min-h-12;
@@ -2050,7 +2050,7 @@
         }
       }
 
-      @include it("lg\:min-h-14") {
+      @include it('lg\:min-h-14') {
         @include assert {
           @include output {
             @include lg\:min-h-14;
@@ -2065,7 +2065,7 @@
         }
       }
 
-      @include it("lg\:min-h-16") {
+      @include it('lg\:min-h-16') {
         @include assert {
           @include output {
             @include lg\:min-h-16;
@@ -2080,7 +2080,7 @@
         }
       }
 
-      @include it("lg\:min-h-20") {
+      @include it('lg\:min-h-20') {
         @include assert {
           @include output {
             @include lg\:min-h-20;
@@ -2095,7 +2095,7 @@
         }
       }
 
-      @include it("lg\:min-h-24") {
+      @include it('lg\:min-h-24') {
         @include assert {
           @include output {
             @include lg\:min-h-24;
@@ -2110,7 +2110,7 @@
         }
       }
 
-      @include it("lg\:min-h-28") {
+      @include it('lg\:min-h-28') {
         @include assert {
           @include output {
             @include lg\:min-h-28;
@@ -2125,7 +2125,7 @@
         }
       }
 
-      @include it("lg\:min-h-32") {
+      @include it('lg\:min-h-32') {
         @include assert {
           @include output {
             @include lg\:min-h-32;
@@ -2140,7 +2140,7 @@
         }
       }
 
-      @include it("lg\:min-h-36") {
+      @include it('lg\:min-h-36') {
         @include assert {
           @include output {
             @include lg\:min-h-36;
@@ -2155,7 +2155,7 @@
         }
       }
 
-      @include it("lg\:min-h-40") {
+      @include it('lg\:min-h-40') {
         @include assert {
           @include output {
             @include lg\:min-h-40;
@@ -2170,7 +2170,7 @@
         }
       }
 
-      @include it("lg\:min-h-44") {
+      @include it('lg\:min-h-44') {
         @include assert {
           @include output {
             @include lg\:min-h-44;
@@ -2185,7 +2185,7 @@
         }
       }
 
-      @include it("lg\:min-h-48") {
+      @include it('lg\:min-h-48') {
         @include assert {
           @include output {
             @include lg\:min-h-48;
@@ -2200,7 +2200,7 @@
         }
       }
 
-      @include it("lg\:min-h-52") {
+      @include it('lg\:min-h-52') {
         @include assert {
           @include output {
             @include lg\:min-h-52;
@@ -2215,7 +2215,7 @@
         }
       }
 
-      @include it("lg\:min-h-56") {
+      @include it('lg\:min-h-56') {
         @include assert {
           @include output {
             @include lg\:min-h-56;
@@ -2230,7 +2230,7 @@
         }
       }
 
-      @include it("lg\:min-h-60") {
+      @include it('lg\:min-h-60') {
         @include assert {
           @include output {
             @include lg\:min-h-60;
@@ -2245,7 +2245,7 @@
         }
       }
 
-      @include it("lg\:min-h-64") {
+      @include it('lg\:min-h-64') {
         @include assert {
           @include output {
             @include lg\:min-h-64;
@@ -2260,7 +2260,7 @@
         }
       }
 
-      @include it("lg\:min-h-72") {
+      @include it('lg\:min-h-72') {
         @include assert {
           @include output {
             @include lg\:min-h-72;
@@ -2275,7 +2275,7 @@
         }
       }
 
-      @include it("lg\:min-h-80") {
+      @include it('lg\:min-h-80') {
         @include assert {
           @include output {
             @include lg\:min-h-80;
@@ -2290,7 +2290,7 @@
         }
       }
 
-      @include it("lg\:min-h-96") {
+      @include it('lg\:min-h-96') {
         @include assert {
           @include output {
             @include lg\:min-h-96;
@@ -2305,7 +2305,7 @@
         }
       }
 
-      @include it("lg\:min-h-px") {
+      @include it('lg\:min-h-px') {
         @include assert {
           @include output {
             @include lg\:min-h-px;
@@ -2320,7 +2320,7 @@
         }
       }
 
-      @include it("lg\:min-h-0\.5") {
+      @include it('lg\:min-h-0\.5') {
         @include assert {
           @include output {
             @include lg\:min-h-0\.5;
@@ -2335,7 +2335,7 @@
         }
       }
 
-      @include it("lg\:min-h-1\.5") {
+      @include it('lg\:min-h-1\.5') {
         @include assert {
           @include output {
             @include lg\:min-h-1\.5;
@@ -2350,7 +2350,7 @@
         }
       }
 
-      @include it("lg\:min-h-2\.5") {
+      @include it('lg\:min-h-2\.5') {
         @include assert {
           @include output {
             @include lg\:min-h-2\.5;
@@ -2365,7 +2365,7 @@
         }
       }
 
-      @include it("lg\:min-h-3\.5") {
+      @include it('lg\:min-h-3\.5') {
         @include assert {
           @include output {
             @include lg\:min-h-3\.5;
@@ -2380,7 +2380,7 @@
         }
       }
 
-      @include it("lg\:min-h-full") {
+      @include it('lg\:min-h-full') {
         @include assert {
           @include output {
             @include lg\:min-h-full;
@@ -2395,7 +2395,7 @@
         }
       }
 
-      @include it("lg\:min-h-screen") {
+      @include it('lg\:min-h-screen') {
         @include assert {
           @include output {
             @include lg\:min-h-screen;
@@ -2410,7 +2410,7 @@
         }
       }
 
-      @include it("lg\:min-h-svh") {
+      @include it('lg\:min-h-svh') {
         @include assert {
           @include output {
             @include lg\:min-h-svh;
@@ -2425,7 +2425,7 @@
         }
       }
 
-      @include it("lg\:min-h-lvh") {
+      @include it('lg\:min-h-lvh') {
         @include assert {
           @include output {
             @include lg\:min-h-lvh;
@@ -2440,7 +2440,7 @@
         }
       }
 
-      @include it("lg\:min-h-dvh") {
+      @include it('lg\:min-h-dvh') {
         @include assert {
           @include output {
             @include lg\:min-h-dvh;
@@ -2455,7 +2455,7 @@
         }
       }
 
-      @include it("lg\:min-h-min") {
+      @include it('lg\:min-h-min') {
         @include assert {
           @include output {
             @include lg\:min-h-min;
@@ -2470,7 +2470,7 @@
         }
       }
 
-      @include it("lg\:min-h-max") {
+      @include it('lg\:min-h-max') {
         @include assert {
           @include output {
             @include lg\:min-h-max;
@@ -2485,7 +2485,7 @@
         }
       }
 
-      @include it("lg\:min-h-fit") {
+      @include it('lg\:min-h-fit') {
         @include assert {
           @include output {
             @include lg\:min-h-fit;
@@ -2500,7 +2500,7 @@
         }
       }
 
-      @include it("xl\:min-h-0") {
+      @include it('xl\:min-h-0') {
         @include assert {
           @include output {
             @include xl\:min-h-0;
@@ -2515,7 +2515,7 @@
         }
       }
 
-      @include it("xl\:min-h-1") {
+      @include it('xl\:min-h-1') {
         @include assert {
           @include output {
             @include xl\:min-h-1;
@@ -2530,7 +2530,7 @@
         }
       }
 
-      @include it("xl\:min-h-2") {
+      @include it('xl\:min-h-2') {
         @include assert {
           @include output {
             @include xl\:min-h-2;
@@ -2545,7 +2545,7 @@
         }
       }
 
-      @include it("xl\:min-h-3") {
+      @include it('xl\:min-h-3') {
         @include assert {
           @include output {
             @include xl\:min-h-3;
@@ -2560,7 +2560,7 @@
         }
       }
 
-      @include it("xl\:min-h-4") {
+      @include it('xl\:min-h-4') {
         @include assert {
           @include output {
             @include xl\:min-h-4;
@@ -2575,7 +2575,7 @@
         }
       }
 
-      @include it("xl\:min-h-5") {
+      @include it('xl\:min-h-5') {
         @include assert {
           @include output {
             @include xl\:min-h-5;
@@ -2590,7 +2590,7 @@
         }
       }
 
-      @include it("xl\:min-h-6") {
+      @include it('xl\:min-h-6') {
         @include assert {
           @include output {
             @include xl\:min-h-6;
@@ -2605,7 +2605,7 @@
         }
       }
 
-      @include it("xl\:min-h-7") {
+      @include it('xl\:min-h-7') {
         @include assert {
           @include output {
             @include xl\:min-h-7;
@@ -2620,7 +2620,7 @@
         }
       }
 
-      @include it("xl\:min-h-8") {
+      @include it('xl\:min-h-8') {
         @include assert {
           @include output {
             @include xl\:min-h-8;
@@ -2635,7 +2635,7 @@
         }
       }
 
-      @include it("xl\:min-h-9") {
+      @include it('xl\:min-h-9') {
         @include assert {
           @include output {
             @include xl\:min-h-9;
@@ -2650,7 +2650,7 @@
         }
       }
 
-      @include it("xl\:min-h-10") {
+      @include it('xl\:min-h-10') {
         @include assert {
           @include output {
             @include xl\:min-h-10;
@@ -2665,7 +2665,7 @@
         }
       }
 
-      @include it("xl\:min-h-11") {
+      @include it('xl\:min-h-11') {
         @include assert {
           @include output {
             @include xl\:min-h-11;
@@ -2680,7 +2680,7 @@
         }
       }
 
-      @include it("xl\:min-h-12") {
+      @include it('xl\:min-h-12') {
         @include assert {
           @include output {
             @include xl\:min-h-12;
@@ -2695,7 +2695,7 @@
         }
       }
 
-      @include it("xl\:min-h-14") {
+      @include it('xl\:min-h-14') {
         @include assert {
           @include output {
             @include xl\:min-h-14;
@@ -2710,7 +2710,7 @@
         }
       }
 
-      @include it("xl\:min-h-16") {
+      @include it('xl\:min-h-16') {
         @include assert {
           @include output {
             @include xl\:min-h-16;
@@ -2725,7 +2725,7 @@
         }
       }
 
-      @include it("xl\:min-h-20") {
+      @include it('xl\:min-h-20') {
         @include assert {
           @include output {
             @include xl\:min-h-20;
@@ -2740,7 +2740,7 @@
         }
       }
 
-      @include it("xl\:min-h-24") {
+      @include it('xl\:min-h-24') {
         @include assert {
           @include output {
             @include xl\:min-h-24;
@@ -2755,7 +2755,7 @@
         }
       }
 
-      @include it("xl\:min-h-28") {
+      @include it('xl\:min-h-28') {
         @include assert {
           @include output {
             @include xl\:min-h-28;
@@ -2770,7 +2770,7 @@
         }
       }
 
-      @include it("xl\:min-h-32") {
+      @include it('xl\:min-h-32') {
         @include assert {
           @include output {
             @include xl\:min-h-32;
@@ -2785,7 +2785,7 @@
         }
       }
 
-      @include it("xl\:min-h-36") {
+      @include it('xl\:min-h-36') {
         @include assert {
           @include output {
             @include xl\:min-h-36;
@@ -2800,7 +2800,7 @@
         }
       }
 
-      @include it("xl\:min-h-40") {
+      @include it('xl\:min-h-40') {
         @include assert {
           @include output {
             @include xl\:min-h-40;
@@ -2815,7 +2815,7 @@
         }
       }
 
-      @include it("xl\:min-h-44") {
+      @include it('xl\:min-h-44') {
         @include assert {
           @include output {
             @include xl\:min-h-44;
@@ -2830,7 +2830,7 @@
         }
       }
 
-      @include it("xl\:min-h-48") {
+      @include it('xl\:min-h-48') {
         @include assert {
           @include output {
             @include xl\:min-h-48;
@@ -2845,7 +2845,7 @@
         }
       }
 
-      @include it("xl\:min-h-52") {
+      @include it('xl\:min-h-52') {
         @include assert {
           @include output {
             @include xl\:min-h-52;
@@ -2860,7 +2860,7 @@
         }
       }
 
-      @include it("xl\:min-h-56") {
+      @include it('xl\:min-h-56') {
         @include assert {
           @include output {
             @include xl\:min-h-56;
@@ -2875,7 +2875,7 @@
         }
       }
 
-      @include it("xl\:min-h-60") {
+      @include it('xl\:min-h-60') {
         @include assert {
           @include output {
             @include xl\:min-h-60;
@@ -2890,7 +2890,7 @@
         }
       }
 
-      @include it("xl\:min-h-64") {
+      @include it('xl\:min-h-64') {
         @include assert {
           @include output {
             @include xl\:min-h-64;
@@ -2905,7 +2905,7 @@
         }
       }
 
-      @include it("xl\:min-h-72") {
+      @include it('xl\:min-h-72') {
         @include assert {
           @include output {
             @include xl\:min-h-72;
@@ -2920,7 +2920,7 @@
         }
       }
 
-      @include it("xl\:min-h-80") {
+      @include it('xl\:min-h-80') {
         @include assert {
           @include output {
             @include xl\:min-h-80;
@@ -2935,7 +2935,7 @@
         }
       }
 
-      @include it("xl\:min-h-96") {
+      @include it('xl\:min-h-96') {
         @include assert {
           @include output {
             @include xl\:min-h-96;
@@ -2950,7 +2950,7 @@
         }
       }
 
-      @include it("xl\:min-h-px") {
+      @include it('xl\:min-h-px') {
         @include assert {
           @include output {
             @include xl\:min-h-px;
@@ -2965,7 +2965,7 @@
         }
       }
 
-      @include it("xl\:min-h-0\.5") {
+      @include it('xl\:min-h-0\.5') {
         @include assert {
           @include output {
             @include xl\:min-h-0\.5;
@@ -2980,7 +2980,7 @@
         }
       }
 
-      @include it("xl\:min-h-1\.5") {
+      @include it('xl\:min-h-1\.5') {
         @include assert {
           @include output {
             @include xl\:min-h-1\.5;
@@ -2995,7 +2995,7 @@
         }
       }
 
-      @include it("xl\:min-h-2\.5") {
+      @include it('xl\:min-h-2\.5') {
         @include assert {
           @include output {
             @include xl\:min-h-2\.5;
@@ -3010,7 +3010,7 @@
         }
       }
 
-      @include it("xl\:min-h-3\.5") {
+      @include it('xl\:min-h-3\.5') {
         @include assert {
           @include output {
             @include xl\:min-h-3\.5;
@@ -3025,7 +3025,7 @@
         }
       }
 
-      @include it("xl\:min-h-full") {
+      @include it('xl\:min-h-full') {
         @include assert {
           @include output {
             @include xl\:min-h-full;
@@ -3040,7 +3040,7 @@
         }
       }
 
-      @include it("xl\:min-h-screen") {
+      @include it('xl\:min-h-screen') {
         @include assert {
           @include output {
             @include xl\:min-h-screen;
@@ -3055,7 +3055,7 @@
         }
       }
 
-      @include it("xl\:min-h-svh") {
+      @include it('xl\:min-h-svh') {
         @include assert {
           @include output {
             @include xl\:min-h-svh;
@@ -3070,7 +3070,7 @@
         }
       }
 
-      @include it("xl\:min-h-lvh") {
+      @include it('xl\:min-h-lvh') {
         @include assert {
           @include output {
             @include xl\:min-h-lvh;
@@ -3085,7 +3085,7 @@
         }
       }
 
-      @include it("xl\:min-h-dvh") {
+      @include it('xl\:min-h-dvh') {
         @include assert {
           @include output {
             @include xl\:min-h-dvh;
@@ -3100,7 +3100,7 @@
         }
       }
 
-      @include it("xl\:min-h-min") {
+      @include it('xl\:min-h-min') {
         @include assert {
           @include output {
             @include xl\:min-h-min;
@@ -3115,7 +3115,7 @@
         }
       }
 
-      @include it("xl\:min-h-max") {
+      @include it('xl\:min-h-max') {
         @include assert {
           @include output {
             @include xl\:min-h-max;
@@ -3130,7 +3130,7 @@
         }
       }
 
-      @include it("xl\:min-h-fit") {
+      @include it('xl\:min-h-fit') {
         @include assert {
           @include output {
             @include xl\:min-h-fit;
@@ -3145,7 +3145,7 @@
         }
       }
 
-      @include it("2xl\:min-h-0") {
+      @include it('2xl\:min-h-0') {
         @include assert {
           @include output {
             @include \2xl\:min-h-0;
@@ -3160,7 +3160,7 @@
         }
       }
 
-      @include it("2xl\:min-h-1") {
+      @include it('2xl\:min-h-1') {
         @include assert {
           @include output {
             @include \2xl\:min-h-1;
@@ -3175,7 +3175,7 @@
         }
       }
 
-      @include it("2xl\:min-h-2") {
+      @include it('2xl\:min-h-2') {
         @include assert {
           @include output {
             @include \2xl\:min-h-2;
@@ -3190,7 +3190,7 @@
         }
       }
 
-      @include it("2xl\:min-h-3") {
+      @include it('2xl\:min-h-3') {
         @include assert {
           @include output {
             @include \2xl\:min-h-3;
@@ -3205,7 +3205,7 @@
         }
       }
 
-      @include it("2xl\:min-h-4") {
+      @include it('2xl\:min-h-4') {
         @include assert {
           @include output {
             @include \2xl\:min-h-4;
@@ -3220,7 +3220,7 @@
         }
       }
 
-      @include it("2xl\:min-h-5") {
+      @include it('2xl\:min-h-5') {
         @include assert {
           @include output {
             @include \2xl\:min-h-5;
@@ -3235,7 +3235,7 @@
         }
       }
 
-      @include it("2xl\:min-h-6") {
+      @include it('2xl\:min-h-6') {
         @include assert {
           @include output {
             @include \2xl\:min-h-6;
@@ -3250,7 +3250,7 @@
         }
       }
 
-      @include it("2xl\:min-h-7") {
+      @include it('2xl\:min-h-7') {
         @include assert {
           @include output {
             @include \2xl\:min-h-7;
@@ -3265,7 +3265,7 @@
         }
       }
 
-      @include it("2xl\:min-h-8") {
+      @include it('2xl\:min-h-8') {
         @include assert {
           @include output {
             @include \2xl\:min-h-8;
@@ -3280,7 +3280,7 @@
         }
       }
 
-      @include it("2xl\:min-h-9") {
+      @include it('2xl\:min-h-9') {
         @include assert {
           @include output {
             @include \2xl\:min-h-9;
@@ -3295,7 +3295,7 @@
         }
       }
 
-      @include it("2xl\:min-h-10") {
+      @include it('2xl\:min-h-10') {
         @include assert {
           @include output {
             @include \2xl\:min-h-10;
@@ -3310,7 +3310,7 @@
         }
       }
 
-      @include it("2xl\:min-h-11") {
+      @include it('2xl\:min-h-11') {
         @include assert {
           @include output {
             @include \2xl\:min-h-11;
@@ -3325,7 +3325,7 @@
         }
       }
 
-      @include it("2xl\:min-h-12") {
+      @include it('2xl\:min-h-12') {
         @include assert {
           @include output {
             @include \2xl\:min-h-12;
@@ -3340,7 +3340,7 @@
         }
       }
 
-      @include it("2xl\:min-h-14") {
+      @include it('2xl\:min-h-14') {
         @include assert {
           @include output {
             @include \2xl\:min-h-14;
@@ -3355,7 +3355,7 @@
         }
       }
 
-      @include it("2xl\:min-h-16") {
+      @include it('2xl\:min-h-16') {
         @include assert {
           @include output {
             @include \2xl\:min-h-16;
@@ -3370,7 +3370,7 @@
         }
       }
 
-      @include it("2xl\:min-h-20") {
+      @include it('2xl\:min-h-20') {
         @include assert {
           @include output {
             @include \2xl\:min-h-20;
@@ -3385,7 +3385,7 @@
         }
       }
 
-      @include it("2xl\:min-h-24") {
+      @include it('2xl\:min-h-24') {
         @include assert {
           @include output {
             @include \2xl\:min-h-24;
@@ -3400,7 +3400,7 @@
         }
       }
 
-      @include it("2xl\:min-h-28") {
+      @include it('2xl\:min-h-28') {
         @include assert {
           @include output {
             @include \2xl\:min-h-28;
@@ -3415,7 +3415,7 @@
         }
       }
 
-      @include it("2xl\:min-h-32") {
+      @include it('2xl\:min-h-32') {
         @include assert {
           @include output {
             @include \2xl\:min-h-32;
@@ -3430,7 +3430,7 @@
         }
       }
 
-      @include it("2xl\:min-h-36") {
+      @include it('2xl\:min-h-36') {
         @include assert {
           @include output {
             @include \2xl\:min-h-36;
@@ -3445,7 +3445,7 @@
         }
       }
 
-      @include it("2xl\:min-h-40") {
+      @include it('2xl\:min-h-40') {
         @include assert {
           @include output {
             @include \2xl\:min-h-40;
@@ -3460,7 +3460,7 @@
         }
       }
 
-      @include it("2xl\:min-h-44") {
+      @include it('2xl\:min-h-44') {
         @include assert {
           @include output {
             @include \2xl\:min-h-44;
@@ -3475,7 +3475,7 @@
         }
       }
 
-      @include it("2xl\:min-h-48") {
+      @include it('2xl\:min-h-48') {
         @include assert {
           @include output {
             @include \2xl\:min-h-48;
@@ -3490,7 +3490,7 @@
         }
       }
 
-      @include it("2xl\:min-h-52") {
+      @include it('2xl\:min-h-52') {
         @include assert {
           @include output {
             @include \2xl\:min-h-52;
@@ -3505,7 +3505,7 @@
         }
       }
 
-      @include it("2xl\:min-h-56") {
+      @include it('2xl\:min-h-56') {
         @include assert {
           @include output {
             @include \2xl\:min-h-56;
@@ -3520,7 +3520,7 @@
         }
       }
 
-      @include it("2xl\:min-h-60") {
+      @include it('2xl\:min-h-60') {
         @include assert {
           @include output {
             @include \2xl\:min-h-60;
@@ -3535,7 +3535,7 @@
         }
       }
 
-      @include it("2xl\:min-h-64") {
+      @include it('2xl\:min-h-64') {
         @include assert {
           @include output {
             @include \2xl\:min-h-64;
@@ -3550,7 +3550,7 @@
         }
       }
 
-      @include it("2xl\:min-h-72") {
+      @include it('2xl\:min-h-72') {
         @include assert {
           @include output {
             @include \2xl\:min-h-72;
@@ -3565,7 +3565,7 @@
         }
       }
 
-      @include it("2xl\:min-h-80") {
+      @include it('2xl\:min-h-80') {
         @include assert {
           @include output {
             @include \2xl\:min-h-80;
@@ -3580,7 +3580,7 @@
         }
       }
 
-      @include it("2xl\:min-h-96") {
+      @include it('2xl\:min-h-96') {
         @include assert {
           @include output {
             @include \2xl\:min-h-96;
@@ -3595,7 +3595,7 @@
         }
       }
 
-      @include it("2xl\:min-h-px") {
+      @include it('2xl\:min-h-px') {
         @include assert {
           @include output {
             @include \2xl\:min-h-px;
@@ -3610,7 +3610,7 @@
         }
       }
 
-      @include it("2xl\:min-h-0\.5") {
+      @include it('2xl\:min-h-0\.5') {
         @include assert {
           @include output {
             @include \2xl\:min-h-0\.5;
@@ -3625,7 +3625,7 @@
         }
       }
 
-      @include it("2xl\:min-h-1\.5") {
+      @include it('2xl\:min-h-1\.5') {
         @include assert {
           @include output {
             @include \2xl\:min-h-1\.5;
@@ -3640,7 +3640,7 @@
         }
       }
 
-      @include it("2xl\:min-h-2\.5") {
+      @include it('2xl\:min-h-2\.5') {
         @include assert {
           @include output {
             @include \2xl\:min-h-2\.5;
@@ -3655,7 +3655,7 @@
         }
       }
 
-      @include it("2xl\:min-h-3\.5") {
+      @include it('2xl\:min-h-3\.5') {
         @include assert {
           @include output {
             @include \2xl\:min-h-3\.5;
@@ -3670,7 +3670,7 @@
         }
       }
 
-      @include it("2xl\:min-h-full") {
+      @include it('2xl\:min-h-full') {
         @include assert {
           @include output {
             @include \2xl\:min-h-full;
@@ -3685,7 +3685,7 @@
         }
       }
 
-      @include it("2xl\:min-h-screen") {
+      @include it('2xl\:min-h-screen') {
         @include assert {
           @include output {
             @include \2xl\:min-h-screen;
@@ -3700,7 +3700,7 @@
         }
       }
 
-      @include it("2xl\:min-h-svh") {
+      @include it('2xl\:min-h-svh') {
         @include assert {
           @include output {
             @include \2xl\:min-h-svh;
@@ -3715,7 +3715,7 @@
         }
       }
 
-      @include it("2xl\:min-h-lvh") {
+      @include it('2xl\:min-h-lvh') {
         @include assert {
           @include output {
             @include \2xl\:min-h-lvh;
@@ -3730,7 +3730,7 @@
         }
       }
 
-      @include it("2xl\:min-h-dvh") {
+      @include it('2xl\:min-h-dvh') {
         @include assert {
           @include output {
             @include \2xl\:min-h-dvh;
@@ -3745,7 +3745,7 @@
         }
       }
 
-      @include it("2xl\:min-h-min") {
+      @include it('2xl\:min-h-min') {
         @include assert {
           @include output {
             @include \2xl\:min-h-min;
@@ -3760,7 +3760,7 @@
         }
       }
 
-      @include it("2xl\:min-h-max") {
+      @include it('2xl\:min-h-max') {
         @include assert {
           @include output {
             @include \2xl\:min-h-max;
@@ -3775,7 +3775,7 @@
         }
       }
 
-      @include it("2xl\:min-h-fit") {
+      @include it('2xl\:min-h-fit') {
         @include assert {
           @include output {
             @include \2xl\:min-h-fit;
@@ -3791,8 +3791,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("min-h-(220px)") {
+    @include describe('Custom') {
+      @include it('min-h-(220px)') {
         @include assert {
           @include output {
             @include min-h-(220px);
@@ -3805,7 +3805,7 @@
         }
       }
 
-      @include it("sm\:min-h-(220px)") {
+      @include it('sm\:min-h-(220px)') {
         @include assert {
           @include output {
             @include sm\:min-h-(220px);
@@ -3820,7 +3820,7 @@
         }
       }
 
-      @include it("md\:min-h-(220px)") {
+      @include it('md\:min-h-(220px)') {
         @include assert {
           @include output {
             @include md\:min-h-(220px);
@@ -3835,7 +3835,7 @@
         }
       }
 
-      @include it("lg\:min-h-(220px)") {
+      @include it('lg\:min-h-(220px)') {
         @include assert {
           @include output {
             @include lg\:min-h-(220px);
@@ -3850,7 +3850,7 @@
         }
       }
 
-      @include it("xl\:min-h-(220px)") {
+      @include it('xl\:min-h-(220px)') {
         @include assert {
           @include output {
             @include xl\:min-h-(220px);
@@ -3865,7 +3865,7 @@
         }
       }
 
-      @include it("2xl\:min-h-(220px)") {
+      @include it('2xl\:min-h-(220px)') {
         @include assert {
           @include output {
             @include \2xl\:min-h-(220px);

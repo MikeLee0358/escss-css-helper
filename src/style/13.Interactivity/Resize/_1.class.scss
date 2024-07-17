@@ -1,10 +1,10 @@
-@use "../../setting" as *;
+@use '../../setting' as *;
 
 $Resize: (
-  "resize-none": none,
-  "resize-y": vertical,
-  "resize-x": horizontal,
-  "resize": both,
+  'resize-none': none,
+  'resize-y': vertical,
+  'resize-x': horizontal,
+  'resize': both,
 );
 
 @if $Basic {

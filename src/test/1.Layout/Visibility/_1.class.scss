@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("1.Layout") {
-  @include describe("Visibility") {
-    @include describe("Basic") {
-      @include it("visible") {
+@include describe('1.Layout') {
+  @include describe('Visibility') {
+    @include describe('Basic') {
+      @include it('visible') {
         @include assert {
           @include output {
             @include visible;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("invisible") {
+      @include it('invisible') {
         @include assert {
           @include output {
             @include invisible;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("collapse") {
+      @include it('collapse') {
         @include assert {
           @include output {
             @include collapse;
@@ -44,8 +44,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:visible") {
+    @include describe('Rwd') {
+      @include it('sm\:visible') {
         @include assert {
           @include output {
             @include sm\:visible;
@@ -60,7 +60,7 @@
         }
       }
 
-      @include it("sm\:invisible") {
+      @include it('sm\:invisible') {
         @include assert {
           @include output {
             @include sm\:invisible;
@@ -75,7 +75,7 @@
         }
       }
 
-      @include it("sm\:collapse") {
+      @include it('sm\:collapse') {
         @include assert {
           @include output {
             @include sm\:collapse;
@@ -90,7 +90,7 @@
         }
       }
 
-      @include it("md\:visible") {
+      @include it('md\:visible') {
         @include assert {
           @include output {
             @include md\:visible;
@@ -105,7 +105,7 @@
         }
       }
 
-      @include it("md\:invisible") {
+      @include it('md\:invisible') {
         @include assert {
           @include output {
             @include md\:invisible;
@@ -120,7 +120,7 @@
         }
       }
 
-      @include it("md\:collapse") {
+      @include it('md\:collapse') {
         @include assert {
           @include output {
             @include md\:collapse;
@@ -135,7 +135,7 @@
         }
       }
 
-      @include it("lg\:visible") {
+      @include it('lg\:visible') {
         @include assert {
           @include output {
             @include lg\:visible;
@@ -150,7 +150,7 @@
         }
       }
 
-      @include it("lg\:invisible") {
+      @include it('lg\:invisible') {
         @include assert {
           @include output {
             @include lg\:invisible;
@@ -165,7 +165,7 @@
         }
       }
 
-      @include it("lg\:collapse") {
+      @include it('lg\:collapse') {
         @include assert {
           @include output {
             @include lg\:collapse;
@@ -180,7 +180,7 @@
         }
       }
 
-      @include it("xl\:visible") {
+      @include it('xl\:visible') {
         @include assert {
           @include output {
             @include xl\:visible;
@@ -195,7 +195,7 @@
         }
       }
 
-      @include it("xl\:invisible") {
+      @include it('xl\:invisible') {
         @include assert {
           @include output {
             @include xl\:invisible;
@@ -210,7 +210,7 @@
         }
       }
 
-      @include it("xl\:collapse") {
+      @include it('xl\:collapse') {
         @include assert {
           @include output {
             @include xl\:collapse;
@@ -225,7 +225,7 @@
         }
       }
 
-      @include it("2xl\:visible") {
+      @include it('2xl\:visible') {
         @include assert {
           @include output {
             @include \2xl\:visible;
@@ -240,7 +240,7 @@
         }
       }
 
-      @include it("2xl\:invisible") {
+      @include it('2xl\:invisible') {
         @include assert {
           @include output {
             @include \2xl\:invisible;
@@ -255,7 +255,7 @@
         }
       }
 
-      @include it("2xl\:collapse") {
+      @include it('2xl\:collapse') {
         @include assert {
           @include output {
             @include \2xl\:collapse;
@@ -271,8 +271,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("z-(100)") {
+    @include describe('Custom') {
+      @include it('z-(100)') {
         @include assert {
           @include output {
             @include z-(100);
@@ -285,7 +285,7 @@
         }
       }
 
-      @include it("sm\:z-(100)") {
+      @include it('sm\:z-(100)') {
         @include assert {
           @include output {
             @include sm\:z-(100);
@@ -300,7 +300,7 @@
         }
       }
 
-      @include it("md\:z-(100)") {
+      @include it('md\:z-(100)') {
         @include assert {
           @include output {
             @include md\:z-(100);
@@ -315,7 +315,7 @@
         }
       }
 
-      @include it("lg\:z-(100)") {
+      @include it('lg\:z-(100)') {
         @include assert {
           @include output {
             @include lg\:z-(100);
@@ -330,7 +330,7 @@
         }
       }
 
-      @include it("xl\:z-(100)") {
+      @include it('xl\:z-(100)') {
         @include assert {
           @include output {
             @include xl\:z-(100);
@@ -345,7 +345,7 @@
         }
       }
 
-      @include it("2xl\:z-(100)") {
+      @include it('2xl\:z-(100)') {
         @include assert {
           @include output {
             @include \2xl\:z-(100);

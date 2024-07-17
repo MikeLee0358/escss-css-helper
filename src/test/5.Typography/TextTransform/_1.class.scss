@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("5.Typography") {
-  @include describe("Text Transform") {
-    @include describe("Basic") {
-      @include it("uppercase") {
+@include describe('5.Typography') {
+  @include describe('Text Transform') {
+    @include describe('Basic') {
+      @include it('uppercase') {
         @include assert {
           @include output {
             @include uppercase;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("lowercase") {
+      @include it('lowercase') {
         @include assert {
           @include output {
             @include lowercase;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("capitalize") {
+      @include it('capitalize') {
         @include assert {
           @include output {
             @include capitalize;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("normal-case") {
+      @include it('normal-case') {
         @include assert {
           @include output {
             @include normal-case;
@@ -57,8 +57,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:uppercase") {
+    @include describe('Rwd') {
+      @include it('sm\:uppercase') {
         @include assert {
           @include output {
             @include sm\:uppercase;
@@ -73,7 +73,7 @@
         }
       }
 
-      @include it("sm\:lowercase") {
+      @include it('sm\:lowercase') {
         @include assert {
           @include output {
             @include sm\:lowercase;
@@ -88,7 +88,7 @@
         }
       }
 
-      @include it("sm\:capitalize") {
+      @include it('sm\:capitalize') {
         @include assert {
           @include output {
             @include sm\:capitalize;
@@ -103,7 +103,7 @@
         }
       }
 
-      @include it("sm\:normal-case") {
+      @include it('sm\:normal-case') {
         @include assert {
           @include output {
             @include sm\:normal-case;
@@ -118,7 +118,7 @@
         }
       }
 
-      @include it("md\:uppercase") {
+      @include it('md\:uppercase') {
         @include assert {
           @include output {
             @include md\:uppercase;
@@ -133,7 +133,7 @@
         }
       }
 
-      @include it("md\:lowercase") {
+      @include it('md\:lowercase') {
         @include assert {
           @include output {
             @include md\:lowercase;
@@ -148,7 +148,7 @@
         }
       }
 
-      @include it("md\:capitalize") {
+      @include it('md\:capitalize') {
         @include assert {
           @include output {
             @include md\:capitalize;
@@ -163,7 +163,7 @@
         }
       }
 
-      @include it("md\:normal-case") {
+      @include it('md\:normal-case') {
         @include assert {
           @include output {
             @include md\:normal-case;
@@ -178,7 +178,7 @@
         }
       }
 
-      @include it("lg\:uppercase") {
+      @include it('lg\:uppercase') {
         @include assert {
           @include output {
             @include lg\:uppercase;
@@ -193,7 +193,7 @@
         }
       }
 
-      @include it("lg\:lowercase") {
+      @include it('lg\:lowercase') {
         @include assert {
           @include output {
             @include lg\:lowercase;
@@ -208,7 +208,7 @@
         }
       }
 
-      @include it("lg\:capitalize") {
+      @include it('lg\:capitalize') {
         @include assert {
           @include output {
             @include lg\:capitalize;
@@ -223,7 +223,7 @@
         }
       }
 
-      @include it("lg\:normal-case") {
+      @include it('lg\:normal-case') {
         @include assert {
           @include output {
             @include lg\:normal-case;
@@ -238,7 +238,7 @@
         }
       }
 
-      @include it("xl\:uppercase") {
+      @include it('xl\:uppercase') {
         @include assert {
           @include output {
             @include xl\:uppercase;
@@ -253,7 +253,7 @@
         }
       }
 
-      @include it("xl\:lowercase") {
+      @include it('xl\:lowercase') {
         @include assert {
           @include output {
             @include xl\:lowercase;
@@ -268,7 +268,7 @@
         }
       }
 
-      @include it("xl\:capitalize") {
+      @include it('xl\:capitalize') {
         @include assert {
           @include output {
             @include xl\:capitalize;
@@ -283,7 +283,7 @@
         }
       }
 
-      @include it("xl\:normal-case") {
+      @include it('xl\:normal-case') {
         @include assert {
           @include output {
             @include xl\:normal-case;
@@ -298,7 +298,7 @@
         }
       }
 
-      @include it("2xl\:uppercase") {
+      @include it('2xl\:uppercase') {
         @include assert {
           @include output {
             @include \2xl\:uppercase;
@@ -313,7 +313,7 @@
         }
       }
 
-      @include it("2xl\:lowercase") {
+      @include it('2xl\:lowercase') {
         @include assert {
           @include output {
             @include \2xl\:lowercase;
@@ -328,7 +328,7 @@
         }
       }
 
-      @include it("2xl\:capitalize") {
+      @include it('2xl\:capitalize') {
         @include assert {
           @include output {
             @include \2xl\:capitalize;
@@ -343,7 +343,7 @@
         }
       }
 
-      @include it("2xl\:normal-case") {
+      @include it('2xl\:normal-case') {
         @include assert {
           @include output {
             @include \2xl\:normal-case;

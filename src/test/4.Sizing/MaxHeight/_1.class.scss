@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("4.Size") {
-  @include describe("Max-Height") {
-    @include describe("Basic") {
-      @include it("max-h-0") {
+@include describe('4.Size') {
+  @include describe('Max-Height') {
+    @include describe('Basic') {
+      @include it('max-h-0') {
         @include assert {
           @include output {
             @include max-h-0;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("max-h-px") {
+      @include it('max-h-px') {
         @include assert {
           @include output {
             @include max-h-px;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("max-h-0\.5") {
+      @include it('max-h-0\.5') {
         @include assert {
           @include output {
             @include max-h-0\.5;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("max-h-1") {
+      @include it('max-h-1') {
         @include assert {
           @include output {
             @include max-h-1;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("max-h-1\.5") {
+      @include it('max-h-1\.5') {
         @include assert {
           @include output {
             @include max-h-1\.5;
@@ -69,7 +69,7 @@
         }
       }
 
-      @include it("max-h-2") {
+      @include it('max-h-2') {
         @include assert {
           @include output {
             @include max-h-2;
@@ -82,7 +82,7 @@
         }
       }
 
-      @include it("max-h-2\.5") {
+      @include it('max-h-2\.5') {
         @include assert {
           @include output {
             @include max-h-2\.5;
@@ -95,7 +95,7 @@
         }
       }
 
-      @include it("max-h-3") {
+      @include it('max-h-3') {
         @include assert {
           @include output {
             @include max-h-3;
@@ -108,7 +108,7 @@
         }
       }
 
-      @include it("max-h-3\.5") {
+      @include it('max-h-3\.5') {
         @include assert {
           @include output {
             @include max-h-3\.5;
@@ -121,7 +121,7 @@
         }
       }
 
-      @include it("max-h-4") {
+      @include it('max-h-4') {
         @include assert {
           @include output {
             @include max-h-4;
@@ -134,7 +134,7 @@
         }
       }
 
-      @include it("max-h-5") {
+      @include it('max-h-5') {
         @include assert {
           @include output {
             @include max-h-5;
@@ -147,7 +147,7 @@
         }
       }
 
-      @include it("max-h-6") {
+      @include it('max-h-6') {
         @include assert {
           @include output {
             @include max-h-6;
@@ -160,7 +160,7 @@
         }
       }
 
-      @include it("max-h-7") {
+      @include it('max-h-7') {
         @include assert {
           @include output {
             @include max-h-7;
@@ -173,7 +173,7 @@
         }
       }
 
-      @include it("max-h-8") {
+      @include it('max-h-8') {
         @include assert {
           @include output {
             @include max-h-8;
@@ -186,7 +186,7 @@
         }
       }
 
-      @include it("max-h-9") {
+      @include it('max-h-9') {
         @include assert {
           @include output {
             @include max-h-9;
@@ -199,7 +199,7 @@
         }
       }
 
-      @include it("max-h-10") {
+      @include it('max-h-10') {
         @include assert {
           @include output {
             @include max-h-10;
@@ -212,7 +212,7 @@
         }
       }
 
-      @include it("max-h-11") {
+      @include it('max-h-11') {
         @include assert {
           @include output {
             @include max-h-11;
@@ -225,7 +225,7 @@
         }
       }
 
-      @include it("max-h-12") {
+      @include it('max-h-12') {
         @include assert {
           @include output {
             @include max-h-12;
@@ -238,7 +238,7 @@
         }
       }
 
-      @include it("max-h-14") {
+      @include it('max-h-14') {
         @include assert {
           @include output {
             @include max-h-14;
@@ -251,7 +251,7 @@
         }
       }
 
-      @include it("max-h-16") {
+      @include it('max-h-16') {
         @include assert {
           @include output {
             @include max-h-16;
@@ -264,7 +264,7 @@
         }
       }
 
-      @include it("max-h-20") {
+      @include it('max-h-20') {
         @include assert {
           @include output {
             @include max-h-20;
@@ -277,7 +277,7 @@
         }
       }
 
-      @include it("max-h-24") {
+      @include it('max-h-24') {
         @include assert {
           @include output {
             @include max-h-24;
@@ -290,7 +290,7 @@
         }
       }
 
-      @include it("max-h-28") {
+      @include it('max-h-28') {
         @include assert {
           @include output {
             @include max-h-28;
@@ -303,7 +303,7 @@
         }
       }
 
-      @include it("max-h-32") {
+      @include it('max-h-32') {
         @include assert {
           @include output {
             @include max-h-32;
@@ -316,7 +316,7 @@
         }
       }
 
-      @include it("max-h-36") {
+      @include it('max-h-36') {
         @include assert {
           @include output {
             @include max-h-36;
@@ -329,7 +329,7 @@
         }
       }
 
-      @include it("max-h-40") {
+      @include it('max-h-40') {
         @include assert {
           @include output {
             @include max-h-40;
@@ -342,7 +342,7 @@
         }
       }
 
-      @include it("max-h-44") {
+      @include it('max-h-44') {
         @include assert {
           @include output {
             @include max-h-44;
@@ -355,7 +355,7 @@
         }
       }
 
-      @include it("max-h-48") {
+      @include it('max-h-48') {
         @include assert {
           @include output {
             @include max-h-48;
@@ -368,7 +368,7 @@
         }
       }
 
-      @include it("max-h-52") {
+      @include it('max-h-52') {
         @include assert {
           @include output {
             @include max-h-52;
@@ -381,7 +381,7 @@
         }
       }
 
-      @include it("max-h-56") {
+      @include it('max-h-56') {
         @include assert {
           @include output {
             @include max-h-56;
@@ -394,7 +394,7 @@
         }
       }
 
-      @include it("max-h-60") {
+      @include it('max-h-60') {
         @include assert {
           @include output {
             @include max-h-60;
@@ -407,7 +407,7 @@
         }
       }
 
-      @include it("max-h-64") {
+      @include it('max-h-64') {
         @include assert {
           @include output {
             @include max-h-64;
@@ -420,7 +420,7 @@
         }
       }
 
-      @include it("max-h-72") {
+      @include it('max-h-72') {
         @include assert {
           @include output {
             @include max-h-72;
@@ -433,7 +433,7 @@
         }
       }
 
-      @include it("max-h-80") {
+      @include it('max-h-80') {
         @include assert {
           @include output {
             @include max-h-80;
@@ -446,7 +446,7 @@
         }
       }
 
-      @include it("max-h-96") {
+      @include it('max-h-96') {
         @include assert {
           @include output {
             @include max-h-96;
@@ -459,7 +459,7 @@
         }
       }
 
-      @include it("max-h-none") {
+      @include it('max-h-none') {
         @include assert {
           @include output {
             @include max-h-none;
@@ -472,7 +472,7 @@
         }
       }
 
-      @include it("max-h-full") {
+      @include it('max-h-full') {
         @include assert {
           @include output {
             @include max-h-full;
@@ -485,7 +485,7 @@
         }
       }
 
-      @include it("max-h-screen") {
+      @include it('max-h-screen') {
         @include assert {
           @include output {
             @include max-h-screen;
@@ -498,7 +498,7 @@
         }
       }
 
-      @include it("max-h-svh") {
+      @include it('max-h-svh') {
         @include assert {
           @include output {
             @include max-h-svh;
@@ -511,7 +511,7 @@
         }
       }
 
-      @include it("max-h-lvh") {
+      @include it('max-h-lvh') {
         @include assert {
           @include output {
             @include max-h-lvh;
@@ -524,7 +524,7 @@
         }
       }
 
-      @include it("max-h-dvh") {
+      @include it('max-h-dvh') {
         @include assert {
           @include output {
             @include max-h-dvh;
@@ -537,7 +537,7 @@
         }
       }
 
-      @include it("max-h-min") {
+      @include it('max-h-min') {
         @include assert {
           @include output {
             @include max-h-min;
@@ -550,7 +550,7 @@
         }
       }
 
-      @include it("max-h-max") {
+      @include it('max-h-max') {
         @include assert {
           @include output {
             @include max-h-max;
@@ -563,7 +563,7 @@
         }
       }
 
-      @include it("max-h-fit") {
+      @include it('max-h-fit') {
         @include assert {
           @include output {
             @include max-h-fit;
@@ -577,8 +577,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:max-h-0") {
+    @include describe('Rwd') {
+      @include it('sm\:max-h-0') {
         @include assert {
           @include output {
             @include sm\:max-h-0;
@@ -593,7 +593,7 @@
         }
       }
 
-      @include it("sm\:max-h-px") {
+      @include it('sm\:max-h-px') {
         @include assert {
           @include output {
             @include sm\:max-h-px;
@@ -608,7 +608,7 @@
         }
       }
 
-      @include it("sm\:max-h-0\.5") {
+      @include it('sm\:max-h-0\.5') {
         @include assert {
           @include output {
             @include sm\:max-h-0\.5;
@@ -623,7 +623,7 @@
         }
       }
 
-      @include it("sm\:max-h-1") {
+      @include it('sm\:max-h-1') {
         @include assert {
           @include output {
             @include sm\:max-h-1;
@@ -638,7 +638,7 @@
         }
       }
 
-      @include it("sm\:max-h-1\.5") {
+      @include it('sm\:max-h-1\.5') {
         @include assert {
           @include output {
             @include sm\:max-h-1\.5;
@@ -653,7 +653,7 @@
         }
       }
 
-      @include it("sm\:max-h-2") {
+      @include it('sm\:max-h-2') {
         @include assert {
           @include output {
             @include sm\:max-h-2;
@@ -668,7 +668,7 @@
         }
       }
 
-      @include it("sm\:max-h-2\.5") {
+      @include it('sm\:max-h-2\.5') {
         @include assert {
           @include output {
             @include sm\:max-h-2\.5;
@@ -683,7 +683,7 @@
         }
       }
 
-      @include it("sm\:max-h-3") {
+      @include it('sm\:max-h-3') {
         @include assert {
           @include output {
             @include sm\:max-h-3;
@@ -698,7 +698,7 @@
         }
       }
 
-      @include it("sm\:max-h-3\.5") {
+      @include it('sm\:max-h-3\.5') {
         @include assert {
           @include output {
             @include sm\:max-h-3\.5;
@@ -713,7 +713,7 @@
         }
       }
 
-      @include it("sm\:max-h-4") {
+      @include it('sm\:max-h-4') {
         @include assert {
           @include output {
             @include sm\:max-h-4;
@@ -728,7 +728,7 @@
         }
       }
 
-      @include it("sm\:max-h-5") {
+      @include it('sm\:max-h-5') {
         @include assert {
           @include output {
             @include sm\:max-h-5;
@@ -743,7 +743,7 @@
         }
       }
 
-      @include it("sm\:max-h-6") {
+      @include it('sm\:max-h-6') {
         @include assert {
           @include output {
             @include sm\:max-h-6;
@@ -758,7 +758,7 @@
         }
       }
 
-      @include it("sm\:max-h-7") {
+      @include it('sm\:max-h-7') {
         @include assert {
           @include output {
             @include sm\:max-h-7;
@@ -773,7 +773,7 @@
         }
       }
 
-      @include it("sm\:max-h-8") {
+      @include it('sm\:max-h-8') {
         @include assert {
           @include output {
             @include sm\:max-h-8;
@@ -788,7 +788,7 @@
         }
       }
 
-      @include it("sm\:max-h-9") {
+      @include it('sm\:max-h-9') {
         @include assert {
           @include output {
             @include sm\:max-h-9;
@@ -803,7 +803,7 @@
         }
       }
 
-      @include it("sm\:max-h-10") {
+      @include it('sm\:max-h-10') {
         @include assert {
           @include output {
             @include sm\:max-h-10;
@@ -818,7 +818,7 @@
         }
       }
 
-      @include it("sm\:max-h-11") {
+      @include it('sm\:max-h-11') {
         @include assert {
           @include output {
             @include sm\:max-h-11;
@@ -833,7 +833,7 @@
         }
       }
 
-      @include it("sm\:max-h-12") {
+      @include it('sm\:max-h-12') {
         @include assert {
           @include output {
             @include sm\:max-h-12;
@@ -848,7 +848,7 @@
         }
       }
 
-      @include it("sm\:max-h-14") {
+      @include it('sm\:max-h-14') {
         @include assert {
           @include output {
             @include sm\:max-h-14;
@@ -863,7 +863,7 @@
         }
       }
 
-      @include it("sm\:max-h-16") {
+      @include it('sm\:max-h-16') {
         @include assert {
           @include output {
             @include sm\:max-h-16;
@@ -878,7 +878,7 @@
         }
       }
 
-      @include it("sm\:max-h-20") {
+      @include it('sm\:max-h-20') {
         @include assert {
           @include output {
             @include sm\:max-h-20;
@@ -893,7 +893,7 @@
         }
       }
 
-      @include it("sm\:max-h-24") {
+      @include it('sm\:max-h-24') {
         @include assert {
           @include output {
             @include sm\:max-h-24;
@@ -908,7 +908,7 @@
         }
       }
 
-      @include it("sm\:max-h-28") {
+      @include it('sm\:max-h-28') {
         @include assert {
           @include output {
             @include sm\:max-h-28;
@@ -923,7 +923,7 @@
         }
       }
 
-      @include it("sm\:max-h-32") {
+      @include it('sm\:max-h-32') {
         @include assert {
           @include output {
             @include sm\:max-h-32;
@@ -938,7 +938,7 @@
         }
       }
 
-      @include it("sm\:max-h-36") {
+      @include it('sm\:max-h-36') {
         @include assert {
           @include output {
             @include sm\:max-h-36;
@@ -953,7 +953,7 @@
         }
       }
 
-      @include it("sm\:max-h-40") {
+      @include it('sm\:max-h-40') {
         @include assert {
           @include output {
             @include sm\:max-h-40;
@@ -968,7 +968,7 @@
         }
       }
 
-      @include it("sm\:max-h-44") {
+      @include it('sm\:max-h-44') {
         @include assert {
           @include output {
             @include sm\:max-h-44;
@@ -983,7 +983,7 @@
         }
       }
 
-      @include it("sm\:max-h-48") {
+      @include it('sm\:max-h-48') {
         @include assert {
           @include output {
             @include sm\:max-h-48;
@@ -998,7 +998,7 @@
         }
       }
 
-      @include it("sm\:max-h-52") {
+      @include it('sm\:max-h-52') {
         @include assert {
           @include output {
             @include sm\:max-h-52;
@@ -1013,7 +1013,7 @@
         }
       }
 
-      @include it("sm\:max-h-56") {
+      @include it('sm\:max-h-56') {
         @include assert {
           @include output {
             @include sm\:max-h-56;
@@ -1028,7 +1028,7 @@
         }
       }
 
-      @include it("sm\:max-h-60") {
+      @include it('sm\:max-h-60') {
         @include assert {
           @include output {
             @include sm\:max-h-60;
@@ -1043,7 +1043,7 @@
         }
       }
 
-      @include it("sm\:max-h-64") {
+      @include it('sm\:max-h-64') {
         @include assert {
           @include output {
             @include sm\:max-h-64;
@@ -1058,7 +1058,7 @@
         }
       }
 
-      @include it("sm\:max-h-72") {
+      @include it('sm\:max-h-72') {
         @include assert {
           @include output {
             @include sm\:max-h-72;
@@ -1073,7 +1073,7 @@
         }
       }
 
-      @include it("sm\:max-h-80") {
+      @include it('sm\:max-h-80') {
         @include assert {
           @include output {
             @include sm\:max-h-80;
@@ -1088,7 +1088,7 @@
         }
       }
 
-      @include it("sm\:max-h-96") {
+      @include it('sm\:max-h-96') {
         @include assert {
           @include output {
             @include sm\:max-h-96;
@@ -1103,7 +1103,7 @@
         }
       }
 
-      @include it("sm\:max-h-none") {
+      @include it('sm\:max-h-none') {
         @include assert {
           @include output {
             @include sm\:max-h-none;
@@ -1118,7 +1118,7 @@
         }
       }
 
-      @include it("sm\:max-h-full") {
+      @include it('sm\:max-h-full') {
         @include assert {
           @include output {
             @include sm\:max-h-full;
@@ -1133,7 +1133,7 @@
         }
       }
 
-      @include it("sm\:max-h-screen") {
+      @include it('sm\:max-h-screen') {
         @include assert {
           @include output {
             @include sm\:max-h-screen;
@@ -1148,7 +1148,7 @@
         }
       }
 
-      @include it("sm\:max-h-svh") {
+      @include it('sm\:max-h-svh') {
         @include assert {
           @include output {
             @include sm\:max-h-svh;
@@ -1163,7 +1163,7 @@
         }
       }
 
-      @include it("sm\:max-h-lvh") {
+      @include it('sm\:max-h-lvh') {
         @include assert {
           @include output {
             @include sm\:max-h-lvh;
@@ -1178,7 +1178,7 @@
         }
       }
 
-      @include it("sm\:max-h-dvh") {
+      @include it('sm\:max-h-dvh') {
         @include assert {
           @include output {
             @include sm\:max-h-dvh;
@@ -1193,7 +1193,7 @@
         }
       }
 
-      @include it("sm\:max-h-min") {
+      @include it('sm\:max-h-min') {
         @include assert {
           @include output {
             @include sm\:max-h-min;
@@ -1208,7 +1208,7 @@
         }
       }
 
-      @include it("sm\:max-h-max") {
+      @include it('sm\:max-h-max') {
         @include assert {
           @include output {
             @include sm\:max-h-max;
@@ -1223,7 +1223,7 @@
         }
       }
 
-      @include it("sm\:max-h-fit") {
+      @include it('sm\:max-h-fit') {
         @include assert {
           @include output {
             @include sm\:max-h-fit;
@@ -1238,7 +1238,7 @@
         }
       }
 
-      @include it("md\:max-h-0") {
+      @include it('md\:max-h-0') {
         @include assert {
           @include output {
             @include md\:max-h-0;
@@ -1253,7 +1253,7 @@
         }
       }
 
-      @include it("md\:max-h-px") {
+      @include it('md\:max-h-px') {
         @include assert {
           @include output {
             @include md\:max-h-px;
@@ -1268,7 +1268,7 @@
         }
       }
 
-      @include it("md\:max-h-0\.5") {
+      @include it('md\:max-h-0\.5') {
         @include assert {
           @include output {
             @include md\:max-h-0\.5;
@@ -1283,7 +1283,7 @@
         }
       }
 
-      @include it("md\:max-h-1") {
+      @include it('md\:max-h-1') {
         @include assert {
           @include output {
             @include md\:max-h-1;
@@ -1298,7 +1298,7 @@
         }
       }
 
-      @include it("md\:max-h-1\.5") {
+      @include it('md\:max-h-1\.5') {
         @include assert {
           @include output {
             @include md\:max-h-1\.5;
@@ -1313,7 +1313,7 @@
         }
       }
 
-      @include it("md\:max-h-2") {
+      @include it('md\:max-h-2') {
         @include assert {
           @include output {
             @include md\:max-h-2;
@@ -1328,7 +1328,7 @@
         }
       }
 
-      @include it("md\:max-h-2\.5") {
+      @include it('md\:max-h-2\.5') {
         @include assert {
           @include output {
             @include md\:max-h-2\.5;
@@ -1343,7 +1343,7 @@
         }
       }
 
-      @include it("md\:max-h-3") {
+      @include it('md\:max-h-3') {
         @include assert {
           @include output {
             @include md\:max-h-3;
@@ -1358,7 +1358,7 @@
         }
       }
 
-      @include it("md\:max-h-3\.5") {
+      @include it('md\:max-h-3\.5') {
         @include assert {
           @include output {
             @include md\:max-h-3\.5;
@@ -1373,7 +1373,7 @@
         }
       }
 
-      @include it("md\:max-h-4") {
+      @include it('md\:max-h-4') {
         @include assert {
           @include output {
             @include md\:max-h-4;
@@ -1388,7 +1388,7 @@
         }
       }
 
-      @include it("md\:max-h-5") {
+      @include it('md\:max-h-5') {
         @include assert {
           @include output {
             @include md\:max-h-5;
@@ -1403,7 +1403,7 @@
         }
       }
 
-      @include it("md\:max-h-6") {
+      @include it('md\:max-h-6') {
         @include assert {
           @include output {
             @include md\:max-h-6;
@@ -1418,7 +1418,7 @@
         }
       }
 
-      @include it("md\:max-h-7") {
+      @include it('md\:max-h-7') {
         @include assert {
           @include output {
             @include md\:max-h-7;
@@ -1433,7 +1433,7 @@
         }
       }
 
-      @include it("md\:max-h-8") {
+      @include it('md\:max-h-8') {
         @include assert {
           @include output {
             @include md\:max-h-8;
@@ -1448,7 +1448,7 @@
         }
       }
 
-      @include it("md\:max-h-9") {
+      @include it('md\:max-h-9') {
         @include assert {
           @include output {
             @include md\:max-h-9;
@@ -1463,7 +1463,7 @@
         }
       }
 
-      @include it("md\:max-h-10") {
+      @include it('md\:max-h-10') {
         @include assert {
           @include output {
             @include md\:max-h-10;
@@ -1478,7 +1478,7 @@
         }
       }
 
-      @include it("md\:max-h-11") {
+      @include it('md\:max-h-11') {
         @include assert {
           @include output {
             @include md\:max-h-11;
@@ -1493,7 +1493,7 @@
         }
       }
 
-      @include it("md\:max-h-12") {
+      @include it('md\:max-h-12') {
         @include assert {
           @include output {
             @include md\:max-h-12;
@@ -1508,7 +1508,7 @@
         }
       }
 
-      @include it("md\:max-h-14") {
+      @include it('md\:max-h-14') {
         @include assert {
           @include output {
             @include md\:max-h-14;
@@ -1523,7 +1523,7 @@
         }
       }
 
-      @include it("md\:max-h-16") {
+      @include it('md\:max-h-16') {
         @include assert {
           @include output {
             @include md\:max-h-16;
@@ -1538,7 +1538,7 @@
         }
       }
 
-      @include it("md\:max-h-20") {
+      @include it('md\:max-h-20') {
         @include assert {
           @include output {
             @include md\:max-h-20;
@@ -1553,7 +1553,7 @@
         }
       }
 
-      @include it("md\:max-h-24") {
+      @include it('md\:max-h-24') {
         @include assert {
           @include output {
             @include md\:max-h-24;
@@ -1568,7 +1568,7 @@
         }
       }
 
-      @include it("md\:max-h-28") {
+      @include it('md\:max-h-28') {
         @include assert {
           @include output {
             @include md\:max-h-28;
@@ -1583,7 +1583,7 @@
         }
       }
 
-      @include it("md\:max-h-32") {
+      @include it('md\:max-h-32') {
         @include assert {
           @include output {
             @include md\:max-h-32;
@@ -1598,7 +1598,7 @@
         }
       }
 
-      @include it("md\:max-h-36") {
+      @include it('md\:max-h-36') {
         @include assert {
           @include output {
             @include md\:max-h-36;
@@ -1613,7 +1613,7 @@
         }
       }
 
-      @include it("md\:max-h-40") {
+      @include it('md\:max-h-40') {
         @include assert {
           @include output {
             @include md\:max-h-40;
@@ -1628,7 +1628,7 @@
         }
       }
 
-      @include it("md\:max-h-44") {
+      @include it('md\:max-h-44') {
         @include assert {
           @include output {
             @include md\:max-h-44;
@@ -1643,7 +1643,7 @@
         }
       }
 
-      @include it("md\:max-h-48") {
+      @include it('md\:max-h-48') {
         @include assert {
           @include output {
             @include md\:max-h-48;
@@ -1658,7 +1658,7 @@
         }
       }
 
-      @include it("md\:max-h-52") {
+      @include it('md\:max-h-52') {
         @include assert {
           @include output {
             @include md\:max-h-52;
@@ -1673,7 +1673,7 @@
         }
       }
 
-      @include it("md\:max-h-56") {
+      @include it('md\:max-h-56') {
         @include assert {
           @include output {
             @include md\:max-h-56;
@@ -1688,7 +1688,7 @@
         }
       }
 
-      @include it("md\:max-h-60") {
+      @include it('md\:max-h-60') {
         @include assert {
           @include output {
             @include md\:max-h-60;
@@ -1703,7 +1703,7 @@
         }
       }
 
-      @include it("md\:max-h-64") {
+      @include it('md\:max-h-64') {
         @include assert {
           @include output {
             @include md\:max-h-64;
@@ -1718,7 +1718,7 @@
         }
       }
 
-      @include it("md\:max-h-72") {
+      @include it('md\:max-h-72') {
         @include assert {
           @include output {
             @include md\:max-h-72;
@@ -1733,7 +1733,7 @@
         }
       }
 
-      @include it("md\:max-h-80") {
+      @include it('md\:max-h-80') {
         @include assert {
           @include output {
             @include md\:max-h-80;
@@ -1748,7 +1748,7 @@
         }
       }
 
-      @include it("md\:max-h-96") {
+      @include it('md\:max-h-96') {
         @include assert {
           @include output {
             @include md\:max-h-96;
@@ -1763,7 +1763,7 @@
         }
       }
 
-      @include it("md\:max-h-none") {
+      @include it('md\:max-h-none') {
         @include assert {
           @include output {
             @include md\:max-h-none;
@@ -1778,7 +1778,7 @@
         }
       }
 
-      @include it("md\:max-h-full") {
+      @include it('md\:max-h-full') {
         @include assert {
           @include output {
             @include md\:max-h-full;
@@ -1793,7 +1793,7 @@
         }
       }
 
-      @include it("md\:max-h-screen") {
+      @include it('md\:max-h-screen') {
         @include assert {
           @include output {
             @include md\:max-h-screen;
@@ -1808,7 +1808,7 @@
         }
       }
 
-      @include it("md\:max-h-svh") {
+      @include it('md\:max-h-svh') {
         @include assert {
           @include output {
             @include md\:max-h-svh;
@@ -1823,7 +1823,7 @@
         }
       }
 
-      @include it("md\:max-h-lvh") {
+      @include it('md\:max-h-lvh') {
         @include assert {
           @include output {
             @include md\:max-h-lvh;
@@ -1838,7 +1838,7 @@
         }
       }
 
-      @include it("md\:max-h-dvh") {
+      @include it('md\:max-h-dvh') {
         @include assert {
           @include output {
             @include md\:max-h-dvh;
@@ -1853,7 +1853,7 @@
         }
       }
 
-      @include it("md\:max-h-min") {
+      @include it('md\:max-h-min') {
         @include assert {
           @include output {
             @include md\:max-h-min;
@@ -1868,7 +1868,7 @@
         }
       }
 
-      @include it("md\:max-h-max") {
+      @include it('md\:max-h-max') {
         @include assert {
           @include output {
             @include md\:max-h-max;
@@ -1883,7 +1883,7 @@
         }
       }
 
-      @include it("md\:max-h-fit") {
+      @include it('md\:max-h-fit') {
         @include assert {
           @include output {
             @include md\:max-h-fit;
@@ -1898,7 +1898,7 @@
         }
       }
 
-      @include it("lg\:max-h-0") {
+      @include it('lg\:max-h-0') {
         @include assert {
           @include output {
             @include lg\:max-h-0;
@@ -1913,7 +1913,7 @@
         }
       }
 
-      @include it("lg\:max-h-px") {
+      @include it('lg\:max-h-px') {
         @include assert {
           @include output {
             @include lg\:max-h-px;
@@ -1928,7 +1928,7 @@
         }
       }
 
-      @include it("lg\:max-h-0\.5") {
+      @include it('lg\:max-h-0\.5') {
         @include assert {
           @include output {
             @include lg\:max-h-0\.5;
@@ -1943,7 +1943,7 @@
         }
       }
 
-      @include it("lg\:max-h-1") {
+      @include it('lg\:max-h-1') {
         @include assert {
           @include output {
             @include lg\:max-h-1;
@@ -1958,7 +1958,7 @@
         }
       }
 
-      @include it("lg\:max-h-1\.5") {
+      @include it('lg\:max-h-1\.5') {
         @include assert {
           @include output {
             @include lg\:max-h-1\.5;
@@ -1973,7 +1973,7 @@
         }
       }
 
-      @include it("lg\:max-h-2") {
+      @include it('lg\:max-h-2') {
         @include assert {
           @include output {
             @include lg\:max-h-2;
@@ -1988,7 +1988,7 @@
         }
       }
 
-      @include it("lg\:max-h-2\.5") {
+      @include it('lg\:max-h-2\.5') {
         @include assert {
           @include output {
             @include lg\:max-h-2\.5;
@@ -2003,7 +2003,7 @@
         }
       }
 
-      @include it("lg\:max-h-3") {
+      @include it('lg\:max-h-3') {
         @include assert {
           @include output {
             @include lg\:max-h-3;
@@ -2018,7 +2018,7 @@
         }
       }
 
-      @include it("lg\:max-h-3\.5") {
+      @include it('lg\:max-h-3\.5') {
         @include assert {
           @include output {
             @include lg\:max-h-3\.5;
@@ -2033,7 +2033,7 @@
         }
       }
 
-      @include it("lg\:max-h-4") {
+      @include it('lg\:max-h-4') {
         @include assert {
           @include output {
             @include lg\:max-h-4;
@@ -2048,7 +2048,7 @@
         }
       }
 
-      @include it("lg\:max-h-5") {
+      @include it('lg\:max-h-5') {
         @include assert {
           @include output {
             @include lg\:max-h-5;
@@ -2063,7 +2063,7 @@
         }
       }
 
-      @include it("lg\:max-h-6") {
+      @include it('lg\:max-h-6') {
         @include assert {
           @include output {
             @include lg\:max-h-6;
@@ -2078,7 +2078,7 @@
         }
       }
 
-      @include it("lg\:max-h-7") {
+      @include it('lg\:max-h-7') {
         @include assert {
           @include output {
             @include lg\:max-h-7;
@@ -2093,7 +2093,7 @@
         }
       }
 
-      @include it("lg\:max-h-8") {
+      @include it('lg\:max-h-8') {
         @include assert {
           @include output {
             @include lg\:max-h-8;
@@ -2108,7 +2108,7 @@
         }
       }
 
-      @include it("lg\:max-h-9") {
+      @include it('lg\:max-h-9') {
         @include assert {
           @include output {
             @include lg\:max-h-9;
@@ -2123,7 +2123,7 @@
         }
       }
 
-      @include it("lg\:max-h-10") {
+      @include it('lg\:max-h-10') {
         @include assert {
           @include output {
             @include lg\:max-h-10;
@@ -2138,7 +2138,7 @@
         }
       }
 
-      @include it("lg\:max-h-11") {
+      @include it('lg\:max-h-11') {
         @include assert {
           @include output {
             @include lg\:max-h-11;
@@ -2153,7 +2153,7 @@
         }
       }
 
-      @include it("lg\:max-h-12") {
+      @include it('lg\:max-h-12') {
         @include assert {
           @include output {
             @include lg\:max-h-12;
@@ -2168,7 +2168,7 @@
         }
       }
 
-      @include it("lg\:max-h-14") {
+      @include it('lg\:max-h-14') {
         @include assert {
           @include output {
             @include lg\:max-h-14;
@@ -2183,7 +2183,7 @@
         }
       }
 
-      @include it("lg\:max-h-16") {
+      @include it('lg\:max-h-16') {
         @include assert {
           @include output {
             @include lg\:max-h-16;
@@ -2198,7 +2198,7 @@
         }
       }
 
-      @include it("lg\:max-h-20") {
+      @include it('lg\:max-h-20') {
         @include assert {
           @include output {
             @include lg\:max-h-20;
@@ -2213,7 +2213,7 @@
         }
       }
 
-      @include it("lg\:max-h-24") {
+      @include it('lg\:max-h-24') {
         @include assert {
           @include output {
             @include lg\:max-h-24;
@@ -2228,7 +2228,7 @@
         }
       }
 
-      @include it("lg\:max-h-28") {
+      @include it('lg\:max-h-28') {
         @include assert {
           @include output {
             @include lg\:max-h-28;
@@ -2243,7 +2243,7 @@
         }
       }
 
-      @include it("lg\:max-h-32") {
+      @include it('lg\:max-h-32') {
         @include assert {
           @include output {
             @include lg\:max-h-32;
@@ -2258,7 +2258,7 @@
         }
       }
 
-      @include it("lg\:max-h-36") {
+      @include it('lg\:max-h-36') {
         @include assert {
           @include output {
             @include lg\:max-h-36;
@@ -2273,7 +2273,7 @@
         }
       }
 
-      @include it("lg\:max-h-40") {
+      @include it('lg\:max-h-40') {
         @include assert {
           @include output {
             @include lg\:max-h-40;
@@ -2288,7 +2288,7 @@
         }
       }
 
-      @include it("lg\:max-h-44") {
+      @include it('lg\:max-h-44') {
         @include assert {
           @include output {
             @include lg\:max-h-44;
@@ -2303,7 +2303,7 @@
         }
       }
 
-      @include it("lg\:max-h-48") {
+      @include it('lg\:max-h-48') {
         @include assert {
           @include output {
             @include lg\:max-h-48;
@@ -2318,7 +2318,7 @@
         }
       }
 
-      @include it("lg\:max-h-52") {
+      @include it('lg\:max-h-52') {
         @include assert {
           @include output {
             @include lg\:max-h-52;
@@ -2333,7 +2333,7 @@
         }
       }
 
-      @include it("lg\:max-h-56") {
+      @include it('lg\:max-h-56') {
         @include assert {
           @include output {
             @include lg\:max-h-56;
@@ -2348,7 +2348,7 @@
         }
       }
 
-      @include it("lg\:max-h-60") {
+      @include it('lg\:max-h-60') {
         @include assert {
           @include output {
             @include lg\:max-h-60;
@@ -2363,7 +2363,7 @@
         }
       }
 
-      @include it("lg\:max-h-64") {
+      @include it('lg\:max-h-64') {
         @include assert {
           @include output {
             @include lg\:max-h-64;
@@ -2378,7 +2378,7 @@
         }
       }
 
-      @include it("lg\:max-h-72") {
+      @include it('lg\:max-h-72') {
         @include assert {
           @include output {
             @include lg\:max-h-72;
@@ -2393,7 +2393,7 @@
         }
       }
 
-      @include it("lg\:max-h-80") {
+      @include it('lg\:max-h-80') {
         @include assert {
           @include output {
             @include lg\:max-h-80;
@@ -2408,7 +2408,7 @@
         }
       }
 
-      @include it("lg\:max-h-96") {
+      @include it('lg\:max-h-96') {
         @include assert {
           @include output {
             @include lg\:max-h-96;
@@ -2423,7 +2423,7 @@
         }
       }
 
-      @include it("lg\:max-h-none") {
+      @include it('lg\:max-h-none') {
         @include assert {
           @include output {
             @include lg\:max-h-none;
@@ -2438,7 +2438,7 @@
         }
       }
 
-      @include it("lg\:max-h-full") {
+      @include it('lg\:max-h-full') {
         @include assert {
           @include output {
             @include lg\:max-h-full;
@@ -2453,7 +2453,7 @@
         }
       }
 
-      @include it("lg\:max-h-screen") {
+      @include it('lg\:max-h-screen') {
         @include assert {
           @include output {
             @include lg\:max-h-screen;
@@ -2468,7 +2468,7 @@
         }
       }
 
-      @include it("lg\:max-h-svh") {
+      @include it('lg\:max-h-svh') {
         @include assert {
           @include output {
             @include lg\:max-h-svh;
@@ -2483,7 +2483,7 @@
         }
       }
 
-      @include it("lg\:max-h-lvh") {
+      @include it('lg\:max-h-lvh') {
         @include assert {
           @include output {
             @include lg\:max-h-lvh;
@@ -2498,7 +2498,7 @@
         }
       }
 
-      @include it("lg\:max-h-dvh") {
+      @include it('lg\:max-h-dvh') {
         @include assert {
           @include output {
             @include lg\:max-h-dvh;
@@ -2513,7 +2513,7 @@
         }
       }
 
-      @include it("lg\:max-h-min") {
+      @include it('lg\:max-h-min') {
         @include assert {
           @include output {
             @include lg\:max-h-min;
@@ -2528,7 +2528,7 @@
         }
       }
 
-      @include it("lg\:max-h-max") {
+      @include it('lg\:max-h-max') {
         @include assert {
           @include output {
             @include lg\:max-h-max;
@@ -2543,7 +2543,7 @@
         }
       }
 
-      @include it("lg\:max-h-fit") {
+      @include it('lg\:max-h-fit') {
         @include assert {
           @include output {
             @include lg\:max-h-fit;
@@ -2558,7 +2558,7 @@
         }
       }
 
-      @include it("xl\:max-h-0") {
+      @include it('xl\:max-h-0') {
         @include assert {
           @include output {
             @include xl\:max-h-0;
@@ -2573,7 +2573,7 @@
         }
       }
 
-      @include it("xl\:max-h-px") {
+      @include it('xl\:max-h-px') {
         @include assert {
           @include output {
             @include xl\:max-h-px;
@@ -2588,7 +2588,7 @@
         }
       }
 
-      @include it("xl\:max-h-0\.5") {
+      @include it('xl\:max-h-0\.5') {
         @include assert {
           @include output {
             @include xl\:max-h-0\.5;
@@ -2603,7 +2603,7 @@
         }
       }
 
-      @include it("xl\:max-h-1") {
+      @include it('xl\:max-h-1') {
         @include assert {
           @include output {
             @include xl\:max-h-1;
@@ -2618,7 +2618,7 @@
         }
       }
 
-      @include it("xl\:max-h-1\.5") {
+      @include it('xl\:max-h-1\.5') {
         @include assert {
           @include output {
             @include xl\:max-h-1\.5;
@@ -2633,7 +2633,7 @@
         }
       }
 
-      @include it("xl\:max-h-2") {
+      @include it('xl\:max-h-2') {
         @include assert {
           @include output {
             @include xl\:max-h-2;
@@ -2648,7 +2648,7 @@
         }
       }
 
-      @include it("xl\:max-h-2\.5") {
+      @include it('xl\:max-h-2\.5') {
         @include assert {
           @include output {
             @include xl\:max-h-2\.5;
@@ -2663,7 +2663,7 @@
         }
       }
 
-      @include it("xl\:max-h-3") {
+      @include it('xl\:max-h-3') {
         @include assert {
           @include output {
             @include xl\:max-h-3;
@@ -2678,7 +2678,7 @@
         }
       }
 
-      @include it("xl\:max-h-3\.5") {
+      @include it('xl\:max-h-3\.5') {
         @include assert {
           @include output {
             @include xl\:max-h-3\.5;
@@ -2693,7 +2693,7 @@
         }
       }
 
-      @include it("xl\:max-h-4") {
+      @include it('xl\:max-h-4') {
         @include assert {
           @include output {
             @include xl\:max-h-4;
@@ -2708,7 +2708,7 @@
         }
       }
 
-      @include it("xl\:max-h-5") {
+      @include it('xl\:max-h-5') {
         @include assert {
           @include output {
             @include xl\:max-h-5;
@@ -2723,7 +2723,7 @@
         }
       }
 
-      @include it("xl\:max-h-6") {
+      @include it('xl\:max-h-6') {
         @include assert {
           @include output {
             @include xl\:max-h-6;
@@ -2738,7 +2738,7 @@
         }
       }
 
-      @include it("xl\:max-h-7") {
+      @include it('xl\:max-h-7') {
         @include assert {
           @include output {
             @include xl\:max-h-7;
@@ -2753,7 +2753,7 @@
         }
       }
 
-      @include it("xl\:max-h-8") {
+      @include it('xl\:max-h-8') {
         @include assert {
           @include output {
             @include xl\:max-h-8;
@@ -2768,7 +2768,7 @@
         }
       }
 
-      @include it("xl\:max-h-9") {
+      @include it('xl\:max-h-9') {
         @include assert {
           @include output {
             @include xl\:max-h-9;
@@ -2783,7 +2783,7 @@
         }
       }
 
-      @include it("xl\:max-h-10") {
+      @include it('xl\:max-h-10') {
         @include assert {
           @include output {
             @include xl\:max-h-10;
@@ -2798,7 +2798,7 @@
         }
       }
 
-      @include it("xl\:max-h-11") {
+      @include it('xl\:max-h-11') {
         @include assert {
           @include output {
             @include xl\:max-h-11;
@@ -2813,7 +2813,7 @@
         }
       }
 
-      @include it("xl\:max-h-12") {
+      @include it('xl\:max-h-12') {
         @include assert {
           @include output {
             @include xl\:max-h-12;
@@ -2828,7 +2828,7 @@
         }
       }
 
-      @include it("xl\:max-h-14") {
+      @include it('xl\:max-h-14') {
         @include assert {
           @include output {
             @include xl\:max-h-14;
@@ -2843,7 +2843,7 @@
         }
       }
 
-      @include it("xl\:max-h-16") {
+      @include it('xl\:max-h-16') {
         @include assert {
           @include output {
             @include xl\:max-h-16;
@@ -2858,7 +2858,7 @@
         }
       }
 
-      @include it("xl\:max-h-20") {
+      @include it('xl\:max-h-20') {
         @include assert {
           @include output {
             @include xl\:max-h-20;
@@ -2873,7 +2873,7 @@
         }
       }
 
-      @include it("xl\:max-h-24") {
+      @include it('xl\:max-h-24') {
         @include assert {
           @include output {
             @include xl\:max-h-24;
@@ -2888,7 +2888,7 @@
         }
       }
 
-      @include it("xl\:max-h-28") {
+      @include it('xl\:max-h-28') {
         @include assert {
           @include output {
             @include xl\:max-h-28;
@@ -2903,7 +2903,7 @@
         }
       }
 
-      @include it("xl\:max-h-32") {
+      @include it('xl\:max-h-32') {
         @include assert {
           @include output {
             @include xl\:max-h-32;
@@ -2918,7 +2918,7 @@
         }
       }
 
-      @include it("xl\:max-h-36") {
+      @include it('xl\:max-h-36') {
         @include assert {
           @include output {
             @include xl\:max-h-36;
@@ -2933,7 +2933,7 @@
         }
       }
 
-      @include it("xl\:max-h-40") {
+      @include it('xl\:max-h-40') {
         @include assert {
           @include output {
             @include xl\:max-h-40;
@@ -2948,7 +2948,7 @@
         }
       }
 
-      @include it("xl\:max-h-44") {
+      @include it('xl\:max-h-44') {
         @include assert {
           @include output {
             @include xl\:max-h-44;
@@ -2963,7 +2963,7 @@
         }
       }
 
-      @include it("xl\:max-h-48") {
+      @include it('xl\:max-h-48') {
         @include assert {
           @include output {
             @include xl\:max-h-48;
@@ -2978,7 +2978,7 @@
         }
       }
 
-      @include it("xl\:max-h-52") {
+      @include it('xl\:max-h-52') {
         @include assert {
           @include output {
             @include xl\:max-h-52;
@@ -2993,7 +2993,7 @@
         }
       }
 
-      @include it("xl\:max-h-56") {
+      @include it('xl\:max-h-56') {
         @include assert {
           @include output {
             @include xl\:max-h-56;
@@ -3008,7 +3008,7 @@
         }
       }
 
-      @include it("xl\:max-h-60") {
+      @include it('xl\:max-h-60') {
         @include assert {
           @include output {
             @include xl\:max-h-60;
@@ -3023,7 +3023,7 @@
         }
       }
 
-      @include it("xl\:max-h-64") {
+      @include it('xl\:max-h-64') {
         @include assert {
           @include output {
             @include xl\:max-h-64;
@@ -3038,7 +3038,7 @@
         }
       }
 
-      @include it("xl\:max-h-72") {
+      @include it('xl\:max-h-72') {
         @include assert {
           @include output {
             @include xl\:max-h-72;
@@ -3053,7 +3053,7 @@
         }
       }
 
-      @include it("xl\:max-h-80") {
+      @include it('xl\:max-h-80') {
         @include assert {
           @include output {
             @include xl\:max-h-80;
@@ -3068,7 +3068,7 @@
         }
       }
 
-      @include it("xl\:max-h-96") {
+      @include it('xl\:max-h-96') {
         @include assert {
           @include output {
             @include xl\:max-h-96;
@@ -3083,7 +3083,7 @@
         }
       }
 
-      @include it("xl\:max-h-none") {
+      @include it('xl\:max-h-none') {
         @include assert {
           @include output {
             @include xl\:max-h-none;
@@ -3098,7 +3098,7 @@
         }
       }
 
-      @include it("xl\:max-h-full") {
+      @include it('xl\:max-h-full') {
         @include assert {
           @include output {
             @include xl\:max-h-full;
@@ -3113,7 +3113,7 @@
         }
       }
 
-      @include it("xl\:max-h-screen") {
+      @include it('xl\:max-h-screen') {
         @include assert {
           @include output {
             @include xl\:max-h-screen;
@@ -3128,7 +3128,7 @@
         }
       }
 
-      @include it("xl\:max-h-svh") {
+      @include it('xl\:max-h-svh') {
         @include assert {
           @include output {
             @include xl\:max-h-svh;
@@ -3143,7 +3143,7 @@
         }
       }
 
-      @include it("xl\:max-h-lvh") {
+      @include it('xl\:max-h-lvh') {
         @include assert {
           @include output {
             @include xl\:max-h-lvh;
@@ -3158,7 +3158,7 @@
         }
       }
 
-      @include it("xl\:max-h-dvh") {
+      @include it('xl\:max-h-dvh') {
         @include assert {
           @include output {
             @include xl\:max-h-dvh;
@@ -3173,7 +3173,7 @@
         }
       }
 
-      @include it("xl\:max-h-min") {
+      @include it('xl\:max-h-min') {
         @include assert {
           @include output {
             @include xl\:max-h-min;
@@ -3188,7 +3188,7 @@
         }
       }
 
-      @include it("xl\:max-h-max") {
+      @include it('xl\:max-h-max') {
         @include assert {
           @include output {
             @include xl\:max-h-max;
@@ -3203,7 +3203,7 @@
         }
       }
 
-      @include it("xl\:max-h-fit") {
+      @include it('xl\:max-h-fit') {
         @include assert {
           @include output {
             @include xl\:max-h-fit;
@@ -3218,7 +3218,7 @@
         }
       }
 
-      @include it("2xl\:max-h-0") {
+      @include it('2xl\:max-h-0') {
         @include assert {
           @include output {
             @include \2xl\:max-h-0;
@@ -3233,7 +3233,7 @@
         }
       }
 
-      @include it("2xl\:max-h-px") {
+      @include it('2xl\:max-h-px') {
         @include assert {
           @include output {
             @include \2xl\:max-h-px;
@@ -3248,7 +3248,7 @@
         }
       }
 
-      @include it("2xl\:max-h-0\.5") {
+      @include it('2xl\:max-h-0\.5') {
         @include assert {
           @include output {
             @include \2xl\:max-h-0\.5;
@@ -3263,7 +3263,7 @@
         }
       }
 
-      @include it("2xl\:max-h-1") {
+      @include it('2xl\:max-h-1') {
         @include assert {
           @include output {
             @include \2xl\:max-h-1;
@@ -3278,7 +3278,7 @@
         }
       }
 
-      @include it("2xl\:max-h-1\.5") {
+      @include it('2xl\:max-h-1\.5') {
         @include assert {
           @include output {
             @include \2xl\:max-h-1\.5;
@@ -3293,7 +3293,7 @@
         }
       }
 
-      @include it("2xl\:max-h-2") {
+      @include it('2xl\:max-h-2') {
         @include assert {
           @include output {
             @include \2xl\:max-h-2;
@@ -3308,7 +3308,7 @@
         }
       }
 
-      @include it("2xl\:max-h-2\.5") {
+      @include it('2xl\:max-h-2\.5') {
         @include assert {
           @include output {
             @include \2xl\:max-h-2\.5;
@@ -3323,7 +3323,7 @@
         }
       }
 
-      @include it("2xl\:max-h-3") {
+      @include it('2xl\:max-h-3') {
         @include assert {
           @include output {
             @include \2xl\:max-h-3;
@@ -3338,7 +3338,7 @@
         }
       }
 
-      @include it("2xl\:max-h-3\.5") {
+      @include it('2xl\:max-h-3\.5') {
         @include assert {
           @include output {
             @include \2xl\:max-h-3\.5;
@@ -3353,7 +3353,7 @@
         }
       }
 
-      @include it("2xl\:max-h-4") {
+      @include it('2xl\:max-h-4') {
         @include assert {
           @include output {
             @include \2xl\:max-h-4;
@@ -3368,7 +3368,7 @@
         }
       }
 
-      @include it("2xl\:max-h-5") {
+      @include it('2xl\:max-h-5') {
         @include assert {
           @include output {
             @include \2xl\:max-h-5;
@@ -3383,7 +3383,7 @@
         }
       }
 
-      @include it("2xl\:max-h-6") {
+      @include it('2xl\:max-h-6') {
         @include assert {
           @include output {
             @include \2xl\:max-h-6;
@@ -3398,7 +3398,7 @@
         }
       }
 
-      @include it("2xl\:max-h-7") {
+      @include it('2xl\:max-h-7') {
         @include assert {
           @include output {
             @include \2xl\:max-h-7;
@@ -3413,7 +3413,7 @@
         }
       }
 
-      @include it("2xl\:max-h-8") {
+      @include it('2xl\:max-h-8') {
         @include assert {
           @include output {
             @include \2xl\:max-h-8;
@@ -3428,7 +3428,7 @@
         }
       }
 
-      @include it("2xl\:max-h-9") {
+      @include it('2xl\:max-h-9') {
         @include assert {
           @include output {
             @include \2xl\:max-h-9;
@@ -3443,7 +3443,7 @@
         }
       }
 
-      @include it("2xl\:max-h-10") {
+      @include it('2xl\:max-h-10') {
         @include assert {
           @include output {
             @include \2xl\:max-h-10;
@@ -3458,7 +3458,7 @@
         }
       }
 
-      @include it("2xl\:max-h-11") {
+      @include it('2xl\:max-h-11') {
         @include assert {
           @include output {
             @include \2xl\:max-h-11;
@@ -3473,7 +3473,7 @@
         }
       }
 
-      @include it("2xl\:max-h-12") {
+      @include it('2xl\:max-h-12') {
         @include assert {
           @include output {
             @include \2xl\:max-h-12;
@@ -3488,7 +3488,7 @@
         }
       }
 
-      @include it("2xl\:max-h-14") {
+      @include it('2xl\:max-h-14') {
         @include assert {
           @include output {
             @include \2xl\:max-h-14;
@@ -3503,7 +3503,7 @@
         }
       }
 
-      @include it("2xl\:max-h-16") {
+      @include it('2xl\:max-h-16') {
         @include assert {
           @include output {
             @include \2xl\:max-h-16;
@@ -3518,7 +3518,7 @@
         }
       }
 
-      @include it("2xl\:max-h-20") {
+      @include it('2xl\:max-h-20') {
         @include assert {
           @include output {
             @include \2xl\:max-h-20;
@@ -3533,7 +3533,7 @@
         }
       }
 
-      @include it("2xl\:max-h-24") {
+      @include it('2xl\:max-h-24') {
         @include assert {
           @include output {
             @include \2xl\:max-h-24;
@@ -3548,7 +3548,7 @@
         }
       }
 
-      @include it("2xl\:max-h-28") {
+      @include it('2xl\:max-h-28') {
         @include assert {
           @include output {
             @include \2xl\:max-h-28;
@@ -3563,7 +3563,7 @@
         }
       }
 
-      @include it("2xl\:max-h-32") {
+      @include it('2xl\:max-h-32') {
         @include assert {
           @include output {
             @include \2xl\:max-h-32;
@@ -3578,7 +3578,7 @@
         }
       }
 
-      @include it("2xl\:max-h-36") {
+      @include it('2xl\:max-h-36') {
         @include assert {
           @include output {
             @include \2xl\:max-h-36;
@@ -3593,7 +3593,7 @@
         }
       }
 
-      @include it("2xl\:max-h-40") {
+      @include it('2xl\:max-h-40') {
         @include assert {
           @include output {
             @include \2xl\:max-h-40;
@@ -3608,7 +3608,7 @@
         }
       }
 
-      @include it("2xl\:max-h-44") {
+      @include it('2xl\:max-h-44') {
         @include assert {
           @include output {
             @include \2xl\:max-h-44;
@@ -3623,7 +3623,7 @@
         }
       }
 
-      @include it("2xl\:max-h-48") {
+      @include it('2xl\:max-h-48') {
         @include assert {
           @include output {
             @include \2xl\:max-h-48;
@@ -3638,7 +3638,7 @@
         }
       }
 
-      @include it("2xl\:max-h-52") {
+      @include it('2xl\:max-h-52') {
         @include assert {
           @include output {
             @include \2xl\:max-h-52;
@@ -3653,7 +3653,7 @@
         }
       }
 
-      @include it("2xl\:max-h-56") {
+      @include it('2xl\:max-h-56') {
         @include assert {
           @include output {
             @include \2xl\:max-h-56;
@@ -3668,7 +3668,7 @@
         }
       }
 
-      @include it("2xl\:max-h-60") {
+      @include it('2xl\:max-h-60') {
         @include assert {
           @include output {
             @include \2xl\:max-h-60;
@@ -3683,7 +3683,7 @@
         }
       }
 
-      @include it("2xl\:max-h-64") {
+      @include it('2xl\:max-h-64') {
         @include assert {
           @include output {
             @include \2xl\:max-h-64;
@@ -3698,7 +3698,7 @@
         }
       }
 
-      @include it("2xl\:max-h-72") {
+      @include it('2xl\:max-h-72') {
         @include assert {
           @include output {
             @include \2xl\:max-h-72;
@@ -3713,7 +3713,7 @@
         }
       }
 
-      @include it("2xl\:max-h-80") {
+      @include it('2xl\:max-h-80') {
         @include assert {
           @include output {
             @include \2xl\:max-h-80;
@@ -3728,7 +3728,7 @@
         }
       }
 
-      @include it("2xl\:max-h-96") {
+      @include it('2xl\:max-h-96') {
         @include assert {
           @include output {
             @include \2xl\:max-h-96;
@@ -3743,7 +3743,7 @@
         }
       }
 
-      @include it("2xl\:max-h-none") {
+      @include it('2xl\:max-h-none') {
         @include assert {
           @include output {
             @include \2xl\:max-h-none;
@@ -3758,7 +3758,7 @@
         }
       }
 
-      @include it("2xl\:max-h-full") {
+      @include it('2xl\:max-h-full') {
         @include assert {
           @include output {
             @include \2xl\:max-h-full;
@@ -3773,7 +3773,7 @@
         }
       }
 
-      @include it("2xl\:max-h-screen") {
+      @include it('2xl\:max-h-screen') {
         @include assert {
           @include output {
             @include \2xl\:max-h-screen;
@@ -3788,7 +3788,7 @@
         }
       }
 
-      @include it("2xl\:max-h-svh") {
+      @include it('2xl\:max-h-svh') {
         @include assert {
           @include output {
             @include \2xl\:max-h-svh;
@@ -3803,7 +3803,7 @@
         }
       }
 
-      @include it("2xl\:max-h-lvh") {
+      @include it('2xl\:max-h-lvh') {
         @include assert {
           @include output {
             @include \2xl\:max-h-lvh;
@@ -3818,7 +3818,7 @@
         }
       }
 
-      @include it("2xl\:max-h-dvh") {
+      @include it('2xl\:max-h-dvh') {
         @include assert {
           @include output {
             @include \2xl\:max-h-dvh;
@@ -3833,7 +3833,7 @@
         }
       }
 
-      @include it("2xl\:max-h-min") {
+      @include it('2xl\:max-h-min') {
         @include assert {
           @include output {
             @include \2xl\:max-h-min;
@@ -3848,7 +3848,7 @@
         }
       }
 
-      @include it("2xl\:max-h-max") {
+      @include it('2xl\:max-h-max') {
         @include assert {
           @include output {
             @include \2xl\:max-h-max;
@@ -3863,7 +3863,7 @@
         }
       }
 
-      @include it("2xl\:max-h-fit") {
+      @include it('2xl\:max-h-fit') {
         @include assert {
           @include output {
             @include \2xl\:max-h-fit;
@@ -3879,8 +3879,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("max-h-(220px)") {
+    @include describe('Custom') {
+      @include it('max-h-(220px)') {
         @include assert {
           @include output {
             @include max-h-(220px);
@@ -3893,7 +3893,7 @@
         }
       }
 
-      @include it("sm\:max-h-(220px)") {
+      @include it('sm\:max-h-(220px)') {
         @include assert {
           @include output {
             @include sm\:max-h-(220px);
@@ -3908,7 +3908,7 @@
         }
       }
 
-      @include it("md\:max-h-(220px)") {
+      @include it('md\:max-h-(220px)') {
         @include assert {
           @include output {
             @include md\:max-h-(220px);
@@ -3923,7 +3923,7 @@
         }
       }
 
-      @include it("lg\:max-h-(220px)") {
+      @include it('lg\:max-h-(220px)') {
         @include assert {
           @include output {
             @include lg\:max-h-(220px);
@@ -3938,7 +3938,7 @@
         }
       }
 
-      @include it("xl\:max-h-(220px)") {
+      @include it('xl\:max-h-(220px)') {
         @include assert {
           @include output {
             @include xl\:max-h-(220px);
@@ -3953,7 +3953,7 @@
         }
       }
 
-      @include it("2xl\:max-h-(220px)") {
+      @include it('2xl\:max-h-(220px)') {
         @include assert {
           @include output {
             @include \2xl\:max-h-(220px);

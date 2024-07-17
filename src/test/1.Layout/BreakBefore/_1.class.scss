@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("1.Layout") {
-  @include describe("Break Before") {
-    @include describe("Basic") {
-      @include it("break-before-auto") {
+@include describe('1.Layout') {
+  @include describe('Break Before') {
+    @include describe('Basic') {
+      @include it('break-before-auto') {
         @include assert {
           @include output {
             @include break-before-auto;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("break-before-avoid") {
+      @include it('break-before-avoid') {
         @include assert {
           @include output {
             @include break-before-avoid;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("break-before-all") {
+      @include it('break-before-all') {
         @include assert {
           @include output {
             @include break-before-all;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("break-before-avoid-page") {
+      @include it('break-before-avoid-page') {
         @include assert {
           @include output {
             @include break-before-avoid-page;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("break-before-page") {
+      @include it('break-before-page') {
         @include assert {
           @include output {
             @include break-before-page;
@@ -69,7 +69,7 @@
         }
       }
 
-      @include it("break-before-left") {
+      @include it('break-before-left') {
         @include assert {
           @include output {
             @include break-before-left;
@@ -82,7 +82,7 @@
         }
       }
 
-      @include it("break-before-right") {
+      @include it('break-before-right') {
         @include assert {
           @include output {
             @include break-before-right;
@@ -95,7 +95,7 @@
         }
       }
 
-      @include it("break-before-column") {
+      @include it('break-before-column') {
         @include assert {
           @include output {
             @include break-before-column;
@@ -109,8 +109,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:break-before-auto") {
+    @include describe('Rwd') {
+      @include it('sm\:break-before-auto') {
         @include assert {
           @include output {
             @include sm\:break-before-auto;
@@ -125,7 +125,7 @@
         }
       }
 
-      @include it("sm\:break-before-avoid") {
+      @include it('sm\:break-before-avoid') {
         @include assert {
           @include output {
             @include sm\:break-before-avoid;
@@ -140,7 +140,7 @@
         }
       }
 
-      @include it("sm\:break-before-all") {
+      @include it('sm\:break-before-all') {
         @include assert {
           @include output {
             @include sm\:break-before-all;
@@ -155,7 +155,7 @@
         }
       }
 
-      @include it("sm\:break-before-avoid-page") {
+      @include it('sm\:break-before-avoid-page') {
         @include assert {
           @include output {
             @include sm\:break-before-avoid-page;
@@ -170,7 +170,7 @@
         }
       }
 
-      @include it("sm\:break-before-page") {
+      @include it('sm\:break-before-page') {
         @include assert {
           @include output {
             @include sm\:break-before-page;
@@ -185,7 +185,7 @@
         }
       }
 
-      @include it("sm\:break-before-left") {
+      @include it('sm\:break-before-left') {
         @include assert {
           @include output {
             @include sm\:break-before-left;
@@ -200,7 +200,7 @@
         }
       }
 
-      @include it("sm\:break-before-right") {
+      @include it('sm\:break-before-right') {
         @include assert {
           @include output {
             @include sm\:break-before-right;
@@ -215,7 +215,7 @@
         }
       }
 
-      @include it("sm\:break-before-column") {
+      @include it('sm\:break-before-column') {
         @include assert {
           @include output {
             @include sm\:break-before-column;
@@ -230,7 +230,7 @@
         }
       }
 
-      @include it("md\:break-before-auto") {
+      @include it('md\:break-before-auto') {
         @include assert {
           @include output {
             @include md\:break-before-auto;
@@ -245,7 +245,7 @@
         }
       }
 
-      @include it("md\:break-before-avoid") {
+      @include it('md\:break-before-avoid') {
         @include assert {
           @include output {
             @include md\:break-before-avoid;
@@ -260,7 +260,7 @@
         }
       }
 
-      @include it("md\:break-before-all") {
+      @include it('md\:break-before-all') {
         @include assert {
           @include output {
             @include md\:break-before-all;
@@ -275,7 +275,7 @@
         }
       }
 
-      @include it("md\:break-before-avoid-page") {
+      @include it('md\:break-before-avoid-page') {
         @include assert {
           @include output {
             @include md\:break-before-avoid-page;
@@ -290,7 +290,7 @@
         }
       }
 
-      @include it("md\:break-before-page") {
+      @include it('md\:break-before-page') {
         @include assert {
           @include output {
             @include md\:break-before-page;
@@ -305,7 +305,7 @@
         }
       }
 
-      @include it("md\:break-before-left") {
+      @include it('md\:break-before-left') {
         @include assert {
           @include output {
             @include md\:break-before-left;
@@ -320,7 +320,7 @@
         }
       }
 
-      @include it("md\:break-before-right") {
+      @include it('md\:break-before-right') {
         @include assert {
           @include output {
             @include md\:break-before-right;
@@ -335,7 +335,7 @@
         }
       }
 
-      @include it("md\:break-before-column") {
+      @include it('md\:break-before-column') {
         @include assert {
           @include output {
             @include md\:break-before-column;
@@ -350,7 +350,7 @@
         }
       }
 
-      @include it("lg\:break-before-auto") {
+      @include it('lg\:break-before-auto') {
         @include assert {
           @include output {
             @include lg\:break-before-auto;
@@ -365,7 +365,7 @@
         }
       }
 
-      @include it("lg\:break-before-avoid") {
+      @include it('lg\:break-before-avoid') {
         @include assert {
           @include output {
             @include lg\:break-before-avoid;
@@ -380,7 +380,7 @@
         }
       }
 
-      @include it("lg\:break-before-all") {
+      @include it('lg\:break-before-all') {
         @include assert {
           @include output {
             @include lg\:break-before-all;
@@ -395,7 +395,7 @@
         }
       }
 
-      @include it("lg\:break-before-avoid-page") {
+      @include it('lg\:break-before-avoid-page') {
         @include assert {
           @include output {
             @include lg\:break-before-avoid-page;
@@ -410,7 +410,7 @@
         }
       }
 
-      @include it("lg\:break-before-page") {
+      @include it('lg\:break-before-page') {
         @include assert {
           @include output {
             @include lg\:break-before-page;
@@ -425,7 +425,7 @@
         }
       }
 
-      @include it("lg\:break-before-left") {
+      @include it('lg\:break-before-left') {
         @include assert {
           @include output {
             @include lg\:break-before-left;
@@ -440,7 +440,7 @@
         }
       }
 
-      @include it("lg\:break-before-right") {
+      @include it('lg\:break-before-right') {
         @include assert {
           @include output {
             @include lg\:break-before-right;
@@ -455,7 +455,7 @@
         }
       }
 
-      @include it("lg\:break-before-column") {
+      @include it('lg\:break-before-column') {
         @include assert {
           @include output {
             @include lg\:break-before-column;
@@ -470,7 +470,7 @@
         }
       }
 
-      @include it("xl\:break-before-auto") {
+      @include it('xl\:break-before-auto') {
         @include assert {
           @include output {
             @include xl\:break-before-auto;
@@ -485,7 +485,7 @@
         }
       }
 
-      @include it("xl\:break-before-avoid") {
+      @include it('xl\:break-before-avoid') {
         @include assert {
           @include output {
             @include xl\:break-before-avoid;
@@ -500,7 +500,7 @@
         }
       }
 
-      @include it("xl\:break-before-all") {
+      @include it('xl\:break-before-all') {
         @include assert {
           @include output {
             @include xl\:break-before-all;
@@ -515,7 +515,7 @@
         }
       }
 
-      @include it("xl\:break-before-avoid-page") {
+      @include it('xl\:break-before-avoid-page') {
         @include assert {
           @include output {
             @include xl\:break-before-avoid-page;
@@ -530,7 +530,7 @@
         }
       }
 
-      @include it("xl\:break-before-page") {
+      @include it('xl\:break-before-page') {
         @include assert {
           @include output {
             @include xl\:break-before-page;
@@ -545,7 +545,7 @@
         }
       }
 
-      @include it("xl\:break-before-left") {
+      @include it('xl\:break-before-left') {
         @include assert {
           @include output {
             @include xl\:break-before-left;
@@ -560,7 +560,7 @@
         }
       }
 
-      @include it("xl\:break-before-right") {
+      @include it('xl\:break-before-right') {
         @include assert {
           @include output {
             @include xl\:break-before-right;
@@ -575,7 +575,7 @@
         }
       }
 
-      @include it("xl\:break-before-column") {
+      @include it('xl\:break-before-column') {
         @include assert {
           @include output {
             @include xl\:break-before-column;
@@ -590,7 +590,7 @@
         }
       }
 
-      @include it("2xl\:break-before-auto") {
+      @include it('2xl\:break-before-auto') {
         @include assert {
           @include output {
             @include \2xl\:break-before-auto;
@@ -605,7 +605,7 @@
         }
       }
 
-      @include it("2xl\:break-before-avoid") {
+      @include it('2xl\:break-before-avoid') {
         @include assert {
           @include output {
             @include \2xl\:break-before-avoid;
@@ -620,7 +620,7 @@
         }
       }
 
-      @include it("2xl\:break-before-all") {
+      @include it('2xl\:break-before-all') {
         @include assert {
           @include output {
             @include \2xl\:break-before-all;
@@ -635,7 +635,7 @@
         }
       }
 
-      @include it("2xl\:break-before-avoid-page") {
+      @include it('2xl\:break-before-avoid-page') {
         @include assert {
           @include output {
             @include \2xl\:break-before-avoid-page;
@@ -650,7 +650,7 @@
         }
       }
 
-      @include it("2xl\:break-before-page") {
+      @include it('2xl\:break-before-page') {
         @include assert {
           @include output {
             @include \2xl\:break-before-page;
@@ -665,7 +665,7 @@
         }
       }
 
-      @include it("2xl\:break-before-left") {
+      @include it('2xl\:break-before-left') {
         @include assert {
           @include output {
             @include \2xl\:break-before-left;
@@ -680,7 +680,7 @@
         }
       }
 
-      @include it("2xl\:break-before-right") {
+      @include it('2xl\:break-before-right') {
         @include assert {
           @include output {
             @include \2xl\:break-before-right;
@@ -695,7 +695,7 @@
         }
       }
 
-      @include it("2xl\:break-before-column") {
+      @include it('2xl\:break-before-column') {
         @include assert {
           @include output {
             @include \2xl\:break-before-column;

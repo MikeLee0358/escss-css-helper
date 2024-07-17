@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("5.Typography") {
-  @include describe("List Style Image") {
-    @include describe("Basic") {
-      @include it("list-image-none") {
+@include describe('5.Typography') {
+  @include describe('List Style Image') {
+    @include describe('Basic') {
+      @include it('list-image-none') {
         @include assert {
           @include output {
             @include list-image-none;
@@ -18,8 +18,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:list-image-none") {
+    @include describe('Rwd') {
+      @include it('sm\:list-image-none') {
         @include assert {
           @include output {
             @include sm\:list-image-none;
@@ -34,7 +34,7 @@
         }
       }
 
-      @include it("md\:list-image-none") {
+      @include it('md\:list-image-none') {
         @include assert {
           @include output {
             @include md\:list-image-none;
@@ -49,7 +49,7 @@
         }
       }
 
-      @include it("lg\:list-image-none") {
+      @include it('lg\:list-image-none') {
         @include assert {
           @include output {
             @include lg\:list-image-none;
@@ -64,7 +64,7 @@
         }
       }
 
-      @include it("xl\:list-image-none") {
+      @include it('xl\:list-image-none') {
         @include assert {
           @include output {
             @include xl\:list-image-none;
@@ -79,7 +79,7 @@
         }
       }
 
-      @include it("2xl\:list-image-none") {
+      @include it('2xl\:list-image-none') {
         @include assert {
           @include output {
             @include \2xl\:list-image-none;
@@ -95,8 +95,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("list-image-(url(checkmark.png))") {
+    @include describe('Custom') {
+      @include it('list-image-(url(checkmark.png))') {
         @include assert {
           @include output {
             @include list-image-(url(checkmark.png));
@@ -109,7 +109,7 @@
         }
       }
 
-      @include it("sm\:list-image-(url(checkmark.png))") {
+      @include it('sm\:list-image-(url(checkmark.png))') {
         @include assert {
           @include output {
             @include sm\:list-image-(url(checkmark.png));
@@ -124,7 +124,7 @@
         }
       }
 
-      @include it("md\:list-image-(url(checkmark.png))") {
+      @include it('md\:list-image-(url(checkmark.png))') {
         @include assert {
           @include output {
             @include md\:list-image-(url(checkmark.png));
@@ -139,7 +139,7 @@
         }
       }
 
-      @include it("lg\:list-image-(url(checkmark.png))") {
+      @include it('lg\:list-image-(url(checkmark.png))') {
         @include assert {
           @include output {
             @include lg\:list-image-(url(checkmark.png));
@@ -154,7 +154,7 @@
         }
       }
 
-      @include it("xl\:list-image-(url(checkmark.png))") {
+      @include it('xl\:list-image-(url(checkmark.png))') {
         @include assert {
           @include output {
             @include xl\:list-image-(url(checkmark.png));
@@ -169,7 +169,7 @@
         }
       }
 
-      @include it("2xl\:list-image-(url(checkmark.png))") {
+      @include it('2xl\:list-image-(url(checkmark.png))') {
         @include assert {
           @include output {
             @include \2xl\:list-image-(url(checkmark.png));

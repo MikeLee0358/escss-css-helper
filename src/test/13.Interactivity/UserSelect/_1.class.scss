@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("13.Interactivity") {
-  @include describe("User Select") {
-    @include describe("Basic") {
-      @include it("select-none") {
+@include describe('13.Interactivity') {
+  @include describe('User Select') {
+    @include describe('Basic') {
+      @include it('select-none') {
         @include assert {
           @include output {
             @include select-none;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("select-text") {
+      @include it('select-text') {
         @include assert {
           @include output {
             @include select-text;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("select-all") {
+      @include it('select-all') {
         @include assert {
           @include output {
             @include select-all;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("select-auto") {
+      @include it('select-auto') {
         @include assert {
           @include output {
             @include select-auto;
@@ -57,8 +57,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:select-none") {
+    @include describe('Rwd') {
+      @include it('sm\:select-none') {
         @include assert {
           @include output {
             @include sm\:select-none;
@@ -73,7 +73,7 @@
         }
       }
 
-      @include it("sm\:select-text") {
+      @include it('sm\:select-text') {
         @include assert {
           @include output {
             @include sm\:select-text;
@@ -88,7 +88,7 @@
         }
       }
 
-      @include it("sm\:select-all") {
+      @include it('sm\:select-all') {
         @include assert {
           @include output {
             @include sm\:select-all;
@@ -103,7 +103,7 @@
         }
       }
 
-      @include it("sm\:select-auto") {
+      @include it('sm\:select-auto') {
         @include assert {
           @include output {
             @include sm\:select-auto;
@@ -118,7 +118,7 @@
         }
       }
 
-      @include it("md\:select-none") {
+      @include it('md\:select-none') {
         @include assert {
           @include output {
             @include md\:select-none;
@@ -133,7 +133,7 @@
         }
       }
 
-      @include it("md\:select-text") {
+      @include it('md\:select-text') {
         @include assert {
           @include output {
             @include md\:select-text;
@@ -148,7 +148,7 @@
         }
       }
 
-      @include it("md\:select-all") {
+      @include it('md\:select-all') {
         @include assert {
           @include output {
             @include md\:select-all;
@@ -163,7 +163,7 @@
         }
       }
 
-      @include it("md\:select-auto") {
+      @include it('md\:select-auto') {
         @include assert {
           @include output {
             @include md\:select-auto;
@@ -178,7 +178,7 @@
         }
       }
 
-      @include it("lg\:select-none") {
+      @include it('lg\:select-none') {
         @include assert {
           @include output {
             @include lg\:select-none;
@@ -193,7 +193,7 @@
         }
       }
 
-      @include it("lg\:select-text") {
+      @include it('lg\:select-text') {
         @include assert {
           @include output {
             @include lg\:select-text;
@@ -208,7 +208,7 @@
         }
       }
 
-      @include it("lg\:select-all") {
+      @include it('lg\:select-all') {
         @include assert {
           @include output {
             @include lg\:select-all;
@@ -223,7 +223,7 @@
         }
       }
 
-      @include it("lg\:select-auto") {
+      @include it('lg\:select-auto') {
         @include assert {
           @include output {
             @include lg\:select-auto;
@@ -238,7 +238,7 @@
         }
       }
 
-      @include it("xl\:select-none") {
+      @include it('xl\:select-none') {
         @include assert {
           @include output {
             @include xl\:select-none;
@@ -253,7 +253,7 @@
         }
       }
 
-      @include it("xl\:select-text") {
+      @include it('xl\:select-text') {
         @include assert {
           @include output {
             @include xl\:select-text;
@@ -268,7 +268,7 @@
         }
       }
 
-      @include it("xl\:select-all") {
+      @include it('xl\:select-all') {
         @include assert {
           @include output {
             @include xl\:select-all;
@@ -283,7 +283,7 @@
         }
       }
 
-      @include it("xl\:select-auto") {
+      @include it('xl\:select-auto') {
         @include assert {
           @include output {
             @include xl\:select-auto;
@@ -298,7 +298,7 @@
         }
       }
 
-      @include it("2xl\:select-none") {
+      @include it('2xl\:select-none') {
         @include assert {
           @include output {
             @include \2xl\:select-none;
@@ -313,7 +313,7 @@
         }
       }
 
-      @include it("2xl\:select-text") {
+      @include it('2xl\:select-text') {
         @include assert {
           @include output {
             @include \2xl\:select-text;
@@ -328,7 +328,7 @@
         }
       }
 
-      @include it("2xl\:select-all") {
+      @include it('2xl\:select-all') {
         @include assert {
           @include output {
             @include \2xl\:select-all;
@@ -343,7 +343,7 @@
         }
       }
 
-      @include it("2xl\:select-auto") {
+      @include it('2xl\:select-auto') {
         @include assert {
           @include output {
             @include \2xl\:select-auto;

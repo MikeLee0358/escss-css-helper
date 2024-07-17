@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("13.Interactivity") {
-  @include describe("Cursor") {
-    @include describe("Basic") {
-      @include it("cursor-auto") {
+@include describe('13.Interactivity') {
+  @include describe('Cursor') {
+    @include describe('Basic') {
+      @include it('cursor-auto') {
         @include assert {
           @include output {
             @include cursor-auto;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("cursor-default") {
+      @include it('cursor-default') {
         @include assert {
           @include output {
             @include cursor-default;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("cursor-pointer") {
+      @include it('cursor-pointer') {
         @include assert {
           @include output {
             @include cursor-pointer;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("cursor-wait") {
+      @include it('cursor-wait') {
         @include assert {
           @include output {
             @include cursor-wait;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("cursor-text") {
+      @include it('cursor-text') {
         @include assert {
           @include output {
             @include cursor-text;
@@ -69,7 +69,7 @@
         }
       }
 
-      @include it("cursor-move") {
+      @include it('cursor-move') {
         @include assert {
           @include output {
             @include cursor-move;
@@ -82,7 +82,7 @@
         }
       }
 
-      @include it("cursor-help") {
+      @include it('cursor-help') {
         @include assert {
           @include output {
             @include cursor-help;
@@ -95,7 +95,7 @@
         }
       }
 
-      @include it("cursor-not-allowed") {
+      @include it('cursor-not-allowed') {
         @include assert {
           @include output {
             @include cursor-not-allowed;
@@ -108,7 +108,7 @@
         }
       }
 
-      @include it("cursor-none") {
+      @include it('cursor-none') {
         @include assert {
           @include output {
             @include cursor-none;
@@ -121,7 +121,7 @@
         }
       }
 
-      @include it("cursor-context-menu") {
+      @include it('cursor-context-menu') {
         @include assert {
           @include output {
             @include cursor-context-menu;
@@ -134,7 +134,7 @@
         }
       }
 
-      @include it("cursor-progress") {
+      @include it('cursor-progress') {
         @include assert {
           @include output {
             @include cursor-progress;
@@ -147,7 +147,7 @@
         }
       }
 
-      @include it("cursor-cell") {
+      @include it('cursor-cell') {
         @include assert {
           @include output {
             @include cursor-cell;
@@ -160,7 +160,7 @@
         }
       }
 
-      @include it("cursor-crosshair") {
+      @include it('cursor-crosshair') {
         @include assert {
           @include output {
             @include cursor-crosshair;
@@ -173,7 +173,7 @@
         }
       }
 
-      @include it("cursor-vertical-text") {
+      @include it('cursor-vertical-text') {
         @include assert {
           @include output {
             @include cursor-vertical-text;
@@ -186,7 +186,7 @@
         }
       }
 
-      @include it("cursor-alias") {
+      @include it('cursor-alias') {
         @include assert {
           @include output {
             @include cursor-alias;
@@ -199,7 +199,7 @@
         }
       }
 
-      @include it("cursor-copy") {
+      @include it('cursor-copy') {
         @include assert {
           @include output {
             @include cursor-copy;
@@ -212,7 +212,7 @@
         }
       }
 
-      @include it("cursor-no-drop") {
+      @include it('cursor-no-drop') {
         @include assert {
           @include output {
             @include cursor-no-drop;
@@ -225,7 +225,7 @@
         }
       }
 
-      @include it("cursor-grab") {
+      @include it('cursor-grab') {
         @include assert {
           @include output {
             @include cursor-grab;
@@ -238,7 +238,7 @@
         }
       }
 
-      @include it("cursor-grabbing") {
+      @include it('cursor-grabbing') {
         @include assert {
           @include output {
             @include cursor-grabbing;
@@ -251,7 +251,7 @@
         }
       }
 
-      @include it("cursor-all-scroll") {
+      @include it('cursor-all-scroll') {
         @include assert {
           @include output {
             @include cursor-all-scroll;
@@ -264,7 +264,7 @@
         }
       }
 
-      @include it("cursor-col-resize") {
+      @include it('cursor-col-resize') {
         @include assert {
           @include output {
             @include cursor-col-resize;
@@ -277,7 +277,7 @@
         }
       }
 
-      @include it("cursor-row-resize") {
+      @include it('cursor-row-resize') {
         @include assert {
           @include output {
             @include cursor-row-resize;
@@ -290,7 +290,7 @@
         }
       }
 
-      @include it("cursor-n-resize") {
+      @include it('cursor-n-resize') {
         @include assert {
           @include output {
             @include cursor-n-resize;
@@ -303,7 +303,7 @@
         }
       }
 
-      @include it("cursor-e-resize") {
+      @include it('cursor-e-resize') {
         @include assert {
           @include output {
             @include cursor-e-resize;
@@ -316,7 +316,7 @@
         }
       }
 
-      @include it("cursor-s-resize") {
+      @include it('cursor-s-resize') {
         @include assert {
           @include output {
             @include cursor-s-resize;
@@ -329,7 +329,7 @@
         }
       }
 
-      @include it("cursor-w-resize") {
+      @include it('cursor-w-resize') {
         @include assert {
           @include output {
             @include cursor-w-resize;
@@ -342,7 +342,7 @@
         }
       }
 
-      @include it("cursor-ne-resize") {
+      @include it('cursor-ne-resize') {
         @include assert {
           @include output {
             @include cursor-ne-resize;
@@ -355,7 +355,7 @@
         }
       }
 
-      @include it("cursor-nw-resize") {
+      @include it('cursor-nw-resize') {
         @include assert {
           @include output {
             @include cursor-nw-resize;
@@ -368,7 +368,7 @@
         }
       }
 
-      @include it("cursor-se-resize") {
+      @include it('cursor-se-resize') {
         @include assert {
           @include output {
             @include cursor-se-resize;
@@ -381,7 +381,7 @@
         }
       }
 
-      @include it("cursor-sw-resize") {
+      @include it('cursor-sw-resize') {
         @include assert {
           @include output {
             @include cursor-sw-resize;
@@ -394,7 +394,7 @@
         }
       }
 
-      @include it("cursor-ew-resize") {
+      @include it('cursor-ew-resize') {
         @include assert {
           @include output {
             @include cursor-ew-resize;
@@ -407,7 +407,7 @@
         }
       }
 
-      @include it("cursor-ns-resize") {
+      @include it('cursor-ns-resize') {
         @include assert {
           @include output {
             @include cursor-ns-resize;
@@ -420,7 +420,7 @@
         }
       }
 
-      @include it("cursor-nesw-resize") {
+      @include it('cursor-nesw-resize') {
         @include assert {
           @include output {
             @include cursor-nesw-resize;
@@ -433,7 +433,7 @@
         }
       }
 
-      @include it("cursor-nwse-resize") {
+      @include it('cursor-nwse-resize') {
         @include assert {
           @include output {
             @include cursor-nwse-resize;
@@ -446,7 +446,7 @@
         }
       }
 
-      @include it("cursor-zoom-in") {
+      @include it('cursor-zoom-in') {
         @include assert {
           @include output {
             @include cursor-zoom-in;
@@ -459,7 +459,7 @@
         }
       }
 
-      @include it("cursor-zoom-out") {
+      @include it('cursor-zoom-out') {
         @include assert {
           @include output {
             @include cursor-zoom-out;
@@ -473,8 +473,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:cursor-auto") {
+    @include describe('Rwd') {
+      @include it('sm\:cursor-auto') {
         @include assert {
           @include output {
             @include sm\:cursor-auto;
@@ -489,7 +489,7 @@
         }
       }
 
-      @include it("sm\:cursor-default") {
+      @include it('sm\:cursor-default') {
         @include assert {
           @include output {
             @include sm\:cursor-default;
@@ -504,7 +504,7 @@
         }
       }
 
-      @include it("sm\:cursor-pointer") {
+      @include it('sm\:cursor-pointer') {
         @include assert {
           @include output {
             @include sm\:cursor-pointer;
@@ -519,7 +519,7 @@
         }
       }
 
-      @include it("sm\:cursor-wait") {
+      @include it('sm\:cursor-wait') {
         @include assert {
           @include output {
             @include sm\:cursor-wait;
@@ -534,7 +534,7 @@
         }
       }
 
-      @include it("sm\:cursor-text") {
+      @include it('sm\:cursor-text') {
         @include assert {
           @include output {
             @include sm\:cursor-text;
@@ -549,7 +549,7 @@
         }
       }
 
-      @include it("sm\:cursor-move") {
+      @include it('sm\:cursor-move') {
         @include assert {
           @include output {
             @include sm\:cursor-move;
@@ -564,7 +564,7 @@
         }
       }
 
-      @include it("sm\:cursor-help") {
+      @include it('sm\:cursor-help') {
         @include assert {
           @include output {
             @include sm\:cursor-help;
@@ -579,7 +579,7 @@
         }
       }
 
-      @include it("sm\:cursor-not-allowed") {
+      @include it('sm\:cursor-not-allowed') {
         @include assert {
           @include output {
             @include sm\:cursor-not-allowed;
@@ -594,7 +594,7 @@
         }
       }
 
-      @include it("sm\:cursor-none") {
+      @include it('sm\:cursor-none') {
         @include assert {
           @include output {
             @include sm\:cursor-none;
@@ -609,7 +609,7 @@
         }
       }
 
-      @include it("sm\:cursor-context-menu") {
+      @include it('sm\:cursor-context-menu') {
         @include assert {
           @include output {
             @include sm\:cursor-context-menu;
@@ -624,7 +624,7 @@
         }
       }
 
-      @include it("sm\:cursor-progress") {
+      @include it('sm\:cursor-progress') {
         @include assert {
           @include output {
             @include sm\:cursor-progress;
@@ -639,7 +639,7 @@
         }
       }
 
-      @include it("sm\:cursor-cell") {
+      @include it('sm\:cursor-cell') {
         @include assert {
           @include output {
             @include sm\:cursor-cell;
@@ -654,7 +654,7 @@
         }
       }
 
-      @include it("sm\:cursor-crosshair") {
+      @include it('sm\:cursor-crosshair') {
         @include assert {
           @include output {
             @include sm\:cursor-crosshair;
@@ -669,7 +669,7 @@
         }
       }
 
-      @include it("sm\:cursor-vertical-text") {
+      @include it('sm\:cursor-vertical-text') {
         @include assert {
           @include output {
             @include sm\:cursor-vertical-text;
@@ -684,7 +684,7 @@
         }
       }
 
-      @include it("sm\:cursor-alias") {
+      @include it('sm\:cursor-alias') {
         @include assert {
           @include output {
             @include sm\:cursor-alias;
@@ -699,7 +699,7 @@
         }
       }
 
-      @include it("sm\:cursor-copy") {
+      @include it('sm\:cursor-copy') {
         @include assert {
           @include output {
             @include sm\:cursor-copy;
@@ -714,7 +714,7 @@
         }
       }
 
-      @include it("sm\:cursor-no-drop") {
+      @include it('sm\:cursor-no-drop') {
         @include assert {
           @include output {
             @include sm\:cursor-no-drop;
@@ -729,7 +729,7 @@
         }
       }
 
-      @include it("sm\:cursor-grab") {
+      @include it('sm\:cursor-grab') {
         @include assert {
           @include output {
             @include sm\:cursor-grab;
@@ -744,7 +744,7 @@
         }
       }
 
-      @include it("sm\:cursor-grabbing") {
+      @include it('sm\:cursor-grabbing') {
         @include assert {
           @include output {
             @include sm\:cursor-grabbing;
@@ -759,7 +759,7 @@
         }
       }
 
-      @include it("sm\:cursor-all-scroll") {
+      @include it('sm\:cursor-all-scroll') {
         @include assert {
           @include output {
             @include sm\:cursor-all-scroll;
@@ -774,7 +774,7 @@
         }
       }
 
-      @include it("sm\:cursor-col-resize") {
+      @include it('sm\:cursor-col-resize') {
         @include assert {
           @include output {
             @include sm\:cursor-col-resize;
@@ -789,7 +789,7 @@
         }
       }
 
-      @include it("sm\:cursor-row-resize") {
+      @include it('sm\:cursor-row-resize') {
         @include assert {
           @include output {
             @include sm\:cursor-row-resize;
@@ -804,7 +804,7 @@
         }
       }
 
-      @include it("sm\:cursor-n-resize") {
+      @include it('sm\:cursor-n-resize') {
         @include assert {
           @include output {
             @include sm\:cursor-n-resize;
@@ -819,7 +819,7 @@
         }
       }
 
-      @include it("sm\:cursor-e-resize") {
+      @include it('sm\:cursor-e-resize') {
         @include assert {
           @include output {
             @include sm\:cursor-e-resize;
@@ -834,7 +834,7 @@
         }
       }
 
-      @include it("sm\:cursor-s-resize") {
+      @include it('sm\:cursor-s-resize') {
         @include assert {
           @include output {
             @include sm\:cursor-s-resize;
@@ -849,7 +849,7 @@
         }
       }
 
-      @include it("sm\:cursor-w-resize") {
+      @include it('sm\:cursor-w-resize') {
         @include assert {
           @include output {
             @include sm\:cursor-w-resize;
@@ -864,7 +864,7 @@
         }
       }
 
-      @include it("sm\:cursor-ne-resize") {
+      @include it('sm\:cursor-ne-resize') {
         @include assert {
           @include output {
             @include sm\:cursor-ne-resize;
@@ -879,7 +879,7 @@
         }
       }
 
-      @include it("sm\:cursor-nw-resize") {
+      @include it('sm\:cursor-nw-resize') {
         @include assert {
           @include output {
             @include sm\:cursor-nw-resize;
@@ -894,7 +894,7 @@
         }
       }
 
-      @include it("sm\:cursor-se-resize") {
+      @include it('sm\:cursor-se-resize') {
         @include assert {
           @include output {
             @include sm\:cursor-se-resize;
@@ -909,7 +909,7 @@
         }
       }
 
-      @include it("sm\:cursor-sw-resize") {
+      @include it('sm\:cursor-sw-resize') {
         @include assert {
           @include output {
             @include sm\:cursor-sw-resize;
@@ -924,7 +924,7 @@
         }
       }
 
-      @include it("sm\:cursor-ew-resize") {
+      @include it('sm\:cursor-ew-resize') {
         @include assert {
           @include output {
             @include sm\:cursor-ew-resize;
@@ -939,7 +939,7 @@
         }
       }
 
-      @include it("sm\:cursor-ns-resize") {
+      @include it('sm\:cursor-ns-resize') {
         @include assert {
           @include output {
             @include sm\:cursor-ns-resize;
@@ -954,7 +954,7 @@
         }
       }
 
-      @include it("sm\:cursor-nesw-resize") {
+      @include it('sm\:cursor-nesw-resize') {
         @include assert {
           @include output {
             @include sm\:cursor-nesw-resize;
@@ -969,7 +969,7 @@
         }
       }
 
-      @include it("sm\:cursor-nwse-resize") {
+      @include it('sm\:cursor-nwse-resize') {
         @include assert {
           @include output {
             @include sm\:cursor-nwse-resize;
@@ -984,7 +984,7 @@
         }
       }
 
-      @include it("sm\:cursor-zoom-in") {
+      @include it('sm\:cursor-zoom-in') {
         @include assert {
           @include output {
             @include sm\:cursor-zoom-in;
@@ -999,7 +999,7 @@
         }
       }
 
-      @include it("sm\:cursor-zoom-out") {
+      @include it('sm\:cursor-zoom-out') {
         @include assert {
           @include output {
             @include sm\:cursor-zoom-out;
@@ -1014,7 +1014,7 @@
         }
       }
 
-      @include it("md\:cursor-auto") {
+      @include it('md\:cursor-auto') {
         @include assert {
           @include output {
             @include md\:cursor-auto;
@@ -1029,7 +1029,7 @@
         }
       }
 
-      @include it("md\:cursor-default") {
+      @include it('md\:cursor-default') {
         @include assert {
           @include output {
             @include md\:cursor-default;
@@ -1044,7 +1044,7 @@
         }
       }
 
-      @include it("md\:cursor-pointer") {
+      @include it('md\:cursor-pointer') {
         @include assert {
           @include output {
             @include md\:cursor-pointer;
@@ -1059,7 +1059,7 @@
         }
       }
 
-      @include it("md\:cursor-wait") {
+      @include it('md\:cursor-wait') {
         @include assert {
           @include output {
             @include md\:cursor-wait;
@@ -1074,7 +1074,7 @@
         }
       }
 
-      @include it("md\:cursor-text") {
+      @include it('md\:cursor-text') {
         @include assert {
           @include output {
             @include md\:cursor-text;
@@ -1089,7 +1089,7 @@
         }
       }
 
-      @include it("md\:cursor-move") {
+      @include it('md\:cursor-move') {
         @include assert {
           @include output {
             @include md\:cursor-move;
@@ -1104,7 +1104,7 @@
         }
       }
 
-      @include it("md\:cursor-help") {
+      @include it('md\:cursor-help') {
         @include assert {
           @include output {
             @include md\:cursor-help;
@@ -1119,7 +1119,7 @@
         }
       }
 
-      @include it("md\:cursor-not-allowed") {
+      @include it('md\:cursor-not-allowed') {
         @include assert {
           @include output {
             @include md\:cursor-not-allowed;
@@ -1134,7 +1134,7 @@
         }
       }
 
-      @include it("md\:cursor-none") {
+      @include it('md\:cursor-none') {
         @include assert {
           @include output {
             @include md\:cursor-none;
@@ -1149,7 +1149,7 @@
         }
       }
 
-      @include it("md\:cursor-context-menu") {
+      @include it('md\:cursor-context-menu') {
         @include assert {
           @include output {
             @include md\:cursor-context-menu;
@@ -1164,7 +1164,7 @@
         }
       }
 
-      @include it("md\:cursor-progress") {
+      @include it('md\:cursor-progress') {
         @include assert {
           @include output {
             @include md\:cursor-progress;
@@ -1179,7 +1179,7 @@
         }
       }
 
-      @include it("md\:cursor-cell") {
+      @include it('md\:cursor-cell') {
         @include assert {
           @include output {
             @include md\:cursor-cell;
@@ -1194,7 +1194,7 @@
         }
       }
 
-      @include it("md\:cursor-crosshair") {
+      @include it('md\:cursor-crosshair') {
         @include assert {
           @include output {
             @include md\:cursor-crosshair;
@@ -1209,7 +1209,7 @@
         }
       }
 
-      @include it("md\:cursor-vertical-text") {
+      @include it('md\:cursor-vertical-text') {
         @include assert {
           @include output {
             @include md\:cursor-vertical-text;
@@ -1224,7 +1224,7 @@
         }
       }
 
-      @include it("md\:cursor-alias") {
+      @include it('md\:cursor-alias') {
         @include assert {
           @include output {
             @include md\:cursor-alias;
@@ -1239,7 +1239,7 @@
         }
       }
 
-      @include it("md\:cursor-copy") {
+      @include it('md\:cursor-copy') {
         @include assert {
           @include output {
             @include md\:cursor-copy;
@@ -1254,7 +1254,7 @@
         }
       }
 
-      @include it("md\:cursor-no-drop") {
+      @include it('md\:cursor-no-drop') {
         @include assert {
           @include output {
             @include md\:cursor-no-drop;
@@ -1269,7 +1269,7 @@
         }
       }
 
-      @include it("md\:cursor-grab") {
+      @include it('md\:cursor-grab') {
         @include assert {
           @include output {
             @include md\:cursor-grab;
@@ -1284,7 +1284,7 @@
         }
       }
 
-      @include it("md\:cursor-grabbing") {
+      @include it('md\:cursor-grabbing') {
         @include assert {
           @include output {
             @include md\:cursor-grabbing;
@@ -1299,7 +1299,7 @@
         }
       }
 
-      @include it("md\:cursor-all-scroll") {
+      @include it('md\:cursor-all-scroll') {
         @include assert {
           @include output {
             @include md\:cursor-all-scroll;
@@ -1314,7 +1314,7 @@
         }
       }
 
-      @include it("md\:cursor-col-resize") {
+      @include it('md\:cursor-col-resize') {
         @include assert {
           @include output {
             @include md\:cursor-col-resize;
@@ -1329,7 +1329,7 @@
         }
       }
 
-      @include it("md\:cursor-row-resize") {
+      @include it('md\:cursor-row-resize') {
         @include assert {
           @include output {
             @include md\:cursor-row-resize;
@@ -1344,7 +1344,7 @@
         }
       }
 
-      @include it("md\:cursor-n-resize") {
+      @include it('md\:cursor-n-resize') {
         @include assert {
           @include output {
             @include md\:cursor-n-resize;
@@ -1359,7 +1359,7 @@
         }
       }
 
-      @include it("md\:cursor-e-resize") {
+      @include it('md\:cursor-e-resize') {
         @include assert {
           @include output {
             @include md\:cursor-e-resize;
@@ -1374,7 +1374,7 @@
         }
       }
 
-      @include it("md\:cursor-s-resize") {
+      @include it('md\:cursor-s-resize') {
         @include assert {
           @include output {
             @include md\:cursor-s-resize;
@@ -1389,7 +1389,7 @@
         }
       }
 
-      @include it("md\:cursor-w-resize") {
+      @include it('md\:cursor-w-resize') {
         @include assert {
           @include output {
             @include md\:cursor-w-resize;
@@ -1404,7 +1404,7 @@
         }
       }
 
-      @include it("md\:cursor-ne-resize") {
+      @include it('md\:cursor-ne-resize') {
         @include assert {
           @include output {
             @include md\:cursor-ne-resize;
@@ -1419,7 +1419,7 @@
         }
       }
 
-      @include it("md\:cursor-nw-resize") {
+      @include it('md\:cursor-nw-resize') {
         @include assert {
           @include output {
             @include md\:cursor-nw-resize;
@@ -1434,7 +1434,7 @@
         }
       }
 
-      @include it("md\:cursor-se-resize") {
+      @include it('md\:cursor-se-resize') {
         @include assert {
           @include output {
             @include md\:cursor-se-resize;
@@ -1449,7 +1449,7 @@
         }
       }
 
-      @include it("md\:cursor-sw-resize") {
+      @include it('md\:cursor-sw-resize') {
         @include assert {
           @include output {
             @include md\:cursor-sw-resize;
@@ -1464,7 +1464,7 @@
         }
       }
 
-      @include it("md\:cursor-ew-resize") {
+      @include it('md\:cursor-ew-resize') {
         @include assert {
           @include output {
             @include md\:cursor-ew-resize;
@@ -1479,7 +1479,7 @@
         }
       }
 
-      @include it("md\:cursor-ns-resize") {
+      @include it('md\:cursor-ns-resize') {
         @include assert {
           @include output {
             @include md\:cursor-ns-resize;
@@ -1494,7 +1494,7 @@
         }
       }
 
-      @include it("md\:cursor-nesw-resize") {
+      @include it('md\:cursor-nesw-resize') {
         @include assert {
           @include output {
             @include md\:cursor-nesw-resize;
@@ -1509,7 +1509,7 @@
         }
       }
 
-      @include it("md\:cursor-nwse-resize") {
+      @include it('md\:cursor-nwse-resize') {
         @include assert {
           @include output {
             @include md\:cursor-nwse-resize;
@@ -1524,7 +1524,7 @@
         }
       }
 
-      @include it("md\:cursor-zoom-in") {
+      @include it('md\:cursor-zoom-in') {
         @include assert {
           @include output {
             @include md\:cursor-zoom-in;
@@ -1539,7 +1539,7 @@
         }
       }
 
-      @include it("md\:cursor-zoom-out") {
+      @include it('md\:cursor-zoom-out') {
         @include assert {
           @include output {
             @include md\:cursor-zoom-out;
@@ -1554,7 +1554,7 @@
         }
       }
 
-      @include it("lg\:cursor-auto") {
+      @include it('lg\:cursor-auto') {
         @include assert {
           @include output {
             @include lg\:cursor-auto;
@@ -1569,7 +1569,7 @@
         }
       }
 
-      @include it("lg\:cursor-default") {
+      @include it('lg\:cursor-default') {
         @include assert {
           @include output {
             @include lg\:cursor-default;
@@ -1584,7 +1584,7 @@
         }
       }
 
-      @include it("lg\:cursor-pointer") {
+      @include it('lg\:cursor-pointer') {
         @include assert {
           @include output {
             @include lg\:cursor-pointer;
@@ -1599,7 +1599,7 @@
         }
       }
 
-      @include it("lg\:cursor-wait") {
+      @include it('lg\:cursor-wait') {
         @include assert {
           @include output {
             @include lg\:cursor-wait;
@@ -1614,7 +1614,7 @@
         }
       }
 
-      @include it("lg\:cursor-text") {
+      @include it('lg\:cursor-text') {
         @include assert {
           @include output {
             @include lg\:cursor-text;
@@ -1629,7 +1629,7 @@
         }
       }
 
-      @include it("lg\:cursor-move") {
+      @include it('lg\:cursor-move') {
         @include assert {
           @include output {
             @include lg\:cursor-move;
@@ -1644,7 +1644,7 @@
         }
       }
 
-      @include it("lg\:cursor-help") {
+      @include it('lg\:cursor-help') {
         @include assert {
           @include output {
             @include lg\:cursor-help;
@@ -1659,7 +1659,7 @@
         }
       }
 
-      @include it("lg\:cursor-not-allowed") {
+      @include it('lg\:cursor-not-allowed') {
         @include assert {
           @include output {
             @include lg\:cursor-not-allowed;
@@ -1674,7 +1674,7 @@
         }
       }
 
-      @include it("lg\:cursor-none") {
+      @include it('lg\:cursor-none') {
         @include assert {
           @include output {
             @include lg\:cursor-none;
@@ -1689,7 +1689,7 @@
         }
       }
 
-      @include it("lg\:cursor-context-menu") {
+      @include it('lg\:cursor-context-menu') {
         @include assert {
           @include output {
             @include lg\:cursor-context-menu;
@@ -1704,7 +1704,7 @@
         }
       }
 
-      @include it("lg\:cursor-progress") {
+      @include it('lg\:cursor-progress') {
         @include assert {
           @include output {
             @include lg\:cursor-progress;
@@ -1719,7 +1719,7 @@
         }
       }
 
-      @include it("lg\:cursor-cell") {
+      @include it('lg\:cursor-cell') {
         @include assert {
           @include output {
             @include lg\:cursor-cell;
@@ -1734,7 +1734,7 @@
         }
       }
 
-      @include it("lg\:cursor-crosshair") {
+      @include it('lg\:cursor-crosshair') {
         @include assert {
           @include output {
             @include lg\:cursor-crosshair;
@@ -1749,7 +1749,7 @@
         }
       }
 
-      @include it("lg\:cursor-vertical-text") {
+      @include it('lg\:cursor-vertical-text') {
         @include assert {
           @include output {
             @include lg\:cursor-vertical-text;
@@ -1764,7 +1764,7 @@
         }
       }
 
-      @include it("lg\:cursor-alias") {
+      @include it('lg\:cursor-alias') {
         @include assert {
           @include output {
             @include lg\:cursor-alias;
@@ -1779,7 +1779,7 @@
         }
       }
 
-      @include it("lg\:cursor-copy") {
+      @include it('lg\:cursor-copy') {
         @include assert {
           @include output {
             @include lg\:cursor-copy;
@@ -1794,7 +1794,7 @@
         }
       }
 
-      @include it("lg\:cursor-no-drop") {
+      @include it('lg\:cursor-no-drop') {
         @include assert {
           @include output {
             @include lg\:cursor-no-drop;
@@ -1809,7 +1809,7 @@
         }
       }
 
-      @include it("lg\:cursor-grab") {
+      @include it('lg\:cursor-grab') {
         @include assert {
           @include output {
             @include lg\:cursor-grab;
@@ -1824,7 +1824,7 @@
         }
       }
 
-      @include it("lg\:cursor-grabbing") {
+      @include it('lg\:cursor-grabbing') {
         @include assert {
           @include output {
             @include lg\:cursor-grabbing;
@@ -1839,7 +1839,7 @@
         }
       }
 
-      @include it("lg\:cursor-all-scroll") {
+      @include it('lg\:cursor-all-scroll') {
         @include assert {
           @include output {
             @include lg\:cursor-all-scroll;
@@ -1854,7 +1854,7 @@
         }
       }
 
-      @include it("lg\:cursor-col-resize") {
+      @include it('lg\:cursor-col-resize') {
         @include assert {
           @include output {
             @include lg\:cursor-col-resize;
@@ -1869,7 +1869,7 @@
         }
       }
 
-      @include it("lg\:cursor-row-resize") {
+      @include it('lg\:cursor-row-resize') {
         @include assert {
           @include output {
             @include lg\:cursor-row-resize;
@@ -1884,7 +1884,7 @@
         }
       }
 
-      @include it("lg\:cursor-n-resize") {
+      @include it('lg\:cursor-n-resize') {
         @include assert {
           @include output {
             @include lg\:cursor-n-resize;
@@ -1899,7 +1899,7 @@
         }
       }
 
-      @include it("lg\:cursor-e-resize") {
+      @include it('lg\:cursor-e-resize') {
         @include assert {
           @include output {
             @include lg\:cursor-e-resize;
@@ -1914,7 +1914,7 @@
         }
       }
 
-      @include it("lg\:cursor-s-resize") {
+      @include it('lg\:cursor-s-resize') {
         @include assert {
           @include output {
             @include lg\:cursor-s-resize;
@@ -1929,7 +1929,7 @@
         }
       }
 
-      @include it("lg\:cursor-w-resize") {
+      @include it('lg\:cursor-w-resize') {
         @include assert {
           @include output {
             @include lg\:cursor-w-resize;
@@ -1944,7 +1944,7 @@
         }
       }
 
-      @include it("lg\:cursor-ne-resize") {
+      @include it('lg\:cursor-ne-resize') {
         @include assert {
           @include output {
             @include lg\:cursor-ne-resize;
@@ -1959,7 +1959,7 @@
         }
       }
 
-      @include it("lg\:cursor-nw-resize") {
+      @include it('lg\:cursor-nw-resize') {
         @include assert {
           @include output {
             @include lg\:cursor-nw-resize;
@@ -1974,7 +1974,7 @@
         }
       }
 
-      @include it("lg\:cursor-se-resize") {
+      @include it('lg\:cursor-se-resize') {
         @include assert {
           @include output {
             @include lg\:cursor-se-resize;
@@ -1989,7 +1989,7 @@
         }
       }
 
-      @include it("lg\:cursor-sw-resize") {
+      @include it('lg\:cursor-sw-resize') {
         @include assert {
           @include output {
             @include lg\:cursor-sw-resize;
@@ -2004,7 +2004,7 @@
         }
       }
 
-      @include it("lg\:cursor-ew-resize") {
+      @include it('lg\:cursor-ew-resize') {
         @include assert {
           @include output {
             @include lg\:cursor-ew-resize;
@@ -2019,7 +2019,7 @@
         }
       }
 
-      @include it("lg\:cursor-ns-resize") {
+      @include it('lg\:cursor-ns-resize') {
         @include assert {
           @include output {
             @include lg\:cursor-ns-resize;
@@ -2034,7 +2034,7 @@
         }
       }
 
-      @include it("lg\:cursor-nesw-resize") {
+      @include it('lg\:cursor-nesw-resize') {
         @include assert {
           @include output {
             @include lg\:cursor-nesw-resize;
@@ -2049,7 +2049,7 @@
         }
       }
 
-      @include it("lg\:cursor-nwse-resize") {
+      @include it('lg\:cursor-nwse-resize') {
         @include assert {
           @include output {
             @include lg\:cursor-nwse-resize;
@@ -2064,7 +2064,7 @@
         }
       }
 
-      @include it("lg\:cursor-zoom-in") {
+      @include it('lg\:cursor-zoom-in') {
         @include assert {
           @include output {
             @include lg\:cursor-zoom-in;
@@ -2079,7 +2079,7 @@
         }
       }
 
-      @include it("lg\:cursor-zoom-out") {
+      @include it('lg\:cursor-zoom-out') {
         @include assert {
           @include output {
             @include lg\:cursor-zoom-out;
@@ -2094,7 +2094,7 @@
         }
       }
 
-      @include it("xl\:cursor-auto") {
+      @include it('xl\:cursor-auto') {
         @include assert {
           @include output {
             @include xl\:cursor-auto;
@@ -2109,7 +2109,7 @@
         }
       }
 
-      @include it("xl\:cursor-default") {
+      @include it('xl\:cursor-default') {
         @include assert {
           @include output {
             @include xl\:cursor-default;
@@ -2124,7 +2124,7 @@
         }
       }
 
-      @include it("xl\:cursor-pointer") {
+      @include it('xl\:cursor-pointer') {
         @include assert {
           @include output {
             @include xl\:cursor-pointer;
@@ -2139,7 +2139,7 @@
         }
       }
 
-      @include it("xl\:cursor-wait") {
+      @include it('xl\:cursor-wait') {
         @include assert {
           @include output {
             @include xl\:cursor-wait;
@@ -2154,7 +2154,7 @@
         }
       }
 
-      @include it("xl\:cursor-text") {
+      @include it('xl\:cursor-text') {
         @include assert {
           @include output {
             @include xl\:cursor-text;
@@ -2169,7 +2169,7 @@
         }
       }
 
-      @include it("xl\:cursor-move") {
+      @include it('xl\:cursor-move') {
         @include assert {
           @include output {
             @include xl\:cursor-move;
@@ -2184,7 +2184,7 @@
         }
       }
 
-      @include it("xl\:cursor-help") {
+      @include it('xl\:cursor-help') {
         @include assert {
           @include output {
             @include xl\:cursor-help;
@@ -2199,7 +2199,7 @@
         }
       }
 
-      @include it("xl\:cursor-not-allowed") {
+      @include it('xl\:cursor-not-allowed') {
         @include assert {
           @include output {
             @include xl\:cursor-not-allowed;
@@ -2214,7 +2214,7 @@
         }
       }
 
-      @include it("xl\:cursor-none") {
+      @include it('xl\:cursor-none') {
         @include assert {
           @include output {
             @include xl\:cursor-none;
@@ -2229,7 +2229,7 @@
         }
       }
 
-      @include it("xl\:cursor-context-menu") {
+      @include it('xl\:cursor-context-menu') {
         @include assert {
           @include output {
             @include xl\:cursor-context-menu;
@@ -2244,7 +2244,7 @@
         }
       }
 
-      @include it("xl\:cursor-progress") {
+      @include it('xl\:cursor-progress') {
         @include assert {
           @include output {
             @include xl\:cursor-progress;
@@ -2259,7 +2259,7 @@
         }
       }
 
-      @include it("xl\:cursor-cell") {
+      @include it('xl\:cursor-cell') {
         @include assert {
           @include output {
             @include xl\:cursor-cell;
@@ -2274,7 +2274,7 @@
         }
       }
 
-      @include it("xl\:cursor-crosshair") {
+      @include it('xl\:cursor-crosshair') {
         @include assert {
           @include output {
             @include xl\:cursor-crosshair;
@@ -2289,7 +2289,7 @@
         }
       }
 
-      @include it("xl\:cursor-vertical-text") {
+      @include it('xl\:cursor-vertical-text') {
         @include assert {
           @include output {
             @include xl\:cursor-vertical-text;
@@ -2304,7 +2304,7 @@
         }
       }
 
-      @include it("xl\:cursor-alias") {
+      @include it('xl\:cursor-alias') {
         @include assert {
           @include output {
             @include xl\:cursor-alias;
@@ -2319,7 +2319,7 @@
         }
       }
 
-      @include it("xl\:cursor-copy") {
+      @include it('xl\:cursor-copy') {
         @include assert {
           @include output {
             @include xl\:cursor-copy;
@@ -2334,7 +2334,7 @@
         }
       }
 
-      @include it("xl\:cursor-no-drop") {
+      @include it('xl\:cursor-no-drop') {
         @include assert {
           @include output {
             @include xl\:cursor-no-drop;
@@ -2349,7 +2349,7 @@
         }
       }
 
-      @include it("xl\:cursor-grab") {
+      @include it('xl\:cursor-grab') {
         @include assert {
           @include output {
             @include xl\:cursor-grab;
@@ -2364,7 +2364,7 @@
         }
       }
 
-      @include it("xl\:cursor-grabbing") {
+      @include it('xl\:cursor-grabbing') {
         @include assert {
           @include output {
             @include xl\:cursor-grabbing;
@@ -2379,7 +2379,7 @@
         }
       }
 
-      @include it("xl\:cursor-all-scroll") {
+      @include it('xl\:cursor-all-scroll') {
         @include assert {
           @include output {
             @include xl\:cursor-all-scroll;
@@ -2394,7 +2394,7 @@
         }
       }
 
-      @include it("xl\:cursor-col-resize") {
+      @include it('xl\:cursor-col-resize') {
         @include assert {
           @include output {
             @include xl\:cursor-col-resize;
@@ -2409,7 +2409,7 @@
         }
       }
 
-      @include it("xl\:cursor-row-resize") {
+      @include it('xl\:cursor-row-resize') {
         @include assert {
           @include output {
             @include xl\:cursor-row-resize;
@@ -2424,7 +2424,7 @@
         }
       }
 
-      @include it("xl\:cursor-n-resize") {
+      @include it('xl\:cursor-n-resize') {
         @include assert {
           @include output {
             @include xl\:cursor-n-resize;
@@ -2439,7 +2439,7 @@
         }
       }
 
-      @include it("xl\:cursor-e-resize") {
+      @include it('xl\:cursor-e-resize') {
         @include assert {
           @include output {
             @include xl\:cursor-e-resize;
@@ -2454,7 +2454,7 @@
         }
       }
 
-      @include it("xl\:cursor-s-resize") {
+      @include it('xl\:cursor-s-resize') {
         @include assert {
           @include output {
             @include xl\:cursor-s-resize;
@@ -2469,7 +2469,7 @@
         }
       }
 
-      @include it("xl\:cursor-w-resize") {
+      @include it('xl\:cursor-w-resize') {
         @include assert {
           @include output {
             @include xl\:cursor-w-resize;
@@ -2484,7 +2484,7 @@
         }
       }
 
-      @include it("xl\:cursor-ne-resize") {
+      @include it('xl\:cursor-ne-resize') {
         @include assert {
           @include output {
             @include xl\:cursor-ne-resize;
@@ -2499,7 +2499,7 @@
         }
       }
 
-      @include it("xl\:cursor-nw-resize") {
+      @include it('xl\:cursor-nw-resize') {
         @include assert {
           @include output {
             @include xl\:cursor-nw-resize;
@@ -2514,7 +2514,7 @@
         }
       }
 
-      @include it("xl\:cursor-se-resize") {
+      @include it('xl\:cursor-se-resize') {
         @include assert {
           @include output {
             @include xl\:cursor-se-resize;
@@ -2529,7 +2529,7 @@
         }
       }
 
-      @include it("xl\:cursor-sw-resize") {
+      @include it('xl\:cursor-sw-resize') {
         @include assert {
           @include output {
             @include xl\:cursor-sw-resize;
@@ -2544,7 +2544,7 @@
         }
       }
 
-      @include it("xl\:cursor-ew-resize") {
+      @include it('xl\:cursor-ew-resize') {
         @include assert {
           @include output {
             @include xl\:cursor-ew-resize;
@@ -2559,7 +2559,7 @@
         }
       }
 
-      @include it("xl\:cursor-ns-resize") {
+      @include it('xl\:cursor-ns-resize') {
         @include assert {
           @include output {
             @include xl\:cursor-ns-resize;
@@ -2574,7 +2574,7 @@
         }
       }
 
-      @include it("xl\:cursor-nesw-resize") {
+      @include it('xl\:cursor-nesw-resize') {
         @include assert {
           @include output {
             @include xl\:cursor-nesw-resize;
@@ -2589,7 +2589,7 @@
         }
       }
 
-      @include it("xl\:cursor-nwse-resize") {
+      @include it('xl\:cursor-nwse-resize') {
         @include assert {
           @include output {
             @include xl\:cursor-nwse-resize;
@@ -2604,7 +2604,7 @@
         }
       }
 
-      @include it("xl\:cursor-zoom-in") {
+      @include it('xl\:cursor-zoom-in') {
         @include assert {
           @include output {
             @include xl\:cursor-zoom-in;
@@ -2619,7 +2619,7 @@
         }
       }
 
-      @include it("xl\:cursor-zoom-out") {
+      @include it('xl\:cursor-zoom-out') {
         @include assert {
           @include output {
             @include xl\:cursor-zoom-out;
@@ -2634,7 +2634,7 @@
         }
       }
 
-      @include it("2xl\:cursor-auto") {
+      @include it('2xl\:cursor-auto') {
         @include assert {
           @include output {
             @include \2xl\:cursor-auto;
@@ -2649,7 +2649,7 @@
         }
       }
 
-      @include it("2xl\:cursor-default") {
+      @include it('2xl\:cursor-default') {
         @include assert {
           @include output {
             @include \2xl\:cursor-default;
@@ -2664,7 +2664,7 @@
         }
       }
 
-      @include it("2xl\:cursor-pointer") {
+      @include it('2xl\:cursor-pointer') {
         @include assert {
           @include output {
             @include \2xl\:cursor-pointer;
@@ -2679,7 +2679,7 @@
         }
       }
 
-      @include it("2xl\:cursor-wait") {
+      @include it('2xl\:cursor-wait') {
         @include assert {
           @include output {
             @include \2xl\:cursor-wait;
@@ -2694,7 +2694,7 @@
         }
       }
 
-      @include it("2xl\:cursor-text") {
+      @include it('2xl\:cursor-text') {
         @include assert {
           @include output {
             @include \2xl\:cursor-text;
@@ -2709,7 +2709,7 @@
         }
       }
 
-      @include it("2xl\:cursor-move") {
+      @include it('2xl\:cursor-move') {
         @include assert {
           @include output {
             @include \2xl\:cursor-move;
@@ -2724,7 +2724,7 @@
         }
       }
 
-      @include it("2xl\:cursor-help") {
+      @include it('2xl\:cursor-help') {
         @include assert {
           @include output {
             @include \2xl\:cursor-help;
@@ -2739,7 +2739,7 @@
         }
       }
 
-      @include it("2xl\:cursor-not-allowed") {
+      @include it('2xl\:cursor-not-allowed') {
         @include assert {
           @include output {
             @include \2xl\:cursor-not-allowed;
@@ -2754,7 +2754,7 @@
         }
       }
 
-      @include it("2xl\:cursor-none") {
+      @include it('2xl\:cursor-none') {
         @include assert {
           @include output {
             @include \2xl\:cursor-none;
@@ -2769,7 +2769,7 @@
         }
       }
 
-      @include it("2xl\:cursor-context-menu") {
+      @include it('2xl\:cursor-context-menu') {
         @include assert {
           @include output {
             @include \2xl\:cursor-context-menu;
@@ -2784,7 +2784,7 @@
         }
       }
 
-      @include it("2xl\:cursor-progress") {
+      @include it('2xl\:cursor-progress') {
         @include assert {
           @include output {
             @include \2xl\:cursor-progress;
@@ -2799,7 +2799,7 @@
         }
       }
 
-      @include it("2xl\:cursor-cell") {
+      @include it('2xl\:cursor-cell') {
         @include assert {
           @include output {
             @include \2xl\:cursor-cell;
@@ -2814,7 +2814,7 @@
         }
       }
 
-      @include it("2xl\:cursor-crosshair") {
+      @include it('2xl\:cursor-crosshair') {
         @include assert {
           @include output {
             @include \2xl\:cursor-crosshair;
@@ -2829,7 +2829,7 @@
         }
       }
 
-      @include it("2xl\:cursor-vertical-text") {
+      @include it('2xl\:cursor-vertical-text') {
         @include assert {
           @include output {
             @include \2xl\:cursor-vertical-text;
@@ -2844,7 +2844,7 @@
         }
       }
 
-      @include it("2xl\:cursor-alias") {
+      @include it('2xl\:cursor-alias') {
         @include assert {
           @include output {
             @include \2xl\:cursor-alias;
@@ -2859,7 +2859,7 @@
         }
       }
 
-      @include it("2xl\:cursor-copy") {
+      @include it('2xl\:cursor-copy') {
         @include assert {
           @include output {
             @include \2xl\:cursor-copy;
@@ -2874,7 +2874,7 @@
         }
       }
 
-      @include it("2xl\:cursor-no-drop") {
+      @include it('2xl\:cursor-no-drop') {
         @include assert {
           @include output {
             @include \2xl\:cursor-no-drop;
@@ -2889,7 +2889,7 @@
         }
       }
 
-      @include it("2xl\:cursor-grab") {
+      @include it('2xl\:cursor-grab') {
         @include assert {
           @include output {
             @include \2xl\:cursor-grab;
@@ -2904,7 +2904,7 @@
         }
       }
 
-      @include it("2xl\:cursor-grabbing") {
+      @include it('2xl\:cursor-grabbing') {
         @include assert {
           @include output {
             @include \2xl\:cursor-grabbing;
@@ -2919,7 +2919,7 @@
         }
       }
 
-      @include it("2xl\:cursor-all-scroll") {
+      @include it('2xl\:cursor-all-scroll') {
         @include assert {
           @include output {
             @include \2xl\:cursor-all-scroll;
@@ -2934,7 +2934,7 @@
         }
       }
 
-      @include it("2xl\:cursor-col-resize") {
+      @include it('2xl\:cursor-col-resize') {
         @include assert {
           @include output {
             @include \2xl\:cursor-col-resize;
@@ -2949,7 +2949,7 @@
         }
       }
 
-      @include it("2xl\:cursor-row-resize") {
+      @include it('2xl\:cursor-row-resize') {
         @include assert {
           @include output {
             @include \2xl\:cursor-row-resize;
@@ -2964,7 +2964,7 @@
         }
       }
 
-      @include it("2xl\:cursor-n-resize") {
+      @include it('2xl\:cursor-n-resize') {
         @include assert {
           @include output {
             @include \2xl\:cursor-n-resize;
@@ -2979,7 +2979,7 @@
         }
       }
 
-      @include it("2xl\:cursor-e-resize") {
+      @include it('2xl\:cursor-e-resize') {
         @include assert {
           @include output {
             @include \2xl\:cursor-e-resize;
@@ -2994,7 +2994,7 @@
         }
       }
 
-      @include it("2xl\:cursor-s-resize") {
+      @include it('2xl\:cursor-s-resize') {
         @include assert {
           @include output {
             @include \2xl\:cursor-s-resize;
@@ -3009,7 +3009,7 @@
         }
       }
 
-      @include it("2xl\:cursor-w-resize") {
+      @include it('2xl\:cursor-w-resize') {
         @include assert {
           @include output {
             @include \2xl\:cursor-w-resize;
@@ -3024,7 +3024,7 @@
         }
       }
 
-      @include it("2xl\:cursor-ne-resize") {
+      @include it('2xl\:cursor-ne-resize') {
         @include assert {
           @include output {
             @include \2xl\:cursor-ne-resize;
@@ -3039,7 +3039,7 @@
         }
       }
 
-      @include it("2xl\:cursor-nw-resize") {
+      @include it('2xl\:cursor-nw-resize') {
         @include assert {
           @include output {
             @include \2xl\:cursor-nw-resize;
@@ -3054,7 +3054,7 @@
         }
       }
 
-      @include it("2xl\:cursor-se-resize") {
+      @include it('2xl\:cursor-se-resize') {
         @include assert {
           @include output {
             @include \2xl\:cursor-se-resize;
@@ -3069,7 +3069,7 @@
         }
       }
 
-      @include it("2xl\:cursor-sw-resize") {
+      @include it('2xl\:cursor-sw-resize') {
         @include assert {
           @include output {
             @include \2xl\:cursor-sw-resize;
@@ -3084,7 +3084,7 @@
         }
       }
 
-      @include it("2xl\:cursor-ew-resize") {
+      @include it('2xl\:cursor-ew-resize') {
         @include assert {
           @include output {
             @include \2xl\:cursor-ew-resize;
@@ -3099,7 +3099,7 @@
         }
       }
 
-      @include it("2xl\:cursor-ns-resize") {
+      @include it('2xl\:cursor-ns-resize') {
         @include assert {
           @include output {
             @include \2xl\:cursor-ns-resize;
@@ -3114,7 +3114,7 @@
         }
       }
 
-      @include it("2xl\:cursor-nesw-resize") {
+      @include it('2xl\:cursor-nesw-resize') {
         @include assert {
           @include output {
             @include \2xl\:cursor-nesw-resize;
@@ -3129,7 +3129,7 @@
         }
       }
 
-      @include it("2xl\:cursor-nwse-resize") {
+      @include it('2xl\:cursor-nwse-resize') {
         @include assert {
           @include output {
             @include \2xl\:cursor-nwse-resize;
@@ -3144,7 +3144,7 @@
         }
       }
 
-      @include it("2xl\:cursor-zoom-in") {
+      @include it('2xl\:cursor-zoom-in') {
         @include assert {
           @include output {
             @include \2xl\:cursor-zoom-in;
@@ -3159,7 +3159,7 @@
         }
       }
 
-      @include it("2xl\:cursor-zoom-out") {
+      @include it('2xl\:cursor-zoom-out') {
         @include assert {
           @include output {
             @include \2xl\:cursor-zoom-out;
@@ -3175,8 +3175,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("cursor-(url(hand.cur), pointer)") {
+    @include describe('Custom') {
+      @include it('cursor-(url(hand.cur), pointer)') {
         @include assert {
           @include output {
             @include cursor-(url(hand.cur), pointer);
@@ -3189,7 +3189,7 @@
         }
       }
 
-      @include it("sm\:cursor-(url(hand.cur), pointer)") {
+      @include it('sm\:cursor-(url(hand.cur), pointer)') {
         @include assert {
           @include output {
             @include sm\:cursor-(url(hand.cur), pointer);
@@ -3204,7 +3204,7 @@
         }
       }
 
-      @include it("md\:cursor-(url(hand.cur), pointer)") {
+      @include it('md\:cursor-(url(hand.cur), pointer)') {
         @include assert {
           @include output {
             @include md\:cursor-(url(hand.cur), pointer);
@@ -3219,7 +3219,7 @@
         }
       }
 
-      @include it("lg\:cursor-(url(hand.cur), pointer)") {
+      @include it('lg\:cursor-(url(hand.cur), pointer)') {
         @include assert {
           @include output {
             @include lg\:cursor-(url(hand.cur), pointer);
@@ -3234,7 +3234,7 @@
         }
       }
 
-      @include it("xl\:cursor-(url(hand.cur), pointer)") {
+      @include it('xl\:cursor-(url(hand.cur), pointer)') {
         @include assert {
           @include output {
             @include xl\:cursor-(url(hand.cur), pointer);
@@ -3249,7 +3249,7 @@
         }
       }
 
-      @include it("2xl\:cursor-(url(hand.cur), pointer)") {
+      @include it('2xl\:cursor-(url(hand.cur), pointer)') {
         @include assert {
           @include output {
             @include \2xl\:cursor-(url(hand.cur), pointer);

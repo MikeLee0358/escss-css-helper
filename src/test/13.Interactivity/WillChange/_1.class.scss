@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("13.Interactivity") {
-  @include describe("Will Change") {
-    @include describe("Basic") {
-      @include it("will-change-auto") {
+@include describe('13.Interactivity') {
+  @include describe('Will Change') {
+    @include describe('Basic') {
+      @include it('will-change-auto') {
         @include assert {
           @include output {
             @include will-change-auto;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("will-change-scroll") {
+      @include it('will-change-scroll') {
         @include assert {
           @include output {
             @include will-change-scroll;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("will-change-contents") {
+      @include it('will-change-contents') {
         @include assert {
           @include output {
             @include will-change-contents;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("will-change-transform") {
+      @include it('will-change-transform') {
         @include assert {
           @include output {
             @include will-change-transform;
@@ -57,8 +57,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:will-change-auto") {
+    @include describe('Rwd') {
+      @include it('sm\:will-change-auto') {
         @include assert {
           @include output {
             @include sm\:will-change-auto;
@@ -73,7 +73,7 @@
         }
       }
 
-      @include it("sm\:will-change-scroll") {
+      @include it('sm\:will-change-scroll') {
         @include assert {
           @include output {
             @include sm\:will-change-scroll;
@@ -88,7 +88,7 @@
         }
       }
 
-      @include it("sm\:will-change-contents") {
+      @include it('sm\:will-change-contents') {
         @include assert {
           @include output {
             @include sm\:will-change-contents;
@@ -103,7 +103,7 @@
         }
       }
 
-      @include it("sm\:will-change-transform") {
+      @include it('sm\:will-change-transform') {
         @include assert {
           @include output {
             @include sm\:will-change-transform;
@@ -118,7 +118,7 @@
         }
       }
 
-      @include it("md\:will-change-auto") {
+      @include it('md\:will-change-auto') {
         @include assert {
           @include output {
             @include md\:will-change-auto;
@@ -133,7 +133,7 @@
         }
       }
 
-      @include it("md\:will-change-scroll") {
+      @include it('md\:will-change-scroll') {
         @include assert {
           @include output {
             @include md\:will-change-scroll;
@@ -148,7 +148,7 @@
         }
       }
 
-      @include it("md\:will-change-contents") {
+      @include it('md\:will-change-contents') {
         @include assert {
           @include output {
             @include md\:will-change-contents;
@@ -163,7 +163,7 @@
         }
       }
 
-      @include it("md\:will-change-transform") {
+      @include it('md\:will-change-transform') {
         @include assert {
           @include output {
             @include md\:will-change-transform;
@@ -178,7 +178,7 @@
         }
       }
 
-      @include it("lg\:will-change-auto") {
+      @include it('lg\:will-change-auto') {
         @include assert {
           @include output {
             @include lg\:will-change-auto;
@@ -193,7 +193,7 @@
         }
       }
 
-      @include it("lg\:will-change-scroll") {
+      @include it('lg\:will-change-scroll') {
         @include assert {
           @include output {
             @include lg\:will-change-scroll;
@@ -208,7 +208,7 @@
         }
       }
 
-      @include it("lg\:will-change-contents") {
+      @include it('lg\:will-change-contents') {
         @include assert {
           @include output {
             @include lg\:will-change-contents;
@@ -223,7 +223,7 @@
         }
       }
 
-      @include it("lg\:will-change-transform") {
+      @include it('lg\:will-change-transform') {
         @include assert {
           @include output {
             @include lg\:will-change-transform;
@@ -238,7 +238,7 @@
         }
       }
 
-      @include it("xl\:will-change-auto") {
+      @include it('xl\:will-change-auto') {
         @include assert {
           @include output {
             @include xl\:will-change-auto;
@@ -253,7 +253,7 @@
         }
       }
 
-      @include it("xl\:will-change-scroll") {
+      @include it('xl\:will-change-scroll') {
         @include assert {
           @include output {
             @include xl\:will-change-scroll;
@@ -268,7 +268,7 @@
         }
       }
 
-      @include it("xl\:will-change-contents") {
+      @include it('xl\:will-change-contents') {
         @include assert {
           @include output {
             @include xl\:will-change-contents;
@@ -283,7 +283,7 @@
         }
       }
 
-      @include it("xl\:will-change-transform") {
+      @include it('xl\:will-change-transform') {
         @include assert {
           @include output {
             @include xl\:will-change-transform;
@@ -298,7 +298,7 @@
         }
       }
 
-      @include it("2xl\:will-change-auto") {
+      @include it('2xl\:will-change-auto') {
         @include assert {
           @include output {
             @include \2xl\:will-change-auto;
@@ -313,7 +313,7 @@
         }
       }
 
-      @include it("2xl\:will-change-scroll") {
+      @include it('2xl\:will-change-scroll') {
         @include assert {
           @include output {
             @include \2xl\:will-change-scroll;
@@ -328,7 +328,7 @@
         }
       }
 
-      @include it("2xl\:will-change-contents") {
+      @include it('2xl\:will-change-contents') {
         @include assert {
           @include output {
             @include \2xl\:will-change-contents;
@@ -343,7 +343,7 @@
         }
       }
 
-      @include it("2xl\:will-change-transform") {
+      @include it('2xl\:will-change-transform') {
         @include assert {
           @include output {
             @include \2xl\:will-change-transform;
@@ -359,8 +359,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("will-change-(top, left)") {
+    @include describe('Custom') {
+      @include it('will-change-(top, left)') {
         @include assert {
           @include output {
             @include will-change-(top, left);
@@ -373,7 +373,7 @@
         }
       }
 
-      @include it("sm\:will-change-(top, left)") {
+      @include it('sm\:will-change-(top, left)') {
         @include assert {
           @include output {
             @include sm\:will-change-(top, left);
@@ -388,7 +388,7 @@
         }
       }
 
-      @include it("md\:will-change-(top, left)") {
+      @include it('md\:will-change-(top, left)') {
         @include assert {
           @include output {
             @include md\:will-change-(top, left);
@@ -403,7 +403,7 @@
         }
       }
 
-      @include it("lg\:will-change-(top, left)") {
+      @include it('lg\:will-change-(top, left)') {
         @include assert {
           @include output {
             @include lg\:will-change-(top, left);
@@ -418,7 +418,7 @@
         }
       }
 
-      @include it("xl\:will-change-(top, left)") {
+      @include it('xl\:will-change-(top, left)') {
         @include assert {
           @include output {
             @include xl\:will-change-(top, left);
@@ -433,7 +433,7 @@
         }
       }
 
-      @include it("2xl\:will-change-(top, left)") {
+      @include it('2xl\:will-change-(top, left)') {
         @include assert {
           @include output {
             @include \2xl\:will-change-(top, left);

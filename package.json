@@ -1,5 +1,6 @@
 {
   "name": "escss-scss",
+  "license": "View license",
   "scripts": {
     "format": "bun prettier . --write --cache"
   },

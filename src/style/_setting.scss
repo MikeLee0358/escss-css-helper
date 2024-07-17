@@ -8,7 +8,7 @@ $Basic: true; // Tailwind classes
 $Breakpoint: true; // Tailwind classes which have media queries
 $Custom: true; // Tailwind classes which have arbitrary values
 
-$rwdBox: "sm", "md", "lg", "xl", "\\2xl";
+$rwdBox: 'sm', 'md', 'lg', 'xl', '\\2xl';
 
 // internal helper function
 /*x

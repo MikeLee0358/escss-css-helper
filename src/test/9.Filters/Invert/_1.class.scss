@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("9.Filters") {
-  @include describe("Invert") {
-    @include describe("Basic") {
-      @include it("invert-0") {
+@include describe('9.Filters') {
+  @include describe('Invert') {
+    @include describe('Basic') {
+      @include it('invert-0') {
         @include assert {
           @include output {
             @include invert-0;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("invert") {
+      @include it('invert') {
         @include assert {
           @include output {
             @include invert;
@@ -31,8 +31,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:invert-0") {
+    @include describe('Rwd') {
+      @include it('sm\:invert-0') {
         @include assert {
           @include output {
             @include sm\:invert-0;
@@ -47,7 +47,7 @@
         }
       }
 
-      @include it("sm\:invert") {
+      @include it('sm\:invert') {
         @include assert {
           @include output {
             @include sm\:invert;
@@ -62,7 +62,7 @@
         }
       }
 
-      @include it("md\:invert-0") {
+      @include it('md\:invert-0') {
         @include assert {
           @include output {
             @include md\:invert-0;
@@ -77,7 +77,7 @@
         }
       }
 
-      @include it("md\:invert") {
+      @include it('md\:invert') {
         @include assert {
           @include output {
             @include md\:invert;
@@ -92,7 +92,7 @@
         }
       }
 
-      @include it("lg\:invert-0") {
+      @include it('lg\:invert-0') {
         @include assert {
           @include output {
             @include lg\:invert-0;
@@ -107,7 +107,7 @@
         }
       }
 
-      @include it("lg\:invert") {
+      @include it('lg\:invert') {
         @include assert {
           @include output {
             @include lg\:invert;
@@ -122,7 +122,7 @@
         }
       }
 
-      @include it("xl\:invert-0") {
+      @include it('xl\:invert-0') {
         @include assert {
           @include output {
             @include xl\:invert-0;
@@ -137,7 +137,7 @@
         }
       }
 
-      @include it("xl\:invert") {
+      @include it('xl\:invert') {
         @include assert {
           @include output {
             @include xl\:invert;
@@ -152,7 +152,7 @@
         }
       }
 
-      @include it("2xl\:invert-0") {
+      @include it('2xl\:invert-0') {
         @include assert {
           @include output {
             @include \2xl\:invert-0;
@@ -167,7 +167,7 @@
         }
       }
 
-      @include it("2xl\:invert") {
+      @include it('2xl\:invert') {
         @include assert {
           @include output {
             @include \2xl\:invert;
@@ -183,8 +183,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("invert-(.25)") {
+    @include describe('Custom') {
+      @include it('invert-(.25)') {
         @include assert {
           @include output {
             @include invert-(0.25);
@@ -197,7 +197,7 @@
         }
       }
 
-      @include it("sm\:invert-(.25)") {
+      @include it('sm\:invert-(.25)') {
         @include assert {
           @include output {
             @include sm\:invert-(0.25);
@@ -212,7 +212,7 @@
         }
       }
 
-      @include it("md\:invert-(.25)") {
+      @include it('md\:invert-(.25)') {
         @include assert {
           @include output {
             @include md\:invert-(0.25);
@@ -227,7 +227,7 @@
         }
       }
 
-      @include it("lg\:invert-(.25)") {
+      @include it('lg\:invert-(.25)') {
         @include assert {
           @include output {
             @include lg\:invert-(0.25);
@@ -242,7 +242,7 @@
         }
       }
 
-      @include it("xl\:invert-(.25)") {
+      @include it('xl\:invert-(.25)') {
         @include assert {
           @include output {
             @include xl\:invert-(0.25);
@@ -257,7 +257,7 @@
         }
       }
 
-      @include it("2xl\:invert-(.25)") {
+      @include it('2xl\:invert-(.25)') {
         @include assert {
           @include output {
             @include \2xl\:invert-(0.25);

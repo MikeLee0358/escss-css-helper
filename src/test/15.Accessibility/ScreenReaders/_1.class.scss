@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("15.Accessibility") {
-  @include describe("Screen Readers") {
-    @include describe("Basic") {
-      @include it("sr-only") {
+@include describe('15.Accessibility') {
+  @include describe('Screen Readers') {
+    @include describe('Basic') {
+      @include it('sr-only') {
         @include assert {
           @include output {
             @include sr-only;
@@ -25,7 +25,7 @@
         }
       }
 
-      @include it("not-sr-only") {
+      @include it('not-sr-only') {
         @include assert {
           @include output {
             @include not-sr-only;
@@ -46,8 +46,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:sr-only") {
+    @include describe('Rwd') {
+      @include it('sm\:sr-only') {
         @include assert {
           @include output {
             @include sm\:sr-only;
@@ -70,7 +70,7 @@
         }
       }
 
-      @include it("sm\:not-sr-only") {
+      @include it('sm\:not-sr-only') {
         @include assert {
           @include output {
             @include sm\:not-sr-only;
@@ -92,7 +92,7 @@
         }
       }
 
-      @include it("md\:sr-only") {
+      @include it('md\:sr-only') {
         @include assert {
           @include output {
             @include md\:sr-only;
@@ -115,7 +115,7 @@
         }
       }
 
-      @include it("md\:not-sr-only") {
+      @include it('md\:not-sr-only') {
         @include assert {
           @include output {
             @include md\:not-sr-only;
@@ -137,7 +137,7 @@
         }
       }
 
-      @include it("lg\:sr-only") {
+      @include it('lg\:sr-only') {
         @include assert {
           @include output {
             @include lg\:sr-only;
@@ -160,7 +160,7 @@
         }
       }
 
-      @include it("lg\:not-sr-only") {
+      @include it('lg\:not-sr-only') {
         @include assert {
           @include output {
             @include lg\:not-sr-only;
@@ -182,7 +182,7 @@
         }
       }
 
-      @include it("xl\:sr-only") {
+      @include it('xl\:sr-only') {
         @include assert {
           @include output {
             @include xl\:sr-only;
@@ -205,7 +205,7 @@
         }
       }
 
-      @include it("xl\:not-sr-only") {
+      @include it('xl\:not-sr-only') {
         @include assert {
           @include output {
             @include xl\:not-sr-only;
@@ -227,7 +227,7 @@
         }
       }
 
-      @include it("2xl\:sr-only") {
+      @include it('2xl\:sr-only') {
         @include assert {
           @include output {
             @include \2xl\:sr-only;
@@ -250,7 +250,7 @@
         }
       }
 
-      @include it("2xl\:not-sr-only") {
+      @include it('2xl\:not-sr-only') {
         @include assert {
           @include output {
             @include \2xl\:not-sr-only;

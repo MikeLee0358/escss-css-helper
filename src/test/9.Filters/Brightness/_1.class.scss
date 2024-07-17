@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("9.Filters") {
-  @include describe("Brightness") {
-    @include describe("Basic") {
-      @include it("brightness-0") {
+@include describe('9.Filters') {
+  @include describe('Brightness') {
+    @include describe('Basic') {
+      @include it('brightness-0') {
         @include assert {
           @include output {
             @include brightness-0;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("brightness-50") {
+      @include it('brightness-50') {
         @include assert {
           @include output {
             @include brightness-50;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("brightness-75") {
+      @include it('brightness-75') {
         @include assert {
           @include output {
             @include brightness-75;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("brightness-90") {
+      @include it('brightness-90') {
         @include assert {
           @include output {
             @include brightness-90;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("brightness-95") {
+      @include it('brightness-95') {
         @include assert {
           @include output {
             @include brightness-95;
@@ -69,7 +69,7 @@
         }
       }
 
-      @include it("brightness-100") {
+      @include it('brightness-100') {
         @include assert {
           @include output {
             @include brightness-100;
@@ -82,7 +82,7 @@
         }
       }
 
-      @include it("brightness-105") {
+      @include it('brightness-105') {
         @include assert {
           @include output {
             @include brightness-105;
@@ -95,7 +95,7 @@
         }
       }
 
-      @include it("brightness-110") {
+      @include it('brightness-110') {
         @include assert {
           @include output {
             @include brightness-110;
@@ -108,7 +108,7 @@
         }
       }
 
-      @include it("brightness-125") {
+      @include it('brightness-125') {
         @include assert {
           @include output {
             @include brightness-125;
@@ -121,7 +121,7 @@
         }
       }
 
-      @include it("brightness-150") {
+      @include it('brightness-150') {
         @include assert {
           @include output {
             @include brightness-150;
@@ -134,7 +134,7 @@
         }
       }
 
-      @include it("brightness-200") {
+      @include it('brightness-200') {
         @include assert {
           @include output {
             @include brightness-200;
@@ -148,8 +148,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:brightness-0") {
+    @include describe('Rwd') {
+      @include it('sm\:brightness-0') {
         @include assert {
           @include output {
             @include sm\:brightness-0;
@@ -164,7 +164,7 @@
         }
       }
 
-      @include it("sm\:brightness-50") {
+      @include it('sm\:brightness-50') {
         @include assert {
           @include output {
             @include sm\:brightness-50;
@@ -179,7 +179,7 @@
         }
       }
 
-      @include it("sm\:brightness-75") {
+      @include it('sm\:brightness-75') {
         @include assert {
           @include output {
             @include sm\:brightness-75;
@@ -194,7 +194,7 @@
         }
       }
 
-      @include it("sm\:brightness-90") {
+      @include it('sm\:brightness-90') {
         @include assert {
           @include output {
             @include sm\:brightness-90;
@@ -209,7 +209,7 @@
         }
       }
 
-      @include it("sm\:brightness-95") {
+      @include it('sm\:brightness-95') {
         @include assert {
           @include output {
             @include sm\:brightness-95;
@@ -224,7 +224,7 @@
         }
       }
 
-      @include it("sm\:brightness-100") {
+      @include it('sm\:brightness-100') {
         @include assert {
           @include output {
             @include sm\:brightness-100;
@@ -239,7 +239,7 @@
         }
       }
 
-      @include it("sm\:brightness-105") {
+      @include it('sm\:brightness-105') {
         @include assert {
           @include output {
             @include sm\:brightness-105;
@@ -254,7 +254,7 @@
         }
       }
 
-      @include it("sm\:brightness-110") {
+      @include it('sm\:brightness-110') {
         @include assert {
           @include output {
             @include sm\:brightness-110;
@@ -269,7 +269,7 @@
         }
       }
 
-      @include it("sm\:brightness-125") {
+      @include it('sm\:brightness-125') {
         @include assert {
           @include output {
             @include sm\:brightness-125;
@@ -284,7 +284,7 @@
         }
       }
 
-      @include it("sm\:brightness-150") {
+      @include it('sm\:brightness-150') {
         @include assert {
           @include output {
             @include sm\:brightness-150;
@@ -299,7 +299,7 @@
         }
       }
 
-      @include it("sm\:brightness-200") {
+      @include it('sm\:brightness-200') {
         @include assert {
           @include output {
             @include sm\:brightness-200;
@@ -313,7 +313,7 @@
           }
         }
       }
-      @include it("md\:brightness-0") {
+      @include it('md\:brightness-0') {
         @include assert {
           @include output {
             @include md\:brightness-0;
@@ -328,7 +328,7 @@
         }
       }
 
-      @include it("md\:brightness-50") {
+      @include it('md\:brightness-50') {
         @include assert {
           @include output {
             @include md\:brightness-50;
@@ -343,7 +343,7 @@
         }
       }
 
-      @include it("md\:brightness-75") {
+      @include it('md\:brightness-75') {
         @include assert {
           @include output {
             @include md\:brightness-75;
@@ -358,7 +358,7 @@
         }
       }
 
-      @include it("md\:brightness-90") {
+      @include it('md\:brightness-90') {
         @include assert {
           @include output {
             @include md\:brightness-90;
@@ -373,7 +373,7 @@
         }
       }
 
-      @include it("md\:brightness-95") {
+      @include it('md\:brightness-95') {
         @include assert {
           @include output {
             @include md\:brightness-95;
@@ -388,7 +388,7 @@
         }
       }
 
-      @include it("md\:brightness-100") {
+      @include it('md\:brightness-100') {
         @include assert {
           @include output {
             @include md\:brightness-100;
@@ -403,7 +403,7 @@
         }
       }
 
-      @include it("md\:brightness-105") {
+      @include it('md\:brightness-105') {
         @include assert {
           @include output {
             @include md\:brightness-105;
@@ -418,7 +418,7 @@
         }
       }
 
-      @include it("md\:brightness-110") {
+      @include it('md\:brightness-110') {
         @include assert {
           @include output {
             @include md\:brightness-110;
@@ -433,7 +433,7 @@
         }
       }
 
-      @include it("md\:brightness-125") {
+      @include it('md\:brightness-125') {
         @include assert {
           @include output {
             @include md\:brightness-125;
@@ -448,7 +448,7 @@
         }
       }
 
-      @include it("md\:brightness-150") {
+      @include it('md\:brightness-150') {
         @include assert {
           @include output {
             @include md\:brightness-150;
@@ -463,7 +463,7 @@
         }
       }
 
-      @include it("md\:brightness-200") {
+      @include it('md\:brightness-200') {
         @include assert {
           @include output {
             @include md\:brightness-200;
@@ -477,7 +477,7 @@
           }
         }
       }
-      @include it("lg\:brightness-0") {
+      @include it('lg\:brightness-0') {
         @include assert {
           @include output {
             @include lg\:brightness-0;
@@ -492,7 +492,7 @@
         }
       }
 
-      @include it("lg\:brightness-50") {
+      @include it('lg\:brightness-50') {
         @include assert {
           @include output {
             @include lg\:brightness-50;
@@ -507,7 +507,7 @@
         }
       }
 
-      @include it("lg\:brightness-75") {
+      @include it('lg\:brightness-75') {
         @include assert {
           @include output {
             @include lg\:brightness-75;
@@ -522,7 +522,7 @@
         }
       }
 
-      @include it("lg\:brightness-90") {
+      @include it('lg\:brightness-90') {
         @include assert {
           @include output {
             @include lg\:brightness-90;
@@ -537,7 +537,7 @@
         }
       }
 
-      @include it("lg\:brightness-95") {
+      @include it('lg\:brightness-95') {
         @include assert {
           @include output {
             @include lg\:brightness-95;
@@ -552,7 +552,7 @@
         }
       }
 
-      @include it("lg\:brightness-100") {
+      @include it('lg\:brightness-100') {
         @include assert {
           @include output {
             @include lg\:brightness-100;
@@ -567,7 +567,7 @@
         }
       }
 
-      @include it("lg\:brightness-105") {
+      @include it('lg\:brightness-105') {
         @include assert {
           @include output {
             @include lg\:brightness-105;
@@ -582,7 +582,7 @@
         }
       }
 
-      @include it("lg\:brightness-110") {
+      @include it('lg\:brightness-110') {
         @include assert {
           @include output {
             @include lg\:brightness-110;
@@ -597,7 +597,7 @@
         }
       }
 
-      @include it("lg\:brightness-125") {
+      @include it('lg\:brightness-125') {
         @include assert {
           @include output {
             @include lg\:brightness-125;
@@ -612,7 +612,7 @@
         }
       }
 
-      @include it("lg\:brightness-150") {
+      @include it('lg\:brightness-150') {
         @include assert {
           @include output {
             @include lg\:brightness-150;
@@ -627,7 +627,7 @@
         }
       }
 
-      @include it("lg\:brightness-200") {
+      @include it('lg\:brightness-200') {
         @include assert {
           @include output {
             @include lg\:brightness-200;
@@ -641,7 +641,7 @@
           }
         }
       }
-      @include it("xl\:brightness-0") {
+      @include it('xl\:brightness-0') {
         @include assert {
           @include output {
             @include xl\:brightness-0;
@@ -656,7 +656,7 @@
         }
       }
 
-      @include it("xl\:brightness-50") {
+      @include it('xl\:brightness-50') {
         @include assert {
           @include output {
             @include xl\:brightness-50;
@@ -671,7 +671,7 @@
         }
       }
 
-      @include it("xl\:brightness-75") {
+      @include it('xl\:brightness-75') {
         @include assert {
           @include output {
             @include xl\:brightness-75;
@@ -686,7 +686,7 @@
         }
       }
 
-      @include it("xl\:brightness-90") {
+      @include it('xl\:brightness-90') {
         @include assert {
           @include output {
             @include xl\:brightness-90;
@@ -701,7 +701,7 @@
         }
       }
 
-      @include it("xl\:brightness-95") {
+      @include it('xl\:brightness-95') {
         @include assert {
           @include output {
             @include xl\:brightness-95;
@@ -716,7 +716,7 @@
         }
       }
 
-      @include it("xl\:brightness-100") {
+      @include it('xl\:brightness-100') {
         @include assert {
           @include output {
             @include xl\:brightness-100;
@@ -731,7 +731,7 @@
         }
       }
 
-      @include it("xl\:brightness-105") {
+      @include it('xl\:brightness-105') {
         @include assert {
           @include output {
             @include xl\:brightness-105;
@@ -746,7 +746,7 @@
         }
       }
 
-      @include it("xl\:brightness-110") {
+      @include it('xl\:brightness-110') {
         @include assert {
           @include output {
             @include xl\:brightness-110;
@@ -761,7 +761,7 @@
         }
       }
 
-      @include it("xl\:brightness-125") {
+      @include it('xl\:brightness-125') {
         @include assert {
           @include output {
             @include xl\:brightness-125;
@@ -776,7 +776,7 @@
         }
       }
 
-      @include it("xl\:brightness-150") {
+      @include it('xl\:brightness-150') {
         @include assert {
           @include output {
             @include xl\:brightness-150;
@@ -791,7 +791,7 @@
         }
       }
 
-      @include it("xl\:brightness-200") {
+      @include it('xl\:brightness-200') {
         @include assert {
           @include output {
             @include xl\:brightness-200;
@@ -805,7 +805,7 @@
           }
         }
       }
-      @include it("2xl\:brightness-0") {
+      @include it('2xl\:brightness-0') {
         @include assert {
           @include output {
             @include \2xl\:brightness-0;
@@ -820,7 +820,7 @@
         }
       }
 
-      @include it("2xl\:brightness-50") {
+      @include it('2xl\:brightness-50') {
         @include assert {
           @include output {
             @include \2xl\:brightness-50;
@@ -835,7 +835,7 @@
         }
       }
 
-      @include it("2xl\:brightness-75") {
+      @include it('2xl\:brightness-75') {
         @include assert {
           @include output {
             @include \2xl\:brightness-75;
@@ -850,7 +850,7 @@
         }
       }
 
-      @include it("2xl\:brightness-90") {
+      @include it('2xl\:brightness-90') {
         @include assert {
           @include output {
             @include \2xl\:brightness-90;
@@ -865,7 +865,7 @@
         }
       }
 
-      @include it("2xl\:brightness-95") {
+      @include it('2xl\:brightness-95') {
         @include assert {
           @include output {
             @include \2xl\:brightness-95;
@@ -880,7 +880,7 @@
         }
       }
 
-      @include it("2xl\:brightness-100") {
+      @include it('2xl\:brightness-100') {
         @include assert {
           @include output {
             @include \2xl\:brightness-100;
@@ -895,7 +895,7 @@
         }
       }
 
-      @include it("2xl\:brightness-105") {
+      @include it('2xl\:brightness-105') {
         @include assert {
           @include output {
             @include \2xl\:brightness-105;
@@ -910,7 +910,7 @@
         }
       }
 
-      @include it("2xl\:brightness-110") {
+      @include it('2xl\:brightness-110') {
         @include assert {
           @include output {
             @include \2xl\:brightness-110;
@@ -925,7 +925,7 @@
         }
       }
 
-      @include it("2xl\:brightness-125") {
+      @include it('2xl\:brightness-125') {
         @include assert {
           @include output {
             @include \2xl\:brightness-125;
@@ -940,7 +940,7 @@
         }
       }
 
-      @include it("2xl\:brightness-150") {
+      @include it('2xl\:brightness-150') {
         @include assert {
           @include output {
             @include \2xl\:brightness-150;
@@ -955,7 +955,7 @@
         }
       }
 
-      @include it("2xl\:brightness-200") {
+      @include it('2xl\:brightness-200') {
         @include assert {
           @include output {
             @include \2xl\:brightness-200;
@@ -971,8 +971,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("brightness-(1.75)") {
+    @include describe('Custom') {
+      @include it('brightness-(1.75)') {
         @include assert {
           @include output {
             @include brightness-(1.75);
@@ -984,7 +984,7 @@
           }
         }
       }
-      @include it("sm\:brightness-(1.75)") {
+      @include it('sm\:brightness-(1.75)') {
         @include assert {
           @include output {
             @include sm\:brightness-(1.75);
@@ -998,7 +998,7 @@
           }
         }
       }
-      @include it("md\:brightness-(1.75)") {
+      @include it('md\:brightness-(1.75)') {
         @include assert {
           @include output {
             @include md\:brightness-(1.75);
@@ -1012,7 +1012,7 @@
           }
         }
       }
-      @include it("lg\:brightness-(1.75)") {
+      @include it('lg\:brightness-(1.75)') {
         @include assert {
           @include output {
             @include lg\:brightness-(1.75);
@@ -1026,7 +1026,7 @@
           }
         }
       }
-      @include it("xl\:brightness-(1.75)") {
+      @include it('xl\:brightness-(1.75)') {
         @include assert {
           @include output {
             @include xl\:brightness-(1.75);
@@ -1040,7 +1040,7 @@
           }
         }
       }
-      @include it("2xl\:brightness-(1.75)") {
+      @include it('2xl\:brightness-(1.75)') {
         @include assert {
           @include output {
             @include \2xl\:brightness-(1.75);

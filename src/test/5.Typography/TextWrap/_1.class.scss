@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("5.Typography") {
-  @include describe("Text Wrap") {
-    @include describe("Basic") {
-      @include it("text-wrap") {
+@include describe('5.Typography') {
+  @include describe('Text Wrap') {
+    @include describe('Basic') {
+      @include it('text-wrap') {
         @include assert {
           @include output {
             @include text-wrap;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("text-nowrap") {
+      @include it('text-nowrap') {
         @include assert {
           @include output {
             @include text-nowrap;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("text-balance") {
+      @include it('text-balance') {
         @include assert {
           @include output {
             @include text-balance;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("text-pretty") {
+      @include it('text-pretty') {
         @include assert {
           @include output {
             @include text-pretty;
@@ -57,8 +57,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:text-wrap") {
+    @include describe('Rwd') {
+      @include it('sm\:text-wrap') {
         @include assert {
           @include output {
             @include sm\:text-wrap;
@@ -73,7 +73,7 @@
         }
       }
 
-      @include it("sm\:text-nowrap") {
+      @include it('sm\:text-nowrap') {
         @include assert {
           @include output {
             @include sm\:text-nowrap;
@@ -88,7 +88,7 @@
         }
       }
 
-      @include it("sm\:text-balance") {
+      @include it('sm\:text-balance') {
         @include assert {
           @include output {
             @include sm\:text-balance;
@@ -103,7 +103,7 @@
         }
       }
 
-      @include it("sm\:text-pretty") {
+      @include it('sm\:text-pretty') {
         @include assert {
           @include output {
             @include sm\:text-pretty;
@@ -118,7 +118,7 @@
         }
       }
 
-      @include it("md\:text-wrap") {
+      @include it('md\:text-wrap') {
         @include assert {
           @include output {
             @include md\:text-wrap;
@@ -133,7 +133,7 @@
         }
       }
 
-      @include it("md\:text-nowrap") {
+      @include it('md\:text-nowrap') {
         @include assert {
           @include output {
             @include md\:text-nowrap;
@@ -148,7 +148,7 @@
         }
       }
 
-      @include it("md\:text-balance") {
+      @include it('md\:text-balance') {
         @include assert {
           @include output {
             @include md\:text-balance;
@@ -163,7 +163,7 @@
         }
       }
 
-      @include it("md\:text-pretty") {
+      @include it('md\:text-pretty') {
         @include assert {
           @include output {
             @include md\:text-pretty;
@@ -178,7 +178,7 @@
         }
       }
 
-      @include it("lg\:text-wrap") {
+      @include it('lg\:text-wrap') {
         @include assert {
           @include output {
             @include lg\:text-wrap;
@@ -193,7 +193,7 @@
         }
       }
 
-      @include it("lg\:text-nowrap") {
+      @include it('lg\:text-nowrap') {
         @include assert {
           @include output {
             @include lg\:text-nowrap;
@@ -208,7 +208,7 @@
         }
       }
 
-      @include it("lg\:text-balance") {
+      @include it('lg\:text-balance') {
         @include assert {
           @include output {
             @include lg\:text-balance;
@@ -223,7 +223,7 @@
         }
       }
 
-      @include it("lg\:text-pretty") {
+      @include it('lg\:text-pretty') {
         @include assert {
           @include output {
             @include lg\:text-pretty;
@@ -238,7 +238,7 @@
         }
       }
 
-      @include it("xl\:text-wrap") {
+      @include it('xl\:text-wrap') {
         @include assert {
           @include output {
             @include xl\:text-wrap;
@@ -253,7 +253,7 @@
         }
       }
 
-      @include it("xl\:text-nowrap") {
+      @include it('xl\:text-nowrap') {
         @include assert {
           @include output {
             @include xl\:text-nowrap;
@@ -268,7 +268,7 @@
         }
       }
 
-      @include it("xl\:text-balance") {
+      @include it('xl\:text-balance') {
         @include assert {
           @include output {
             @include xl\:text-balance;
@@ -283,7 +283,7 @@
         }
       }
 
-      @include it("xl\:text-pretty") {
+      @include it('xl\:text-pretty') {
         @include assert {
           @include output {
             @include xl\:text-pretty;
@@ -298,7 +298,7 @@
         }
       }
 
-      @include it("2xl\:text-wrap") {
+      @include it('2xl\:text-wrap') {
         @include assert {
           @include output {
             @include \2xl\:text-wrap;
@@ -313,7 +313,7 @@
         }
       }
 
-      @include it("2xl\:text-nowrap") {
+      @include it('2xl\:text-nowrap') {
         @include assert {
           @include output {
             @include \2xl\:text-nowrap;
@@ -328,7 +328,7 @@
         }
       }
 
-      @include it("2xl\:text-balance") {
+      @include it('2xl\:text-balance') {
         @include assert {
           @include output {
             @include \2xl\:text-balance;
@@ -343,7 +343,7 @@
         }
       }
 
-      @include it("2xl\:text-pretty") {
+      @include it('2xl\:text-pretty') {
         @include assert {
           @include output {
             @include \2xl\:text-pretty;

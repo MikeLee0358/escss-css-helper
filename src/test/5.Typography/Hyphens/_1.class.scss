@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("5.Typography") {
-  @include describe("Hyphens") {
-    @include describe("Basic") {
-      @include it("hyphens-none") {
+@include describe('5.Typography') {
+  @include describe('Hyphens') {
+    @include describe('Basic') {
+      @include it('hyphens-none') {
         @include assert {
           @include output {
             @include hyphens-none;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("hyphens-manual") {
+      @include it('hyphens-manual') {
         @include assert {
           @include output {
             @include hyphens-manual;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("hyphens-auto") {
+      @include it('hyphens-auto') {
         @include assert {
           @include output {
             @include hyphens-auto;
@@ -44,8 +44,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:hyphens-none") {
+    @include describe('Rwd') {
+      @include it('sm\:hyphens-none') {
         @include assert {
           @include output {
             @include sm\:hyphens-none;
@@ -60,7 +60,7 @@
         }
       }
 
-      @include it("sm\:hyphens-manual") {
+      @include it('sm\:hyphens-manual') {
         @include assert {
           @include output {
             @include sm\:hyphens-manual;
@@ -75,7 +75,7 @@
         }
       }
 
-      @include it("sm\:hyphens-auto") {
+      @include it('sm\:hyphens-auto') {
         @include assert {
           @include output {
             @include sm\:hyphens-auto;
@@ -90,7 +90,7 @@
         }
       }
 
-      @include it("md\:hyphens-none") {
+      @include it('md\:hyphens-none') {
         @include assert {
           @include output {
             @include md\:hyphens-none;
@@ -105,7 +105,7 @@
         }
       }
 
-      @include it("md\:hyphens-manual") {
+      @include it('md\:hyphens-manual') {
         @include assert {
           @include output {
             @include md\:hyphens-manual;
@@ -120,7 +120,7 @@
         }
       }
 
-      @include it("md\:hyphens-auto") {
+      @include it('md\:hyphens-auto') {
         @include assert {
           @include output {
             @include md\:hyphens-auto;
@@ -135,7 +135,7 @@
         }
       }
 
-      @include it("lg\:hyphens-none") {
+      @include it('lg\:hyphens-none') {
         @include assert {
           @include output {
             @include lg\:hyphens-none;
@@ -150,7 +150,7 @@
         }
       }
 
-      @include it("lg\:hyphens-manual") {
+      @include it('lg\:hyphens-manual') {
         @include assert {
           @include output {
             @include lg\:hyphens-manual;
@@ -165,7 +165,7 @@
         }
       }
 
-      @include it("lg\:hyphens-auto") {
+      @include it('lg\:hyphens-auto') {
         @include assert {
           @include output {
             @include lg\:hyphens-auto;
@@ -180,7 +180,7 @@
         }
       }
 
-      @include it("xl\:hyphens-none") {
+      @include it('xl\:hyphens-none') {
         @include assert {
           @include output {
             @include xl\:hyphens-none;
@@ -195,7 +195,7 @@
         }
       }
 
-      @include it("xl\:hyphens-manual") {
+      @include it('xl\:hyphens-manual') {
         @include assert {
           @include output {
             @include xl\:hyphens-manual;
@@ -210,7 +210,7 @@
         }
       }
 
-      @include it("xl\:hyphens-auto") {
+      @include it('xl\:hyphens-auto') {
         @include assert {
           @include output {
             @include xl\:hyphens-auto;
@@ -225,7 +225,7 @@
         }
       }
 
-      @include it("2xl\:hyphens-none") {
+      @include it('2xl\:hyphens-none') {
         @include assert {
           @include output {
             @include \2xl\:hyphens-none;
@@ -240,7 +240,7 @@
         }
       }
 
-      @include it("2xl\:hyphens-manual") {
+      @include it('2xl\:hyphens-manual') {
         @include assert {
           @include output {
             @include \2xl\:hyphens-manual;
@@ -255,7 +255,7 @@
         }
       }
 
-      @include it("2xl\:hyphens-auto") {
+      @include it('2xl\:hyphens-auto') {
         @include assert {
           @include output {
             @include \2xl\:hyphens-auto;

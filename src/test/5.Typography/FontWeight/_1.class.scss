@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("5.Typography") {
-  @include describe("Font Weight") {
-    @include describe("Basic") {
-      @include it("font-thin") {
+@include describe('5.Typography') {
+  @include describe('Font Weight') {
+    @include describe('Basic') {
+      @include it('font-thin') {
         @include assert {
           @include output {
             @include font-thin;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("font-extralight") {
+      @include it('font-extralight') {
         @include assert {
           @include output {
             @include font-extralight;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("font-light") {
+      @include it('font-light') {
         @include assert {
           @include output {
             @include font-light;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("font-normal") {
+      @include it('font-normal') {
         @include assert {
           @include output {
             @include font-normal;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("font-medium") {
+      @include it('font-medium') {
         @include assert {
           @include output {
             @include font-medium;
@@ -69,7 +69,7 @@
         }
       }
 
-      @include it("font-semibold") {
+      @include it('font-semibold') {
         @include assert {
           @include output {
             @include font-semibold;
@@ -82,7 +82,7 @@
         }
       }
 
-      @include it("font-bold") {
+      @include it('font-bold') {
         @include assert {
           @include output {
             @include font-bold;
@@ -95,7 +95,7 @@
         }
       }
 
-      @include it("font-extrabold") {
+      @include it('font-extrabold') {
         @include assert {
           @include output {
             @include font-extrabold;
@@ -108,7 +108,7 @@
         }
       }
 
-      @include it("font-black") {
+      @include it('font-black') {
         @include assert {
           @include output {
             @include font-black;
@@ -122,8 +122,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:font-thin") {
+    @include describe('Rwd') {
+      @include it('sm\:font-thin') {
         @include assert {
           @include output {
             @include sm\:font-thin;
@@ -138,7 +138,7 @@
         }
       }
 
-      @include it("sm\:font-extralight") {
+      @include it('sm\:font-extralight') {
         @include assert {
           @include output {
             @include sm\:font-extralight;
@@ -153,7 +153,7 @@
         }
       }
 
-      @include it("sm\:font-light") {
+      @include it('sm\:font-light') {
         @include assert {
           @include output {
             @include sm\:font-light;
@@ -168,7 +168,7 @@
         }
       }
 
-      @include it("sm\:font-normal") {
+      @include it('sm\:font-normal') {
         @include assert {
           @include output {
             @include sm\:font-normal;
@@ -183,7 +183,7 @@
         }
       }
 
-      @include it("sm\:font-medium") {
+      @include it('sm\:font-medium') {
         @include assert {
           @include output {
             @include sm\:font-medium;
@@ -198,7 +198,7 @@
         }
       }
 
-      @include it("sm\:font-semibold") {
+      @include it('sm\:font-semibold') {
         @include assert {
           @include output {
             @include sm\:font-semibold;
@@ -213,7 +213,7 @@
         }
       }
 
-      @include it("sm\:font-bold") {
+      @include it('sm\:font-bold') {
         @include assert {
           @include output {
             @include sm\:font-bold;
@@ -228,7 +228,7 @@
         }
       }
 
-      @include it("sm\:font-extrabold") {
+      @include it('sm\:font-extrabold') {
         @include assert {
           @include output {
             @include sm\:font-extrabold;
@@ -243,7 +243,7 @@
         }
       }
 
-      @include it("sm\:font-black") {
+      @include it('sm\:font-black') {
         @include assert {
           @include output {
             @include sm\:font-black;
@@ -258,7 +258,7 @@
         }
       }
 
-      @include it("md\:font-thin") {
+      @include it('md\:font-thin') {
         @include assert {
           @include output {
             @include md\:font-thin;
@@ -273,7 +273,7 @@
         }
       }
 
-      @include it("md\:font-extralight") {
+      @include it('md\:font-extralight') {
         @include assert {
           @include output {
             @include md\:font-extralight;
@@ -288,7 +288,7 @@
         }
       }
 
-      @include it("md\:font-light") {
+      @include it('md\:font-light') {
         @include assert {
           @include output {
             @include md\:font-light;
@@ -303,7 +303,7 @@
         }
       }
 
-      @include it("md\:font-normal") {
+      @include it('md\:font-normal') {
         @include assert {
           @include output {
             @include md\:font-normal;
@@ -318,7 +318,7 @@
         }
       }
 
-      @include it("md\:font-medium") {
+      @include it('md\:font-medium') {
         @include assert {
           @include output {
             @include md\:font-medium;
@@ -333,7 +333,7 @@
         }
       }
 
-      @include it("md\:font-semibold") {
+      @include it('md\:font-semibold') {
         @include assert {
           @include output {
             @include md\:font-semibold;
@@ -348,7 +348,7 @@
         }
       }
 
-      @include it("md\:font-bold") {
+      @include it('md\:font-bold') {
         @include assert {
           @include output {
             @include md\:font-bold;
@@ -363,7 +363,7 @@
         }
       }
 
-      @include it("md\:font-extrabold") {
+      @include it('md\:font-extrabold') {
         @include assert {
           @include output {
             @include md\:font-extrabold;
@@ -378,7 +378,7 @@
         }
       }
 
-      @include it("md\:font-black") {
+      @include it('md\:font-black') {
         @include assert {
           @include output {
             @include md\:font-black;
@@ -393,7 +393,7 @@
         }
       }
 
-      @include it("lg\:font-thin") {
+      @include it('lg\:font-thin') {
         @include assert {
           @include output {
             @include lg\:font-thin;
@@ -408,7 +408,7 @@
         }
       }
 
-      @include it("lg\:font-extralight") {
+      @include it('lg\:font-extralight') {
         @include assert {
           @include output {
             @include lg\:font-extralight;
@@ -423,7 +423,7 @@
         }
       }
 
-      @include it("lg\:font-light") {
+      @include it('lg\:font-light') {
         @include assert {
           @include output {
             @include lg\:font-light;
@@ -438,7 +438,7 @@
         }
       }
 
-      @include it("lg\:font-normal") {
+      @include it('lg\:font-normal') {
         @include assert {
           @include output {
             @include lg\:font-normal;
@@ -453,7 +453,7 @@
         }
       }
 
-      @include it("lg\:font-medium") {
+      @include it('lg\:font-medium') {
         @include assert {
           @include output {
             @include lg\:font-medium;
@@ -468,7 +468,7 @@
         }
       }
 
-      @include it("lg\:font-semibold") {
+      @include it('lg\:font-semibold') {
         @include assert {
           @include output {
             @include lg\:font-semibold;
@@ -483,7 +483,7 @@
         }
       }
 
-      @include it("lg\:font-bold") {
+      @include it('lg\:font-bold') {
         @include assert {
           @include output {
             @include lg\:font-bold;
@@ -498,7 +498,7 @@
         }
       }
 
-      @include it("lg\:font-extrabold") {
+      @include it('lg\:font-extrabold') {
         @include assert {
           @include output {
             @include lg\:font-extrabold;
@@ -513,7 +513,7 @@
         }
       }
 
-      @include it("lg\:font-black") {
+      @include it('lg\:font-black') {
         @include assert {
           @include output {
             @include lg\:font-black;
@@ -528,7 +528,7 @@
         }
       }
 
-      @include it("xl\:font-thin") {
+      @include it('xl\:font-thin') {
         @include assert {
           @include output {
             @include xl\:font-thin;
@@ -543,7 +543,7 @@
         }
       }
 
-      @include it("xl\:font-extralight") {
+      @include it('xl\:font-extralight') {
         @include assert {
           @include output {
             @include xl\:font-extralight;
@@ -558,7 +558,7 @@
         }
       }
 
-      @include it("xl\:font-light") {
+      @include it('xl\:font-light') {
         @include assert {
           @include output {
             @include xl\:font-light;
@@ -573,7 +573,7 @@
         }
       }
 
-      @include it("xl\:font-normal") {
+      @include it('xl\:font-normal') {
         @include assert {
           @include output {
             @include xl\:font-normal;
@@ -588,7 +588,7 @@
         }
       }
 
-      @include it("xl\:font-medium") {
+      @include it('xl\:font-medium') {
         @include assert {
           @include output {
             @include xl\:font-medium;
@@ -603,7 +603,7 @@
         }
       }
 
-      @include it("xl\:font-semibold") {
+      @include it('xl\:font-semibold') {
         @include assert {
           @include output {
             @include xl\:font-semibold;
@@ -618,7 +618,7 @@
         }
       }
 
-      @include it("xl\:font-bold") {
+      @include it('xl\:font-bold') {
         @include assert {
           @include output {
             @include xl\:font-bold;
@@ -633,7 +633,7 @@
         }
       }
 
-      @include it("xl\:font-extrabold") {
+      @include it('xl\:font-extrabold') {
         @include assert {
           @include output {
             @include xl\:font-extrabold;
@@ -648,7 +648,7 @@
         }
       }
 
-      @include it("xl\:font-black") {
+      @include it('xl\:font-black') {
         @include assert {
           @include output {
             @include xl\:font-black;
@@ -663,7 +663,7 @@
         }
       }
 
-      @include it("2xl\:font-thin") {
+      @include it('2xl\:font-thin') {
         @include assert {
           @include output {
             @include \2xl\:font-thin;
@@ -678,7 +678,7 @@
         }
       }
 
-      @include it("2xl\:font-extralight") {
+      @include it('2xl\:font-extralight') {
         @include assert {
           @include output {
             @include \2xl\:font-extralight;
@@ -693,7 +693,7 @@
         }
       }
 
-      @include it("2xl\:font-light") {
+      @include it('2xl\:font-light') {
         @include assert {
           @include output {
             @include \2xl\:font-light;
@@ -708,7 +708,7 @@
         }
       }
 
-      @include it("2xl\:font-normal") {
+      @include it('2xl\:font-normal') {
         @include assert {
           @include output {
             @include \2xl\:font-normal;
@@ -723,7 +723,7 @@
         }
       }
 
-      @include it("2xl\:font-medium") {
+      @include it('2xl\:font-medium') {
         @include assert {
           @include output {
             @include \2xl\:font-medium;
@@ -738,7 +738,7 @@
         }
       }
 
-      @include it("2xl\:font-semibold") {
+      @include it('2xl\:font-semibold') {
         @include assert {
           @include output {
             @include \2xl\:font-semibold;
@@ -753,7 +753,7 @@
         }
       }
 
-      @include it("2xl\:font-bold") {
+      @include it('2xl\:font-bold') {
         @include assert {
           @include output {
             @include \2xl\:font-bold;
@@ -768,7 +768,7 @@
         }
       }
 
-      @include it("2xl\:font-extrabold") {
+      @include it('2xl\:font-extrabold') {
         @include assert {
           @include output {
             @include \2xl\:font-extrabold;
@@ -783,7 +783,7 @@
         }
       }
 
-      @include it("2xl\:font-black") {
+      @include it('2xl\:font-black') {
         @include assert {
           @include output {
             @include \2xl\:font-black;
@@ -799,8 +799,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("font-(1100)") {
+    @include describe('Custom') {
+      @include it('font-(1100)') {
         @include assert {
           @include output {
             @include font-(1100);
@@ -813,7 +813,7 @@
         }
       }
 
-      @include it("sm\:font-(1100)") {
+      @include it('sm\:font-(1100)') {
         @include assert {
           @include output {
             @include sm\:font-(1100);
@@ -828,7 +828,7 @@
         }
       }
 
-      @include it("md\:font-(1100)") {
+      @include it('md\:font-(1100)') {
         @include assert {
           @include output {
             @include md\:font-(1100);
@@ -843,7 +843,7 @@
         }
       }
 
-      @include it("lg\:font-(1100)") {
+      @include it('lg\:font-(1100)') {
         @include assert {
           @include output {
             @include lg\:font-(1100);
@@ -858,7 +858,7 @@
         }
       }
 
-      @include it("xl\:font-(1100)") {
+      @include it('xl\:font-(1100)') {
         @include assert {
           @include output {
             @include xl\:font-(1100);
@@ -873,7 +873,7 @@
         }
       }
 
-      @include it("2xl\:font-(1100)") {
+      @include it('2xl\:font-(1100)') {
         @include assert {
           @include output {
             @include \2xl\:font-(1100);

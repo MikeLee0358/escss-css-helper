@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("5.Typography") {
-  @include describe("Whitespace") {
-    @include describe("Basic") {
-      @include it("whitespace-normal") {
+@include describe('5.Typography') {
+  @include describe('Whitespace') {
+    @include describe('Basic') {
+      @include it('whitespace-normal') {
         @include assert {
           @include output {
             @include whitespace-normal;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("whitespace-nowrap") {
+      @include it('whitespace-nowrap') {
         @include assert {
           @include output {
             @include whitespace-nowrap;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("whitespace-pre") {
+      @include it('whitespace-pre') {
         @include assert {
           @include output {
             @include whitespace-pre;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("whitespace-pre-line") {
+      @include it('whitespace-pre-line') {
         @include assert {
           @include output {
             @include whitespace-pre-line;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("whitespace-pre-wrap") {
+      @include it('whitespace-pre-wrap') {
         @include assert {
           @include output {
             @include whitespace-pre-wrap;
@@ -69,7 +69,7 @@
         }
       }
 
-      @include it("whitespace-break-spaces") {
+      @include it('whitespace-break-spaces') {
         @include assert {
           @include output {
             @include whitespace-break-spaces;
@@ -83,8 +83,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:whitespace-normal") {
+    @include describe('Rwd') {
+      @include it('sm\:whitespace-normal') {
         @include assert {
           @include output {
             @include sm\:whitespace-normal;
@@ -99,7 +99,7 @@
         }
       }
 
-      @include it("sm\:whitespace-nowrap") {
+      @include it('sm\:whitespace-nowrap') {
         @include assert {
           @include output {
             @include sm\:whitespace-nowrap;
@@ -114,7 +114,7 @@
         }
       }
 
-      @include it("sm\:whitespace-pre") {
+      @include it('sm\:whitespace-pre') {
         @include assert {
           @include output {
             @include sm\:whitespace-pre;
@@ -129,7 +129,7 @@
         }
       }
 
-      @include it("sm\:whitespace-pre-line") {
+      @include it('sm\:whitespace-pre-line') {
         @include assert {
           @include output {
             @include sm\:whitespace-pre-line;
@@ -144,7 +144,7 @@
         }
       }
 
-      @include it("sm\:whitespace-pre-wrap") {
+      @include it('sm\:whitespace-pre-wrap') {
         @include assert {
           @include output {
             @include sm\:whitespace-pre-wrap;
@@ -159,7 +159,7 @@
         }
       }
 
-      @include it("sm\:whitespace-break-spaces") {
+      @include it('sm\:whitespace-break-spaces') {
         @include assert {
           @include output {
             @include sm\:whitespace-break-spaces;
@@ -174,7 +174,7 @@
         }
       }
 
-      @include it("md\:whitespace-normal") {
+      @include it('md\:whitespace-normal') {
         @include assert {
           @include output {
             @include md\:whitespace-normal;
@@ -189,7 +189,7 @@
         }
       }
 
-      @include it("md\:whitespace-nowrap") {
+      @include it('md\:whitespace-nowrap') {
         @include assert {
           @include output {
             @include md\:whitespace-nowrap;
@@ -204,7 +204,7 @@
         }
       }
 
-      @include it("md\:whitespace-pre") {
+      @include it('md\:whitespace-pre') {
         @include assert {
           @include output {
             @include md\:whitespace-pre;
@@ -219,7 +219,7 @@
         }
       }
 
-      @include it("md\:whitespace-pre-line") {
+      @include it('md\:whitespace-pre-line') {
         @include assert {
           @include output {
             @include md\:whitespace-pre-line;
@@ -234,7 +234,7 @@
         }
       }
 
-      @include it("md\:whitespace-pre-wrap") {
+      @include it('md\:whitespace-pre-wrap') {
         @include assert {
           @include output {
             @include md\:whitespace-pre-wrap;
@@ -249,7 +249,7 @@
         }
       }
 
-      @include it("md\:whitespace-break-spaces") {
+      @include it('md\:whitespace-break-spaces') {
         @include assert {
           @include output {
             @include md\:whitespace-break-spaces;
@@ -264,7 +264,7 @@
         }
       }
 
-      @include it("lg\:whitespace-normal") {
+      @include it('lg\:whitespace-normal') {
         @include assert {
           @include output {
             @include lg\:whitespace-normal;
@@ -279,7 +279,7 @@
         }
       }
 
-      @include it("lg\:whitespace-nowrap") {
+      @include it('lg\:whitespace-nowrap') {
         @include assert {
           @include output {
             @include lg\:whitespace-nowrap;
@@ -294,7 +294,7 @@
         }
       }
 
-      @include it("lg\:whitespace-pre") {
+      @include it('lg\:whitespace-pre') {
         @include assert {
           @include output {
             @include lg\:whitespace-pre;
@@ -309,7 +309,7 @@
         }
       }
 
-      @include it("lg\:whitespace-pre-line") {
+      @include it('lg\:whitespace-pre-line') {
         @include assert {
           @include output {
             @include lg\:whitespace-pre-line;
@@ -324,7 +324,7 @@
         }
       }
 
-      @include it("lg\:whitespace-pre-wrap") {
+      @include it('lg\:whitespace-pre-wrap') {
         @include assert {
           @include output {
             @include lg\:whitespace-pre-wrap;
@@ -339,7 +339,7 @@
         }
       }
 
-      @include it("lg\:whitespace-break-spaces") {
+      @include it('lg\:whitespace-break-spaces') {
         @include assert {
           @include output {
             @include lg\:whitespace-break-spaces;
@@ -354,7 +354,7 @@
         }
       }
 
-      @include it("xl\:whitespace-normal") {
+      @include it('xl\:whitespace-normal') {
         @include assert {
           @include output {
             @include xl\:whitespace-normal;
@@ -369,7 +369,7 @@
         }
       }
 
-      @include it("xl\:whitespace-nowrap") {
+      @include it('xl\:whitespace-nowrap') {
         @include assert {
           @include output {
             @include xl\:whitespace-nowrap;
@@ -384,7 +384,7 @@
         }
       }
 
-      @include it("xl\:whitespace-pre") {
+      @include it('xl\:whitespace-pre') {
         @include assert {
           @include output {
             @include xl\:whitespace-pre;
@@ -399,7 +399,7 @@
         }
       }
 
-      @include it("xl\:whitespace-pre-line") {
+      @include it('xl\:whitespace-pre-line') {
         @include assert {
           @include output {
             @include xl\:whitespace-pre-line;
@@ -414,7 +414,7 @@
         }
       }
 
-      @include it("xl\:whitespace-pre-wrap") {
+      @include it('xl\:whitespace-pre-wrap') {
         @include assert {
           @include output {
             @include xl\:whitespace-pre-wrap;
@@ -429,7 +429,7 @@
         }
       }
 
-      @include it("xl\:whitespace-break-spaces") {
+      @include it('xl\:whitespace-break-spaces') {
         @include assert {
           @include output {
             @include xl\:whitespace-break-spaces;
@@ -444,7 +444,7 @@
         }
       }
 
-      @include it("2xl\:whitespace-normal") {
+      @include it('2xl\:whitespace-normal') {
         @include assert {
           @include output {
             @include \2xl\:whitespace-normal;
@@ -459,7 +459,7 @@
         }
       }
 
-      @include it("2xl\:whitespace-nowrap") {
+      @include it('2xl\:whitespace-nowrap') {
         @include assert {
           @include output {
             @include \2xl\:whitespace-nowrap;
@@ -474,7 +474,7 @@
         }
       }
 
-      @include it("2xl\:whitespace-pre") {
+      @include it('2xl\:whitespace-pre') {
         @include assert {
           @include output {
             @include \2xl\:whitespace-pre;
@@ -489,7 +489,7 @@
         }
       }
 
-      @include it("2xl\:whitespace-pre-line") {
+      @include it('2xl\:whitespace-pre-line') {
         @include assert {
           @include output {
             @include \2xl\:whitespace-pre-line;
@@ -504,7 +504,7 @@
         }
       }
 
-      @include it("2xl\:whitespace-pre-wrap") {
+      @include it('2xl\:whitespace-pre-wrap') {
         @include assert {
           @include output {
             @include \2xl\:whitespace-pre-wrap;
@@ -519,7 +519,7 @@
         }
       }
 
-      @include it("2xl\:whitespace-break-spaces") {
+      @include it('2xl\:whitespace-break-spaces') {
         @include assert {
           @include output {
             @include \2xl\:whitespace-break-spaces;

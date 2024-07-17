@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("10.Tables") {
-  @include describe("Table Layout") {
-    @include describe("Basic") {
-      @include it("table-auto") {
+@include describe('10.Tables') {
+  @include describe('Table Layout') {
+    @include describe('Basic') {
+      @include it('table-auto') {
         @include assert {
           @include output {
             @include table-auto;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("table-fixed") {
+      @include it('table-fixed') {
         @include assert {
           @include output {
             @include table-fixed;
@@ -31,8 +31,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:table-auto") {
+    @include describe('Rwd') {
+      @include it('sm\:table-auto') {
         @include assert {
           @include output {
             @include sm\:table-auto;
@@ -47,7 +47,7 @@
         }
       }
 
-      @include it("sm\:table-fixed") {
+      @include it('sm\:table-fixed') {
         @include assert {
           @include output {
             @include sm\:table-fixed;
@@ -62,7 +62,7 @@
         }
       }
 
-      @include it("md\:table-auto") {
+      @include it('md\:table-auto') {
         @include assert {
           @include output {
             @include md\:table-auto;
@@ -77,7 +77,7 @@
         }
       }
 
-      @include it("md\:table-fixed") {
+      @include it('md\:table-fixed') {
         @include assert {
           @include output {
             @include md\:table-fixed;
@@ -92,7 +92,7 @@
         }
       }
 
-      @include it("lg\:table-auto") {
+      @include it('lg\:table-auto') {
         @include assert {
           @include output {
             @include lg\:table-auto;
@@ -107,7 +107,7 @@
         }
       }
 
-      @include it("lg\:table-fixed") {
+      @include it('lg\:table-fixed') {
         @include assert {
           @include output {
             @include lg\:table-fixed;
@@ -122,7 +122,7 @@
         }
       }
 
-      @include it("xl\:table-auto") {
+      @include it('xl\:table-auto') {
         @include assert {
           @include output {
             @include xl\:table-auto;
@@ -137,7 +137,7 @@
         }
       }
 
-      @include it("xl\:table-fixed") {
+      @include it('xl\:table-fixed') {
         @include assert {
           @include output {
             @include xl\:table-fixed;
@@ -152,7 +152,7 @@
         }
       }
 
-      @include it("2xl\:table-auto") {
+      @include it('2xl\:table-auto') {
         @include assert {
           @include output {
             @include \2xl\:table-auto;
@@ -167,7 +167,7 @@
         }
       }
 
-      @include it("2xl\:table-fixed") {
+      @include it('2xl\:table-fixed') {
         @include assert {
           @include output {
             @include \2xl\:table-fixed;

@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("13.Interactivity") {
-  @include describe("Touch Action") {
-    @include describe("Basic") {
-      @include it("touch-auto") {
+@include describe('13.Interactivity') {
+  @include describe('Touch Action') {
+    @include describe('Basic') {
+      @include it('touch-auto') {
         @include assert {
           @include output {
             @include touch-auto;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("touch-none") {
+      @include it('touch-none') {
         @include assert {
           @include output {
             @include touch-none;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("touch-pan-x") {
+      @include it('touch-pan-x') {
         @include assert {
           @include output {
             @include touch-pan-x;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("touch-pan-left") {
+      @include it('touch-pan-left') {
         @include assert {
           @include output {
             @include touch-pan-left;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("touch-pan-right") {
+      @include it('touch-pan-right') {
         @include assert {
           @include output {
             @include touch-pan-right;
@@ -69,7 +69,7 @@
         }
       }
 
-      @include it("touch-pan-y") {
+      @include it('touch-pan-y') {
         @include assert {
           @include output {
             @include touch-pan-y;
@@ -82,7 +82,7 @@
         }
       }
 
-      @include it("touch-pan-up") {
+      @include it('touch-pan-up') {
         @include assert {
           @include output {
             @include touch-pan-up;
@@ -95,7 +95,7 @@
         }
       }
 
-      @include it("touch-pan-down") {
+      @include it('touch-pan-down') {
         @include assert {
           @include output {
             @include touch-pan-down;
@@ -108,7 +108,7 @@
         }
       }
 
-      @include it("touch-pinch-zoom") {
+      @include it('touch-pinch-zoom') {
         @include assert {
           @include output {
             @include touch-pinch-zoom;
@@ -121,7 +121,7 @@
         }
       }
 
-      @include it("touch-manipulation") {
+      @include it('touch-manipulation') {
         @include assert {
           @include output {
             @include touch-manipulation;
@@ -135,8 +135,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:touch-auto") {
+    @include describe('Rwd') {
+      @include it('sm\:touch-auto') {
         @include assert {
           @include output {
             @include sm\:touch-auto;
@@ -151,7 +151,7 @@
         }
       }
 
-      @include it("sm\:touch-none") {
+      @include it('sm\:touch-none') {
         @include assert {
           @include output {
             @include sm\:touch-none;
@@ -166,7 +166,7 @@
         }
       }
 
-      @include it("sm\:touch-pan-x") {
+      @include it('sm\:touch-pan-x') {
         @include assert {
           @include output {
             @include sm\:touch-pan-x;
@@ -181,7 +181,7 @@
         }
       }
 
-      @include it("sm\:touch-pan-left") {
+      @include it('sm\:touch-pan-left') {
         @include assert {
           @include output {
             @include sm\:touch-pan-left;
@@ -196,7 +196,7 @@
         }
       }
 
-      @include it("sm\:touch-pan-right") {
+      @include it('sm\:touch-pan-right') {
         @include assert {
           @include output {
             @include sm\:touch-pan-right;
@@ -211,7 +211,7 @@
         }
       }
 
-      @include it("sm\:touch-pan-y") {
+      @include it('sm\:touch-pan-y') {
         @include assert {
           @include output {
             @include sm\:touch-pan-y;
@@ -226,7 +226,7 @@
         }
       }
 
-      @include it("sm\:touch-pan-up") {
+      @include it('sm\:touch-pan-up') {
         @include assert {
           @include output {
             @include sm\:touch-pan-up;
@@ -241,7 +241,7 @@
         }
       }
 
-      @include it("sm\:touch-pan-down") {
+      @include it('sm\:touch-pan-down') {
         @include assert {
           @include output {
             @include sm\:touch-pan-down;
@@ -256,7 +256,7 @@
         }
       }
 
-      @include it("sm\:touch-pinch-zoom") {
+      @include it('sm\:touch-pinch-zoom') {
         @include assert {
           @include output {
             @include sm\:touch-pinch-zoom;
@@ -271,7 +271,7 @@
         }
       }
 
-      @include it("sm\:touch-manipulation") {
+      @include it('sm\:touch-manipulation') {
         @include assert {
           @include output {
             @include sm\:touch-manipulation;
@@ -286,7 +286,7 @@
         }
       }
 
-      @include it("md\:touch-auto") {
+      @include it('md\:touch-auto') {
         @include assert {
           @include output {
             @include md\:touch-auto;
@@ -301,7 +301,7 @@
         }
       }
 
-      @include it("md\:touch-none") {
+      @include it('md\:touch-none') {
         @include assert {
           @include output {
             @include md\:touch-none;
@@ -316,7 +316,7 @@
         }
       }
 
-      @include it("md\:touch-pan-x") {
+      @include it('md\:touch-pan-x') {
         @include assert {
           @include output {
             @include md\:touch-pan-x;
@@ -331,7 +331,7 @@
         }
       }
 
-      @include it("md\:touch-pan-left") {
+      @include it('md\:touch-pan-left') {
         @include assert {
           @include output {
             @include md\:touch-pan-left;
@@ -346,7 +346,7 @@
         }
       }
 
-      @include it("md\:touch-pan-right") {
+      @include it('md\:touch-pan-right') {
         @include assert {
           @include output {
             @include md\:touch-pan-right;
@@ -361,7 +361,7 @@
         }
       }
 
-      @include it("md\:touch-pan-y") {
+      @include it('md\:touch-pan-y') {
         @include assert {
           @include output {
             @include md\:touch-pan-y;
@@ -376,7 +376,7 @@
         }
       }
 
-      @include it("md\:touch-pan-up") {
+      @include it('md\:touch-pan-up') {
         @include assert {
           @include output {
             @include md\:touch-pan-up;
@@ -391,7 +391,7 @@
         }
       }
 
-      @include it("md\:touch-pan-down") {
+      @include it('md\:touch-pan-down') {
         @include assert {
           @include output {
             @include md\:touch-pan-down;
@@ -406,7 +406,7 @@
         }
       }
 
-      @include it("md\:touch-pinch-zoom") {
+      @include it('md\:touch-pinch-zoom') {
         @include assert {
           @include output {
             @include md\:touch-pinch-zoom;
@@ -421,7 +421,7 @@
         }
       }
 
-      @include it("md\:touch-manipulation") {
+      @include it('md\:touch-manipulation') {
         @include assert {
           @include output {
             @include md\:touch-manipulation;
@@ -436,7 +436,7 @@
         }
       }
 
-      @include it("lg\:touch-auto") {
+      @include it('lg\:touch-auto') {
         @include assert {
           @include output {
             @include lg\:touch-auto;
@@ -451,7 +451,7 @@
         }
       }
 
-      @include it("lg\:touch-none") {
+      @include it('lg\:touch-none') {
         @include assert {
           @include output {
             @include lg\:touch-none;
@@ -466,7 +466,7 @@
         }
       }
 
-      @include it("lg\:touch-pan-x") {
+      @include it('lg\:touch-pan-x') {
         @include assert {
           @include output {
             @include lg\:touch-pan-x;
@@ -481,7 +481,7 @@
         }
       }
 
-      @include it("lg\:touch-pan-left") {
+      @include it('lg\:touch-pan-left') {
         @include assert {
           @include output {
             @include lg\:touch-pan-left;
@@ -496,7 +496,7 @@
         }
       }
 
-      @include it("lg\:touch-pan-right") {
+      @include it('lg\:touch-pan-right') {
         @include assert {
           @include output {
             @include lg\:touch-pan-right;
@@ -511,7 +511,7 @@
         }
       }
 
-      @include it("lg\:touch-pan-y") {
+      @include it('lg\:touch-pan-y') {
         @include assert {
           @include output {
             @include lg\:touch-pan-y;
@@ -526,7 +526,7 @@
         }
       }
 
-      @include it("lg\:touch-pan-up") {
+      @include it('lg\:touch-pan-up') {
         @include assert {
           @include output {
             @include lg\:touch-pan-up;
@@ -541,7 +541,7 @@
         }
       }
 
-      @include it("lg\:touch-pan-down") {
+      @include it('lg\:touch-pan-down') {
         @include assert {
           @include output {
             @include lg\:touch-pan-down;
@@ -556,7 +556,7 @@
         }
       }
 
-      @include it("lg\:touch-pinch-zoom") {
+      @include it('lg\:touch-pinch-zoom') {
         @include assert {
           @include output {
             @include lg\:touch-pinch-zoom;
@@ -571,7 +571,7 @@
         }
       }
 
-      @include it("lg\:touch-manipulation") {
+      @include it('lg\:touch-manipulation') {
         @include assert {
           @include output {
             @include lg\:touch-manipulation;
@@ -586,7 +586,7 @@
         }
       }
 
-      @include it("xl\:touch-auto") {
+      @include it('xl\:touch-auto') {
         @include assert {
           @include output {
             @include xl\:touch-auto;
@@ -601,7 +601,7 @@
         }
       }
 
-      @include it("xl\:touch-none") {
+      @include it('xl\:touch-none') {
         @include assert {
           @include output {
             @include xl\:touch-none;
@@ -616,7 +616,7 @@
         }
       }
 
-      @include it("xl\:touch-pan-x") {
+      @include it('xl\:touch-pan-x') {
         @include assert {
           @include output {
             @include xl\:touch-pan-x;
@@ -631,7 +631,7 @@
         }
       }
 
-      @include it("xl\:touch-pan-left") {
+      @include it('xl\:touch-pan-left') {
         @include assert {
           @include output {
             @include xl\:touch-pan-left;
@@ -646,7 +646,7 @@
         }
       }
 
-      @include it("xl\:touch-pan-right") {
+      @include it('xl\:touch-pan-right') {
         @include assert {
           @include output {
             @include xl\:touch-pan-right;
@@ -661,7 +661,7 @@
         }
       }
 
-      @include it("xl\:touch-pan-y") {
+      @include it('xl\:touch-pan-y') {
         @include assert {
           @include output {
             @include xl\:touch-pan-y;
@@ -676,7 +676,7 @@
         }
       }
 
-      @include it("xl\:touch-pan-up") {
+      @include it('xl\:touch-pan-up') {
         @include assert {
           @include output {
             @include xl\:touch-pan-up;
@@ -691,7 +691,7 @@
         }
       }
 
-      @include it("xl\:touch-pan-down") {
+      @include it('xl\:touch-pan-down') {
         @include assert {
           @include output {
             @include xl\:touch-pan-down;
@@ -706,7 +706,7 @@
         }
       }
 
-      @include it("xl\:touch-pinch-zoom") {
+      @include it('xl\:touch-pinch-zoom') {
         @include assert {
           @include output {
             @include xl\:touch-pinch-zoom;
@@ -721,7 +721,7 @@
         }
       }
 
-      @include it("xl\:touch-manipulation") {
+      @include it('xl\:touch-manipulation') {
         @include assert {
           @include output {
             @include xl\:touch-manipulation;
@@ -736,7 +736,7 @@
         }
       }
 
-      @include it("2xl\:touch-auto") {
+      @include it('2xl\:touch-auto') {
         @include assert {
           @include output {
             @include \2xl\:touch-auto;
@@ -751,7 +751,7 @@
         }
       }
 
-      @include it("2xl\:touch-none") {
+      @include it('2xl\:touch-none') {
         @include assert {
           @include output {
             @include \2xl\:touch-none;
@@ -766,7 +766,7 @@
         }
       }
 
-      @include it("2xl\:touch-pan-x") {
+      @include it('2xl\:touch-pan-x') {
         @include assert {
           @include output {
             @include \2xl\:touch-pan-x;
@@ -781,7 +781,7 @@
         }
       }
 
-      @include it("2xl\:touch-pan-left") {
+      @include it('2xl\:touch-pan-left') {
         @include assert {
           @include output {
             @include \2xl\:touch-pan-left;
@@ -796,7 +796,7 @@
         }
       }
 
-      @include it("2xl\:touch-pan-right") {
+      @include it('2xl\:touch-pan-right') {
         @include assert {
           @include output {
             @include \2xl\:touch-pan-right;
@@ -811,7 +811,7 @@
         }
       }
 
-      @include it("2xl\:touch-pan-y") {
+      @include it('2xl\:touch-pan-y') {
         @include assert {
           @include output {
             @include \2xl\:touch-pan-y;
@@ -826,7 +826,7 @@
         }
       }
 
-      @include it("2xl\:touch-pan-up") {
+      @include it('2xl\:touch-pan-up') {
         @include assert {
           @include output {
             @include \2xl\:touch-pan-up;
@@ -841,7 +841,7 @@
         }
       }
 
-      @include it("2xl\:touch-pan-down") {
+      @include it('2xl\:touch-pan-down') {
         @include assert {
           @include output {
             @include \2xl\:touch-pan-down;
@@ -856,7 +856,7 @@
         }
       }
 
-      @include it("2xl\:touch-pinch-zoom") {
+      @include it('2xl\:touch-pinch-zoom') {
         @include assert {
           @include output {
             @include \2xl\:touch-pinch-zoom;
@@ -871,7 +871,7 @@
         }
       }
 
-      @include it("2xl\:touch-manipulation") {
+      @include it('2xl\:touch-manipulation') {
         @include assert {
           @include output {
             @include \2xl\:touch-manipulation;

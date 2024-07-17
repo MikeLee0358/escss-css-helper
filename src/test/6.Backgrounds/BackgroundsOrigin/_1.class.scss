@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("6.Backgrounds") {
-  @include describe("Background Origin") {
-    @include describe("Basic") {
-      @include it("bg-origin-border") {
+@include describe('6.Backgrounds') {
+  @include describe('Background Origin') {
+    @include describe('Basic') {
+      @include it('bg-origin-border') {
         @include assert {
           @include output {
             @include bg-origin-border;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("bg-origin-padding") {
+      @include it('bg-origin-padding') {
         @include assert {
           @include output {
             @include bg-origin-padding;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("bg-origin-content") {
+      @include it('bg-origin-content') {
         @include assert {
           @include output {
             @include bg-origin-content;
@@ -44,8 +44,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:bg-origin-border") {
+    @include describe('Rwd') {
+      @include it('sm\:bg-origin-border') {
         @include assert {
           @include output {
             @include sm\:bg-origin-border;
@@ -60,7 +60,7 @@
         }
       }
 
-      @include it("sm\:bg-origin-padding") {
+      @include it('sm\:bg-origin-padding') {
         @include assert {
           @include output {
             @include sm\:bg-origin-padding;
@@ -75,7 +75,7 @@
         }
       }
 
-      @include it("sm\:bg-origin-content") {
+      @include it('sm\:bg-origin-content') {
         @include assert {
           @include output {
             @include sm\:bg-origin-content;
@@ -90,7 +90,7 @@
         }
       }
 
-      @include it("md\:bg-origin-border") {
+      @include it('md\:bg-origin-border') {
         @include assert {
           @include output {
             @include md\:bg-origin-border;
@@ -105,7 +105,7 @@
         }
       }
 
-      @include it("md\:bg-origin-padding") {
+      @include it('md\:bg-origin-padding') {
         @include assert {
           @include output {
             @include md\:bg-origin-padding;
@@ -120,7 +120,7 @@
         }
       }
 
-      @include it("md\:bg-origin-content") {
+      @include it('md\:bg-origin-content') {
         @include assert {
           @include output {
             @include md\:bg-origin-content;
@@ -135,7 +135,7 @@
         }
       }
 
-      @include it("lg\:bg-origin-border") {
+      @include it('lg\:bg-origin-border') {
         @include assert {
           @include output {
             @include lg\:bg-origin-border;
@@ -150,7 +150,7 @@
         }
       }
 
-      @include it("lg\:bg-origin-padding") {
+      @include it('lg\:bg-origin-padding') {
         @include assert {
           @include output {
             @include lg\:bg-origin-padding;
@@ -165,7 +165,7 @@
         }
       }
 
-      @include it("lg\:bg-origin-content") {
+      @include it('lg\:bg-origin-content') {
         @include assert {
           @include output {
             @include lg\:bg-origin-content;
@@ -180,7 +180,7 @@
         }
       }
 
-      @include it("xl\:bg-origin-border") {
+      @include it('xl\:bg-origin-border') {
         @include assert {
           @include output {
             @include xl\:bg-origin-border;
@@ -195,7 +195,7 @@
         }
       }
 
-      @include it("xl\:bg-origin-padding") {
+      @include it('xl\:bg-origin-padding') {
         @include assert {
           @include output {
             @include xl\:bg-origin-padding;
@@ -210,7 +210,7 @@
         }
       }
 
-      @include it("xl\:bg-origin-content") {
+      @include it('xl\:bg-origin-content') {
         @include assert {
           @include output {
             @include xl\:bg-origin-content;
@@ -225,7 +225,7 @@
         }
       }
 
-      @include it("2xl\:bg-origin-border") {
+      @include it('2xl\:bg-origin-border') {
         @include assert {
           @include output {
             @include \2xl\:bg-origin-border;
@@ -240,7 +240,7 @@
         }
       }
 
-      @include it("2xl\:bg-origin-padding") {
+      @include it('2xl\:bg-origin-padding') {
         @include assert {
           @include output {
             @include \2xl\:bg-origin-padding;
@@ -255,7 +255,7 @@
         }
       }
 
-      @include it("2xl\:bg-origin-content") {
+      @include it('2xl\:bg-origin-content') {
         @include assert {
           @include output {
             @include \2xl\:bg-origin-content;

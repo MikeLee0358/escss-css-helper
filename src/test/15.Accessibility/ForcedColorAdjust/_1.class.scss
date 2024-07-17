@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("15.Accessibility") {
-  @include describe("Forced Color Adjust") {
-    @include describe("Basic") {
-      @include it("forced-color-adjust-auto") {
+@include describe('15.Accessibility') {
+  @include describe('Forced Color Adjust') {
+    @include describe('Basic') {
+      @include it('forced-color-adjust-auto') {
         @include assert {
           @include output {
             @include forced-color-adjust-auto;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("forced-color-adjust-none") {
+      @include it('forced-color-adjust-none') {
         @include assert {
           @include output {
             @include forced-color-adjust-none;
@@ -31,8 +31,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:forced-color-adjust-auto") {
+    @include describe('Rwd') {
+      @include it('sm\:forced-color-adjust-auto') {
         @include assert {
           @include output {
             @include sm\:forced-color-adjust-auto;
@@ -47,7 +47,7 @@
         }
       }
 
-      @include it("sm\:forced-color-adjust-none") {
+      @include it('sm\:forced-color-adjust-none') {
         @include assert {
           @include output {
             @include sm\:forced-color-adjust-none;
@@ -61,7 +61,7 @@
           }
         }
       }
-      @include it("md\:forced-color-adjust-auto") {
+      @include it('md\:forced-color-adjust-auto') {
         @include assert {
           @include output {
             @include md\:forced-color-adjust-auto;
@@ -76,7 +76,7 @@
         }
       }
 
-      @include it("md\:forced-color-adjust-none") {
+      @include it('md\:forced-color-adjust-none') {
         @include assert {
           @include output {
             @include md\:forced-color-adjust-none;
@@ -90,7 +90,7 @@
           }
         }
       }
-      @include it("lg\:forced-color-adjust-auto") {
+      @include it('lg\:forced-color-adjust-auto') {
         @include assert {
           @include output {
             @include lg\:forced-color-adjust-auto;
@@ -105,7 +105,7 @@
         }
       }
 
-      @include it("lg\:forced-color-adjust-none") {
+      @include it('lg\:forced-color-adjust-none') {
         @include assert {
           @include output {
             @include lg\:forced-color-adjust-none;
@@ -119,7 +119,7 @@
           }
         }
       }
-      @include it("xl\:forced-color-adjust-auto") {
+      @include it('xl\:forced-color-adjust-auto') {
         @include assert {
           @include output {
             @include xl\:forced-color-adjust-auto;
@@ -134,7 +134,7 @@
         }
       }
 
-      @include it("xl\:forced-color-adjust-none") {
+      @include it('xl\:forced-color-adjust-none') {
         @include assert {
           @include output {
             @include xl\:forced-color-adjust-none;
@@ -148,7 +148,7 @@
           }
         }
       }
-      @include it("2xl\:forced-color-adjust-auto") {
+      @include it('2xl\:forced-color-adjust-auto') {
         @include assert {
           @include output {
             @include \2xl\:forced-color-adjust-auto;
@@ -163,7 +163,7 @@
         }
       }
 
-      @include it("2xl\:forced-color-adjust-none") {
+      @include it('2xl\:forced-color-adjust-none') {
         @include assert {
           @include output {
             @include \2xl\:forced-color-adjust-none;

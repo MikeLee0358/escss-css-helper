@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("1.Layout") {
-  @include describe("Aspect Ratio") {
-    @include describe("Basic") {
-      @include it("aspect-auto") {
+@include describe('1.Layout') {
+  @include describe('Aspect Ratio') {
+    @include describe('Basic') {
+      @include it('aspect-auto') {
         @include assert {
           @include output {
             @include aspect-auto;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("aspect-square") {
+      @include it('aspect-square') {
         @include assert {
           @include output {
             @include aspect-square;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("aspect-video") {
+      @include it('aspect-video') {
         @include assert {
           @include output {
             @include aspect-video;
@@ -44,8 +44,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:aspect-auto") {
+    @include describe('Rwd') {
+      @include it('sm\:aspect-auto') {
         @include assert {
           @include output {
             @include sm\:aspect-auto;
@@ -60,7 +60,7 @@
         }
       }
 
-      @include it("sm\:aspect-square") {
+      @include it('sm\:aspect-square') {
         @include assert {
           @include output {
             @include sm\:aspect-square;
@@ -75,7 +75,7 @@
         }
       }
 
-      @include it("sm\:aspect-video") {
+      @include it('sm\:aspect-video') {
         @include assert {
           @include output {
             @include sm\:aspect-video;
@@ -90,7 +90,7 @@
         }
       }
 
-      @include it("md\:aspect-auto") {
+      @include it('md\:aspect-auto') {
         @include assert {
           @include output {
             @include md\:aspect-auto;
@@ -105,7 +105,7 @@
         }
       }
 
-      @include it("md\:aspect-square") {
+      @include it('md\:aspect-square') {
         @include assert {
           @include output {
             @include md\:aspect-square;
@@ -120,7 +120,7 @@
         }
       }
 
-      @include it("md\:aspect-video") {
+      @include it('md\:aspect-video') {
         @include assert {
           @include output {
             @include md\:aspect-video;
@@ -135,7 +135,7 @@
         }
       }
 
-      @include it("lg\:aspect-auto") {
+      @include it('lg\:aspect-auto') {
         @include assert {
           @include output {
             @include lg\:aspect-auto;
@@ -150,7 +150,7 @@
         }
       }
 
-      @include it("lg\:aspect-square") {
+      @include it('lg\:aspect-square') {
         @include assert {
           @include output {
             @include lg\:aspect-square;
@@ -165,7 +165,7 @@
         }
       }
 
-      @include it("lg\:aspect-video") {
+      @include it('lg\:aspect-video') {
         @include assert {
           @include output {
             @include lg\:aspect-video;
@@ -180,7 +180,7 @@
         }
       }
 
-      @include it("xl\:aspect-auto") {
+      @include it('xl\:aspect-auto') {
         @include assert {
           @include output {
             @include xl\:aspect-auto;
@@ -195,7 +195,7 @@
         }
       }
 
-      @include it("xl\:aspect-square") {
+      @include it('xl\:aspect-square') {
         @include assert {
           @include output {
             @include xl\:aspect-square;
@@ -210,7 +210,7 @@
         }
       }
 
-      @include it("xl\:aspect-video") {
+      @include it('xl\:aspect-video') {
         @include assert {
           @include output {
             @include xl\:aspect-video;
@@ -225,7 +225,7 @@
         }
       }
 
-      @include it("2xl\:aspect-auto") {
+      @include it('2xl\:aspect-auto') {
         @include assert {
           @include output {
             @include \2xl\:aspect-auto;
@@ -240,7 +240,7 @@
         }
       }
 
-      @include it("2xl\:aspect-square") {
+      @include it('2xl\:aspect-square') {
         @include assert {
           @include output {
             @include \2xl\:aspect-square;
@@ -255,7 +255,7 @@
         }
       }
 
-      @include it("2xl\:aspect-video") {
+      @include it('2xl\:aspect-video') {
         @include assert {
           @include output {
             @include \2xl\:aspect-video;
@@ -271,8 +271,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("aspect-(4/3)") {
+    @include describe('Custom') {
+      @include it('aspect-(4/3)') {
         @include assert {
           @include output {
             @include aspect-(#{4/3});
@@ -285,7 +285,7 @@
         }
       }
 
-      @include it("sm\:aspect-(4/3)") {
+      @include it('sm\:aspect-(4/3)') {
         @include assert {
           @include output {
             @include sm\:aspect-(#{4/3});
@@ -300,7 +300,7 @@
         }
       }
 
-      @include it("md\:aspect-(4/3)") {
+      @include it('md\:aspect-(4/3)') {
         @include assert {
           @include output {
             @include md\:aspect-(#{4/3});
@@ -315,7 +315,7 @@
         }
       }
 
-      @include it("lg\:aspect-(4/3)") {
+      @include it('lg\:aspect-(4/3)') {
         @include assert {
           @include output {
             @include lg\:aspect-(#{4/3});
@@ -330,7 +330,7 @@
         }
       }
 
-      @include it("xl\:aspect-(4/3)") {
+      @include it('xl\:aspect-(4/3)') {
         @include assert {
           @include output {
             @include xl\:aspect-(#{4/3});
@@ -345,7 +345,7 @@
         }
       }
 
-      @include it("2xl\:aspect-(4/3)") {
+      @include it('2xl\:aspect-(4/3)') {
         @include assert {
           @include output {
             @include \2xl\:aspect-(#{4/3});

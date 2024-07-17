@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("6.Backgrounds") {
-  @include describe("Background Size") {
-    @include describe("Basic") {
-      @include it("bg-auto") {
+@include describe('6.Backgrounds') {
+  @include describe('Background Size') {
+    @include describe('Basic') {
+      @include it('bg-auto') {
         @include assert {
           @include output {
             @include bg-auto;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("bg-cover") {
+      @include it('bg-cover') {
         @include assert {
           @include output {
             @include bg-cover;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("bg-contain") {
+      @include it('bg-contain') {
         @include assert {
           @include output {
             @include bg-contain;
@@ -44,8 +44,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:bg-auto") {
+    @include describe('Rwd') {
+      @include it('sm\:bg-auto') {
         @include assert {
           @include output {
             @include sm\:bg-auto;
@@ -60,7 +60,7 @@
         }
       }
 
-      @include it("sm\:bg-cover") {
+      @include it('sm\:bg-cover') {
         @include assert {
           @include output {
             @include sm\:bg-cover;
@@ -75,7 +75,7 @@
         }
       }
 
-      @include it("sm\:bg-contain") {
+      @include it('sm\:bg-contain') {
         @include assert {
           @include output {
             @include sm\:bg-contain;
@@ -90,7 +90,7 @@
         }
       }
 
-      @include it("md\:bg-auto") {
+      @include it('md\:bg-auto') {
         @include assert {
           @include output {
             @include md\:bg-auto;
@@ -105,7 +105,7 @@
         }
       }
 
-      @include it("md\:bg-cover") {
+      @include it('md\:bg-cover') {
         @include assert {
           @include output {
             @include md\:bg-cover;
@@ -120,7 +120,7 @@
         }
       }
 
-      @include it("md\:bg-contain") {
+      @include it('md\:bg-contain') {
         @include assert {
           @include output {
             @include md\:bg-contain;
@@ -135,7 +135,7 @@
         }
       }
 
-      @include it("lg\:bg-auto") {
+      @include it('lg\:bg-auto') {
         @include assert {
           @include output {
             @include lg\:bg-auto;
@@ -150,7 +150,7 @@
         }
       }
 
-      @include it("lg\:bg-cover") {
+      @include it('lg\:bg-cover') {
         @include assert {
           @include output {
             @include lg\:bg-cover;
@@ -165,7 +165,7 @@
         }
       }
 
-      @include it("lg\:bg-contain") {
+      @include it('lg\:bg-contain') {
         @include assert {
           @include output {
             @include lg\:bg-contain;
@@ -180,7 +180,7 @@
         }
       }
 
-      @include it("xl\:bg-auto") {
+      @include it('xl\:bg-auto') {
         @include assert {
           @include output {
             @include xl\:bg-auto;
@@ -195,7 +195,7 @@
         }
       }
 
-      @include it("xl\:bg-cover") {
+      @include it('xl\:bg-cover') {
         @include assert {
           @include output {
             @include xl\:bg-cover;
@@ -210,7 +210,7 @@
         }
       }
 
-      @include it("xl\:bg-contain") {
+      @include it('xl\:bg-contain') {
         @include assert {
           @include output {
             @include xl\:bg-contain;
@@ -225,7 +225,7 @@
         }
       }
 
-      @include it("2xl\:bg-auto") {
+      @include it('2xl\:bg-auto') {
         @include assert {
           @include output {
             @include \2xl\:bg-auto;
@@ -240,7 +240,7 @@
         }
       }
 
-      @include it("2xl\:bg-cover") {
+      @include it('2xl\:bg-cover') {
         @include assert {
           @include output {
             @include \2xl\:bg-cover;
@@ -255,7 +255,7 @@
         }
       }
 
-      @include it("2xl\:bg-contain") {
+      @include it('2xl\:bg-contain') {
         @include assert {
           @include output {
             @include \2xl\:bg-contain;
@@ -271,8 +271,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("bg-(length: 200px 100px)") {
+    @include describe('Custom') {
+      @include it('bg-(length: 200px 100px)') {
         @include assert {
           @include output {
             @include bg-(length 200px 100px);
@@ -285,7 +285,7 @@
         }
       }
 
-      @include it("sm\:bg-(length: 200px 100px)") {
+      @include it('sm\:bg-(length: 200px 100px)') {
         @include assert {
           @include output {
             @include sm\:bg-(length 200px 100px);
@@ -300,7 +300,7 @@
         }
       }
 
-      @include it("md\:bg-(length: 200px 100px)") {
+      @include it('md\:bg-(length: 200px 100px)') {
         @include assert {
           @include output {
             @include md\:bg-(length 200px 100px);
@@ -315,7 +315,7 @@
         }
       }
 
-      @include it("lg\:bg-(length: 200px 100px)") {
+      @include it('lg\:bg-(length: 200px 100px)') {
         @include assert {
           @include output {
             @include lg\:bg-(length 200px 100px);
@@ -330,7 +330,7 @@
         }
       }
 
-      @include it("xl\:bg-(length: 200px 100px)") {
+      @include it('xl\:bg-(length: 200px 100px)') {
         @include assert {
           @include output {
             @include xl\:bg-(length 200px 100px);
@@ -345,7 +345,7 @@
         }
       }
 
-      @include it("2xl\:bg-(length: 200px 100px)") {
+      @include it('2xl\:bg-(length: 200px 100px)') {
         @include assert {
           @include output {
             @include \2xl\:bg-(length 200px 100px);

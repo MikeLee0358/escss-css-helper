@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("1.Layout") {
-  @include describe("Floats") {
-    @include describe("Basic") {
-      @include it("float-start") {
+@include describe('1.Layout') {
+  @include describe('Floats') {
+    @include describe('Basic') {
+      @include it('float-start') {
         @include assert {
           @include output {
             @include float-start;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("float-end") {
+      @include it('float-end') {
         @include assert {
           @include output {
             @include float-end;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("float-right") {
+      @include it('float-right') {
         @include assert {
           @include output {
             @include float-right;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("float-left") {
+      @include it('float-left') {
         @include assert {
           @include output {
             @include float-left;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("float-none") {
+      @include it('float-none') {
         @include assert {
           @include output {
             @include float-none;
@@ -70,8 +70,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:float-start") {
+    @include describe('Rwd') {
+      @include it('sm\:float-start') {
         @include assert {
           @include output {
             @include sm\:float-start;
@@ -86,7 +86,7 @@
         }
       }
 
-      @include it("sm\:float-end") {
+      @include it('sm\:float-end') {
         @include assert {
           @include output {
             @include sm\:float-end;
@@ -101,7 +101,7 @@
         }
       }
 
-      @include it("sm\:float-right") {
+      @include it('sm\:float-right') {
         @include assert {
           @include output {
             @include sm\:float-right;
@@ -116,7 +116,7 @@
         }
       }
 
-      @include it("sm\:float-left") {
+      @include it('sm\:float-left') {
         @include assert {
           @include output {
             @include sm\:float-left;
@@ -131,7 +131,7 @@
         }
       }
 
-      @include it("sm\:float-none") {
+      @include it('sm\:float-none') {
         @include assert {
           @include output {
             @include sm\:float-none;
@@ -146,7 +146,7 @@
         }
       }
 
-      @include it("md\:float-start") {
+      @include it('md\:float-start') {
         @include assert {
           @include output {
             @include md\:float-start;
@@ -161,7 +161,7 @@
         }
       }
 
-      @include it("md\:float-end") {
+      @include it('md\:float-end') {
         @include assert {
           @include output {
             @include md\:float-end;
@@ -176,7 +176,7 @@
         }
       }
 
-      @include it("md\:float-right") {
+      @include it('md\:float-right') {
         @include assert {
           @include output {
             @include md\:float-right;
@@ -191,7 +191,7 @@
         }
       }
 
-      @include it("md\:float-left") {
+      @include it('md\:float-left') {
         @include assert {
           @include output {
             @include md\:float-left;
@@ -206,7 +206,7 @@
         }
       }
 
-      @include it("md\:float-none") {
+      @include it('md\:float-none') {
         @include assert {
           @include output {
             @include md\:float-none;
@@ -221,7 +221,7 @@
         }
       }
 
-      @include it("lg\:float-start") {
+      @include it('lg\:float-start') {
         @include assert {
           @include output {
             @include lg\:float-start;
@@ -236,7 +236,7 @@
         }
       }
 
-      @include it("lg\:float-end") {
+      @include it('lg\:float-end') {
         @include assert {
           @include output {
             @include lg\:float-end;
@@ -251,7 +251,7 @@
         }
       }
 
-      @include it("lg\:float-right") {
+      @include it('lg\:float-right') {
         @include assert {
           @include output {
             @include lg\:float-right;
@@ -266,7 +266,7 @@
         }
       }
 
-      @include it("lg\:float-left") {
+      @include it('lg\:float-left') {
         @include assert {
           @include output {
             @include lg\:float-left;
@@ -281,7 +281,7 @@
         }
       }
 
-      @include it("lg\:float-none") {
+      @include it('lg\:float-none') {
         @include assert {
           @include output {
             @include lg\:float-none;
@@ -296,7 +296,7 @@
         }
       }
 
-      @include it("xl\:float-start") {
+      @include it('xl\:float-start') {
         @include assert {
           @include output {
             @include xl\:float-start;
@@ -311,7 +311,7 @@
         }
       }
 
-      @include it("xl\:float-end") {
+      @include it('xl\:float-end') {
         @include assert {
           @include output {
             @include xl\:float-end;
@@ -326,7 +326,7 @@
         }
       }
 
-      @include it("xl\:float-right") {
+      @include it('xl\:float-right') {
         @include assert {
           @include output {
             @include xl\:float-right;
@@ -341,7 +341,7 @@
         }
       }
 
-      @include it("xl\:float-left") {
+      @include it('xl\:float-left') {
         @include assert {
           @include output {
             @include xl\:float-left;
@@ -356,7 +356,7 @@
         }
       }
 
-      @include it("xl\:float-none") {
+      @include it('xl\:float-none') {
         @include assert {
           @include output {
             @include xl\:float-none;
@@ -371,7 +371,7 @@
         }
       }
 
-      @include it("2xl\:float-start") {
+      @include it('2xl\:float-start') {
         @include assert {
           @include output {
             @include \2xl\:float-start;
@@ -386,7 +386,7 @@
         }
       }
 
-      @include it("2xl\:float-end") {
+      @include it('2xl\:float-end') {
         @include assert {
           @include output {
             @include \2xl\:float-end;
@@ -401,7 +401,7 @@
         }
       }
 
-      @include it("2xl\:float-right") {
+      @include it('2xl\:float-right') {
         @include assert {
           @include output {
             @include \2xl\:float-right;
@@ -416,7 +416,7 @@
         }
       }
 
-      @include it("2xl\:float-left") {
+      @include it('2xl\:float-left') {
         @include assert {
           @include output {
             @include \2xl\:float-left;
@@ -431,7 +431,7 @@
         }
       }
 
-      @include it("2xl\:float-none") {
+      @include it('2xl\:float-none') {
         @include assert {
           @include output {
             @include \2xl\:float-none;

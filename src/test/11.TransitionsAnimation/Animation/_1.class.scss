@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("11.Transitions & Animation") {
-  @include describe("Animation") {
-    @include describe("Basic") {
-      @include it("animate-none") {
+@include describe('11.Transitions & Animation') {
+  @include describe('Animation') {
+    @include describe('Basic') {
+      @include it('animate-none') {
         @include assert {
           @include output {
             @include animate-none;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("animate-spin") {
+      @include it('animate-spin') {
         @include assert {
           @include output {
             @include animate-spin;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("animate-ping") {
+      @include it('animate-ping') {
         @include assert {
           @include output {
             @include animate-ping;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("animate-pulse") {
+      @include it('animate-pulse') {
         @include assert {
           @include output {
             @include animate-pulse;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("animate-bounce") {
+      @include it('animate-bounce') {
         @include assert {
           @include output {
             @include animate-bounce;
@@ -70,8 +70,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:animate-none") {
+    @include describe('Rwd') {
+      @include it('sm\:animate-none') {
         @include assert {
           @include output {
             @include sm\:animate-none;
@@ -86,7 +86,7 @@
         }
       }
 
-      @include it("sm\:animate-spin") {
+      @include it('sm\:animate-spin') {
         @include assert {
           @include output {
             @include sm\:animate-spin;
@@ -101,7 +101,7 @@
         }
       }
 
-      @include it("sm\:animate-ping") {
+      @include it('sm\:animate-ping') {
         @include assert {
           @include output {
             @include sm\:animate-ping;
@@ -116,7 +116,7 @@
         }
       }
 
-      @include it("sm\:animate-pulse") {
+      @include it('sm\:animate-pulse') {
         @include assert {
           @include output {
             @include sm\:animate-pulse;
@@ -131,7 +131,7 @@
         }
       }
 
-      @include it("sm\:animate-bounce") {
+      @include it('sm\:animate-bounce') {
         @include assert {
           @include output {
             @include sm\:animate-bounce;
@@ -146,7 +146,7 @@
         }
       }
 
-      @include it("md\:animate-none") {
+      @include it('md\:animate-none') {
         @include assert {
           @include output {
             @include md\:animate-none;
@@ -161,7 +161,7 @@
         }
       }
 
-      @include it("md\:animate-spin") {
+      @include it('md\:animate-spin') {
         @include assert {
           @include output {
             @include md\:animate-spin;
@@ -176,7 +176,7 @@
         }
       }
 
-      @include it("md\:animate-ping") {
+      @include it('md\:animate-ping') {
         @include assert {
           @include output {
             @include md\:animate-ping;
@@ -191,7 +191,7 @@
         }
       }
 
-      @include it("md\:animate-pulse") {
+      @include it('md\:animate-pulse') {
         @include assert {
           @include output {
             @include md\:animate-pulse;
@@ -206,7 +206,7 @@
         }
       }
 
-      @include it("md\:animate-bounce") {
+      @include it('md\:animate-bounce') {
         @include assert {
           @include output {
             @include md\:animate-bounce;
@@ -221,7 +221,7 @@
         }
       }
 
-      @include it("lg\:animate-none") {
+      @include it('lg\:animate-none') {
         @include assert {
           @include output {
             @include lg\:animate-none;
@@ -236,7 +236,7 @@
         }
       }
 
-      @include it("lg\:animate-spin") {
+      @include it('lg\:animate-spin') {
         @include assert {
           @include output {
             @include lg\:animate-spin;
@@ -251,7 +251,7 @@
         }
       }
 
-      @include it("lg\:animate-ping") {
+      @include it('lg\:animate-ping') {
         @include assert {
           @include output {
             @include lg\:animate-ping;
@@ -266,7 +266,7 @@
         }
       }
 
-      @include it("lg\:animate-pulse") {
+      @include it('lg\:animate-pulse') {
         @include assert {
           @include output {
             @include lg\:animate-pulse;
@@ -281,7 +281,7 @@
         }
       }
 
-      @include it("lg\:animate-bounce") {
+      @include it('lg\:animate-bounce') {
         @include assert {
           @include output {
             @include lg\:animate-bounce;
@@ -296,7 +296,7 @@
         }
       }
 
-      @include it("xl\:animate-none") {
+      @include it('xl\:animate-none') {
         @include assert {
           @include output {
             @include xl\:animate-none;
@@ -311,7 +311,7 @@
         }
       }
 
-      @include it("xl\:animate-spin") {
+      @include it('xl\:animate-spin') {
         @include assert {
           @include output {
             @include xl\:animate-spin;
@@ -326,7 +326,7 @@
         }
       }
 
-      @include it("xl\:animate-ping") {
+      @include it('xl\:animate-ping') {
         @include assert {
           @include output {
             @include xl\:animate-ping;
@@ -341,7 +341,7 @@
         }
       }
 
-      @include it("xl\:animate-pulse") {
+      @include it('xl\:animate-pulse') {
         @include assert {
           @include output {
             @include xl\:animate-pulse;
@@ -356,7 +356,7 @@
         }
       }
 
-      @include it("xl\:animate-bounce") {
+      @include it('xl\:animate-bounce') {
         @include assert {
           @include output {
             @include xl\:animate-bounce;
@@ -371,7 +371,7 @@
         }
       }
 
-      @include it("2xl\:animate-none") {
+      @include it('2xl\:animate-none') {
         @include assert {
           @include output {
             @include \2xl\:animate-none;
@@ -386,7 +386,7 @@
         }
       }
 
-      @include it("2xl\:animate-spin") {
+      @include it('2xl\:animate-spin') {
         @include assert {
           @include output {
             @include \2xl\:animate-spin;
@@ -401,7 +401,7 @@
         }
       }
 
-      @include it("2xl\:animate-ping") {
+      @include it('2xl\:animate-ping') {
         @include assert {
           @include output {
             @include \2xl\:animate-ping;
@@ -416,7 +416,7 @@
         }
       }
 
-      @include it("2xl\:animate-pulse") {
+      @include it('2xl\:animate-pulse') {
         @include assert {
           @include output {
             @include \2xl\:animate-pulse;
@@ -431,7 +431,7 @@
         }
       }
 
-      @include it("2xl\:animate-bounce") {
+      @include it('2xl\:animate-bounce') {
         @include assert {
           @include output {
             @include \2xl\:animate-bounce;
@@ -447,8 +447,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("animate-(wiggle 1s ease-in-out infinite)") {
+    @include describe('Custom') {
+      @include it('animate-(wiggle 1s ease-in-out infinite)') {
         @include assert {
           @include output {
             @include animate-(wiggle 1s ease-in-out infinite);
@@ -461,7 +461,7 @@
         }
       }
 
-      @include it("sm\:animate-(wiggle 1s ease-in-out infinite)") {
+      @include it('sm\:animate-(wiggle 1s ease-in-out infinite)') {
         @include assert {
           @include output {
             @include sm\:animate-(wiggle 1s ease-in-out infinite);
@@ -476,7 +476,7 @@
         }
       }
 
-      @include it("md\:animate-(wiggle 1s ease-in-out infinite)") {
+      @include it('md\:animate-(wiggle 1s ease-in-out infinite)') {
         @include assert {
           @include output {
             @include md\:animate-(wiggle 1s ease-in-out infinite);
@@ -491,7 +491,7 @@
         }
       }
 
-      @include it("lg\:animate-(wiggle 1s ease-in-out infinite)") {
+      @include it('lg\:animate-(wiggle 1s ease-in-out infinite)') {
         @include assert {
           @include output {
             @include lg\:animate-(wiggle 1s ease-in-out infinite);
@@ -506,7 +506,7 @@
         }
       }
 
-      @include it("xl\:animate-(wiggle 1s ease-in-out infinite)") {
+      @include it('xl\:animate-(wiggle 1s ease-in-out infinite)') {
         @include assert {
           @include output {
             @include xl\:animate-(wiggle 1s ease-in-out infinite);
@@ -521,7 +521,7 @@
         }
       }
 
-      @include it("2xl\:animate-(wiggle 1s ease-in-out infinite)") {
+      @include it('2xl\:animate-(wiggle 1s ease-in-out infinite)') {
         @include assert {
           @include output {
             @include \2xl\:animate-(wiggle 1s ease-in-out infinite);

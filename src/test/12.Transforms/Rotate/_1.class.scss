@@ -1,5 +1,5 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
 // private member(prefix - or _) can't be imported, so I put here for testing
 
@@ -53,10 +53,10 @@
   @include transform(get_transform());
 }
 
-@include describe("12.Transforms") {
-  @include describe("Rotate") {
-    @include describe("Basic") {
-      @include it("rotate-0") {
+@include describe('12.Transforms') {
+  @include describe('Rotate') {
+    @include describe('Basic') {
+      @include it('rotate-0') {
         @include assert {
           @include output {
             @include rotate-0;
@@ -70,7 +70,7 @@
         }
       }
 
-      @include it("rotate-1") {
+      @include it('rotate-1') {
         @include assert {
           @include output {
             @include rotate-1;
@@ -84,7 +84,7 @@
         }
       }
 
-      @include it("rotate-2") {
+      @include it('rotate-2') {
         @include assert {
           @include output {
             @include rotate-2;
@@ -98,7 +98,7 @@
         }
       }
 
-      @include it("rotate-3") {
+      @include it('rotate-3') {
         @include assert {
           @include output {
             @include rotate-3;
@@ -112,7 +112,7 @@
         }
       }
 
-      @include it("rotate-6") {
+      @include it('rotate-6') {
         @include assert {
           @include output {
             @include rotate-6;
@@ -126,7 +126,7 @@
         }
       }
 
-      @include it("rotate-12") {
+      @include it('rotate-12') {
         @include assert {
           @include output {
             @include rotate-12;
@@ -140,7 +140,7 @@
         }
       }
 
-      @include it("rotate-45") {
+      @include it('rotate-45') {
         @include assert {
           @include output {
             @include rotate-45;
@@ -154,7 +154,7 @@
         }
       }
 
-      @include it("rotate-90") {
+      @include it('rotate-90') {
         @include assert {
           @include output {
             @include rotate-90;
@@ -168,7 +168,7 @@
         }
       }
 
-      @include it("rotate-180") {
+      @include it('rotate-180') {
         @include assert {
           @include output {
             @include rotate-180;
@@ -182,7 +182,7 @@
         }
       }
 
-      @include it("-rotate-0") {
+      @include it('-rotate-0') {
         @include assert {
           @include output {
             @include -rotate-0;
@@ -196,7 +196,7 @@
         }
       }
 
-      @include it("-rotate-1") {
+      @include it('-rotate-1') {
         @include assert {
           @include output {
             @include -rotate-1;
@@ -210,7 +210,7 @@
         }
       }
 
-      @include it("-rotate-2") {
+      @include it('-rotate-2') {
         @include assert {
           @include output {
             @include -rotate-2;
@@ -224,7 +224,7 @@
         }
       }
 
-      @include it("-rotate-3") {
+      @include it('-rotate-3') {
         @include assert {
           @include output {
             @include -rotate-3;
@@ -238,7 +238,7 @@
         }
       }
 
-      @include it("-rotate-6") {
+      @include it('-rotate-6') {
         @include assert {
           @include output {
             @include -rotate-6;
@@ -252,7 +252,7 @@
         }
       }
 
-      @include it("-rotate-12") {
+      @include it('-rotate-12') {
         @include assert {
           @include output {
             @include -rotate-12;
@@ -266,7 +266,7 @@
         }
       }
 
-      @include it("-rotate-45") {
+      @include it('-rotate-45') {
         @include assert {
           @include output {
             @include -rotate-45;
@@ -280,7 +280,7 @@
         }
       }
 
-      @include it("-rotate-90") {
+      @include it('-rotate-90') {
         @include assert {
           @include output {
             @include -rotate-90;
@@ -294,7 +294,7 @@
         }
       }
 
-      @include it("-rotate-180") {
+      @include it('-rotate-180') {
         @include assert {
           @include output {
             @include -rotate-180;
@@ -309,8 +309,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:rotate-0") {
+    @include describe('Rwd') {
+      @include it('sm\:rotate-0') {
         @include assert {
           @include output {
             @include sm\:rotate-0;
@@ -326,7 +326,7 @@
         }
       }
 
-      @include it("sm\:rotate-1") {
+      @include it('sm\:rotate-1') {
         @include assert {
           @include output {
             @include sm\:rotate-1;
@@ -342,7 +342,7 @@
         }
       }
 
-      @include it("sm\:rotate-2") {
+      @include it('sm\:rotate-2') {
         @include assert {
           @include output {
             @include sm\:rotate-2;
@@ -358,7 +358,7 @@
         }
       }
 
-      @include it("sm\:rotate-3") {
+      @include it('sm\:rotate-3') {
         @include assert {
           @include output {
             @include sm\:rotate-3;
@@ -374,7 +374,7 @@
         }
       }
 
-      @include it("sm\:rotate-6") {
+      @include it('sm\:rotate-6') {
         @include assert {
           @include output {
             @include sm\:rotate-6;
@@ -390,7 +390,7 @@
         }
       }
 
-      @include it("sm\:rotate-12") {
+      @include it('sm\:rotate-12') {
         @include assert {
           @include output {
             @include sm\:rotate-12;
@@ -406,7 +406,7 @@
         }
       }
 
-      @include it("sm\:rotate-45") {
+      @include it('sm\:rotate-45') {
         @include assert {
           @include output {
             @include sm\:rotate-45;
@@ -422,7 +422,7 @@
         }
       }
 
-      @include it("sm\:rotate-90") {
+      @include it('sm\:rotate-90') {
         @include assert {
           @include output {
             @include sm\:rotate-90;
@@ -438,7 +438,7 @@
         }
       }
 
-      @include it("sm\:rotate-180") {
+      @include it('sm\:rotate-180') {
         @include assert {
           @include output {
             @include sm\:rotate-180;
@@ -454,7 +454,7 @@
         }
       }
 
-      @include it("sm\:-rotate-0") {
+      @include it('sm\:-rotate-0') {
         @include assert {
           @include output {
             @include sm\:-rotate-0;
@@ -470,7 +470,7 @@
         }
       }
 
-      @include it("sm\:-rotate-1") {
+      @include it('sm\:-rotate-1') {
         @include assert {
           @include output {
             @include sm\:-rotate-1;
@@ -486,7 +486,7 @@
         }
       }
 
-      @include it("sm\:-rotate-2") {
+      @include it('sm\:-rotate-2') {
         @include assert {
           @include output {
             @include sm\:-rotate-2;
@@ -502,7 +502,7 @@
         }
       }
 
-      @include it("sm\:-rotate-3") {
+      @include it('sm\:-rotate-3') {
         @include assert {
           @include output {
             @include sm\:-rotate-3;
@@ -518,7 +518,7 @@
         }
       }
 
-      @include it("sm\:-rotate-6") {
+      @include it('sm\:-rotate-6') {
         @include assert {
           @include output {
             @include sm\:-rotate-6;
@@ -534,7 +534,7 @@
         }
       }
 
-      @include it("sm\:-rotate-12") {
+      @include it('sm\:-rotate-12') {
         @include assert {
           @include output {
             @include sm\:-rotate-12;
@@ -550,7 +550,7 @@
         }
       }
 
-      @include it("sm\:-rotate-45") {
+      @include it('sm\:-rotate-45') {
         @include assert {
           @include output {
             @include sm\:-rotate-45;
@@ -566,7 +566,7 @@
         }
       }
 
-      @include it("sm\:-rotate-90") {
+      @include it('sm\:-rotate-90') {
         @include assert {
           @include output {
             @include sm\:-rotate-90;
@@ -582,7 +582,7 @@
         }
       }
 
-      @include it("sm\:-rotate-180") {
+      @include it('sm\:-rotate-180') {
         @include assert {
           @include output {
             @include sm\:-rotate-180;
@@ -598,7 +598,7 @@
         }
       }
 
-      @include it("md\:rotate-0") {
+      @include it('md\:rotate-0') {
         @include assert {
           @include output {
             @include md\:rotate-0;
@@ -614,7 +614,7 @@
         }
       }
 
-      @include it("md\:rotate-1") {
+      @include it('md\:rotate-1') {
         @include assert {
           @include output {
             @include md\:rotate-1;
@@ -630,7 +630,7 @@
         }
       }
 
-      @include it("md\:rotate-2") {
+      @include it('md\:rotate-2') {
         @include assert {
           @include output {
             @include md\:rotate-2;
@@ -646,7 +646,7 @@
         }
       }
 
-      @include it("md\:rotate-3") {
+      @include it('md\:rotate-3') {
         @include assert {
           @include output {
             @include md\:rotate-3;
@@ -662,7 +662,7 @@
         }
       }
 
-      @include it("md\:rotate-6") {
+      @include it('md\:rotate-6') {
         @include assert {
           @include output {
             @include md\:rotate-6;
@@ -678,7 +678,7 @@
         }
       }
 
-      @include it("md\:rotate-12") {
+      @include it('md\:rotate-12') {
         @include assert {
           @include output {
             @include md\:rotate-12;
@@ -694,7 +694,7 @@
         }
       }
 
-      @include it("md\:rotate-45") {
+      @include it('md\:rotate-45') {
         @include assert {
           @include output {
             @include md\:rotate-45;
@@ -710,7 +710,7 @@
         }
       }
 
-      @include it("md\:rotate-90") {
+      @include it('md\:rotate-90') {
         @include assert {
           @include output {
             @include md\:rotate-90;
@@ -726,7 +726,7 @@
         }
       }
 
-      @include it("md\:rotate-180") {
+      @include it('md\:rotate-180') {
         @include assert {
           @include output {
             @include md\:rotate-180;
@@ -742,7 +742,7 @@
         }
       }
 
-      @include it("md\:-rotate-0") {
+      @include it('md\:-rotate-0') {
         @include assert {
           @include output {
             @include md\:-rotate-0;
@@ -758,7 +758,7 @@
         }
       }
 
-      @include it("md\:-rotate-1") {
+      @include it('md\:-rotate-1') {
         @include assert {
           @include output {
             @include md\:-rotate-1;
@@ -774,7 +774,7 @@
         }
       }
 
-      @include it("md\:-rotate-2") {
+      @include it('md\:-rotate-2') {
         @include assert {
           @include output {
             @include md\:-rotate-2;
@@ -790,7 +790,7 @@
         }
       }
 
-      @include it("md\:-rotate-3") {
+      @include it('md\:-rotate-3') {
         @include assert {
           @include output {
             @include md\:-rotate-3;
@@ -806,7 +806,7 @@
         }
       }
 
-      @include it("md\:-rotate-6") {
+      @include it('md\:-rotate-6') {
         @include assert {
           @include output {
             @include md\:-rotate-6;
@@ -822,7 +822,7 @@
         }
       }
 
-      @include it("md\:-rotate-12") {
+      @include it('md\:-rotate-12') {
         @include assert {
           @include output {
             @include md\:-rotate-12;
@@ -838,7 +838,7 @@
         }
       }
 
-      @include it("md\:-rotate-45") {
+      @include it('md\:-rotate-45') {
         @include assert {
           @include output {
             @include md\:-rotate-45;
@@ -854,7 +854,7 @@
         }
       }
 
-      @include it("md\:-rotate-90") {
+      @include it('md\:-rotate-90') {
         @include assert {
           @include output {
             @include md\:-rotate-90;
@@ -870,7 +870,7 @@
         }
       }
 
-      @include it("md\:-rotate-180") {
+      @include it('md\:-rotate-180') {
         @include assert {
           @include output {
             @include md\:-rotate-180;
@@ -886,7 +886,7 @@
         }
       }
 
-      @include it("lg\:rotate-0") {
+      @include it('lg\:rotate-0') {
         @include assert {
           @include output {
             @include lg\:rotate-0;
@@ -902,7 +902,7 @@
         }
       }
 
-      @include it("lg\:rotate-1") {
+      @include it('lg\:rotate-1') {
         @include assert {
           @include output {
             @include lg\:rotate-1;
@@ -918,7 +918,7 @@
         }
       }
 
-      @include it("lg\:rotate-2") {
+      @include it('lg\:rotate-2') {
         @include assert {
           @include output {
             @include lg\:rotate-2;
@@ -934,7 +934,7 @@
         }
       }
 
-      @include it("lg\:rotate-3") {
+      @include it('lg\:rotate-3') {
         @include assert {
           @include output {
             @include lg\:rotate-3;
@@ -950,7 +950,7 @@
         }
       }
 
-      @include it("lg\:rotate-6") {
+      @include it('lg\:rotate-6') {
         @include assert {
           @include output {
             @include lg\:rotate-6;
@@ -966,7 +966,7 @@
         }
       }
 
-      @include it("lg\:rotate-12") {
+      @include it('lg\:rotate-12') {
         @include assert {
           @include output {
             @include lg\:rotate-12;
@@ -982,7 +982,7 @@
         }
       }
 
-      @include it("lg\:rotate-45") {
+      @include it('lg\:rotate-45') {
         @include assert {
           @include output {
             @include lg\:rotate-45;
@@ -998,7 +998,7 @@
         }
       }
 
-      @include it("lg\:rotate-90") {
+      @include it('lg\:rotate-90') {
         @include assert {
           @include output {
             @include lg\:rotate-90;
@@ -1014,7 +1014,7 @@
         }
       }
 
-      @include it("lg\:rotate-180") {
+      @include it('lg\:rotate-180') {
         @include assert {
           @include output {
             @include lg\:rotate-180;
@@ -1030,7 +1030,7 @@
         }
       }
 
-      @include it("lg\:-rotate-0") {
+      @include it('lg\:-rotate-0') {
         @include assert {
           @include output {
             @include lg\:-rotate-0;
@@ -1046,7 +1046,7 @@
         }
       }
 
-      @include it("lg\:-rotate-1") {
+      @include it('lg\:-rotate-1') {
         @include assert {
           @include output {
             @include lg\:-rotate-1;
@@ -1062,7 +1062,7 @@
         }
       }
 
-      @include it("lg\:-rotate-2") {
+      @include it('lg\:-rotate-2') {
         @include assert {
           @include output {
             @include lg\:-rotate-2;
@@ -1078,7 +1078,7 @@
         }
       }
 
-      @include it("lg\:-rotate-3") {
+      @include it('lg\:-rotate-3') {
         @include assert {
           @include output {
             @include lg\:-rotate-3;
@@ -1094,7 +1094,7 @@
         }
       }
 
-      @include it("lg\:-rotate-6") {
+      @include it('lg\:-rotate-6') {
         @include assert {
           @include output {
             @include lg\:-rotate-6;
@@ -1110,7 +1110,7 @@
         }
       }
 
-      @include it("lg\:-rotate-12") {
+      @include it('lg\:-rotate-12') {
         @include assert {
           @include output {
             @include lg\:-rotate-12;
@@ -1126,7 +1126,7 @@
         }
       }
 
-      @include it("lg\:-rotate-45") {
+      @include it('lg\:-rotate-45') {
         @include assert {
           @include output {
             @include lg\:-rotate-45;
@@ -1142,7 +1142,7 @@
         }
       }
 
-      @include it("lg\:-rotate-90") {
+      @include it('lg\:-rotate-90') {
         @include assert {
           @include output {
             @include lg\:-rotate-90;
@@ -1158,7 +1158,7 @@
         }
       }
 
-      @include it("lg\:-rotate-180") {
+      @include it('lg\:-rotate-180') {
         @include assert {
           @include output {
             @include lg\:-rotate-180;
@@ -1174,7 +1174,7 @@
         }
       }
 
-      @include it("xl\:rotate-0") {
+      @include it('xl\:rotate-0') {
         @include assert {
           @include output {
             @include xl\:rotate-0;
@@ -1190,7 +1190,7 @@
         }
       }
 
-      @include it("xl\:rotate-1") {
+      @include it('xl\:rotate-1') {
         @include assert {
           @include output {
             @include xl\:rotate-1;
@@ -1206,7 +1206,7 @@
         }
       }
 
-      @include it("xl\:rotate-2") {
+      @include it('xl\:rotate-2') {
         @include assert {
           @include output {
             @include xl\:rotate-2;
@@ -1222,7 +1222,7 @@
         }
       }
 
-      @include it("xl\:rotate-3") {
+      @include it('xl\:rotate-3') {
         @include assert {
           @include output {
             @include xl\:rotate-3;
@@ -1238,7 +1238,7 @@
         }
       }
 
-      @include it("xl\:rotate-6") {
+      @include it('xl\:rotate-6') {
         @include assert {
           @include output {
             @include xl\:rotate-6;
@@ -1254,7 +1254,7 @@
         }
       }
 
-      @include it("xl\:rotate-12") {
+      @include it('xl\:rotate-12') {
         @include assert {
           @include output {
             @include xl\:rotate-12;
@@ -1270,7 +1270,7 @@
         }
       }
 
-      @include it("xl\:rotate-45") {
+      @include it('xl\:rotate-45') {
         @include assert {
           @include output {
             @include xl\:rotate-45;
@@ -1286,7 +1286,7 @@
         }
       }
 
-      @include it("xl\:rotate-90") {
+      @include it('xl\:rotate-90') {
         @include assert {
           @include output {
             @include xl\:rotate-90;
@@ -1302,7 +1302,7 @@
         }
       }
 
-      @include it("xl\:rotate-180") {
+      @include it('xl\:rotate-180') {
         @include assert {
           @include output {
             @include xl\:rotate-180;
@@ -1318,7 +1318,7 @@
         }
       }
 
-      @include it("xl\:-rotate-0") {
+      @include it('xl\:-rotate-0') {
         @include assert {
           @include output {
             @include xl\:-rotate-0;
@@ -1334,7 +1334,7 @@
         }
       }
 
-      @include it("xl\:-rotate-1") {
+      @include it('xl\:-rotate-1') {
         @include assert {
           @include output {
             @include xl\:-rotate-1;
@@ -1350,7 +1350,7 @@
         }
       }
 
-      @include it("xl\:-rotate-2") {
+      @include it('xl\:-rotate-2') {
         @include assert {
           @include output {
             @include xl\:-rotate-2;
@@ -1366,7 +1366,7 @@
         }
       }
 
-      @include it("xl\:-rotate-3") {
+      @include it('xl\:-rotate-3') {
         @include assert {
           @include output {
             @include xl\:-rotate-3;
@@ -1382,7 +1382,7 @@
         }
       }
 
-      @include it("xl\:-rotate-6") {
+      @include it('xl\:-rotate-6') {
         @include assert {
           @include output {
             @include xl\:-rotate-6;
@@ -1398,7 +1398,7 @@
         }
       }
 
-      @include it("xl\:-rotate-12") {
+      @include it('xl\:-rotate-12') {
         @include assert {
           @include output {
             @include xl\:-rotate-12;
@@ -1414,7 +1414,7 @@
         }
       }
 
-      @include it("xl\:-rotate-45") {
+      @include it('xl\:-rotate-45') {
         @include assert {
           @include output {
             @include xl\:-rotate-45;
@@ -1430,7 +1430,7 @@
         }
       }
 
-      @include it("xl\:-rotate-90") {
+      @include it('xl\:-rotate-90') {
         @include assert {
           @include output {
             @include xl\:-rotate-90;
@@ -1446,7 +1446,7 @@
         }
       }
 
-      @include it("xl\:-rotate-180") {
+      @include it('xl\:-rotate-180') {
         @include assert {
           @include output {
             @include xl\:-rotate-180;
@@ -1462,7 +1462,7 @@
         }
       }
 
-      @include it("2xl\:rotate-0") {
+      @include it('2xl\:rotate-0') {
         @include assert {
           @include output {
             @include \2xl\:rotate-0;
@@ -1478,7 +1478,7 @@
         }
       }
 
-      @include it("2xl\:rotate-1") {
+      @include it('2xl\:rotate-1') {
         @include assert {
           @include output {
             @include \2xl\:rotate-1;
@@ -1494,7 +1494,7 @@
         }
       }
 
-      @include it("2xl\:rotate-2") {
+      @include it('2xl\:rotate-2') {
         @include assert {
           @include output {
             @include \2xl\:rotate-2;
@@ -1510,7 +1510,7 @@
         }
       }
 
-      @include it("2xl\:rotate-3") {
+      @include it('2xl\:rotate-3') {
         @include assert {
           @include output {
             @include \2xl\:rotate-3;
@@ -1526,7 +1526,7 @@
         }
       }
 
-      @include it("2xl\:rotate-6") {
+      @include it('2xl\:rotate-6') {
         @include assert {
           @include output {
             @include \2xl\:rotate-6;
@@ -1542,7 +1542,7 @@
         }
       }
 
-      @include it("2xl\:rotate-12") {
+      @include it('2xl\:rotate-12') {
         @include assert {
           @include output {
             @include \2xl\:rotate-12;
@@ -1558,7 +1558,7 @@
         }
       }
 
-      @include it("2xl\:rotate-45") {
+      @include it('2xl\:rotate-45') {
         @include assert {
           @include output {
             @include \2xl\:rotate-45;
@@ -1574,7 +1574,7 @@
         }
       }
 
-      @include it("2xl\:rotate-90") {
+      @include it('2xl\:rotate-90') {
         @include assert {
           @include output {
             @include \2xl\:rotate-90;
@@ -1590,7 +1590,7 @@
         }
       }
 
-      @include it("2xl\:rotate-180") {
+      @include it('2xl\:rotate-180') {
         @include assert {
           @include output {
             @include \2xl\:rotate-180;
@@ -1606,7 +1606,7 @@
         }
       }
 
-      @include it("2xl\:-rotate-0") {
+      @include it('2xl\:-rotate-0') {
         @include assert {
           @include output {
             @include \2xl\:-rotate-0;
@@ -1622,7 +1622,7 @@
         }
       }
 
-      @include it("2xl\:-rotate-1") {
+      @include it('2xl\:-rotate-1') {
         @include assert {
           @include output {
             @include \2xl\:-rotate-1;
@@ -1638,7 +1638,7 @@
         }
       }
 
-      @include it("2xl\:-rotate-2") {
+      @include it('2xl\:-rotate-2') {
         @include assert {
           @include output {
             @include \2xl\:-rotate-2;
@@ -1654,7 +1654,7 @@
         }
       }
 
-      @include it("2xl\:-rotate-3") {
+      @include it('2xl\:-rotate-3') {
         @include assert {
           @include output {
             @include \2xl\:-rotate-3;
@@ -1670,7 +1670,7 @@
         }
       }
 
-      @include it("2xl\:-rotate-6") {
+      @include it('2xl\:-rotate-6') {
         @include assert {
           @include output {
             @include \2xl\:-rotate-6;
@@ -1686,7 +1686,7 @@
         }
       }
 
-      @include it("2xl\:-rotate-12") {
+      @include it('2xl\:-rotate-12') {
         @include assert {
           @include output {
             @include \2xl\:-rotate-12;
@@ -1702,7 +1702,7 @@
         }
       }
 
-      @include it("2xl\:-rotate-45") {
+      @include it('2xl\:-rotate-45') {
         @include assert {
           @include output {
             @include \2xl\:-rotate-45;
@@ -1718,7 +1718,7 @@
         }
       }
 
-      @include it("2xl\:-rotate-90") {
+      @include it('2xl\:-rotate-90') {
         @include assert {
           @include output {
             @include \2xl\:-rotate-90;
@@ -1734,7 +1734,7 @@
         }
       }
 
-      @include it("2xl\:-rotate-180") {
+      @include it('2xl\:-rotate-180') {
         @include assert {
           @include output {
             @include \2xl\:-rotate-180;
@@ -1751,8 +1751,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("rotate-(17deg)") {
+    @include describe('Custom') {
+      @include it('rotate-(17deg)') {
         @include assert {
           @include output {
             @include rotate-(17deg);
@@ -1766,7 +1766,7 @@
         }
       }
 
-      @include it("-rotate-(17deg)") {
+      @include it('-rotate-(17deg)') {
         @include assert {
           @include output {
             @include -rotate-(17deg);
@@ -1780,7 +1780,7 @@
         }
       }
 
-      @include it("sm\:rotate-(17deg)") {
+      @include it('sm\:rotate-(17deg)') {
         @include assert {
           @include output {
             @include sm\:rotate-(17deg);
@@ -1796,7 +1796,7 @@
         }
       }
 
-      @include it("sm\:-rotate-(17deg)") {
+      @include it('sm\:-rotate-(17deg)') {
         @include assert {
           @include output {
             @include sm\:-rotate-(17deg);
@@ -1812,7 +1812,7 @@
         }
       }
 
-      @include it("md\:rotate-(17deg)") {
+      @include it('md\:rotate-(17deg)') {
         @include assert {
           @include output {
             @include md\:rotate-(17deg);
@@ -1828,7 +1828,7 @@
         }
       }
 
-      @include it("md\:-rotate-(17deg)") {
+      @include it('md\:-rotate-(17deg)') {
         @include assert {
           @include output {
             @include md\:-rotate-(17deg);
@@ -1844,7 +1844,7 @@
         }
       }
 
-      @include it("lg\:rotate-(17deg)") {
+      @include it('lg\:rotate-(17deg)') {
         @include assert {
           @include output {
             @include lg\:rotate-(17deg);
@@ -1860,7 +1860,7 @@
         }
       }
 
-      @include it("lg\:-rotate-(17deg)") {
+      @include it('lg\:-rotate-(17deg)') {
         @include assert {
           @include output {
             @include lg\:-rotate-(17deg);
@@ -1876,7 +1876,7 @@
         }
       }
 
-      @include it("xl\:rotate-(17deg)") {
+      @include it('xl\:rotate-(17deg)') {
         @include assert {
           @include output {
             @include xl\:rotate-(17deg);
@@ -1892,7 +1892,7 @@
         }
       }
 
-      @include it("xl\:-rotate-(17deg)") {
+      @include it('xl\:-rotate-(17deg)') {
         @include assert {
           @include output {
             @include xl\:-rotate-(17deg);
@@ -1908,7 +1908,7 @@
         }
       }
 
-      @include it("2xl\:rotate-(17deg)") {
+      @include it('2xl\:rotate-(17deg)') {
         @include assert {
           @include output {
             @include \2xl\:rotate-(17deg);
@@ -1924,7 +1924,7 @@
         }
       }
 
-      @include it("2xl\:-rotate-(17deg)") {
+      @include it('2xl\:-rotate-(17deg)') {
         @include assert {
           @include output {
             @include \2xl\:-rotate-(17deg);

@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("11.Transitions & Animation") {
-  @include describe("Transition Timing Function") {
-    @include describe("Basic") {
-      @include it("ease-linear") {
+@include describe('11.Transitions & Animation') {
+  @include describe('Transition Timing Function') {
+    @include describe('Basic') {
+      @include it('ease-linear') {
         @include assert {
           @include output {
             @include ease-linear;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("ease-in") {
+      @include it('ease-in') {
         @include assert {
           @include output {
             @include ease-in;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("ease-out") {
+      @include it('ease-out') {
         @include assert {
           @include output {
             @include ease-out;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("ease-in-out") {
+      @include it('ease-in-out') {
         @include assert {
           @include output {
             @include ease-in-out;
@@ -57,8 +57,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:ease-linear") {
+    @include describe('Rwd') {
+      @include it('sm\:ease-linear') {
         @include assert {
           @include output {
             @include sm\:ease-linear;
@@ -73,7 +73,7 @@
         }
       }
 
-      @include it("sm\:ease-in") {
+      @include it('sm\:ease-in') {
         @include assert {
           @include output {
             @include sm\:ease-in;
@@ -88,7 +88,7 @@
         }
       }
 
-      @include it("sm\:ease-out") {
+      @include it('sm\:ease-out') {
         @include assert {
           @include output {
             @include sm\:ease-out;
@@ -103,7 +103,7 @@
         }
       }
 
-      @include it("sm\:ease-in-out") {
+      @include it('sm\:ease-in-out') {
         @include assert {
           @include output {
             @include sm\:ease-in-out;
@@ -118,7 +118,7 @@
         }
       }
 
-      @include it("md\:ease-linear") {
+      @include it('md\:ease-linear') {
         @include assert {
           @include output {
             @include md\:ease-linear;
@@ -133,7 +133,7 @@
         }
       }
 
-      @include it("md\:ease-in") {
+      @include it('md\:ease-in') {
         @include assert {
           @include output {
             @include md\:ease-in;
@@ -148,7 +148,7 @@
         }
       }
 
-      @include it("md\:ease-out") {
+      @include it('md\:ease-out') {
         @include assert {
           @include output {
             @include md\:ease-out;
@@ -163,7 +163,7 @@
         }
       }
 
-      @include it("md\:ease-in-out") {
+      @include it('md\:ease-in-out') {
         @include assert {
           @include output {
             @include md\:ease-in-out;
@@ -178,7 +178,7 @@
         }
       }
 
-      @include it("lg\:ease-linear") {
+      @include it('lg\:ease-linear') {
         @include assert {
           @include output {
             @include lg\:ease-linear;
@@ -193,7 +193,7 @@
         }
       }
 
-      @include it("lg\:ease-in") {
+      @include it('lg\:ease-in') {
         @include assert {
           @include output {
             @include lg\:ease-in;
@@ -208,7 +208,7 @@
         }
       }
 
-      @include it("lg\:ease-out") {
+      @include it('lg\:ease-out') {
         @include assert {
           @include output {
             @include lg\:ease-out;
@@ -223,7 +223,7 @@
         }
       }
 
-      @include it("lg\:ease-in-out") {
+      @include it('lg\:ease-in-out') {
         @include assert {
           @include output {
             @include lg\:ease-in-out;
@@ -238,7 +238,7 @@
         }
       }
 
-      @include it("xl\:ease-linear") {
+      @include it('xl\:ease-linear') {
         @include assert {
           @include output {
             @include xl\:ease-linear;
@@ -253,7 +253,7 @@
         }
       }
 
-      @include it("xl\:ease-in") {
+      @include it('xl\:ease-in') {
         @include assert {
           @include output {
             @include xl\:ease-in;
@@ -268,7 +268,7 @@
         }
       }
 
-      @include it("xl\:ease-out") {
+      @include it('xl\:ease-out') {
         @include assert {
           @include output {
             @include xl\:ease-out;
@@ -283,7 +283,7 @@
         }
       }
 
-      @include it("xl\:ease-in-out") {
+      @include it('xl\:ease-in-out') {
         @include assert {
           @include output {
             @include xl\:ease-in-out;
@@ -298,7 +298,7 @@
         }
       }
 
-      @include it("2xl\:ease-linear") {
+      @include it('2xl\:ease-linear') {
         @include assert {
           @include output {
             @include \2xl\:ease-linear;
@@ -313,7 +313,7 @@
         }
       }
 
-      @include it("2xl\:ease-in") {
+      @include it('2xl\:ease-in') {
         @include assert {
           @include output {
             @include \2xl\:ease-in;
@@ -328,7 +328,7 @@
         }
       }
 
-      @include it("2xl\:ease-out") {
+      @include it('2xl\:ease-out') {
         @include assert {
           @include output {
             @include \2xl\:ease-out;
@@ -343,7 +343,7 @@
         }
       }
 
-      @include it("2xl\:ease-in-out") {
+      @include it('2xl\:ease-in-out') {
         @include assert {
           @include output {
             @include \2xl\:ease-in-out;
@@ -359,8 +359,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("ease-(cubic-bezier(0.95,0.05,0.795,0.035))") {
+    @include describe('Custom') {
+      @include it('ease-(cubic-bezier(0.95,0.05,0.795,0.035))') {
         @include assert {
           @include output {
             @include ease-(cubic-bezier(0.95, 0.05, 0.795, 0.035));
@@ -373,7 +373,7 @@
         }
       }
 
-      @include it("sm\:ease-(cubic-bezier(0.95,0.05,0.795,0.035))") {
+      @include it('sm\:ease-(cubic-bezier(0.95,0.05,0.795,0.035))') {
         @include assert {
           @include output {
             @include sm\:ease-(cubic-bezier(0.95, 0.05, 0.795, 0.035));
@@ -393,7 +393,7 @@
         }
       }
 
-      @include it("md\:ease-(cubic-bezier(0.95,0.05,0.795,0.035))") {
+      @include it('md\:ease-(cubic-bezier(0.95,0.05,0.795,0.035))') {
         @include assert {
           @include output {
             @include md\:ease-(cubic-bezier(0.95, 0.05, 0.795, 0.035));
@@ -413,7 +413,7 @@
         }
       }
 
-      @include it("lg\:ease-(cubic-bezier(0.95,0.05,0.795,0.035))") {
+      @include it('lg\:ease-(cubic-bezier(0.95,0.05,0.795,0.035))') {
         @include assert {
           @include output {
             @include lg\:ease-(cubic-bezier(0.95, 0.05, 0.795, 0.035));
@@ -433,7 +433,7 @@
         }
       }
 
-      @include it("xl\:ease-(cubic-bezier(0.95,0.05,0.795,0.035))") {
+      @include it('xl\:ease-(cubic-bezier(0.95,0.05,0.795,0.035))') {
         @include assert {
           @include output {
             @include xl\:ease-(cubic-bezier(0.95, 0.05, 0.795, 0.035));
@@ -453,7 +453,7 @@
         }
       }
 
-      @include it("2xl\:ease-(cubic-bezier(0.95,0.05,0.795,0.035))") {
+      @include it('2xl\:ease-(cubic-bezier(0.95,0.05,0.795,0.035))') {
         @include assert {
           @include output {
             @include \2xl\:ease-(cubic-bezier(0.95, 0.05, 0.795, 0.035));

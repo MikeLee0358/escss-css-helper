@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("6.Backgrounds") {
-  @include describe("Background Attachment") {
-    @include describe("Basic") {
-      @include it("bg-fixed") {
+@include describe('6.Backgrounds') {
+  @include describe('Background Attachment') {
+    @include describe('Basic') {
+      @include it('bg-fixed') {
         @include assert {
           @include output {
             @include bg-fixed;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("bg-local") {
+      @include it('bg-local') {
         @include assert {
           @include output {
             @include bg-local;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("bg-scroll") {
+      @include it('bg-scroll') {
         @include assert {
           @include output {
             @include bg-scroll;
@@ -44,8 +44,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:bg-fixed") {
+    @include describe('Rwd') {
+      @include it('sm\:bg-fixed') {
         @include assert {
           @include output {
             @include sm\:bg-fixed;
@@ -60,7 +60,7 @@
         }
       }
 
-      @include it("sm\:bg-local") {
+      @include it('sm\:bg-local') {
         @include assert {
           @include output {
             @include sm\:bg-local;
@@ -75,7 +75,7 @@
         }
       }
 
-      @include it("sm\:bg-scroll") {
+      @include it('sm\:bg-scroll') {
         @include assert {
           @include output {
             @include sm\:bg-scroll;
@@ -90,7 +90,7 @@
         }
       }
 
-      @include it("md\:bg-fixed") {
+      @include it('md\:bg-fixed') {
         @include assert {
           @include output {
             @include md\:bg-fixed;
@@ -105,7 +105,7 @@
         }
       }
 
-      @include it("md\:bg-local") {
+      @include it('md\:bg-local') {
         @include assert {
           @include output {
             @include md\:bg-local;
@@ -120,7 +120,7 @@
         }
       }
 
-      @include it("md\:bg-scroll") {
+      @include it('md\:bg-scroll') {
         @include assert {
           @include output {
             @include md\:bg-scroll;
@@ -135,7 +135,7 @@
         }
       }
 
-      @include it("lg\:bg-fixed") {
+      @include it('lg\:bg-fixed') {
         @include assert {
           @include output {
             @include lg\:bg-fixed;
@@ -150,7 +150,7 @@
         }
       }
 
-      @include it("lg\:bg-local") {
+      @include it('lg\:bg-local') {
         @include assert {
           @include output {
             @include lg\:bg-local;
@@ -165,7 +165,7 @@
         }
       }
 
-      @include it("lg\:bg-scroll") {
+      @include it('lg\:bg-scroll') {
         @include assert {
           @include output {
             @include lg\:bg-scroll;
@@ -180,7 +180,7 @@
         }
       }
 
-      @include it("xl\:bg-fixed") {
+      @include it('xl\:bg-fixed') {
         @include assert {
           @include output {
             @include xl\:bg-fixed;
@@ -195,7 +195,7 @@
         }
       }
 
-      @include it("xl\:bg-local") {
+      @include it('xl\:bg-local') {
         @include assert {
           @include output {
             @include xl\:bg-local;
@@ -210,7 +210,7 @@
         }
       }
 
-      @include it("xl\:bg-scroll") {
+      @include it('xl\:bg-scroll') {
         @include assert {
           @include output {
             @include xl\:bg-scroll;
@@ -225,7 +225,7 @@
         }
       }
 
-      @include it("2xl\:bg-fixed") {
+      @include it('2xl\:bg-fixed') {
         @include assert {
           @include output {
             @include \2xl\:bg-fixed;
@@ -240,7 +240,7 @@
         }
       }
 
-      @include it("2xl\:bg-local") {
+      @include it('2xl\:bg-local') {
         @include assert {
           @include output {
             @include \2xl\:bg-local;
@@ -255,7 +255,7 @@
         }
       }
 
-      @include it("2xl\:bg-scroll") {
+      @include it('2xl\:bg-scroll') {
         @include assert {
           @include output {
             @include \2xl\:bg-scroll;

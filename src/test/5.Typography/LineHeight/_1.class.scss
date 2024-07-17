@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("5.Typography") {
-  @include describe("Line Height") {
-    @include describe("Basic") {
-      @include it("leading-3") {
+@include describe('5.Typography') {
+  @include describe('Line Height') {
+    @include describe('Basic') {
+      @include it('leading-3') {
         @include assert {
           @include output {
             @include leading-3;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("leading-4") {
+      @include it('leading-4') {
         @include assert {
           @include output {
             @include leading-4;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("leading-5") {
+      @include it('leading-5') {
         @include assert {
           @include output {
             @include leading-5;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("leading-6") {
+      @include it('leading-6') {
         @include assert {
           @include output {
             @include leading-6;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("leading-7") {
+      @include it('leading-7') {
         @include assert {
           @include output {
             @include leading-7;
@@ -69,7 +69,7 @@
         }
       }
 
-      @include it("leading-8") {
+      @include it('leading-8') {
         @include assert {
           @include output {
             @include leading-8;
@@ -82,7 +82,7 @@
         }
       }
 
-      @include it("leading-9") {
+      @include it('leading-9') {
         @include assert {
           @include output {
             @include leading-9;
@@ -95,7 +95,7 @@
         }
       }
 
-      @include it("leading-10") {
+      @include it('leading-10') {
         @include assert {
           @include output {
             @include leading-10;
@@ -108,7 +108,7 @@
         }
       }
 
-      @include it("leading-none") {
+      @include it('leading-none') {
         @include assert {
           @include output {
             @include leading-none;
@@ -121,7 +121,7 @@
         }
       }
 
-      @include it("leading-tight") {
+      @include it('leading-tight') {
         @include assert {
           @include output {
             @include leading-tight;
@@ -134,7 +134,7 @@
         }
       }
 
-      @include it("leading-snug") {
+      @include it('leading-snug') {
         @include assert {
           @include output {
             @include leading-snug;
@@ -147,7 +147,7 @@
         }
       }
 
-      @include it("leading-normal") {
+      @include it('leading-normal') {
         @include assert {
           @include output {
             @include leading-normal;
@@ -160,7 +160,7 @@
         }
       }
 
-      @include it("leading-relaxed") {
+      @include it('leading-relaxed') {
         @include assert {
           @include output {
             @include leading-relaxed;
@@ -173,7 +173,7 @@
         }
       }
 
-      @include it("leading-loose") {
+      @include it('leading-loose') {
         @include assert {
           @include output {
             @include leading-loose;
@@ -187,8 +187,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:leading-3") {
+    @include describe('Rwd') {
+      @include it('sm\:leading-3') {
         @include assert {
           @include output {
             @include sm\:leading-3;
@@ -203,7 +203,7 @@
         }
       }
 
-      @include it("sm\:leading-4") {
+      @include it('sm\:leading-4') {
         @include assert {
           @include output {
             @include sm\:leading-4;
@@ -218,7 +218,7 @@
         }
       }
 
-      @include it("sm\:leading-5") {
+      @include it('sm\:leading-5') {
         @include assert {
           @include output {
             @include sm\:leading-5;
@@ -233,7 +233,7 @@
         }
       }
 
-      @include it("sm\:leading-6") {
+      @include it('sm\:leading-6') {
         @include assert {
           @include output {
             @include sm\:leading-6;
@@ -248,7 +248,7 @@
         }
       }
 
-      @include it("sm\:leading-7") {
+      @include it('sm\:leading-7') {
         @include assert {
           @include output {
             @include sm\:leading-7;
@@ -263,7 +263,7 @@
         }
       }
 
-      @include it("sm\:leading-8") {
+      @include it('sm\:leading-8') {
         @include assert {
           @include output {
             @include sm\:leading-8;
@@ -278,7 +278,7 @@
         }
       }
 
-      @include it("sm\:leading-9") {
+      @include it('sm\:leading-9') {
         @include assert {
           @include output {
             @include sm\:leading-9;
@@ -293,7 +293,7 @@
         }
       }
 
-      @include it("sm\:leading-10") {
+      @include it('sm\:leading-10') {
         @include assert {
           @include output {
             @include sm\:leading-10;
@@ -308,7 +308,7 @@
         }
       }
 
-      @include it("sm\:leading-none") {
+      @include it('sm\:leading-none') {
         @include assert {
           @include output {
             @include sm\:leading-none;
@@ -323,7 +323,7 @@
         }
       }
 
-      @include it("sm\:leading-tight") {
+      @include it('sm\:leading-tight') {
         @include assert {
           @include output {
             @include sm\:leading-tight;
@@ -338,7 +338,7 @@
         }
       }
 
-      @include it("sm\:leading-snug") {
+      @include it('sm\:leading-snug') {
         @include assert {
           @include output {
             @include sm\:leading-snug;
@@ -353,7 +353,7 @@
         }
       }
 
-      @include it("sm\:leading-normal") {
+      @include it('sm\:leading-normal') {
         @include assert {
           @include output {
             @include sm\:leading-normal;
@@ -368,7 +368,7 @@
         }
       }
 
-      @include it("sm\:leading-relaxed") {
+      @include it('sm\:leading-relaxed') {
         @include assert {
           @include output {
             @include sm\:leading-relaxed;
@@ -383,7 +383,7 @@
         }
       }
 
-      @include it("sm\:leading-loose") {
+      @include it('sm\:leading-loose') {
         @include assert {
           @include output {
             @include sm\:leading-loose;
@@ -398,7 +398,7 @@
         }
       }
 
-      @include it("md\:leading-3") {
+      @include it('md\:leading-3') {
         @include assert {
           @include output {
             @include md\:leading-3;
@@ -413,7 +413,7 @@
         }
       }
 
-      @include it("md\:leading-4") {
+      @include it('md\:leading-4') {
         @include assert {
           @include output {
             @include md\:leading-4;
@@ -428,7 +428,7 @@
         }
       }
 
-      @include it("md\:leading-5") {
+      @include it('md\:leading-5') {
         @include assert {
           @include output {
             @include md\:leading-5;
@@ -443,7 +443,7 @@
         }
       }
 
-      @include it("md\:leading-6") {
+      @include it('md\:leading-6') {
         @include assert {
           @include output {
             @include md\:leading-6;
@@ -458,7 +458,7 @@
         }
       }
 
-      @include it("md\:leading-7") {
+      @include it('md\:leading-7') {
         @include assert {
           @include output {
             @include md\:leading-7;
@@ -473,7 +473,7 @@
         }
       }
 
-      @include it("md\:leading-8") {
+      @include it('md\:leading-8') {
         @include assert {
           @include output {
             @include md\:leading-8;
@@ -488,7 +488,7 @@
         }
       }
 
-      @include it("md\:leading-9") {
+      @include it('md\:leading-9') {
         @include assert {
           @include output {
             @include md\:leading-9;
@@ -503,7 +503,7 @@
         }
       }
 
-      @include it("md\:leading-10") {
+      @include it('md\:leading-10') {
         @include assert {
           @include output {
             @include md\:leading-10;
@@ -518,7 +518,7 @@
         }
       }
 
-      @include it("md\:leading-none") {
+      @include it('md\:leading-none') {
         @include assert {
           @include output {
             @include md\:leading-none;
@@ -533,7 +533,7 @@
         }
       }
 
-      @include it("md\:leading-tight") {
+      @include it('md\:leading-tight') {
         @include assert {
           @include output {
             @include md\:leading-tight;
@@ -548,7 +548,7 @@
         }
       }
 
-      @include it("md\:leading-snug") {
+      @include it('md\:leading-snug') {
         @include assert {
           @include output {
             @include md\:leading-snug;
@@ -563,7 +563,7 @@
         }
       }
 
-      @include it("md\:leading-normal") {
+      @include it('md\:leading-normal') {
         @include assert {
           @include output {
             @include md\:leading-normal;
@@ -578,7 +578,7 @@
         }
       }
 
-      @include it("md\:leading-relaxed") {
+      @include it('md\:leading-relaxed') {
         @include assert {
           @include output {
             @include md\:leading-relaxed;
@@ -593,7 +593,7 @@
         }
       }
 
-      @include it("md\:leading-loose") {
+      @include it('md\:leading-loose') {
         @include assert {
           @include output {
             @include md\:leading-loose;
@@ -608,7 +608,7 @@
         }
       }
 
-      @include it("lg\:leading-3") {
+      @include it('lg\:leading-3') {
         @include assert {
           @include output {
             @include lg\:leading-3;
@@ -623,7 +623,7 @@
         }
       }
 
-      @include it("lg\:leading-4") {
+      @include it('lg\:leading-4') {
         @include assert {
           @include output {
             @include lg\:leading-4;
@@ -638,7 +638,7 @@
         }
       }
 
-      @include it("lg\:leading-5") {
+      @include it('lg\:leading-5') {
         @include assert {
           @include output {
             @include lg\:leading-5;
@@ -653,7 +653,7 @@
         }
       }
 
-      @include it("lg\:leading-6") {
+      @include it('lg\:leading-6') {
         @include assert {
           @include output {
             @include lg\:leading-6;
@@ -668,7 +668,7 @@
         }
       }
 
-      @include it("lg\:leading-7") {
+      @include it('lg\:leading-7') {
         @include assert {
           @include output {
             @include lg\:leading-7;
@@ -683,7 +683,7 @@
         }
       }
 
-      @include it("lg\:leading-8") {
+      @include it('lg\:leading-8') {
         @include assert {
           @include output {
             @include lg\:leading-8;
@@ -698,7 +698,7 @@
         }
       }
 
-      @include it("lg\:leading-9") {
+      @include it('lg\:leading-9') {
         @include assert {
           @include output {
             @include lg\:leading-9;
@@ -713,7 +713,7 @@
         }
       }
 
-      @include it("lg\:leading-10") {
+      @include it('lg\:leading-10') {
         @include assert {
           @include output {
             @include lg\:leading-10;
@@ -728,7 +728,7 @@
         }
       }
 
-      @include it("lg\:leading-none") {
+      @include it('lg\:leading-none') {
         @include assert {
           @include output {
             @include lg\:leading-none;
@@ -743,7 +743,7 @@
         }
       }
 
-      @include it("lg\:leading-tight") {
+      @include it('lg\:leading-tight') {
         @include assert {
           @include output {
             @include lg\:leading-tight;
@@ -758,7 +758,7 @@
         }
       }
 
-      @include it("lg\:leading-snug") {
+      @include it('lg\:leading-snug') {
         @include assert {
           @include output {
             @include lg\:leading-snug;
@@ -773,7 +773,7 @@
         }
       }
 
-      @include it("lg\:leading-normal") {
+      @include it('lg\:leading-normal') {
         @include assert {
           @include output {
             @include lg\:leading-normal;
@@ -788,7 +788,7 @@
         }
       }
 
-      @include it("lg\:leading-relaxed") {
+      @include it('lg\:leading-relaxed') {
         @include assert {
           @include output {
             @include lg\:leading-relaxed;
@@ -803,7 +803,7 @@
         }
       }
 
-      @include it("lg\:leading-loose") {
+      @include it('lg\:leading-loose') {
         @include assert {
           @include output {
             @include lg\:leading-loose;
@@ -818,7 +818,7 @@
         }
       }
 
-      @include it("xl\:leading-3") {
+      @include it('xl\:leading-3') {
         @include assert {
           @include output {
             @include xl\:leading-3;
@@ -833,7 +833,7 @@
         }
       }
 
-      @include it("xl\:leading-4") {
+      @include it('xl\:leading-4') {
         @include assert {
           @include output {
             @include xl\:leading-4;
@@ -848,7 +848,7 @@
         }
       }
 
-      @include it("xl\:leading-5") {
+      @include it('xl\:leading-5') {
         @include assert {
           @include output {
             @include xl\:leading-5;
@@ -863,7 +863,7 @@
         }
       }
 
-      @include it("xl\:leading-6") {
+      @include it('xl\:leading-6') {
         @include assert {
           @include output {
             @include xl\:leading-6;
@@ -878,7 +878,7 @@
         }
       }
 
-      @include it("xl\:leading-7") {
+      @include it('xl\:leading-7') {
         @include assert {
           @include output {
             @include xl\:leading-7;
@@ -893,7 +893,7 @@
         }
       }
 
-      @include it("xl\:leading-8") {
+      @include it('xl\:leading-8') {
         @include assert {
           @include output {
             @include xl\:leading-8;
@@ -908,7 +908,7 @@
         }
       }
 
-      @include it("xl\:leading-9") {
+      @include it('xl\:leading-9') {
         @include assert {
           @include output {
             @include xl\:leading-9;
@@ -923,7 +923,7 @@
         }
       }
 
-      @include it("xl\:leading-10") {
+      @include it('xl\:leading-10') {
         @include assert {
           @include output {
             @include xl\:leading-10;
@@ -938,7 +938,7 @@
         }
       }
 
-      @include it("xl\:leading-none") {
+      @include it('xl\:leading-none') {
         @include assert {
           @include output {
             @include xl\:leading-none;
@@ -953,7 +953,7 @@
         }
       }
 
-      @include it("xl\:leading-tight") {
+      @include it('xl\:leading-tight') {
         @include assert {
           @include output {
             @include xl\:leading-tight;
@@ -968,7 +968,7 @@
         }
       }
 
-      @include it("xl\:leading-snug") {
+      @include it('xl\:leading-snug') {
         @include assert {
           @include output {
             @include xl\:leading-snug;
@@ -983,7 +983,7 @@
         }
       }
 
-      @include it("xl\:leading-normal") {
+      @include it('xl\:leading-normal') {
         @include assert {
           @include output {
             @include xl\:leading-normal;
@@ -998,7 +998,7 @@
         }
       }
 
-      @include it("xl\:leading-relaxed") {
+      @include it('xl\:leading-relaxed') {
         @include assert {
           @include output {
             @include xl\:leading-relaxed;
@@ -1013,7 +1013,7 @@
         }
       }
 
-      @include it("xl\:leading-loose") {
+      @include it('xl\:leading-loose') {
         @include assert {
           @include output {
             @include xl\:leading-loose;
@@ -1028,7 +1028,7 @@
         }
       }
 
-      @include it("2xl\:leading-3") {
+      @include it('2xl\:leading-3') {
         @include assert {
           @include output {
             @include \2xl\:leading-3;
@@ -1043,7 +1043,7 @@
         }
       }
 
-      @include it("2xl\:leading-4") {
+      @include it('2xl\:leading-4') {
         @include assert {
           @include output {
             @include \2xl\:leading-4;
@@ -1058,7 +1058,7 @@
         }
       }
 
-      @include it("2xl\:leading-5") {
+      @include it('2xl\:leading-5') {
         @include assert {
           @include output {
             @include \2xl\:leading-5;
@@ -1073,7 +1073,7 @@
         }
       }
 
-      @include it("2xl\:leading-6") {
+      @include it('2xl\:leading-6') {
         @include assert {
           @include output {
             @include \2xl\:leading-6;
@@ -1088,7 +1088,7 @@
         }
       }
 
-      @include it("2xl\:leading-7") {
+      @include it('2xl\:leading-7') {
         @include assert {
           @include output {
             @include \2xl\:leading-7;
@@ -1103,7 +1103,7 @@
         }
       }
 
-      @include it("2xl\:leading-8") {
+      @include it('2xl\:leading-8') {
         @include assert {
           @include output {
             @include \2xl\:leading-8;
@@ -1118,7 +1118,7 @@
         }
       }
 
-      @include it("2xl\:leading-9") {
+      @include it('2xl\:leading-9') {
         @include assert {
           @include output {
             @include \2xl\:leading-9;
@@ -1133,7 +1133,7 @@
         }
       }
 
-      @include it("2xl\:leading-10") {
+      @include it('2xl\:leading-10') {
         @include assert {
           @include output {
             @include \2xl\:leading-10;
@@ -1148,7 +1148,7 @@
         }
       }
 
-      @include it("2xl\:leading-none") {
+      @include it('2xl\:leading-none') {
         @include assert {
           @include output {
             @include \2xl\:leading-none;
@@ -1163,7 +1163,7 @@
         }
       }
 
-      @include it("2xl\:leading-tight") {
+      @include it('2xl\:leading-tight') {
         @include assert {
           @include output {
             @include \2xl\:leading-tight;
@@ -1178,7 +1178,7 @@
         }
       }
 
-      @include it("2xl\:leading-snug") {
+      @include it('2xl\:leading-snug') {
         @include assert {
           @include output {
             @include \2xl\:leading-snug;
@@ -1193,7 +1193,7 @@
         }
       }
 
-      @include it("2xl\:leading-normal") {
+      @include it('2xl\:leading-normal') {
         @include assert {
           @include output {
             @include \2xl\:leading-normal;
@@ -1208,7 +1208,7 @@
         }
       }
 
-      @include it("2xl\:leading-relaxed") {
+      @include it('2xl\:leading-relaxed') {
         @include assert {
           @include output {
             @include \2xl\:leading-relaxed;
@@ -1223,7 +1223,7 @@
         }
       }
 
-      @include it("2xl\:leading-loose") {
+      @include it('2xl\:leading-loose') {
         @include assert {
           @include output {
             @include \2xl\:leading-loose;
@@ -1239,8 +1239,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("leading-(3rem)") {
+    @include describe('Custom') {
+      @include it('leading-(3rem)') {
         @include assert {
           @include output {
             @include leading-(3rem);
@@ -1253,7 +1253,7 @@
         }
       }
 
-      @include it("sm\:leading-(3rem)") {
+      @include it('sm\:leading-(3rem)') {
         @include assert {
           @include output {
             @include sm\:leading-(3rem);
@@ -1268,7 +1268,7 @@
         }
       }
 
-      @include it("md\:leading-(3rem)") {
+      @include it('md\:leading-(3rem)') {
         @include assert {
           @include output {
             @include md\:leading-(3rem);
@@ -1283,7 +1283,7 @@
         }
       }
 
-      @include it("lg\:leading-(3rem)") {
+      @include it('lg\:leading-(3rem)') {
         @include assert {
           @include output {
             @include lg\:leading-(3rem);
@@ -1298,7 +1298,7 @@
         }
       }
 
-      @include it("xl\:leading-(3rem)") {
+      @include it('xl\:leading-(3rem)') {
         @include assert {
           @include output {
             @include xl\:leading-(3rem);
@@ -1313,7 +1313,7 @@
         }
       }
 
-      @include it("2xl\:leading-(3rem)") {
+      @include it('2xl\:leading-(3rem)') {
         @include assert {
           @include output {
             @include \2xl\:leading-(3rem);

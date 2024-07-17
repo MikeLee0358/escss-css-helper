@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("2.Flexbox & Grid") {
-  @include describe("Flex Shrink") {
-    @include describe("Basic") {
-      @include it("shrink") {
+@include describe('2.Flexbox & Grid') {
+  @include describe('Flex Shrink') {
+    @include describe('Basic') {
+      @include it('shrink') {
         @include assert {
           @include output {
             @include shrink;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("shrink-0") {
+      @include it('shrink-0') {
         @include assert {
           @include output {
             @include shrink-0;
@@ -31,8 +31,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:shrink") {
+    @include describe('Rwd') {
+      @include it('sm\:shrink') {
         @include assert {
           @include output {
             @include sm\:shrink;
@@ -47,7 +47,7 @@
         }
       }
 
-      @include it("sm\:shrink-0") {
+      @include it('sm\:shrink-0') {
         @include assert {
           @include output {
             @include sm\:shrink-0;
@@ -62,7 +62,7 @@
         }
       }
 
-      @include it("md\:shrink") {
+      @include it('md\:shrink') {
         @include assert {
           @include output {
             @include md\:shrink;
@@ -77,7 +77,7 @@
         }
       }
 
-      @include it("md\:shrink-0") {
+      @include it('md\:shrink-0') {
         @include assert {
           @include output {
             @include md\:shrink-0;
@@ -92,7 +92,7 @@
         }
       }
 
-      @include it("lg\:shrink") {
+      @include it('lg\:shrink') {
         @include assert {
           @include output {
             @include lg\:shrink;
@@ -107,7 +107,7 @@
         }
       }
 
-      @include it("lg\:shrink-0") {
+      @include it('lg\:shrink-0') {
         @include assert {
           @include output {
             @include lg\:shrink-0;
@@ -122,7 +122,7 @@
         }
       }
 
-      @include it("xl\:shrink") {
+      @include it('xl\:shrink') {
         @include assert {
           @include output {
             @include xl\:shrink;
@@ -137,7 +137,7 @@
         }
       }
 
-      @include it("xl\:shrink-0") {
+      @include it('xl\:shrink-0') {
         @include assert {
           @include output {
             @include xl\:shrink-0;
@@ -152,7 +152,7 @@
         }
       }
 
-      @include it("2xl\:shrink") {
+      @include it('2xl\:shrink') {
         @include assert {
           @include output {
             @include \2xl\:shrink;
@@ -167,7 +167,7 @@
         }
       }
 
-      @include it("2xl\:shrink-0") {
+      @include it('2xl\:shrink-0') {
         @include assert {
           @include output {
             @include \2xl\:shrink-0;
@@ -183,8 +183,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("shrink-(2)") {
+    @include describe('Custom') {
+      @include it('shrink-(2)') {
         @include assert {
           @include output {
             @include shrink-(2);
@@ -197,7 +197,7 @@
         }
       }
 
-      @include it("sm\:shrink-(2)") {
+      @include it('sm\:shrink-(2)') {
         @include assert {
           @include output {
             @include sm\:shrink-(2);
@@ -212,7 +212,7 @@
         }
       }
 
-      @include it("md\:shrink-(2)") {
+      @include it('md\:shrink-(2)') {
         @include assert {
           @include output {
             @include md\:shrink-(2);
@@ -227,7 +227,7 @@
         }
       }
 
-      @include it("lg\:shrink-(2)") {
+      @include it('lg\:shrink-(2)') {
         @include assert {
           @include output {
             @include lg\:shrink-(2);
@@ -242,7 +242,7 @@
         }
       }
 
-      @include it("xl\:shrink-(2)") {
+      @include it('xl\:shrink-(2)') {
         @include assert {
           @include output {
             @include xl\:shrink-(2);
@@ -257,7 +257,7 @@
         }
       }
 
-      @include it("2xl\:shrink-(2)") {
+      @include it('2xl\:shrink-(2)') {
         @include assert {
           @include output {
             @include \2xl\:shrink-(2);

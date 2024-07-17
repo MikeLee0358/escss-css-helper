@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("2.Flexbox & Grid") {
-  @include describe("Place Content") {
-    @include describe("Basic") {
-      @include it("place-content-center") {
+@include describe('2.Flexbox & Grid') {
+  @include describe('Place Content') {
+    @include describe('Basic') {
+      @include it('place-content-center') {
         @include assert {
           @include output {
             @include place-content-center;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("place-content-start") {
+      @include it('place-content-start') {
         @include assert {
           @include output {
             @include place-content-start;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("place-content-end") {
+      @include it('place-content-end') {
         @include assert {
           @include output {
             @include place-content-end;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("place-content-between") {
+      @include it('place-content-between') {
         @include assert {
           @include output {
             @include place-content-between;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("place-content-around") {
+      @include it('place-content-around') {
         @include assert {
           @include output {
             @include place-content-around;
@@ -69,7 +69,7 @@
         }
       }
 
-      @include it("place-content-evenly") {
+      @include it('place-content-evenly') {
         @include assert {
           @include output {
             @include place-content-evenly;
@@ -82,7 +82,7 @@
         }
       }
 
-      @include it("place-content-baseline") {
+      @include it('place-content-baseline') {
         @include assert {
           @include output {
             @include place-content-baseline;
@@ -95,7 +95,7 @@
         }
       }
 
-      @include it("place-content-stretch") {
+      @include it('place-content-stretch') {
         @include assert {
           @include output {
             @include place-content-stretch;
@@ -109,8 +109,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:place-content-center") {
+    @include describe('Rwd') {
+      @include it('sm\:place-content-center') {
         @include assert {
           @include output {
             @include sm\:place-content-center;
@@ -125,7 +125,7 @@
         }
       }
 
-      @include it("sm\:place-content-start") {
+      @include it('sm\:place-content-start') {
         @include assert {
           @include output {
             @include sm\:place-content-start;
@@ -140,7 +140,7 @@
         }
       }
 
-      @include it("sm\:place-content-end") {
+      @include it('sm\:place-content-end') {
         @include assert {
           @include output {
             @include sm\:place-content-end;
@@ -155,7 +155,7 @@
         }
       }
 
-      @include it("sm\:place-content-between") {
+      @include it('sm\:place-content-between') {
         @include assert {
           @include output {
             @include sm\:place-content-between;
@@ -170,7 +170,7 @@
         }
       }
 
-      @include it("sm\:place-content-around") {
+      @include it('sm\:place-content-around') {
         @include assert {
           @include output {
             @include sm\:place-content-around;
@@ -185,7 +185,7 @@
         }
       }
 
-      @include it("sm\:place-content-evenly") {
+      @include it('sm\:place-content-evenly') {
         @include assert {
           @include output {
             @include sm\:place-content-evenly;
@@ -200,7 +200,7 @@
         }
       }
 
-      @include it("sm\:place-content-baseline") {
+      @include it('sm\:place-content-baseline') {
         @include assert {
           @include output {
             @include sm\:place-content-baseline;
@@ -215,7 +215,7 @@
         }
       }
 
-      @include it("sm\:place-content-stretch") {
+      @include it('sm\:place-content-stretch') {
         @include assert {
           @include output {
             @include sm\:place-content-stretch;
@@ -230,7 +230,7 @@
         }
       }
 
-      @include it("md\:place-content-center") {
+      @include it('md\:place-content-center') {
         @include assert {
           @include output {
             @include md\:place-content-center;
@@ -245,7 +245,7 @@
         }
       }
 
-      @include it("md\:place-content-start") {
+      @include it('md\:place-content-start') {
         @include assert {
           @include output {
             @include md\:place-content-start;
@@ -260,7 +260,7 @@
         }
       }
 
-      @include it("md\:place-content-end") {
+      @include it('md\:place-content-end') {
         @include assert {
           @include output {
             @include md\:place-content-end;
@@ -275,7 +275,7 @@
         }
       }
 
-      @include it("md\:place-content-between") {
+      @include it('md\:place-content-between') {
         @include assert {
           @include output {
             @include md\:place-content-between;
@@ -290,7 +290,7 @@
         }
       }
 
-      @include it("md\:place-content-around") {
+      @include it('md\:place-content-around') {
         @include assert {
           @include output {
             @include md\:place-content-around;
@@ -305,7 +305,7 @@
         }
       }
 
-      @include it("md\:place-content-evenly") {
+      @include it('md\:place-content-evenly') {
         @include assert {
           @include output {
             @include md\:place-content-evenly;
@@ -320,7 +320,7 @@
         }
       }
 
-      @include it("md\:place-content-baseline") {
+      @include it('md\:place-content-baseline') {
         @include assert {
           @include output {
             @include md\:place-content-baseline;
@@ -335,7 +335,7 @@
         }
       }
 
-      @include it("md\:place-content-stretch") {
+      @include it('md\:place-content-stretch') {
         @include assert {
           @include output {
             @include md\:place-content-stretch;
@@ -350,7 +350,7 @@
         }
       }
 
-      @include it("lg\:place-content-center") {
+      @include it('lg\:place-content-center') {
         @include assert {
           @include output {
             @include lg\:place-content-center;
@@ -365,7 +365,7 @@
         }
       }
 
-      @include it("lg\:place-content-start") {
+      @include it('lg\:place-content-start') {
         @include assert {
           @include output {
             @include lg\:place-content-start;
@@ -380,7 +380,7 @@
         }
       }
 
-      @include it("lg\:place-content-end") {
+      @include it('lg\:place-content-end') {
         @include assert {
           @include output {
             @include lg\:place-content-end;
@@ -395,7 +395,7 @@
         }
       }
 
-      @include it("lg\:place-content-between") {
+      @include it('lg\:place-content-between') {
         @include assert {
           @include output {
             @include lg\:place-content-between;
@@ -410,7 +410,7 @@
         }
       }
 
-      @include it("lg\:place-content-around") {
+      @include it('lg\:place-content-around') {
         @include assert {
           @include output {
             @include lg\:place-content-around;
@@ -425,7 +425,7 @@
         }
       }
 
-      @include it("lg\:place-content-evenly") {
+      @include it('lg\:place-content-evenly') {
         @include assert {
           @include output {
             @include lg\:place-content-evenly;
@@ -440,7 +440,7 @@
         }
       }
 
-      @include it("lg\:place-content-baseline") {
+      @include it('lg\:place-content-baseline') {
         @include assert {
           @include output {
             @include lg\:place-content-baseline;
@@ -455,7 +455,7 @@
         }
       }
 
-      @include it("lg\:place-content-stretch") {
+      @include it('lg\:place-content-stretch') {
         @include assert {
           @include output {
             @include lg\:place-content-stretch;
@@ -470,7 +470,7 @@
         }
       }
 
-      @include it("xl\:place-content-center") {
+      @include it('xl\:place-content-center') {
         @include assert {
           @include output {
             @include xl\:place-content-center;
@@ -485,7 +485,7 @@
         }
       }
 
-      @include it("xl\:place-content-start") {
+      @include it('xl\:place-content-start') {
         @include assert {
           @include output {
             @include xl\:place-content-start;
@@ -500,7 +500,7 @@
         }
       }
 
-      @include it("xl\:place-content-end") {
+      @include it('xl\:place-content-end') {
         @include assert {
           @include output {
             @include xl\:place-content-end;
@@ -515,7 +515,7 @@
         }
       }
 
-      @include it("xl\:place-content-between") {
+      @include it('xl\:place-content-between') {
         @include assert {
           @include output {
             @include xl\:place-content-between;
@@ -530,7 +530,7 @@
         }
       }
 
-      @include it("xl\:place-content-around") {
+      @include it('xl\:place-content-around') {
         @include assert {
           @include output {
             @include xl\:place-content-around;
@@ -545,7 +545,7 @@
         }
       }
 
-      @include it("xl\:place-content-evenly") {
+      @include it('xl\:place-content-evenly') {
         @include assert {
           @include output {
             @include xl\:place-content-evenly;
@@ -560,7 +560,7 @@
         }
       }
 
-      @include it("xl\:place-content-baseline") {
+      @include it('xl\:place-content-baseline') {
         @include assert {
           @include output {
             @include xl\:place-content-baseline;
@@ -575,7 +575,7 @@
         }
       }
 
-      @include it("xl\:place-content-stretch") {
+      @include it('xl\:place-content-stretch') {
         @include assert {
           @include output {
             @include xl\:place-content-stretch;
@@ -590,7 +590,7 @@
         }
       }
 
-      @include it("2xl\:place-content-center") {
+      @include it('2xl\:place-content-center') {
         @include assert {
           @include output {
             @include \2xl\:place-content-center;
@@ -605,7 +605,7 @@
         }
       }
 
-      @include it("2xl\:place-content-start") {
+      @include it('2xl\:place-content-start') {
         @include assert {
           @include output {
             @include \2xl\:place-content-start;
@@ -620,7 +620,7 @@
         }
       }
 
-      @include it("2xl\:place-content-end") {
+      @include it('2xl\:place-content-end') {
         @include assert {
           @include output {
             @include \2xl\:place-content-end;
@@ -635,7 +635,7 @@
         }
       }
 
-      @include it("2xl\:place-content-between") {
+      @include it('2xl\:place-content-between') {
         @include assert {
           @include output {
             @include \2xl\:place-content-between;
@@ -650,7 +650,7 @@
         }
       }
 
-      @include it("2xl\:place-content-around") {
+      @include it('2xl\:place-content-around') {
         @include assert {
           @include output {
             @include \2xl\:place-content-around;
@@ -665,7 +665,7 @@
         }
       }
 
-      @include it("2xl\:place-content-evenly") {
+      @include it('2xl\:place-content-evenly') {
         @include assert {
           @include output {
             @include \2xl\:place-content-evenly;
@@ -680,7 +680,7 @@
         }
       }
 
-      @include it("2xl\:place-content-baseline") {
+      @include it('2xl\:place-content-baseline') {
         @include assert {
           @include output {
             @include \2xl\:place-content-baseline;
@@ -695,7 +695,7 @@
         }
       }
 
-      @include it("2xl\:place-content-stretch") {
+      @include it('2xl\:place-content-stretch') {
         @include assert {
           @include output {
             @include \2xl\:place-content-stretch;

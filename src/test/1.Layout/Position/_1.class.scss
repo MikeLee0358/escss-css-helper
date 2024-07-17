@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("1.Layout") {
-  @include describe("Position") {
-    @include describe("Basic") {
-      @include it("static") {
+@include describe('1.Layout') {
+  @include describe('Position') {
+    @include describe('Basic') {
+      @include it('static') {
         @include assert {
           @include output {
             @include static;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("fixed") {
+      @include it('fixed') {
         @include assert {
           @include output {
             @include fixed;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("absolute") {
+      @include it('absolute') {
         @include assert {
           @include output {
             @include absolute;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("relative") {
+      @include it('relative') {
         @include assert {
           @include output {
             @include relative;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("sticky") {
+      @include it('sticky') {
         @include assert {
           @include output {
             @include sticky;
@@ -69,8 +69,8 @@
         }
       }
     }
-    @include describe("Rwd") {
-      @include it("sm\:static") {
+    @include describe('Rwd') {
+      @include it('sm\:static') {
         @include assert {
           @include output {
             @include sm\:static;
@@ -85,7 +85,7 @@
         }
       }
 
-      @include it("sm\:fixed") {
+      @include it('sm\:fixed') {
         @include assert {
           @include output {
             @include sm\:fixed;
@@ -100,7 +100,7 @@
         }
       }
 
-      @include it("sm\:absolute") {
+      @include it('sm\:absolute') {
         @include assert {
           @include output {
             @include sm\:absolute;
@@ -115,7 +115,7 @@
         }
       }
 
-      @include it("sm\:relative") {
+      @include it('sm\:relative') {
         @include assert {
           @include output {
             @include sm\:relative;
@@ -130,7 +130,7 @@
         }
       }
 
-      @include it("sm\:sticky") {
+      @include it('sm\:sticky') {
         @include assert {
           @include output {
             @include sm\:sticky;
@@ -145,7 +145,7 @@
         }
       }
 
-      @include it("md\:static") {
+      @include it('md\:static') {
         @include assert {
           @include output {
             @include md\:static;
@@ -160,7 +160,7 @@
         }
       }
 
-      @include it("md\:fixed") {
+      @include it('md\:fixed') {
         @include assert {
           @include output {
             @include md\:fixed;
@@ -175,7 +175,7 @@
         }
       }
 
-      @include it("md\:absolute") {
+      @include it('md\:absolute') {
         @include assert {
           @include output {
             @include md\:absolute;
@@ -190,7 +190,7 @@
         }
       }
 
-      @include it("md\:relative") {
+      @include it('md\:relative') {
         @include assert {
           @include output {
             @include md\:relative;
@@ -205,7 +205,7 @@
         }
       }
 
-      @include it("md\:sticky") {
+      @include it('md\:sticky') {
         @include assert {
           @include output {
             @include md\:sticky;
@@ -220,7 +220,7 @@
         }
       }
 
-      @include it("lg\:static") {
+      @include it('lg\:static') {
         @include assert {
           @include output {
             @include lg\:static;
@@ -235,7 +235,7 @@
         }
       }
 
-      @include it("lg\:fixed") {
+      @include it('lg\:fixed') {
         @include assert {
           @include output {
             @include lg\:fixed;
@@ -250,7 +250,7 @@
         }
       }
 
-      @include it("lg\:absolute") {
+      @include it('lg\:absolute') {
         @include assert {
           @include output {
             @include lg\:absolute;
@@ -265,7 +265,7 @@
         }
       }
 
-      @include it("lg\:relative") {
+      @include it('lg\:relative') {
         @include assert {
           @include output {
             @include lg\:relative;
@@ -280,7 +280,7 @@
         }
       }
 
-      @include it("lg\:sticky") {
+      @include it('lg\:sticky') {
         @include assert {
           @include output {
             @include lg\:sticky;
@@ -295,7 +295,7 @@
         }
       }
 
-      @include it("xl\:static") {
+      @include it('xl\:static') {
         @include assert {
           @include output {
             @include xl\:static;
@@ -310,7 +310,7 @@
         }
       }
 
-      @include it("xl\:fixed") {
+      @include it('xl\:fixed') {
         @include assert {
           @include output {
             @include xl\:fixed;
@@ -325,7 +325,7 @@
         }
       }
 
-      @include it("xl\:absolute") {
+      @include it('xl\:absolute') {
         @include assert {
           @include output {
             @include xl\:absolute;
@@ -340,7 +340,7 @@
         }
       }
 
-      @include it("xl\:relative") {
+      @include it('xl\:relative') {
         @include assert {
           @include output {
             @include xl\:relative;
@@ -355,7 +355,7 @@
         }
       }
 
-      @include it("xl\:sticky") {
+      @include it('xl\:sticky') {
         @include assert {
           @include output {
             @include xl\:sticky;
@@ -370,7 +370,7 @@
         }
       }
 
-      @include it("2xl\:static") {
+      @include it('2xl\:static') {
         @include assert {
           @include output {
             @include \2xl\:static;
@@ -385,7 +385,7 @@
         }
       }
 
-      @include it("2xl\:fixed") {
+      @include it('2xl\:fixed') {
         @include assert {
           @include output {
             @include \2xl\:fixed;
@@ -400,7 +400,7 @@
         }
       }
 
-      @include it("2xl\:absolute") {
+      @include it('2xl\:absolute') {
         @include assert {
           @include output {
             @include \2xl\:absolute;
@@ -415,7 +415,7 @@
         }
       }
 
-      @include it("2xl\:relative") {
+      @include it('2xl\:relative') {
         @include assert {
           @include output {
             @include \2xl\:relative;
@@ -430,7 +430,7 @@
         }
       }
 
-      @include it("2xl\:sticky") {
+      @include it('2xl\:sticky') {
         @include assert {
           @include output {
             @include \2xl\:sticky;

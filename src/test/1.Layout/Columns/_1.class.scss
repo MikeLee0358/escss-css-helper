@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("1.Layout") {
-  @include describe("Columns") {
-    @include describe("Basic") {
-      @include it("columns-1") {
+@include describe('1.Layout') {
+  @include describe('Columns') {
+    @include describe('Basic') {
+      @include it('columns-1') {
         @include assert {
           @include output {
             @include columns-1;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("columns-2") {
+      @include it('columns-2') {
         @include assert {
           @include output {
             @include columns-2;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("columns-3") {
+      @include it('columns-3') {
         @include assert {
           @include output {
             @include columns-3;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("columns-4") {
+      @include it('columns-4') {
         @include assert {
           @include output {
             @include columns-4;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("columns-5") {
+      @include it('columns-5') {
         @include assert {
           @include output {
             @include columns-5;
@@ -69,7 +69,7 @@
         }
       }
 
-      @include it("columns-6") {
+      @include it('columns-6') {
         @include assert {
           @include output {
             @include columns-6;
@@ -82,7 +82,7 @@
         }
       }
 
-      @include it("columns-7") {
+      @include it('columns-7') {
         @include assert {
           @include output {
             @include columns-7;
@@ -95,7 +95,7 @@
         }
       }
 
-      @include it("columns-8") {
+      @include it('columns-8') {
         @include assert {
           @include output {
             @include columns-8;
@@ -108,7 +108,7 @@
         }
       }
 
-      @include it("columns-9") {
+      @include it('columns-9') {
         @include assert {
           @include output {
             @include columns-9;
@@ -121,7 +121,7 @@
         }
       }
 
-      @include it("columns-10") {
+      @include it('columns-10') {
         @include assert {
           @include output {
             @include columns-10;
@@ -134,7 +134,7 @@
         }
       }
 
-      @include it("columns-11") {
+      @include it('columns-11') {
         @include assert {
           @include output {
             @include columns-11;
@@ -147,7 +147,7 @@
         }
       }
 
-      @include it("columns-12") {
+      @include it('columns-12') {
         @include assert {
           @include output {
             @include columns-12;
@@ -160,7 +160,7 @@
         }
       }
 
-      @include it("columns-auto") {
+      @include it('columns-auto') {
         @include assert {
           @include output {
             @include columns-auto;
@@ -173,7 +173,7 @@
         }
       }
 
-      @include it("columns-3xs") {
+      @include it('columns-3xs') {
         @include assert {
           @include output {
             @include columns-3xs;
@@ -186,7 +186,7 @@
         }
       }
 
-      @include it("columns-2xs") {
+      @include it('columns-2xs') {
         @include assert {
           @include output {
             @include columns-2xs;
@@ -199,7 +199,7 @@
         }
       }
 
-      @include it("columns-xs") {
+      @include it('columns-xs') {
         @include assert {
           @include output {
             @include columns-xs;
@@ -212,7 +212,7 @@
         }
       }
 
-      @include it("columns-sm") {
+      @include it('columns-sm') {
         @include assert {
           @include output {
             @include columns-sm;
@@ -225,7 +225,7 @@
         }
       }
 
-      @include it("columns-md") {
+      @include it('columns-md') {
         @include assert {
           @include output {
             @include columns-md;
@@ -238,7 +238,7 @@
         }
       }
 
-      @include it("columns-lg") {
+      @include it('columns-lg') {
         @include assert {
           @include output {
             @include columns-lg;
@@ -251,7 +251,7 @@
         }
       }
 
-      @include it("columns-xl") {
+      @include it('columns-xl') {
         @include assert {
           @include output {
             @include columns-xl;
@@ -264,7 +264,7 @@
         }
       }
 
-      @include it("columns-2xl") {
+      @include it('columns-2xl') {
         @include assert {
           @include output {
             @include columns-2xl;
@@ -277,7 +277,7 @@
         }
       }
 
-      @include it("columns-3xl") {
+      @include it('columns-3xl') {
         @include assert {
           @include output {
             @include columns-3xl;
@@ -290,7 +290,7 @@
         }
       }
 
-      @include it("columns-4xl") {
+      @include it('columns-4xl') {
         @include assert {
           @include output {
             @include columns-4xl;
@@ -303,7 +303,7 @@
         }
       }
 
-      @include it("columns-5xl") {
+      @include it('columns-5xl') {
         @include assert {
           @include output {
             @include columns-5xl;
@@ -316,7 +316,7 @@
         }
       }
 
-      @include it("columns-6xl") {
+      @include it('columns-6xl') {
         @include assert {
           @include output {
             @include columns-6xl;
@@ -329,7 +329,7 @@
         }
       }
 
-      @include it("columns-7xl") {
+      @include it('columns-7xl') {
         @include assert {
           @include output {
             @include columns-7xl;
@@ -343,8 +343,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:columns-1") {
+    @include describe('Rwd') {
+      @include it('sm\:columns-1') {
         @include assert {
           @include output {
             @include sm\:columns-1;
@@ -359,7 +359,7 @@
         }
       }
 
-      @include it("sm\:columns-2") {
+      @include it('sm\:columns-2') {
         @include assert {
           @include output {
             @include sm\:columns-2;
@@ -374,7 +374,7 @@
         }
       }
 
-      @include it("sm\:columns-3") {
+      @include it('sm\:columns-3') {
         @include assert {
           @include output {
             @include sm\:columns-3;
@@ -392,7 +392,7 @@
         }
       }
 
-      @include it("sm\:columns-4") {
+      @include it('sm\:columns-4') {
         @include assert {
           @include output {
             @include sm\:columns-4;
@@ -407,7 +407,7 @@
         }
       }
 
-      @include it("sm\:columns-5") {
+      @include it('sm\:columns-5') {
         @include assert {
           @include output {
             @include sm\:columns-5;
@@ -422,7 +422,7 @@
         }
       }
 
-      @include it("sm\:columns-6") {
+      @include it('sm\:columns-6') {
         @include assert {
           @include output {
             @include sm\:columns-6;
@@ -437,7 +437,7 @@
         }
       }
 
-      @include it("sm\:columns-7") {
+      @include it('sm\:columns-7') {
         @include assert {
           @include output {
             @include sm\:columns-7;
@@ -452,7 +452,7 @@
         }
       }
 
-      @include it("sm\:columns-8") {
+      @include it('sm\:columns-8') {
         @include assert {
           @include output {
             @include sm\:columns-8;
@@ -467,7 +467,7 @@
         }
       }
 
-      @include it("sm\:columns-9") {
+      @include it('sm\:columns-9') {
         @include assert {
           @include output {
             @include sm\:columns-9;
@@ -482,7 +482,7 @@
         }
       }
 
-      @include it("sm\:columns-10") {
+      @include it('sm\:columns-10') {
         @include assert {
           @include output {
             @include sm\:columns-10;
@@ -497,7 +497,7 @@
         }
       }
 
-      @include it("sm\:columns-11") {
+      @include it('sm\:columns-11') {
         @include assert {
           @include output {
             @include sm\:columns-11;
@@ -512,7 +512,7 @@
         }
       }
 
-      @include it("sm\:columns-12") {
+      @include it('sm\:columns-12') {
         @include assert {
           @include output {
             @include sm\:columns-12;
@@ -527,7 +527,7 @@
         }
       }
 
-      @include it("sm\:columns-auto") {
+      @include it('sm\:columns-auto') {
         @include assert {
           @include output {
             @include sm\:columns-auto;
@@ -542,7 +542,7 @@
         }
       }
 
-      @include it("sm\:columns-3xs") {
+      @include it('sm\:columns-3xs') {
         @include assert {
           @include output {
             @include sm\:columns-3xs;
@@ -557,7 +557,7 @@
         }
       }
 
-      @include it("sm\:columns-2xs") {
+      @include it('sm\:columns-2xs') {
         @include assert {
           @include output {
             @include sm\:columns-2xs;
@@ -572,7 +572,7 @@
         }
       }
 
-      @include it("sm\:columns-xs") {
+      @include it('sm\:columns-xs') {
         @include assert {
           @include output {
             @include sm\:columns-xs;
@@ -587,7 +587,7 @@
         }
       }
 
-      @include it("sm\:columns-sm") {
+      @include it('sm\:columns-sm') {
         @include assert {
           @include output {
             @include sm\:columns-sm;
@@ -602,7 +602,7 @@
         }
       }
 
-      @include it("sm\:columns-md") {
+      @include it('sm\:columns-md') {
         @include assert {
           @include output {
             @include sm\:columns-md;
@@ -617,7 +617,7 @@
         }
       }
 
-      @include it("sm\:columns-lg") {
+      @include it('sm\:columns-lg') {
         @include assert {
           @include output {
             @include sm\:columns-lg;
@@ -632,7 +632,7 @@
         }
       }
 
-      @include it("sm\:columns-xl") {
+      @include it('sm\:columns-xl') {
         @include assert {
           @include output {
             @include sm\:columns-xl;
@@ -647,7 +647,7 @@
         }
       }
 
-      @include it("sm\:columns-2xl") {
+      @include it('sm\:columns-2xl') {
         @include assert {
           @include output {
             @include sm\:columns-2xl;
@@ -662,7 +662,7 @@
         }
       }
 
-      @include it("sm\:columns-3xl") {
+      @include it('sm\:columns-3xl') {
         @include assert {
           @include output {
             @include sm\:columns-3xl;
@@ -677,7 +677,7 @@
         }
       }
 
-      @include it("sm\:columns-4xl") {
+      @include it('sm\:columns-4xl') {
         @include assert {
           @include output {
             @include sm\:columns-4xl;
@@ -692,7 +692,7 @@
         }
       }
 
-      @include it("sm\:columns-5xl") {
+      @include it('sm\:columns-5xl') {
         @include assert {
           @include output {
             @include sm\:columns-5xl;
@@ -707,7 +707,7 @@
         }
       }
 
-      @include it("sm\:columns-6xl") {
+      @include it('sm\:columns-6xl') {
         @include assert {
           @include output {
             @include sm\:columns-6xl;
@@ -722,7 +722,7 @@
         }
       }
 
-      @include it("sm\:columns-7xl") {
+      @include it('sm\:columns-7xl') {
         @include assert {
           @include output {
             @include sm\:columns-7xl;
@@ -737,7 +737,7 @@
         }
       }
 
-      @include it("md\:columns-1") {
+      @include it('md\:columns-1') {
         @include assert {
           @include output {
             @include md\:columns-1;
@@ -752,7 +752,7 @@
         }
       }
 
-      @include it("md\:columns-2") {
+      @include it('md\:columns-2') {
         @include assert {
           @include output {
             @include md\:columns-2;
@@ -767,7 +767,7 @@
         }
       }
 
-      @include it("md\:columns-3") {
+      @include it('md\:columns-3') {
         @include assert {
           @include output {
             @include md\:columns-3;
@@ -785,7 +785,7 @@
         }
       }
 
-      @include it("md\:columns-4") {
+      @include it('md\:columns-4') {
         @include assert {
           @include output {
             @include md\:columns-4;
@@ -800,7 +800,7 @@
         }
       }
 
-      @include it("md\:columns-5") {
+      @include it('md\:columns-5') {
         @include assert {
           @include output {
             @include md\:columns-5;
@@ -815,7 +815,7 @@
         }
       }
 
-      @include it("md\:columns-6") {
+      @include it('md\:columns-6') {
         @include assert {
           @include output {
             @include md\:columns-6;
@@ -830,7 +830,7 @@
         }
       }
 
-      @include it("md\:columns-7") {
+      @include it('md\:columns-7') {
         @include assert {
           @include output {
             @include md\:columns-7;
@@ -845,7 +845,7 @@
         }
       }
 
-      @include it("md\:columns-8") {
+      @include it('md\:columns-8') {
         @include assert {
           @include output {
             @include md\:columns-8;
@@ -860,7 +860,7 @@
         }
       }
 
-      @include it("md\:columns-9") {
+      @include it('md\:columns-9') {
         @include assert {
           @include output {
             @include md\:columns-9;
@@ -875,7 +875,7 @@
         }
       }
 
-      @include it("md\:columns-10") {
+      @include it('md\:columns-10') {
         @include assert {
           @include output {
             @include md\:columns-10;
@@ -890,7 +890,7 @@
         }
       }
 
-      @include it("md\:columns-11") {
+      @include it('md\:columns-11') {
         @include assert {
           @include output {
             @include md\:columns-11;
@@ -905,7 +905,7 @@
         }
       }
 
-      @include it("md\:columns-12") {
+      @include it('md\:columns-12') {
         @include assert {
           @include output {
             @include md\:columns-12;
@@ -920,7 +920,7 @@
         }
       }
 
-      @include it("md\:columns-auto") {
+      @include it('md\:columns-auto') {
         @include assert {
           @include output {
             @include md\:columns-auto;
@@ -935,7 +935,7 @@
         }
       }
 
-      @include it("md\:columns-3xs") {
+      @include it('md\:columns-3xs') {
         @include assert {
           @include output {
             @include md\:columns-3xs;
@@ -950,7 +950,7 @@
         }
       }
 
-      @include it("md\:columns-2xs") {
+      @include it('md\:columns-2xs') {
         @include assert {
           @include output {
             @include md\:columns-2xs;
@@ -965,7 +965,7 @@
         }
       }
 
-      @include it("md\:columns-xs") {
+      @include it('md\:columns-xs') {
         @include assert {
           @include output {
             @include md\:columns-xs;
@@ -980,7 +980,7 @@
         }
       }
 
-      @include it("md\:columns-sm") {
+      @include it('md\:columns-sm') {
         @include assert {
           @include output {
             @include md\:columns-sm;
@@ -995,7 +995,7 @@
         }
       }
 
-      @include it("md\:columns-md") {
+      @include it('md\:columns-md') {
         @include assert {
           @include output {
             @include md\:columns-md;
@@ -1010,7 +1010,7 @@
         }
       }
 
-      @include it("md\:columns-lg") {
+      @include it('md\:columns-lg') {
         @include assert {
           @include output {
             @include md\:columns-lg;
@@ -1025,7 +1025,7 @@
         }
       }
 
-      @include it("md\:columns-xl") {
+      @include it('md\:columns-xl') {
         @include assert {
           @include output {
             @include md\:columns-xl;
@@ -1040,7 +1040,7 @@
         }
       }
 
-      @include it("md\:columns-2xl") {
+      @include it('md\:columns-2xl') {
         @include assert {
           @include output {
             @include md\:columns-2xl;
@@ -1055,7 +1055,7 @@
         }
       }
 
-      @include it("md\:columns-3xl") {
+      @include it('md\:columns-3xl') {
         @include assert {
           @include output {
             @include md\:columns-3xl;
@@ -1070,7 +1070,7 @@
         }
       }
 
-      @include it("md\:columns-4xl") {
+      @include it('md\:columns-4xl') {
         @include assert {
           @include output {
             @include md\:columns-4xl;
@@ -1085,7 +1085,7 @@
         }
       }
 
-      @include it("md\:columns-5xl") {
+      @include it('md\:columns-5xl') {
         @include assert {
           @include output {
             @include md\:columns-5xl;
@@ -1100,7 +1100,7 @@
         }
       }
 
-      @include it("md\:columns-6xl") {
+      @include it('md\:columns-6xl') {
         @include assert {
           @include output {
             @include md\:columns-6xl;
@@ -1115,7 +1115,7 @@
         }
       }
 
-      @include it("md\:columns-7xl") {
+      @include it('md\:columns-7xl') {
         @include assert {
           @include output {
             @include md\:columns-7xl;
@@ -1130,7 +1130,7 @@
         }
       }
 
-      @include it("lg\:columns-1") {
+      @include it('lg\:columns-1') {
         @include assert {
           @include output {
             @include lg\:columns-1;
@@ -1145,7 +1145,7 @@
         }
       }
 
-      @include it("lg\:columns-2") {
+      @include it('lg\:columns-2') {
         @include assert {
           @include output {
             @include lg\:columns-2;
@@ -1160,7 +1160,7 @@
         }
       }
 
-      @include it("lg\:columns-3") {
+      @include it('lg\:columns-3') {
         @include assert {
           @include output {
             @include lg\:columns-3;
@@ -1178,7 +1178,7 @@
         }
       }
 
-      @include it("lg\:columns-4") {
+      @include it('lg\:columns-4') {
         @include assert {
           @include output {
             @include lg\:columns-4;
@@ -1193,7 +1193,7 @@
         }
       }
 
-      @include it("lg\:columns-5") {
+      @include it('lg\:columns-5') {
         @include assert {
           @include output {
             @include lg\:columns-5;
@@ -1208,7 +1208,7 @@
         }
       }
 
-      @include it("lg\:columns-6") {
+      @include it('lg\:columns-6') {
         @include assert {
           @include output {
             @include lg\:columns-6;
@@ -1223,7 +1223,7 @@
         }
       }
 
-      @include it("lg\:columns-7") {
+      @include it('lg\:columns-7') {
         @include assert {
           @include output {
             @include lg\:columns-7;
@@ -1238,7 +1238,7 @@
         }
       }
 
-      @include it("lg\:columns-8") {
+      @include it('lg\:columns-8') {
         @include assert {
           @include output {
             @include lg\:columns-8;
@@ -1253,7 +1253,7 @@
         }
       }
 
-      @include it("lg\:columns-9") {
+      @include it('lg\:columns-9') {
         @include assert {
           @include output {
             @include lg\:columns-9;
@@ -1268,7 +1268,7 @@
         }
       }
 
-      @include it("lg\:columns-10") {
+      @include it('lg\:columns-10') {
         @include assert {
           @include output {
             @include lg\:columns-10;
@@ -1283,7 +1283,7 @@
         }
       }
 
-      @include it("lg\:columns-11") {
+      @include it('lg\:columns-11') {
         @include assert {
           @include output {
             @include lg\:columns-11;
@@ -1298,7 +1298,7 @@
         }
       }
 
-      @include it("lg\:columns-12") {
+      @include it('lg\:columns-12') {
         @include assert {
           @include output {
             @include lg\:columns-12;
@@ -1313,7 +1313,7 @@
         }
       }
 
-      @include it("lg\:columns-auto") {
+      @include it('lg\:columns-auto') {
         @include assert {
           @include output {
             @include lg\:columns-auto;
@@ -1328,7 +1328,7 @@
         }
       }
 
-      @include it("lg\:columns-3xs") {
+      @include it('lg\:columns-3xs') {
         @include assert {
           @include output {
             @include lg\:columns-3xs;
@@ -1343,7 +1343,7 @@
         }
       }
 
-      @include it("lg\:columns-2xs") {
+      @include it('lg\:columns-2xs') {
         @include assert {
           @include output {
             @include lg\:columns-2xs;
@@ -1358,7 +1358,7 @@
         }
       }
 
-      @include it("lg\:columns-xs") {
+      @include it('lg\:columns-xs') {
         @include assert {
           @include output {
             @include lg\:columns-xs;
@@ -1373,7 +1373,7 @@
         }
       }
 
-      @include it("lg\:columns-sm") {
+      @include it('lg\:columns-sm') {
         @include assert {
           @include output {
             @include lg\:columns-sm;
@@ -1388,7 +1388,7 @@
         }
       }
 
-      @include it("lg\:columns-md") {
+      @include it('lg\:columns-md') {
         @include assert {
           @include output {
             @include lg\:columns-md;
@@ -1403,7 +1403,7 @@
         }
       }
 
-      @include it("lg\:columns-lg") {
+      @include it('lg\:columns-lg') {
         @include assert {
           @include output {
             @include lg\:columns-lg;
@@ -1418,7 +1418,7 @@
         }
       }
 
-      @include it("lg\:columns-xl") {
+      @include it('lg\:columns-xl') {
         @include assert {
           @include output {
             @include lg\:columns-xl;
@@ -1433,7 +1433,7 @@
         }
       }
 
-      @include it("lg\:columns-2xl") {
+      @include it('lg\:columns-2xl') {
         @include assert {
           @include output {
             @include lg\:columns-2xl;
@@ -1448,7 +1448,7 @@
         }
       }
 
-      @include it("lg\:columns-3xl") {
+      @include it('lg\:columns-3xl') {
         @include assert {
           @include output {
             @include lg\:columns-3xl;
@@ -1463,7 +1463,7 @@
         }
       }
 
-      @include it("lg\:columns-4xl") {
+      @include it('lg\:columns-4xl') {
         @include assert {
           @include output {
             @include lg\:columns-4xl;
@@ -1478,7 +1478,7 @@
         }
       }
 
-      @include it("lg\:columns-5xl") {
+      @include it('lg\:columns-5xl') {
         @include assert {
           @include output {
             @include lg\:columns-5xl;
@@ -1493,7 +1493,7 @@
         }
       }
 
-      @include it("lg\:columns-6xl") {
+      @include it('lg\:columns-6xl') {
         @include assert {
           @include output {
             @include lg\:columns-6xl;
@@ -1508,7 +1508,7 @@
         }
       }
 
-      @include it("lg\:columns-7xl") {
+      @include it('lg\:columns-7xl') {
         @include assert {
           @include output {
             @include lg\:columns-7xl;
@@ -1523,7 +1523,7 @@
         }
       }
 
-      @include it("xl\:columns-1") {
+      @include it('xl\:columns-1') {
         @include assert {
           @include output {
             @include xl\:columns-1;
@@ -1538,7 +1538,7 @@
         }
       }
 
-      @include it("xl\:columns-2") {
+      @include it('xl\:columns-2') {
         @include assert {
           @include output {
             @include xl\:columns-2;
@@ -1553,7 +1553,7 @@
         }
       }
 
-      @include it("xl\:columns-3") {
+      @include it('xl\:columns-3') {
         @include assert {
           @include output {
             @include xl\:columns-3;
@@ -1571,7 +1571,7 @@
         }
       }
 
-      @include it("xl\:columns-4") {
+      @include it('xl\:columns-4') {
         @include assert {
           @include output {
             @include xl\:columns-4;
@@ -1586,7 +1586,7 @@
         }
       }
 
-      @include it("xl\:columns-5") {
+      @include it('xl\:columns-5') {
         @include assert {
           @include output {
             @include xl\:columns-5;
@@ -1601,7 +1601,7 @@
         }
       }
 
-      @include it("xl\:columns-6") {
+      @include it('xl\:columns-6') {
         @include assert {
           @include output {
             @include xl\:columns-6;
@@ -1616,7 +1616,7 @@
         }
       }
 
-      @include it("xl\:columns-7") {
+      @include it('xl\:columns-7') {
         @include assert {
           @include output {
             @include xl\:columns-7;
@@ -1631,7 +1631,7 @@
         }
       }
 
-      @include it("xl\:columns-8") {
+      @include it('xl\:columns-8') {
         @include assert {
           @include output {
             @include xl\:columns-8;
@@ -1646,7 +1646,7 @@
         }
       }
 
-      @include it("xl\:columns-9") {
+      @include it('xl\:columns-9') {
         @include assert {
           @include output {
             @include xl\:columns-9;
@@ -1661,7 +1661,7 @@
         }
       }
 
-      @include it("xl\:columns-10") {
+      @include it('xl\:columns-10') {
         @include assert {
           @include output {
             @include xl\:columns-10;
@@ -1676,7 +1676,7 @@
         }
       }
 
-      @include it("xl\:columns-11") {
+      @include it('xl\:columns-11') {
         @include assert {
           @include output {
             @include xl\:columns-11;
@@ -1691,7 +1691,7 @@
         }
       }
 
-      @include it("xl\:columns-12") {
+      @include it('xl\:columns-12') {
         @include assert {
           @include output {
             @include xl\:columns-12;
@@ -1706,7 +1706,7 @@
         }
       }
 
-      @include it("xl\:columns-auto") {
+      @include it('xl\:columns-auto') {
         @include assert {
           @include output {
             @include xl\:columns-auto;
@@ -1721,7 +1721,7 @@
         }
       }
 
-      @include it("xl\:columns-3xs") {
+      @include it('xl\:columns-3xs') {
         @include assert {
           @include output {
             @include xl\:columns-3xs;
@@ -1736,7 +1736,7 @@
         }
       }
 
-      @include it("xl\:columns-2xs") {
+      @include it('xl\:columns-2xs') {
         @include assert {
           @include output {
             @include xl\:columns-2xs;
@@ -1751,7 +1751,7 @@
         }
       }
 
-      @include it("xl\:columns-xs") {
+      @include it('xl\:columns-xs') {
         @include assert {
           @include output {
             @include xl\:columns-xs;
@@ -1766,7 +1766,7 @@
         }
       }
 
-      @include it("xl\:columns-sm") {
+      @include it('xl\:columns-sm') {
         @include assert {
           @include output {
             @include xl\:columns-sm;
@@ -1781,7 +1781,7 @@
         }
       }
 
-      @include it("xl\:columns-md") {
+      @include it('xl\:columns-md') {
         @include assert {
           @include output {
             @include xl\:columns-md;
@@ -1796,7 +1796,7 @@
         }
       }
 
-      @include it("xl\:columns-lg") {
+      @include it('xl\:columns-lg') {
         @include assert {
           @include output {
             @include xl\:columns-lg;
@@ -1811,7 +1811,7 @@
         }
       }
 
-      @include it("xl\:columns-xl") {
+      @include it('xl\:columns-xl') {
         @include assert {
           @include output {
             @include xl\:columns-xl;
@@ -1826,7 +1826,7 @@
         }
       }
 
-      @include it("xl\:columns-2xl") {
+      @include it('xl\:columns-2xl') {
         @include assert {
           @include output {
             @include xl\:columns-2xl;
@@ -1841,7 +1841,7 @@
         }
       }
 
-      @include it("xl\:columns-3xl") {
+      @include it('xl\:columns-3xl') {
         @include assert {
           @include output {
             @include xl\:columns-3xl;
@@ -1856,7 +1856,7 @@
         }
       }
 
-      @include it("xl\:columns-4xl") {
+      @include it('xl\:columns-4xl') {
         @include assert {
           @include output {
             @include xl\:columns-4xl;
@@ -1871,7 +1871,7 @@
         }
       }
 
-      @include it("xl\:columns-5xl") {
+      @include it('xl\:columns-5xl') {
         @include assert {
           @include output {
             @include xl\:columns-5xl;
@@ -1886,7 +1886,7 @@
         }
       }
 
-      @include it("xl\:columns-6xl") {
+      @include it('xl\:columns-6xl') {
         @include assert {
           @include output {
             @include xl\:columns-6xl;
@@ -1901,7 +1901,7 @@
         }
       }
 
-      @include it("xl\:columns-7xl") {
+      @include it('xl\:columns-7xl') {
         @include assert {
           @include output {
             @include xl\:columns-7xl;
@@ -1916,7 +1916,7 @@
         }
       }
 
-      @include it("2xl\:columns-1") {
+      @include it('2xl\:columns-1') {
         @include assert {
           @include output {
             @include \2xl\:columns-1;
@@ -1931,7 +1931,7 @@
         }
       }
 
-      @include it("2xl\:columns-2") {
+      @include it('2xl\:columns-2') {
         @include assert {
           @include output {
             @include \2xl\:columns-2;
@@ -1946,7 +1946,7 @@
         }
       }
 
-      @include it("2xl\:columns-3") {
+      @include it('2xl\:columns-3') {
         @include assert {
           @include output {
             @include \2xl\:columns-3;
@@ -1964,7 +1964,7 @@
         }
       }
 
-      @include it("2xl\:columns-4") {
+      @include it('2xl\:columns-4') {
         @include assert {
           @include output {
             @include \2xl\:columns-4;
@@ -1979,7 +1979,7 @@
         }
       }
 
-      @include it("2xl\:columns-5") {
+      @include it('2xl\:columns-5') {
         @include assert {
           @include output {
             @include \2xl\:columns-5;
@@ -1994,7 +1994,7 @@
         }
       }
 
-      @include it("2xl\:columns-6") {
+      @include it('2xl\:columns-6') {
         @include assert {
           @include output {
             @include \2xl\:columns-6;
@@ -2009,7 +2009,7 @@
         }
       }
 
-      @include it("2xl\:columns-7") {
+      @include it('2xl\:columns-7') {
         @include assert {
           @include output {
             @include \2xl\:columns-7;
@@ -2024,7 +2024,7 @@
         }
       }
 
-      @include it("2xl\:columns-8") {
+      @include it('2xl\:columns-8') {
         @include assert {
           @include output {
             @include \2xl\:columns-8;
@@ -2039,7 +2039,7 @@
         }
       }
 
-      @include it("2xl\:columns-9") {
+      @include it('2xl\:columns-9') {
         @include assert {
           @include output {
             @include \2xl\:columns-9;
@@ -2054,7 +2054,7 @@
         }
       }
 
-      @include it("2xl\:columns-10") {
+      @include it('2xl\:columns-10') {
         @include assert {
           @include output {
             @include \2xl\:columns-10;
@@ -2069,7 +2069,7 @@
         }
       }
 
-      @include it("2xl\:columns-11") {
+      @include it('2xl\:columns-11') {
         @include assert {
           @include output {
             @include \2xl\:columns-11;
@@ -2084,7 +2084,7 @@
         }
       }
 
-      @include it("2xl\:columns-12") {
+      @include it('2xl\:columns-12') {
         @include assert {
           @include output {
             @include \2xl\:columns-12;
@@ -2099,7 +2099,7 @@
         }
       }
 
-      @include it("2xl\:columns-auto") {
+      @include it('2xl\:columns-auto') {
         @include assert {
           @include output {
             @include \2xl\:columns-auto;
@@ -2114,7 +2114,7 @@
         }
       }
 
-      @include it("2xl\:columns-3xs") {
+      @include it('2xl\:columns-3xs') {
         @include assert {
           @include output {
             @include \2xl\:columns-3xs;
@@ -2129,7 +2129,7 @@
         }
       }
 
-      @include it("2xl\:columns-2xs") {
+      @include it('2xl\:columns-2xs') {
         @include assert {
           @include output {
             @include \2xl\:columns-2xs;
@@ -2144,7 +2144,7 @@
         }
       }
 
-      @include it("2xl\:columns-xs") {
+      @include it('2xl\:columns-xs') {
         @include assert {
           @include output {
             @include \2xl\:columns-xs;
@@ -2159,7 +2159,7 @@
         }
       }
 
-      @include it("2xl\:columns-sm") {
+      @include it('2xl\:columns-sm') {
         @include assert {
           @include output {
             @include \2xl\:columns-sm;
@@ -2174,7 +2174,7 @@
         }
       }
 
-      @include it("2xl\:columns-md") {
+      @include it('2xl\:columns-md') {
         @include assert {
           @include output {
             @include \2xl\:columns-md;
@@ -2189,7 +2189,7 @@
         }
       }
 
-      @include it("2xl\:columns-lg") {
+      @include it('2xl\:columns-lg') {
         @include assert {
           @include output {
             @include \2xl\:columns-lg;
@@ -2204,7 +2204,7 @@
         }
       }
 
-      @include it("2xl\:columns-xl") {
+      @include it('2xl\:columns-xl') {
         @include assert {
           @include output {
             @include \2xl\:columns-xl;
@@ -2219,7 +2219,7 @@
         }
       }
 
-      @include it("2xl\:columns-2xl") {
+      @include it('2xl\:columns-2xl') {
         @include assert {
           @include output {
             @include \2xl\:columns-2xl;
@@ -2234,7 +2234,7 @@
         }
       }
 
-      @include it("2xl\:columns-3xl") {
+      @include it('2xl\:columns-3xl') {
         @include assert {
           @include output {
             @include \2xl\:columns-3xl;
@@ -2249,7 +2249,7 @@
         }
       }
 
-      @include it("2xl\:columns-4xl") {
+      @include it('2xl\:columns-4xl') {
         @include assert {
           @include output {
             @include \2xl\:columns-4xl;
@@ -2264,7 +2264,7 @@
         }
       }
 
-      @include it("2xl\:columns-5xl") {
+      @include it('2xl\:columns-5xl') {
         @include assert {
           @include output {
             @include \2xl\:columns-5xl;
@@ -2279,7 +2279,7 @@
         }
       }
 
-      @include it("2xl\:columns-6xl") {
+      @include it('2xl\:columns-6xl') {
         @include assert {
           @include output {
             @include \2xl\:columns-6xl;
@@ -2294,7 +2294,7 @@
         }
       }
 
-      @include it("2xl\:columns-7xl") {
+      @include it('2xl\:columns-7xl') {
         @include assert {
           @include output {
             @include \2xl\:columns-7xl;
@@ -2310,8 +2310,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("columns-(10rem)") {
+    @include describe('Custom') {
+      @include it('columns-(10rem)') {
         @include assert {
           @include output {
             @include columns-(10rem);
@@ -2324,7 +2324,7 @@
         }
       }
 
-      @include it("sm\:columns-(10rem)") {
+      @include it('sm\:columns-(10rem)') {
         @include assert {
           @include output {
             @include sm\:columns-(10rem);
@@ -2339,7 +2339,7 @@
         }
       }
 
-      @include it("md\:columns-(10rem)") {
+      @include it('md\:columns-(10rem)') {
         @include assert {
           @include output {
             @include md\:columns-(10rem);
@@ -2354,7 +2354,7 @@
         }
       }
 
-      @include it("md\:columns-(10rem)") {
+      @include it('md\:columns-(10rem)') {
         @include assert {
           @include output {
             @include md\:columns-(10rem);
@@ -2369,7 +2369,7 @@
         }
       }
 
-      @include it("lg\:columns-(10rem)") {
+      @include it('lg\:columns-(10rem)') {
         @include assert {
           @include output {
             @include lg\:columns-(10rem);
@@ -2384,7 +2384,7 @@
         }
       }
 
-      @include it("xl\:columns-(10rem)") {
+      @include it('xl\:columns-(10rem)') {
         @include assert {
           @include output {
             @include xl\:columns-(10rem);
@@ -2399,7 +2399,7 @@
         }
       }
 
-      @include it("2xl\:columns-(10rem)") {
+      @include it('2xl\:columns-(10rem)') {
         @include assert {
           @include output {
             @include \2xl\:columns-(10rem);

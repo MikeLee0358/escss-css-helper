@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("5.Typography") {
-  @include describe("Font Variant Numeric") {
-    @include describe("Basic") {
-      @include it("normal-nums") {
+@include describe('5.Typography') {
+  @include describe('Font Variant Numeric') {
+    @include describe('Basic') {
+      @include it('normal-nums') {
         @include assert {
           @include output {
             @include normal-nums;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("ordinal") {
+      @include it('ordinal') {
         @include assert {
           @include output {
             @include ordinal;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("slashed-zero") {
+      @include it('slashed-zero') {
         @include assert {
           @include output {
             @include slashed-zero;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("lining-nums") {
+      @include it('lining-nums') {
         @include assert {
           @include output {
             @include lining-nums;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("oldstyle-nums") {
+      @include it('oldstyle-nums') {
         @include assert {
           @include output {
             @include oldstyle-nums;
@@ -69,7 +69,7 @@
         }
       }
 
-      @include it("proportional-nums") {
+      @include it('proportional-nums') {
         @include assert {
           @include output {
             @include proportional-nums;
@@ -82,7 +82,7 @@
         }
       }
 
-      @include it("tabular-nums") {
+      @include it('tabular-nums') {
         @include assert {
           @include output {
             @include tabular-nums;
@@ -95,7 +95,7 @@
         }
       }
 
-      @include it("diagonal-fractions") {
+      @include it('diagonal-fractions') {
         @include assert {
           @include output {
             @include diagonal-fractions;
@@ -108,7 +108,7 @@
         }
       }
 
-      @include it("stacked-fractions") {
+      @include it('stacked-fractions') {
         @include assert {
           @include output {
             @include stacked-fractions;
@@ -122,8 +122,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:normal-nums") {
+    @include describe('Rwd') {
+      @include it('sm\:normal-nums') {
         @include assert {
           @include output {
             @include sm\:normal-nums;
@@ -138,7 +138,7 @@
         }
       }
 
-      @include it("sm\:ordinal") {
+      @include it('sm\:ordinal') {
         @include assert {
           @include output {
             @include sm\:ordinal;
@@ -153,7 +153,7 @@
         }
       }
 
-      @include it("sm\:slashed-zero") {
+      @include it('sm\:slashed-zero') {
         @include assert {
           @include output {
             @include sm\:slashed-zero;
@@ -168,7 +168,7 @@
         }
       }
 
-      @include it("sm\:lining-nums") {
+      @include it('sm\:lining-nums') {
         @include assert {
           @include output {
             @include sm\:lining-nums;
@@ -183,7 +183,7 @@
         }
       }
 
-      @include it("sm\:oldstyle-nums") {
+      @include it('sm\:oldstyle-nums') {
         @include assert {
           @include output {
             @include sm\:oldstyle-nums;
@@ -198,7 +198,7 @@
         }
       }
 
-      @include it("sm\:proportional-nums") {
+      @include it('sm\:proportional-nums') {
         @include assert {
           @include output {
             @include sm\:proportional-nums;
@@ -213,7 +213,7 @@
         }
       }
 
-      @include it("sm\:tabular-nums") {
+      @include it('sm\:tabular-nums') {
         @include assert {
           @include output {
             @include sm\:tabular-nums;
@@ -228,7 +228,7 @@
         }
       }
 
-      @include it("sm\:diagonal-fractions") {
+      @include it('sm\:diagonal-fractions') {
         @include assert {
           @include output {
             @include sm\:diagonal-fractions;
@@ -243,7 +243,7 @@
         }
       }
 
-      @include it("sm\:stacked-fractions") {
+      @include it('sm\:stacked-fractions') {
         @include assert {
           @include output {
             @include sm\:stacked-fractions;
@@ -258,7 +258,7 @@
         }
       }
 
-      @include it("md\:normal-nums") {
+      @include it('md\:normal-nums') {
         @include assert {
           @include output {
             @include md\:normal-nums;
@@ -273,7 +273,7 @@
         }
       }
 
-      @include it("md\:ordinal") {
+      @include it('md\:ordinal') {
         @include assert {
           @include output {
             @include md\:ordinal;
@@ -288,7 +288,7 @@
         }
       }
 
-      @include it("md\:slashed-zero") {
+      @include it('md\:slashed-zero') {
         @include assert {
           @include output {
             @include md\:slashed-zero;
@@ -303,7 +303,7 @@
         }
       }
 
-      @include it("md\:lining-nums") {
+      @include it('md\:lining-nums') {
         @include assert {
           @include output {
             @include md\:lining-nums;
@@ -318,7 +318,7 @@
         }
       }
 
-      @include it("md\:oldstyle-nums") {
+      @include it('md\:oldstyle-nums') {
         @include assert {
           @include output {
             @include md\:oldstyle-nums;
@@ -333,7 +333,7 @@
         }
       }
 
-      @include it("md\:proportional-nums") {
+      @include it('md\:proportional-nums') {
         @include assert {
           @include output {
             @include md\:proportional-nums;
@@ -348,7 +348,7 @@
         }
       }
 
-      @include it("md\:tabular-nums") {
+      @include it('md\:tabular-nums') {
         @include assert {
           @include output {
             @include md\:tabular-nums;
@@ -363,7 +363,7 @@
         }
       }
 
-      @include it("md\:diagonal-fractions") {
+      @include it('md\:diagonal-fractions') {
         @include assert {
           @include output {
             @include md\:diagonal-fractions;
@@ -378,7 +378,7 @@
         }
       }
 
-      @include it("md\:stacked-fractions") {
+      @include it('md\:stacked-fractions') {
         @include assert {
           @include output {
             @include md\:stacked-fractions;
@@ -393,7 +393,7 @@
         }
       }
 
-      @include it("lg\:normal-nums") {
+      @include it('lg\:normal-nums') {
         @include assert {
           @include output {
             @include lg\:normal-nums;
@@ -408,7 +408,7 @@
         }
       }
 
-      @include it("lg\:ordinal") {
+      @include it('lg\:ordinal') {
         @include assert {
           @include output {
             @include lg\:ordinal;
@@ -423,7 +423,7 @@
         }
       }
 
-      @include it("lg\:slashed-zero") {
+      @include it('lg\:slashed-zero') {
         @include assert {
           @include output {
             @include lg\:slashed-zero;
@@ -438,7 +438,7 @@
         }
       }
 
-      @include it("lg\:lining-nums") {
+      @include it('lg\:lining-nums') {
         @include assert {
           @include output {
             @include lg\:lining-nums;
@@ -453,7 +453,7 @@
         }
       }
 
-      @include it("lg\:oldstyle-nums") {
+      @include it('lg\:oldstyle-nums') {
         @include assert {
           @include output {
             @include lg\:oldstyle-nums;
@@ -468,7 +468,7 @@
         }
       }
 
-      @include it("lg\:proportional-nums") {
+      @include it('lg\:proportional-nums') {
         @include assert {
           @include output {
             @include lg\:proportional-nums;
@@ -483,7 +483,7 @@
         }
       }
 
-      @include it("lg\:tabular-nums") {
+      @include it('lg\:tabular-nums') {
         @include assert {
           @include output {
             @include lg\:tabular-nums;
@@ -498,7 +498,7 @@
         }
       }
 
-      @include it("lg\:diagonal-fractions") {
+      @include it('lg\:diagonal-fractions') {
         @include assert {
           @include output {
             @include lg\:diagonal-fractions;
@@ -513,7 +513,7 @@
         }
       }
 
-      @include it("lg\:stacked-fractions") {
+      @include it('lg\:stacked-fractions') {
         @include assert {
           @include output {
             @include lg\:stacked-fractions;
@@ -528,7 +528,7 @@
         }
       }
 
-      @include it("xl\:normal-nums") {
+      @include it('xl\:normal-nums') {
         @include assert {
           @include output {
             @include xl\:normal-nums;
@@ -543,7 +543,7 @@
         }
       }
 
-      @include it("xl\:ordinal") {
+      @include it('xl\:ordinal') {
         @include assert {
           @include output {
             @include xl\:ordinal;
@@ -558,7 +558,7 @@
         }
       }
 
-      @include it("xl\:slashed-zero") {
+      @include it('xl\:slashed-zero') {
         @include assert {
           @include output {
             @include xl\:slashed-zero;
@@ -573,7 +573,7 @@
         }
       }
 
-      @include it("xl\:lining-nums") {
+      @include it('xl\:lining-nums') {
         @include assert {
           @include output {
             @include xl\:lining-nums;
@@ -588,7 +588,7 @@
         }
       }
 
-      @include it("xl\:oldstyle-nums") {
+      @include it('xl\:oldstyle-nums') {
         @include assert {
           @include output {
             @include xl\:oldstyle-nums;
@@ -603,7 +603,7 @@
         }
       }
 
-      @include it("xl\:proportional-nums") {
+      @include it('xl\:proportional-nums') {
         @include assert {
           @include output {
             @include xl\:proportional-nums;
@@ -618,7 +618,7 @@
         }
       }
 
-      @include it("xl\:tabular-nums") {
+      @include it('xl\:tabular-nums') {
         @include assert {
           @include output {
             @include xl\:tabular-nums;
@@ -633,7 +633,7 @@
         }
       }
 
-      @include it("xl\:diagonal-fractions") {
+      @include it('xl\:diagonal-fractions') {
         @include assert {
           @include output {
             @include xl\:diagonal-fractions;
@@ -648,7 +648,7 @@
         }
       }
 
-      @include it("xl\:stacked-fractions") {
+      @include it('xl\:stacked-fractions') {
         @include assert {
           @include output {
             @include xl\:stacked-fractions;
@@ -663,7 +663,7 @@
         }
       }
 
-      @include it("2xl\:normal-nums") {
+      @include it('2xl\:normal-nums') {
         @include assert {
           @include output {
             @include \2xl\:normal-nums;
@@ -678,7 +678,7 @@
         }
       }
 
-      @include it("2xl\:ordinal") {
+      @include it('2xl\:ordinal') {
         @include assert {
           @include output {
             @include \2xl\:ordinal;
@@ -693,7 +693,7 @@
         }
       }
 
-      @include it("2xl\:slashed-zero") {
+      @include it('2xl\:slashed-zero') {
         @include assert {
           @include output {
             @include \2xl\:slashed-zero;
@@ -708,7 +708,7 @@
         }
       }
 
-      @include it("2xl\:lining-nums") {
+      @include it('2xl\:lining-nums') {
         @include assert {
           @include output {
             @include \2xl\:lining-nums;
@@ -723,7 +723,7 @@
         }
       }
 
-      @include it("2xl\:oldstyle-nums") {
+      @include it('2xl\:oldstyle-nums') {
         @include assert {
           @include output {
             @include \2xl\:oldstyle-nums;
@@ -738,7 +738,7 @@
         }
       }
 
-      @include it("2xl\:proportional-nums") {
+      @include it('2xl\:proportional-nums') {
         @include assert {
           @include output {
             @include \2xl\:proportional-nums;
@@ -753,7 +753,7 @@
         }
       }
 
-      @include it("2xl\:tabular-nums") {
+      @include it('2xl\:tabular-nums') {
         @include assert {
           @include output {
             @include \2xl\:tabular-nums;
@@ -768,7 +768,7 @@
         }
       }
 
-      @include it("2xl\:diagonal-fractions") {
+      @include it('2xl\:diagonal-fractions') {
         @include assert {
           @include output {
             @include \2xl\:diagonal-fractions;
@@ -783,7 +783,7 @@
         }
       }
 
-      @include it("2xl\:stacked-fractions") {
+      @include it('2xl\:stacked-fractions') {
         @include assert {
           @include output {
             @include \2xl\:stacked-fractions;

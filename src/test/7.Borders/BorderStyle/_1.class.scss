@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("7.Borders") {
-  @include describe("Border Style") {
-    @include describe("Basic") {
-      @include it("border-solid") {
+@include describe('7.Borders') {
+  @include describe('Border Style') {
+    @include describe('Basic') {
+      @include it('border-solid') {
         @include assert {
           @include output {
             @include border-solid;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("border-dashed") {
+      @include it('border-dashed') {
         @include assert {
           @include output {
             @include border-dashed;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("border-dotted") {
+      @include it('border-dotted') {
         @include assert {
           @include output {
             @include border-dotted;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("border-double") {
+      @include it('border-double') {
         @include assert {
           @include output {
             @include border-double;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("border-hidden") {
+      @include it('border-hidden') {
         @include assert {
           @include output {
             @include border-hidden;
@@ -69,7 +69,7 @@
         }
       }
 
-      @include it("border-none") {
+      @include it('border-none') {
         @include assert {
           @include output {
             @include border-none;
@@ -83,8 +83,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:border-solid") {
+    @include describe('Rwd') {
+      @include it('sm\:border-solid') {
         @include assert {
           @include output {
             @include sm\:border-solid;
@@ -99,7 +99,7 @@
         }
       }
 
-      @include it("sm\:border-dashed") {
+      @include it('sm\:border-dashed') {
         @include assert {
           @include output {
             @include sm\:border-dashed;
@@ -114,7 +114,7 @@
         }
       }
 
-      @include it("sm\:border-dotted") {
+      @include it('sm\:border-dotted') {
         @include assert {
           @include output {
             @include sm\:border-dotted;
@@ -129,7 +129,7 @@
         }
       }
 
-      @include it("sm\:border-double") {
+      @include it('sm\:border-double') {
         @include assert {
           @include output {
             @include sm\:border-double;
@@ -144,7 +144,7 @@
         }
       }
 
-      @include it("sm\:border-hidden") {
+      @include it('sm\:border-hidden') {
         @include assert {
           @include output {
             @include sm\:border-hidden;
@@ -159,7 +159,7 @@
         }
       }
 
-      @include it("sm\:border-none") {
+      @include it('sm\:border-none') {
         @include assert {
           @include output {
             @include sm\:border-none;
@@ -174,7 +174,7 @@
         }
       }
 
-      @include it("md\:border-solid") {
+      @include it('md\:border-solid') {
         @include assert {
           @include output {
             @include md\:border-solid;
@@ -189,7 +189,7 @@
         }
       }
 
-      @include it("md\:border-dashed") {
+      @include it('md\:border-dashed') {
         @include assert {
           @include output {
             @include md\:border-dashed;
@@ -204,7 +204,7 @@
         }
       }
 
-      @include it("md\:border-dotted") {
+      @include it('md\:border-dotted') {
         @include assert {
           @include output {
             @include md\:border-dotted;
@@ -219,7 +219,7 @@
         }
       }
 
-      @include it("md\:border-double") {
+      @include it('md\:border-double') {
         @include assert {
           @include output {
             @include md\:border-double;
@@ -234,7 +234,7 @@
         }
       }
 
-      @include it("md\:border-hidden") {
+      @include it('md\:border-hidden') {
         @include assert {
           @include output {
             @include md\:border-hidden;
@@ -249,7 +249,7 @@
         }
       }
 
-      @include it("md\:border-none") {
+      @include it('md\:border-none') {
         @include assert {
           @include output {
             @include md\:border-none;
@@ -264,7 +264,7 @@
         }
       }
 
-      @include it("lg\:border-solid") {
+      @include it('lg\:border-solid') {
         @include assert {
           @include output {
             @include lg\:border-solid;
@@ -279,7 +279,7 @@
         }
       }
 
-      @include it("lg\:border-dashed") {
+      @include it('lg\:border-dashed') {
         @include assert {
           @include output {
             @include lg\:border-dashed;
@@ -294,7 +294,7 @@
         }
       }
 
-      @include it("lg\:border-dotted") {
+      @include it('lg\:border-dotted') {
         @include assert {
           @include output {
             @include lg\:border-dotted;
@@ -309,7 +309,7 @@
         }
       }
 
-      @include it("lg\:border-double") {
+      @include it('lg\:border-double') {
         @include assert {
           @include output {
             @include lg\:border-double;
@@ -324,7 +324,7 @@
         }
       }
 
-      @include it("lg\:border-hidden") {
+      @include it('lg\:border-hidden') {
         @include assert {
           @include output {
             @include lg\:border-hidden;
@@ -339,7 +339,7 @@
         }
       }
 
-      @include it("lg\:border-none") {
+      @include it('lg\:border-none') {
         @include assert {
           @include output {
             @include lg\:border-none;
@@ -354,7 +354,7 @@
         }
       }
 
-      @include it("xl\:border-solid") {
+      @include it('xl\:border-solid') {
         @include assert {
           @include output {
             @include xl\:border-solid;
@@ -369,7 +369,7 @@
         }
       }
 
-      @include it("xl\:border-dashed") {
+      @include it('xl\:border-dashed') {
         @include assert {
           @include output {
             @include xl\:border-dashed;
@@ -384,7 +384,7 @@
         }
       }
 
-      @include it("xl\:border-dotted") {
+      @include it('xl\:border-dotted') {
         @include assert {
           @include output {
             @include xl\:border-dotted;
@@ -399,7 +399,7 @@
         }
       }
 
-      @include it("xl\:border-double") {
+      @include it('xl\:border-double') {
         @include assert {
           @include output {
             @include xl\:border-double;
@@ -414,7 +414,7 @@
         }
       }
 
-      @include it("xl\:border-hidden") {
+      @include it('xl\:border-hidden') {
         @include assert {
           @include output {
             @include xl\:border-hidden;
@@ -429,7 +429,7 @@
         }
       }
 
-      @include it("xl\:border-none") {
+      @include it('xl\:border-none') {
         @include assert {
           @include output {
             @include xl\:border-none;
@@ -444,7 +444,7 @@
         }
       }
 
-      @include it("2xl\:border-solid") {
+      @include it('2xl\:border-solid') {
         @include assert {
           @include output {
             @include \2xl\:border-solid;
@@ -459,7 +459,7 @@
         }
       }
 
-      @include it("2xl\:border-dashed") {
+      @include it('2xl\:border-dashed') {
         @include assert {
           @include output {
             @include \2xl\:border-dashed;
@@ -474,7 +474,7 @@
         }
       }
 
-      @include it("2xl\:border-dotted") {
+      @include it('2xl\:border-dotted') {
         @include assert {
           @include output {
             @include \2xl\:border-dotted;
@@ -489,7 +489,7 @@
         }
       }
 
-      @include it("2xl\:border-double") {
+      @include it('2xl\:border-double') {
         @include assert {
           @include output {
             @include \2xl\:border-double;
@@ -504,7 +504,7 @@
         }
       }
 
-      @include it("2xl\:border-hidden") {
+      @include it('2xl\:border-hidden') {
         @include assert {
           @include output {
             @include \2xl\:border-hidden;
@@ -519,7 +519,7 @@
         }
       }
 
-      @include it("2xl\:border-none") {
+      @include it('2xl\:border-none') {
         @include assert {
           @include output {
             @include \2xl\:border-none;

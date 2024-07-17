@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("9.Filters") {
-  @include describe("Backdrop Brightness") {
-    @include describe("Basic") {
-      @include it("backdrop-brightness-0") {
+@include describe('9.Filters') {
+  @include describe('Backdrop Brightness') {
+    @include describe('Basic') {
+      @include it('backdrop-brightness-0') {
         @include assert {
           @include output {
             @include backdrop-brightness-0;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("backdrop-brightness-50") {
+      @include it('backdrop-brightness-50') {
         @include assert {
           @include output {
             @include backdrop-brightness-50;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("backdrop-brightness-75") {
+      @include it('backdrop-brightness-75') {
         @include assert {
           @include output {
             @include backdrop-brightness-75;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("backdrop-brightness-90") {
+      @include it('backdrop-brightness-90') {
         @include assert {
           @include output {
             @include backdrop-brightness-90;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("backdrop-brightness-95") {
+      @include it('backdrop-brightness-95') {
         @include assert {
           @include output {
             @include backdrop-brightness-95;
@@ -69,7 +69,7 @@
         }
       }
 
-      @include it("backdrop-brightness-100") {
+      @include it('backdrop-brightness-100') {
         @include assert {
           @include output {
             @include backdrop-brightness-100;
@@ -82,7 +82,7 @@
         }
       }
 
-      @include it("backdrop-brightness-105") {
+      @include it('backdrop-brightness-105') {
         @include assert {
           @include output {
             @include backdrop-brightness-105;
@@ -95,7 +95,7 @@
         }
       }
 
-      @include it("backdrop-brightness-110") {
+      @include it('backdrop-brightness-110') {
         @include assert {
           @include output {
             @include backdrop-brightness-110;
@@ -108,7 +108,7 @@
         }
       }
 
-      @include it("backdrop-brightness-125") {
+      @include it('backdrop-brightness-125') {
         @include assert {
           @include output {
             @include backdrop-brightness-125;
@@ -121,7 +121,7 @@
         }
       }
 
-      @include it("backdrop-brightness-150") {
+      @include it('backdrop-brightness-150') {
         @include assert {
           @include output {
             @include backdrop-brightness-150;
@@ -134,7 +134,7 @@
         }
       }
 
-      @include it("backdrop-brightness-200") {
+      @include it('backdrop-brightness-200') {
         @include assert {
           @include output {
             @include backdrop-brightness-200;
@@ -148,8 +148,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:backdrop-brightness-0") {
+    @include describe('Rwd') {
+      @include it('sm\:backdrop-brightness-0') {
         @include assert {
           @include output {
             @include sm\:backdrop-brightness-0;
@@ -164,7 +164,7 @@
         }
       }
 
-      @include it("sm\:backdrop-brightness-50") {
+      @include it('sm\:backdrop-brightness-50') {
         @include assert {
           @include output {
             @include sm\:backdrop-brightness-50;
@@ -179,7 +179,7 @@
         }
       }
 
-      @include it("sm\:backdrop-brightness-75") {
+      @include it('sm\:backdrop-brightness-75') {
         @include assert {
           @include output {
             @include sm\:backdrop-brightness-75;
@@ -194,7 +194,7 @@
         }
       }
 
-      @include it("sm\:backdrop-brightness-90") {
+      @include it('sm\:backdrop-brightness-90') {
         @include assert {
           @include output {
             @include sm\:backdrop-brightness-90;
@@ -209,7 +209,7 @@
         }
       }
 
-      @include it("sm\:backdrop-brightness-95") {
+      @include it('sm\:backdrop-brightness-95') {
         @include assert {
           @include output {
             @include sm\:backdrop-brightness-95;
@@ -224,7 +224,7 @@
         }
       }
 
-      @include it("sm\:backdrop-brightness-100") {
+      @include it('sm\:backdrop-brightness-100') {
         @include assert {
           @include output {
             @include sm\:backdrop-brightness-100;
@@ -239,7 +239,7 @@
         }
       }
 
-      @include it("sm\:backdrop-brightness-105") {
+      @include it('sm\:backdrop-brightness-105') {
         @include assert {
           @include output {
             @include sm\:backdrop-brightness-105;
@@ -254,7 +254,7 @@
         }
       }
 
-      @include it("sm\:backdrop-brightness-110") {
+      @include it('sm\:backdrop-brightness-110') {
         @include assert {
           @include output {
             @include sm\:backdrop-brightness-110;
@@ -269,7 +269,7 @@
         }
       }
 
-      @include it("sm\:backdrop-brightness-125") {
+      @include it('sm\:backdrop-brightness-125') {
         @include assert {
           @include output {
             @include sm\:backdrop-brightness-125;
@@ -284,7 +284,7 @@
         }
       }
 
-      @include it("sm\:backdrop-brightness-150") {
+      @include it('sm\:backdrop-brightness-150') {
         @include assert {
           @include output {
             @include sm\:backdrop-brightness-150;
@@ -299,7 +299,7 @@
         }
       }
 
-      @include it("sm\:backdrop-brightness-200") {
+      @include it('sm\:backdrop-brightness-200') {
         @include assert {
           @include output {
             @include sm\:backdrop-brightness-200;
@@ -314,7 +314,7 @@
         }
       }
 
-      @include it("md\:backdrop-brightness-0") {
+      @include it('md\:backdrop-brightness-0') {
         @include assert {
           @include output {
             @include md\:backdrop-brightness-0;
@@ -329,7 +329,7 @@
         }
       }
 
-      @include it("md\:backdrop-brightness-50") {
+      @include it('md\:backdrop-brightness-50') {
         @include assert {
           @include output {
             @include md\:backdrop-brightness-50;
@@ -344,7 +344,7 @@
         }
       }
 
-      @include it("md\:backdrop-brightness-75") {
+      @include it('md\:backdrop-brightness-75') {
         @include assert {
           @include output {
             @include md\:backdrop-brightness-75;
@@ -359,7 +359,7 @@
         }
       }
 
-      @include it("md\:backdrop-brightness-90") {
+      @include it('md\:backdrop-brightness-90') {
         @include assert {
           @include output {
             @include md\:backdrop-brightness-90;
@@ -374,7 +374,7 @@
         }
       }
 
-      @include it("md\:backdrop-brightness-95") {
+      @include it('md\:backdrop-brightness-95') {
         @include assert {
           @include output {
             @include md\:backdrop-brightness-95;
@@ -389,7 +389,7 @@
         }
       }
 
-      @include it("md\:backdrop-brightness-100") {
+      @include it('md\:backdrop-brightness-100') {
         @include assert {
           @include output {
             @include md\:backdrop-brightness-100;
@@ -404,7 +404,7 @@
         }
       }
 
-      @include it("md\:backdrop-brightness-105") {
+      @include it('md\:backdrop-brightness-105') {
         @include assert {
           @include output {
             @include md\:backdrop-brightness-105;
@@ -419,7 +419,7 @@
         }
       }
 
-      @include it("md\:backdrop-brightness-110") {
+      @include it('md\:backdrop-brightness-110') {
         @include assert {
           @include output {
             @include md\:backdrop-brightness-110;
@@ -434,7 +434,7 @@
         }
       }
 
-      @include it("md\:backdrop-brightness-125") {
+      @include it('md\:backdrop-brightness-125') {
         @include assert {
           @include output {
             @include md\:backdrop-brightness-125;
@@ -449,7 +449,7 @@
         }
       }
 
-      @include it("md\:backdrop-brightness-150") {
+      @include it('md\:backdrop-brightness-150') {
         @include assert {
           @include output {
             @include md\:backdrop-brightness-150;
@@ -464,7 +464,7 @@
         }
       }
 
-      @include it("md\:backdrop-brightness-200") {
+      @include it('md\:backdrop-brightness-200') {
         @include assert {
           @include output {
             @include md\:backdrop-brightness-200;
@@ -479,7 +479,7 @@
         }
       }
 
-      @include it("lg\:backdrop-brightness-0") {
+      @include it('lg\:backdrop-brightness-0') {
         @include assert {
           @include output {
             @include lg\:backdrop-brightness-0;
@@ -494,7 +494,7 @@
         }
       }
 
-      @include it("lg\:backdrop-brightness-50") {
+      @include it('lg\:backdrop-brightness-50') {
         @include assert {
           @include output {
             @include lg\:backdrop-brightness-50;
@@ -509,7 +509,7 @@
         }
       }
 
-      @include it("lg\:backdrop-brightness-75") {
+      @include it('lg\:backdrop-brightness-75') {
         @include assert {
           @include output {
             @include lg\:backdrop-brightness-75;
@@ -524,7 +524,7 @@
         }
       }
 
-      @include it("lg\:backdrop-brightness-90") {
+      @include it('lg\:backdrop-brightness-90') {
         @include assert {
           @include output {
             @include lg\:backdrop-brightness-90;
@@ -539,7 +539,7 @@
         }
       }
 
-      @include it("lg\:backdrop-brightness-95") {
+      @include it('lg\:backdrop-brightness-95') {
         @include assert {
           @include output {
             @include lg\:backdrop-brightness-95;
@@ -554,7 +554,7 @@
         }
       }
 
-      @include it("lg\:backdrop-brightness-100") {
+      @include it('lg\:backdrop-brightness-100') {
         @include assert {
           @include output {
             @include lg\:backdrop-brightness-100;
@@ -569,7 +569,7 @@
         }
       }
 
-      @include it("lg\:backdrop-brightness-105") {
+      @include it('lg\:backdrop-brightness-105') {
         @include assert {
           @include output {
             @include lg\:backdrop-brightness-105;
@@ -584,7 +584,7 @@
         }
       }
 
-      @include it("lg\:backdrop-brightness-110") {
+      @include it('lg\:backdrop-brightness-110') {
         @include assert {
           @include output {
             @include lg\:backdrop-brightness-110;
@@ -599,7 +599,7 @@
         }
       }
 
-      @include it("lg\:backdrop-brightness-125") {
+      @include it('lg\:backdrop-brightness-125') {
         @include assert {
           @include output {
             @include lg\:backdrop-brightness-125;
@@ -614,7 +614,7 @@
         }
       }
 
-      @include it("lg\:backdrop-brightness-150") {
+      @include it('lg\:backdrop-brightness-150') {
         @include assert {
           @include output {
             @include lg\:backdrop-brightness-150;
@@ -629,7 +629,7 @@
         }
       }
 
-      @include it("lg\:backdrop-brightness-200") {
+      @include it('lg\:backdrop-brightness-200') {
         @include assert {
           @include output {
             @include lg\:backdrop-brightness-200;
@@ -644,7 +644,7 @@
         }
       }
 
-      @include it("xl\:backdrop-brightness-0") {
+      @include it('xl\:backdrop-brightness-0') {
         @include assert {
           @include output {
             @include xl\:backdrop-brightness-0;
@@ -659,7 +659,7 @@
         }
       }
 
-      @include it("xl\:backdrop-brightness-50") {
+      @include it('xl\:backdrop-brightness-50') {
         @include assert {
           @include output {
             @include xl\:backdrop-brightness-50;
@@ -674,7 +674,7 @@
         }
       }
 
-      @include it("xl\:backdrop-brightness-75") {
+      @include it('xl\:backdrop-brightness-75') {
         @include assert {
           @include output {
             @include xl\:backdrop-brightness-75;
@@ -689,7 +689,7 @@
         }
       }
 
-      @include it("xl\:backdrop-brightness-90") {
+      @include it('xl\:backdrop-brightness-90') {
         @include assert {
           @include output {
             @include xl\:backdrop-brightness-90;
@@ -704,7 +704,7 @@
         }
       }
 
-      @include it("xl\:backdrop-brightness-95") {
+      @include it('xl\:backdrop-brightness-95') {
         @include assert {
           @include output {
             @include xl\:backdrop-brightness-95;
@@ -719,7 +719,7 @@
         }
       }
 
-      @include it("xl\:backdrop-brightness-100") {
+      @include it('xl\:backdrop-brightness-100') {
         @include assert {
           @include output {
             @include xl\:backdrop-brightness-100;
@@ -734,7 +734,7 @@
         }
       }
 
-      @include it("xl\:backdrop-brightness-105") {
+      @include it('xl\:backdrop-brightness-105') {
         @include assert {
           @include output {
             @include xl\:backdrop-brightness-105;
@@ -749,7 +749,7 @@
         }
       }
 
-      @include it("xl\:backdrop-brightness-110") {
+      @include it('xl\:backdrop-brightness-110') {
         @include assert {
           @include output {
             @include xl\:backdrop-brightness-110;
@@ -764,7 +764,7 @@
         }
       }
 
-      @include it("xl\:backdrop-brightness-125") {
+      @include it('xl\:backdrop-brightness-125') {
         @include assert {
           @include output {
             @include xl\:backdrop-brightness-125;
@@ -779,7 +779,7 @@
         }
       }
 
-      @include it("xl\:backdrop-brightness-150") {
+      @include it('xl\:backdrop-brightness-150') {
         @include assert {
           @include output {
             @include xl\:backdrop-brightness-150;
@@ -794,7 +794,7 @@
         }
       }
 
-      @include it("xl\:backdrop-brightness-200") {
+      @include it('xl\:backdrop-brightness-200') {
         @include assert {
           @include output {
             @include xl\:backdrop-brightness-200;
@@ -809,7 +809,7 @@
         }
       }
 
-      @include it("2xl\:backdrop-brightness-0") {
+      @include it('2xl\:backdrop-brightness-0') {
         @include assert {
           @include output {
             @include \2xl\:backdrop-brightness-0;
@@ -824,7 +824,7 @@
         }
       }
 
-      @include it("2xl\:backdrop-brightness-50") {
+      @include it('2xl\:backdrop-brightness-50') {
         @include assert {
           @include output {
             @include \2xl\:backdrop-brightness-50;
@@ -839,7 +839,7 @@
         }
       }
 
-      @include it("2xl\:backdrop-brightness-75") {
+      @include it('2xl\:backdrop-brightness-75') {
         @include assert {
           @include output {
             @include \2xl\:backdrop-brightness-75;
@@ -854,7 +854,7 @@
         }
       }
 
-      @include it("2xl\:backdrop-brightness-90") {
+      @include it('2xl\:backdrop-brightness-90') {
         @include assert {
           @include output {
             @include \2xl\:backdrop-brightness-90;
@@ -869,7 +869,7 @@
         }
       }
 
-      @include it("2xl\:backdrop-brightness-95") {
+      @include it('2xl\:backdrop-brightness-95') {
         @include assert {
           @include output {
             @include \2xl\:backdrop-brightness-95;
@@ -884,7 +884,7 @@
         }
       }
 
-      @include it("2xl\:backdrop-brightness-100") {
+      @include it('2xl\:backdrop-brightness-100') {
         @include assert {
           @include output {
             @include \2xl\:backdrop-brightness-100;
@@ -899,7 +899,7 @@
         }
       }
 
-      @include it("2xl\:backdrop-brightness-105") {
+      @include it('2xl\:backdrop-brightness-105') {
         @include assert {
           @include output {
             @include \2xl\:backdrop-brightness-105;
@@ -914,7 +914,7 @@
         }
       }
 
-      @include it("2xl\:backdrop-brightness-110") {
+      @include it('2xl\:backdrop-brightness-110') {
         @include assert {
           @include output {
             @include \2xl\:backdrop-brightness-110;
@@ -929,7 +929,7 @@
         }
       }
 
-      @include it("2xl\:backdrop-brightness-125") {
+      @include it('2xl\:backdrop-brightness-125') {
         @include assert {
           @include output {
             @include \2xl\:backdrop-brightness-125;
@@ -944,7 +944,7 @@
         }
       }
 
-      @include it("2xl\:backdrop-brightness-150") {
+      @include it('2xl\:backdrop-brightness-150') {
         @include assert {
           @include output {
             @include \2xl\:backdrop-brightness-150;
@@ -959,7 +959,7 @@
         }
       }
 
-      @include it("2xl\:backdrop-brightness-200") {
+      @include it('2xl\:backdrop-brightness-200') {
         @include assert {
           @include output {
             @include \2xl\:backdrop-brightness-200;
@@ -975,8 +975,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("backdrop-brightness-(1.75)") {
+    @include describe('Custom') {
+      @include it('backdrop-brightness-(1.75)') {
         @include assert {
           @include output {
             @include backdrop-brightness-(1.75);
@@ -989,7 +989,7 @@
         }
       }
 
-      @include it("sm\:backdrop-brightness-(1.75)") {
+      @include it('sm\:backdrop-brightness-(1.75)') {
         @include assert {
           @include output {
             @include sm\:backdrop-brightness-(1.75);
@@ -1004,7 +1004,7 @@
         }
       }
 
-      @include it("md\:backdrop-brightness-(1.75)") {
+      @include it('md\:backdrop-brightness-(1.75)') {
         @include assert {
           @include output {
             @include md\:backdrop-brightness-(1.75);
@@ -1019,7 +1019,7 @@
         }
       }
 
-      @include it("lg\:backdrop-brightness-(1.75)") {
+      @include it('lg\:backdrop-brightness-(1.75)') {
         @include assert {
           @include output {
             @include lg\:backdrop-brightness-(1.75);
@@ -1034,7 +1034,7 @@
         }
       }
 
-      @include it("xl\:backdrop-brightness-(1.75)") {
+      @include it('xl\:backdrop-brightness-(1.75)') {
         @include assert {
           @include output {
             @include xl\:backdrop-brightness-(1.75);
@@ -1049,7 +1049,7 @@
         }
       }
 
-      @include it("2xl\:backdrop-brightness-(1.75)") {
+      @include it('2xl\:backdrop-brightness-(1.75)') {
         @include assert {
           @include output {
             @include \2xl\:backdrop-brightness-(1.75);

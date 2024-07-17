@@ -1,8 +1,8 @@
-@use "../../setting" as *;
+@use '../../setting' as *;
 
 $BorderCollapse: (
-  "border-collapse": collapse,
-  "border-separate": separate,
+  'border-collapse': collapse,
+  'border-separate': separate,
 );
 
 @if $Basic {

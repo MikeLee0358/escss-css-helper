@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("13.Interactivity") {
-  @include describe("Scroll Snap Align") {
-    @include describe("Basic") {
-      @include it("snap-start") {
+@include describe('13.Interactivity') {
+  @include describe('Scroll Snap Align') {
+    @include describe('Basic') {
+      @include it('snap-start') {
         @include assert {
           @include output {
             @include snap-start;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("snap-end") {
+      @include it('snap-end') {
         @include assert {
           @include output {
             @include snap-end;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("snap-center") {
+      @include it('snap-center') {
         @include assert {
           @include output {
             @include snap-center;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("snap-align-none") {
+      @include it('snap-align-none') {
         @include assert {
           @include output {
             @include snap-align-none;
@@ -57,8 +57,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:snap-start") {
+    @include describe('Rwd') {
+      @include it('sm\:snap-start') {
         @include assert {
           @include output {
             @include sm\:snap-start;
@@ -73,7 +73,7 @@
         }
       }
 
-      @include it("sm\:snap-end") {
+      @include it('sm\:snap-end') {
         @include assert {
           @include output {
             @include sm\:snap-end;
@@ -88,7 +88,7 @@
         }
       }
 
-      @include it("sm\:snap-center") {
+      @include it('sm\:snap-center') {
         @include assert {
           @include output {
             @include sm\:snap-center;
@@ -103,7 +103,7 @@
         }
       }
 
-      @include it("sm\:snap-align-none") {
+      @include it('sm\:snap-align-none') {
         @include assert {
           @include output {
             @include sm\:snap-align-none;
@@ -118,7 +118,7 @@
         }
       }
 
-      @include it("md\:snap-start") {
+      @include it('md\:snap-start') {
         @include assert {
           @include output {
             @include md\:snap-start;
@@ -133,7 +133,7 @@
         }
       }
 
-      @include it("md\:snap-end") {
+      @include it('md\:snap-end') {
         @include assert {
           @include output {
             @include md\:snap-end;
@@ -148,7 +148,7 @@
         }
       }
 
-      @include it("md\:snap-center") {
+      @include it('md\:snap-center') {
         @include assert {
           @include output {
             @include md\:snap-center;
@@ -163,7 +163,7 @@
         }
       }
 
-      @include it("md\:snap-align-none") {
+      @include it('md\:snap-align-none') {
         @include assert {
           @include output {
             @include md\:snap-align-none;
@@ -178,7 +178,7 @@
         }
       }
 
-      @include it("lg\:snap-start") {
+      @include it('lg\:snap-start') {
         @include assert {
           @include output {
             @include lg\:snap-start;
@@ -193,7 +193,7 @@
         }
       }
 
-      @include it("lg\:snap-end") {
+      @include it('lg\:snap-end') {
         @include assert {
           @include output {
             @include lg\:snap-end;
@@ -208,7 +208,7 @@
         }
       }
 
-      @include it("lg\:snap-center") {
+      @include it('lg\:snap-center') {
         @include assert {
           @include output {
             @include lg\:snap-center;
@@ -223,7 +223,7 @@
         }
       }
 
-      @include it("lg\:snap-align-none") {
+      @include it('lg\:snap-align-none') {
         @include assert {
           @include output {
             @include lg\:snap-align-none;
@@ -238,7 +238,7 @@
         }
       }
 
-      @include it("xl\:snap-start") {
+      @include it('xl\:snap-start') {
         @include assert {
           @include output {
             @include xl\:snap-start;
@@ -253,7 +253,7 @@
         }
       }
 
-      @include it("xl\:snap-end") {
+      @include it('xl\:snap-end') {
         @include assert {
           @include output {
             @include xl\:snap-end;
@@ -268,7 +268,7 @@
         }
       }
 
-      @include it("xl\:snap-center") {
+      @include it('xl\:snap-center') {
         @include assert {
           @include output {
             @include xl\:snap-center;
@@ -283,7 +283,7 @@
         }
       }
 
-      @include it("xl\:snap-align-none") {
+      @include it('xl\:snap-align-none') {
         @include assert {
           @include output {
             @include xl\:snap-align-none;
@@ -298,7 +298,7 @@
         }
       }
 
-      @include it("2xl\:snap-start") {
+      @include it('2xl\:snap-start') {
         @include assert {
           @include output {
             @include \2xl\:snap-start;
@@ -313,7 +313,7 @@
         }
       }
 
-      @include it("2xl\:snap-end") {
+      @include it('2xl\:snap-end') {
         @include assert {
           @include output {
             @include \2xl\:snap-end;
@@ -328,7 +328,7 @@
         }
       }
 
-      @include it("2xl\:snap-center") {
+      @include it('2xl\:snap-center') {
         @include assert {
           @include output {
             @include \2xl\:snap-center;
@@ -343,7 +343,7 @@
         }
       }
 
-      @include it("2xl\:snap-align-none") {
+      @include it('2xl\:snap-align-none') {
         @include assert {
           @include output {
             @include \2xl\:snap-align-none;

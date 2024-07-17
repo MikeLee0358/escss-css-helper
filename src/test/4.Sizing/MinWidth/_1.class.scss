@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("4.Size") {
-  @include describe("Min-Width") {
-    @include describe("Basic") {
-      @include it("min-w-0") {
+@include describe('4.Size') {
+  @include describe('Min-Width') {
+    @include describe('Basic') {
+      @include it('min-w-0') {
         @include assert {
           @include output {
             @include min-w-0;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("min-w-1") {
+      @include it('min-w-1') {
         @include assert {
           @include output {
             @include min-w-1;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("min-w-2") {
+      @include it('min-w-2') {
         @include assert {
           @include output {
             @include min-w-2;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("min-w-3") {
+      @include it('min-w-3') {
         @include assert {
           @include output {
             @include min-w-3;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("min-w-4") {
+      @include it('min-w-4') {
         @include assert {
           @include output {
             @include min-w-4;
@@ -69,7 +69,7 @@
         }
       }
 
-      @include it("min-w-5") {
+      @include it('min-w-5') {
         @include assert {
           @include output {
             @include min-w-5;
@@ -82,7 +82,7 @@
         }
       }
 
-      @include it("min-w-6") {
+      @include it('min-w-6') {
         @include assert {
           @include output {
             @include min-w-6;
@@ -95,7 +95,7 @@
         }
       }
 
-      @include it("min-w-7") {
+      @include it('min-w-7') {
         @include assert {
           @include output {
             @include min-w-7;
@@ -108,7 +108,7 @@
         }
       }
 
-      @include it("min-w-8") {
+      @include it('min-w-8') {
         @include assert {
           @include output {
             @include min-w-8;
@@ -121,7 +121,7 @@
         }
       }
 
-      @include it("min-w-9") {
+      @include it('min-w-9') {
         @include assert {
           @include output {
             @include min-w-9;
@@ -134,7 +134,7 @@
         }
       }
 
-      @include it("min-w-10") {
+      @include it('min-w-10') {
         @include assert {
           @include output {
             @include min-w-10;
@@ -147,7 +147,7 @@
         }
       }
 
-      @include it("min-w-11") {
+      @include it('min-w-11') {
         @include assert {
           @include output {
             @include min-w-11;
@@ -160,7 +160,7 @@
         }
       }
 
-      @include it("min-w-12") {
+      @include it('min-w-12') {
         @include assert {
           @include output {
             @include min-w-12;
@@ -173,7 +173,7 @@
         }
       }
 
-      @include it("min-w-14") {
+      @include it('min-w-14') {
         @include assert {
           @include output {
             @include min-w-14;
@@ -186,7 +186,7 @@
         }
       }
 
-      @include it("min-w-16") {
+      @include it('min-w-16') {
         @include assert {
           @include output {
             @include min-w-16;
@@ -199,7 +199,7 @@
         }
       }
 
-      @include it("min-w-20") {
+      @include it('min-w-20') {
         @include assert {
           @include output {
             @include min-w-20;
@@ -212,7 +212,7 @@
         }
       }
 
-      @include it("min-w-24") {
+      @include it('min-w-24') {
         @include assert {
           @include output {
             @include min-w-24;
@@ -225,7 +225,7 @@
         }
       }
 
-      @include it("min-w-28") {
+      @include it('min-w-28') {
         @include assert {
           @include output {
             @include min-w-28;
@@ -238,7 +238,7 @@
         }
       }
 
-      @include it("min-w-32") {
+      @include it('min-w-32') {
         @include assert {
           @include output {
             @include min-w-32;
@@ -251,7 +251,7 @@
         }
       }
 
-      @include it("min-w-36") {
+      @include it('min-w-36') {
         @include assert {
           @include output {
             @include min-w-36;
@@ -264,7 +264,7 @@
         }
       }
 
-      @include it("min-w-40") {
+      @include it('min-w-40') {
         @include assert {
           @include output {
             @include min-w-40;
@@ -277,7 +277,7 @@
         }
       }
 
-      @include it("min-w-44") {
+      @include it('min-w-44') {
         @include assert {
           @include output {
             @include min-w-44;
@@ -290,7 +290,7 @@
         }
       }
 
-      @include it("min-w-48") {
+      @include it('min-w-48') {
         @include assert {
           @include output {
             @include min-w-48;
@@ -303,7 +303,7 @@
         }
       }
 
-      @include it("min-w-52") {
+      @include it('min-w-52') {
         @include assert {
           @include output {
             @include min-w-52;
@@ -316,7 +316,7 @@
         }
       }
 
-      @include it("min-w-56") {
+      @include it('min-w-56') {
         @include assert {
           @include output {
             @include min-w-56;
@@ -329,7 +329,7 @@
         }
       }
 
-      @include it("min-w-60") {
+      @include it('min-w-60') {
         @include assert {
           @include output {
             @include min-w-60;
@@ -342,7 +342,7 @@
         }
       }
 
-      @include it("min-w-64") {
+      @include it('min-w-64') {
         @include assert {
           @include output {
             @include min-w-64;
@@ -355,7 +355,7 @@
         }
       }
 
-      @include it("min-w-72") {
+      @include it('min-w-72') {
         @include assert {
           @include output {
             @include min-w-72;
@@ -368,7 +368,7 @@
         }
       }
 
-      @include it("min-w-80") {
+      @include it('min-w-80') {
         @include assert {
           @include output {
             @include min-w-80;
@@ -381,7 +381,7 @@
         }
       }
 
-      @include it("min-w-96") {
+      @include it('min-w-96') {
         @include assert {
           @include output {
             @include min-w-96;
@@ -394,7 +394,7 @@
         }
       }
 
-      @include it("min-w-px") {
+      @include it('min-w-px') {
         @include assert {
           @include output {
             @include min-w-px;
@@ -407,7 +407,7 @@
         }
       }
 
-      @include it("min-w-0\.5") {
+      @include it('min-w-0\.5') {
         @include assert {
           @include output {
             @include min-w-0\.5;
@@ -420,7 +420,7 @@
         }
       }
 
-      @include it("min-w-1\.5") {
+      @include it('min-w-1\.5') {
         @include assert {
           @include output {
             @include min-w-1\.5;
@@ -433,7 +433,7 @@
         }
       }
 
-      @include it("min-w-2\.5") {
+      @include it('min-w-2\.5') {
         @include assert {
           @include output {
             @include min-w-2\.5;
@@ -446,7 +446,7 @@
         }
       }
 
-      @include it("min-w-3\.5") {
+      @include it('min-w-3\.5') {
         @include assert {
           @include output {
             @include min-w-3\.5;
@@ -459,7 +459,7 @@
         }
       }
 
-      @include it("min-w-full") {
+      @include it('min-w-full') {
         @include assert {
           @include output {
             @include min-w-full;
@@ -472,7 +472,7 @@
         }
       }
 
-      @include it("min-w-min") {
+      @include it('min-w-min') {
         @include assert {
           @include output {
             @include min-w-min;
@@ -485,7 +485,7 @@
         }
       }
 
-      @include it("min-w-max") {
+      @include it('min-w-max') {
         @include assert {
           @include output {
             @include min-w-max;
@@ -498,7 +498,7 @@
         }
       }
 
-      @include it("min-w-fit") {
+      @include it('min-w-fit') {
         @include assert {
           @include output {
             @include min-w-fit;
@@ -512,8 +512,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:min-w-0") {
+    @include describe('Rwd') {
+      @include it('sm\:min-w-0') {
         @include assert {
           @include output {
             @include sm\:min-w-0;
@@ -528,7 +528,7 @@
         }
       }
 
-      @include it("sm\:min-w-1") {
+      @include it('sm\:min-w-1') {
         @include assert {
           @include output {
             @include sm\:min-w-1;
@@ -543,7 +543,7 @@
         }
       }
 
-      @include it("sm\:min-w-2") {
+      @include it('sm\:min-w-2') {
         @include assert {
           @include output {
             @include sm\:min-w-2;
@@ -558,7 +558,7 @@
         }
       }
 
-      @include it("sm\:min-w-3") {
+      @include it('sm\:min-w-3') {
         @include assert {
           @include output {
             @include sm\:min-w-3;
@@ -573,7 +573,7 @@
         }
       }
 
-      @include it("sm\:min-w-4") {
+      @include it('sm\:min-w-4') {
         @include assert {
           @include output {
             @include sm\:min-w-4;
@@ -588,7 +588,7 @@
         }
       }
 
-      @include it("sm\:min-w-5") {
+      @include it('sm\:min-w-5') {
         @include assert {
           @include output {
             @include sm\:min-w-5;
@@ -603,7 +603,7 @@
         }
       }
 
-      @include it("sm\:min-w-6") {
+      @include it('sm\:min-w-6') {
         @include assert {
           @include output {
             @include sm\:min-w-6;
@@ -618,7 +618,7 @@
         }
       }
 
-      @include it("sm\:min-w-7") {
+      @include it('sm\:min-w-7') {
         @include assert {
           @include output {
             @include sm\:min-w-7;
@@ -633,7 +633,7 @@
         }
       }
 
-      @include it("sm\:min-w-8") {
+      @include it('sm\:min-w-8') {
         @include assert {
           @include output {
             @include sm\:min-w-8;
@@ -648,7 +648,7 @@
         }
       }
 
-      @include it("sm\:min-w-9") {
+      @include it('sm\:min-w-9') {
         @include assert {
           @include output {
             @include sm\:min-w-9;
@@ -663,7 +663,7 @@
         }
       }
 
-      @include it("sm\:min-w-10") {
+      @include it('sm\:min-w-10') {
         @include assert {
           @include output {
             @include sm\:min-w-10;
@@ -678,7 +678,7 @@
         }
       }
 
-      @include it("sm\:min-w-11") {
+      @include it('sm\:min-w-11') {
         @include assert {
           @include output {
             @include sm\:min-w-11;
@@ -693,7 +693,7 @@
         }
       }
 
-      @include it("sm\:min-w-12") {
+      @include it('sm\:min-w-12') {
         @include assert {
           @include output {
             @include sm\:min-w-12;
@@ -708,7 +708,7 @@
         }
       }
 
-      @include it("sm\:min-w-14") {
+      @include it('sm\:min-w-14') {
         @include assert {
           @include output {
             @include sm\:min-w-14;
@@ -723,7 +723,7 @@
         }
       }
 
-      @include it("sm\:min-w-16") {
+      @include it('sm\:min-w-16') {
         @include assert {
           @include output {
             @include sm\:min-w-16;
@@ -738,7 +738,7 @@
         }
       }
 
-      @include it("sm\:min-w-20") {
+      @include it('sm\:min-w-20') {
         @include assert {
           @include output {
             @include sm\:min-w-20;
@@ -753,7 +753,7 @@
         }
       }
 
-      @include it("sm\:min-w-24") {
+      @include it('sm\:min-w-24') {
         @include assert {
           @include output {
             @include sm\:min-w-24;
@@ -768,7 +768,7 @@
         }
       }
 
-      @include it("sm\:min-w-28") {
+      @include it('sm\:min-w-28') {
         @include assert {
           @include output {
             @include sm\:min-w-28;
@@ -783,7 +783,7 @@
         }
       }
 
-      @include it("sm\:min-w-32") {
+      @include it('sm\:min-w-32') {
         @include assert {
           @include output {
             @include sm\:min-w-32;
@@ -798,7 +798,7 @@
         }
       }
 
-      @include it("sm\:min-w-36") {
+      @include it('sm\:min-w-36') {
         @include assert {
           @include output {
             @include sm\:min-w-36;
@@ -813,7 +813,7 @@
         }
       }
 
-      @include it("sm\:min-w-40") {
+      @include it('sm\:min-w-40') {
         @include assert {
           @include output {
             @include sm\:min-w-40;
@@ -828,7 +828,7 @@
         }
       }
 
-      @include it("sm\:min-w-44") {
+      @include it('sm\:min-w-44') {
         @include assert {
           @include output {
             @include sm\:min-w-44;
@@ -843,7 +843,7 @@
         }
       }
 
-      @include it("sm\:min-w-48") {
+      @include it('sm\:min-w-48') {
         @include assert {
           @include output {
             @include sm\:min-w-48;
@@ -858,7 +858,7 @@
         }
       }
 
-      @include it("sm\:min-w-52") {
+      @include it('sm\:min-w-52') {
         @include assert {
           @include output {
             @include sm\:min-w-52;
@@ -873,7 +873,7 @@
         }
       }
 
-      @include it("sm\:min-w-56") {
+      @include it('sm\:min-w-56') {
         @include assert {
           @include output {
             @include sm\:min-w-56;
@@ -888,7 +888,7 @@
         }
       }
 
-      @include it("sm\:min-w-60") {
+      @include it('sm\:min-w-60') {
         @include assert {
           @include output {
             @include sm\:min-w-60;
@@ -903,7 +903,7 @@
         }
       }
 
-      @include it("sm\:min-w-64") {
+      @include it('sm\:min-w-64') {
         @include assert {
           @include output {
             @include sm\:min-w-64;
@@ -918,7 +918,7 @@
         }
       }
 
-      @include it("sm\:min-w-72") {
+      @include it('sm\:min-w-72') {
         @include assert {
           @include output {
             @include sm\:min-w-72;
@@ -933,7 +933,7 @@
         }
       }
 
-      @include it("sm\:min-w-80") {
+      @include it('sm\:min-w-80') {
         @include assert {
           @include output {
             @include sm\:min-w-80;
@@ -948,7 +948,7 @@
         }
       }
 
-      @include it("sm\:min-w-96") {
+      @include it('sm\:min-w-96') {
         @include assert {
           @include output {
             @include sm\:min-w-96;
@@ -963,7 +963,7 @@
         }
       }
 
-      @include it("sm\:min-w-px") {
+      @include it('sm\:min-w-px') {
         @include assert {
           @include output {
             @include sm\:min-w-px;
@@ -978,7 +978,7 @@
         }
       }
 
-      @include it("sm\:min-w-0\.5") {
+      @include it('sm\:min-w-0\.5') {
         @include assert {
           @include output {
             @include sm\:min-w-0\.5;
@@ -993,7 +993,7 @@
         }
       }
 
-      @include it("sm\:min-w-1\.5") {
+      @include it('sm\:min-w-1\.5') {
         @include assert {
           @include output {
             @include sm\:min-w-1\.5;
@@ -1008,7 +1008,7 @@
         }
       }
 
-      @include it("sm\:min-w-2\.5") {
+      @include it('sm\:min-w-2\.5') {
         @include assert {
           @include output {
             @include sm\:min-w-2\.5;
@@ -1023,7 +1023,7 @@
         }
       }
 
-      @include it("sm\:min-w-3\.5") {
+      @include it('sm\:min-w-3\.5') {
         @include assert {
           @include output {
             @include sm\:min-w-3\.5;
@@ -1038,7 +1038,7 @@
         }
       }
 
-      @include it("sm\:min-w-full") {
+      @include it('sm\:min-w-full') {
         @include assert {
           @include output {
             @include sm\:min-w-full;
@@ -1053,7 +1053,7 @@
         }
       }
 
-      @include it("sm\:min-w-min") {
+      @include it('sm\:min-w-min') {
         @include assert {
           @include output {
             @include sm\:min-w-min;
@@ -1068,7 +1068,7 @@
         }
       }
 
-      @include it("sm\:min-w-max") {
+      @include it('sm\:min-w-max') {
         @include assert {
           @include output {
             @include sm\:min-w-max;
@@ -1083,7 +1083,7 @@
         }
       }
 
-      @include it("sm\:min-w-fit") {
+      @include it('sm\:min-w-fit') {
         @include assert {
           @include output {
             @include sm\:min-w-fit;
@@ -1098,7 +1098,7 @@
         }
       }
 
-      @include it("md\:min-w-0") {
+      @include it('md\:min-w-0') {
         @include assert {
           @include output {
             @include md\:min-w-0;
@@ -1113,7 +1113,7 @@
         }
       }
 
-      @include it("md\:min-w-1") {
+      @include it('md\:min-w-1') {
         @include assert {
           @include output {
             @include md\:min-w-1;
@@ -1128,7 +1128,7 @@
         }
       }
 
-      @include it("md\:min-w-2") {
+      @include it('md\:min-w-2') {
         @include assert {
           @include output {
             @include md\:min-w-2;
@@ -1143,7 +1143,7 @@
         }
       }
 
-      @include it("md\:min-w-3") {
+      @include it('md\:min-w-3') {
         @include assert {
           @include output {
             @include md\:min-w-3;
@@ -1158,7 +1158,7 @@
         }
       }
 
-      @include it("md\:min-w-4") {
+      @include it('md\:min-w-4') {
         @include assert {
           @include output {
             @include md\:min-w-4;
@@ -1173,7 +1173,7 @@
         }
       }
 
-      @include it("md\:min-w-5") {
+      @include it('md\:min-w-5') {
         @include assert {
           @include output {
             @include md\:min-w-5;
@@ -1188,7 +1188,7 @@
         }
       }
 
-      @include it("md\:min-w-6") {
+      @include it('md\:min-w-6') {
         @include assert {
           @include output {
             @include md\:min-w-6;
@@ -1203,7 +1203,7 @@
         }
       }
 
-      @include it("md\:min-w-7") {
+      @include it('md\:min-w-7') {
         @include assert {
           @include output {
             @include md\:min-w-7;
@@ -1218,7 +1218,7 @@
         }
       }
 
-      @include it("md\:min-w-8") {
+      @include it('md\:min-w-8') {
         @include assert {
           @include output {
             @include md\:min-w-8;
@@ -1233,7 +1233,7 @@
         }
       }
 
-      @include it("md\:min-w-9") {
+      @include it('md\:min-w-9') {
         @include assert {
           @include output {
             @include md\:min-w-9;
@@ -1248,7 +1248,7 @@
         }
       }
 
-      @include it("md\:min-w-10") {
+      @include it('md\:min-w-10') {
         @include assert {
           @include output {
             @include md\:min-w-10;
@@ -1263,7 +1263,7 @@
         }
       }
 
-      @include it("md\:min-w-11") {
+      @include it('md\:min-w-11') {
         @include assert {
           @include output {
             @include md\:min-w-11;
@@ -1278,7 +1278,7 @@
         }
       }
 
-      @include it("md\:min-w-12") {
+      @include it('md\:min-w-12') {
         @include assert {
           @include output {
             @include md\:min-w-12;
@@ -1293,7 +1293,7 @@
         }
       }
 
-      @include it("md\:min-w-14") {
+      @include it('md\:min-w-14') {
         @include assert {
           @include output {
             @include md\:min-w-14;
@@ -1308,7 +1308,7 @@
         }
       }
 
-      @include it("md\:min-w-16") {
+      @include it('md\:min-w-16') {
         @include assert {
           @include output {
             @include md\:min-w-16;
@@ -1323,7 +1323,7 @@
         }
       }
 
-      @include it("md\:min-w-20") {
+      @include it('md\:min-w-20') {
         @include assert {
           @include output {
             @include md\:min-w-20;
@@ -1338,7 +1338,7 @@
         }
       }
 
-      @include it("md\:min-w-24") {
+      @include it('md\:min-w-24') {
         @include assert {
           @include output {
             @include md\:min-w-24;
@@ -1353,7 +1353,7 @@
         }
       }
 
-      @include it("md\:min-w-28") {
+      @include it('md\:min-w-28') {
         @include assert {
           @include output {
             @include md\:min-w-28;
@@ -1368,7 +1368,7 @@
         }
       }
 
-      @include it("md\:min-w-32") {
+      @include it('md\:min-w-32') {
         @include assert {
           @include output {
             @include md\:min-w-32;
@@ -1383,7 +1383,7 @@
         }
       }
 
-      @include it("md\:min-w-36") {
+      @include it('md\:min-w-36') {
         @include assert {
           @include output {
             @include md\:min-w-36;
@@ -1398,7 +1398,7 @@
         }
       }
 
-      @include it("md\:min-w-40") {
+      @include it('md\:min-w-40') {
         @include assert {
           @include output {
             @include md\:min-w-40;
@@ -1413,7 +1413,7 @@
         }
       }
 
-      @include it("md\:min-w-44") {
+      @include it('md\:min-w-44') {
         @include assert {
           @include output {
             @include md\:min-w-44;
@@ -1428,7 +1428,7 @@
         }
       }
 
-      @include it("md\:min-w-48") {
+      @include it('md\:min-w-48') {
         @include assert {
           @include output {
             @include md\:min-w-48;
@@ -1443,7 +1443,7 @@
         }
       }
 
-      @include it("md\:min-w-52") {
+      @include it('md\:min-w-52') {
         @include assert {
           @include output {
             @include md\:min-w-52;
@@ -1458,7 +1458,7 @@
         }
       }
 
-      @include it("md\:min-w-56") {
+      @include it('md\:min-w-56') {
         @include assert {
           @include output {
             @include md\:min-w-56;
@@ -1473,7 +1473,7 @@
         }
       }
 
-      @include it("md\:min-w-60") {
+      @include it('md\:min-w-60') {
         @include assert {
           @include output {
             @include md\:min-w-60;
@@ -1488,7 +1488,7 @@
         }
       }
 
-      @include it("md\:min-w-64") {
+      @include it('md\:min-w-64') {
         @include assert {
           @include output {
             @include md\:min-w-64;
@@ -1503,7 +1503,7 @@
         }
       }
 
-      @include it("md\:min-w-72") {
+      @include it('md\:min-w-72') {
         @include assert {
           @include output {
             @include md\:min-w-72;
@@ -1518,7 +1518,7 @@
         }
       }
 
-      @include it("md\:min-w-80") {
+      @include it('md\:min-w-80') {
         @include assert {
           @include output {
             @include md\:min-w-80;
@@ -1533,7 +1533,7 @@
         }
       }
 
-      @include it("md\:min-w-96") {
+      @include it('md\:min-w-96') {
         @include assert {
           @include output {
             @include md\:min-w-96;
@@ -1548,7 +1548,7 @@
         }
       }
 
-      @include it("md\:min-w-px") {
+      @include it('md\:min-w-px') {
         @include assert {
           @include output {
             @include md\:min-w-px;
@@ -1563,7 +1563,7 @@
         }
       }
 
-      @include it("md\:min-w-0\.5") {
+      @include it('md\:min-w-0\.5') {
         @include assert {
           @include output {
             @include md\:min-w-0\.5;
@@ -1578,7 +1578,7 @@
         }
       }
 
-      @include it("md\:min-w-1\.5") {
+      @include it('md\:min-w-1\.5') {
         @include assert {
           @include output {
             @include md\:min-w-1\.5;
@@ -1593,7 +1593,7 @@
         }
       }
 
-      @include it("md\:min-w-2\.5") {
+      @include it('md\:min-w-2\.5') {
         @include assert {
           @include output {
             @include md\:min-w-2\.5;
@@ -1608,7 +1608,7 @@
         }
       }
 
-      @include it("md\:min-w-3\.5") {
+      @include it('md\:min-w-3\.5') {
         @include assert {
           @include output {
             @include md\:min-w-3\.5;
@@ -1623,7 +1623,7 @@
         }
       }
 
-      @include it("md\:min-w-full") {
+      @include it('md\:min-w-full') {
         @include assert {
           @include output {
             @include md\:min-w-full;
@@ -1638,7 +1638,7 @@
         }
       }
 
-      @include it("md\:min-w-min") {
+      @include it('md\:min-w-min') {
         @include assert {
           @include output {
             @include md\:min-w-min;
@@ -1653,7 +1653,7 @@
         }
       }
 
-      @include it("md\:min-w-max") {
+      @include it('md\:min-w-max') {
         @include assert {
           @include output {
             @include md\:min-w-max;
@@ -1668,7 +1668,7 @@
         }
       }
 
-      @include it("md\:min-w-fit") {
+      @include it('md\:min-w-fit') {
         @include assert {
           @include output {
             @include md\:min-w-fit;
@@ -1683,7 +1683,7 @@
         }
       }
 
-      @include it("lg\:min-w-0") {
+      @include it('lg\:min-w-0') {
         @include assert {
           @include output {
             @include lg\:min-w-0;
@@ -1698,7 +1698,7 @@
         }
       }
 
-      @include it("lg\:min-w-1") {
+      @include it('lg\:min-w-1') {
         @include assert {
           @include output {
             @include lg\:min-w-1;
@@ -1713,7 +1713,7 @@
         }
       }
 
-      @include it("lg\:min-w-2") {
+      @include it('lg\:min-w-2') {
         @include assert {
           @include output {
             @include lg\:min-w-2;
@@ -1728,7 +1728,7 @@
         }
       }
 
-      @include it("lg\:min-w-3") {
+      @include it('lg\:min-w-3') {
         @include assert {
           @include output {
             @include lg\:min-w-3;
@@ -1743,7 +1743,7 @@
         }
       }
 
-      @include it("lg\:min-w-4") {
+      @include it('lg\:min-w-4') {
         @include assert {
           @include output {
             @include lg\:min-w-4;
@@ -1758,7 +1758,7 @@
         }
       }
 
-      @include it("lg\:min-w-5") {
+      @include it('lg\:min-w-5') {
         @include assert {
           @include output {
             @include lg\:min-w-5;
@@ -1773,7 +1773,7 @@
         }
       }
 
-      @include it("lg\:min-w-6") {
+      @include it('lg\:min-w-6') {
         @include assert {
           @include output {
             @include lg\:min-w-6;
@@ -1788,7 +1788,7 @@
         }
       }
 
-      @include it("lg\:min-w-7") {
+      @include it('lg\:min-w-7') {
         @include assert {
           @include output {
             @include lg\:min-w-7;
@@ -1803,7 +1803,7 @@
         }
       }
 
-      @include it("lg\:min-w-8") {
+      @include it('lg\:min-w-8') {
         @include assert {
           @include output {
             @include lg\:min-w-8;
@@ -1818,7 +1818,7 @@
         }
       }
 
-      @include it("lg\:min-w-9") {
+      @include it('lg\:min-w-9') {
         @include assert {
           @include output {
             @include lg\:min-w-9;
@@ -1833,7 +1833,7 @@
         }
       }
 
-      @include it("lg\:min-w-10") {
+      @include it('lg\:min-w-10') {
         @include assert {
           @include output {
             @include lg\:min-w-10;
@@ -1848,7 +1848,7 @@
         }
       }
 
-      @include it("lg\:min-w-11") {
+      @include it('lg\:min-w-11') {
         @include assert {
           @include output {
             @include lg\:min-w-11;
@@ -1863,7 +1863,7 @@
         }
       }
 
-      @include it("lg\:min-w-12") {
+      @include it('lg\:min-w-12') {
         @include assert {
           @include output {
             @include lg\:min-w-12;
@@ -1878,7 +1878,7 @@
         }
       }
 
-      @include it("lg\:min-w-14") {
+      @include it('lg\:min-w-14') {
         @include assert {
           @include output {
             @include lg\:min-w-14;
@@ -1893,7 +1893,7 @@
         }
       }
 
-      @include it("lg\:min-w-16") {
+      @include it('lg\:min-w-16') {
         @include assert {
           @include output {
             @include lg\:min-w-16;
@@ -1908,7 +1908,7 @@
         }
       }
 
-      @include it("lg\:min-w-20") {
+      @include it('lg\:min-w-20') {
         @include assert {
           @include output {
             @include lg\:min-w-20;
@@ -1923,7 +1923,7 @@
         }
       }
 
-      @include it("lg\:min-w-24") {
+      @include it('lg\:min-w-24') {
         @include assert {
           @include output {
             @include lg\:min-w-24;
@@ -1938,7 +1938,7 @@
         }
       }
 
-      @include it("lg\:min-w-28") {
+      @include it('lg\:min-w-28') {
         @include assert {
           @include output {
             @include lg\:min-w-28;
@@ -1953,7 +1953,7 @@
         }
       }
 
-      @include it("lg\:min-w-32") {
+      @include it('lg\:min-w-32') {
         @include assert {
           @include output {
             @include lg\:min-w-32;
@@ -1968,7 +1968,7 @@
         }
       }
 
-      @include it("lg\:min-w-36") {
+      @include it('lg\:min-w-36') {
         @include assert {
           @include output {
             @include lg\:min-w-36;
@@ -1983,7 +1983,7 @@
         }
       }
 
-      @include it("lg\:min-w-40") {
+      @include it('lg\:min-w-40') {
         @include assert {
           @include output {
             @include lg\:min-w-40;
@@ -1998,7 +1998,7 @@
         }
       }
 
-      @include it("lg\:min-w-44") {
+      @include it('lg\:min-w-44') {
         @include assert {
           @include output {
             @include lg\:min-w-44;
@@ -2013,7 +2013,7 @@
         }
       }
 
-      @include it("lg\:min-w-48") {
+      @include it('lg\:min-w-48') {
         @include assert {
           @include output {
             @include lg\:min-w-48;
@@ -2028,7 +2028,7 @@
         }
       }
 
-      @include it("lg\:min-w-52") {
+      @include it('lg\:min-w-52') {
         @include assert {
           @include output {
             @include lg\:min-w-52;
@@ -2043,7 +2043,7 @@
         }
       }
 
-      @include it("lg\:min-w-56") {
+      @include it('lg\:min-w-56') {
         @include assert {
           @include output {
             @include lg\:min-w-56;
@@ -2058,7 +2058,7 @@
         }
       }
 
-      @include it("lg\:min-w-60") {
+      @include it('lg\:min-w-60') {
         @include assert {
           @include output {
             @include lg\:min-w-60;
@@ -2073,7 +2073,7 @@
         }
       }
 
-      @include it("lg\:min-w-64") {
+      @include it('lg\:min-w-64') {
         @include assert {
           @include output {
             @include lg\:min-w-64;
@@ -2088,7 +2088,7 @@
         }
       }
 
-      @include it("lg\:min-w-72") {
+      @include it('lg\:min-w-72') {
         @include assert {
           @include output {
             @include lg\:min-w-72;
@@ -2103,7 +2103,7 @@
         }
       }
 
-      @include it("lg\:min-w-80") {
+      @include it('lg\:min-w-80') {
         @include assert {
           @include output {
             @include lg\:min-w-80;
@@ -2118,7 +2118,7 @@
         }
       }
 
-      @include it("lg\:min-w-96") {
+      @include it('lg\:min-w-96') {
         @include assert {
           @include output {
             @include lg\:min-w-96;
@@ -2133,7 +2133,7 @@
         }
       }
 
-      @include it("lg\:min-w-px") {
+      @include it('lg\:min-w-px') {
         @include assert {
           @include output {
             @include lg\:min-w-px;
@@ -2148,7 +2148,7 @@
         }
       }
 
-      @include it("lg\:min-w-0\.5") {
+      @include it('lg\:min-w-0\.5') {
         @include assert {
           @include output {
             @include lg\:min-w-0\.5;
@@ -2163,7 +2163,7 @@
         }
       }
 
-      @include it("lg\:min-w-1\.5") {
+      @include it('lg\:min-w-1\.5') {
         @include assert {
           @include output {
             @include lg\:min-w-1\.5;
@@ -2178,7 +2178,7 @@
         }
       }
 
-      @include it("lg\:min-w-2\.5") {
+      @include it('lg\:min-w-2\.5') {
         @include assert {
           @include output {
             @include lg\:min-w-2\.5;
@@ -2193,7 +2193,7 @@
         }
       }
 
-      @include it("lg\:min-w-3\.5") {
+      @include it('lg\:min-w-3\.5') {
         @include assert {
           @include output {
             @include lg\:min-w-3\.5;
@@ -2208,7 +2208,7 @@
         }
       }
 
-      @include it("lg\:min-w-full") {
+      @include it('lg\:min-w-full') {
         @include assert {
           @include output {
             @include lg\:min-w-full;
@@ -2223,7 +2223,7 @@
         }
       }
 
-      @include it("lg\:min-w-min") {
+      @include it('lg\:min-w-min') {
         @include assert {
           @include output {
             @include lg\:min-w-min;
@@ -2238,7 +2238,7 @@
         }
       }
 
-      @include it("lg\:min-w-max") {
+      @include it('lg\:min-w-max') {
         @include assert {
           @include output {
             @include lg\:min-w-max;
@@ -2253,7 +2253,7 @@
         }
       }
 
-      @include it("lg\:min-w-fit") {
+      @include it('lg\:min-w-fit') {
         @include assert {
           @include output {
             @include lg\:min-w-fit;
@@ -2268,7 +2268,7 @@
         }
       }
 
-      @include it("xl\:min-w-0") {
+      @include it('xl\:min-w-0') {
         @include assert {
           @include output {
             @include xl\:min-w-0;
@@ -2283,7 +2283,7 @@
         }
       }
 
-      @include it("xl\:min-w-1") {
+      @include it('xl\:min-w-1') {
         @include assert {
           @include output {
             @include xl\:min-w-1;
@@ -2298,7 +2298,7 @@
         }
       }
 
-      @include it("xl\:min-w-2") {
+      @include it('xl\:min-w-2') {
         @include assert {
           @include output {
             @include xl\:min-w-2;
@@ -2313,7 +2313,7 @@
         }
       }
 
-      @include it("xl\:min-w-3") {
+      @include it('xl\:min-w-3') {
         @include assert {
           @include output {
             @include xl\:min-w-3;
@@ -2328,7 +2328,7 @@
         }
       }
 
-      @include it("xl\:min-w-4") {
+      @include it('xl\:min-w-4') {
         @include assert {
           @include output {
             @include xl\:min-w-4;
@@ -2343,7 +2343,7 @@
         }
       }
 
-      @include it("xl\:min-w-5") {
+      @include it('xl\:min-w-5') {
         @include assert {
           @include output {
             @include xl\:min-w-5;
@@ -2358,7 +2358,7 @@
         }
       }
 
-      @include it("xl\:min-w-6") {
+      @include it('xl\:min-w-6') {
         @include assert {
           @include output {
             @include xl\:min-w-6;
@@ -2373,7 +2373,7 @@
         }
       }
 
-      @include it("xl\:min-w-7") {
+      @include it('xl\:min-w-7') {
         @include assert {
           @include output {
             @include xl\:min-w-7;
@@ -2388,7 +2388,7 @@
         }
       }
 
-      @include it("xl\:min-w-8") {
+      @include it('xl\:min-w-8') {
         @include assert {
           @include output {
             @include xl\:min-w-8;
@@ -2403,7 +2403,7 @@
         }
       }
 
-      @include it("xl\:min-w-9") {
+      @include it('xl\:min-w-9') {
         @include assert {
           @include output {
             @include xl\:min-w-9;
@@ -2418,7 +2418,7 @@
         }
       }
 
-      @include it("xl\:min-w-10") {
+      @include it('xl\:min-w-10') {
         @include assert {
           @include output {
             @include xl\:min-w-10;
@@ -2433,7 +2433,7 @@
         }
       }
 
-      @include it("xl\:min-w-11") {
+      @include it('xl\:min-w-11') {
         @include assert {
           @include output {
             @include xl\:min-w-11;
@@ -2448,7 +2448,7 @@
         }
       }
 
-      @include it("xl\:min-w-12") {
+      @include it('xl\:min-w-12') {
         @include assert {
           @include output {
             @include xl\:min-w-12;
@@ -2463,7 +2463,7 @@
         }
       }
 
-      @include it("xl\:min-w-14") {
+      @include it('xl\:min-w-14') {
         @include assert {
           @include output {
             @include xl\:min-w-14;
@@ -2478,7 +2478,7 @@
         }
       }
 
-      @include it("xl\:min-w-16") {
+      @include it('xl\:min-w-16') {
         @include assert {
           @include output {
             @include xl\:min-w-16;
@@ -2493,7 +2493,7 @@
         }
       }
 
-      @include it("xl\:min-w-20") {
+      @include it('xl\:min-w-20') {
         @include assert {
           @include output {
             @include xl\:min-w-20;
@@ -2508,7 +2508,7 @@
         }
       }
 
-      @include it("xl\:min-w-24") {
+      @include it('xl\:min-w-24') {
         @include assert {
           @include output {
             @include xl\:min-w-24;
@@ -2523,7 +2523,7 @@
         }
       }
 
-      @include it("xl\:min-w-28") {
+      @include it('xl\:min-w-28') {
         @include assert {
           @include output {
             @include xl\:min-w-28;
@@ -2538,7 +2538,7 @@
         }
       }
 
-      @include it("xl\:min-w-32") {
+      @include it('xl\:min-w-32') {
         @include assert {
           @include output {
             @include xl\:min-w-32;
@@ -2553,7 +2553,7 @@
         }
       }
 
-      @include it("xl\:min-w-36") {
+      @include it('xl\:min-w-36') {
         @include assert {
           @include output {
             @include xl\:min-w-36;
@@ -2568,7 +2568,7 @@
         }
       }
 
-      @include it("xl\:min-w-40") {
+      @include it('xl\:min-w-40') {
         @include assert {
           @include output {
             @include xl\:min-w-40;
@@ -2583,7 +2583,7 @@
         }
       }
 
-      @include it("xl\:min-w-44") {
+      @include it('xl\:min-w-44') {
         @include assert {
           @include output {
             @include xl\:min-w-44;
@@ -2598,7 +2598,7 @@
         }
       }
 
-      @include it("xl\:min-w-48") {
+      @include it('xl\:min-w-48') {
         @include assert {
           @include output {
             @include xl\:min-w-48;
@@ -2613,7 +2613,7 @@
         }
       }
 
-      @include it("xl\:min-w-52") {
+      @include it('xl\:min-w-52') {
         @include assert {
           @include output {
             @include xl\:min-w-52;
@@ -2628,7 +2628,7 @@
         }
       }
 
-      @include it("xl\:min-w-56") {
+      @include it('xl\:min-w-56') {
         @include assert {
           @include output {
             @include xl\:min-w-56;
@@ -2643,7 +2643,7 @@
         }
       }
 
-      @include it("xl\:min-w-60") {
+      @include it('xl\:min-w-60') {
         @include assert {
           @include output {
             @include xl\:min-w-60;
@@ -2658,7 +2658,7 @@
         }
       }
 
-      @include it("xl\:min-w-64") {
+      @include it('xl\:min-w-64') {
         @include assert {
           @include output {
             @include xl\:min-w-64;
@@ -2673,7 +2673,7 @@
         }
       }
 
-      @include it("xl\:min-w-72") {
+      @include it('xl\:min-w-72') {
         @include assert {
           @include output {
             @include xl\:min-w-72;
@@ -2688,7 +2688,7 @@
         }
       }
 
-      @include it("xl\:min-w-80") {
+      @include it('xl\:min-w-80') {
         @include assert {
           @include output {
             @include xl\:min-w-80;
@@ -2703,7 +2703,7 @@
         }
       }
 
-      @include it("xl\:min-w-96") {
+      @include it('xl\:min-w-96') {
         @include assert {
           @include output {
             @include xl\:min-w-96;
@@ -2718,7 +2718,7 @@
         }
       }
 
-      @include it("xl\:min-w-px") {
+      @include it('xl\:min-w-px') {
         @include assert {
           @include output {
             @include xl\:min-w-px;
@@ -2733,7 +2733,7 @@
         }
       }
 
-      @include it("xl\:min-w-0\.5") {
+      @include it('xl\:min-w-0\.5') {
         @include assert {
           @include output {
             @include xl\:min-w-0\.5;
@@ -2748,7 +2748,7 @@
         }
       }
 
-      @include it("xl\:min-w-1\.5") {
+      @include it('xl\:min-w-1\.5') {
         @include assert {
           @include output {
             @include xl\:min-w-1\.5;
@@ -2763,7 +2763,7 @@
         }
       }
 
-      @include it("xl\:min-w-2\.5") {
+      @include it('xl\:min-w-2\.5') {
         @include assert {
           @include output {
             @include xl\:min-w-2\.5;
@@ -2778,7 +2778,7 @@
         }
       }
 
-      @include it("xl\:min-w-3\.5") {
+      @include it('xl\:min-w-3\.5') {
         @include assert {
           @include output {
             @include xl\:min-w-3\.5;
@@ -2793,7 +2793,7 @@
         }
       }
 
-      @include it("xl\:min-w-full") {
+      @include it('xl\:min-w-full') {
         @include assert {
           @include output {
             @include xl\:min-w-full;
@@ -2808,7 +2808,7 @@
         }
       }
 
-      @include it("xl\:min-w-min") {
+      @include it('xl\:min-w-min') {
         @include assert {
           @include output {
             @include xl\:min-w-min;
@@ -2823,7 +2823,7 @@
         }
       }
 
-      @include it("xl\:min-w-max") {
+      @include it('xl\:min-w-max') {
         @include assert {
           @include output {
             @include xl\:min-w-max;
@@ -2838,7 +2838,7 @@
         }
       }
 
-      @include it("xl\:min-w-fit") {
+      @include it('xl\:min-w-fit') {
         @include assert {
           @include output {
             @include xl\:min-w-fit;
@@ -2853,7 +2853,7 @@
         }
       }
 
-      @include it("2xl\:min-w-0") {
+      @include it('2xl\:min-w-0') {
         @include assert {
           @include output {
             @include \2xl\:min-w-0;
@@ -2868,7 +2868,7 @@
         }
       }
 
-      @include it("2xl\:min-w-1") {
+      @include it('2xl\:min-w-1') {
         @include assert {
           @include output {
             @include \2xl\:min-w-1;
@@ -2883,7 +2883,7 @@
         }
       }
 
-      @include it("2xl\:min-w-2") {
+      @include it('2xl\:min-w-2') {
         @include assert {
           @include output {
             @include \2xl\:min-w-2;
@@ -2898,7 +2898,7 @@
         }
       }
 
-      @include it("2xl\:min-w-3") {
+      @include it('2xl\:min-w-3') {
         @include assert {
           @include output {
             @include \2xl\:min-w-3;
@@ -2913,7 +2913,7 @@
         }
       }
 
-      @include it("2xl\:min-w-4") {
+      @include it('2xl\:min-w-4') {
         @include assert {
           @include output {
             @include \2xl\:min-w-4;
@@ -2928,7 +2928,7 @@
         }
       }
 
-      @include it("2xl\:min-w-5") {
+      @include it('2xl\:min-w-5') {
         @include assert {
           @include output {
             @include \2xl\:min-w-5;
@@ -2943,7 +2943,7 @@
         }
       }
 
-      @include it("2xl\:min-w-6") {
+      @include it('2xl\:min-w-6') {
         @include assert {
           @include output {
             @include \2xl\:min-w-6;
@@ -2958,7 +2958,7 @@
         }
       }
 
-      @include it("2xl\:min-w-7") {
+      @include it('2xl\:min-w-7') {
         @include assert {
           @include output {
             @include \2xl\:min-w-7;
@@ -2973,7 +2973,7 @@
         }
       }
 
-      @include it("2xl\:min-w-8") {
+      @include it('2xl\:min-w-8') {
         @include assert {
           @include output {
             @include \2xl\:min-w-8;
@@ -2988,7 +2988,7 @@
         }
       }
 
-      @include it("2xl\:min-w-9") {
+      @include it('2xl\:min-w-9') {
         @include assert {
           @include output {
             @include \2xl\:min-w-9;
@@ -3003,7 +3003,7 @@
         }
       }
 
-      @include it("2xl\:min-w-10") {
+      @include it('2xl\:min-w-10') {
         @include assert {
           @include output {
             @include \2xl\:min-w-10;
@@ -3018,7 +3018,7 @@
         }
       }
 
-      @include it("2xl\:min-w-11") {
+      @include it('2xl\:min-w-11') {
         @include assert {
           @include output {
             @include \2xl\:min-w-11;
@@ -3033,7 +3033,7 @@
         }
       }
 
-      @include it("2xl\:min-w-12") {
+      @include it('2xl\:min-w-12') {
         @include assert {
           @include output {
             @include \2xl\:min-w-12;
@@ -3048,7 +3048,7 @@
         }
       }
 
-      @include it("2xl\:min-w-14") {
+      @include it('2xl\:min-w-14') {
         @include assert {
           @include output {
             @include \2xl\:min-w-14;
@@ -3063,7 +3063,7 @@
         }
       }
 
-      @include it("2xl\:min-w-16") {
+      @include it('2xl\:min-w-16') {
         @include assert {
           @include output {
             @include \2xl\:min-w-16;
@@ -3078,7 +3078,7 @@
         }
       }
 
-      @include it("2xl\:min-w-20") {
+      @include it('2xl\:min-w-20') {
         @include assert {
           @include output {
             @include \2xl\:min-w-20;
@@ -3093,7 +3093,7 @@
         }
       }
 
-      @include it("2xl\:min-w-24") {
+      @include it('2xl\:min-w-24') {
         @include assert {
           @include output {
             @include \2xl\:min-w-24;
@@ -3108,7 +3108,7 @@
         }
       }
 
-      @include it("2xl\:min-w-28") {
+      @include it('2xl\:min-w-28') {
         @include assert {
           @include output {
             @include \2xl\:min-w-28;
@@ -3123,7 +3123,7 @@
         }
       }
 
-      @include it("2xl\:min-w-32") {
+      @include it('2xl\:min-w-32') {
         @include assert {
           @include output {
             @include \2xl\:min-w-32;
@@ -3138,7 +3138,7 @@
         }
       }
 
-      @include it("2xl\:min-w-36") {
+      @include it('2xl\:min-w-36') {
         @include assert {
           @include output {
             @include \2xl\:min-w-36;
@@ -3153,7 +3153,7 @@
         }
       }
 
-      @include it("2xl\:min-w-40") {
+      @include it('2xl\:min-w-40') {
         @include assert {
           @include output {
             @include \2xl\:min-w-40;
@@ -3168,7 +3168,7 @@
         }
       }
 
-      @include it("2xl\:min-w-44") {
+      @include it('2xl\:min-w-44') {
         @include assert {
           @include output {
             @include \2xl\:min-w-44;
@@ -3183,7 +3183,7 @@
         }
       }
 
-      @include it("2xl\:min-w-48") {
+      @include it('2xl\:min-w-48') {
         @include assert {
           @include output {
             @include \2xl\:min-w-48;
@@ -3198,7 +3198,7 @@
         }
       }
 
-      @include it("2xl\:min-w-52") {
+      @include it('2xl\:min-w-52') {
         @include assert {
           @include output {
             @include \2xl\:min-w-52;
@@ -3213,7 +3213,7 @@
         }
       }
 
-      @include it("2xl\:min-w-56") {
+      @include it('2xl\:min-w-56') {
         @include assert {
           @include output {
             @include \2xl\:min-w-56;
@@ -3228,7 +3228,7 @@
         }
       }
 
-      @include it("2xl\:min-w-60") {
+      @include it('2xl\:min-w-60') {
         @include assert {
           @include output {
             @include \2xl\:min-w-60;
@@ -3243,7 +3243,7 @@
         }
       }
 
-      @include it("2xl\:min-w-64") {
+      @include it('2xl\:min-w-64') {
         @include assert {
           @include output {
             @include \2xl\:min-w-64;
@@ -3258,7 +3258,7 @@
         }
       }
 
-      @include it("2xl\:min-w-72") {
+      @include it('2xl\:min-w-72') {
         @include assert {
           @include output {
             @include \2xl\:min-w-72;
@@ -3273,7 +3273,7 @@
         }
       }
 
-      @include it("2xl\:min-w-80") {
+      @include it('2xl\:min-w-80') {
         @include assert {
           @include output {
             @include \2xl\:min-w-80;
@@ -3288,7 +3288,7 @@
         }
       }
 
-      @include it("2xl\:min-w-96") {
+      @include it('2xl\:min-w-96') {
         @include assert {
           @include output {
             @include \2xl\:min-w-96;
@@ -3303,7 +3303,7 @@
         }
       }
 
-      @include it("2xl\:min-w-px") {
+      @include it('2xl\:min-w-px') {
         @include assert {
           @include output {
             @include \2xl\:min-w-px;
@@ -3318,7 +3318,7 @@
         }
       }
 
-      @include it("2xl\:min-w-0\.5") {
+      @include it('2xl\:min-w-0\.5') {
         @include assert {
           @include output {
             @include \2xl\:min-w-0\.5;
@@ -3333,7 +3333,7 @@
         }
       }
 
-      @include it("2xl\:min-w-1\.5") {
+      @include it('2xl\:min-w-1\.5') {
         @include assert {
           @include output {
             @include \2xl\:min-w-1\.5;
@@ -3348,7 +3348,7 @@
         }
       }
 
-      @include it("2xl\:min-w-2\.5") {
+      @include it('2xl\:min-w-2\.5') {
         @include assert {
           @include output {
             @include \2xl\:min-w-2\.5;
@@ -3363,7 +3363,7 @@
         }
       }
 
-      @include it("2xl\:min-w-3\.5") {
+      @include it('2xl\:min-w-3\.5') {
         @include assert {
           @include output {
             @include \2xl\:min-w-3\.5;
@@ -3378,7 +3378,7 @@
         }
       }
 
-      @include it("2xl\:min-w-full") {
+      @include it('2xl\:min-w-full') {
         @include assert {
           @include output {
             @include \2xl\:min-w-full;
@@ -3393,7 +3393,7 @@
         }
       }
 
-      @include it("2xl\:min-w-min") {
+      @include it('2xl\:min-w-min') {
         @include assert {
           @include output {
             @include \2xl\:min-w-min;
@@ -3408,7 +3408,7 @@
         }
       }
 
-      @include it("2xl\:min-w-max") {
+      @include it('2xl\:min-w-max') {
         @include assert {
           @include output {
             @include \2xl\:min-w-max;
@@ -3423,7 +3423,7 @@
         }
       }
 
-      @include it("2xl\:min-w-fit") {
+      @include it('2xl\:min-w-fit') {
         @include assert {
           @include output {
             @include \2xl\:min-w-fit;
@@ -3439,8 +3439,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("min-w-(220px)") {
+    @include describe('Custom') {
+      @include it('min-w-(220px)') {
         @include assert {
           @include output {
             @include min-w-(220px);
@@ -3453,7 +3453,7 @@
         }
       }
 
-      @include it("sm\:min-w-(220px)") {
+      @include it('sm\:min-w-(220px)') {
         @include assert {
           @include output {
             @include sm\:min-w-(220px);
@@ -3468,7 +3468,7 @@
         }
       }
 
-      @include it("md\:min-w-(220px)") {
+      @include it('md\:min-w-(220px)') {
         @include assert {
           @include output {
             @include md\:min-w-(220px);
@@ -3483,7 +3483,7 @@
         }
       }
 
-      @include it("lg\:min-w-(220px)") {
+      @include it('lg\:min-w-(220px)') {
         @include assert {
           @include output {
             @include lg\:min-w-(220px);
@@ -3498,7 +3498,7 @@
         }
       }
 
-      @include it("xl\:min-w-(220px)") {
+      @include it('xl\:min-w-(220px)') {
         @include assert {
           @include output {
             @include xl\:min-w-(220px);
@@ -3513,7 +3513,7 @@
         }
       }
 
-      @include it("2xl\:min-w-(220px)") {
+      @include it('2xl\:min-w-(220px)') {
         @include assert {
           @include output {
             @include \2xl\:min-w-(220px);

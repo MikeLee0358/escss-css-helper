@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("5.Typography") {
-  @include describe("Text Decoration Style") {
-    @include describe("Basic") {
-      @include it("decoration-solid") {
+@include describe('5.Typography') {
+  @include describe('Text Decoration Style') {
+    @include describe('Basic') {
+      @include it('decoration-solid') {
         @include assert {
           @include output {
             @include decoration-solid;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("decoration-double") {
+      @include it('decoration-double') {
         @include assert {
           @include output {
             @include decoration-double;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("decoration-dotted") {
+      @include it('decoration-dotted') {
         @include assert {
           @include output {
             @include decoration-dotted;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("decoration-dashed") {
+      @include it('decoration-dashed') {
         @include assert {
           @include output {
             @include decoration-dashed;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("decoration-wavy") {
+      @include it('decoration-wavy') {
         @include assert {
           @include output {
             @include decoration-wavy;
@@ -70,8 +70,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:decoration-solid") {
+    @include describe('Rwd') {
+      @include it('sm\:decoration-solid') {
         @include assert {
           @include output {
             @include sm\:decoration-solid;
@@ -86,7 +86,7 @@
         }
       }
 
-      @include it("sm\:decoration-double") {
+      @include it('sm\:decoration-double') {
         @include assert {
           @include output {
             @include sm\:decoration-double;
@@ -101,7 +101,7 @@
         }
       }
 
-      @include it("sm\:decoration-dotted") {
+      @include it('sm\:decoration-dotted') {
         @include assert {
           @include output {
             @include sm\:decoration-dotted;
@@ -116,7 +116,7 @@
         }
       }
 
-      @include it("sm\:decoration-dashed") {
+      @include it('sm\:decoration-dashed') {
         @include assert {
           @include output {
             @include sm\:decoration-dashed;
@@ -131,7 +131,7 @@
         }
       }
 
-      @include it("sm\:decoration-wavy") {
+      @include it('sm\:decoration-wavy') {
         @include assert {
           @include output {
             @include sm\:decoration-wavy;
@@ -146,7 +146,7 @@
         }
       }
 
-      @include it("md\:decoration-solid") {
+      @include it('md\:decoration-solid') {
         @include assert {
           @include output {
             @include md\:decoration-solid;
@@ -161,7 +161,7 @@
         }
       }
 
-      @include it("md\:decoration-double") {
+      @include it('md\:decoration-double') {
         @include assert {
           @include output {
             @include md\:decoration-double;
@@ -176,7 +176,7 @@
         }
       }
 
-      @include it("md\:decoration-dotted") {
+      @include it('md\:decoration-dotted') {
         @include assert {
           @include output {
             @include md\:decoration-dotted;
@@ -191,7 +191,7 @@
         }
       }
 
-      @include it("md\:decoration-dashed") {
+      @include it('md\:decoration-dashed') {
         @include assert {
           @include output {
             @include md\:decoration-dashed;
@@ -206,7 +206,7 @@
         }
       }
 
-      @include it("md\:decoration-wavy") {
+      @include it('md\:decoration-wavy') {
         @include assert {
           @include output {
             @include md\:decoration-wavy;
@@ -221,7 +221,7 @@
         }
       }
 
-      @include it("lg\:decoration-solid") {
+      @include it('lg\:decoration-solid') {
         @include assert {
           @include output {
             @include lg\:decoration-solid;
@@ -236,7 +236,7 @@
         }
       }
 
-      @include it("lg\:decoration-double") {
+      @include it('lg\:decoration-double') {
         @include assert {
           @include output {
             @include lg\:decoration-double;
@@ -251,7 +251,7 @@
         }
       }
 
-      @include it("lg\:decoration-dotted") {
+      @include it('lg\:decoration-dotted') {
         @include assert {
           @include output {
             @include lg\:decoration-dotted;
@@ -266,7 +266,7 @@
         }
       }
 
-      @include it("lg\:decoration-dashed") {
+      @include it('lg\:decoration-dashed') {
         @include assert {
           @include output {
             @include lg\:decoration-dashed;
@@ -281,7 +281,7 @@
         }
       }
 
-      @include it("lg\:decoration-wavy") {
+      @include it('lg\:decoration-wavy') {
         @include assert {
           @include output {
             @include lg\:decoration-wavy;
@@ -296,7 +296,7 @@
         }
       }
 
-      @include it("xl\:decoration-solid") {
+      @include it('xl\:decoration-solid') {
         @include assert {
           @include output {
             @include xl\:decoration-solid;
@@ -311,7 +311,7 @@
         }
       }
 
-      @include it("xl\:decoration-double") {
+      @include it('xl\:decoration-double') {
         @include assert {
           @include output {
             @include xl\:decoration-double;
@@ -326,7 +326,7 @@
         }
       }
 
-      @include it("xl\:decoration-dotted") {
+      @include it('xl\:decoration-dotted') {
         @include assert {
           @include output {
             @include xl\:decoration-dotted;
@@ -341,7 +341,7 @@
         }
       }
 
-      @include it("xl\:decoration-dashed") {
+      @include it('xl\:decoration-dashed') {
         @include assert {
           @include output {
             @include xl\:decoration-dashed;
@@ -356,7 +356,7 @@
         }
       }
 
-      @include it("xl\:decoration-wavy") {
+      @include it('xl\:decoration-wavy') {
         @include assert {
           @include output {
             @include xl\:decoration-wavy;
@@ -371,7 +371,7 @@
         }
       }
 
-      @include it("2xl\:decoration-solid") {
+      @include it('2xl\:decoration-solid') {
         @include assert {
           @include output {
             @include \2xl\:decoration-solid;
@@ -386,7 +386,7 @@
         }
       }
 
-      @include it("2xl\:decoration-double") {
+      @include it('2xl\:decoration-double') {
         @include assert {
           @include output {
             @include \2xl\:decoration-double;
@@ -401,7 +401,7 @@
         }
       }
 
-      @include it("2xl\:decoration-dotted") {
+      @include it('2xl\:decoration-dotted') {
         @include assert {
           @include output {
             @include \2xl\:decoration-dotted;
@@ -416,7 +416,7 @@
         }
       }
 
-      @include it("2xl\:decoration-dashed") {
+      @include it('2xl\:decoration-dashed') {
         @include assert {
           @include output {
             @include \2xl\:decoration-dashed;
@@ -431,7 +431,7 @@
         }
       }
 
-      @include it("2xl\:decoration-wavy") {
+      @include it('2xl\:decoration-wavy') {
         @include assert {
           @include output {
             @include \2xl\:decoration-wavy;

@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("8.Effects") {
-  @include describe("Background Blend Mode") {
-    @include describe("Basic") {
-      @include it("bg-blend-normal") {
+@include describe('8.Effects') {
+  @include describe('Background Blend Mode') {
+    @include describe('Basic') {
+      @include it('bg-blend-normal') {
         @include assert {
           @include output {
             @include bg-blend-normal;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("bg-blend-multiply") {
+      @include it('bg-blend-multiply') {
         @include assert {
           @include output {
             @include bg-blend-multiply;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("bg-blend-screen") {
+      @include it('bg-blend-screen') {
         @include assert {
           @include output {
             @include bg-blend-screen;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("bg-blend-overlay") {
+      @include it('bg-blend-overlay') {
         @include assert {
           @include output {
             @include bg-blend-overlay;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("bg-blend-darken") {
+      @include it('bg-blend-darken') {
         @include assert {
           @include output {
             @include bg-blend-darken;
@@ -69,7 +69,7 @@
         }
       }
 
-      @include it("bg-blend-lighten") {
+      @include it('bg-blend-lighten') {
         @include assert {
           @include output {
             @include bg-blend-lighten;
@@ -82,7 +82,7 @@
         }
       }
 
-      @include it("bg-blend-color-dodge") {
+      @include it('bg-blend-color-dodge') {
         @include assert {
           @include output {
             @include bg-blend-color-dodge;
@@ -95,7 +95,7 @@
         }
       }
 
-      @include it("bg-blend-color-burn") {
+      @include it('bg-blend-color-burn') {
         @include assert {
           @include output {
             @include bg-blend-color-burn;
@@ -108,7 +108,7 @@
         }
       }
 
-      @include it("bg-blend-hard-light") {
+      @include it('bg-blend-hard-light') {
         @include assert {
           @include output {
             @include bg-blend-hard-light;
@@ -121,7 +121,7 @@
         }
       }
 
-      @include it("bg-blend-soft-light") {
+      @include it('bg-blend-soft-light') {
         @include assert {
           @include output {
             @include bg-blend-soft-light;
@@ -134,7 +134,7 @@
         }
       }
 
-      @include it("bg-blend-difference") {
+      @include it('bg-blend-difference') {
         @include assert {
           @include output {
             @include bg-blend-difference;
@@ -147,7 +147,7 @@
         }
       }
 
-      @include it("bg-blend-exclusion") {
+      @include it('bg-blend-exclusion') {
         @include assert {
           @include output {
             @include bg-blend-exclusion;
@@ -160,7 +160,7 @@
         }
       }
 
-      @include it("bg-blend-hue") {
+      @include it('bg-blend-hue') {
         @include assert {
           @include output {
             @include bg-blend-hue;
@@ -173,7 +173,7 @@
         }
       }
 
-      @include it("bg-blend-saturation") {
+      @include it('bg-blend-saturation') {
         @include assert {
           @include output {
             @include bg-blend-saturation;
@@ -186,7 +186,7 @@
         }
       }
 
-      @include it("bg-blend-color") {
+      @include it('bg-blend-color') {
         @include assert {
           @include output {
             @include bg-blend-color;
@@ -199,7 +199,7 @@
         }
       }
 
-      @include it("bg-blend-luminosity") {
+      @include it('bg-blend-luminosity') {
         @include assert {
           @include output {
             @include bg-blend-luminosity;
@@ -213,8 +213,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:bg-blend-normal") {
+    @include describe('Rwd') {
+      @include it('sm\:bg-blend-normal') {
         @include assert {
           @include output {
             @include sm\:bg-blend-normal;
@@ -229,7 +229,7 @@
         }
       }
 
-      @include it("sm\:bg-blend-multiply") {
+      @include it('sm\:bg-blend-multiply') {
         @include assert {
           @include output {
             @include sm\:bg-blend-multiply;
@@ -244,7 +244,7 @@
         }
       }
 
-      @include it("sm\:bg-blend-screen") {
+      @include it('sm\:bg-blend-screen') {
         @include assert {
           @include output {
             @include sm\:bg-blend-screen;
@@ -259,7 +259,7 @@
         }
       }
 
-      @include it("sm\:bg-blend-overlay") {
+      @include it('sm\:bg-blend-overlay') {
         @include assert {
           @include output {
             @include sm\:bg-blend-overlay;
@@ -274,7 +274,7 @@
         }
       }
 
-      @include it("sm\:bg-blend-darken") {
+      @include it('sm\:bg-blend-darken') {
         @include assert {
           @include output {
             @include sm\:bg-blend-darken;
@@ -289,7 +289,7 @@
         }
       }
 
-      @include it("sm\:bg-blend-lighten") {
+      @include it('sm\:bg-blend-lighten') {
         @include assert {
           @include output {
             @include sm\:bg-blend-lighten;
@@ -304,7 +304,7 @@
         }
       }
 
-      @include it("sm\:bg-blend-color-dodge") {
+      @include it('sm\:bg-blend-color-dodge') {
         @include assert {
           @include output {
             @include sm\:bg-blend-color-dodge;
@@ -319,7 +319,7 @@
         }
       }
 
-      @include it("sm\:bg-blend-color-burn") {
+      @include it('sm\:bg-blend-color-burn') {
         @include assert {
           @include output {
             @include sm\:bg-blend-color-burn;
@@ -334,7 +334,7 @@
         }
       }
 
-      @include it("sm\:bg-blend-hard-light") {
+      @include it('sm\:bg-blend-hard-light') {
         @include assert {
           @include output {
             @include sm\:bg-blend-hard-light;
@@ -349,7 +349,7 @@
         }
       }
 
-      @include it("sm\:bg-blend-soft-light") {
+      @include it('sm\:bg-blend-soft-light') {
         @include assert {
           @include output {
             @include sm\:bg-blend-soft-light;
@@ -364,7 +364,7 @@
         }
       }
 
-      @include it("sm\:bg-blend-difference") {
+      @include it('sm\:bg-blend-difference') {
         @include assert {
           @include output {
             @include sm\:bg-blend-difference;
@@ -379,7 +379,7 @@
         }
       }
 
-      @include it("sm\:bg-blend-exclusion") {
+      @include it('sm\:bg-blend-exclusion') {
         @include assert {
           @include output {
             @include sm\:bg-blend-exclusion;
@@ -394,7 +394,7 @@
         }
       }
 
-      @include it("sm\:bg-blend-hue") {
+      @include it('sm\:bg-blend-hue') {
         @include assert {
           @include output {
             @include sm\:bg-blend-hue;
@@ -409,7 +409,7 @@
         }
       }
 
-      @include it("sm\:bg-blend-saturation") {
+      @include it('sm\:bg-blend-saturation') {
         @include assert {
           @include output {
             @include sm\:bg-blend-saturation;
@@ -424,7 +424,7 @@
         }
       }
 
-      @include it("sm\:bg-blend-color") {
+      @include it('sm\:bg-blend-color') {
         @include assert {
           @include output {
             @include sm\:bg-blend-color;
@@ -439,7 +439,7 @@
         }
       }
 
-      @include it("sm\:bg-blend-luminosity") {
+      @include it('sm\:bg-blend-luminosity') {
         @include assert {
           @include output {
             @include sm\:bg-blend-luminosity;
@@ -454,7 +454,7 @@
         }
       }
 
-      @include it("md\:bg-blend-normal") {
+      @include it('md\:bg-blend-normal') {
         @include assert {
           @include output {
             @include md\:bg-blend-normal;
@@ -469,7 +469,7 @@
         }
       }
 
-      @include it("md\:bg-blend-multiply") {
+      @include it('md\:bg-blend-multiply') {
         @include assert {
           @include output {
             @include md\:bg-blend-multiply;
@@ -484,7 +484,7 @@
         }
       }
 
-      @include it("md\:bg-blend-screen") {
+      @include it('md\:bg-blend-screen') {
         @include assert {
           @include output {
             @include md\:bg-blend-screen;
@@ -499,7 +499,7 @@
         }
       }
 
-      @include it("md\:bg-blend-overlay") {
+      @include it('md\:bg-blend-overlay') {
         @include assert {
           @include output {
             @include md\:bg-blend-overlay;
@@ -514,7 +514,7 @@
         }
       }
 
-      @include it("md\:bg-blend-darken") {
+      @include it('md\:bg-blend-darken') {
         @include assert {
           @include output {
             @include md\:bg-blend-darken;
@@ -529,7 +529,7 @@
         }
       }
 
-      @include it("md\:bg-blend-lighten") {
+      @include it('md\:bg-blend-lighten') {
         @include assert {
           @include output {
             @include md\:bg-blend-lighten;
@@ -544,7 +544,7 @@
         }
       }
 
-      @include it("md\:bg-blend-color-dodge") {
+      @include it('md\:bg-blend-color-dodge') {
         @include assert {
           @include output {
             @include md\:bg-blend-color-dodge;
@@ -559,7 +559,7 @@
         }
       }
 
-      @include it("md\:bg-blend-color-burn") {
+      @include it('md\:bg-blend-color-burn') {
         @include assert {
           @include output {
             @include md\:bg-blend-color-burn;
@@ -574,7 +574,7 @@
         }
       }
 
-      @include it("md\:bg-blend-hard-light") {
+      @include it('md\:bg-blend-hard-light') {
         @include assert {
           @include output {
             @include md\:bg-blend-hard-light;
@@ -589,7 +589,7 @@
         }
       }
 
-      @include it("md\:bg-blend-soft-light") {
+      @include it('md\:bg-blend-soft-light') {
         @include assert {
           @include output {
             @include md\:bg-blend-soft-light;
@@ -604,7 +604,7 @@
         }
       }
 
-      @include it("md\:bg-blend-difference") {
+      @include it('md\:bg-blend-difference') {
         @include assert {
           @include output {
             @include md\:bg-blend-difference;
@@ -619,7 +619,7 @@
         }
       }
 
-      @include it("md\:bg-blend-exclusion") {
+      @include it('md\:bg-blend-exclusion') {
         @include assert {
           @include output {
             @include md\:bg-blend-exclusion;
@@ -634,7 +634,7 @@
         }
       }
 
-      @include it("md\:bg-blend-hue") {
+      @include it('md\:bg-blend-hue') {
         @include assert {
           @include output {
             @include md\:bg-blend-hue;
@@ -649,7 +649,7 @@
         }
       }
 
-      @include it("md\:bg-blend-saturation") {
+      @include it('md\:bg-blend-saturation') {
         @include assert {
           @include output {
             @include md\:bg-blend-saturation;
@@ -664,7 +664,7 @@
         }
       }
 
-      @include it("md\:bg-blend-color") {
+      @include it('md\:bg-blend-color') {
         @include assert {
           @include output {
             @include md\:bg-blend-color;
@@ -679,7 +679,7 @@
         }
       }
 
-      @include it("md\:bg-blend-luminosity") {
+      @include it('md\:bg-blend-luminosity') {
         @include assert {
           @include output {
             @include md\:bg-blend-luminosity;
@@ -694,7 +694,7 @@
         }
       }
 
-      @include it("lg\:bg-blend-normal") {
+      @include it('lg\:bg-blend-normal') {
         @include assert {
           @include output {
             @include lg\:bg-blend-normal;
@@ -709,7 +709,7 @@
         }
       }
 
-      @include it("lg\:bg-blend-multiply") {
+      @include it('lg\:bg-blend-multiply') {
         @include assert {
           @include output {
             @include lg\:bg-blend-multiply;
@@ -724,7 +724,7 @@
         }
       }
 
-      @include it("lg\:bg-blend-screen") {
+      @include it('lg\:bg-blend-screen') {
         @include assert {
           @include output {
             @include lg\:bg-blend-screen;
@@ -739,7 +739,7 @@
         }
       }
 
-      @include it("lg\:bg-blend-overlay") {
+      @include it('lg\:bg-blend-overlay') {
         @include assert {
           @include output {
             @include lg\:bg-blend-overlay;
@@ -754,7 +754,7 @@
         }
       }
 
-      @include it("lg\:bg-blend-darken") {
+      @include it('lg\:bg-blend-darken') {
         @include assert {
           @include output {
             @include lg\:bg-blend-darken;
@@ -769,7 +769,7 @@
         }
       }
 
-      @include it("lg\:bg-blend-lighten") {
+      @include it('lg\:bg-blend-lighten') {
         @include assert {
           @include output {
             @include lg\:bg-blend-lighten;
@@ -784,7 +784,7 @@
         }
       }
 
-      @include it("lg\:bg-blend-color-dodge") {
+      @include it('lg\:bg-blend-color-dodge') {
         @include assert {
           @include output {
             @include lg\:bg-blend-color-dodge;
@@ -799,7 +799,7 @@
         }
       }
 
-      @include it("lg\:bg-blend-color-burn") {
+      @include it('lg\:bg-blend-color-burn') {
         @include assert {
           @include output {
             @include lg\:bg-blend-color-burn;
@@ -814,7 +814,7 @@
         }
       }
 
-      @include it("lg\:bg-blend-hard-light") {
+      @include it('lg\:bg-blend-hard-light') {
         @include assert {
           @include output {
             @include lg\:bg-blend-hard-light;
@@ -829,7 +829,7 @@
         }
       }
 
-      @include it("lg\:bg-blend-soft-light") {
+      @include it('lg\:bg-blend-soft-light') {
         @include assert {
           @include output {
             @include lg\:bg-blend-soft-light;
@@ -844,7 +844,7 @@
         }
       }
 
-      @include it("lg\:bg-blend-difference") {
+      @include it('lg\:bg-blend-difference') {
         @include assert {
           @include output {
             @include lg\:bg-blend-difference;
@@ -859,7 +859,7 @@
         }
       }
 
-      @include it("lg\:bg-blend-exclusion") {
+      @include it('lg\:bg-blend-exclusion') {
         @include assert {
           @include output {
             @include lg\:bg-blend-exclusion;
@@ -874,7 +874,7 @@
         }
       }
 
-      @include it("lg\:bg-blend-hue") {
+      @include it('lg\:bg-blend-hue') {
         @include assert {
           @include output {
             @include lg\:bg-blend-hue;
@@ -889,7 +889,7 @@
         }
       }
 
-      @include it("lg\:bg-blend-saturation") {
+      @include it('lg\:bg-blend-saturation') {
         @include assert {
           @include output {
             @include lg\:bg-blend-saturation;
@@ -904,7 +904,7 @@
         }
       }
 
-      @include it("lg\:bg-blend-color") {
+      @include it('lg\:bg-blend-color') {
         @include assert {
           @include output {
             @include lg\:bg-blend-color;
@@ -919,7 +919,7 @@
         }
       }
 
-      @include it("lg\:bg-blend-luminosity") {
+      @include it('lg\:bg-blend-luminosity') {
         @include assert {
           @include output {
             @include lg\:bg-blend-luminosity;
@@ -934,7 +934,7 @@
         }
       }
 
-      @include it("xl\:bg-blend-normal") {
+      @include it('xl\:bg-blend-normal') {
         @include assert {
           @include output {
             @include xl\:bg-blend-normal;
@@ -949,7 +949,7 @@
         }
       }
 
-      @include it("xl\:bg-blend-multiply") {
+      @include it('xl\:bg-blend-multiply') {
         @include assert {
           @include output {
             @include xl\:bg-blend-multiply;
@@ -964,7 +964,7 @@
         }
       }
 
-      @include it("xl\:bg-blend-screen") {
+      @include it('xl\:bg-blend-screen') {
         @include assert {
           @include output {
             @include xl\:bg-blend-screen;
@@ -979,7 +979,7 @@
         }
       }
 
-      @include it("xl\:bg-blend-overlay") {
+      @include it('xl\:bg-blend-overlay') {
         @include assert {
           @include output {
             @include xl\:bg-blend-overlay;
@@ -994,7 +994,7 @@
         }
       }
 
-      @include it("xl\:bg-blend-darken") {
+      @include it('xl\:bg-blend-darken') {
         @include assert {
           @include output {
             @include xl\:bg-blend-darken;
@@ -1009,7 +1009,7 @@
         }
       }
 
-      @include it("xl\:bg-blend-lighten") {
+      @include it('xl\:bg-blend-lighten') {
         @include assert {
           @include output {
             @include xl\:bg-blend-lighten;
@@ -1024,7 +1024,7 @@
         }
       }
 
-      @include it("xl\:bg-blend-color-dodge") {
+      @include it('xl\:bg-blend-color-dodge') {
         @include assert {
           @include output {
             @include xl\:bg-blend-color-dodge;
@@ -1039,7 +1039,7 @@
         }
       }
 
-      @include it("xl\:bg-blend-color-burn") {
+      @include it('xl\:bg-blend-color-burn') {
         @include assert {
           @include output {
             @include xl\:bg-blend-color-burn;
@@ -1054,7 +1054,7 @@
         }
       }
 
-      @include it("xl\:bg-blend-hard-light") {
+      @include it('xl\:bg-blend-hard-light') {
         @include assert {
           @include output {
             @include xl\:bg-blend-hard-light;
@@ -1069,7 +1069,7 @@
         }
       }
 
-      @include it("xl\:bg-blend-soft-light") {
+      @include it('xl\:bg-blend-soft-light') {
         @include assert {
           @include output {
             @include xl\:bg-blend-soft-light;
@@ -1084,7 +1084,7 @@
         }
       }
 
-      @include it("xl\:bg-blend-difference") {
+      @include it('xl\:bg-blend-difference') {
         @include assert {
           @include output {
             @include xl\:bg-blend-difference;
@@ -1099,7 +1099,7 @@
         }
       }
 
-      @include it("xl\:bg-blend-exclusion") {
+      @include it('xl\:bg-blend-exclusion') {
         @include assert {
           @include output {
             @include xl\:bg-blend-exclusion;
@@ -1114,7 +1114,7 @@
         }
       }
 
-      @include it("xl\:bg-blend-hue") {
+      @include it('xl\:bg-blend-hue') {
         @include assert {
           @include output {
             @include xl\:bg-blend-hue;
@@ -1129,7 +1129,7 @@
         }
       }
 
-      @include it("xl\:bg-blend-saturation") {
+      @include it('xl\:bg-blend-saturation') {
         @include assert {
           @include output {
             @include xl\:bg-blend-saturation;
@@ -1144,7 +1144,7 @@
         }
       }
 
-      @include it("xl\:bg-blend-color") {
+      @include it('xl\:bg-blend-color') {
         @include assert {
           @include output {
             @include xl\:bg-blend-color;
@@ -1159,7 +1159,7 @@
         }
       }
 
-      @include it("xl\:bg-blend-luminosity") {
+      @include it('xl\:bg-blend-luminosity') {
         @include assert {
           @include output {
             @include xl\:bg-blend-luminosity;
@@ -1174,7 +1174,7 @@
         }
       }
 
-      @include it("2xl\:bg-blend-normal") {
+      @include it('2xl\:bg-blend-normal') {
         @include assert {
           @include output {
             @include \2xl\:bg-blend-normal;
@@ -1189,7 +1189,7 @@
         }
       }
 
-      @include it("2xl\:bg-blend-multiply") {
+      @include it('2xl\:bg-blend-multiply') {
         @include assert {
           @include output {
             @include \2xl\:bg-blend-multiply;
@@ -1204,7 +1204,7 @@
         }
       }
 
-      @include it("2xl\:bg-blend-screen") {
+      @include it('2xl\:bg-blend-screen') {
         @include assert {
           @include output {
             @include \2xl\:bg-blend-screen;
@@ -1219,7 +1219,7 @@
         }
       }
 
-      @include it("2xl\:bg-blend-overlay") {
+      @include it('2xl\:bg-blend-overlay') {
         @include assert {
           @include output {
             @include \2xl\:bg-blend-overlay;
@@ -1234,7 +1234,7 @@
         }
       }
 
-      @include it("2xl\:bg-blend-darken") {
+      @include it('2xl\:bg-blend-darken') {
         @include assert {
           @include output {
             @include \2xl\:bg-blend-darken;
@@ -1249,7 +1249,7 @@
         }
       }
 
-      @include it("2xl\:bg-blend-lighten") {
+      @include it('2xl\:bg-blend-lighten') {
         @include assert {
           @include output {
             @include \2xl\:bg-blend-lighten;
@@ -1264,7 +1264,7 @@
         }
       }
 
-      @include it("2xl\:bg-blend-color-dodge") {
+      @include it('2xl\:bg-blend-color-dodge') {
         @include assert {
           @include output {
             @include \2xl\:bg-blend-color-dodge;
@@ -1279,7 +1279,7 @@
         }
       }
 
-      @include it("2xl\:bg-blend-color-burn") {
+      @include it('2xl\:bg-blend-color-burn') {
         @include assert {
           @include output {
             @include \2xl\:bg-blend-color-burn;
@@ -1294,7 +1294,7 @@
         }
       }
 
-      @include it("2xl\:bg-blend-hard-light") {
+      @include it('2xl\:bg-blend-hard-light') {
         @include assert {
           @include output {
             @include \2xl\:bg-blend-hard-light;
@@ -1309,7 +1309,7 @@
         }
       }
 
-      @include it("2xl\:bg-blend-soft-light") {
+      @include it('2xl\:bg-blend-soft-light') {
         @include assert {
           @include output {
             @include \2xl\:bg-blend-soft-light;
@@ -1324,7 +1324,7 @@
         }
       }
 
-      @include it("2xl\:bg-blend-difference") {
+      @include it('2xl\:bg-blend-difference') {
         @include assert {
           @include output {
             @include \2xl\:bg-blend-difference;
@@ -1339,7 +1339,7 @@
         }
       }
 
-      @include it("2xl\:bg-blend-exclusion") {
+      @include it('2xl\:bg-blend-exclusion') {
         @include assert {
           @include output {
             @include \2xl\:bg-blend-exclusion;
@@ -1354,7 +1354,7 @@
         }
       }
 
-      @include it("2xl\:bg-blend-hue") {
+      @include it('2xl\:bg-blend-hue') {
         @include assert {
           @include output {
             @include \2xl\:bg-blend-hue;
@@ -1369,7 +1369,7 @@
         }
       }
 
-      @include it("2xl\:bg-blend-saturation") {
+      @include it('2xl\:bg-blend-saturation') {
         @include assert {
           @include output {
             @include \2xl\:bg-blend-saturation;
@@ -1384,7 +1384,7 @@
         }
       }
 
-      @include it("2xl\:bg-blend-color") {
+      @include it('2xl\:bg-blend-color') {
         @include assert {
           @include output {
             @include \2xl\:bg-blend-color;
@@ -1399,7 +1399,7 @@
         }
       }
 
-      @include it("2xl\:bg-blend-luminosity") {
+      @include it('2xl\:bg-blend-luminosity') {
         @include assert {
           @include output {
             @include \2xl\:bg-blend-luminosity;

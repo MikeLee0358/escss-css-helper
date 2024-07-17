@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("8.Effects") {
-  @include describe("Box Shadow") {
-    @include describe("Basic") {
-      @include it("shadow-sm") {
+@include describe('8.Effects') {
+  @include describe('Box Shadow') {
+    @include describe('Basic') {
+      @include it('shadow-sm') {
         @include assert {
           @include output {
             @include shadow-sm;
@@ -20,7 +20,7 @@
         }
       }
 
-      @include it("shadow") {
+      @include it('shadow') {
         @include assert {
           @include output {
             @include shadow;
@@ -37,7 +37,7 @@
         }
       }
 
-      @include it("shadow-md") {
+      @include it('shadow-md') {
         @include assert {
           @include output {
             @include shadow-md;
@@ -54,7 +54,7 @@
         }
       }
 
-      @include it("shadow-lg") {
+      @include it('shadow-lg') {
         @include assert {
           @include output {
             @include shadow-lg;
@@ -71,7 +71,7 @@
         }
       }
 
-      @include it("shadow-xl") {
+      @include it('shadow-xl') {
         @include assert {
           @include output {
             @include shadow-xl;
@@ -88,7 +88,7 @@
         }
       }
 
-      @include it("shadow-2xl") {
+      @include it('shadow-2xl') {
         @include assert {
           @include output {
             @include shadow-2xl;
@@ -104,7 +104,7 @@
         }
       }
 
-      @include it("shadow-inner") {
+      @include it('shadow-inner') {
         @include assert {
           @include output {
             @include shadow-inner;
@@ -120,7 +120,7 @@
         }
       }
 
-      @include it("shadow-none") {
+      @include it('shadow-none') {
         @include assert {
           @include output {
             @include shadow-none;
@@ -137,8 +137,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:shadow-sm") {
+    @include describe('Rwd') {
+      @include it('sm\:shadow-sm') {
         @include assert {
           @include output {
             @include sm\:shadow-sm;
@@ -156,7 +156,7 @@
         }
       }
 
-      @include it("sm\:shadow") {
+      @include it('sm\:shadow') {
         @include assert {
           @include output {
             @include sm\:shadow;
@@ -175,7 +175,7 @@
         }
       }
 
-      @include it("sm\:shadow-md") {
+      @include it('sm\:shadow-md') {
         @include assert {
           @include output {
             @include sm\:shadow-md;
@@ -194,7 +194,7 @@
         }
       }
 
-      @include it("sm\:shadow-lg") {
+      @include it('sm\:shadow-lg') {
         @include assert {
           @include output {
             @include sm\:shadow-lg;
@@ -213,7 +213,7 @@
         }
       }
 
-      @include it("sm\:shadow-xl") {
+      @include it('sm\:shadow-xl') {
         @include assert {
           @include output {
             @include sm\:shadow-xl;
@@ -232,7 +232,7 @@
         }
       }
 
-      @include it("sm\:shadow-2xl") {
+      @include it('sm\:shadow-2xl') {
         @include assert {
           @include output {
             @include sm\:shadow-2xl;
@@ -250,7 +250,7 @@
         }
       }
 
-      @include it("sm\:shadow-inner") {
+      @include it('sm\:shadow-inner') {
         @include assert {
           @include output {
             @include sm\:shadow-inner;
@@ -268,7 +268,7 @@
         }
       }
 
-      @include it("sm\:shadow-none") {
+      @include it('sm\:shadow-none') {
         @include assert {
           @include output {
             @include sm\:shadow-none;
@@ -285,7 +285,7 @@
           }
         }
       }
-      @include it("md\:shadow-sm") {
+      @include it('md\:shadow-sm') {
         @include assert {
           @include output {
             @include md\:shadow-sm;
@@ -303,7 +303,7 @@
         }
       }
 
-      @include it("md\:shadow") {
+      @include it('md\:shadow') {
         @include assert {
           @include output {
             @include md\:shadow;
@@ -322,7 +322,7 @@
         }
       }
 
-      @include it("md\:shadow-md") {
+      @include it('md\:shadow-md') {
         @include assert {
           @include output {
             @include md\:shadow-md;
@@ -341,7 +341,7 @@
         }
       }
 
-      @include it("md\:shadow-lg") {
+      @include it('md\:shadow-lg') {
         @include assert {
           @include output {
             @include md\:shadow-lg;
@@ -360,7 +360,7 @@
         }
       }
 
-      @include it("md\:shadow-xl") {
+      @include it('md\:shadow-xl') {
         @include assert {
           @include output {
             @include md\:shadow-xl;
@@ -379,7 +379,7 @@
         }
       }
 
-      @include it("md\:shadow-2xl") {
+      @include it('md\:shadow-2xl') {
         @include assert {
           @include output {
             @include md\:shadow-2xl;
@@ -397,7 +397,7 @@
         }
       }
 
-      @include it("md\:shadow-inner") {
+      @include it('md\:shadow-inner') {
         @include assert {
           @include output {
             @include md\:shadow-inner;
@@ -415,7 +415,7 @@
         }
       }
 
-      @include it("md\:shadow-none") {
+      @include it('md\:shadow-none') {
         @include assert {
           @include output {
             @include md\:shadow-none;
@@ -432,7 +432,7 @@
           }
         }
       }
-      @include it("lg\:shadow-sm") {
+      @include it('lg\:shadow-sm') {
         @include assert {
           @include output {
             @include lg\:shadow-sm;
@@ -450,7 +450,7 @@
         }
       }
 
-      @include it("lg\:shadow") {
+      @include it('lg\:shadow') {
         @include assert {
           @include output {
             @include lg\:shadow;
@@ -469,7 +469,7 @@
         }
       }
 
-      @include it("lg\:shadow-md") {
+      @include it('lg\:shadow-md') {
         @include assert {
           @include output {
             @include lg\:shadow-md;
@@ -488,7 +488,7 @@
         }
       }
 
-      @include it("lg\:shadow-lg") {
+      @include it('lg\:shadow-lg') {
         @include assert {
           @include output {
             @include lg\:shadow-lg;
@@ -507,7 +507,7 @@
         }
       }
 
-      @include it("lg\:shadow-xl") {
+      @include it('lg\:shadow-xl') {
         @include assert {
           @include output {
             @include lg\:shadow-xl;
@@ -526,7 +526,7 @@
         }
       }
 
-      @include it("lg\:shadow-2xl") {
+      @include it('lg\:shadow-2xl') {
         @include assert {
           @include output {
             @include lg\:shadow-2xl;
@@ -544,7 +544,7 @@
         }
       }
 
-      @include it("lg\:shadow-inner") {
+      @include it('lg\:shadow-inner') {
         @include assert {
           @include output {
             @include lg\:shadow-inner;
@@ -562,7 +562,7 @@
         }
       }
 
-      @include it("lg\:shadow-none") {
+      @include it('lg\:shadow-none') {
         @include assert {
           @include output {
             @include lg\:shadow-none;
@@ -579,7 +579,7 @@
           }
         }
       }
-      @include it("xl\:shadow-sm") {
+      @include it('xl\:shadow-sm') {
         @include assert {
           @include output {
             @include xl\:shadow-sm;
@@ -597,7 +597,7 @@
         }
       }
 
-      @include it("xl\:shadow") {
+      @include it('xl\:shadow') {
         @include assert {
           @include output {
             @include xl\:shadow;
@@ -616,7 +616,7 @@
         }
       }
 
-      @include it("xl\:shadow-md") {
+      @include it('xl\:shadow-md') {
         @include assert {
           @include output {
             @include xl\:shadow-md;
@@ -635,7 +635,7 @@
         }
       }
 
-      @include it("xl\:shadow-lg") {
+      @include it('xl\:shadow-lg') {
         @include assert {
           @include output {
             @include xl\:shadow-lg;
@@ -654,7 +654,7 @@
         }
       }
 
-      @include it("xl\:shadow-xl") {
+      @include it('xl\:shadow-xl') {
         @include assert {
           @include output {
             @include xl\:shadow-xl;
@@ -673,7 +673,7 @@
         }
       }
 
-      @include it("xl\:shadow-2xl") {
+      @include it('xl\:shadow-2xl') {
         @include assert {
           @include output {
             @include xl\:shadow-2xl;
@@ -691,7 +691,7 @@
         }
       }
 
-      @include it("xl\:shadow-inner") {
+      @include it('xl\:shadow-inner') {
         @include assert {
           @include output {
             @include xl\:shadow-inner;
@@ -709,7 +709,7 @@
         }
       }
 
-      @include it("xl\:shadow-none") {
+      @include it('xl\:shadow-none') {
         @include assert {
           @include output {
             @include xl\:shadow-none;
@@ -726,7 +726,7 @@
           }
         }
       }
-      @include it("2xl\:shadow-sm") {
+      @include it('2xl\:shadow-sm') {
         @include assert {
           @include output {
             @include \2xl\:shadow-sm;
@@ -744,7 +744,7 @@
         }
       }
 
-      @include it("2xl\:shadow") {
+      @include it('2xl\:shadow') {
         @include assert {
           @include output {
             @include \2xl\:shadow;
@@ -763,7 +763,7 @@
         }
       }
 
-      @include it("2xl\:shadow-md") {
+      @include it('2xl\:shadow-md') {
         @include assert {
           @include output {
             @include \2xl\:shadow-md;
@@ -782,7 +782,7 @@
         }
       }
 
-      @include it("2xl\:shadow-lg") {
+      @include it('2xl\:shadow-lg') {
         @include assert {
           @include output {
             @include \2xl\:shadow-lg;
@@ -801,7 +801,7 @@
         }
       }
 
-      @include it("2xl\:shadow-xl") {
+      @include it('2xl\:shadow-xl') {
         @include assert {
           @include output {
             @include \2xl\:shadow-xl;
@@ -820,7 +820,7 @@
         }
       }
 
-      @include it("2xl\:shadow-2xl") {
+      @include it('2xl\:shadow-2xl') {
         @include assert {
           @include output {
             @include \2xl\:shadow-2xl;
@@ -838,7 +838,7 @@
         }
       }
 
-      @include it("2xl\:shadow-inner") {
+      @include it('2xl\:shadow-inner') {
         @include assert {
           @include output {
             @include \2xl\:shadow-inner;
@@ -856,7 +856,7 @@
         }
       }
 
-      @include it("2xl\:shadow-none") {
+      @include it('2xl\:shadow-none') {
         @include assert {
           @include output {
             @include \2xl\:shadow-none;
@@ -875,8 +875,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("shadow-(0 35px 60px -15px rgba(0,0,0,0.3)") {
+    @include describe('Custom') {
+      @include it('shadow-(0 35px 60px -15px rgba(0,0,0,0.3)') {
         @include assert {
           @include output {
             @include shadow-(0 35px 60px -15px rgba(0, 0, 0, 0.3));
@@ -892,7 +892,7 @@
         }
       }
 
-      @include it("sm\:shadow-(0 35px 60px -15px rgba(0,0,0,0.3)") {
+      @include it('sm\:shadow-(0 35px 60px -15px rgba(0,0,0,0.3)') {
         @include assert {
           @include output {
             @include sm\:shadow-(0 35px 60px -15px rgba(0, 0, 0, 0.3));
@@ -910,7 +910,7 @@
         }
       }
 
-      @include it("md\:shadow-(0 35px 60px -15px rgba(0,0,0,0.3)") {
+      @include it('md\:shadow-(0 35px 60px -15px rgba(0,0,0,0.3)') {
         @include assert {
           @include output {
             @include md\:shadow-(0 35px 60px -15px rgba(0, 0, 0, 0.3));
@@ -928,7 +928,7 @@
         }
       }
 
-      @include it("lg\:shadow-(0 35px 60px -15px rgba(0,0,0,0.3)") {
+      @include it('lg\:shadow-(0 35px 60px -15px rgba(0,0,0,0.3)') {
         @include assert {
           @include output {
             @include lg\:shadow-(0 35px 60px -15px rgba(0, 0, 0, 0.3));
@@ -946,7 +946,7 @@
         }
       }
 
-      @include it("xl\:shadow-(0 35px 60px -15px rgba(0,0,0,0.3)") {
+      @include it('xl\:shadow-(0 35px 60px -15px rgba(0,0,0,0.3)') {
         @include assert {
           @include output {
             @include xl\:shadow-(0 35px 60px -15px rgba(0, 0, 0, 0.3));
@@ -964,7 +964,7 @@
         }
       }
 
-      @include it("2xl\:shadow-(0 35px 60px -15px rgba(0,0,0,0.3)") {
+      @include it('2xl\:shadow-(0 35px 60px -15px rgba(0,0,0,0.3)') {
         @include assert {
           @include output {
             @include \2xl\:shadow-(0 35px 60px -15px rgba(0, 0, 0, 0.3));

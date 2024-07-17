@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("7.Borders") {
-  @include describe("Divide Style") {
-    @include describe("Basic") {
-      @include it("divide-solid") {
+@include describe('7.Borders') {
+  @include describe('Divide Style') {
+    @include describe('Basic') {
+      @include it('divide-solid') {
         @include assert {
           @include output {
             @include divide-solid;
@@ -19,7 +19,7 @@
         }
       }
 
-      @include it("divide-dashed") {
+      @include it('divide-dashed') {
         @include assert {
           @include output {
             @include divide-dashed;
@@ -34,7 +34,7 @@
         }
       }
 
-      @include it("divide-dotted") {
+      @include it('divide-dotted') {
         @include assert {
           @include output {
             @include divide-dotted;
@@ -49,7 +49,7 @@
         }
       }
 
-      @include it("divide-double") {
+      @include it('divide-double') {
         @include assert {
           @include output {
             @include divide-double;
@@ -64,7 +64,7 @@
         }
       }
 
-      @include it("divide-none") {
+      @include it('divide-none') {
         @include assert {
           @include output {
             @include divide-none;
@@ -80,8 +80,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:divide-solid") {
+    @include describe('Rwd') {
+      @include it('sm\:divide-solid') {
         @include assert {
           @include output {
             @include sm\:divide-solid;
@@ -98,7 +98,7 @@
         }
       }
 
-      @include it("sm\:divide-dashed") {
+      @include it('sm\:divide-dashed') {
         @include assert {
           @include output {
             @include sm\:divide-dashed;
@@ -115,7 +115,7 @@
         }
       }
 
-      @include it("sm\:divide-dotted") {
+      @include it('sm\:divide-dotted') {
         @include assert {
           @include output {
             @include sm\:divide-dotted;
@@ -132,7 +132,7 @@
         }
       }
 
-      @include it("sm\:divide-double") {
+      @include it('sm\:divide-double') {
         @include assert {
           @include output {
             @include sm\:divide-double;
@@ -149,7 +149,7 @@
         }
       }
 
-      @include it("sm\:divide-none") {
+      @include it('sm\:divide-none') {
         @include assert {
           @include output {
             @include sm\:divide-none;
@@ -166,7 +166,7 @@
         }
       }
 
-      @include it("md\:divide-solid") {
+      @include it('md\:divide-solid') {
         @include assert {
           @include output {
             @include md\:divide-solid;
@@ -183,7 +183,7 @@
         }
       }
 
-      @include it("md\:divide-dashed") {
+      @include it('md\:divide-dashed') {
         @include assert {
           @include output {
             @include md\:divide-dashed;
@@ -200,7 +200,7 @@
         }
       }
 
-      @include it("md\:divide-dotted") {
+      @include it('md\:divide-dotted') {
         @include assert {
           @include output {
             @include md\:divide-dotted;
@@ -217,7 +217,7 @@
         }
       }
 
-      @include it("md\:divide-double") {
+      @include it('md\:divide-double') {
         @include assert {
           @include output {
             @include md\:divide-double;
@@ -234,7 +234,7 @@
         }
       }
 
-      @include it("md\:divide-none") {
+      @include it('md\:divide-none') {
         @include assert {
           @include output {
             @include md\:divide-none;
@@ -251,7 +251,7 @@
         }
       }
 
-      @include it("lg\:divide-solid") {
+      @include it('lg\:divide-solid') {
         @include assert {
           @include output {
             @include lg\:divide-solid;
@@ -268,7 +268,7 @@
         }
       }
 
-      @include it("lg\:divide-dashed") {
+      @include it('lg\:divide-dashed') {
         @include assert {
           @include output {
             @include lg\:divide-dashed;
@@ -285,7 +285,7 @@
         }
       }
 
-      @include it("lg\:divide-dotted") {
+      @include it('lg\:divide-dotted') {
         @include assert {
           @include output {
             @include lg\:divide-dotted;
@@ -302,7 +302,7 @@
         }
       }
 
-      @include it("lg\:divide-double") {
+      @include it('lg\:divide-double') {
         @include assert {
           @include output {
             @include lg\:divide-double;
@@ -319,7 +319,7 @@
         }
       }
 
-      @include it("lg\:divide-none") {
+      @include it('lg\:divide-none') {
         @include assert {
           @include output {
             @include lg\:divide-none;
@@ -336,7 +336,7 @@
         }
       }
 
-      @include it("xl\:divide-solid") {
+      @include it('xl\:divide-solid') {
         @include assert {
           @include output {
             @include xl\:divide-solid;
@@ -353,7 +353,7 @@
         }
       }
 
-      @include it("xl\:divide-dashed") {
+      @include it('xl\:divide-dashed') {
         @include assert {
           @include output {
             @include xl\:divide-dashed;
@@ -370,7 +370,7 @@
         }
       }
 
-      @include it("xl\:divide-dotted") {
+      @include it('xl\:divide-dotted') {
         @include assert {
           @include output {
             @include xl\:divide-dotted;
@@ -387,7 +387,7 @@
         }
       }
 
-      @include it("xl\:divide-double") {
+      @include it('xl\:divide-double') {
         @include assert {
           @include output {
             @include xl\:divide-double;
@@ -404,7 +404,7 @@
         }
       }
 
-      @include it("xl\:divide-none") {
+      @include it('xl\:divide-none') {
         @include assert {
           @include output {
             @include xl\:divide-none;
@@ -421,7 +421,7 @@
         }
       }
 
-      @include it("2xl\:divide-solid") {
+      @include it('2xl\:divide-solid') {
         @include assert {
           @include output {
             @include \2xl\:divide-solid;
@@ -438,7 +438,7 @@
         }
       }
 
-      @include it("2xl\:divide-dashed") {
+      @include it('2xl\:divide-dashed') {
         @include assert {
           @include output {
             @include \2xl\:divide-dashed;
@@ -455,7 +455,7 @@
         }
       }
 
-      @include it("2xl\:divide-dotted") {
+      @include it('2xl\:divide-dotted') {
         @include assert {
           @include output {
             @include \2xl\:divide-dotted;
@@ -472,7 +472,7 @@
         }
       }
 
-      @include it("2xl\:divide-double") {
+      @include it('2xl\:divide-double') {
         @include assert {
           @include output {
             @include \2xl\:divide-double;
@@ -489,7 +489,7 @@
         }
       }
 
-      @include it("2xl\:divide-none") {
+      @include it('2xl\:divide-none') {
         @include assert {
           @include output {
             @include \2xl\:divide-none;

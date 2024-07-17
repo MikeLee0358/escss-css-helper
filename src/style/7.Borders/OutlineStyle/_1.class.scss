@@ -1,33 +1,33 @@
-@use "../../setting" as *;
-@use "sass:list";
+@use '../../setting' as *;
+@use 'sass:list';
 
 // 1st: outline
 // 2nd: outline-offset
 // 3rd: outline-style
 $OutlineStyle: (
-  "outline-none": (
+  'outline-none': (
     (2px solid transparent),
     2px,
-    "null",
+    'null',
   ),
-  "outline": (
-    "null",
-    "null",
+  'outline': (
+    'null',
+    'null',
     solid,
   ),
-  "outline-dashed": (
-    "null",
-    "null",
+  'outline-dashed': (
+    'null',
+    'null',
     dashed,
   ),
-  "outline-dotted": (
-    "null",
-    "null",
+  'outline-dotted': (
+    'null',
+    'null',
     dotted,
   ),
-  "outline-double": (
-    "null",
-    "null",
+  'outline-double': (
+    'null',
+    'null',
     double,
   ),
 );

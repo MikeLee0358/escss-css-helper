@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("2.Flexbox & Grid") {
-  @include describe("Flex Direction") {
-    @include describe("Basic") {
-      @include it("flex-row") {
+@include describe('2.Flexbox & Grid') {
+  @include describe('Flex Direction') {
+    @include describe('Basic') {
+      @include it('flex-row') {
         @include assert {
           @include output {
             @include flex-row;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("flex-row-reverse") {
+      @include it('flex-row-reverse') {
         @include assert {
           @include output {
             @include flex-row-reverse;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("flex-col") {
+      @include it('flex-col') {
         @include assert {
           @include output {
             @include flex-col;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("flex-col-reverse") {
+      @include it('flex-col-reverse') {
         @include assert {
           @include output {
             @include flex-col-reverse;
@@ -57,8 +57,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:flex-row") {
+    @include describe('Rwd') {
+      @include it('sm\:flex-row') {
         @include assert {
           @include output {
             @include sm\:flex-row;
@@ -73,7 +73,7 @@
         }
       }
 
-      @include it("sm\:flex-row-reverse") {
+      @include it('sm\:flex-row-reverse') {
         @include assert {
           @include output {
             @include sm\:flex-row-reverse;
@@ -88,7 +88,7 @@
         }
       }
 
-      @include it("sm\:flex-col") {
+      @include it('sm\:flex-col') {
         @include assert {
           @include output {
             @include sm\:flex-col;
@@ -103,7 +103,7 @@
         }
       }
 
-      @include it("sm\:flex-col-reverse") {
+      @include it('sm\:flex-col-reverse') {
         @include assert {
           @include output {
             @include sm\:flex-col-reverse;
@@ -118,7 +118,7 @@
         }
       }
 
-      @include it("md\:flex-row") {
+      @include it('md\:flex-row') {
         @include assert {
           @include output {
             @include md\:flex-row;
@@ -133,7 +133,7 @@
         }
       }
 
-      @include it("md\:flex-row-reverse") {
+      @include it('md\:flex-row-reverse') {
         @include assert {
           @include output {
             @include md\:flex-row-reverse;
@@ -148,7 +148,7 @@
         }
       }
 
-      @include it("md\:flex-col") {
+      @include it('md\:flex-col') {
         @include assert {
           @include output {
             @include md\:flex-col;
@@ -163,7 +163,7 @@
         }
       }
 
-      @include it("md\:flex-col-reverse") {
+      @include it('md\:flex-col-reverse') {
         @include assert {
           @include output {
             @include md\:flex-col-reverse;
@@ -178,7 +178,7 @@
         }
       }
 
-      @include it("lg\:flex-row") {
+      @include it('lg\:flex-row') {
         @include assert {
           @include output {
             @include lg\:flex-row;
@@ -193,7 +193,7 @@
         }
       }
 
-      @include it("lg\:flex-row-reverse") {
+      @include it('lg\:flex-row-reverse') {
         @include assert {
           @include output {
             @include lg\:flex-row-reverse;
@@ -208,7 +208,7 @@
         }
       }
 
-      @include it("lg\:flex-col") {
+      @include it('lg\:flex-col') {
         @include assert {
           @include output {
             @include lg\:flex-col;
@@ -223,7 +223,7 @@
         }
       }
 
-      @include it("lg\:flex-col-reverse") {
+      @include it('lg\:flex-col-reverse') {
         @include assert {
           @include output {
             @include lg\:flex-col-reverse;
@@ -238,7 +238,7 @@
         }
       }
 
-      @include it("xl\:flex-row") {
+      @include it('xl\:flex-row') {
         @include assert {
           @include output {
             @include xl\:flex-row;
@@ -253,7 +253,7 @@
         }
       }
 
-      @include it("xl\:flex-row-reverse") {
+      @include it('xl\:flex-row-reverse') {
         @include assert {
           @include output {
             @include xl\:flex-row-reverse;
@@ -268,7 +268,7 @@
         }
       }
 
-      @include it("xl\:flex-col") {
+      @include it('xl\:flex-col') {
         @include assert {
           @include output {
             @include xl\:flex-col;
@@ -283,7 +283,7 @@
         }
       }
 
-      @include it("xl\:flex-col-reverse") {
+      @include it('xl\:flex-col-reverse') {
         @include assert {
           @include output {
             @include xl\:flex-col-reverse;
@@ -298,7 +298,7 @@
         }
       }
 
-      @include it("2xl\:flex-row") {
+      @include it('2xl\:flex-row') {
         @include assert {
           @include output {
             @include \2xl\:flex-row;
@@ -313,7 +313,7 @@
         }
       }
 
-      @include it("2xl\:flex-row-reverse") {
+      @include it('2xl\:flex-row-reverse') {
         @include assert {
           @include output {
             @include \2xl\:flex-row-reverse;
@@ -328,7 +328,7 @@
         }
       }
 
-      @include it("2xl\:flex-col") {
+      @include it('2xl\:flex-col') {
         @include assert {
           @include output {
             @include \2xl\:flex-col;
@@ -343,7 +343,7 @@
         }
       }
 
-      @include it("2xl\:flex-col-reverse") {
+      @include it('2xl\:flex-col-reverse') {
         @include assert {
           @include output {
             @include \2xl\:flex-col-reverse;

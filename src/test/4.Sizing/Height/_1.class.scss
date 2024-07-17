@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("4.Size") {
-  @include describe("Height") {
-    @include describe("Basic") {
-      @include it("h-0") {
+@include describe('4.Size') {
+  @include describe('Height') {
+    @include describe('Basic') {
+      @include it('h-0') {
         @include assert {
           @include output {
             @include h-0;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("h-px") {
+      @include it('h-px') {
         @include assert {
           @include output {
             @include h-px;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("h-0\.5") {
+      @include it('h-0\.5') {
         @include assert {
           @include output {
             @include h-0\.5;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("h-1") {
+      @include it('h-1') {
         @include assert {
           @include output {
             @include h-1;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("h-1\.5") {
+      @include it('h-1\.5') {
         @include assert {
           @include output {
             @include h-1\.5;
@@ -69,7 +69,7 @@
         }
       }
 
-      @include it("h-2") {
+      @include it('h-2') {
         @include assert {
           @include output {
             @include h-2;
@@ -82,7 +82,7 @@
         }
       }
 
-      @include it("h-2\.5") {
+      @include it('h-2\.5') {
         @include assert {
           @include output {
             @include h-2\.5;
@@ -95,7 +95,7 @@
         }
       }
 
-      @include it("h-3") {
+      @include it('h-3') {
         @include assert {
           @include output {
             @include h-3;
@@ -108,7 +108,7 @@
         }
       }
 
-      @include it("h-3\.5") {
+      @include it('h-3\.5') {
         @include assert {
           @include output {
             @include h-3\.5;
@@ -121,7 +121,7 @@
         }
       }
 
-      @include it("h-4") {
+      @include it('h-4') {
         @include assert {
           @include output {
             @include h-4;
@@ -134,7 +134,7 @@
         }
       }
 
-      @include it("h-5") {
+      @include it('h-5') {
         @include assert {
           @include output {
             @include h-5;
@@ -147,7 +147,7 @@
         }
       }
 
-      @include it("h-6") {
+      @include it('h-6') {
         @include assert {
           @include output {
             @include h-6;
@@ -160,7 +160,7 @@
         }
       }
 
-      @include it("h-7") {
+      @include it('h-7') {
         @include assert {
           @include output {
             @include h-7;
@@ -173,7 +173,7 @@
         }
       }
 
-      @include it("h-8") {
+      @include it('h-8') {
         @include assert {
           @include output {
             @include h-8;
@@ -186,7 +186,7 @@
         }
       }
 
-      @include it("h-9") {
+      @include it('h-9') {
         @include assert {
           @include output {
             @include h-9;
@@ -199,7 +199,7 @@
         }
       }
 
-      @include it("h-10") {
+      @include it('h-10') {
         @include assert {
           @include output {
             @include h-10;
@@ -212,7 +212,7 @@
         }
       }
 
-      @include it("h-11") {
+      @include it('h-11') {
         @include assert {
           @include output {
             @include h-11;
@@ -225,7 +225,7 @@
         }
       }
 
-      @include it("h-12") {
+      @include it('h-12') {
         @include assert {
           @include output {
             @include h-12;
@@ -238,7 +238,7 @@
         }
       }
 
-      @include it("h-14") {
+      @include it('h-14') {
         @include assert {
           @include output {
             @include h-14;
@@ -251,7 +251,7 @@
         }
       }
 
-      @include it("h-16") {
+      @include it('h-16') {
         @include assert {
           @include output {
             @include h-16;
@@ -264,7 +264,7 @@
         }
       }
 
-      @include it("h-20") {
+      @include it('h-20') {
         @include assert {
           @include output {
             @include h-20;
@@ -277,7 +277,7 @@
         }
       }
 
-      @include it("h-24") {
+      @include it('h-24') {
         @include assert {
           @include output {
             @include h-24;
@@ -290,7 +290,7 @@
         }
       }
 
-      @include it("h-28") {
+      @include it('h-28') {
         @include assert {
           @include output {
             @include h-28;
@@ -303,7 +303,7 @@
         }
       }
 
-      @include it("h-32") {
+      @include it('h-32') {
         @include assert {
           @include output {
             @include h-32;
@@ -316,7 +316,7 @@
         }
       }
 
-      @include it("h-36") {
+      @include it('h-36') {
         @include assert {
           @include output {
             @include h-36;
@@ -329,7 +329,7 @@
         }
       }
 
-      @include it("h-40") {
+      @include it('h-40') {
         @include assert {
           @include output {
             @include h-40;
@@ -342,7 +342,7 @@
         }
       }
 
-      @include it("h-44") {
+      @include it('h-44') {
         @include assert {
           @include output {
             @include h-44;
@@ -355,7 +355,7 @@
         }
       }
 
-      @include it("h-48") {
+      @include it('h-48') {
         @include assert {
           @include output {
             @include h-48;
@@ -368,7 +368,7 @@
         }
       }
 
-      @include it("h-52") {
+      @include it('h-52') {
         @include assert {
           @include output {
             @include h-52;
@@ -381,7 +381,7 @@
         }
       }
 
-      @include it("h-56") {
+      @include it('h-56') {
         @include assert {
           @include output {
             @include h-56;
@@ -394,7 +394,7 @@
         }
       }
 
-      @include it("h-60") {
+      @include it('h-60') {
         @include assert {
           @include output {
             @include h-60;
@@ -407,7 +407,7 @@
         }
       }
 
-      @include it("h-64") {
+      @include it('h-64') {
         @include assert {
           @include output {
             @include h-64;
@@ -420,7 +420,7 @@
         }
       }
 
-      @include it("h-72") {
+      @include it('h-72') {
         @include assert {
           @include output {
             @include h-72;
@@ -433,7 +433,7 @@
         }
       }
 
-      @include it("h-80") {
+      @include it('h-80') {
         @include assert {
           @include output {
             @include h-80;
@@ -446,7 +446,7 @@
         }
       }
 
-      @include it("h-96") {
+      @include it('h-96') {
         @include assert {
           @include output {
             @include h-96;
@@ -459,7 +459,7 @@
         }
       }
 
-      @include it("h-auto") {
+      @include it('h-auto') {
         @include assert {
           @include output {
             @include h-auto;
@@ -472,7 +472,7 @@
         }
       }
 
-      @include it("h-1\/2") {
+      @include it('h-1\/2') {
         @include assert {
           @include output {
             @include h-1\/2;
@@ -485,7 +485,7 @@
         }
       }
 
-      @include it("h-1\/3") {
+      @include it('h-1\/3') {
         @include assert {
           @include output {
             @include h-1\/3;
@@ -498,7 +498,7 @@
         }
       }
 
-      @include it("h-2\/3") {
+      @include it('h-2\/3') {
         @include assert {
           @include output {
             @include h-2\/3;
@@ -511,7 +511,7 @@
         }
       }
 
-      @include it("h-1\/4") {
+      @include it('h-1\/4') {
         @include assert {
           @include output {
             @include h-1\/4;
@@ -524,7 +524,7 @@
         }
       }
 
-      @include it("h-2\/4") {
+      @include it('h-2\/4') {
         @include assert {
           @include output {
             @include h-2\/4;
@@ -537,7 +537,7 @@
         }
       }
 
-      @include it("h-3\/4") {
+      @include it('h-3\/4') {
         @include assert {
           @include output {
             @include h-3\/4;
@@ -550,7 +550,7 @@
         }
       }
 
-      @include it("h-1\/5") {
+      @include it('h-1\/5') {
         @include assert {
           @include output {
             @include h-1\/5;
@@ -563,7 +563,7 @@
         }
       }
 
-      @include it("h-2\/5") {
+      @include it('h-2\/5') {
         @include assert {
           @include output {
             @include h-2\/5;
@@ -576,7 +576,7 @@
         }
       }
 
-      @include it("h-3\/5") {
+      @include it('h-3\/5') {
         @include assert {
           @include output {
             @include h-3\/5;
@@ -589,7 +589,7 @@
         }
       }
 
-      @include it("h-4\/5") {
+      @include it('h-4\/5') {
         @include assert {
           @include output {
             @include h-4\/5;
@@ -602,7 +602,7 @@
         }
       }
 
-      @include it("h-1\/6") {
+      @include it('h-1\/6') {
         @include assert {
           @include output {
             @include h-1\/6;
@@ -615,7 +615,7 @@
         }
       }
 
-      @include it("h-2\/6") {
+      @include it('h-2\/6') {
         @include assert {
           @include output {
             @include h-2\/6;
@@ -628,7 +628,7 @@
         }
       }
 
-      @include it("h-3\/6") {
+      @include it('h-3\/6') {
         @include assert {
           @include output {
             @include h-3\/6;
@@ -641,7 +641,7 @@
         }
       }
 
-      @include it("h-4\/6") {
+      @include it('h-4\/6') {
         @include assert {
           @include output {
             @include h-4\/6;
@@ -654,7 +654,7 @@
         }
       }
 
-      @include it("h-5\/6") {
+      @include it('h-5\/6') {
         @include assert {
           @include output {
             @include h-5\/6;
@@ -667,7 +667,7 @@
         }
       }
 
-      @include it("h-full") {
+      @include it('h-full') {
         @include assert {
           @include output {
             @include h-full;
@@ -680,7 +680,7 @@
         }
       }
 
-      @include it("h-screen") {
+      @include it('h-screen') {
         @include assert {
           @include output {
             @include h-screen;
@@ -693,7 +693,7 @@
         }
       }
 
-      @include it("h-svh") {
+      @include it('h-svh') {
         @include assert {
           @include output {
             @include h-svh;
@@ -706,7 +706,7 @@
         }
       }
 
-      @include it("h-lvh") {
+      @include it('h-lvh') {
         @include assert {
           @include output {
             @include h-lvh;
@@ -719,7 +719,7 @@
         }
       }
 
-      @include it("h-dvh") {
+      @include it('h-dvh') {
         @include assert {
           @include output {
             @include h-dvh;
@@ -732,7 +732,7 @@
         }
       }
 
-      @include it("h-min") {
+      @include it('h-min') {
         @include assert {
           @include output {
             @include h-min;
@@ -745,7 +745,7 @@
         }
       }
 
-      @include it("h-max") {
+      @include it('h-max') {
         @include assert {
           @include output {
             @include h-max;
@@ -758,7 +758,7 @@
         }
       }
 
-      @include it("h-fit") {
+      @include it('h-fit') {
         @include assert {
           @include output {
             @include h-fit;
@@ -772,8 +772,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:h-0") {
+    @include describe('Rwd') {
+      @include it('sm\:h-0') {
         @include assert {
           @include output {
             @include sm\:h-0;
@@ -788,7 +788,7 @@
         }
       }
 
-      @include it("sm\:h-px") {
+      @include it('sm\:h-px') {
         @include assert {
           @include output {
             @include sm\:h-px;
@@ -803,7 +803,7 @@
         }
       }
 
-      @include it("sm\:h-0\.5") {
+      @include it('sm\:h-0\.5') {
         @include assert {
           @include output {
             @include sm\:h-0\.5;
@@ -818,7 +818,7 @@
         }
       }
 
-      @include it("sm\:h-1") {
+      @include it('sm\:h-1') {
         @include assert {
           @include output {
             @include sm\:h-1;
@@ -833,7 +833,7 @@
         }
       }
 
-      @include it("sm\:h-1\.5") {
+      @include it('sm\:h-1\.5') {
         @include assert {
           @include output {
             @include sm\:h-1\.5;
@@ -848,7 +848,7 @@
         }
       }
 
-      @include it("sm\:h-2") {
+      @include it('sm\:h-2') {
         @include assert {
           @include output {
             @include sm\:h-2;
@@ -863,7 +863,7 @@
         }
       }
 
-      @include it("sm\:h-2\.5") {
+      @include it('sm\:h-2\.5') {
         @include assert {
           @include output {
             @include sm\:h-2\.5;
@@ -878,7 +878,7 @@
         }
       }
 
-      @include it("sm\:h-3") {
+      @include it('sm\:h-3') {
         @include assert {
           @include output {
             @include sm\:h-3;
@@ -893,7 +893,7 @@
         }
       }
 
-      @include it("sm\:h-3\.5") {
+      @include it('sm\:h-3\.5') {
         @include assert {
           @include output {
             @include sm\:h-3\.5;
@@ -908,7 +908,7 @@
         }
       }
 
-      @include it("sm\:h-4") {
+      @include it('sm\:h-4') {
         @include assert {
           @include output {
             @include sm\:h-4;
@@ -923,7 +923,7 @@
         }
       }
 
-      @include it("sm\:h-5") {
+      @include it('sm\:h-5') {
         @include assert {
           @include output {
             @include sm\:h-5;
@@ -938,7 +938,7 @@
         }
       }
 
-      @include it("sm\:h-6") {
+      @include it('sm\:h-6') {
         @include assert {
           @include output {
             @include sm\:h-6;
@@ -953,7 +953,7 @@
         }
       }
 
-      @include it("sm\:h-7") {
+      @include it('sm\:h-7') {
         @include assert {
           @include output {
             @include sm\:h-7;
@@ -968,7 +968,7 @@
         }
       }
 
-      @include it("sm\:h-8") {
+      @include it('sm\:h-8') {
         @include assert {
           @include output {
             @include sm\:h-8;
@@ -983,7 +983,7 @@
         }
       }
 
-      @include it("sm\:h-9") {
+      @include it('sm\:h-9') {
         @include assert {
           @include output {
             @include sm\:h-9;
@@ -998,7 +998,7 @@
         }
       }
 
-      @include it("sm\:h-10") {
+      @include it('sm\:h-10') {
         @include assert {
           @include output {
             @include sm\:h-10;
@@ -1013,7 +1013,7 @@
         }
       }
 
-      @include it("sm\:h-11") {
+      @include it('sm\:h-11') {
         @include assert {
           @include output {
             @include sm\:h-11;
@@ -1028,7 +1028,7 @@
         }
       }
 
-      @include it("sm\:h-12") {
+      @include it('sm\:h-12') {
         @include assert {
           @include output {
             @include sm\:h-12;
@@ -1043,7 +1043,7 @@
         }
       }
 
-      @include it("sm\:h-14") {
+      @include it('sm\:h-14') {
         @include assert {
           @include output {
             @include sm\:h-14;
@@ -1058,7 +1058,7 @@
         }
       }
 
-      @include it("sm\:h-16") {
+      @include it('sm\:h-16') {
         @include assert {
           @include output {
             @include sm\:h-16;
@@ -1073,7 +1073,7 @@
         }
       }
 
-      @include it("sm\:h-20") {
+      @include it('sm\:h-20') {
         @include assert {
           @include output {
             @include sm\:h-20;
@@ -1088,7 +1088,7 @@
         }
       }
 
-      @include it("sm\:h-24") {
+      @include it('sm\:h-24') {
         @include assert {
           @include output {
             @include sm\:h-24;
@@ -1103,7 +1103,7 @@
         }
       }
 
-      @include it("sm\:h-28") {
+      @include it('sm\:h-28') {
         @include assert {
           @include output {
             @include sm\:h-28;
@@ -1118,7 +1118,7 @@
         }
       }
 
-      @include it("sm\:h-32") {
+      @include it('sm\:h-32') {
         @include assert {
           @include output {
             @include sm\:h-32;
@@ -1133,7 +1133,7 @@
         }
       }
 
-      @include it("sm\:h-36") {
+      @include it('sm\:h-36') {
         @include assert {
           @include output {
             @include sm\:h-36;
@@ -1148,7 +1148,7 @@
         }
       }
 
-      @include it("sm\:h-40") {
+      @include it('sm\:h-40') {
         @include assert {
           @include output {
             @include sm\:h-40;
@@ -1163,7 +1163,7 @@
         }
       }
 
-      @include it("sm\:h-44") {
+      @include it('sm\:h-44') {
         @include assert {
           @include output {
             @include sm\:h-44;
@@ -1178,7 +1178,7 @@
         }
       }
 
-      @include it("sm\:h-48") {
+      @include it('sm\:h-48') {
         @include assert {
           @include output {
             @include sm\:h-48;
@@ -1193,7 +1193,7 @@
         }
       }
 
-      @include it("sm\:h-52") {
+      @include it('sm\:h-52') {
         @include assert {
           @include output {
             @include sm\:h-52;
@@ -1208,7 +1208,7 @@
         }
       }
 
-      @include it("sm\:h-56") {
+      @include it('sm\:h-56') {
         @include assert {
           @include output {
             @include sm\:h-56;
@@ -1223,7 +1223,7 @@
         }
       }
 
-      @include it("sm\:h-60") {
+      @include it('sm\:h-60') {
         @include assert {
           @include output {
             @include sm\:h-60;
@@ -1238,7 +1238,7 @@
         }
       }
 
-      @include it("sm\:h-64") {
+      @include it('sm\:h-64') {
         @include assert {
           @include output {
             @include sm\:h-64;
@@ -1253,7 +1253,7 @@
         }
       }
 
-      @include it("sm\:h-72") {
+      @include it('sm\:h-72') {
         @include assert {
           @include output {
             @include sm\:h-72;
@@ -1268,7 +1268,7 @@
         }
       }
 
-      @include it("sm\:h-80") {
+      @include it('sm\:h-80') {
         @include assert {
           @include output {
             @include sm\:h-80;
@@ -1283,7 +1283,7 @@
         }
       }
 
-      @include it("sm\:h-96") {
+      @include it('sm\:h-96') {
         @include assert {
           @include output {
             @include sm\:h-96;
@@ -1298,7 +1298,7 @@
         }
       }
 
-      @include it("sm\:h-auto") {
+      @include it('sm\:h-auto') {
         @include assert {
           @include output {
             @include sm\:h-auto;
@@ -1313,7 +1313,7 @@
         }
       }
 
-      @include it("sm\:h-1\/2") {
+      @include it('sm\:h-1\/2') {
         @include assert {
           @include output {
             @include sm\:h-1\/2;
@@ -1328,7 +1328,7 @@
         }
       }
 
-      @include it("sm\:h-1\/3") {
+      @include it('sm\:h-1\/3') {
         @include assert {
           @include output {
             @include sm\:h-1\/3;
@@ -1343,7 +1343,7 @@
         }
       }
 
-      @include it("sm\:h-2\/3") {
+      @include it('sm\:h-2\/3') {
         @include assert {
           @include output {
             @include sm\:h-2\/3;
@@ -1358,7 +1358,7 @@
         }
       }
 
-      @include it("sm\:h-1\/4") {
+      @include it('sm\:h-1\/4') {
         @include assert {
           @include output {
             @include sm\:h-1\/4;
@@ -1373,7 +1373,7 @@
         }
       }
 
-      @include it("sm\:h-2\/4") {
+      @include it('sm\:h-2\/4') {
         @include assert {
           @include output {
             @include sm\:h-2\/4;
@@ -1388,7 +1388,7 @@
         }
       }
 
-      @include it("sm\:h-3\/4") {
+      @include it('sm\:h-3\/4') {
         @include assert {
           @include output {
             @include sm\:h-3\/4;
@@ -1403,7 +1403,7 @@
         }
       }
 
-      @include it("sm\:h-1\/5") {
+      @include it('sm\:h-1\/5') {
         @include assert {
           @include output {
             @include sm\:h-1\/5;
@@ -1418,7 +1418,7 @@
         }
       }
 
-      @include it("sm\:h-2\/5") {
+      @include it('sm\:h-2\/5') {
         @include assert {
           @include output {
             @include sm\:h-2\/5;
@@ -1433,7 +1433,7 @@
         }
       }
 
-      @include it("sm\:h-3\/5") {
+      @include it('sm\:h-3\/5') {
         @include assert {
           @include output {
             @include sm\:h-3\/5;
@@ -1448,7 +1448,7 @@
         }
       }
 
-      @include it("sm\:h-4\/5") {
+      @include it('sm\:h-4\/5') {
         @include assert {
           @include output {
             @include sm\:h-4\/5;
@@ -1463,7 +1463,7 @@
         }
       }
 
-      @include it("sm\:h-1\/6") {
+      @include it('sm\:h-1\/6') {
         @include assert {
           @include output {
             @include sm\:h-1\/6;
@@ -1478,7 +1478,7 @@
         }
       }
 
-      @include it("sm\:h-2\/6") {
+      @include it('sm\:h-2\/6') {
         @include assert {
           @include output {
             @include sm\:h-2\/6;
@@ -1493,7 +1493,7 @@
         }
       }
 
-      @include it("sm\:h-3\/6") {
+      @include it('sm\:h-3\/6') {
         @include assert {
           @include output {
             @include sm\:h-3\/6;
@@ -1508,7 +1508,7 @@
         }
       }
 
-      @include it("sm\:h-4\/6") {
+      @include it('sm\:h-4\/6') {
         @include assert {
           @include output {
             @include sm\:h-4\/6;
@@ -1523,7 +1523,7 @@
         }
       }
 
-      @include it("sm\:h-5\/6") {
+      @include it('sm\:h-5\/6') {
         @include assert {
           @include output {
             @include sm\:h-5\/6;
@@ -1538,7 +1538,7 @@
         }
       }
 
-      @include it("sm\:h-full") {
+      @include it('sm\:h-full') {
         @include assert {
           @include output {
             @include sm\:h-full;
@@ -1553,7 +1553,7 @@
         }
       }
 
-      @include it("sm\:h-screen") {
+      @include it('sm\:h-screen') {
         @include assert {
           @include output {
             @include sm\:h-screen;
@@ -1568,7 +1568,7 @@
         }
       }
 
-      @include it("sm\:h-svh") {
+      @include it('sm\:h-svh') {
         @include assert {
           @include output {
             @include sm\:h-svh;
@@ -1583,7 +1583,7 @@
         }
       }
 
-      @include it("sm\:h-lvh") {
+      @include it('sm\:h-lvh') {
         @include assert {
           @include output {
             @include sm\:h-lvh;
@@ -1598,7 +1598,7 @@
         }
       }
 
-      @include it("sm\:h-dvh") {
+      @include it('sm\:h-dvh') {
         @include assert {
           @include output {
             @include sm\:h-dvh;
@@ -1613,7 +1613,7 @@
         }
       }
 
-      @include it("sm\:h-min") {
+      @include it('sm\:h-min') {
         @include assert {
           @include output {
             @include sm\:h-min;
@@ -1628,7 +1628,7 @@
         }
       }
 
-      @include it("sm\:h-max") {
+      @include it('sm\:h-max') {
         @include assert {
           @include output {
             @include sm\:h-max;
@@ -1643,7 +1643,7 @@
         }
       }
 
-      @include it("sm\:h-fit") {
+      @include it('sm\:h-fit') {
         @include assert {
           @include output {
             @include sm\:h-fit;
@@ -1658,7 +1658,7 @@
         }
       }
 
-      @include it("md\:h-0") {
+      @include it('md\:h-0') {
         @include assert {
           @include output {
             @include md\:h-0;
@@ -1673,7 +1673,7 @@
         }
       }
 
-      @include it("md\:h-px") {
+      @include it('md\:h-px') {
         @include assert {
           @include output {
             @include md\:h-px;
@@ -1688,7 +1688,7 @@
         }
       }
 
-      @include it("md\:h-0\.5") {
+      @include it('md\:h-0\.5') {
         @include assert {
           @include output {
             @include md\:h-0\.5;
@@ -1703,7 +1703,7 @@
         }
       }
 
-      @include it("md\:h-1") {
+      @include it('md\:h-1') {
         @include assert {
           @include output {
             @include md\:h-1;
@@ -1718,7 +1718,7 @@
         }
       }
 
-      @include it("md\:h-1\.5") {
+      @include it('md\:h-1\.5') {
         @include assert {
           @include output {
             @include md\:h-1\.5;
@@ -1733,7 +1733,7 @@
         }
       }
 
-      @include it("md\:h-2") {
+      @include it('md\:h-2') {
         @include assert {
           @include output {
             @include md\:h-2;
@@ -1748,7 +1748,7 @@
         }
       }
 
-      @include it("md\:h-2\.5") {
+      @include it('md\:h-2\.5') {
         @include assert {
           @include output {
             @include md\:h-2\.5;
@@ -1763,7 +1763,7 @@
         }
       }
 
-      @include it("md\:h-3") {
+      @include it('md\:h-3') {
         @include assert {
           @include output {
             @include md\:h-3;
@@ -1778,7 +1778,7 @@
         }
       }
 
-      @include it("md\:h-3\.5") {
+      @include it('md\:h-3\.5') {
         @include assert {
           @include output {
             @include md\:h-3\.5;
@@ -1793,7 +1793,7 @@
         }
       }
 
-      @include it("md\:h-4") {
+      @include it('md\:h-4') {
         @include assert {
           @include output {
             @include md\:h-4;
@@ -1808,7 +1808,7 @@
         }
       }
 
-      @include it("md\:h-5") {
+      @include it('md\:h-5') {
         @include assert {
           @include output {
             @include md\:h-5;
@@ -1823,7 +1823,7 @@
         }
       }
 
-      @include it("md\:h-6") {
+      @include it('md\:h-6') {
         @include assert {
           @include output {
             @include md\:h-6;
@@ -1838,7 +1838,7 @@
         }
       }
 
-      @include it("md\:h-7") {
+      @include it('md\:h-7') {
         @include assert {
           @include output {
             @include md\:h-7;
@@ -1853,7 +1853,7 @@
         }
       }
 
-      @include it("md\:h-8") {
+      @include it('md\:h-8') {
         @include assert {
           @include output {
             @include md\:h-8;
@@ -1868,7 +1868,7 @@
         }
       }
 
-      @include it("md\:h-9") {
+      @include it('md\:h-9') {
         @include assert {
           @include output {
             @include md\:h-9;
@@ -1883,7 +1883,7 @@
         }
       }
 
-      @include it("md\:h-10") {
+      @include it('md\:h-10') {
         @include assert {
           @include output {
             @include md\:h-10;
@@ -1898,7 +1898,7 @@
         }
       }
 
-      @include it("md\:h-11") {
+      @include it('md\:h-11') {
         @include assert {
           @include output {
             @include md\:h-11;
@@ -1913,7 +1913,7 @@
         }
       }
 
-      @include it("md\:h-12") {
+      @include it('md\:h-12') {
         @include assert {
           @include output {
             @include md\:h-12;
@@ -1928,7 +1928,7 @@
         }
       }
 
-      @include it("md\:h-14") {
+      @include it('md\:h-14') {
         @include assert {
           @include output {
             @include md\:h-14;
@@ -1943,7 +1943,7 @@
         }
       }
 
-      @include it("md\:h-16") {
+      @include it('md\:h-16') {
         @include assert {
           @include output {
             @include md\:h-16;
@@ -1958,7 +1958,7 @@
         }
       }
 
-      @include it("md\:h-20") {
+      @include it('md\:h-20') {
         @include assert {
           @include output {
             @include md\:h-20;
@@ -1973,7 +1973,7 @@
         }
       }
 
-      @include it("md\:h-24") {
+      @include it('md\:h-24') {
         @include assert {
           @include output {
             @include md\:h-24;
@@ -1988,7 +1988,7 @@
         }
       }
 
-      @include it("md\:h-28") {
+      @include it('md\:h-28') {
         @include assert {
           @include output {
             @include md\:h-28;
@@ -2003,7 +2003,7 @@
         }
       }
 
-      @include it("md\:h-32") {
+      @include it('md\:h-32') {
         @include assert {
           @include output {
             @include md\:h-32;
@@ -2018,7 +2018,7 @@
         }
       }
 
-      @include it("md\:h-36") {
+      @include it('md\:h-36') {
         @include assert {
           @include output {
             @include md\:h-36;
@@ -2033,7 +2033,7 @@
         }
       }
 
-      @include it("md\:h-40") {
+      @include it('md\:h-40') {
         @include assert {
           @include output {
             @include md\:h-40;
@@ -2048,7 +2048,7 @@
         }
       }
 
-      @include it("md\:h-44") {
+      @include it('md\:h-44') {
         @include assert {
           @include output {
             @include md\:h-44;
@@ -2063,7 +2063,7 @@
         }
       }
 
-      @include it("md\:h-48") {
+      @include it('md\:h-48') {
         @include assert {
           @include output {
             @include md\:h-48;
@@ -2078,7 +2078,7 @@
         }
       }
 
-      @include it("md\:h-52") {
+      @include it('md\:h-52') {
         @include assert {
           @include output {
             @include md\:h-52;
@@ -2093,7 +2093,7 @@
         }
       }
 
-      @include it("md\:h-56") {
+      @include it('md\:h-56') {
         @include assert {
           @include output {
             @include md\:h-56;
@@ -2108,7 +2108,7 @@
         }
       }
 
-      @include it("md\:h-60") {
+      @include it('md\:h-60') {
         @include assert {
           @include output {
             @include md\:h-60;
@@ -2123,7 +2123,7 @@
         }
       }
 
-      @include it("md\:h-64") {
+      @include it('md\:h-64') {
         @include assert {
           @include output {
             @include md\:h-64;
@@ -2138,7 +2138,7 @@
         }
       }
 
-      @include it("md\:h-72") {
+      @include it('md\:h-72') {
         @include assert {
           @include output {
             @include md\:h-72;
@@ -2153,7 +2153,7 @@
         }
       }
 
-      @include it("md\:h-80") {
+      @include it('md\:h-80') {
         @include assert {
           @include output {
             @include md\:h-80;
@@ -2168,7 +2168,7 @@
         }
       }
 
-      @include it("md\:h-96") {
+      @include it('md\:h-96') {
         @include assert {
           @include output {
             @include md\:h-96;
@@ -2183,7 +2183,7 @@
         }
       }
 
-      @include it("md\:h-auto") {
+      @include it('md\:h-auto') {
         @include assert {
           @include output {
             @include md\:h-auto;
@@ -2198,7 +2198,7 @@
         }
       }
 
-      @include it("md\:h-1\/2") {
+      @include it('md\:h-1\/2') {
         @include assert {
           @include output {
             @include md\:h-1\/2;
@@ -2213,7 +2213,7 @@
         }
       }
 
-      @include it("md\:h-1\/3") {
+      @include it('md\:h-1\/3') {
         @include assert {
           @include output {
             @include md\:h-1\/3;
@@ -2228,7 +2228,7 @@
         }
       }
 
-      @include it("md\:h-2\/3") {
+      @include it('md\:h-2\/3') {
         @include assert {
           @include output {
             @include md\:h-2\/3;
@@ -2243,7 +2243,7 @@
         }
       }
 
-      @include it("md\:h-1\/4") {
+      @include it('md\:h-1\/4') {
         @include assert {
           @include output {
             @include md\:h-1\/4;
@@ -2258,7 +2258,7 @@
         }
       }
 
-      @include it("md\:h-2\/4") {
+      @include it('md\:h-2\/4') {
         @include assert {
           @include output {
             @include md\:h-2\/4;
@@ -2273,7 +2273,7 @@
         }
       }
 
-      @include it("md\:h-3\/4") {
+      @include it('md\:h-3\/4') {
         @include assert {
           @include output {
             @include md\:h-3\/4;
@@ -2288,7 +2288,7 @@
         }
       }
 
-      @include it("md\:h-1\/5") {
+      @include it('md\:h-1\/5') {
         @include assert {
           @include output {
             @include md\:h-1\/5;
@@ -2303,7 +2303,7 @@
         }
       }
 
-      @include it("md\:h-2\/5") {
+      @include it('md\:h-2\/5') {
         @include assert {
           @include output {
             @include md\:h-2\/5;
@@ -2318,7 +2318,7 @@
         }
       }
 
-      @include it("md\:h-3\/5") {
+      @include it('md\:h-3\/5') {
         @include assert {
           @include output {
             @include md\:h-3\/5;
@@ -2333,7 +2333,7 @@
         }
       }
 
-      @include it("md\:h-4\/5") {
+      @include it('md\:h-4\/5') {
         @include assert {
           @include output {
             @include md\:h-4\/5;
@@ -2348,7 +2348,7 @@
         }
       }
 
-      @include it("md\:h-1\/6") {
+      @include it('md\:h-1\/6') {
         @include assert {
           @include output {
             @include md\:h-1\/6;
@@ -2363,7 +2363,7 @@
         }
       }
 
-      @include it("md\:h-2\/6") {
+      @include it('md\:h-2\/6') {
         @include assert {
           @include output {
             @include md\:h-2\/6;
@@ -2378,7 +2378,7 @@
         }
       }
 
-      @include it("md\:h-3\/6") {
+      @include it('md\:h-3\/6') {
         @include assert {
           @include output {
             @include md\:h-3\/6;
@@ -2393,7 +2393,7 @@
         }
       }
 
-      @include it("md\:h-4\/6") {
+      @include it('md\:h-4\/6') {
         @include assert {
           @include output {
             @include md\:h-4\/6;
@@ -2408,7 +2408,7 @@
         }
       }
 
-      @include it("md\:h-5\/6") {
+      @include it('md\:h-5\/6') {
         @include assert {
           @include output {
             @include md\:h-5\/6;
@@ -2423,7 +2423,7 @@
         }
       }
 
-      @include it("md\:h-full") {
+      @include it('md\:h-full') {
         @include assert {
           @include output {
             @include md\:h-full;
@@ -2438,7 +2438,7 @@
         }
       }
 
-      @include it("md\:h-screen") {
+      @include it('md\:h-screen') {
         @include assert {
           @include output {
             @include md\:h-screen;
@@ -2453,7 +2453,7 @@
         }
       }
 
-      @include it("md\:h-svh") {
+      @include it('md\:h-svh') {
         @include assert {
           @include output {
             @include md\:h-svh;
@@ -2468,7 +2468,7 @@
         }
       }
 
-      @include it("md\:h-lvh") {
+      @include it('md\:h-lvh') {
         @include assert {
           @include output {
             @include md\:h-lvh;
@@ -2483,7 +2483,7 @@
         }
       }
 
-      @include it("md\:h-dvh") {
+      @include it('md\:h-dvh') {
         @include assert {
           @include output {
             @include md\:h-dvh;
@@ -2498,7 +2498,7 @@
         }
       }
 
-      @include it("md\:h-min") {
+      @include it('md\:h-min') {
         @include assert {
           @include output {
             @include md\:h-min;
@@ -2513,7 +2513,7 @@
         }
       }
 
-      @include it("md\:h-max") {
+      @include it('md\:h-max') {
         @include assert {
           @include output {
             @include md\:h-max;
@@ -2528,7 +2528,7 @@
         }
       }
 
-      @include it("md\:h-fit") {
+      @include it('md\:h-fit') {
         @include assert {
           @include output {
             @include md\:h-fit;
@@ -2543,7 +2543,7 @@
         }
       }
 
-      @include it("lg\:h-0") {
+      @include it('lg\:h-0') {
         @include assert {
           @include output {
             @include lg\:h-0;
@@ -2558,7 +2558,7 @@
         }
       }
 
-      @include it("lg\:h-px") {
+      @include it('lg\:h-px') {
         @include assert {
           @include output {
             @include lg\:h-px;
@@ -2573,7 +2573,7 @@
         }
       }
 
-      @include it("lg\:h-0\.5") {
+      @include it('lg\:h-0\.5') {
         @include assert {
           @include output {
             @include lg\:h-0\.5;
@@ -2588,7 +2588,7 @@
         }
       }
 
-      @include it("lg\:h-1") {
+      @include it('lg\:h-1') {
         @include assert {
           @include output {
             @include lg\:h-1;
@@ -2603,7 +2603,7 @@
         }
       }
 
-      @include it("lg\:h-1\.5") {
+      @include it('lg\:h-1\.5') {
         @include assert {
           @include output {
             @include lg\:h-1\.5;
@@ -2618,7 +2618,7 @@
         }
       }
 
-      @include it("lg\:h-2") {
+      @include it('lg\:h-2') {
         @include assert {
           @include output {
             @include lg\:h-2;
@@ -2633,7 +2633,7 @@
         }
       }
 
-      @include it("lg\:h-2\.5") {
+      @include it('lg\:h-2\.5') {
         @include assert {
           @include output {
             @include lg\:h-2\.5;
@@ -2648,7 +2648,7 @@
         }
       }
 
-      @include it("lg\:h-3") {
+      @include it('lg\:h-3') {
         @include assert {
           @include output {
             @include lg\:h-3;
@@ -2663,7 +2663,7 @@
         }
       }
 
-      @include it("lg\:h-3\.5") {
+      @include it('lg\:h-3\.5') {
         @include assert {
           @include output {
             @include lg\:h-3\.5;
@@ -2678,7 +2678,7 @@
         }
       }
 
-      @include it("lg\:h-4") {
+      @include it('lg\:h-4') {
         @include assert {
           @include output {
             @include lg\:h-4;
@@ -2693,7 +2693,7 @@
         }
       }
 
-      @include it("lg\:h-5") {
+      @include it('lg\:h-5') {
         @include assert {
           @include output {
             @include lg\:h-5;
@@ -2708,7 +2708,7 @@
         }
       }
 
-      @include it("lg\:h-6") {
+      @include it('lg\:h-6') {
         @include assert {
           @include output {
             @include lg\:h-6;
@@ -2723,7 +2723,7 @@
         }
       }
 
-      @include it("lg\:h-7") {
+      @include it('lg\:h-7') {
         @include assert {
           @include output {
             @include lg\:h-7;
@@ -2738,7 +2738,7 @@
         }
       }
 
-      @include it("lg\:h-8") {
+      @include it('lg\:h-8') {
         @include assert {
           @include output {
             @include lg\:h-8;
@@ -2753,7 +2753,7 @@
         }
       }
 
-      @include it("lg\:h-9") {
+      @include it('lg\:h-9') {
         @include assert {
           @include output {
             @include lg\:h-9;
@@ -2768,7 +2768,7 @@
         }
       }
 
-      @include it("lg\:h-10") {
+      @include it('lg\:h-10') {
         @include assert {
           @include output {
             @include lg\:h-10;
@@ -2783,7 +2783,7 @@
         }
       }
 
-      @include it("lg\:h-11") {
+      @include it('lg\:h-11') {
         @include assert {
           @include output {
             @include lg\:h-11;
@@ -2798,7 +2798,7 @@
         }
       }
 
-      @include it("lg\:h-12") {
+      @include it('lg\:h-12') {
         @include assert {
           @include output {
             @include lg\:h-12;
@@ -2813,7 +2813,7 @@
         }
       }
 
-      @include it("lg\:h-14") {
+      @include it('lg\:h-14') {
         @include assert {
           @include output {
             @include lg\:h-14;
@@ -2828,7 +2828,7 @@
         }
       }
 
-      @include it("lg\:h-16") {
+      @include it('lg\:h-16') {
         @include assert {
           @include output {
             @include lg\:h-16;
@@ -2843,7 +2843,7 @@
         }
       }
 
-      @include it("lg\:h-20") {
+      @include it('lg\:h-20') {
         @include assert {
           @include output {
             @include lg\:h-20;
@@ -2858,7 +2858,7 @@
         }
       }
 
-      @include it("lg\:h-24") {
+      @include it('lg\:h-24') {
         @include assert {
           @include output {
             @include lg\:h-24;
@@ -2873,7 +2873,7 @@
         }
       }
 
-      @include it("lg\:h-28") {
+      @include it('lg\:h-28') {
         @include assert {
           @include output {
             @include lg\:h-28;
@@ -2888,7 +2888,7 @@
         }
       }
 
-      @include it("lg\:h-32") {
+      @include it('lg\:h-32') {
         @include assert {
           @include output {
             @include lg\:h-32;
@@ -2903,7 +2903,7 @@
         }
       }
 
-      @include it("lg\:h-36") {
+      @include it('lg\:h-36') {
         @include assert {
           @include output {
             @include lg\:h-36;
@@ -2918,7 +2918,7 @@
         }
       }
 
-      @include it("lg\:h-40") {
+      @include it('lg\:h-40') {
         @include assert {
           @include output {
             @include lg\:h-40;
@@ -2933,7 +2933,7 @@
         }
       }
 
-      @include it("lg\:h-44") {
+      @include it('lg\:h-44') {
         @include assert {
           @include output {
             @include lg\:h-44;
@@ -2948,7 +2948,7 @@
         }
       }
 
-      @include it("lg\:h-48") {
+      @include it('lg\:h-48') {
         @include assert {
           @include output {
             @include lg\:h-48;
@@ -2963,7 +2963,7 @@
         }
       }
 
-      @include it("lg\:h-52") {
+      @include it('lg\:h-52') {
         @include assert {
           @include output {
             @include lg\:h-52;
@@ -2978,7 +2978,7 @@
         }
       }
 
-      @include it("lg\:h-56") {
+      @include it('lg\:h-56') {
         @include assert {
           @include output {
             @include lg\:h-56;
@@ -2993,7 +2993,7 @@
         }
       }
 
-      @include it("lg\:h-60") {
+      @include it('lg\:h-60') {
         @include assert {
           @include output {
             @include lg\:h-60;
@@ -3008,7 +3008,7 @@
         }
       }
 
-      @include it("lg\:h-64") {
+      @include it('lg\:h-64') {
         @include assert {
           @include output {
             @include lg\:h-64;
@@ -3023,7 +3023,7 @@
         }
       }
 
-      @include it("lg\:h-72") {
+      @include it('lg\:h-72') {
         @include assert {
           @include output {
             @include lg\:h-72;
@@ -3038,7 +3038,7 @@
         }
       }
 
-      @include it("lg\:h-80") {
+      @include it('lg\:h-80') {
         @include assert {
           @include output {
             @include lg\:h-80;
@@ -3053,7 +3053,7 @@
         }
       }
 
-      @include it("lg\:h-96") {
+      @include it('lg\:h-96') {
         @include assert {
           @include output {
             @include lg\:h-96;
@@ -3068,7 +3068,7 @@
         }
       }
 
-      @include it("lg\:h-auto") {
+      @include it('lg\:h-auto') {
         @include assert {
           @include output {
             @include lg\:h-auto;
@@ -3083,7 +3083,7 @@
         }
       }
 
-      @include it("lg\:h-1\/2") {
+      @include it('lg\:h-1\/2') {
         @include assert {
           @include output {
             @include lg\:h-1\/2;
@@ -3098,7 +3098,7 @@
         }
       }
 
-      @include it("lg\:h-1\/3") {
+      @include it('lg\:h-1\/3') {
         @include assert {
           @include output {
             @include lg\:h-1\/3;
@@ -3113,7 +3113,7 @@
         }
       }
 
-      @include it("lg\:h-2\/3") {
+      @include it('lg\:h-2\/3') {
         @include assert {
           @include output {
             @include lg\:h-2\/3;
@@ -3128,7 +3128,7 @@
         }
       }
 
-      @include it("lg\:h-1\/4") {
+      @include it('lg\:h-1\/4') {
         @include assert {
           @include output {
             @include lg\:h-1\/4;
@@ -3143,7 +3143,7 @@
         }
       }
 
-      @include it("lg\:h-2\/4") {
+      @include it('lg\:h-2\/4') {
         @include assert {
           @include output {
             @include lg\:h-2\/4;
@@ -3158,7 +3158,7 @@
         }
       }
 
-      @include it("lg\:h-3\/4") {
+      @include it('lg\:h-3\/4') {
         @include assert {
           @include output {
             @include lg\:h-3\/4;
@@ -3173,7 +3173,7 @@
         }
       }
 
-      @include it("lg\:h-1\/5") {
+      @include it('lg\:h-1\/5') {
         @include assert {
           @include output {
             @include lg\:h-1\/5;
@@ -3188,7 +3188,7 @@
         }
       }
 
-      @include it("lg\:h-2\/5") {
+      @include it('lg\:h-2\/5') {
         @include assert {
           @include output {
             @include lg\:h-2\/5;
@@ -3203,7 +3203,7 @@
         }
       }
 
-      @include it("lg\:h-3\/5") {
+      @include it('lg\:h-3\/5') {
         @include assert {
           @include output {
             @include lg\:h-3\/5;
@@ -3218,7 +3218,7 @@
         }
       }
 
-      @include it("lg\:h-4\/5") {
+      @include it('lg\:h-4\/5') {
         @include assert {
           @include output {
             @include lg\:h-4\/5;
@@ -3233,7 +3233,7 @@
         }
       }
 
-      @include it("lg\:h-1\/6") {
+      @include it('lg\:h-1\/6') {
         @include assert {
           @include output {
             @include lg\:h-1\/6;
@@ -3248,7 +3248,7 @@
         }
       }
 
-      @include it("lg\:h-2\/6") {
+      @include it('lg\:h-2\/6') {
         @include assert {
           @include output {
             @include lg\:h-2\/6;
@@ -3263,7 +3263,7 @@
         }
       }
 
-      @include it("lg\:h-3\/6") {
+      @include it('lg\:h-3\/6') {
         @include assert {
           @include output {
             @include lg\:h-3\/6;
@@ -3278,7 +3278,7 @@
         }
       }
 
-      @include it("lg\:h-4\/6") {
+      @include it('lg\:h-4\/6') {
         @include assert {
           @include output {
             @include lg\:h-4\/6;
@@ -3293,7 +3293,7 @@
         }
       }
 
-      @include it("lg\:h-5\/6") {
+      @include it('lg\:h-5\/6') {
         @include assert {
           @include output {
             @include lg\:h-5\/6;
@@ -3308,7 +3308,7 @@
         }
       }
 
-      @include it("lg\:h-full") {
+      @include it('lg\:h-full') {
         @include assert {
           @include output {
             @include lg\:h-full;
@@ -3323,7 +3323,7 @@
         }
       }
 
-      @include it("lg\:h-screen") {
+      @include it('lg\:h-screen') {
         @include assert {
           @include output {
             @include lg\:h-screen;
@@ -3338,7 +3338,7 @@
         }
       }
 
-      @include it("lg\:h-svh") {
+      @include it('lg\:h-svh') {
         @include assert {
           @include output {
             @include lg\:h-svh;
@@ -3353,7 +3353,7 @@
         }
       }
 
-      @include it("lg\:h-lvh") {
+      @include it('lg\:h-lvh') {
         @include assert {
           @include output {
             @include lg\:h-lvh;
@@ -3368,7 +3368,7 @@
         }
       }
 
-      @include it("lg\:h-dvh") {
+      @include it('lg\:h-dvh') {
         @include assert {
           @include output {
             @include lg\:h-dvh;
@@ -3383,7 +3383,7 @@
         }
       }
 
-      @include it("lg\:h-min") {
+      @include it('lg\:h-min') {
         @include assert {
           @include output {
             @include lg\:h-min;
@@ -3398,7 +3398,7 @@
         }
       }
 
-      @include it("lg\:h-max") {
+      @include it('lg\:h-max') {
         @include assert {
           @include output {
             @include lg\:h-max;
@@ -3413,7 +3413,7 @@
         }
       }
 
-      @include it("lg\:h-fit") {
+      @include it('lg\:h-fit') {
         @include assert {
           @include output {
             @include lg\:h-fit;
@@ -3428,7 +3428,7 @@
         }
       }
 
-      @include it("xl\:h-0") {
+      @include it('xl\:h-0') {
         @include assert {
           @include output {
             @include xl\:h-0;
@@ -3443,7 +3443,7 @@
         }
       }
 
-      @include it("xl\:h-px") {
+      @include it('xl\:h-px') {
         @include assert {
           @include output {
             @include xl\:h-px;
@@ -3458,7 +3458,7 @@
         }
       }
 
-      @include it("xl\:h-0\.5") {
+      @include it('xl\:h-0\.5') {
         @include assert {
           @include output {
             @include xl\:h-0\.5;
@@ -3473,7 +3473,7 @@
         }
       }
 
-      @include it("xl\:h-1") {
+      @include it('xl\:h-1') {
         @include assert {
           @include output {
             @include xl\:h-1;
@@ -3488,7 +3488,7 @@
         }
       }
 
-      @include it("xl\:h-1\.5") {
+      @include it('xl\:h-1\.5') {
         @include assert {
           @include output {
             @include xl\:h-1\.5;
@@ -3503,7 +3503,7 @@
         }
       }
 
-      @include it("xl\:h-2") {
+      @include it('xl\:h-2') {
         @include assert {
           @include output {
             @include xl\:h-2;
@@ -3518,7 +3518,7 @@
         }
       }
 
-      @include it("xl\:h-2\.5") {
+      @include it('xl\:h-2\.5') {
         @include assert {
           @include output {
             @include xl\:h-2\.5;
@@ -3533,7 +3533,7 @@
         }
       }
 
-      @include it("xl\:h-3") {
+      @include it('xl\:h-3') {
         @include assert {
           @include output {
             @include xl\:h-3;
@@ -3548,7 +3548,7 @@
         }
       }
 
-      @include it("xl\:h-3\.5") {
+      @include it('xl\:h-3\.5') {
         @include assert {
           @include output {
             @include xl\:h-3\.5;
@@ -3563,7 +3563,7 @@
         }
       }
 
-      @include it("xl\:h-4") {
+      @include it('xl\:h-4') {
         @include assert {
           @include output {
             @include xl\:h-4;
@@ -3578,7 +3578,7 @@
         }
       }
 
-      @include it("xl\:h-5") {
+      @include it('xl\:h-5') {
         @include assert {
           @include output {
             @include xl\:h-5;
@@ -3593,7 +3593,7 @@
         }
       }
 
-      @include it("xl\:h-6") {
+      @include it('xl\:h-6') {
         @include assert {
           @include output {
             @include xl\:h-6;
@@ -3608,7 +3608,7 @@
         }
       }
 
-      @include it("xl\:h-7") {
+      @include it('xl\:h-7') {
         @include assert {
           @include output {
             @include xl\:h-7;
@@ -3623,7 +3623,7 @@
         }
       }
 
-      @include it("xl\:h-8") {
+      @include it('xl\:h-8') {
         @include assert {
           @include output {
             @include xl\:h-8;
@@ -3638,7 +3638,7 @@
         }
       }
 
-      @include it("xl\:h-9") {
+      @include it('xl\:h-9') {
         @include assert {
           @include output {
             @include xl\:h-9;
@@ -3653,7 +3653,7 @@
         }
       }
 
-      @include it("xl\:h-10") {
+      @include it('xl\:h-10') {
         @include assert {
           @include output {
             @include xl\:h-10;
@@ -3668,7 +3668,7 @@
         }
       }
 
-      @include it("xl\:h-11") {
+      @include it('xl\:h-11') {
         @include assert {
           @include output {
             @include xl\:h-11;
@@ -3683,7 +3683,7 @@
         }
       }
 
-      @include it("xl\:h-12") {
+      @include it('xl\:h-12') {
         @include assert {
           @include output {
             @include xl\:h-12;
@@ -3698,7 +3698,7 @@
         }
       }
 
-      @include it("xl\:h-14") {
+      @include it('xl\:h-14') {
         @include assert {
           @include output {
             @include xl\:h-14;
@@ -3713,7 +3713,7 @@
         }
       }
 
-      @include it("xl\:h-16") {
+      @include it('xl\:h-16') {
         @include assert {
           @include output {
             @include xl\:h-16;
@@ -3728,7 +3728,7 @@
         }
       }
 
-      @include it("xl\:h-20") {
+      @include it('xl\:h-20') {
         @include assert {
           @include output {
             @include xl\:h-20;
@@ -3743,7 +3743,7 @@
         }
       }
 
-      @include it("xl\:h-24") {
+      @include it('xl\:h-24') {
         @include assert {
           @include output {
             @include xl\:h-24;
@@ -3758,7 +3758,7 @@
         }
       }
 
-      @include it("xl\:h-28") {
+      @include it('xl\:h-28') {
         @include assert {
           @include output {
             @include xl\:h-28;
@@ -3773,7 +3773,7 @@
         }
       }
 
-      @include it("xl\:h-32") {
+      @include it('xl\:h-32') {
         @include assert {
           @include output {
             @include xl\:h-32;
@@ -3788,7 +3788,7 @@
         }
       }
 
-      @include it("xl\:h-36") {
+      @include it('xl\:h-36') {
         @include assert {
           @include output {
             @include xl\:h-36;
@@ -3803,7 +3803,7 @@
         }
       }
 
-      @include it("xl\:h-40") {
+      @include it('xl\:h-40') {
         @include assert {
           @include output {
             @include xl\:h-40;
@@ -3818,7 +3818,7 @@
         }
       }
 
-      @include it("xl\:h-44") {
+      @include it('xl\:h-44') {
         @include assert {
           @include output {
             @include xl\:h-44;
@@ -3833,7 +3833,7 @@
         }
       }
 
-      @include it("xl\:h-48") {
+      @include it('xl\:h-48') {
         @include assert {
           @include output {
             @include xl\:h-48;
@@ -3848,7 +3848,7 @@
         }
       }
 
-      @include it("xl\:h-52") {
+      @include it('xl\:h-52') {
         @include assert {
           @include output {
             @include xl\:h-52;
@@ -3863,7 +3863,7 @@
         }
       }
 
-      @include it("xl\:h-56") {
+      @include it('xl\:h-56') {
         @include assert {
           @include output {
             @include xl\:h-56;
@@ -3878,7 +3878,7 @@
         }
       }
 
-      @include it("xl\:h-60") {
+      @include it('xl\:h-60') {
         @include assert {
           @include output {
             @include xl\:h-60;
@@ -3893,7 +3893,7 @@
         }
       }
 
-      @include it("xl\:h-64") {
+      @include it('xl\:h-64') {
         @include assert {
           @include output {
             @include xl\:h-64;
@@ -3908,7 +3908,7 @@
         }
       }
 
-      @include it("xl\:h-72") {
+      @include it('xl\:h-72') {
         @include assert {
           @include output {
             @include xl\:h-72;
@@ -3923,7 +3923,7 @@
         }
       }
 
-      @include it("xl\:h-80") {
+      @include it('xl\:h-80') {
         @include assert {
           @include output {
             @include xl\:h-80;
@@ -3938,7 +3938,7 @@
         }
       }
 
-      @include it("xl\:h-96") {
+      @include it('xl\:h-96') {
         @include assert {
           @include output {
             @include xl\:h-96;
@@ -3953,7 +3953,7 @@
         }
       }
 
-      @include it("xl\:h-auto") {
+      @include it('xl\:h-auto') {
         @include assert {
           @include output {
             @include xl\:h-auto;
@@ -3968,7 +3968,7 @@
         }
       }
 
-      @include it("xl\:h-1\/2") {
+      @include it('xl\:h-1\/2') {
         @include assert {
           @include output {
             @include xl\:h-1\/2;
@@ -3983,7 +3983,7 @@
         }
       }
 
-      @include it("xl\:h-1\/3") {
+      @include it('xl\:h-1\/3') {
         @include assert {
           @include output {
             @include xl\:h-1\/3;
@@ -3998,7 +3998,7 @@
         }
       }
 
-      @include it("xl\:h-2\/3") {
+      @include it('xl\:h-2\/3') {
         @include assert {
           @include output {
             @include xl\:h-2\/3;
@@ -4013,7 +4013,7 @@
         }
       }
 
-      @include it("xl\:h-1\/4") {
+      @include it('xl\:h-1\/4') {
         @include assert {
           @include output {
             @include xl\:h-1\/4;
@@ -4028,7 +4028,7 @@
         }
       }
 
-      @include it("xl\:h-2\/4") {
+      @include it('xl\:h-2\/4') {
         @include assert {
           @include output {
             @include xl\:h-2\/4;
@@ -4043,7 +4043,7 @@
         }
       }
 
-      @include it("xl\:h-3\/4") {
+      @include it('xl\:h-3\/4') {
         @include assert {
           @include output {
             @include xl\:h-3\/4;
@@ -4058,7 +4058,7 @@
         }
       }
 
-      @include it("xl\:h-1\/5") {
+      @include it('xl\:h-1\/5') {
         @include assert {
           @include output {
             @include xl\:h-1\/5;
@@ -4073,7 +4073,7 @@
         }
       }
 
-      @include it("xl\:h-2\/5") {
+      @include it('xl\:h-2\/5') {
         @include assert {
           @include output {
             @include xl\:h-2\/5;
@@ -4088,7 +4088,7 @@
         }
       }
 
-      @include it("xl\:h-3\/5") {
+      @include it('xl\:h-3\/5') {
         @include assert {
           @include output {
             @include xl\:h-3\/5;
@@ -4103,7 +4103,7 @@
         }
       }
 
-      @include it("xl\:h-4\/5") {
+      @include it('xl\:h-4\/5') {
         @include assert {
           @include output {
             @include xl\:h-4\/5;
@@ -4118,7 +4118,7 @@
         }
       }
 
-      @include it("xl\:h-1\/6") {
+      @include it('xl\:h-1\/6') {
         @include assert {
           @include output {
             @include xl\:h-1\/6;
@@ -4133,7 +4133,7 @@
         }
       }
 
-      @include it("xl\:h-2\/6") {
+      @include it('xl\:h-2\/6') {
         @include assert {
           @include output {
             @include xl\:h-2\/6;
@@ -4148,7 +4148,7 @@
         }
       }
 
-      @include it("xl\:h-3\/6") {
+      @include it('xl\:h-3\/6') {
         @include assert {
           @include output {
             @include xl\:h-3\/6;
@@ -4163,7 +4163,7 @@
         }
       }
 
-      @include it("xl\:h-4\/6") {
+      @include it('xl\:h-4\/6') {
         @include assert {
           @include output {
             @include xl\:h-4\/6;
@@ -4178,7 +4178,7 @@
         }
       }
 
-      @include it("xl\:h-5\/6") {
+      @include it('xl\:h-5\/6') {
         @include assert {
           @include output {
             @include xl\:h-5\/6;
@@ -4193,7 +4193,7 @@
         }
       }
 
-      @include it("xl\:h-full") {
+      @include it('xl\:h-full') {
         @include assert {
           @include output {
             @include xl\:h-full;
@@ -4208,7 +4208,7 @@
         }
       }
 
-      @include it("xl\:h-screen") {
+      @include it('xl\:h-screen') {
         @include assert {
           @include output {
             @include xl\:h-screen;
@@ -4223,7 +4223,7 @@
         }
       }
 
-      @include it("xl\:h-svh") {
+      @include it('xl\:h-svh') {
         @include assert {
           @include output {
             @include xl\:h-svh;
@@ -4238,7 +4238,7 @@
         }
       }
 
-      @include it("xl\:h-lvh") {
+      @include it('xl\:h-lvh') {
         @include assert {
           @include output {
             @include xl\:h-lvh;
@@ -4253,7 +4253,7 @@
         }
       }
 
-      @include it("xl\:h-dvh") {
+      @include it('xl\:h-dvh') {
         @include assert {
           @include output {
             @include xl\:h-dvh;
@@ -4268,7 +4268,7 @@
         }
       }
 
-      @include it("xl\:h-min") {
+      @include it('xl\:h-min') {
         @include assert {
           @include output {
             @include xl\:h-min;
@@ -4283,7 +4283,7 @@
         }
       }
 
-      @include it("xl\:h-max") {
+      @include it('xl\:h-max') {
         @include assert {
           @include output {
             @include xl\:h-max;
@@ -4298,7 +4298,7 @@
         }
       }
 
-      @include it("xl\:h-fit") {
+      @include it('xl\:h-fit') {
         @include assert {
           @include output {
             @include xl\:h-fit;
@@ -4313,7 +4313,7 @@
         }
       }
 
-      @include it("2xl\:h-0") {
+      @include it('2xl\:h-0') {
         @include assert {
           @include output {
             @include \2xl\:h-0;
@@ -4328,7 +4328,7 @@
         }
       }
 
-      @include it("2xl\:h-px") {
+      @include it('2xl\:h-px') {
         @include assert {
           @include output {
             @include \2xl\:h-px;
@@ -4343,7 +4343,7 @@
         }
       }
 
-      @include it("2xl\:h-0\.5") {
+      @include it('2xl\:h-0\.5') {
         @include assert {
           @include output {
             @include \2xl\:h-0\.5;
@@ -4358,7 +4358,7 @@
         }
       }
 
-      @include it("2xl\:h-1") {
+      @include it('2xl\:h-1') {
         @include assert {
           @include output {
             @include \2xl\:h-1;
@@ -4373,7 +4373,7 @@
         }
       }
 
-      @include it("2xl\:h-1\.5") {
+      @include it('2xl\:h-1\.5') {
         @include assert {
           @include output {
             @include \2xl\:h-1\.5;
@@ -4388,7 +4388,7 @@
         }
       }
 
-      @include it("2xl\:h-2") {
+      @include it('2xl\:h-2') {
         @include assert {
           @include output {
             @include \2xl\:h-2;
@@ -4403,7 +4403,7 @@
         }
       }
 
-      @include it("2xl\:h-2\.5") {
+      @include it('2xl\:h-2\.5') {
         @include assert {
           @include output {
             @include \2xl\:h-2\.5;
@@ -4418,7 +4418,7 @@
         }
       }
 
-      @include it("2xl\:h-3") {
+      @include it('2xl\:h-3') {
         @include assert {
           @include output {
             @include \2xl\:h-3;
@@ -4433,7 +4433,7 @@
         }
       }
 
-      @include it("2xl\:h-3\.5") {
+      @include it('2xl\:h-3\.5') {
         @include assert {
           @include output {
             @include \2xl\:h-3\.5;
@@ -4448,7 +4448,7 @@
         }
       }
 
-      @include it("2xl\:h-4") {
+      @include it('2xl\:h-4') {
         @include assert {
           @include output {
             @include \2xl\:h-4;
@@ -4463,7 +4463,7 @@
         }
       }
 
-      @include it("2xl\:h-5") {
+      @include it('2xl\:h-5') {
         @include assert {
           @include output {
             @include \2xl\:h-5;
@@ -4478,7 +4478,7 @@
         }
       }
 
-      @include it("2xl\:h-6") {
+      @include it('2xl\:h-6') {
         @include assert {
           @include output {
             @include \2xl\:h-6;
@@ -4493,7 +4493,7 @@
         }
       }
 
-      @include it("2xl\:h-7") {
+      @include it('2xl\:h-7') {
         @include assert {
           @include output {
             @include \2xl\:h-7;
@@ -4508,7 +4508,7 @@
         }
       }
 
-      @include it("2xl\:h-8") {
+      @include it('2xl\:h-8') {
         @include assert {
           @include output {
             @include \2xl\:h-8;
@@ -4523,7 +4523,7 @@
         }
       }
 
-      @include it("2xl\:h-9") {
+      @include it('2xl\:h-9') {
         @include assert {
           @include output {
             @include \2xl\:h-9;
@@ -4538,7 +4538,7 @@
         }
       }
 
-      @include it("2xl\:h-10") {
+      @include it('2xl\:h-10') {
         @include assert {
           @include output {
             @include \2xl\:h-10;
@@ -4553,7 +4553,7 @@
         }
       }
 
-      @include it("2xl\:h-11") {
+      @include it('2xl\:h-11') {
         @include assert {
           @include output {
             @include \2xl\:h-11;
@@ -4568,7 +4568,7 @@
         }
       }
 
-      @include it("2xl\:h-12") {
+      @include it('2xl\:h-12') {
         @include assert {
           @include output {
             @include \2xl\:h-12;
@@ -4583,7 +4583,7 @@
         }
       }
 
-      @include it("2xl\:h-14") {
+      @include it('2xl\:h-14') {
         @include assert {
           @include output {
             @include \2xl\:h-14;
@@ -4598,7 +4598,7 @@
         }
       }
 
-      @include it("2xl\:h-16") {
+      @include it('2xl\:h-16') {
         @include assert {
           @include output {
             @include \2xl\:h-16;
@@ -4613,7 +4613,7 @@
         }
       }
 
-      @include it("2xl\:h-20") {
+      @include it('2xl\:h-20') {
         @include assert {
           @include output {
             @include \2xl\:h-20;
@@ -4628,7 +4628,7 @@
         }
       }
 
-      @include it("2xl\:h-24") {
+      @include it('2xl\:h-24') {
         @include assert {
           @include output {
             @include \2xl\:h-24;
@@ -4643,7 +4643,7 @@
         }
       }
 
-      @include it("2xl\:h-28") {
+      @include it('2xl\:h-28') {
         @include assert {
           @include output {
             @include \2xl\:h-28;
@@ -4658,7 +4658,7 @@
         }
       }
 
-      @include it("2xl\:h-32") {
+      @include it('2xl\:h-32') {
         @include assert {
           @include output {
             @include \2xl\:h-32;
@@ -4673,7 +4673,7 @@
         }
       }
 
-      @include it("2xl\:h-36") {
+      @include it('2xl\:h-36') {
         @include assert {
           @include output {
             @include \2xl\:h-36;
@@ -4688,7 +4688,7 @@
         }
       }
 
-      @include it("2xl\:h-40") {
+      @include it('2xl\:h-40') {
         @include assert {
           @include output {
             @include \2xl\:h-40;
@@ -4703,7 +4703,7 @@
         }
       }
 
-      @include it("2xl\:h-44") {
+      @include it('2xl\:h-44') {
         @include assert {
           @include output {
             @include \2xl\:h-44;
@@ -4718,7 +4718,7 @@
         }
       }
 
-      @include it("2xl\:h-48") {
+      @include it('2xl\:h-48') {
         @include assert {
           @include output {
             @include \2xl\:h-48;
@@ -4733,7 +4733,7 @@
         }
       }
 
-      @include it("2xl\:h-52") {
+      @include it('2xl\:h-52') {
         @include assert {
           @include output {
             @include \2xl\:h-52;
@@ -4748,7 +4748,7 @@
         }
       }
 
-      @include it("2xl\:h-56") {
+      @include it('2xl\:h-56') {
         @include assert {
           @include output {
             @include \2xl\:h-56;
@@ -4763,7 +4763,7 @@
         }
       }
 
-      @include it("2xl\:h-60") {
+      @include it('2xl\:h-60') {
         @include assert {
           @include output {
             @include \2xl\:h-60;
@@ -4778,7 +4778,7 @@
         }
       }
 
-      @include it("2xl\:h-64") {
+      @include it('2xl\:h-64') {
         @include assert {
           @include output {
             @include \2xl\:h-64;
@@ -4793,7 +4793,7 @@
         }
       }
 
-      @include it("2xl\:h-72") {
+      @include it('2xl\:h-72') {
         @include assert {
           @include output {
             @include \2xl\:h-72;
@@ -4808,7 +4808,7 @@
         }
       }
 
-      @include it("2xl\:h-80") {
+      @include it('2xl\:h-80') {
         @include assert {
           @include output {
             @include \2xl\:h-80;
@@ -4823,7 +4823,7 @@
         }
       }
 
-      @include it("2xl\:h-96") {
+      @include it('2xl\:h-96') {
         @include assert {
           @include output {
             @include \2xl\:h-96;
@@ -4838,7 +4838,7 @@
         }
       }
 
-      @include it("2xl\:h-auto") {
+      @include it('2xl\:h-auto') {
         @include assert {
           @include output {
             @include \2xl\:h-auto;
@@ -4853,7 +4853,7 @@
         }
       }
 
-      @include it("2xl\:h-1\/2") {
+      @include it('2xl\:h-1\/2') {
         @include assert {
           @include output {
             @include \2xl\:h-1\/2;
@@ -4868,7 +4868,7 @@
         }
       }
 
-      @include it("2xl\:h-1\/3") {
+      @include it('2xl\:h-1\/3') {
         @include assert {
           @include output {
             @include \2xl\:h-1\/3;
@@ -4883,7 +4883,7 @@
         }
       }
 
-      @include it("2xl\:h-2\/3") {
+      @include it('2xl\:h-2\/3') {
         @include assert {
           @include output {
             @include \2xl\:h-2\/3;
@@ -4898,7 +4898,7 @@
         }
       }
 
-      @include it("2xl\:h-1\/4") {
+      @include it('2xl\:h-1\/4') {
         @include assert {
           @include output {
             @include \2xl\:h-1\/4;
@@ -4913,7 +4913,7 @@
         }
       }
 
-      @include it("2xl\:h-2\/4") {
+      @include it('2xl\:h-2\/4') {
         @include assert {
           @include output {
             @include \2xl\:h-2\/4;
@@ -4928,7 +4928,7 @@
         }
       }
 
-      @include it("2xl\:h-3\/4") {
+      @include it('2xl\:h-3\/4') {
         @include assert {
           @include output {
             @include \2xl\:h-3\/4;
@@ -4943,7 +4943,7 @@
         }
       }
 
-      @include it("2xl\:h-1\/5") {
+      @include it('2xl\:h-1\/5') {
         @include assert {
           @include output {
             @include \2xl\:h-1\/5;
@@ -4958,7 +4958,7 @@
         }
       }
 
-      @include it("2xl\:h-2\/5") {
+      @include it('2xl\:h-2\/5') {
         @include assert {
           @include output {
             @include \2xl\:h-2\/5;
@@ -4973,7 +4973,7 @@
         }
       }
 
-      @include it("2xl\:h-3\/5") {
+      @include it('2xl\:h-3\/5') {
         @include assert {
           @include output {
             @include \2xl\:h-3\/5;
@@ -4988,7 +4988,7 @@
         }
       }
 
-      @include it("2xl\:h-4\/5") {
+      @include it('2xl\:h-4\/5') {
         @include assert {
           @include output {
             @include \2xl\:h-4\/5;
@@ -5003,7 +5003,7 @@
         }
       }
 
-      @include it("2xl\:h-1\/6") {
+      @include it('2xl\:h-1\/6') {
         @include assert {
           @include output {
             @include \2xl\:h-1\/6;
@@ -5018,7 +5018,7 @@
         }
       }
 
-      @include it("2xl\:h-2\/6") {
+      @include it('2xl\:h-2\/6') {
         @include assert {
           @include output {
             @include \2xl\:h-2\/6;
@@ -5033,7 +5033,7 @@
         }
       }
 
-      @include it("2xl\:h-3\/6") {
+      @include it('2xl\:h-3\/6') {
         @include assert {
           @include output {
             @include \2xl\:h-3\/6;
@@ -5048,7 +5048,7 @@
         }
       }
 
-      @include it("2xl\:h-4\/6") {
+      @include it('2xl\:h-4\/6') {
         @include assert {
           @include output {
             @include \2xl\:h-4\/6;
@@ -5063,7 +5063,7 @@
         }
       }
 
-      @include it("2xl\:h-5\/6") {
+      @include it('2xl\:h-5\/6') {
         @include assert {
           @include output {
             @include \2xl\:h-5\/6;
@@ -5078,7 +5078,7 @@
         }
       }
 
-      @include it("2xl\:h-full") {
+      @include it('2xl\:h-full') {
         @include assert {
           @include output {
             @include \2xl\:h-full;
@@ -5093,7 +5093,7 @@
         }
       }
 
-      @include it("2xl\:h-screen") {
+      @include it('2xl\:h-screen') {
         @include assert {
           @include output {
             @include \2xl\:h-screen;
@@ -5108,7 +5108,7 @@
         }
       }
 
-      @include it("2xl\:h-svh") {
+      @include it('2xl\:h-svh') {
         @include assert {
           @include output {
             @include \2xl\:h-svh;
@@ -5123,7 +5123,7 @@
         }
       }
 
-      @include it("2xl\:h-lvh") {
+      @include it('2xl\:h-lvh') {
         @include assert {
           @include output {
             @include \2xl\:h-lvh;
@@ -5138,7 +5138,7 @@
         }
       }
 
-      @include it("2xl\:h-dvh") {
+      @include it('2xl\:h-dvh') {
         @include assert {
           @include output {
             @include \2xl\:h-dvh;
@@ -5153,7 +5153,7 @@
         }
       }
 
-      @include it("2xl\:h-min") {
+      @include it('2xl\:h-min') {
         @include assert {
           @include output {
             @include \2xl\:h-min;
@@ -5168,7 +5168,7 @@
         }
       }
 
-      @include it("2xl\:h-max") {
+      @include it('2xl\:h-max') {
         @include assert {
           @include output {
             @include \2xl\:h-max;
@@ -5183,7 +5183,7 @@
         }
       }
 
-      @include it("2xl\:h-fit") {
+      @include it('2xl\:h-fit') {
         @include assert {
           @include output {
             @include \2xl\:h-fit;
@@ -5199,8 +5199,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("h-(32rem)") {
+    @include describe('Custom') {
+      @include it('h-(32rem)') {
         @include assert {
           @include output {
             @include h-(32rem);
@@ -5213,7 +5213,7 @@
         }
       }
 
-      @include it("sm\:h-(32rem)") {
+      @include it('sm\:h-(32rem)') {
         @include assert {
           @include output {
             @include sm\:h-(32rem);
@@ -5228,7 +5228,7 @@
         }
       }
 
-      @include it("md\:h-(32rem)") {
+      @include it('md\:h-(32rem)') {
         @include assert {
           @include output {
             @include md\:h-(32rem);
@@ -5243,7 +5243,7 @@
         }
       }
 
-      @include it("lg\:h-(32rem)") {
+      @include it('lg\:h-(32rem)') {
         @include assert {
           @include output {
             @include lg\:h-(32rem);
@@ -5258,7 +5258,7 @@
         }
       }
 
-      @include it("xl\:h-(32rem)") {
+      @include it('xl\:h-(32rem)') {
         @include assert {
           @include output {
             @include xl\:h-(32rem);
@@ -5273,7 +5273,7 @@
         }
       }
 
-      @include it("2xl\:h-(32rem)") {
+      @include it('2xl\:h-(32rem)') {
         @include assert {
           @include output {
             @include \2xl\:h-(32rem);

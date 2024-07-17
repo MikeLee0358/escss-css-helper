@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("13.Interactivity") {
-  @include describe("Resize") {
-    @include describe("Basic") {
-      @include it("resize-none") {
+@include describe('13.Interactivity') {
+  @include describe('Resize') {
+    @include describe('Basic') {
+      @include it('resize-none') {
         @include assert {
           @include output {
             @include resize-none;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("resize-y") {
+      @include it('resize-y') {
         @include assert {
           @include output {
             @include resize-y;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("resize-x") {
+      @include it('resize-x') {
         @include assert {
           @include output {
             @include resize-x;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("resize") {
+      @include it('resize') {
         @include assert {
           @include output {
             @include resize;
@@ -57,8 +57,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:resize-none") {
+    @include describe('Rwd') {
+      @include it('sm\:resize-none') {
         @include assert {
           @include output {
             @include sm\:resize-none;
@@ -73,7 +73,7 @@
         }
       }
 
-      @include it("sm\:resize-y") {
+      @include it('sm\:resize-y') {
         @include assert {
           @include output {
             @include sm\:resize-y;
@@ -88,7 +88,7 @@
         }
       }
 
-      @include it("sm\:resize-x") {
+      @include it('sm\:resize-x') {
         @include assert {
           @include output {
             @include sm\:resize-x;
@@ -103,7 +103,7 @@
         }
       }
 
-      @include it("sm\:resize") {
+      @include it('sm\:resize') {
         @include assert {
           @include output {
             @include sm\:resize;
@@ -118,7 +118,7 @@
         }
       }
 
-      @include it("md\:resize-none") {
+      @include it('md\:resize-none') {
         @include assert {
           @include output {
             @include md\:resize-none;
@@ -133,7 +133,7 @@
         }
       }
 
-      @include it("md\:resize-y") {
+      @include it('md\:resize-y') {
         @include assert {
           @include output {
             @include md\:resize-y;
@@ -148,7 +148,7 @@
         }
       }
 
-      @include it("md\:resize-x") {
+      @include it('md\:resize-x') {
         @include assert {
           @include output {
             @include md\:resize-x;
@@ -163,7 +163,7 @@
         }
       }
 
-      @include it("md\:resize") {
+      @include it('md\:resize') {
         @include assert {
           @include output {
             @include md\:resize;
@@ -178,7 +178,7 @@
         }
       }
 
-      @include it("lg\:resize-none") {
+      @include it('lg\:resize-none') {
         @include assert {
           @include output {
             @include lg\:resize-none;
@@ -193,7 +193,7 @@
         }
       }
 
-      @include it("lg\:resize-y") {
+      @include it('lg\:resize-y') {
         @include assert {
           @include output {
             @include lg\:resize-y;
@@ -208,7 +208,7 @@
         }
       }
 
-      @include it("lg\:resize-x") {
+      @include it('lg\:resize-x') {
         @include assert {
           @include output {
             @include lg\:resize-x;
@@ -223,7 +223,7 @@
         }
       }
 
-      @include it("lg\:resize") {
+      @include it('lg\:resize') {
         @include assert {
           @include output {
             @include lg\:resize;
@@ -238,7 +238,7 @@
         }
       }
 
-      @include it("xl\:resize-none") {
+      @include it('xl\:resize-none') {
         @include assert {
           @include output {
             @include xl\:resize-none;
@@ -253,7 +253,7 @@
         }
       }
 
-      @include it("xl\:resize-y") {
+      @include it('xl\:resize-y') {
         @include assert {
           @include output {
             @include xl\:resize-y;
@@ -268,7 +268,7 @@
         }
       }
 
-      @include it("xl\:resize-x") {
+      @include it('xl\:resize-x') {
         @include assert {
           @include output {
             @include xl\:resize-x;
@@ -283,7 +283,7 @@
         }
       }
 
-      @include it("xl\:resize") {
+      @include it('xl\:resize') {
         @include assert {
           @include output {
             @include xl\:resize;
@@ -298,7 +298,7 @@
         }
       }
 
-      @include it("2xl\:resize-none") {
+      @include it('2xl\:resize-none') {
         @include assert {
           @include output {
             @include \2xl\:resize-none;
@@ -313,7 +313,7 @@
         }
       }
 
-      @include it("2xl\:resize-y") {
+      @include it('2xl\:resize-y') {
         @include assert {
           @include output {
             @include \2xl\:resize-y;
@@ -328,7 +328,7 @@
         }
       }
 
-      @include it("2xl\:resize-x") {
+      @include it('2xl\:resize-x') {
         @include assert {
           @include output {
             @include \2xl\:resize-x;
@@ -343,7 +343,7 @@
         }
       }
 
-      @include it("2xl\:resize") {
+      @include it('2xl\:resize') {
         @include assert {
           @include output {
             @include \2xl\:resize;

@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("5.Typography") {
-  @include describe("Text Decoration") {
-    @include describe("Basic") {
-      @include it("underline") {
+@include describe('5.Typography') {
+  @include describe('Text Decoration') {
+    @include describe('Basic') {
+      @include it('underline') {
         @include assert {
           @include output {
             @include underline;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("overline") {
+      @include it('overline') {
         @include assert {
           @include output {
             @include overline;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("line-through") {
+      @include it('line-through') {
         @include assert {
           @include output {
             @include line-through;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("no-underline") {
+      @include it('no-underline') {
         @include assert {
           @include output {
             @include no-underline;
@@ -56,8 +56,8 @@
         }
       }
     }
-    @include describe("Rwd") {
-      @include it("sm\:underline") {
+    @include describe('Rwd') {
+      @include it('sm\:underline') {
         @include assert {
           @include output {
             @include sm\:underline;
@@ -72,7 +72,7 @@
         }
       }
 
-      @include it("sm\:overline") {
+      @include it('sm\:overline') {
         @include assert {
           @include output {
             @include sm\:overline;
@@ -87,7 +87,7 @@
         }
       }
 
-      @include it("sm\:line-through") {
+      @include it('sm\:line-through') {
         @include assert {
           @include output {
             @include sm\:line-through;
@@ -102,7 +102,7 @@
         }
       }
 
-      @include it("sm\:no-underline") {
+      @include it('sm\:no-underline') {
         @include assert {
           @include output {
             @include sm\:no-underline;
@@ -117,7 +117,7 @@
         }
       }
 
-      @include it("md\:underline") {
+      @include it('md\:underline') {
         @include assert {
           @include output {
             @include md\:underline;
@@ -132,7 +132,7 @@
         }
       }
 
-      @include it("md\:overline") {
+      @include it('md\:overline') {
         @include assert {
           @include output {
             @include md\:overline;
@@ -147,7 +147,7 @@
         }
       }
 
-      @include it("md\:line-through") {
+      @include it('md\:line-through') {
         @include assert {
           @include output {
             @include md\:line-through;
@@ -162,7 +162,7 @@
         }
       }
 
-      @include it("md\:no-underline") {
+      @include it('md\:no-underline') {
         @include assert {
           @include output {
             @include md\:no-underline;
@@ -177,7 +177,7 @@
         }
       }
 
-      @include it("lg\:underline") {
+      @include it('lg\:underline') {
         @include assert {
           @include output {
             @include lg\:underline;
@@ -192,7 +192,7 @@
         }
       }
 
-      @include it("lg\:overline") {
+      @include it('lg\:overline') {
         @include assert {
           @include output {
             @include lg\:overline;
@@ -207,7 +207,7 @@
         }
       }
 
-      @include it("lg\:line-through") {
+      @include it('lg\:line-through') {
         @include assert {
           @include output {
             @include lg\:line-through;
@@ -222,7 +222,7 @@
         }
       }
 
-      @include it("lg\:no-underline") {
+      @include it('lg\:no-underline') {
         @include assert {
           @include output {
             @include lg\:no-underline;
@@ -237,7 +237,7 @@
         }
       }
 
-      @include it("xl\:underline") {
+      @include it('xl\:underline') {
         @include assert {
           @include output {
             @include xl\:underline;
@@ -252,7 +252,7 @@
         }
       }
 
-      @include it("xl\:overline") {
+      @include it('xl\:overline') {
         @include assert {
           @include output {
             @include xl\:overline;
@@ -267,7 +267,7 @@
         }
       }
 
-      @include it("xl\:line-through") {
+      @include it('xl\:line-through') {
         @include assert {
           @include output {
             @include xl\:line-through;
@@ -282,7 +282,7 @@
         }
       }
 
-      @include it("xl\:no-underline") {
+      @include it('xl\:no-underline') {
         @include assert {
           @include output {
             @include xl\:no-underline;
@@ -297,7 +297,7 @@
         }
       }
 
-      @include it("2xl\:underline") {
+      @include it('2xl\:underline') {
         @include assert {
           @include output {
             @include \2xl\:underline;
@@ -312,7 +312,7 @@
         }
       }
 
-      @include it("2xl\:overline") {
+      @include it('2xl\:overline') {
         @include assert {
           @include output {
             @include \2xl\:overline;
@@ -327,7 +327,7 @@
         }
       }
 
-      @include it("2xl\:line-through") {
+      @include it('2xl\:line-through') {
         @include assert {
           @include output {
             @include \2xl\:line-through;
@@ -342,7 +342,7 @@
         }
       }
 
-      @include it("2xl\:no-underline") {
+      @include it('2xl\:no-underline') {
         @include assert {
           @include output {
             @include \2xl\:no-underline;

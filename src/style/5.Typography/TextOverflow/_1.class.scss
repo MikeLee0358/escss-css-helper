@@ -1,24 +1,24 @@
-@use "../../setting" as *;
-@use "sass:list";
+@use '../../setting' as *;
+@use 'sass:list';
 
 // 1st: overflow
 // 2nd: text-overflow
 // 3rd: white-space
 $TextOverflow: (
-  "truncate": (
+  'truncate': (
     hidden,
     ellipsis,
     nowrap,
   ),
-  "text-ellipsis": (
-    "null",
+  'text-ellipsis': (
+    'null',
     ellipsis,
-    "null",
+    'null',
   ),
-  "text-clip": (
-    "null",
+  'text-clip': (
+    'null',
     clip,
-    "null",
+    'null',
   ),
 );
 

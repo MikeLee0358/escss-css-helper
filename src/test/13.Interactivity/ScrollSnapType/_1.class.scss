@@ -1,13 +1,13 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("13.Interactivity") {
-  @include describe("Scroll Snap Type") {
-    @include describe("Basic") {
+@include describe('13.Interactivity') {
+  @include describe('Scroll Snap Type') {
+    @include describe('Basic') {
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:snap-none") {
+    @include describe('Rwd') {
+      @include it('sm\:snap-none') {
         @include assert {
           @include output {
             @include sm\:snap-none;
@@ -22,7 +22,7 @@
         }
       }
 
-      @include it("sm\:snap-x") {
+      @include it('sm\:snap-x') {
         @include assert {
           @include output {
             @include sm\:snap-x;
@@ -37,7 +37,7 @@
         }
       }
 
-      @include it("sm\:snap-y") {
+      @include it('sm\:snap-y') {
         @include assert {
           @include output {
             @include sm\:snap-y;
@@ -52,7 +52,7 @@
         }
       }
 
-      @include it("sm\:snap-both") {
+      @include it('sm\:snap-both') {
         @include assert {
           @include output {
             @include sm\:snap-both;
@@ -67,7 +67,7 @@
         }
       }
 
-      @include it("sm\:snap-mandatory") {
+      @include it('sm\:snap-mandatory') {
         @include assert {
           @include output {
             @include sm\:snap-mandatory;
@@ -83,7 +83,7 @@
         }
       }
 
-      @include it("sm\:snap-proximity") {
+      @include it('sm\:snap-proximity') {
         @include assert {
           @include output {
             @include sm\:snap-proximity;
@@ -99,7 +99,7 @@
         }
       }
 
-      @include it("md\:snap-none") {
+      @include it('md\:snap-none') {
         @include assert {
           @include output {
             @include md\:snap-none;
@@ -114,7 +114,7 @@
         }
       }
 
-      @include it("md\:snap-x") {
+      @include it('md\:snap-x') {
         @include assert {
           @include output {
             @include md\:snap-x;
@@ -129,7 +129,7 @@
         }
       }
 
-      @include it("md\:snap-y") {
+      @include it('md\:snap-y') {
         @include assert {
           @include output {
             @include md\:snap-y;
@@ -144,7 +144,7 @@
         }
       }
 
-      @include it("md\:snap-both") {
+      @include it('md\:snap-both') {
         @include assert {
           @include output {
             @include md\:snap-both;
@@ -159,7 +159,7 @@
         }
       }
 
-      @include it("md\:snap-mandatory") {
+      @include it('md\:snap-mandatory') {
         @include assert {
           @include output {
             @include md\:snap-mandatory;
@@ -175,7 +175,7 @@
         }
       }
 
-      @include it("md\:snap-proximity") {
+      @include it('md\:snap-proximity') {
         @include assert {
           @include output {
             @include md\:snap-proximity;
@@ -191,7 +191,7 @@
         }
       }
 
-      @include it("lg\:snap-none") {
+      @include it('lg\:snap-none') {
         @include assert {
           @include output {
             @include lg\:snap-none;
@@ -206,7 +206,7 @@
         }
       }
 
-      @include it("lg\:snap-x") {
+      @include it('lg\:snap-x') {
         @include assert {
           @include output {
             @include lg\:snap-x;
@@ -221,7 +221,7 @@
         }
       }
 
-      @include it("lg\:snap-y") {
+      @include it('lg\:snap-y') {
         @include assert {
           @include output {
             @include lg\:snap-y;
@@ -236,7 +236,7 @@
         }
       }
 
-      @include it("lg\:snap-both") {
+      @include it('lg\:snap-both') {
         @include assert {
           @include output {
             @include lg\:snap-both;
@@ -251,7 +251,7 @@
         }
       }
 
-      @include it("lg\:snap-mandatory") {
+      @include it('lg\:snap-mandatory') {
         @include assert {
           @include output {
             @include lg\:snap-mandatory;
@@ -267,7 +267,7 @@
         }
       }
 
-      @include it("lg\:snap-proximity") {
+      @include it('lg\:snap-proximity') {
         @include assert {
           @include output {
             @include lg\:snap-proximity;
@@ -283,7 +283,7 @@
         }
       }
 
-      @include it("xl\:snap-none") {
+      @include it('xl\:snap-none') {
         @include assert {
           @include output {
             @include xl\:snap-none;
@@ -298,7 +298,7 @@
         }
       }
 
-      @include it("xl\:snap-x") {
+      @include it('xl\:snap-x') {
         @include assert {
           @include output {
             @include xl\:snap-x;
@@ -313,7 +313,7 @@
         }
       }
 
-      @include it("xl\:snap-y") {
+      @include it('xl\:snap-y') {
         @include assert {
           @include output {
             @include xl\:snap-y;
@@ -328,7 +328,7 @@
         }
       }
 
-      @include it("xl\:snap-both") {
+      @include it('xl\:snap-both') {
         @include assert {
           @include output {
             @include xl\:snap-both;
@@ -343,7 +343,7 @@
         }
       }
 
-      @include it("xl\:snap-mandatory") {
+      @include it('xl\:snap-mandatory') {
         @include assert {
           @include output {
             @include xl\:snap-mandatory;
@@ -359,7 +359,7 @@
         }
       }
 
-      @include it("xl\:snap-proximity") {
+      @include it('xl\:snap-proximity') {
         @include assert {
           @include output {
             @include xl\:snap-proximity;
@@ -375,7 +375,7 @@
         }
       }
 
-      @include it("2xl\:snap-none") {
+      @include it('2xl\:snap-none') {
         @include assert {
           @include output {
             @include \2xl\:snap-none;
@@ -390,7 +390,7 @@
         }
       }
 
-      @include it("2xl\:snap-x") {
+      @include it('2xl\:snap-x') {
         @include assert {
           @include output {
             @include \2xl\:snap-x;
@@ -405,7 +405,7 @@
         }
       }
 
-      @include it("2xl\:snap-y") {
+      @include it('2xl\:snap-y') {
         @include assert {
           @include output {
             @include \2xl\:snap-y;
@@ -420,7 +420,7 @@
         }
       }
 
-      @include it("2xl\:snap-both") {
+      @include it('2xl\:snap-both') {
         @include assert {
           @include output {
             @include \2xl\:snap-both;
@@ -435,7 +435,7 @@
         }
       }
 
-      @include it("2xl\:snap-mandatory") {
+      @include it('2xl\:snap-mandatory') {
         @include assert {
           @include output {
             @include \2xl\:snap-mandatory;
@@ -451,7 +451,7 @@
         }
       }
 
-      @include it("2xl\:snap-proximity") {
+      @include it('2xl\:snap-proximity') {
         @include assert {
           @include output {
             @include \2xl\:snap-proximity;

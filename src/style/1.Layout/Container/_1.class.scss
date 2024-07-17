@@ -1,14 +1,14 @@
-@use "../../setting" as *;
-@use "sass:list";
+@use '../../setting' as *;
+@use 'sass:list';
 
 $Container: (
-  "container": (
-    "100%",
-    "$sm",
-    "$md",
-    "$lg",
-    "$xl",
-    "$\\2xl",
+  'container': (
+    '100%',
+    '$sm',
+    '$md',
+    '$lg',
+    '$xl',
+    '$\\2xl',
   ),
 );
 

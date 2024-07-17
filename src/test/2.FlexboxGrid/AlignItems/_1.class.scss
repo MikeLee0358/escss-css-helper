@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("2.Flexbox & Grid") {
-  @include describe("Align Items") {
-    @include describe("Basic") {
-      @include it("items-start") {
+@include describe('2.Flexbox & Grid') {
+  @include describe('Align Items') {
+    @include describe('Basic') {
+      @include it('items-start') {
         @include assert {
           @include output {
             @include items-start;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("items-end") {
+      @include it('items-end') {
         @include assert {
           @include output {
             @include items-end;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("items-center") {
+      @include it('items-center') {
         @include assert {
           @include output {
             @include items-center;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("items-baseline") {
+      @include it('items-baseline') {
         @include assert {
           @include output {
             @include items-baseline;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("items-stretch") {
+      @include it('items-stretch') {
         @include assert {
           @include output {
             @include items-stretch;
@@ -70,8 +70,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:items-start") {
+    @include describe('Rwd') {
+      @include it('sm\:items-start') {
         @include assert {
           @include output {
             @include sm\:items-start;
@@ -86,7 +86,7 @@
         }
       }
 
-      @include it("sm\:items-end") {
+      @include it('sm\:items-end') {
         @include assert {
           @include output {
             @include sm\:items-end;
@@ -101,7 +101,7 @@
         }
       }
 
-      @include it("sm\:items-center") {
+      @include it('sm\:items-center') {
         @include assert {
           @include output {
             @include sm\:items-center;
@@ -116,7 +116,7 @@
         }
       }
 
-      @include it("sm\:items-baseline") {
+      @include it('sm\:items-baseline') {
         @include assert {
           @include output {
             @include sm\:items-baseline;
@@ -131,7 +131,7 @@
         }
       }
 
-      @include it("sm\:items-stretch") {
+      @include it('sm\:items-stretch') {
         @include assert {
           @include output {
             @include sm\:items-stretch;
@@ -146,7 +146,7 @@
         }
       }
 
-      @include it("md\:items-start") {
+      @include it('md\:items-start') {
         @include assert {
           @include output {
             @include md\:items-start;
@@ -161,7 +161,7 @@
         }
       }
 
-      @include it("md\:items-end") {
+      @include it('md\:items-end') {
         @include assert {
           @include output {
             @include md\:items-end;
@@ -176,7 +176,7 @@
         }
       }
 
-      @include it("md\:items-center") {
+      @include it('md\:items-center') {
         @include assert {
           @include output {
             @include md\:items-center;
@@ -191,7 +191,7 @@
         }
       }
 
-      @include it("md\:items-baseline") {
+      @include it('md\:items-baseline') {
         @include assert {
           @include output {
             @include md\:items-baseline;
@@ -206,7 +206,7 @@
         }
       }
 
-      @include it("md\:items-stretch") {
+      @include it('md\:items-stretch') {
         @include assert {
           @include output {
             @include md\:items-stretch;
@@ -221,7 +221,7 @@
         }
       }
 
-      @include it("lg\:items-start") {
+      @include it('lg\:items-start') {
         @include assert {
           @include output {
             @include lg\:items-start;
@@ -236,7 +236,7 @@
         }
       }
 
-      @include it("lg\:items-end") {
+      @include it('lg\:items-end') {
         @include assert {
           @include output {
             @include lg\:items-end;
@@ -251,7 +251,7 @@
         }
       }
 
-      @include it("lg\:items-center") {
+      @include it('lg\:items-center') {
         @include assert {
           @include output {
             @include lg\:items-center;
@@ -266,7 +266,7 @@
         }
       }
 
-      @include it("lg\:items-baseline") {
+      @include it('lg\:items-baseline') {
         @include assert {
           @include output {
             @include lg\:items-baseline;
@@ -281,7 +281,7 @@
         }
       }
 
-      @include it("lg\:items-stretch") {
+      @include it('lg\:items-stretch') {
         @include assert {
           @include output {
             @include lg\:items-stretch;
@@ -296,7 +296,7 @@
         }
       }
 
-      @include it("xl\:items-start") {
+      @include it('xl\:items-start') {
         @include assert {
           @include output {
             @include xl\:items-start;
@@ -311,7 +311,7 @@
         }
       }
 
-      @include it("xl\:items-end") {
+      @include it('xl\:items-end') {
         @include assert {
           @include output {
             @include xl\:items-end;
@@ -326,7 +326,7 @@
         }
       }
 
-      @include it("xl\:items-center") {
+      @include it('xl\:items-center') {
         @include assert {
           @include output {
             @include xl\:items-center;
@@ -341,7 +341,7 @@
         }
       }
 
-      @include it("xl\:items-baseline") {
+      @include it('xl\:items-baseline') {
         @include assert {
           @include output {
             @include xl\:items-baseline;
@@ -356,7 +356,7 @@
         }
       }
 
-      @include it("xl\:items-stretch") {
+      @include it('xl\:items-stretch') {
         @include assert {
           @include output {
             @include xl\:items-stretch;
@@ -371,7 +371,7 @@
         }
       }
 
-      @include it("2xl\:items-start") {
+      @include it('2xl\:items-start') {
         @include assert {
           @include output {
             @include \2xl\:items-start;
@@ -386,7 +386,7 @@
         }
       }
 
-      @include it("2xl\:items-end") {
+      @include it('2xl\:items-end') {
         @include assert {
           @include output {
             @include \2xl\:items-end;
@@ -401,7 +401,7 @@
         }
       }
 
-      @include it("2xl\:items-center") {
+      @include it('2xl\:items-center') {
         @include assert {
           @include output {
             @include \2xl\:items-center;
@@ -416,7 +416,7 @@
         }
       }
 
-      @include it("2xl\:items-baseline") {
+      @include it('2xl\:items-baseline') {
         @include assert {
           @include output {
             @include \2xl\:items-baseline;
@@ -431,7 +431,7 @@
         }
       }
 
-      @include it("2xl\:items-stretch") {
+      @include it('2xl\:items-stretch') {
         @include assert {
           @include output {
             @include \2xl\:items-stretch;

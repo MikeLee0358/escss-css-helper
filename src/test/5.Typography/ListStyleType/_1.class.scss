@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("5.Typography") {
-  @include describe("List Style Type") {
-    @include describe("Basic") {
-      @include it("list-none") {
+@include describe('5.Typography') {
+  @include describe('List Style Type') {
+    @include describe('Basic') {
+      @include it('list-none') {
         @include assert {
           @include output {
             @include list-none;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("list-disc") {
+      @include it('list-disc') {
         @include assert {
           @include output {
             @include list-disc;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("list-decimal") {
+      @include it('list-decimal') {
         @include assert {
           @include output {
             @include list-decimal;
@@ -44,8 +44,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:list-none") {
+    @include describe('Rwd') {
+      @include it('sm\:list-none') {
         @include assert {
           @include output {
             @include sm\:list-none;
@@ -60,7 +60,7 @@
         }
       }
 
-      @include it("sm\:list-disc") {
+      @include it('sm\:list-disc') {
         @include assert {
           @include output {
             @include sm\:list-disc;
@@ -75,7 +75,7 @@
         }
       }
 
-      @include it("sm\:list-decimal") {
+      @include it('sm\:list-decimal') {
         @include assert {
           @include output {
             @include sm\:list-decimal;
@@ -90,7 +90,7 @@
         }
       }
 
-      @include it("md\:list-none") {
+      @include it('md\:list-none') {
         @include assert {
           @include output {
             @include md\:list-none;
@@ -105,7 +105,7 @@
         }
       }
 
-      @include it("md\:list-disc") {
+      @include it('md\:list-disc') {
         @include assert {
           @include output {
             @include md\:list-disc;
@@ -120,7 +120,7 @@
         }
       }
 
-      @include it("md\:list-decimal") {
+      @include it('md\:list-decimal') {
         @include assert {
           @include output {
             @include md\:list-decimal;
@@ -135,7 +135,7 @@
         }
       }
 
-      @include it("lg\:list-none") {
+      @include it('lg\:list-none') {
         @include assert {
           @include output {
             @include lg\:list-none;
@@ -150,7 +150,7 @@
         }
       }
 
-      @include it("lg\:list-disc") {
+      @include it('lg\:list-disc') {
         @include assert {
           @include output {
             @include lg\:list-disc;
@@ -165,7 +165,7 @@
         }
       }
 
-      @include it("lg\:list-decimal") {
+      @include it('lg\:list-decimal') {
         @include assert {
           @include output {
             @include lg\:list-decimal;
@@ -180,7 +180,7 @@
         }
       }
 
-      @include it("xl\:list-none") {
+      @include it('xl\:list-none') {
         @include assert {
           @include output {
             @include xl\:list-none;
@@ -195,7 +195,7 @@
         }
       }
 
-      @include it("xl\:list-disc") {
+      @include it('xl\:list-disc') {
         @include assert {
           @include output {
             @include xl\:list-disc;
@@ -210,7 +210,7 @@
         }
       }
 
-      @include it("xl\:list-decimal") {
+      @include it('xl\:list-decimal') {
         @include assert {
           @include output {
             @include xl\:list-decimal;
@@ -225,7 +225,7 @@
         }
       }
 
-      @include it("2xl\:list-none") {
+      @include it('2xl\:list-none') {
         @include assert {
           @include output {
             @include \2xl\:list-none;
@@ -240,7 +240,7 @@
         }
       }
 
-      @include it("2xl\:list-disc") {
+      @include it('2xl\:list-disc') {
         @include assert {
           @include output {
             @include \2xl\:list-disc;
@@ -255,7 +255,7 @@
         }
       }
 
-      @include it("2xl\:list-decimal") {
+      @include it('2xl\:list-decimal') {
         @include assert {
           @include output {
             @include \2xl\:list-decimal;
@@ -271,8 +271,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("list-(upper-roman)") {
+    @include describe('Custom') {
+      @include it('list-(upper-roman)') {
         @include assert {
           @include output {
             @include list-(upper-roman);
@@ -285,7 +285,7 @@
         }
       }
 
-      @include it("sm\:list-(upper-roman)") {
+      @include it('sm\:list-(upper-roman)') {
         @include assert {
           @include output {
             @include sm\:list-(upper-roman);
@@ -300,7 +300,7 @@
         }
       }
 
-      @include it("md\:list-(upper-roman)") {
+      @include it('md\:list-(upper-roman)') {
         @include assert {
           @include output {
             @include md\:list-(upper-roman);
@@ -315,7 +315,7 @@
         }
       }
 
-      @include it("lg\:list-(upper-roman)") {
+      @include it('lg\:list-(upper-roman)') {
         @include assert {
           @include output {
             @include lg\:list-(upper-roman);
@@ -330,7 +330,7 @@
         }
       }
 
-      @include it("xl\:list-(upper-roman)") {
+      @include it('xl\:list-(upper-roman)') {
         @include assert {
           @include output {
             @include xl\:list-(upper-roman);
@@ -345,7 +345,7 @@
         }
       }
 
-      @include it("2xl\:list-(upper-roman)") {
+      @include it('2xl\:list-(upper-roman)') {
         @include assert {
           @include output {
             @include \2xl\:list-(upper-roman);

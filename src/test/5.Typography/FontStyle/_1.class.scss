@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("5.Typography") {
-  @include describe("Font Style") {
-    @include describe("Basic") {
-      @include it("italic") {
+@include describe('5.Typography') {
+  @include describe('Font Style') {
+    @include describe('Basic') {
+      @include it('italic') {
         @include assert {
           @include output {
             @include italic;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("not-italic") {
+      @include it('not-italic') {
         @include assert {
           @include output {
             @include not-italic;
@@ -31,8 +31,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:italic") {
+    @include describe('Rwd') {
+      @include it('sm\:italic') {
         @include assert {
           @include output {
             @include sm\:italic;
@@ -47,7 +47,7 @@
         }
       }
 
-      @include it("sm\:not-italic") {
+      @include it('sm\:not-italic') {
         @include assert {
           @include output {
             @include sm\:not-italic;
@@ -62,7 +62,7 @@
         }
       }
 
-      @include it("md\:italic") {
+      @include it('md\:italic') {
         @include assert {
           @include output {
             @include md\:italic;
@@ -77,7 +77,7 @@
         }
       }
 
-      @include it("md\:not-italic") {
+      @include it('md\:not-italic') {
         @include assert {
           @include output {
             @include md\:not-italic;
@@ -92,7 +92,7 @@
         }
       }
 
-      @include it("lg\:italic") {
+      @include it('lg\:italic') {
         @include assert {
           @include output {
             @include lg\:italic;
@@ -107,7 +107,7 @@
         }
       }
 
-      @include it("lg\:not-italic") {
+      @include it('lg\:not-italic') {
         @include assert {
           @include output {
             @include lg\:not-italic;
@@ -122,7 +122,7 @@
         }
       }
 
-      @include it("xl\:italic") {
+      @include it('xl\:italic') {
         @include assert {
           @include output {
             @include xl\:italic;
@@ -137,7 +137,7 @@
         }
       }
 
-      @include it("xl\:not-italic") {
+      @include it('xl\:not-italic') {
         @include assert {
           @include output {
             @include xl\:not-italic;
@@ -152,7 +152,7 @@
         }
       }
 
-      @include it("2xl\:italic") {
+      @include it('2xl\:italic') {
         @include assert {
           @include output {
             @include \2xl\:italic;
@@ -167,7 +167,7 @@
         }
       }
 
-      @include it("2xl\:not-italic") {
+      @include it('2xl\:not-italic') {
         @include assert {
           @include output {
             @include \2xl\:not-italic;

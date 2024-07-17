@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("13.Interactivity") {
-  @include describe("Scroll Snap Stop") {
-    @include describe("Basic") {
-      @include it("snap-normal") {
+@include describe('13.Interactivity') {
+  @include describe('Scroll Snap Stop') {
+    @include describe('Basic') {
+      @include it('snap-normal') {
         @include assert {
           @include output {
             @include snap-normal;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("snap-always") {
+      @include it('snap-always') {
         @include assert {
           @include output {
             @include snap-always;
@@ -31,8 +31,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:snap-normal") {
+    @include describe('Rwd') {
+      @include it('sm\:snap-normal') {
         @include assert {
           @include output {
             @include sm\:snap-normal;
@@ -47,7 +47,7 @@
         }
       }
 
-      @include it("sm\:snap-always") {
+      @include it('sm\:snap-always') {
         @include assert {
           @include output {
             @include sm\:snap-always;
@@ -62,7 +62,7 @@
         }
       }
 
-      @include it("md\:snap-normal") {
+      @include it('md\:snap-normal') {
         @include assert {
           @include output {
             @include md\:snap-normal;
@@ -77,7 +77,7 @@
         }
       }
 
-      @include it("md\:snap-always") {
+      @include it('md\:snap-always') {
         @include assert {
           @include output {
             @include md\:snap-always;
@@ -92,7 +92,7 @@
         }
       }
 
-      @include it("lg\:snap-normal") {
+      @include it('lg\:snap-normal') {
         @include assert {
           @include output {
             @include lg\:snap-normal;
@@ -107,7 +107,7 @@
         }
       }
 
-      @include it("lg\:snap-always") {
+      @include it('lg\:snap-always') {
         @include assert {
           @include output {
             @include lg\:snap-always;
@@ -122,7 +122,7 @@
         }
       }
 
-      @include it("xl\:snap-normal") {
+      @include it('xl\:snap-normal') {
         @include assert {
           @include output {
             @include xl\:snap-normal;
@@ -137,7 +137,7 @@
         }
       }
 
-      @include it("xl\:snap-always") {
+      @include it('xl\:snap-always') {
         @include assert {
           @include output {
             @include xl\:snap-always;
@@ -152,7 +152,7 @@
         }
       }
 
-      @include it("2xl\:snap-normal") {
+      @include it('2xl\:snap-normal') {
         @include assert {
           @include output {
             @include \2xl\:snap-normal;
@@ -167,7 +167,7 @@
         }
       }
 
-      @include it("2xl\:snap-always") {
+      @include it('2xl\:snap-always') {
         @include assert {
           @include output {
             @include \2xl\:snap-always;

@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("5.Typography") {
-  @include describe("Font Family") {
-    @include describe("Basic") {
-      @include it("font-sans") {
+@include describe('5.Typography') {
+  @include describe('Font Family') {
+    @include describe('Basic') {
+      @include it('font-sans') {
         @include assert {
           @include output {
             @include font-sans;
@@ -13,13 +13,13 @@
 
           @include expect {
             font-family: ui-sans-serif, system-ui, sans-serif,
-              "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-              "Noto Color Emoji";
+              'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+              'Noto Color Emoji';
           }
         }
       }
 
-      @include it("font-serif") {
+      @include it('font-serif') {
         @include assert {
           @include output {
             @include font-serif;
@@ -27,13 +27,13 @@
           }
 
           @include expect {
-            font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times,
+            font-family: ui-serif, Georgia, Cambria, 'Times New Roman', Times,
               serif;
           }
         }
       }
 
-      @include it("font-mono") {
+      @include it('font-mono') {
         @include assert {
           @include output {
             @include font-mono;
@@ -42,14 +42,14 @@
 
           @include expect {
             font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-              "Liberation Mono", "Courier New", monospace;
+              'Liberation Mono', 'Courier New', monospace;
           }
         }
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:font-sans") {
+    @include describe('Rwd') {
+      @include it('sm\:font-sans') {
         @include assert {
           @include output {
             @include sm\:font-sans;
@@ -59,14 +59,14 @@
           @include expect {
             @media (min-width: $sm) {
               font-family: ui-sans-serif, system-ui, sans-serif,
-                "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-                "Noto Color Emoji";
+                'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+                'Noto Color Emoji';
             }
           }
         }
       }
 
-      @include it("sm\:font-serif") {
+      @include it('sm\:font-serif') {
         @include assert {
           @include output {
             @include sm\:font-serif;
@@ -75,14 +75,14 @@
 
           @include expect {
             @media (min-width: $sm) {
-              font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times,
+              font-family: ui-serif, Georgia, Cambria, 'Times New Roman', Times,
                 serif;
             }
           }
         }
       }
 
-      @include it("sm\:font-mono") {
+      @include it('sm\:font-mono') {
         @include assert {
           @include output {
             @include sm\:font-mono;
@@ -92,13 +92,13 @@
           @include expect {
             @media (min-width: $sm) {
               font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-                "Liberation Mono", "Courier New", monospace;
+                'Liberation Mono', 'Courier New', monospace;
             }
           }
         }
       }
 
-      @include it("md\:font-sans") {
+      @include it('md\:font-sans') {
         @include assert {
           @include output {
             @include md\:font-sans;
@@ -108,14 +108,14 @@
           @include expect {
             @media (min-width: $md) {
               font-family: ui-sans-serif, system-ui, sans-serif,
-                "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-                "Noto Color Emoji";
+                'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+                'Noto Color Emoji';
             }
           }
         }
       }
 
-      @include it("md\:font-serif") {
+      @include it('md\:font-serif') {
         @include assert {
           @include output {
             @include md\:font-serif;
@@ -124,14 +124,14 @@
 
           @include expect {
             @media (min-width: $md) {
-              font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times,
+              font-family: ui-serif, Georgia, Cambria, 'Times New Roman', Times,
                 serif;
             }
           }
         }
       }
 
-      @include it("md\:font-mono") {
+      @include it('md\:font-mono') {
         @include assert {
           @include output {
             @include md\:font-mono;
@@ -141,13 +141,13 @@
           @include expect {
             @media (min-width: $md) {
               font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-                "Liberation Mono", "Courier New", monospace;
+                'Liberation Mono', 'Courier New', monospace;
             }
           }
         }
       }
 
-      @include it("lg\:font-sans") {
+      @include it('lg\:font-sans') {
         @include assert {
           @include output {
             @include lg\:font-sans;
@@ -157,14 +157,14 @@
           @include expect {
             @media (min-width: $lg) {
               font-family: ui-sans-serif, system-ui, sans-serif,
-                "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-                "Noto Color Emoji";
+                'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+                'Noto Color Emoji';
             }
           }
         }
       }
 
-      @include it("lg\:font-serif") {
+      @include it('lg\:font-serif') {
         @include assert {
           @include output {
             @include lg\:font-serif;
@@ -173,14 +173,14 @@
 
           @include expect {
             @media (min-width: $lg) {
-              font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times,
+              font-family: ui-serif, Georgia, Cambria, 'Times New Roman', Times,
                 serif;
             }
           }
         }
       }
 
-      @include it("lg\:font-mono") {
+      @include it('lg\:font-mono') {
         @include assert {
           @include output {
             @include lg\:font-mono;
@@ -190,13 +190,13 @@
           @include expect {
             @media (min-width: $lg) {
               font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-                "Liberation Mono", "Courier New", monospace;
+                'Liberation Mono', 'Courier New', monospace;
             }
           }
         }
       }
 
-      @include it("xl\:font-sans") {
+      @include it('xl\:font-sans') {
         @include assert {
           @include output {
             @include xl\:font-sans;
@@ -206,14 +206,14 @@
           @include expect {
             @media (min-width: $xl) {
               font-family: ui-sans-serif, system-ui, sans-serif,
-                "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-                "Noto Color Emoji";
+                'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+                'Noto Color Emoji';
             }
           }
         }
       }
 
-      @include it("xl\:font-serif") {
+      @include it('xl\:font-serif') {
         @include assert {
           @include output {
             @include xl\:font-serif;
@@ -222,14 +222,14 @@
 
           @include expect {
             @media (min-width: $xl) {
-              font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times,
+              font-family: ui-serif, Georgia, Cambria, 'Times New Roman', Times,
                 serif;
             }
           }
         }
       }
 
-      @include it("xl\:font-mono") {
+      @include it('xl\:font-mono') {
         @include assert {
           @include output {
             @include xl\:font-mono;
@@ -239,13 +239,13 @@
           @include expect {
             @media (min-width: $xl) {
               font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-                "Liberation Mono", "Courier New", monospace;
+                'Liberation Mono', 'Courier New', monospace;
             }
           }
         }
       }
 
-      @include it("2xl\:font-sans") {
+      @include it('2xl\:font-sans') {
         @include assert {
           @include output {
             @include \2xl\:font-sans;
@@ -255,14 +255,14 @@
           @include expect {
             @media (min-width: $\2xl) {
               font-family: ui-sans-serif, system-ui, sans-serif,
-                "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-                "Noto Color Emoji";
+                'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+                'Noto Color Emoji';
             }
           }
         }
       }
 
-      @include it("2xl\:font-serif") {
+      @include it('2xl\:font-serif') {
         @include assert {
           @include output {
             @include \2xl\:font-serif;
@@ -271,14 +271,14 @@
 
           @include expect {
             @media (min-width: $\2xl) {
-              font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times,
+              font-family: ui-serif, Georgia, Cambria, 'Times New Roman', Times,
                 serif;
             }
           }
         }
       }
 
-      @include it("2xl\:font-mono") {
+      @include it('2xl\:font-mono') {
         @include assert {
           @include output {
             @include \2xl\:font-mono;
@@ -288,23 +288,23 @@
           @include expect {
             @media (min-width: $\2xl) {
               font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-                "Liberation Mono", "Courier New", monospace;
+                'Liberation Mono', 'Courier New', monospace;
             }
           }
         }
       }
     }
 
-    @include describe("Custom") {
+    @include describe('Custom') {
       @include it("font-('Open Sans')") {
         @include assert {
           @include output {
-            @include font-("Open Sans");
+            @include font-('Open Sans');
             @include reset;
           }
 
           @include expect {
-            font-family: "Open Sans";
+            font-family: 'Open Sans';
           }
         }
       }
@@ -312,13 +312,13 @@
       @include it("sm\:font-('Open Sans')") {
         @include assert {
           @include output {
-            @include sm\:font-("Open Sans");
+            @include sm\:font-('Open Sans');
             @include reset;
           }
 
           @include expect {
             @media (min-width: $sm) {
-              font-family: "Open Sans";
+              font-family: 'Open Sans';
             }
           }
         }
@@ -327,13 +327,13 @@
       @include it("md\:font-('Open Sans')") {
         @include assert {
           @include output {
-            @include md\:font-("Open Sans");
+            @include md\:font-('Open Sans');
             @include reset;
           }
 
           @include expect {
             @media (min-width: $md) {
-              font-family: "Open Sans";
+              font-family: 'Open Sans';
             }
           }
         }
@@ -342,13 +342,13 @@
       @include it("lg\:font-('Open Sans')") {
         @include assert {
           @include output {
-            @include lg\:font-("Open Sans");
+            @include lg\:font-('Open Sans');
             @include reset;
           }
 
           @include expect {
             @media (min-width: $lg) {
-              font-family: "Open Sans";
+              font-family: 'Open Sans';
             }
           }
         }
@@ -357,13 +357,13 @@
       @include it("xl\:font-('Open Sans')") {
         @include assert {
           @include output {
-            @include xl\:font-("Open Sans");
+            @include xl\:font-('Open Sans');
             @include reset;
           }
 
           @include expect {
             @media (min-width: $xl) {
-              font-family: "Open Sans";
+              font-family: 'Open Sans';
             }
           }
         }
@@ -372,13 +372,13 @@
       @include it("2xl\:font-('Open Sans')") {
         @include assert {
           @include output {
-            @include \2xl\:font-("Open Sans");
+            @include \2xl\:font-('Open Sans');
             @include reset;
           }
 
           @include expect {
             @media (min-width: $\2xl) {
-              font-family: "Open Sans";
+              font-family: 'Open Sans';
             }
           }
         }

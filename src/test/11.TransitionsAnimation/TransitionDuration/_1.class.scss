@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("11.Transitions & Animation") {
-  @include describe("Transition Duration") {
-    @include describe("Basic") {
-      @include it("duration-0") {
+@include describe('11.Transitions & Animation') {
+  @include describe('Transition Duration') {
+    @include describe('Basic') {
+      @include it('duration-0') {
         @include assert {
           @include output {
             @include duration-0;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("duration-75") {
+      @include it('duration-75') {
         @include assert {
           @include output {
             @include duration-75;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("duration-100") {
+      @include it('duration-100') {
         @include assert {
           @include output {
             @include duration-100;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("duration-150") {
+      @include it('duration-150') {
         @include assert {
           @include output {
             @include duration-150;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("duration-200") {
+      @include it('duration-200') {
         @include assert {
           @include output {
             @include duration-200;
@@ -69,7 +69,7 @@
         }
       }
 
-      @include it("duration-300") {
+      @include it('duration-300') {
         @include assert {
           @include output {
             @include duration-300;
@@ -82,7 +82,7 @@
         }
       }
 
-      @include it("duration-500") {
+      @include it('duration-500') {
         @include assert {
           @include output {
             @include duration-500;
@@ -95,7 +95,7 @@
         }
       }
 
-      @include it("duration-700") {
+      @include it('duration-700') {
         @include assert {
           @include output {
             @include duration-700;
@@ -108,7 +108,7 @@
         }
       }
 
-      @include it("duration-1000") {
+      @include it('duration-1000') {
         @include assert {
           @include output {
             @include duration-1000;
@@ -122,8 +122,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:duration-0") {
+    @include describe('Rwd') {
+      @include it('sm\:duration-0') {
         @include assert {
           @include output {
             @include sm\:duration-0;
@@ -138,7 +138,7 @@
         }
       }
 
-      @include it("sm\:duration-75") {
+      @include it('sm\:duration-75') {
         @include assert {
           @include output {
             @include sm\:duration-75;
@@ -153,7 +153,7 @@
         }
       }
 
-      @include it("sm\:duration-100") {
+      @include it('sm\:duration-100') {
         @include assert {
           @include output {
             @include sm\:duration-100;
@@ -168,7 +168,7 @@
         }
       }
 
-      @include it("sm\:duration-150") {
+      @include it('sm\:duration-150') {
         @include assert {
           @include output {
             @include sm\:duration-150;
@@ -183,7 +183,7 @@
         }
       }
 
-      @include it("sm\:duration-200") {
+      @include it('sm\:duration-200') {
         @include assert {
           @include output {
             @include sm\:duration-200;
@@ -198,7 +198,7 @@
         }
       }
 
-      @include it("sm\:duration-300") {
+      @include it('sm\:duration-300') {
         @include assert {
           @include output {
             @include sm\:duration-300;
@@ -213,7 +213,7 @@
         }
       }
 
-      @include it("sm\:duration-500") {
+      @include it('sm\:duration-500') {
         @include assert {
           @include output {
             @include sm\:duration-500;
@@ -228,7 +228,7 @@
         }
       }
 
-      @include it("sm\:duration-700") {
+      @include it('sm\:duration-700') {
         @include assert {
           @include output {
             @include sm\:duration-700;
@@ -243,7 +243,7 @@
         }
       }
 
-      @include it("sm\:duration-1000") {
+      @include it('sm\:duration-1000') {
         @include assert {
           @include output {
             @include sm\:duration-1000;
@@ -258,7 +258,7 @@
         }
       }
 
-      @include it("md\:duration-0") {
+      @include it('md\:duration-0') {
         @include assert {
           @include output {
             @include md\:duration-0;
@@ -273,7 +273,7 @@
         }
       }
 
-      @include it("md\:duration-75") {
+      @include it('md\:duration-75') {
         @include assert {
           @include output {
             @include md\:duration-75;
@@ -288,7 +288,7 @@
         }
       }
 
-      @include it("md\:duration-100") {
+      @include it('md\:duration-100') {
         @include assert {
           @include output {
             @include md\:duration-100;
@@ -303,7 +303,7 @@
         }
       }
 
-      @include it("md\:duration-150") {
+      @include it('md\:duration-150') {
         @include assert {
           @include output {
             @include md\:duration-150;
@@ -318,7 +318,7 @@
         }
       }
 
-      @include it("md\:duration-200") {
+      @include it('md\:duration-200') {
         @include assert {
           @include output {
             @include md\:duration-200;
@@ -333,7 +333,7 @@
         }
       }
 
-      @include it("md\:duration-300") {
+      @include it('md\:duration-300') {
         @include assert {
           @include output {
             @include md\:duration-300;
@@ -348,7 +348,7 @@
         }
       }
 
-      @include it("md\:duration-500") {
+      @include it('md\:duration-500') {
         @include assert {
           @include output {
             @include md\:duration-500;
@@ -363,7 +363,7 @@
         }
       }
 
-      @include it("md\:duration-700") {
+      @include it('md\:duration-700') {
         @include assert {
           @include output {
             @include md\:duration-700;
@@ -378,7 +378,7 @@
         }
       }
 
-      @include it("md\:duration-1000") {
+      @include it('md\:duration-1000') {
         @include assert {
           @include output {
             @include md\:duration-1000;
@@ -393,7 +393,7 @@
         }
       }
 
-      @include it("lg\:duration-0") {
+      @include it('lg\:duration-0') {
         @include assert {
           @include output {
             @include lg\:duration-0;
@@ -408,7 +408,7 @@
         }
       }
 
-      @include it("lg\:duration-75") {
+      @include it('lg\:duration-75') {
         @include assert {
           @include output {
             @include lg\:duration-75;
@@ -423,7 +423,7 @@
         }
       }
 
-      @include it("lg\:duration-100") {
+      @include it('lg\:duration-100') {
         @include assert {
           @include output {
             @include lg\:duration-100;
@@ -438,7 +438,7 @@
         }
       }
 
-      @include it("lg\:duration-150") {
+      @include it('lg\:duration-150') {
         @include assert {
           @include output {
             @include lg\:duration-150;
@@ -453,7 +453,7 @@
         }
       }
 
-      @include it("lg\:duration-200") {
+      @include it('lg\:duration-200') {
         @include assert {
           @include output {
             @include lg\:duration-200;
@@ -468,7 +468,7 @@
         }
       }
 
-      @include it("lg\:duration-300") {
+      @include it('lg\:duration-300') {
         @include assert {
           @include output {
             @include lg\:duration-300;
@@ -483,7 +483,7 @@
         }
       }
 
-      @include it("lg\:duration-500") {
+      @include it('lg\:duration-500') {
         @include assert {
           @include output {
             @include lg\:duration-500;
@@ -498,7 +498,7 @@
         }
       }
 
-      @include it("lg\:duration-700") {
+      @include it('lg\:duration-700') {
         @include assert {
           @include output {
             @include lg\:duration-700;
@@ -513,7 +513,7 @@
         }
       }
 
-      @include it("lg\:duration-1000") {
+      @include it('lg\:duration-1000') {
         @include assert {
           @include output {
             @include lg\:duration-1000;
@@ -528,7 +528,7 @@
         }
       }
 
-      @include it("xl\:duration-0") {
+      @include it('xl\:duration-0') {
         @include assert {
           @include output {
             @include xl\:duration-0;
@@ -543,7 +543,7 @@
         }
       }
 
-      @include it("xl\:duration-75") {
+      @include it('xl\:duration-75') {
         @include assert {
           @include output {
             @include xl\:duration-75;
@@ -558,7 +558,7 @@
         }
       }
 
-      @include it("xl\:duration-100") {
+      @include it('xl\:duration-100') {
         @include assert {
           @include output {
             @include xl\:duration-100;
@@ -573,7 +573,7 @@
         }
       }
 
-      @include it("xl\:duration-150") {
+      @include it('xl\:duration-150') {
         @include assert {
           @include output {
             @include xl\:duration-150;
@@ -588,7 +588,7 @@
         }
       }
 
-      @include it("xl\:duration-200") {
+      @include it('xl\:duration-200') {
         @include assert {
           @include output {
             @include xl\:duration-200;
@@ -603,7 +603,7 @@
         }
       }
 
-      @include it("xl\:duration-300") {
+      @include it('xl\:duration-300') {
         @include assert {
           @include output {
             @include xl\:duration-300;
@@ -618,7 +618,7 @@
         }
       }
 
-      @include it("xl\:duration-500") {
+      @include it('xl\:duration-500') {
         @include assert {
           @include output {
             @include xl\:duration-500;
@@ -633,7 +633,7 @@
         }
       }
 
-      @include it("xl\:duration-700") {
+      @include it('xl\:duration-700') {
         @include assert {
           @include output {
             @include xl\:duration-700;
@@ -648,7 +648,7 @@
         }
       }
 
-      @include it("xl\:duration-1000") {
+      @include it('xl\:duration-1000') {
         @include assert {
           @include output {
             @include xl\:duration-1000;
@@ -663,7 +663,7 @@
         }
       }
 
-      @include it("2xl\:duration-0") {
+      @include it('2xl\:duration-0') {
         @include assert {
           @include output {
             @include \2xl\:duration-0;
@@ -678,7 +678,7 @@
         }
       }
 
-      @include it("2xl\:duration-75") {
+      @include it('2xl\:duration-75') {
         @include assert {
           @include output {
             @include \2xl\:duration-75;
@@ -693,7 +693,7 @@
         }
       }
 
-      @include it("2xl\:duration-100") {
+      @include it('2xl\:duration-100') {
         @include assert {
           @include output {
             @include \2xl\:duration-100;
@@ -708,7 +708,7 @@
         }
       }
 
-      @include it("2xl\:duration-150") {
+      @include it('2xl\:duration-150') {
         @include assert {
           @include output {
             @include \2xl\:duration-150;
@@ -723,7 +723,7 @@
         }
       }
 
-      @include it("2xl\:duration-200") {
+      @include it('2xl\:duration-200') {
         @include assert {
           @include output {
             @include \2xl\:duration-200;
@@ -738,7 +738,7 @@
         }
       }
 
-      @include it("2xl\:duration-300") {
+      @include it('2xl\:duration-300') {
         @include assert {
           @include output {
             @include \2xl\:duration-300;
@@ -753,7 +753,7 @@
         }
       }
 
-      @include it("2xl\:duration-500") {
+      @include it('2xl\:duration-500') {
         @include assert {
           @include output {
             @include \2xl\:duration-500;
@@ -768,7 +768,7 @@
         }
       }
 
-      @include it("2xl\:duration-700") {
+      @include it('2xl\:duration-700') {
         @include assert {
           @include output {
             @include \2xl\:duration-700;
@@ -783,7 +783,7 @@
         }
       }
 
-      @include it("2xl\:duration-1000") {
+      @include it('2xl\:duration-1000') {
         @include assert {
           @include output {
             @include \2xl\:duration-1000;
@@ -799,8 +799,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("duration-(2000ms)") {
+    @include describe('Custom') {
+      @include it('duration-(2000ms)') {
         @include assert {
           @include output {
             @include duration-(2000ms);
@@ -813,7 +813,7 @@
         }
       }
 
-      @include it("sm\:duration-(2000ms)") {
+      @include it('sm\:duration-(2000ms)') {
         @include assert {
           @include output {
             @include sm\:duration-(2000ms);
@@ -828,7 +828,7 @@
         }
       }
 
-      @include it("md\:duration-(2000ms)") {
+      @include it('md\:duration-(2000ms)') {
         @include assert {
           @include output {
             @include md\:duration-(2000ms);
@@ -843,7 +843,7 @@
         }
       }
 
-      @include it("lg\:duration-(2000ms)") {
+      @include it('lg\:duration-(2000ms)') {
         @include assert {
           @include output {
             @include lg\:duration-(2000ms);
@@ -858,7 +858,7 @@
         }
       }
 
-      @include it("xl\:duration-(2000ms)") {
+      @include it('xl\:duration-(2000ms)') {
         @include assert {
           @include output {
             @include xl\:duration-(2000ms);
@@ -873,7 +873,7 @@
         }
       }
 
-      @include it("2xl\:duration-(2000ms)") {
+      @include it('2xl\:duration-(2000ms)') {
         @include assert {
           @include output {
             @include \2xl\:duration-(2000ms);

@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("7.Borders") {
-  @include describe("Outline Width") {
-    @include describe("Basic") {
-      @include it("outline-0") {
+@include describe('7.Borders') {
+  @include describe('Outline Width') {
+    @include describe('Basic') {
+      @include it('outline-0') {
         @include assert {
           @include output {
             @include outline-0;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("outline-1") {
+      @include it('outline-1') {
         @include assert {
           @include output {
             @include outline-1;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("outline-2") {
+      @include it('outline-2') {
         @include assert {
           @include output {
             @include outline-2;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("outline-4	") {
+      @include it('outline-4	') {
         @include assert {
           @include output {
             @include outline-4;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("outline-8") {
+      @include it('outline-8') {
         @include assert {
           @include output {
             @include outline-8;
@@ -70,8 +70,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:outline-0") {
+    @include describe('Rwd') {
+      @include it('sm\:outline-0') {
         @include assert {
           @include output {
             @include sm\:outline-0;
@@ -86,7 +86,7 @@
         }
       }
 
-      @include it("sm\:outline-1") {
+      @include it('sm\:outline-1') {
         @include assert {
           @include output {
             @include sm\:outline-1;
@@ -101,7 +101,7 @@
         }
       }
 
-      @include it("sm\:outline-2") {
+      @include it('sm\:outline-2') {
         @include assert {
           @include output {
             @include sm\:outline-2;
@@ -116,7 +116,7 @@
         }
       }
 
-      @include it("sm\:outline-4	") {
+      @include it('sm\:outline-4	') {
         @include assert {
           @include output {
             @include sm\:outline-4;
@@ -131,7 +131,7 @@
         }
       }
 
-      @include it("sm\:outline-8") {
+      @include it('sm\:outline-8') {
         @include assert {
           @include output {
             @include sm\:outline-8;
@@ -146,7 +146,7 @@
         }
       }
 
-      @include it("md\:outline-0") {
+      @include it('md\:outline-0') {
         @include assert {
           @include output {
             @include md\:outline-0;
@@ -161,7 +161,7 @@
         }
       }
 
-      @include it("md\:outline-1") {
+      @include it('md\:outline-1') {
         @include assert {
           @include output {
             @include md\:outline-1;
@@ -176,7 +176,7 @@
         }
       }
 
-      @include it("md\:outline-2") {
+      @include it('md\:outline-2') {
         @include assert {
           @include output {
             @include md\:outline-2;
@@ -191,7 +191,7 @@
         }
       }
 
-      @include it("md\:outline-4	") {
+      @include it('md\:outline-4	') {
         @include assert {
           @include output {
             @include md\:outline-4;
@@ -206,7 +206,7 @@
         }
       }
 
-      @include it("md\:outline-8") {
+      @include it('md\:outline-8') {
         @include assert {
           @include output {
             @include md\:outline-8;
@@ -221,7 +221,7 @@
         }
       }
 
-      @include it("lg\:outline-0") {
+      @include it('lg\:outline-0') {
         @include assert {
           @include output {
             @include lg\:outline-0;
@@ -236,7 +236,7 @@
         }
       }
 
-      @include it("lg\:outline-1") {
+      @include it('lg\:outline-1') {
         @include assert {
           @include output {
             @include lg\:outline-1;
@@ -251,7 +251,7 @@
         }
       }
 
-      @include it("lg\:outline-2") {
+      @include it('lg\:outline-2') {
         @include assert {
           @include output {
             @include lg\:outline-2;
@@ -266,7 +266,7 @@
         }
       }
 
-      @include it("lg\:outline-4	") {
+      @include it('lg\:outline-4	') {
         @include assert {
           @include output {
             @include lg\:outline-4;
@@ -281,7 +281,7 @@
         }
       }
 
-      @include it("lg\:outline-8") {
+      @include it('lg\:outline-8') {
         @include assert {
           @include output {
             @include lg\:outline-8;
@@ -296,7 +296,7 @@
         }
       }
 
-      @include it("xl\:outline-0") {
+      @include it('xl\:outline-0') {
         @include assert {
           @include output {
             @include xl\:outline-0;
@@ -311,7 +311,7 @@
         }
       }
 
-      @include it("xl\:outline-1") {
+      @include it('xl\:outline-1') {
         @include assert {
           @include output {
             @include xl\:outline-1;
@@ -326,7 +326,7 @@
         }
       }
 
-      @include it("xl\:outline-2") {
+      @include it('xl\:outline-2') {
         @include assert {
           @include output {
             @include xl\:outline-2;
@@ -341,7 +341,7 @@
         }
       }
 
-      @include it("xl\:outline-4	") {
+      @include it('xl\:outline-4	') {
         @include assert {
           @include output {
             @include xl\:outline-4;
@@ -356,7 +356,7 @@
         }
       }
 
-      @include it("xl\:outline-8") {
+      @include it('xl\:outline-8') {
         @include assert {
           @include output {
             @include xl\:outline-8;
@@ -371,7 +371,7 @@
         }
       }
 
-      @include it("2xl\:outline-0") {
+      @include it('2xl\:outline-0') {
         @include assert {
           @include output {
             @include \2xl\:outline-0;
@@ -386,7 +386,7 @@
         }
       }
 
-      @include it("2xl\:outline-1") {
+      @include it('2xl\:outline-1') {
         @include assert {
           @include output {
             @include \2xl\:outline-1;
@@ -401,7 +401,7 @@
         }
       }
 
-      @include it("2xl\:outline-2") {
+      @include it('2xl\:outline-2') {
         @include assert {
           @include output {
             @include \2xl\:outline-2;
@@ -416,7 +416,7 @@
         }
       }
 
-      @include it("2xl\:outline-4	") {
+      @include it('2xl\:outline-4	') {
         @include assert {
           @include output {
             @include \2xl\:outline-4;
@@ -431,7 +431,7 @@
         }
       }
 
-      @include it("2xl\:outline-8") {
+      @include it('2xl\:outline-8') {
         @include assert {
           @include output {
             @include \2xl\:outline-8;
@@ -447,8 +447,8 @@
       }
     }
 
-    @include describe("Custom") {
-      @include it("sm\:outline-(5px)") {
+    @include describe('Custom') {
+      @include it('sm\:outline-(5px)') {
         @include assert {
           @include output {
             @include sm\:outline-(5px);
@@ -463,7 +463,7 @@
         }
       }
 
-      @include it("md\:outline-(5px)") {
+      @include it('md\:outline-(5px)') {
         @include assert {
           @include output {
             @include md\:outline-(5px);
@@ -478,7 +478,7 @@
         }
       }
 
-      @include it("lg\:outline-(5px)") {
+      @include it('lg\:outline-(5px)') {
         @include assert {
           @include output {
             @include lg\:outline-(5px);
@@ -493,7 +493,7 @@
         }
       }
 
-      @include it("xl\:outline-(5px)") {
+      @include it('xl\:outline-(5px)') {
         @include assert {
           @include output {
             @include xl\:outline-(5px);
@@ -508,7 +508,7 @@
         }
       }
 
-      @include it("2xl\:outline-(5px)") {
+      @include it('2xl\:outline-(5px)') {
         @include assert {
           @include output {
             @include \2xl\:outline-(5px);

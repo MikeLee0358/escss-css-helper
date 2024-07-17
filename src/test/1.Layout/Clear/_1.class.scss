@@ -1,10 +1,10 @@
-@use "../../mode0" as *;
-@use "true" as *;
+@use '../../mode0' as *;
+@use 'true' as *;
 
-@include describe("1.Layout") {
-  @include describe("Clear") {
-    @include describe("Basic") {
-      @include it("clear-start") {
+@include describe('1.Layout') {
+  @include describe('Clear') {
+    @include describe('Basic') {
+      @include it('clear-start') {
         @include assert {
           @include output {
             @include clear-start;
@@ -17,7 +17,7 @@
         }
       }
 
-      @include it("clear-end") {
+      @include it('clear-end') {
         @include assert {
           @include output {
             @include clear-end;
@@ -30,7 +30,7 @@
         }
       }
 
-      @include it("clear-left") {
+      @include it('clear-left') {
         @include assert {
           @include output {
             @include clear-left;
@@ -43,7 +43,7 @@
         }
       }
 
-      @include it("clear-right") {
+      @include it('clear-right') {
         @include assert {
           @include output {
             @include clear-right;
@@ -56,7 +56,7 @@
         }
       }
 
-      @include it("clear-both") {
+      @include it('clear-both') {
         @include assert {
           @include output {
             @include clear-both;
@@ -69,7 +69,7 @@
         }
       }
 
-      @include it("clear-none") {
+      @include it('clear-none') {
         @include assert {
           @include output {
             @include clear-none;
@@ -83,8 +83,8 @@
       }
     }
 
-    @include describe("Rwd") {
-      @include it("sm\:clear-start") {
+    @include describe('Rwd') {
+      @include it('sm\:clear-start') {
         @include assert {
           @include output {
             @include sm\:clear-start;
@@ -99,7 +99,7 @@
         }
       }
 
-      @include it("sm\:clear-end") {
+      @include it('sm\:clear-end') {
         @include assert {
           @include output {
             @include sm\:clear-end;
@@ -114,7 +114,7 @@
         }
       }
 
-      @include it("sm\:clear-left") {
+      @include it('sm\:clear-left') {
         @include assert {
           @include output {
             @include sm\:clear-left;
@@ -129,7 +129,7 @@
         }
       }
 
-      @include it("sm\:clear-right") {
+      @include it('sm\:clear-right') {
         @include assert {
           @include output {
             @include sm\:clear-right;
@@ -144,7 +144,7 @@
         }
       }
 
-      @include it("sm\:clear-both") {
+      @include it('sm\:clear-both') {
         @include assert {
           @include output {
             @include sm\:clear-both;
@@ -159,7 +159,7 @@
         }
       }
 
-      @include it("sm\:clear-none") {
+      @include it('sm\:clear-none') {
         @include assert {
           @include output {
             @include sm\:clear-none;
@@ -174,7 +174,7 @@
         }
       }
 
-      @include it("md\:clear-start") {
+      @include it('md\:clear-start') {
         @include assert {
           @include output {
             @include md\:clear-start;
@@ -189,7 +189,7 @@
         }
       }
 
-      @include it("md\:clear-end") {
+      @include it('md\:clear-end') {
         @include assert {
           @include output {
             @include md\:clear-end;
@@ -204,7 +204,7 @@
         }
       }
 
-      @include it("md\:clear-left") {
+      @include it('md\:clear-left') {
         @include assert {
           @include output {
             @include md\:clear-left;
@@ -219,7 +219,7 @@
         }
       }
 
-      @include it("md\:clear-right") {
+      @include it('md\:clear-right') {
         @include assert {
           @include output {
             @include md\:clear-right;
@@ -234,7 +234,7 @@
         }
       }
 
-      @include it("md\:clear-both") {
+      @include it('md\:clear-both') {
         @include assert {
           @include output {
             @include md\:clear-both;
@@ -249,7 +249,7 @@
         }
       }
 
-      @include it("md\:clear-none") {
+      @include it('md\:clear-none') {
         @include assert {
           @include output {
             @include md\:clear-none;
@@ -264,7 +264,7 @@
         }
       }
 
-      @include it("lg\:clear-start") {
+      @include it('lg\:clear-start') {
         @include assert {
           @include output {
             @include lg\:clear-start;
@@ -279,7 +279,7 @@
         }
       }
 
-      @include it("lg\:clear-end") {
+      @include it('lg\:clear-end') {
         @include assert {
           @include output {
             @include lg\:clear-end;
@@ -294,7 +294,7 @@
         }
       }
 
-      @include it("lg\:clear-left") {
+      @include it('lg\:clear-left') {
         @include assert {
           @include output {
             @include lg\:clear-left;
@@ -309,7 +309,7 @@
         }
       }
 
-      @include it("lg\:clear-right") {
+      @include it('lg\:clear-right') {
         @include assert {
           @include output {
             @include lg\:clear-right;
@@ -324,7 +324,7 @@
         }
       }
 
-      @include it("lg\:clear-both") {
+      @include it('lg\:clear-both') {
         @include assert {
           @include output {
             @include lg\:clear-both;
@@ -339,7 +339,7 @@
         }
       }
 
-      @include it("lg\:clear-none") {
+      @include it('lg\:clear-none') {
         @include assert {
           @include output {
             @include lg\:clear-none;
@@ -354,7 +354,7 @@
         }
       }
 
-      @include it("xl\:clear-start") {
+      @include it('xl\:clear-start') {
         @include assert {
           @include output {
             @include xl\:clear-start;
@@ -369,7 +369,7 @@
         }
       }
 
-      @include it("xl\:clear-end") {
+      @include it('xl\:clear-end') {
         @include assert {
           @include output {
             @include xl\:clear-end;
@@ -384,7 +384,7 @@
         }
       }
 
-      @include it("xl\:clear-left") {
+      @include it('xl\:clear-left') {
         @include assert {
           @include output {
             @include xl\:clear-left;
@@ -399,7 +399,7 @@
         }
       }
 
-      @include it("xl\:clear-right") {
+      @include it('xl\:clear-right') {
         @include assert {
           @include output {
             @include xl\:clear-right;
@@ -414,7 +414,7 @@
         }
       }
 
-      @include it("xl\:clear-both") {
+      @include it('xl\:clear-both') {
         @include assert {
           @include output {
             @include xl\:clear-both;
@@ -429,7 +429,7 @@
         }
       }
 
-      @include it("xl\:clear-none") {
+      @include it('xl\:clear-none') {
         @include assert {
           @include output {
             @include xl\:clear-none;
@@ -444,7 +444,7 @@
         }
       }
 
-      @include it("2xl\:clear-start") {
+      @include it('2xl\:clear-start') {
         @include assert {
           @include output {
             @include \2xl\:clear-start;
@@ -459,7 +459,7 @@
         }
       }
 
-      @include it("2xl\:clear-end") {
+      @include it('2xl\:clear-end') {
         @include assert {
           @include output {
             @include \2xl\:clear-end;
@@ -474,7 +474,7 @@
         }
       }
 
-      @include it("2xl\:clear-left") {
+      @include it('2xl\:clear-left') {
         @include assert {
           @include output {
             @include \2xl\:clear-left;
@@ -489,7 +489,7 @@
         }
       }
 
-      @include it("2xl\:clear-right") {
+      @include it('2xl\:clear-right') {
         @include assert {
           @include output {
             @include \2xl\:clear-right;
@@ -504,7 +504,7 @@
         }
       }
 
-      @include it("2xl\:clear-both") {
+      @include it('2xl\:clear-both') {
         @include assert {
           @include output {
             @include \2xl\:clear-both;
@@ -519,7 +519,7 @@
         }
       }
 
-      @include it("2xl\:clear-none") {
+      @include it('2xl\:clear-none') {
         @include assert {
           @include output {
             @include \2xl\:clear-none;
