@@ -1,5 +1,9 @@
 @use '../../setting' as *;
 
+$group-from: true;
+$group-via: true;
+$group-to: true;
+
 $GradientColorStops: (
   'transparent': transparent,
   'black': '$black',
@@ -274,160 +278,32 @@ $GradientColorStops2: (
 
 
 @if $isBasic {
+  @if $group-from {
 
-  /*x
-  @mixin from-inherit {
+    /*x
+    @mixin from-inherit {
     @include background-image(inherit !important);
   }
 
-  @mixin from-current {
-    $tw-gradient-from: currentColor !global;
-    @include background-image(get_linear-gradient());
-  }
-
-  @mixin via-inherit {
-    @include background-image(inherit !important);
-  }
-
-  @mixin via-current {
-    $tw-gradient-via: currentColor !global;
-    @include background-image(get_linear-gradient());
-  }
-
-  @mixin to-inherit {
-    @include background-image(inherit !important);
-  }
-
-  @mixin to-current {
-    $tw-gradient-to: currentColor !global;
-    @include background-image(get_linear-gradient());
-  }
-  x*/
-  @each $key, $value in $GradientColorStops {
-
-    /*x
-    @mixin from-#{$key} {
-      $tw-gradient-from: #{$value} !global;
-      @include background-image(get_linear-gradient());
-    }
-
-    @mixin via-#{$key} {
-      $tw-gradient-via: #{$value} !global;
-      @include background-image(get_linear-gradient());
-    }
-
-    @mixin to-#{$key} {
-      $tw-gradient-to: #{$value} !global;
-      @include background-image(get_linear-gradient());
-    }
-    x*/
-    @if $isVanilla {
-      @each $opacityKey, $opacityValue in $opacityColor {
-        /*x
-        @mixin from-#{$key}\/#{$opacityKey} {
-          $tw-gradient-from: c(#{$value}, #{$opacityValue}) !global;
-          @include background-image(get_linear-gradient());
-        }
-
-        @mixin via-#{$key}\/#{$opacityKey} {
-          $tw-gradient-via: c(#{$value}, #{$opacityValue}) !global;
-          @include background-image(get_linear-gradient());
-        }
-
-        @mixin to-#{$key}\/#{$opacityKey} {
-          $tw-gradient-to: c(#{$value}, #{$opacityValue}) !global;
-          @include background-image(get_linear-gradient());
-        }
-        x*/
-      }
-    }
-  }
-
-  @each $key, $value in $GradientColorStops2 {
-    /*x
-    @mixin from-#{$key} {
-      $tw-gradient-from-position: #{$value} !global;
-      @include background-image(get_linear-gradient());
-    }
-
-    @mixin via-#{$key} {
-      $tw-gradient-via-position: #{$value} !global;
-      @include background-image(get_linear-gradient());
-    }
-
-    @mixin to-#{$key} {
-      $tw-gradient-to-position: #{$value} !global;
-      @include background-image(get_linear-gradient());
-    }
-    x*/
-  }
-}
-
-@if $isRwd {
-  @each $rwd in $rwdBox {
-
-    /*x
-    @mixin #{$rwd}\:from-inherit {
-      @include background-image(inherit !important, $#{$rwd});
-    }
-
-    @mixin #{$rwd}\:from-current {
+    @mixin from-current {
       $tw-gradient-from: currentColor !global;
-      @include background-image(get_linear-gradient(), $#{$rwd});
-    }
-
-    @mixin #{$rwd}\:via-inherit {
-      @include background-image(inherit !important, $#{$rwd});
-    }
-
-    @mixin #{$rwd}\:via-current {
-      $tw-gradient-via: currentColor !global;
-      @include background-image(get_linear-gradient(), $#{$rwd});
-    }
-
-    @mixin #{$rwd}\:to-inherit {
-      @include background-image(inherit !important, $#{$rwd});
-    }
-
-    @mixin #{$rwd}\:to-current {
-      $tw-gradient-to: currentColor !global;
-      @include background-image(get_linear-gradient(), $#{$rwd});
+      @include background-image(get_linear-gradient());
     }
     x*/
     @each $key, $value in $GradientColorStops {
 
       /*x
-      @mixin #{$rwd}\:from-#{$key} {
+      @mixin from-#{$key} {
         $tw-gradient-from: #{$value} !global;
-        @include background-image(get_linear-gradient(), $#{$rwd});
-      }
-
-      @mixin #{$rwd}\:via-#{$key} {
-        $tw-gradient-via: #{$value} !global;
-        @include background-image(get_linear-gradient(), $#{$rwd});
-      }
-
-      @mixin #{$rwd}\:to-#{$key} {
-        $tw-gradient-to: #{$value} !global;
-        @include background-image(get_linear-gradient(), $#{$rwd});
+        @include background-image(get_linear-gradient());
       }
       x*/
       @if $isVanilla {
         @each $opacityKey, $opacityValue in $opacityColor {
           /*x
-          @mixin #{$rwd}\:from-#{$key}\/#{$opacityKey} {
+          @mixin from-#{$key}\/#{$opacityKey} {
             $tw-gradient-from: c(#{$value}, #{$opacityValue}) !global;
-            @include background-image(get_linear-gradient(), $#{$rwd});
-          }
-
-          @mixin #{$rwd}\:via-#{$key}\/#{$opacityKey} {
-            $tw-gradient-via: c(#{$value}, #{$opacityValue}) !global;
-            @include background-image(get_linear-gradient(), $#{$rwd});
-          }
-
-          @mixin #{$rwd}\:to-#{$key}\/#{$opacityKey} {
-            $tw-gradient-to: c(#{$value}, #{$opacityValue}) !global;
-            @include background-image(get_linear-gradient(), $#{$rwd});
+            @include background-image(get_linear-gradient());
           }
           x*/
         }
@@ -436,169 +312,407 @@ $GradientColorStops2: (
 
     @each $key, $value in $GradientColorStops2 {
       /*x
-      @mixin #{$rwd}\:from-#{$key} {
+      @mixin from-#{$key} {
         $tw-gradient-from-position: #{$value} !global;
-        @include background-image(get_linear-gradient(), $#{$rwd});
+        @include background-image(get_linear-gradient());
       }
+      x*/
+    }
+  }
 
-      @mixin #{$rwd}\:via-#{$key} {
+  @if $group-via {
+
+    /*x
+    @mixin via-inherit {
+      @include background-image(inherit !important);
+    }
+
+    @mixin via-current {
+      $tw-gradient-via: currentColor !global;
+      @include background-image(get_linear-gradient());
+    }
+    x*/
+    @each $key, $value in $GradientColorStops {
+
+      /*x
+      @mixin via-#{$key} {
+        $tw-gradient-via: #{$value} !global;
+        @include background-image(get_linear-gradient());
+      }
+      x*/
+      @if $isVanilla {
+        @each $opacityKey, $opacityValue in $opacityColor {
+          /*x 
+          @mixin via-#{$key}\/#{$opacityKey} {
+            $tw-gradient-via: c(#{$value}, #{$opacityValue}) !global;
+            @include background-image(get_linear-gradient());
+          }
+          x*/
+        }
+      }
+    }
+
+    @each $key, $value in $GradientColorStops2 {
+      /*x
+      @mixin via-#{$key} {
         $tw-gradient-via-position: #{$value} !global;
-        @include background-image(get_linear-gradient(), $#{$rwd});
+        @include background-image(get_linear-gradient());
       }
+      x*/
+    }
+  }
 
-      @mixin #{$rwd}\:to-#{$key} {
+  @if $group-to {
+
+    /*x
+    @mixin to-inherit {
+      @include background-image(inherit !important);
+    }
+
+    @mixin to-current {
+      $tw-gradient-to: currentColor !global;
+      @include background-image(get_linear-gradient());
+    }
+    x*/
+    @each $key, $value in $GradientColorStops {
+
+      /*x
+      @mixin to-#{$key} {
+        $tw-gradient-to: #{$value} !global;
+        @include background-image(get_linear-gradient());
+      }
+      x*/
+      @if $isVanilla {
+        @each $opacityKey, $opacityValue in $opacityColor {
+          /*x
+          @mixin to-#{$key}\/#{$opacityKey} {
+            $tw-gradient-to: c(#{$value}, #{$opacityValue}) !global;
+            @include background-image(get_linear-gradient());
+          }
+          x*/
+        }
+      }
+    }
+
+    @each $key, $value in $GradientColorStops2 {
+      /*x
+      @mixin to-#{$key} {
         $tw-gradient-to-position: #{$value} !global;
-        @include background-image(get_linear-gradient(), $#{$rwd});
+        @include background-image(get_linear-gradient());
       }
       x*/
     }
   }
 }
 
-@if $isCustom {
-
-  /*x
-  @mixin from-($v) {
-    @if list.index(inherit, $v) {
-      @include background-image(inherit !important); // to match same behavior as tailwind
-    }
-
-    @else if meta.type-of($v)==color or list.index(currentColor, $v) {
-      $tw-gradient-from: $v !global;
-      @include background-image(get_linear-gradient());
-    }
-
-    @else {
-      $tw-gradient-from-position: $v !global;
-      @include background-image(get_linear-gradient());
-    }
-  }
-
-  @mixin via-($v) {
-    @if list.index(inherit, $v) {
-      @include background-image(inherit !important); // to match same behavior as tailwind
-    }
-
-    @else if meta.type-of($v)==color or list.index(currentColor, $v) {
-      $tw-gradient-via: $v !global;
-      @include background-image(get_linear-gradient());
-    }
-
-    @else {
-      $tw-gradient-via-position: $v !global;
-      @include background-image(get_linear-gradient());
-    }
-  }
-
-  @mixin to-($v) {
-    @if list.index(inherit, $v) {
-      @include background-image(inherit !important); // to match same behavior as tailwind
-    }
-
-    @else if meta.type-of($v)==color or list.index(currentColor, $v) {
-      $tw-gradient-to: $v !global;
-      @include background-image(get_linear-gradient());
-    }
-
-    @else {
-      $tw-gradient-to-position: $v !global;
-      @include background-image(get_linear-gradient());
-    }
-  }
-  x*/
-  @each $key, $value in $GradientColorStops {
-    /*x
-    @mixin from-#{$key}\/($v) {
-      $tw-gradient-from: c(#{$value}, $v) !global;
-      @include background-image(get_linear-gradient());
-    }
-
-    @mixin via-#{$key}\/($v) {
-      $tw-gradient-via: c(#{$value}, $v) !global;
-      @include background-image(get_linear-gradient());
-    }
-
-    @mixin to-#{$key}\/($v) {
-      $tw-gradient-to: c(#{$value}, $v) !global;
-      @include background-image(get_linear-gradient());
-    }
-    x*/
-  }
-
+@if $isRwd {
   @each $rwd in $rwdBox {
+    @if $group-from {
+
+      /*x
+      @mixin #{$rwd}\:from-inherit {
+        @include background-image(inherit !important, $#{$rwd});
+      }
+
+      @mixin #{$rwd}\:from-current {
+        $tw-gradient-from: currentColor !global;
+        @include background-image(get_linear-gradient(), $#{$rwd});
+      }
+      x*/
+      @each $key, $value in $GradientColorStops {
+
+        /*x
+        @mixin #{$rwd}\:from-#{$key} {
+          $tw-gradient-from: #{$value} !global;
+          @include background-image(get_linear-gradient(), $#{$rwd});
+        }
+        x*/
+        @if $isVanilla {
+          @each $opacityKey, $opacityValue in $opacityColor {
+            /*x
+            @mixin #{$rwd}\:from-#{$key}\/#{$opacityKey} {
+              $tw-gradient-from: c(#{$value}, #{$opacityValue}) !global;
+              @include background-image(get_linear-gradient(), $#{$rwd});
+            }
+            x*/
+          }
+        }
+      }
+
+      @each $key, $value in $GradientColorStops2 {
+        /*x
+        @mixin #{$rwd}\:from-#{$key} {
+          $tw-gradient-from-position: #{$value} !global;
+          @include background-image(get_linear-gradient(), $#{$rwd});
+        }
+        x*/
+      }
+    }
+
+    @if $group-via {
+
+      /*x
+      @mixin #{$rwd}\:via-inherit {
+        @include background-image(inherit !important, $#{$rwd});
+      }
+
+      @mixin #{$rwd}\:via-current {
+        $tw-gradient-via: currentColor !global;
+        @include background-image(get_linear-gradient(), $#{$rwd});
+      }
+      x*/
+      @each $key, $value in $GradientColorStops {
+
+        /*x
+        @mixin #{$rwd}\:via-#{$key} {
+          $tw-gradient-via: #{$value} !global;
+          @include background-image(get_linear-gradient(), $#{$rwd});
+        }
+        x*/
+        @if $isVanilla {
+          @each $opacityKey, $opacityValue in $opacityColor {
+            /*x
+            @mixin #{$rwd}\:via-#{$key}\/#{$opacityKey} {
+              $tw-gradient-via: c(#{$value}, #{$opacityValue}) !global;
+              @include background-image(get_linear-gradient(), $#{$rwd});
+            }
+            x*/
+          }
+        }
+      }
+
+      @each $key, $value in $GradientColorStops2 {
+        /*x
+        @mixin #{$rwd}\:via-#{$key} {
+          $tw-gradient-via-position: #{$value} !global;
+          @include background-image(get_linear-gradient(), $#{$rwd});
+        }
+        x*/
+      }
+    }
+
+    @if $group-to {
+      /*x
+      @mixin #{$rwd}\:to-inherit {
+        @include background-image(inherit !important, $#{$rwd});
+      }
+
+      @mixin #{$rwd}\:to-current {
+        $tw-gradient-to: currentColor !global;
+        @include background-image(get_linear-gradient(), $#{$rwd});
+      }
+      x*/
+
+      @each $key, $value in $GradientColorStops {
+
+        /*x
+        @mixin #{$rwd}\:to-#{$key} {
+          $tw-gradient-to: #{$value} !global;
+          @include background-image(get_linear-gradient(), $#{$rwd});
+        }
+        x*/
+        @if $isVanilla {
+          @each $opacityKey, $opacityValue in $opacityColor {
+            /*x
+            @mixin #{$rwd}\:to-#{$key}\/#{$opacityKey} {
+              $tw-gradient-to: c(#{$value}, #{$opacityValue}) !global;
+              @include background-image(get_linear-gradient(), $#{$rwd});
+            }
+            x*/
+          }
+        }
+      }
+
+      @each $key, $value in $GradientColorStops2 {
+        /*x
+        @mixin #{$rwd}\:to-#{$key} {
+          $tw-gradient-to-position: #{$value} !global;
+          @include background-image(get_linear-gradient(), $#{$rwd});
+        }
+        x*/
+      }
+    }
+  }
+}
+
+@if $isCustom {
+  @if $group-from {
 
     /*x
-    @mixin #{$rwd}\:from-($v) {
+    @mixin from-($v) {
       @if list.index(inherit, $v) {
-        @include background-image(inherit !important, $#{$rwd}); // to match same behavior as tailwind
+        @include background-image(inherit !important); // to match same behavior as tailwind
       }
 
       @else if meta.type-of($v)==color or list.index(currentColor, $v) {
-        @include #{$rwd} {
-          $tw-gradient-from: $v !global;
-          @include background-image(get_linear-gradient());
-        }
+        $tw-gradient-from: $v !global;
+        @include background-image(get_linear-gradient());
       }
 
       @else {
         $tw-gradient-from-position: $v !global;
-        @include background-image(get_linear-gradient(), $#{$rwd});
-      }
-    }
-
-    @mixin #{$rwd}\:via-($v) {
-      @if list.index(inherit, $v) {
-        @include background-image(inherit !important, $#{$rwd}); // to match same behavior as tailwind
-      }
-
-      @else if meta.type-of($v)==color or list.index(currentColor, $v) {
-        @include #{$rwd} {
-          $tw-gradient-via: $v !global;
-          @include background-image(get_linear-gradient());
-        }
-      }
-
-      @else {
-        $tw-gradient-via-position: $v !global;
-        @include background-image(get_linear-gradient(), $#{$rwd});
-      }
-    }
-
-    @mixin #{$rwd}\:to-($v) {
-      @if list.index(inherit, $v) {
-        @include background-image(inherit !important, $#{$rwd}); // to match same behavior as tailwind
-      }
-
-      @else if meta.type-of($v)==color or list.index(currentColor, $v) {
-        @include #{$rwd} {
-          $tw-gradient-to: $v !global;
-          @include background-image(get_linear-gradient());
-        }
-      }
-
-      @else {
-        $tw-gradient-to-position: $v !global;
-        @include background-image(get_linear-gradient(), $#{$rwd});
+        @include background-image(get_linear-gradient());
       }
     }
     x*/
     @each $key, $value in $GradientColorStops {
       /*x
-      @mixin #{$rwd}\:from-#{$key}\/($v) {
+      @mixin from-#{$key}\/($v) {
         $tw-gradient-from: c(#{$value}, $v) !global;
-        @include background-image(get_linear-gradient(), $#{$rwd});
-      }
-  
-      @mixin #{$rwd}\:via-#{$key}\/($v) {
-        $tw-gradient-via: c(#{$value}, $v) !global;
-        @include background-image(get_linear-gradient(), $#{$rwd});
-      }
-  
-      @mixin #{$rwd}\:to-#{$key}\/($v) {
-        $tw-gradient-to: c(#{$value}, $v) !global;
-        @include background-image(get_linear-gradient(), $#{$rwd});
+        @include background-image(get_linear-gradient());
       }
       x*/
+    }
+
+    @each $rwd in $rwdBox {
+
+      /*x
+      @mixin #{$rwd}\:from-($v) {
+        @if list.index(inherit, $v) {
+          @include background-image(inherit !important, $#{$rwd}); // to match same behavior as tailwind
+        }
+  
+        @else if meta.type-of($v)==color or list.index(currentColor, $v) {
+          @include #{$rwd} {
+            $tw-gradient-from: $v !global;
+            @include background-image(get_linear-gradient());
+          }
+        }
+  
+        @else {
+          $tw-gradient-from-position: $v !global;
+          @include background-image(get_linear-gradient(), $#{$rwd});
+        }
+      }
+      x*/
+      @each $key, $value in $GradientColorStops {
+        /*x
+        @mixin #{$rwd}\:from-#{$key}\/($v) {
+          $tw-gradient-from: c(#{$value}, $v) !global;
+          @include background-image(get_linear-gradient(), $#{$rwd});
+        }
+        x*/
+      }
+    }
+  }
+
+  @if $group-via {
+
+    /*x
+    @mixin via-($v) {
+      @if list.index(inherit, $v) {
+        @include background-image(inherit !important); // to match same behavior as tailwind
+      }
+
+      @else if meta.type-of($v)==color or list.index(currentColor, $v) {
+        $tw-gradient-via: $v !global;
+        @include background-image(get_linear-gradient());
+      }
+
+      @else {
+        $tw-gradient-via-position: $v !global;
+        @include background-image(get_linear-gradient());
+      }
+    }
+    x*/
+    @each $key, $value in $GradientColorStops {
+      /*x
+      @mixin via-#{$key}\/($v) {
+        $tw-gradient-via: c(#{$value}, $v) !global;
+        @include background-image(get_linear-gradient());
+      }
+      x*/
+    }
+
+    @each $rwd in $rwdBox {
+
+      /*x
+      @mixin #{$rwd}\:via-($v) {
+        @if list.index(inherit, $v) {
+          @include background-image(inherit !important, $#{$rwd}); // to match same behavior as tailwind
+        }
+  
+        @else if meta.type-of($v)==color or list.index(currentColor, $v) {
+          @include #{$rwd} {
+            $tw-gradient-via: $v !global;
+            @include background-image(get_linear-gradient());
+          }
+        }
+  
+        @else {
+          $tw-gradient-via-position: $v !global;
+          @include background-image(get_linear-gradient(), $#{$rwd});
+        }
+      }
+      x*/
+      @each $key, $value in $GradientColorStops {
+        /*x
+        @mixin #{$rwd}\:via-#{$key}\/($v) {
+          $tw-gradient-via: c(#{$value}, $v) !global;
+          @include background-image(get_linear-gradient(), $#{$rwd});
+        }
+        x*/
+      }
+    }
+  }
+
+  @if $group-to {
+
+    /*x
+    @mixin to-($v) {
+      @if list.index(inherit, $v) {
+        @include background-image(inherit !important); // to match same behavior as tailwind
+      }
+
+      @else if meta.type-of($v)==color or list.index(currentColor, $v) {
+        $tw-gradient-to: $v !global;
+        @include background-image(get_linear-gradient());
+      }
+
+      @else {
+        $tw-gradient-to-position: $v !global;
+        @include background-image(get_linear-gradient());
+      }
+    }
+    x*/
+    @each $key, $value in $GradientColorStops {
+      /*x
+      @mixin to-#{$key}\/($v) {
+        $tw-gradient-to: c(#{$value}, $v) !global;
+        @include background-image(get_linear-gradient());
+      }
+      x*/
+    }
+
+    @each $rwd in $rwdBox {
+
+      /*x
+      @mixin #{$rwd}\:to-($v) {
+        @if list.index(inherit, $v) {
+          @include background-image(inherit !important, $#{$rwd}); // to match same behavior as tailwind
+        }
+  
+        @else if meta.type-of($v)==color or list.index(currentColor, $v) {
+          @include #{$rwd} {
+            $tw-gradient-to: $v !global;
+            @include background-image(get_linear-gradient());
+          }
+        }
+  
+        @else {
+          $tw-gradient-to-position: $v !global;
+          @include background-image(get_linear-gradient(), $#{$rwd});
+        }
+      }
+      x*/
+      @each $key, $value in $GradientColorStops {
+        /*x
+        @mixin #{$rwd}\:to-#{$key}\/($v) {
+          $tw-gradient-to: c(#{$value}, $v) !global;
+          @include background-image(get_linear-gradient(), $#{$rwd});
+        }
+        x*/
+      }
     }
   }
 }
