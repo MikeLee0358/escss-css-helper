@@ -1,6 +1,7 @@
 @use '../../setting' as *;
 
 $RingOffsetColor: (
+  'transparent': transparent,
   'black': '$black',
   'white': '$white',
   'slate-50': '$slate-50',
@@ -258,19 +259,24 @@ $RingOffsetColor: (
     $tw-ring-offset-color: currentColor !global;
     @include box-shadow(get_box-shadow());
   }
-
-  @mixin ring-offset-transparent {
-    $tw-ring-offset-color: transparent !global;
-    @include box-shadow(get_box-shadow());
-  }
   x*/
   @each $key, $value in $RingOffsetColor {
     /*x
-    @mixin ring-offset-#{$key}($v: 1) {
-      $tw-ring-offset-color: c(#{$value}, $v) !global;
+    @mixin ring-offset-#{$key} {
+      $tw-ring-offset-color: #{$value} !global;
       @include box-shadow(get_box-shadow());
     }
     x*/
+    @if $isVanilla {
+      @each $opacityKey, $opacityValue in $RingOffsetColor {
+        /*x
+        @mixin ring-offset-#{$key}\/#{$opacityKey} {
+          $tw-ring-offset-color: c(#{$value}, #{$opacityValue}) !global;
+          @include box-shadow(get_box-shadow());
+        }
+        x*/
+      }
+    }
   }
 }
 
@@ -286,22 +292,28 @@ $RingOffsetColor: (
       $tw-ring-offset-color: currentColor !global;
       @include box-shadow(get_box-shadow(), $#{$rwd});
     }
-
-    @mixin #{$rwd}\:ring-offset-transparent {
-      $tw-ring-offset-color: transparent !global;
-      @include box-shadow(get_box-shadow(), $#{$rwd});
-    }
     x*/
     @each $key, $value in $RingOffsetColor {
       /*x
-      @mixin #{$rwd}\:ring-offset-#{$key}($v: 1) {
-        $tw-ring-offset-color: c(#{$value}, $v) !global;
+      @mixin #{$rwd}\:ring-offset-#{$key} {
+        $tw-ring-offset-color: #{$value} !global;
         @include box-shadow(get_box-shadow(), $#{$rwd});
       }
       x*/
+      @if $isVanilla {
+        @each $opacityKey, $opacityValue in $RingOffsetColor {
+          /*x
+          @mixin #{$rwd}\:ring-offset-#{$key}\/#{$opacityKey} {
+            $tw-ring-offset-color: c(#{$value}, #{$opacityValue}) !global;
+            @include box-shadow(get_box-shadow(), $#{$rwd});
+          }
+          x*/
+        }
+      }
     }
   }
 }
+
 
 @if $isCustom {
   /*x
@@ -321,6 +333,14 @@ $RingOffsetColor: (
     @include box-shadow(get_box-shadow());
   }
   x*/
+  @each $key, $value in $RingOffsetColor {
+    /*x
+    @mixin ring-offset-#{$key}\/($v) {
+      $tw-ring-offset-color: c(#{$value}, $v) !global;
+      @include box-shadow(get_box-shadow());
+    }
+    x*/
+  }
 
   @each $rwd in $rwdBox {
     /*x
@@ -340,5 +360,13 @@ $RingOffsetColor: (
       @include box-shadow(get_box-shadow(), $#{$rwd});
     }
     x*/
+    @each $key, $value in $RingOffsetColor {
+      /*x
+      @mixin #{$rwd}\:ring-offset-#{$key}\/($v) {
+        $tw-ring-offset-color: c(#{$value}, $v) !global;
+        @include box-shadow(get_box-shadow(), $#{$rwd});
+      }
+      x*/
+    }
   }
 }

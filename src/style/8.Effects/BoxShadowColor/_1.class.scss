@@ -1,6 +1,7 @@
 @use '../../setting' as *;
 
 $BoxShadowColor: (
+  'transparent': transparent,
   'black': '$black',
   'white': '$white',
   'slate-50': '$slate-50',
@@ -257,24 +258,27 @@ $BoxShadowColor: (
 
   @mixin shadow-current {
     $tw-dummy-not-match--shadow-color: true !global;
-    $tw-shadow-color: currentColor !global;
-    @include box-shadow(get_box-shadow());
-  }
-
-  @mixin shadow-transparent {
-    $tw-dummy-not-match--shadow-color: true !global;
-    $tw-shadow-color: transparent !global;
+    $tw-shadow-color: current !global;
     @include box-shadow(get_box-shadow());
   }
   x*/
   @each $key, $value in $BoxShadowColor {
     /*x
-    @mixin shadow-#{$key}($v: 1) {
-      $tw-dummy-not-match--shadow-color: true !global;
-      $tw-shadow-color: c(#{$value}, $v) !global;
+    @mixin shadow-#{$key} {
+      $tw-shadow-color: #{$value} !global;
       @include box-shadow(get_box-shadow());
     }
     x*/
+    @if $isVanilla {
+      @each $opacityKey, $opacityValue in $BoxShadowColor {
+        /*x
+        @mixin shadow-#{$key}\/#{$opacityKey} {
+          $tw-shadow-color: c(#{$value}, #{$opacityValue}) !global;
+          @include box-shadow(get_box-shadow());
+        }
+        x*/
+      }
+    }
   }
 }
 
@@ -289,27 +293,31 @@ $BoxShadowColor: (
 
     @mixin #{$rwd}\:shadow-current {
       $tw-dummy-not-match--shadow-color: true !global;
-      $tw-shadow-color: currentColor !global;
-      @include box-shadow(get_box-shadow(), $#{$rwd});
-    }
-
-    @mixin #{$rwd}\:shadow-transparent {
-      $tw-dummy-not-match--shadow-color: true !global;
-      $tw-shadow-color: transparent !global;
+      $tw-shadow-color: current !global;
       @include box-shadow(get_box-shadow(), $#{$rwd});
     }
     x*/
     @each $key, $value in $BoxShadowColor {
       /*x
-      @mixin #{$rwd}\:shadow-#{$key}($v: 1) {
-        $tw-dummy-not-match--shadow-color: true !global;
-        $tw-shadow-color: c(#{$value}, $v) !global;
+      @mixin #{$rwd}\:shadow-#{$key} {
+        $tw-shadow-color: #{$value} !global;
         @include box-shadow(get_box-shadow(), $#{$rwd});
       }
       x*/
+      @if $isVanilla {
+        @each $opacityKey, $opacityValue in $BoxShadowColor {
+          /*x
+          @mixin #{$rwd}\:shadow-#{$key}\/#{$opacityKey} {
+            $tw-shadow-color: c(#{$value}, #{$opacityValue}) !global;
+            @include box-shadow(get_box-shadow());
+          }
+          x*/
+        }
+      }
     }
   }
 }
+
 
 @if $isCustom {
   /*x
@@ -341,6 +349,15 @@ $BoxShadowColor: (
   }
   x*/
 
+  @each $key, $value in $BoxShadowColor {
+    /*x
+    @mixin shadow-#{$key}\/($v) {
+      $tw-shadow-color: c(#{$value}, $v) !global;
+      @include box-shadow(get_box-shadow());
+    }
+    x*/
+  }
+
   @each $rwd in $rwdBox {
     /*x
     @mixin #{$rwd}\:shadow-($v) {
@@ -370,5 +387,14 @@ $BoxShadowColor: (
       @include box-shadow(get_box-shadow(), $#{$rwd});
     }
     x*/
+
+    @each $key, $value in $BoxShadowColor {
+      /*x
+      @mixin shadow-#{$key}\/($v) {
+        $tw-shadow-color: c(#{$value}, $v) !global;
+        @include box-shadow(get_box-shadow());
+      }
+      x*/
+    }
   }
 }

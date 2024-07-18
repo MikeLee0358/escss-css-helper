@@ -1,6 +1,7 @@
 @use '../../setting' as *;
 
 $TextColor: (
+  'transparent': transparent,
   'black': '$black',
   'white': '$white',
   'slate-50': '$slate-50',
@@ -248,6 +249,7 @@ $TextColor: (
 );
 
 @if $isBasic {
+
   /*x
   @mixin text-inherit {
     @include color(inherit);
@@ -256,22 +258,29 @@ $TextColor: (
   @mixin text-current {
     @include color(currentColor);
   }
-
-  @mixin text-transparent {
-    @include color(transparent);
-  }
   x*/
   @each $key, $value in $TextColor {
+
     /*x
-    @mixin text-#{$key}($v: 1) {
-      @include color(c(#{$value}, $v));
+    @mixin text-#{$key} {
+      @include color(#{$value});
     }
     x*/
+    @if $isVanilla {
+      @each $opacityKey, $opacityValue in $opacityColor {
+        /*x
+        @mixin text-#{$key}\/#{$opacityKey} {
+          @include color(c(#{$value}, #{$opacityValue}));
+        }
+        x*/
+      }
+    }
   }
 }
 
 @if $isRwd {
   @each $rwd in $rwdBox {
+
     /*x
     @mixin #{$rwd}\:text-inherit {
       @include color(inherit, $#{$rwd});
@@ -280,22 +289,29 @@ $TextColor: (
     @mixin #{$rwd}\:text-current {
       @include color(currentColor, $#{$rwd});
     }
-
-    @mixin #{$rwd}\:text-transparent {
-      @include color(transparent, $#{$rwd});
-    }
     x*/
     @each $key, $value in $TextColor {
+
       /*x
-      @mixin #{$rwd}\:text-#{$key}($v: 1) {
-        @include color(c(#{$value}, $v), $#{$rwd});
+      @mixin #{$rwd}\:text-#{$key} {
+        @include color(#{$value}, $#{$rwd});
       }
       x*/
+      @if $isVanilla {
+        @each $opacityKey, $opacityValue in $opacityColor {
+          /*x
+          @mixin #{$rwd}\:text-#{$key}\/#{$opacityKey} {
+            @include color(c(#{$value}, #{$opacityValue}), $#{$rwd});
+          }
+          x*/
+        }
+      }
     }
   }
 }
 
 @if $isCustom {
+
   /*x
   @mixin text-($v) {
     @if meta.type-of($v)==color or list.index(inherit currentColor transparent, $v) {
@@ -314,8 +330,16 @@ $TextColor: (
     }
   }
   x*/
+  @each $key, $value in $TextColor {
+    /*x
+    @mixin text-#{$key}\/($v) {
+      @include color(c(#{$value}, $v));
+    }
+    x*/
+  }
 
   @each $rwd in $rwdBox {
+
     /*x
     @mixin #{$rwd}\:text-($v) {
       @if meta.type-of($v)==color or list.index(inherit currentColor transparent, $v) {
@@ -336,5 +360,12 @@ $TextColor: (
       }
     }
     x*/
+    @each $key, $value in $TextColor {
+      /*x
+      @mixin #{$rwd}\:text-#{$key}\/($v) {
+        @include color(c(#{$value}, $v), $#{$rwd});
+      }
+      x*/
+    }
   }
 }

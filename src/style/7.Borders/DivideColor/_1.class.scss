@@ -1,6 +1,7 @@
 @use '../../setting' as *;
 
 $DivideColor: (
+  'transparent': transparent,
   'black': '$black',
   'white': '$white',
   'slate-50': '$slate-50',
@@ -251,30 +252,35 @@ $DivideColor: (
   /*x
   @mixin divide-inherit {
     > * ~ * {  
-      @include border-color(inherit);
+    @include border-color(inherit);
     }
   }
 
   @mixin divide-current {
     > * ~ * {  
-      @include border-color(currentColor);
-    }
-  }
-
-  @mixin divide-transparent {
-    > * ~ * {  
-      @include border-color(transparent);
+    @include border-color(currentColor);
     }
   }
   x*/
   @each $key, $value in $DivideColor {
     /*x
-    @mixin divide-#{$key}($v: 1) {
+    @mixin divide-#{$key} {
       > * ~ * {  
-        @include border-color(c(#{$value}, $v));
+      @include border-color(#{$value});
       }
     }
     x*/
+    @if $isVanilla {
+      @each $opacityKey, $opacityValue in $opacityColor {
+        /*x
+        @mixin divide-#{$key}\/#{$opacityKey} {
+          > * ~ * {  
+          @include border-color(c(#{$value}, #{$opacityValue}));
+          }
+        }
+        x*/
+      }
+    }
   }
 }
 
@@ -292,21 +298,26 @@ $DivideColor: (
         @include border-color(currentColor, $#{$rwd});
       }
     }
-
-    @mixin #{$rwd}\:divide-transparent {
-      > * ~ * {  
-        @include border-color(transparent, $#{$rwd});
-      }
-    }
     x*/
     @each $key, $value in $DivideColor {
       /*x
-      @mixin #{$rwd}\:divide-#{$key}($v: 1) {
+      @mixin #{$rwd}\:divide-#{$key} {
         > * ~ * {  
-          @include border-color(c(#{$value}, $v), $#{$rwd});
+          @include border-color(#{$value}, $#{$rwd});
         }
       }
       x*/
+      @if $isVanilla {
+        @each $opacityKey, $opacityValue in $opacityColor {
+          /*x
+          @mixin #{$rwd}\:divide-#{$key}\/#{$opacityKey} {
+            > * ~ * {  
+              @include border-color(c(#{$value}, #{$opacityValue}), $#{$rwd});
+            }
+          }
+          x*/
+        }
+      }
     }
   }
 }
@@ -319,6 +330,15 @@ $DivideColor: (
     }
   }
   x*/
+  @each $key, $value in $DivideColor {
+    /*x
+    @mixin divide-#{$key}\/($v) {
+      > * ~ * {
+        @include border-color(c(#{$value}, $v));
+      }
+    }
+    x*/
+  }
 
   @each $rwd in $rwdBox {
     /*x
@@ -328,5 +348,14 @@ $DivideColor: (
       }
     }
     x*/
+    @each $key, $value in $DivideColor {
+      /*x
+      @mixin #{$rwd}\:divide-#{$key}\/($v) {
+        > * ~ * {
+          @include border-color(c(#{$value}, $v), $#{$rwd});
+        }
+      }
+      x*/
+    }
   }
 }

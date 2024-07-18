@@ -1,6 +1,7 @@
 @use '../../setting' as *;
 
 $OutlineColor: (
+  'transparent': transparent,
   'black': '$black',
   'white': '$white',
   'slate-50': '$slate-50',
@@ -248,6 +249,7 @@ $OutlineColor: (
 );
 
 @if $isBasic {
+
   /*x
   @mixin outline-inherit {
     @include outline-color(inherit);
@@ -256,22 +258,29 @@ $OutlineColor: (
   @mixin outline-current {
     @include outline-color(currentColor);
   }
-
-  @mixin outline-transparent {
-    @include outline-color(transparent);
-  }
   x*/
   @each $key, $value in $OutlineColor {
+
     /*x
-    @mixin outline-#{$key}($v: 1) {
-      @include outline-color(c(#{$value}, $v));
+    @mixin outline-#{$key} {
+      @include outline-color(#{$value});
     }
     x*/
+    @if $isVanilla {
+      @each $opacityKey, $opacityValue in $opacityColor {
+        /*x
+        @mixin outline-#{$key}\/#{$opacityKey} {
+          @include outline-color(c(#{$value}, #{$opacityValue}));
+        }
+        x*/
+      }
+    }
   }
 }
 
 @if $isRwd {
   @each $rwd in $rwdBox {
+
     /*x
     @mixin #{$rwd}\:outline-inherit {
       @include outline-color(inherit, $#{$rwd});
@@ -280,22 +289,29 @@ $OutlineColor: (
     @mixin #{$rwd}\:outline-current {
       @include outline-color(currentColor, $#{$rwd});
     }
-
-    @mixin #{$rwd}\:outline-transparent {
-      @include outline-color(transparent, $#{$rwd});
-    }
     x*/
     @each $key, $value in $OutlineColor {
+
       /*x
-      @mixin #{$rwd}\:outline-#{$key}($v: 1) {
-        @include outline-color(c(#{$value}, $v), $#{$rwd});
+      @mixin #{$rwd}\:outline-#{$key} {
+        @include outline-color(#{$value}, $#{$rwd});
       }
       x*/
+      @if $isVanilla {
+        @each $opacityKey, $opacityValue in $opacityColor {
+          /*x
+          @mixin #{$rwd}\:outline-#{$key}\/#{$opacityKey} {
+            @include outline-color(c(#{$value}, #{$opacityValue}), $#{$rwd});
+          }
+          x*/
+        }
+      }
     }
   }
 }
 
 @if $isCustom {
+
   /*x
   @mixin outline-($v) {
     @if meta.type-of($v)==color or list.index(inherit currentColor transparent, $v) {
@@ -307,8 +323,16 @@ $OutlineColor: (
     }
   }
   x*/
+  @each $key, $value in $OutlineColor {
+    /*x
+    @mixin outline-#{$key}\/($v) {
+      @include outline-color(c(#{$value}, $v));
+    }
+    x*/
+  }
 
   @each $rwd in $rwdBox {
+
     /*x
     @mixin #{$rwd}\:outline-($v) {
       @if meta.type-of($v)==color or list.index(inherit currentColor transparent, $v) {
@@ -320,5 +344,12 @@ $OutlineColor: (
       }
     }
     x*/
+    @each $key, $value in $OutlineColor {
+      /*x
+      @mixin #{$rwd}\:outline-#{$key}\/($v) {
+        @include outline-color(c(#{$value}, $v), $#{$rwd});
+      }
+      x*/
+    }
   }
 }

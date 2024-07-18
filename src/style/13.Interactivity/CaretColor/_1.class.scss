@@ -1,6 +1,7 @@
 @use '../../setting' as *;
 
 $CaretColor: (
+  'transparent': transparent,
   'black': '$black',
   'white': '$white',
   'slate-50': '$slate-50',
@@ -256,17 +257,22 @@ $CaretColor: (
   @mixin caret-current {
     @include caret-color(currentColor);
   }
-
-  @mixin caret-transparent {
-    @include caret-color(transparent);
-  }
   x*/
   @each $key, $value in $CaretColor {
     /*x
-    @mixin caret-#{$key}($v: 1) {
-      @include caret-color(c(#{$value}, $v));
+    @mixin caret-#{$key} {
+      @include caret-color(#{$value});
     }
     x*/
+    @if $isVanilla {
+      @each $opacityKey, $opacityValue in $opacityColor {
+        /*x
+        @mixin caret-#{$key}\/#{$opacityKey} {
+          @include caret-color(c(#{$value}, #{$opacityValue}));
+        }
+        x*/
+      }
+    }
   }
 }
 
@@ -280,17 +286,22 @@ $CaretColor: (
     @mixin #{$rwd}\:caret-current {
       @include caret-color(currentColor, $#{$rwd});
     }
-
-    @mixin #{$rwd}\:caret-transparent {
-      @include caret-color(transparent, $#{$rwd});
-    }
     x*/
     @each $key, $value in $CaretColor {
       /*x
-      @mixin #{$rwd}\:caret-#{$key}($v: 1) {
-        @include caret-color(c(#{$value}, $v), $#{$rwd});
+      @mixin #{$rwd}\:caret-#{$key} {
+        @include caret-color(#{$value}, $#{$rwd});
       }
       x*/
+      @if $isVanilla {
+        @each $opacityKey, $opacityValue in $opacityColor {
+          /*x
+          @mixin #{$rwd}\:caret-#{$key}\/#{$opacityKey} {
+            @include caret-color(c(#{$value}, #{$opacityValue}), $#{$rwd});
+          }
+          x*/
+        }
+      }
     }
   }
 }
@@ -301,6 +312,13 @@ $CaretColor: (
     @include caret-color($v);
   }
   x*/
+  @each $key, $value in $CaretColor {
+    /*x
+    @mixin caret-#{$key}\/($v) {
+      @include caret-color(c(#{$value}, $v));
+    }
+    x*/
+  }
 
   @each $rwd in $rwdBox {
     /*x
@@ -308,5 +326,12 @@ $CaretColor: (
       @include caret-color($v, $#{$rwd});
     }
     x*/
+    @each $key, $value in $CaretColor {
+      /*x
+      @mixin #{$rwd}\:caret-#{$key}\/($v) {
+        @include caret-color(c(#{$value}, $v), $#{$rwd});
+      }
+      x*/
+    }
   }
 }

@@ -1,6 +1,7 @@
 @use '../../setting' as *;
 
 $BorderColor: (
+  'transparent': transparent,
   'black': '$black',
   'white': '$white',
   'slate-50': '$slate-50',
@@ -248,6 +249,7 @@ $BorderColor: (
 );
 
 @if $isBasic {
+
   /*x
   @mixin border-inherit {
     @include border-color(inherit);
@@ -256,22 +258,29 @@ $BorderColor: (
   @mixin border-current {
     @include border-color(currentColor);
   }
-
-  @mixin border-transparent {
-    @include border-color(transparent);
-  }
   x*/
   @each $key, $value in $BorderColor {
+
     /*x
-    @mixin border-#{$key}($v: 1) {
-      @include border-color(c(#{$value}, $v));
+    @mixin border-#{$key} {
+      @include border-color(#{$value});
     }
     x*/
+    @if $isVanilla {
+      @each $opacityKey, $opacityValue in $opacityColor {
+        /*x
+        @mixin border-#{$key}\/#{$opacityKey} {
+          @include border-color(c(#{$value}, #{$opacityValue}));
+        }
+        x*/
+      }
+    }
   }
 }
 
 @if $isRwd {
   @each $rwd in $rwdBox {
+
     /*x
     @mixin #{$rwd}\:border-inherit {
       @include border-color(inherit, $#{$rwd});
@@ -280,22 +289,31 @@ $BorderColor: (
     @mixin #{$rwd}\:border-current {
       @include border-color(currentColor, $#{$rwd});
     }
-
-    @mixin #{$rwd}\:border-transparent {
-      @include border-color(transparent, $#{$rwd});
-    }
     x*/
     @each $key, $value in $BorderColor {
+
       /*x
-      @mixin #{$rwd}\:border-#{$key}($v: 1) {
-        @include border-color(c(#{$value}, $v), $#{$rwd});
+      @mixin #{$rwd}\:border-#{$key} {
+        @include border-color(#{$value}, $#{$rwd});
       }
       x*/
+      @if $isVanilla {
+        @each $opacityKey, $opacityValue in $opacityColor {
+          /*x
+          @mixin #{$rwd}\:border-#{$key}\/#{$opacityKey} {
+            @include border-color(c(#{$value}, #{$opacityValue}), $#{$rwd});
+          }
+          x*/
+        }
+      }
     }
   }
 }
 
+
+
 @if $isCustom {
+
   /*x
   @mixin border-($v) {
     @if meta.type-of($v)==color or list.index(inherit currentColor transparent, $v) {
@@ -391,8 +409,16 @@ $BorderColor: (
     }
   }
   x*/
+  @each $key, $value in $BorderColor {
+    /*x
+    @mixin border-#{$key}\/($v) {
+      @include border-color(c(#{$value}, $v));
+    }
+    x*/
+  }
 
   @each $rwd in $rwdBox {
+
     /*x
     @mixin #{$rwd}\:border-($v) {
       @if meta.type-of($v)==color or list.index(inherit currentColor transparent, $v) {
@@ -496,5 +522,12 @@ $BorderColor: (
       }
     }
     x*/
+    @each $key, $value in $BorderColor {
+      /*x
+      @mixin #{$rwd}\:border-#{$key}\/($v) {
+        @include border-color(c(#{$value}, $v), $#{$rwd});
+      }
+      x*/
+    }
   }
 }

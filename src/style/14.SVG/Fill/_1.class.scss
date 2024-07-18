@@ -1,6 +1,7 @@
 @use '../../setting' as *;
 
 $Fill: (
+  'transparent': transparent,
   'black': '$black',
   'white': '$white',
   'slate-50': '$slate-50',
@@ -260,25 +261,30 @@ $Fill: (
   @mixin fill-current {
     @include fill(currentColor);
   }
-
-  @mixin fill-transparent {
-    @include fill(transparent);
-  }
   x*/
   @each $key, $value in $Fill {
     /*x
-    @mixin fill-#{$key}($v: 1) {
-      @include fill(c(#{$value}, $v));
+    @mixin fill-#{$key} {
+      @include fill(#{$value});
     }
     x*/
+    @if $isVanilla {
+      @each $opacityKey, $opacityValue in $opacityColor {
+        /*x
+        @mixin fill-#{$key}\/#{$opacityKey} {
+          @include fill(c(#{$value}, #{$opacityValue}));
+        }
+        x*/
+      }
+    }
   }
 }
 
 @if $isRwd {
   @each $rwd in $rwdBox {
     /*x
-    @mixin fill-none {
-      @include fill(none);
+      @mixin #{$rwd}\:fill-none {
+      @include fill(none, $#{$rwd});
     }
 
     @mixin #{$rwd}\:fill-inherit {
@@ -288,17 +294,22 @@ $Fill: (
     @mixin #{$rwd}\:fill-current {
       @include fill(currentColor, $#{$rwd});
     }
-
-    @mixin #{$rwd}\:fill-transparent {
-      @include fill(transparent, $#{$rwd});
-    }
     x*/
     @each $key, $value in $Fill {
       /*x
-      @mixin #{$rwd}\:fill-#{$key}($v: 1) {
-        @include fill(c(#{$value}, $v), $#{$rwd});
+      @mixin #{$rwd}\:fill-#{$key} {
+        @include fill(#{$value}, $#{$rwd});
       }
       x*/
+      @if $isVanilla {
+        @each $opacityKey, $opacityValue in $opacityColor {
+          /*x
+          @mixin #{$rwd}\:fill-#{$key}\/#{$opacityKey} {
+            @include fill(c(#{$value}, #{$opacityValue}), $#{$rwd});
+          }
+          x*/
+        }
+      }
     }
   }
 }
@@ -309,6 +320,13 @@ $Fill: (
     @include fill($v);
   }
   x*/
+  @each $key, $value in $Fill {
+    /*x
+    @mixin fill-#{$key}\/($v) {
+      @include fill(c(#{$value}, $v));
+    }
+    x*/
+  }
 
   @each $rwd in $rwdBox {
     /*x
@@ -316,5 +334,12 @@ $Fill: (
       @include fill($v, $#{$rwd});
     }
     x*/
+    @each $key, $value in $Fill {
+      /*x
+      @mixin #{$rwd}\:fill-#{$key}\/($v) {
+        @include fill(c(#{$value}, $v), $#{$rwd});
+      }
+      x*/
+    }
   }
 }

@@ -1,6 +1,7 @@
 @use '../../setting' as *;
 
 $RingColor: (
+  'transparent': transparent,
   'black': '$black',
   'white': '$white',
   'slate-50': '$slate-50',
@@ -258,19 +259,24 @@ $RingColor: (
     $tw-ring-color: currentColor !global;
     @include box-shadow(get_box-shadow());
   }
-
-  @mixin ring-transparent {
-    $tw-ring-color: transparent !global;
-    @include box-shadow(get_box-shadow());
-  }
   x*/
   @each $key, $value in $RingColor {
     /*x
-    @mixin ring-#{$key}($v: 1) {
-      $tw-ring-color: c(#{$value}, $v) !global;
+    @mixin ring-#{$key} {
+      $tw-ring-color: #{$value} !global;
       @include box-shadow(get_box-shadow());
     }
     x*/
+    @if $isVanilla {
+      @each $opacityKey, $opacityValue in $opacityColor {
+        /*x
+        @mixin ring-#{$key}\/#{$opacityKey} {
+          $tw-ring-color: c(#{$value}, #{$opacityValue}) !global;
+          @include box-shadow(get_box-shadow());
+        }
+        x*/
+      }
+    }
   }
 }
 
@@ -286,19 +292,24 @@ $RingColor: (
       $tw-ring-color: currentColor !global;
       @include box-shadow(get_box-shadow(), $#{$rwd});
     }
-
-    @mixin #{$rwd}\:ring-transparent {
-      $tw-ring-color: transparent !global;
-      @include box-shadow(get_box-shadow(), $#{$rwd});
-    }
     x*/
     @each $key, $value in $RingColor {
       /*x
-      @mixin #{$rwd}\:ring-#{$key}($v: 1) {
-        $tw-ring-color: c(#{$value}, $v) !global;
+      @mixin #{$rwd}\:ring-#{$key} {
+        $tw-ring-color: #{$value} !global;
         @include box-shadow(get_box-shadow(), $#{$rwd});
       }
       x*/
+      @if $isVanilla {
+        @each $opacityKey, $opacityValue in $opacityColor {
+          /*x
+          @mixin #{$rwd}\:ring-#{$key}\/#{$opacityKey} {
+            $tw-ring-color: c(#{$value}, #{$opacityValue}) !global;
+            @include box-shadow(get_box-shadow(), $#{$rwd});
+          }
+          x*/
+        }
+      }
     }
   }
 }
@@ -318,7 +329,14 @@ $RingColor: (
     @include box-shadow(get_box-shadow());
   }
   x*/
-
+  @each $key, $value in $RingColor {
+    /*x
+    @mixin ring-#{$key}\/($v) {
+      $tw-ring-color: c(#{$value}, $v) !global;
+      @include box-shadow(get_box-shadow());
+    }
+    x*/
+  }
   @each $rwd in $rwdBox {
     /*x
     @mixin #{$rwd}\:ring-($v) {
@@ -334,5 +352,13 @@ $RingColor: (
       @include box-shadow(get_box-shadow(), $#{$rwd});
     }
     x*/
+    @each $key, $value in $RingColor {
+      /*x
+      @mixin #{$rwd}\:ring-#{$key}\/($v) {
+        $tw-ring-color: c(#{$value}, $v) !global;
+        @include box-shadow(get_box-shadow(), $#{$rwd});
+      }
+      x*/
+    }
   }
 }

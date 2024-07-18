@@ -1,6 +1,7 @@
 @use '../../setting' as *;
 
 $AccentColor: (
+  'transparent': transparent,
   'black': '$black',
   'white': '$white',
   'slate-50': '$slate-50',
@@ -250,7 +251,7 @@ $AccentColor: (
 @if $isBasic {
   /*x
   @mixin accent-auto {
-    accent-color: auto;
+    @include accent-color(auto);
   }
 
   @mixin accent-inherit {
@@ -260,24 +261,29 @@ $AccentColor: (
   @mixin accent-current {
     @include accent-color(currentColor);
   }
-
-  @mixin accent-transparent {
-    @include accent-color(transparent);
-  }
   x*/
   @each $key, $value in $AccentColor {
     /*x
-    @mixin accent-#{$key}($v: 1) {
-      @include accent-color(c(#{$value}, $v));
+    @mixin accent-#{$key} {
+      @include accent-color(#{$value});
     }
     x*/
+    @if $isVanilla {
+      @each $opacityKey, $opacityValue in $opacityColor {
+        /*x
+        @mixin accent-#{$key}\/#{$opacityKey} {
+          @include accent-color(c(#{$value}, #{$opacityValue}));
+        }
+        x*/
+      }
+    }
   }
 }
 
 @if $isRwd {
   @each $rwd in $rwdBox {
     /*x
-    @mixin #{$rwd}\:accent-auto {
+      @mixin #{$rwd}\:accent-auto {
       @include accent-color(auto, $#{$rwd});
     }
 
@@ -288,17 +294,22 @@ $AccentColor: (
     @mixin #{$rwd}\:accent-current {
       @include accent-color(currentColor, $#{$rwd});
     }
-
-    @mixin #{$rwd}\:accent-transparent {
-      @include accent-color(transparent, $#{$rwd});
-    }
     x*/
     @each $key, $value in $AccentColor {
       /*x
-      @mixin #{$rwd}\:accent-#{$key}($v: 1) {
-        @include accent-color(c(#{$value}, $v), $#{$rwd});
+      @mixin #{$rwd}\:accent-#{$key} {
+        @include accent-color(#{$value}, $#{$rwd});
       }
       x*/
+      @if $isVanilla {
+        @each $opacityKey, $opacityValue in $opacityColor {
+          /*x
+          @mixin #{$rwd}\:accent-#{$key}\/#{$opacityKey} {
+            @include accent-color(c(#{$value}, #{$opacityValue}), $#{$rwd});
+          }
+          x*/
+        }
+      }
     }
   }
 }
@@ -309,6 +320,13 @@ $AccentColor: (
     @include accent-color($v);
   }
   x*/
+  @each $key, $value in $AccentColor {
+    /*x
+    @mixin accent-#{$key}\/($v) {
+      @include accent-color(c(#{$value}, $v));
+    }
+    x*/
+  }
 
   @each $rwd in $rwdBox {
     /*x
@@ -316,5 +334,12 @@ $AccentColor: (
       @include accent-color($v, $#{$rwd});
     }
     x*/
+    @each $key, $value in $AccentColor {
+      /*x
+      @mixin #{$rwd}\:accent-#{$key}\/($v) {
+        @include accent-color(c(#{$value}, $v), $#{$rwd});
+      }
+      x*/
+    }
   }
 }
