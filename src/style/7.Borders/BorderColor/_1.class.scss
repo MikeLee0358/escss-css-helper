@@ -249,7 +249,6 @@ $BorderColor: (
 );
 
 @if $isBasic {
-
   /*x
   @mixin border-inherit {
     @include border-color(inherit);
@@ -260,7 +259,6 @@ $BorderColor: (
   }
   x*/
   @each $key, $value in $BorderColor {
-
     /*x
     @mixin border-#{$key} {
       @include border-color(#{$value});
@@ -280,7 +278,6 @@ $BorderColor: (
 
 @if $isRwd {
   @each $rwd in $rwdBox {
-
     /*x
     @mixin #{$rwd}\:border-inherit {
       @include border-color(inherit, $#{$rwd});
@@ -291,7 +288,6 @@ $BorderColor: (
     }
     x*/
     @each $key, $value in $BorderColor {
-
       /*x
       @mixin #{$rwd}\:border-#{$key} {
         @include border-color(#{$value}, $#{$rwd});
@@ -310,10 +306,7 @@ $BorderColor: (
   }
 }
 
-
-
 @if $isCustom {
-
   /*x
   @mixin border-($v) {
     @if meta.type-of($v)==color or list.index(inherit currentColor transparent, $v) {
@@ -418,7 +411,6 @@ $BorderColor: (
   }
 
   @each $rwd in $rwdBox {
-
     /*x
     @mixin #{$rwd}\:border-($v) {
       @if meta.type-of($v)==color or list.index(inherit currentColor transparent, $v) {

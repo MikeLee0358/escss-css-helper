@@ -276,10 +276,8 @@ $GradientColorStops2: (
   '100\\%': 100%,
 );
 
-
 @if $isBasic {
   @if $group-from {
-
     /*x
     @mixin from-inherit {
     @include background-image(inherit !important);
@@ -291,7 +289,6 @@ $GradientColorStops2: (
     }
     x*/
     @each $key, $value in $GradientColorStops {
-
       /*x
       @mixin from-#{$key} {
         $tw-gradient-from: #{$value} !global;
@@ -321,7 +318,6 @@ $GradientColorStops2: (
   }
 
   @if $group-via {
-
     /*x
     @mixin via-inherit {
       @include background-image(inherit !important);
@@ -333,7 +329,6 @@ $GradientColorStops2: (
     }
     x*/
     @each $key, $value in $GradientColorStops {
-
       /*x
       @mixin via-#{$key} {
         $tw-gradient-via: #{$value} !global;
@@ -363,7 +358,6 @@ $GradientColorStops2: (
   }
 
   @if $group-to {
-
     /*x
     @mixin to-inherit {
       @include background-image(inherit !important);
@@ -375,7 +369,6 @@ $GradientColorStops2: (
     }
     x*/
     @each $key, $value in $GradientColorStops {
-
       /*x
       @mixin to-#{$key} {
         $tw-gradient-to: #{$value} !global;
@@ -408,7 +401,6 @@ $GradientColorStops2: (
 @if $isRwd {
   @each $rwd in $rwdBox {
     @if $group-from {
-
       /*x
       @mixin #{$rwd}\:from-inherit {
         @include background-image(inherit !important, $#{$rwd});
@@ -420,7 +412,6 @@ $GradientColorStops2: (
       }
       x*/
       @each $key, $value in $GradientColorStops {
-
         /*x
         @mixin #{$rwd}\:from-#{$key} {
           $tw-gradient-from: #{$value} !global;
@@ -450,7 +441,6 @@ $GradientColorStops2: (
     }
 
     @if $group-via {
-
       /*x
       @mixin #{$rwd}\:via-inherit {
         @include background-image(inherit !important, $#{$rwd});
@@ -462,7 +452,6 @@ $GradientColorStops2: (
       }
       x*/
       @each $key, $value in $GradientColorStops {
-
         /*x
         @mixin #{$rwd}\:via-#{$key} {
           $tw-gradient-via: #{$value} !global;
@@ -504,7 +493,6 @@ $GradientColorStops2: (
       x*/
 
       @each $key, $value in $GradientColorStops {
-
         /*x
         @mixin #{$rwd}\:to-#{$key} {
           $tw-gradient-to: #{$value} !global;
@@ -537,7 +525,6 @@ $GradientColorStops2: (
 
 @if $isCustom {
   @if $group-from {
-
     /*x
     @mixin from-($v) {
       @if list.index(inherit, $v) {
@@ -565,7 +552,6 @@ $GradientColorStops2: (
     }
 
     @each $rwd in $rwdBox {
-
       /*x
       @mixin #{$rwd}\:from-($v) {
         @if list.index(inherit, $v) {
@@ -597,7 +583,6 @@ $GradientColorStops2: (
   }
 
   @if $group-via {
-
     /*x
     @mixin via-($v) {
       @if list.index(inherit, $v) {
@@ -625,7 +610,6 @@ $GradientColorStops2: (
     }
 
     @each $rwd in $rwdBox {
-
       /*x
       @mixin #{$rwd}\:via-($v) {
         @if list.index(inherit, $v) {
@@ -657,7 +641,6 @@ $GradientColorStops2: (
   }
 
   @if $group-to {
-
     /*x
     @mixin to-($v) {
       @if list.index(inherit, $v) {
@@ -685,7 +668,6 @@ $GradientColorStops2: (
     }
 
     @each $rwd in $rwdBox {
-
       /*x
       @mixin #{$rwd}\:to-($v) {
         @if list.index(inherit, $v) {

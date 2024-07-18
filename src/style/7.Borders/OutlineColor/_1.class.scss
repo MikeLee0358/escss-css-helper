@@ -249,7 +249,6 @@ $OutlineColor: (
 );
 
 @if $isBasic {
-
   /*x
   @mixin outline-inherit {
     @include outline-color(inherit);
@@ -260,7 +259,6 @@ $OutlineColor: (
   }
   x*/
   @each $key, $value in $OutlineColor {
-
     /*x
     @mixin outline-#{$key} {
       @include outline-color(#{$value});
@@ -280,7 +278,6 @@ $OutlineColor: (
 
 @if $isRwd {
   @each $rwd in $rwdBox {
-
     /*x
     @mixin #{$rwd}\:outline-inherit {
       @include outline-color(inherit, $#{$rwd});
@@ -291,7 +288,6 @@ $OutlineColor: (
     }
     x*/
     @each $key, $value in $OutlineColor {
-
       /*x
       @mixin #{$rwd}\:outline-#{$key} {
         @include outline-color(#{$value}, $#{$rwd});
@@ -311,7 +307,6 @@ $OutlineColor: (
 }
 
 @if $isCustom {
-
   /*x
   @mixin outline-($v) {
     @if meta.type-of($v)==color or list.index(inherit currentColor transparent, $v) {
@@ -332,7 +327,6 @@ $OutlineColor: (
   }
 
   @each $rwd in $rwdBox {
-
     /*x
     @mixin #{$rwd}\:outline-($v) {
       @if meta.type-of($v)==color or list.index(inherit currentColor transparent, $v) {
