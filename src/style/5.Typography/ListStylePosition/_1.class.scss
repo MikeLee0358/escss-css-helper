@@ -5,7 +5,7 @@ $ListStylePosition: (
   'list-outside': outside,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $ListStylePosition {
     /*x
     @mixin #{$key}{
@@ -15,7 +15,7 @@ $ListStylePosition: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $ListStylePosition {
       /*x

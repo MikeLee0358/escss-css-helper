@@ -7,7 +7,7 @@ $GridAutoRows: (
   'auto-rows-fr': minmax(0, 1fr),
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $GridAutoRows {
     /*x
     @mixin #{$key} {
@@ -17,7 +17,7 @@ $GridAutoRows: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $GridAutoRows {
       /*x
@@ -29,7 +29,7 @@ $GridAutoRows: (
   }
 }
 
-@if $Custom {
+@if $isCustom {
   /*x
   @mixin auto-rows-($v) {
     @include grid-auto-rows($v);

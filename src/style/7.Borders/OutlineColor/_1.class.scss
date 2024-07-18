@@ -248,7 +248,7 @@ $OutlineColor: (
   'rose-950': '$rose-950',
 );
 
-@if $Basic {
+@if $isBasic {
   /*x
   @mixin outline-inherit {
     @include outline-color(inherit);
@@ -271,7 +271,7 @@ $OutlineColor: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     /*x
     @mixin #{$rwd}\:outline-inherit {

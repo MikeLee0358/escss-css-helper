@@ -21,7 +21,7 @@ $MixBlendMode: (
   'mix-blend-plus-lighter': plus-lighter,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $MixBlendMode {
     /*x
     @mixin #{$key}{
@@ -31,7 +31,7 @@ $MixBlendMode: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $MixBlendMode {
       /*x

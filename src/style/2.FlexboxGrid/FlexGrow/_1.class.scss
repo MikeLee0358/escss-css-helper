@@ -5,7 +5,7 @@ $FlexGrow: (
   'grow-0': 0,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $FlexGrow {
     /*x
     @mixin #{$key} {
@@ -15,7 +15,7 @@ $FlexGrow: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $FlexGrow {
       /*x
@@ -27,7 +27,7 @@ $FlexGrow: (
   }
 }
 
-@if $Custom {
+@if $isCustom {
   /*x
   @mixin grow-($v) {
     @include flex-grow($v);

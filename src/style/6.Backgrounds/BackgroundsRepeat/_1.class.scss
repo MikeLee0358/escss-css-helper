@@ -9,7 +9,7 @@ $BackgroundsRepeat: (
   'bg-repeat-space': space,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $BackgroundsRepeat {
     /*x
     @mixin #{$key}{
@@ -19,7 +19,7 @@ $BackgroundsRepeat: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $BackgroundsRepeat {
       /*x

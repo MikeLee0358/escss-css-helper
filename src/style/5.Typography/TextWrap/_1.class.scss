@@ -7,7 +7,7 @@ $TextWrap: (
   'text-pretty': pretty,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $TextWrap {
     /*x
     @mixin #{$key}{
@@ -17,7 +17,7 @@ $TextWrap: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $TextWrap {
       /*x

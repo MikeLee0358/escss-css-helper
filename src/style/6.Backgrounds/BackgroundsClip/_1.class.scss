@@ -7,7 +7,7 @@ $BackgroundsClip: (
   'bg-clip-text': text,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $BackgroundsClip {
     /*x
     @mixin #{$key}{
@@ -17,7 +17,7 @@ $BackgroundsClip: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $BackgroundsClip {
       /*x

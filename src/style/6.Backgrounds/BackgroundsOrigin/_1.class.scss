@@ -6,7 +6,7 @@ $BackgroundsOrigin: (
   'bg-origin-content': content-box,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $BackgroundsOrigin {
     /*x
     @mixin #{$key}{
@@ -16,7 +16,7 @@ $BackgroundsOrigin: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $BackgroundsOrigin {
       /*x

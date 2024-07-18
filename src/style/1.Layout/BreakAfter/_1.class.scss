@@ -11,7 +11,7 @@ $BreakAfter: (
   'break-after-column': column,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $BreakAfter {
     /*x
     @mixin #{$key} {
@@ -21,7 +21,7 @@ $BreakAfter: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $BreakAfter {
       /*x

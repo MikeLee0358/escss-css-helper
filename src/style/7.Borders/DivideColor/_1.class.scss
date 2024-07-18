@@ -247,7 +247,7 @@ $DivideColor: (
   'rose-950': '$rose-950',
 );
 
-@if $Basic {
+@if $isBasic {
   /*x
   @mixin divide-inherit {
     > * ~ * {  
@@ -278,7 +278,7 @@ $DivideColor: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     /*x
     @mixin #{$rwd}\:divide-inherit {
@@ -311,7 +311,7 @@ $DivideColor: (
   }
 }
 
-@if $Custom {
+@if $isCustom {
   /*x
   @mixin divide-($v) {
     > * ~ * {

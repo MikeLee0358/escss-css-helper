@@ -13,7 +13,7 @@ $Scale: (
   '150': 1.5,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $Scale {
     /*x
     @mixin scale-#{$key} {
@@ -52,7 +52,7 @@ $Scale: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $Scale {
       /*x
@@ -93,7 +93,7 @@ $Scale: (
   }
 }
 
-@if $Custom {
+@if $isCustom {
   /*x
   @mixin scale-($v) {
     $tw-scale-x: $v !global;

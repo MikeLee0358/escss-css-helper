@@ -22,7 +22,7 @@ $TextOverflow: (
   ),
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $TextOverflow {
     /*x 
     @mixin #{$key} {
@@ -34,7 +34,7 @@ $TextOverflow: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $TextOverflow {
       /*x

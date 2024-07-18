@@ -248,7 +248,7 @@ $BorderColor: (
   'rose-950': '$rose-950',
 );
 
-@if $Basic {
+@if $isBasic {
   /*x
   @mixin border-inherit {
     @include border-color(inherit);
@@ -271,7 +271,7 @@ $BorderColor: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     /*x
     @mixin #{$rwd}\:border-inherit {

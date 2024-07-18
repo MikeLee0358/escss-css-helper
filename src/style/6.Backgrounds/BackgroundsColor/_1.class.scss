@@ -248,7 +248,7 @@ $BackgroundsColor: (
   'rose-950': '$rose-950',
 );
 
-@if $Basic {
+@if $isBasic {
   /*x
   @mixin bg-inherit {
     @include background-color(inherit);
@@ -271,7 +271,7 @@ $BackgroundsColor: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     /*x
     @mixin #{$rwd}\:bg-inherit {

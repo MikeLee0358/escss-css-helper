@@ -9,7 +9,7 @@ $BackdropHueRotate: (
   'backdrop-hue-rotate-180': 180deg,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $BackdropHueRotate {
     /*x
     @mixin #{$key} {
@@ -26,7 +26,7 @@ $BackdropHueRotate: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $BackdropHueRotate {
       /*x
@@ -45,7 +45,7 @@ $BackdropHueRotate: (
   }
 }
 
-@if $Custom {
+@if $isCustom {
   /*x
   @mixin backdrop-hue-rotate-($v) {
     $tw-backdrop-hue-rotate: hue-rotate($v) !global;

@@ -45,7 +45,7 @@ $Translate: (
   'full': 100%,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $Translate {
     /*x
     @mixin translate-x-#{$key} {
@@ -72,7 +72,7 @@ $Translate: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $Translate {
       /*x
@@ -101,7 +101,7 @@ $Translate: (
   }
 }
 
-@if $Custom {
+@if $isCustom {
   /*x
   @mixin translate-x-($v) {
     $tw-translate-x: $v !global;

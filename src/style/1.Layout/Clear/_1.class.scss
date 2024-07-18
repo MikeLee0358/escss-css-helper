@@ -9,7 +9,7 @@ $Clear: (
   'clear-none': none,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $Clear {
     /*x
     @mixin #{$key} {
@@ -19,7 +19,7 @@ $Clear: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $Clear {
       /*x

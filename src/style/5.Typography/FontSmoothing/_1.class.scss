@@ -14,7 +14,7 @@ $FontSmoothing: (
   ),
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $FontSmoothing {
     /*x
     @mixin #{$key} {
@@ -25,7 +25,7 @@ $FontSmoothing: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $FontSmoothing {
       /*x

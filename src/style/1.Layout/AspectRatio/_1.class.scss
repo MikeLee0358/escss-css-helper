@@ -6,7 +6,7 @@ $AspectRatio: (
   'aspect-video': '#/*x{16 / 9}',
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $AspectRatio {
     /*x
     @mixin #{$key} {
@@ -24,7 +24,7 @@ $AspectRatio: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $AspectRatio {
       /*x
@@ -44,7 +44,7 @@ $AspectRatio: (
   }
 }
 
-@if $Custom {
+@if $isCustom {
   /*x
   @mixin aspect-($v) {
     @include aspect-ratio($v);

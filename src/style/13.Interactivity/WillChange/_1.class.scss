@@ -7,7 +7,7 @@ $WillChange: (
   'will-change-transform': transform,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $WillChange {
     /*x
     @mixin #{$key} {
@@ -17,7 +17,7 @@ $WillChange: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $WillChange {
       /*x
@@ -29,7 +29,7 @@ $WillChange: (
   }
 }
 
-@if $Custom {
+@if $isCustom {
   /*x
   @mixin will-change-($v, $v2: null) {
     @include will-change($v, $v2);

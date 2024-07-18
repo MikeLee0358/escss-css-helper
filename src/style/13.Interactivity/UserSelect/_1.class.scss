@@ -7,7 +7,7 @@ $UserSelect: (
   'select-auto': auto,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $UserSelect {
     /*x
     @mixin #{$key} {
@@ -17,7 +17,7 @@ $UserSelect: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $UserSelect {
       /*x

@@ -7,7 +7,7 @@ $TextDecoration: (
   'no-underline': none,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $TextDecoration {
     /*x
     @mixin #{$key}{
@@ -17,7 +17,7 @@ $TextDecoration: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $TextDecoration {
       /*x

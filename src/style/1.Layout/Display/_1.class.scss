@@ -24,7 +24,7 @@ $Display: (
   'hidden': none,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $Display {
     /*x
     @mixin #{$key} {
@@ -34,7 +34,7 @@ $Display: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $Display {
       /*x

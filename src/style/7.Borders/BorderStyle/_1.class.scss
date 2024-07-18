@@ -9,7 +9,7 @@ $BorderStyle: (
   'border-none': none,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $BorderStyle {
     /*x
     @mixin #{$key}{
@@ -19,7 +19,7 @@ $BorderStyle: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $BorderStyle {
       /*x

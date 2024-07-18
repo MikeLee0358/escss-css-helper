@@ -7,7 +7,7 @@ $Resize: (
   'resize': both,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $Resize {
     /*x
     @mixin #{$key} {
@@ -17,7 +17,7 @@ $Resize: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $Resize {
       /*x

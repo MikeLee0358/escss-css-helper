@@ -51,7 +51,7 @@ $GridRowStartEnd3: (
   'row-end-auto': auto,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $GridRowStartEnd {
     /*x
     @mixin #{$key} {
@@ -77,7 +77,7 @@ $GridRowStartEnd3: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $GridRowStartEnd {
       /*x
@@ -105,7 +105,7 @@ $GridRowStartEnd3: (
   }
 }
 
-@if $Custom {
+@if $isCustom {
   /*x
   @mixin row-($v) {
     @include grid-row($v);

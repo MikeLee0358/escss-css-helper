@@ -13,7 +13,7 @@ $TouchAction: (
   'touch-manipulation': manipulation,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $TouchAction {
     /*x
     @mixin #{$key} {
@@ -23,7 +23,7 @@ $TouchAction: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $TouchAction {
       /*x

@@ -7,7 +7,7 @@ $BreakInside: (
   'break-inside-avoid-column': avoid-column,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $BreakInside {
     /*x
     @mixin #{$key} {
@@ -17,7 +17,7 @@ $BreakInside: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $BreakInside {
       /*x

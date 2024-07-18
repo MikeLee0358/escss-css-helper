@@ -18,7 +18,7 @@ $OverscrollBehavior3: (
   'overscroll-y-none': none,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $OverscrollBehavior {
     /*x
     @mixin #{$key} {
@@ -44,7 +44,7 @@ $OverscrollBehavior3: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $OverscrollBehavior {
       /*x

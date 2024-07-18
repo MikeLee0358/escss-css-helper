@@ -248,7 +248,7 @@ $Stroke: (
   'rose-950': '$rose-950',
 );
 
-@if $Basic {
+@if $isBasic {
   /*x
   @mixin stroke-none {
     @include stroke(none);
@@ -275,7 +275,7 @@ $Stroke: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     /*x
     @mixin stroke-none {

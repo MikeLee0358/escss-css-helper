@@ -10,7 +10,7 @@ $ScrollSnapType: (
   'snap-proximity': proximity,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $ScrollSnapType {
     @if list.index('snap-none', $key) {
       /*x
@@ -39,7 +39,7 @@ $ScrollSnapType: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $ScrollSnapType {
       @if list.index('snap-none', $key) {

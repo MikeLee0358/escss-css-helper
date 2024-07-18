@@ -7,7 +7,7 @@ $FlexDirection: (
   'flex-col-reverse': column-reverse,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $FlexDirection {
     /*x
     @mixin #{$key} {
@@ -17,7 +17,7 @@ $FlexDirection: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $FlexDirection {
       /*x

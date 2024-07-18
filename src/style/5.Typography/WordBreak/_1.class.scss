@@ -22,7 +22,7 @@ $WordBreak: (
   ),
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $WordBreak {
     /*x
     @mixin #{$key} {
@@ -33,7 +33,7 @@ $WordBreak: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $WordBreak {
       /*x

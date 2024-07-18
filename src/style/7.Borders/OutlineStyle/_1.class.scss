@@ -32,7 +32,7 @@ $OutlineStyle: (
   ),
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $OutlineStyle {
     /*x
     @mixin #{$key} {
@@ -44,7 +44,7 @@ $OutlineStyle: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $OutlineStyle {
       /*x

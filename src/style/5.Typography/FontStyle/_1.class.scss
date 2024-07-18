@@ -5,7 +5,7 @@ $FontStyle: (
   'not-italic': normal,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $FontStyle {
     /*x
     @mixin #{$key} {
@@ -15,7 +15,7 @@ $FontStyle: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $FontStyle {
       /*x

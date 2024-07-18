@@ -6,7 +6,7 @@ $FlexWrap: (
   'flex-nowrap': nowrap,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $FlexWrap {
     /*x
     @mixin #{$key} {
@@ -16,7 +16,7 @@ $FlexWrap: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $FlexWrap {
       /*x

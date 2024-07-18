@@ -38,7 +38,7 @@ $ScrollMargin: (
   '96': '$\\96',
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $ScrollMargin {
     /*x
     @mixin scroll-m-#{$key} {
@@ -121,7 +121,7 @@ $ScrollMargin: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $ScrollMargin {
       /*x
@@ -214,7 +214,7 @@ $ScrollMargin: (
   }
 }
 
-@if $Custom {
+@if $isCustom {
   /*x
   @mixin scroll-m-($v) {
     @include scroll-margin($v);

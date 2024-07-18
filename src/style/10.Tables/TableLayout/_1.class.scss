@@ -5,7 +5,7 @@ $TableLayout: (
   'table-fixed': fixed,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $TableLayout {
     /*x
     @mixin #{$key} {
@@ -15,7 +15,7 @@ $TableLayout: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $TableLayout {
       /*x

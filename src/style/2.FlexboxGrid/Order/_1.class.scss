@@ -18,7 +18,7 @@ $Order: (
   'order-none': 0,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $Order {
     /*x
   @mixin #{$key} {
@@ -33,7 +33,7 @@ $Order: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $Order {
       /*x
@@ -50,7 +50,7 @@ $Order: (
   }
 }
 
-@if $Custom {
+@if $isCustom {
   /*x
   @mixin order-($v) {
     @include order($v);

@@ -7,7 +7,7 @@ $JustifyItems: (
   'justify-items-stretch': stretch,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $JustifyItems {
     /*x
     @mixin #{$key} {
@@ -17,7 +17,7 @@ $JustifyItems: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $JustifyItems {
       /*x

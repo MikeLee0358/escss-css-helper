@@ -12,7 +12,7 @@ $ObjectPosition: (
   'object-top': top,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $ObjectPosition {
     /*x
     @mixin #{$key} {
@@ -22,7 +22,7 @@ $ObjectPosition: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $ObjectPosition {
       /*x
@@ -34,7 +34,7 @@ $ObjectPosition: (
   }
 }
 
-@if $Custom {
+@if $isCustom {
   /*x
   @mixin object-($v) {
     @include object-position($v);

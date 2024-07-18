@@ -9,7 +9,7 @@ $AlignSelf: (
   'self-baseline': baseline,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $AlignSelf {
     /*x
     @mixin #{$key} {
@@ -19,7 +19,7 @@ $AlignSelf: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $AlignSelf {
       /*x

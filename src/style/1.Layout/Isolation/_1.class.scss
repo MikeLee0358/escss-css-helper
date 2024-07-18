@@ -5,7 +5,7 @@ $Isolation: (
   'isolation-auto': auto,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $Isolation {
     /*x
     @mixin #{$key} {
@@ -15,7 +15,7 @@ $Isolation: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $Isolation {
       /*x

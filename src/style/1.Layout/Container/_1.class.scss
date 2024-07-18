@@ -12,7 +12,7 @@ $Container: (
   ),
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $Container {
     /*x
     @mixin #{$key} {
@@ -28,7 +28,7 @@ $Container: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $Container {
       /*x

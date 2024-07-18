@@ -5,7 +5,7 @@ $Sepia: (
   'sepia': sepia(100%),
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $Sepia {
     /*x
     @mixin #{$key} {
@@ -16,7 +16,7 @@ $Sepia: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $Sepia {
       /*x
@@ -29,7 +29,7 @@ $Sepia: (
   }
 }
 
-@if $Custom {
+@if $isCustom {
   /*x
   @mixin sepia-($v) {
     $tw-sepia: sepia($v) !global;

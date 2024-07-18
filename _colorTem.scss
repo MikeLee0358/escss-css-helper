@@ -1,6 +1,7 @@
 @use '../../setting' as *;
 
-$Fill: (
+$AccentColor: (
+  'transparent': transparent,
   'black': '$black',
   'white': '$white',
   'slate-50': '$slate-50',
@@ -248,73 +249,101 @@ $Fill: (
 );
 
 @if $isBasic {
+
   /*x
-  @mixin fill-none {
-    @include fill(none);
+  @mixin accent-auto {
+    @include accent-color(auto);
   }
 
-  @mixin fill-inherit {
-    @include fill(inherit);
+  @mixin accent-inherit {
+    @include accent-color(inherit);
   }
 
-  @mixin fill-current {
-    @include fill(currentColor);
-  }
-
-  @mixin fill-transparent {
-    @include fill(transparent);
+  @mixin accent-current {
+    @include accent-color(currentColor);
   }
   x*/
-  @each $key, $value in $Fill {
+  @each $key, $value in $AccentColor {
+
     /*x
-    @mixin fill-#{$key}($v: 1) {
-      @include fill(c(#{$value}, $v));
+    @mixin accent-#{$key} {
+      @include accent-color(#{$value});
     }
     x*/
+    @if $isVanilla {
+      @each $opacityKey, $opacityValue in $opacityColor {
+        /*x
+        @mixin accent-#{$key}\/#{$opacityKey} {
+          @include accent-color(c(#{$value}, #{$opacityValue}));
+        }
+        x*/
+      }
+    }
   }
 }
 
 @if $isRwd {
   @each $rwd in $rwdBox {
     /*x
-    @mixin fill-none {
-      @include fill(none);
+      @mixin #{$rwd}\:accent-auto {
+      @include accent-color(auto, $#{$rwd});
     }
 
-    @mixin #{$rwd}\:fill-inherit {
-      @include fill(inherit, $#{$rwd});
+    @mixin #{$rwd}\:accent-inherit {
+      @include accent-color(inherit, $#{$rwd});
     }
 
-    @mixin #{$rwd}\:fill-current {
-      @include fill(currentColor, $#{$rwd});
-    }
-
-    @mixin #{$rwd}\:fill-transparent {
-      @include fill(transparent, $#{$rwd});
+    @mixin #{$rwd}\:accent-current {
+      @include accent-color(currentColor, $#{$rwd});
     }
     x*/
-    @each $key, $value in $Fill {
+    @each $key, $value in $AccentColor {
       /*x
-      @mixin #{$rwd}\:fill-#{$key}($v: 1) {
-        @include fill(c(#{$value}, $v), $#{$rwd});
+      @mixin #{$rwd}\:accent-#{$key} {
+        @include accent-color(#{$value}, $#{$rwd});
       }
       x*/
+      @if $Origin {
+        @each $opacityKey, $opacityValue in $opacityColor {
+          /*x
+          @mixin #{$rwd}\:accent-#{$key}\/#{$opacityKey} {
+            @include accent-color(c(#{$value}, #{$opacityValue}), $#{$rwd});
+          }
+          x*/
+        }
+      }
     }
   }
 }
 
 @if $isCustom {
+
   /*x
-  @mixin fill-($v) {
-    @include fill($v);
+  @mixin accent-($v) {
+    @include accent-color($v);
   }
   x*/
-
-  @each $rwd in $rwdBox {
+  @each $key, $value in $AccentColor {
     /*x
-    @mixin #{$rwd}\:fill-($v) {
-      @include fill($v, $#{$rwd});
+    @mixin accent-#{$key}\/($v) {
+      @include accent-color(c(#{$value}, $v));
     }
     x*/
+  }
+
+  @each $rwd in $rwdBox {
+
+    /*x
+    @mixin #{$rwd}\:accent-($v) {
+      @include accent-color($v, $#{$rwd});
+    }
+    x*/
+    @each $key, $value in $AccentColor {
+      /*x
+      @mixin #{$rwd}\:accent-#{$key}\/($v) {
+        @include accent-color(c(#{$value}, $v), $#{$rwd});
+      }
+      x*/
+    }
   }
 }

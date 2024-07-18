@@ -50,7 +50,7 @@ $LineClamp: (
   ),
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $LineClamp {
     /*x
     @mixin #{$key} {
@@ -63,7 +63,7 @@ $LineClamp: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $LineClamp {
       /*x
@@ -80,7 +80,7 @@ $LineClamp: (
   }
 }
 
-@if $Custom {
+@if $isCustom {
   /*x
   @mixin line-clamp-($v) {
     @include overflow(hidden);

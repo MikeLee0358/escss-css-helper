@@ -5,7 +5,7 @@ $PointerEvents: (
   'pointer-events-auto': auto,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $PointerEvents {
     /*x
     @mixin #{$key} {
@@ -15,7 +15,7 @@ $PointerEvents: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $PointerEvents {
       /*x

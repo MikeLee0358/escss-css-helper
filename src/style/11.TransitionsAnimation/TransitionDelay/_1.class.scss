@@ -12,7 +12,7 @@ $TransitionDelay: (
   'delay-1000': 1000ms,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $TransitionDelay {
     /*x
     @mixin #{$key} {
@@ -22,7 +22,7 @@ $TransitionDelay: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $TransitionDelay {
       /*x
@@ -34,7 +34,7 @@ $TransitionDelay: (
   }
 }
 
-@if $Custom {
+@if $isCustom {
   /*x
   @mixin delay-($v) {
     @include transition-delay($v);

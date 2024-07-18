@@ -247,7 +247,7 @@ $CaretColor: (
   'rose-950': '$rose-950',
 );
 
-@if $Basic {
+@if $isBasic {
   /*x
   @mixin caret-inherit {
     @include caret-color(inherit);
@@ -270,7 +270,7 @@ $CaretColor: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     /*x
     @mixin #{$rwd}\:caret-inherit {
@@ -295,7 +295,7 @@ $CaretColor: (
   }
 }
 
-@if $Custom {
+@if $isCustom {
   /*x
   @mixin caret-($v) {
     @include caret-color($v);

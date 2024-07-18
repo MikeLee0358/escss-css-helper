@@ -60,7 +60,7 @@ $MaxWidth: (
   'screen-2xl': '$\\2xl',
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $MaxWidth {
     /*x
     @mixin max-w-#{$key} {
@@ -70,7 +70,7 @@ $MaxWidth: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $MaxWidth {
       /*x
@@ -82,7 +82,7 @@ $MaxWidth: (
   }
 }
 
-@if $Custom {
+@if $isCustom {
   /*x
   @mixin max-w-($v) {
     @include max-width($v);

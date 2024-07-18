@@ -39,7 +39,7 @@ $Margin: (
   'auto': auto,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $Margin {
     /*x
     @mixin m-#{$key} {
@@ -122,7 +122,7 @@ $Margin: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $Margin {
       /*x
@@ -215,7 +215,7 @@ $Margin: (
   }
 }
 
-@if $Custom {
+@if $isCustom {
   /*x
   @mixin m-($v) {
     @include margin($v);

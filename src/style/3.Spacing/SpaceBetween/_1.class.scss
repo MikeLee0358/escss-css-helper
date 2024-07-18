@@ -38,7 +38,7 @@ $SpaceBetween: (
   '96': '$\\96',
 );
 
-@if $Basic {
+@if $isBasic {
   /*x
   @mixin space-x-reverse {
     $tw-space-x-reverse: 1 !global;
@@ -119,7 +119,7 @@ $SpaceBetween: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     /*x
     @mixin #{$rwd}\:space-x-reverse {
@@ -218,7 +218,7 @@ $SpaceBetween: (
   }
 }
 
-@if $Custom {
+@if $isCustom {
   /*x
   @mixin space-x-($v) {
     $tw-dummy-space-x-value: $v !global; // update value when using reverse

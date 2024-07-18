@@ -248,7 +248,7 @@ $TextDecorationColor: (
   'rose-950': '$rose-950',
 );
 
-@if $Basic {
+@if $isBasic {
   /*x
   @mixin decoration-inherit {
     @include text-decoration-color(inherit);
@@ -271,7 +271,7 @@ $TextDecorationColor: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     /*x
     @mixin #{$rwd}\:decoration-inherit {

@@ -19,7 +19,7 @@ $BackgroundsBlendMode: (
   'bg-blend-luminosity': luminosity,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $BackgroundsBlendMode {
     /*x
     @mixin #{$key}{
@@ -29,7 +29,7 @@ $BackgroundsBlendMode: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $BackgroundsBlendMode {
       /*x

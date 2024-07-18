@@ -247,7 +247,7 @@ $AccentColor: (
   'rose-950': '$rose-950',
 );
 
-@if $Basic {
+@if $isBasic {
   /*x
   @mixin accent-auto {
     accent-color: auto;
@@ -274,7 +274,7 @@ $AccentColor: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     /*x
     @mixin #{$rwd}\:accent-auto {
@@ -303,7 +303,7 @@ $AccentColor: (
   }
 }
 
-@if $Custom {
+@if $isCustom {
   /*x
   @mixin accent-($v) {
     @include accent-color($v);

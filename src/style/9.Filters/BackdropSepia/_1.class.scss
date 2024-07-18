@@ -5,7 +5,7 @@ $BackdropSepia: (
   'backdrop-sepia': sepia(100%),
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $BackdropSepia {
     /*x
     @mixin #{$key} {
@@ -16,7 +16,7 @@ $BackdropSepia: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $BackdropSepia {
       /*x
@@ -29,7 +29,7 @@ $BackdropSepia: (
   }
 }
 
-@if $Custom {
+@if $isCustom {
   /*x
   @mixin backdrop-sepia-($v) {
     $tw-backdrop-sepia: sepia($v) !global;

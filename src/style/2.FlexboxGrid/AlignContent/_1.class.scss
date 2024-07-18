@@ -12,7 +12,7 @@ $AlignContent: (
   'content-stretch': stretch,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $AlignContent {
     /*x
     @mixin #{$key} {
@@ -22,7 +22,7 @@ $AlignContent: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $AlignContent {
       /*x

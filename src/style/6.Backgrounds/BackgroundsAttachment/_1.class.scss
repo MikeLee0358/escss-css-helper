@@ -6,7 +6,7 @@ $BackgroundsAttachment: (
   'bg-scroll': scroll,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $BackgroundsAttachment {
     /*x
     @mixin #{$key}{
@@ -16,7 +16,7 @@ $BackgroundsAttachment: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $BackgroundsAttachment {
       /*x

@@ -5,7 +5,7 @@ $Appearance: (
   'appearance-auto': auto,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $Appearance {
     /*x
     @mixin #{$key} {
@@ -15,7 +15,7 @@ $Appearance: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $Appearance {
       /*x

@@ -8,7 +8,7 @@ $JustifySelf: (
   'justify-self-stretch': stretch,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $JustifySelf {
     /*x
     @mixin #{$key} {
@@ -18,7 +18,7 @@ $JustifySelf: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $JustifySelf {
       /*x

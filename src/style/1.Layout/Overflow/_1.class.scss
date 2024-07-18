@@ -24,7 +24,7 @@ $Overflow3: (
   'overflow-y-scroll': scroll,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $Overflow {
     /*x
     @mixin #{$key} {
@@ -50,7 +50,7 @@ $Overflow3: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $Overflow {
       /*x

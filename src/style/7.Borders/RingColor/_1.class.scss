@@ -248,7 +248,7 @@ $RingColor: (
   'rose-950': '$rose-950',
 );
 
-@if $Basic {
+@if $isBasic {
   /*x
   @mixin ring-inherit {
     $tw-ring-color: inherit !global;
@@ -275,7 +275,7 @@ $RingColor: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     /*x
     @mixin #{$rwd}\:ring-inherit {

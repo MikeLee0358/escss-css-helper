@@ -12,7 +12,7 @@ $TransitionDuration: (
   'duration-1000': 1000ms,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $TransitionDuration {
     /*x
     @mixin #{$key} {
@@ -22,7 +22,7 @@ $TransitionDuration: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $TransitionDuration {
       /*x
@@ -34,7 +34,7 @@ $TransitionDuration: (
   }
 }
 
-@if $Custom {
+@if $isCustom {
   /*x
   @mixin duration-($v) {
     @include transition-duration($v);

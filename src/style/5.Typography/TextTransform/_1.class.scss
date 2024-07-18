@@ -7,7 +7,7 @@ $TextTransform: (
   'normal-case': none,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $TextTransform {
     /*x
     @mixin #{$key}{
@@ -17,7 +17,7 @@ $TextTransform: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $TextTransform {
       /*x

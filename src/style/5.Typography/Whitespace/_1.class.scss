@@ -9,7 +9,7 @@ $WhiteSpace: (
   'whitespace-break-spaces': break-spaces,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $WhiteSpace {
     /*x
     @mixin #{$key}{
@@ -19,7 +19,7 @@ $WhiteSpace: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $WhiteSpace {
       /*x

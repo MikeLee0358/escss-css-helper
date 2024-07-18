@@ -6,7 +6,7 @@ $Visibility: (
   'collapse': collapse,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $Visibility {
     /*x
     @mixin #{$key} {
@@ -16,7 +16,7 @@ $Visibility: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $Visibility {
       /*x

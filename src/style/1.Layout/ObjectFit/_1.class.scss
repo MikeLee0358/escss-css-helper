@@ -8,7 +8,7 @@ $ObjectFit: (
   'object-scale-down': scale-down,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $ObjectFit {
     /*x
     @mixin #{$key} {
@@ -18,7 +18,7 @@ $ObjectFit: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $ObjectFit {
       /*x

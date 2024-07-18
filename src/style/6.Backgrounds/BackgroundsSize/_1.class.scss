@@ -6,7 +6,7 @@ $BackgroundsSize: (
   'bg-contain': contain,
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $BackgroundsSize {
     /*x
     @mixin #{$key} {
@@ -16,7 +16,7 @@ $BackgroundsSize: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $BackgroundsSize {
       /*x
@@ -28,7 +28,7 @@ $BackgroundsSize: (
   }
 }
 
-@if $Custom {
+@if $isCustom {
   /*x
   @mixin bg-($v) {
     @if meta.type-of($v)==color or list.index(inherit currentColor transparent, $v) {

@@ -271,7 +271,7 @@ $GradientColorStops2: (
   '100\\%': 100%,
 );
 
-@if $Basic {
+@if $isBasic {
   /*x
   @mixin from-inherit {
     @include background-image(inherit !important);
@@ -355,7 +355,7 @@ $GradientColorStops2: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     /*x
     @mixin #{$rwd}\:from-inherit {
@@ -440,7 +440,7 @@ $GradientColorStops2: (
   }
 }
 
-@if $Custom {
+@if $isCustom {
   /*x
   @mixin from-($v) {
     @if list.index(inherit, $v) {

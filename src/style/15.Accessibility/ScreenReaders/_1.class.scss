@@ -35,7 +35,7 @@ $ScreenReaders: (
   ),
 );
 
-@if $Basic {
+@if $isBasic {
   @each $key, $value in $ScreenReaders {
     /*x
     @mixin #{$key} {
@@ -53,7 +53,7 @@ $ScreenReaders: (
   }
 }
 
-@if $Breakpoint {
+@if $isRwd {
   @each $rwd in $rwdBox {
     @each $key, $value in $ScreenReaders {
       /*x
