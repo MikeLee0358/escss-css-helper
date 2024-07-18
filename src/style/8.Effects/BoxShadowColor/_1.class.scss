@@ -258,7 +258,7 @@ $BoxShadowColor: (
 
   @mixin shadow-current {
     $tw-dummy-not-match--shadow-color: true !global;
-    $tw-shadow-color: current !global;
+    $tw-shadow-color: currentColor !global;
     @include box-shadow(get_box-shadow());
   }
   x*/
@@ -293,7 +293,7 @@ $BoxShadowColor: (
 
     @mixin #{$rwd}\:shadow-current {
       $tw-dummy-not-match--shadow-color: true !global;
-      $tw-shadow-color: current !global;
+      $tw-shadow-color: currentColor !global;
       @include box-shadow(get_box-shadow(), $#{$rwd});
     }
     x*/
