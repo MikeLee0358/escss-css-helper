@@ -4,7 +4,7 @@ $group-from: true;
 $group-via: true;
 $group-to: true;
 
-$GradientColorStops: (
+$GradientColorStops-color: (
   'transparent': transparent,
   'black': '$black',
   'white': '$white',
@@ -252,7 +252,7 @@ $GradientColorStops: (
   'rose-950': '$rose-950',
 );
 
-$GradientColorStops2: (
+$GradientColorStops-position: (
   '0\\%': 0%,
   '5\\%': 5%,
   '10\\%': 10%,
@@ -288,7 +288,7 @@ $GradientColorStops2: (
       @include background-image(get_linear-gradient());
     }
     x*/
-    @each $key, $value in $GradientColorStops {
+    @each $key, $value in $GradientColorStops-color {
       /*x
       @mixin from-#{$key} {
         $tw-gradient-from: #{$value} !global;
@@ -307,7 +307,7 @@ $GradientColorStops2: (
       }
     }
 
-    @each $key, $value in $GradientColorStops2 {
+    @each $key, $value in $GradientColorStops-position {
       /*x
       @mixin from-#{$key} {
         $tw-gradient-from-position: #{$value} !global;
@@ -328,7 +328,7 @@ $GradientColorStops2: (
       @include background-image(get_linear-gradient());
     }
     x*/
-    @each $key, $value in $GradientColorStops {
+    @each $key, $value in $GradientColorStops-color {
       /*x
       @mixin via-#{$key} {
         $tw-gradient-via: #{$value} !global;
@@ -347,7 +347,7 @@ $GradientColorStops2: (
       }
     }
 
-    @each $key, $value in $GradientColorStops2 {
+    @each $key, $value in $GradientColorStops-position {
       /*x
       @mixin via-#{$key} {
         $tw-gradient-via-position: #{$value} !global;
@@ -368,7 +368,7 @@ $GradientColorStops2: (
       @include background-image(get_linear-gradient());
     }
     x*/
-    @each $key, $value in $GradientColorStops {
+    @each $key, $value in $GradientColorStops-color {
       /*x
       @mixin to-#{$key} {
         $tw-gradient-to: #{$value} !global;
@@ -387,7 +387,7 @@ $GradientColorStops2: (
       }
     }
 
-    @each $key, $value in $GradientColorStops2 {
+    @each $key, $value in $GradientColorStops-position {
       /*x
       @mixin to-#{$key} {
         $tw-gradient-to-position: #{$value} !global;
@@ -411,7 +411,7 @@ $GradientColorStops2: (
         @include background-image(get_linear-gradient(), $#{$rwd});
       }
       x*/
-      @each $key, $value in $GradientColorStops {
+      @each $key, $value in $GradientColorStops-color {
         /*x
         @mixin #{$rwd}\:from-#{$key} {
           $tw-gradient-from: #{$value} !global;
@@ -430,7 +430,7 @@ $GradientColorStops2: (
         }
       }
 
-      @each $key, $value in $GradientColorStops2 {
+      @each $key, $value in $GradientColorStops-position {
         /*x
         @mixin #{$rwd}\:from-#{$key} {
           $tw-gradient-from-position: #{$value} !global;
@@ -451,7 +451,7 @@ $GradientColorStops2: (
         @include background-image(get_linear-gradient(), $#{$rwd});
       }
       x*/
-      @each $key, $value in $GradientColorStops {
+      @each $key, $value in $GradientColorStops-color {
         /*x
         @mixin #{$rwd}\:via-#{$key} {
           $tw-gradient-via: #{$value} !global;
@@ -470,7 +470,7 @@ $GradientColorStops2: (
         }
       }
 
-      @each $key, $value in $GradientColorStops2 {
+      @each $key, $value in $GradientColorStops-position {
         /*x
         @mixin #{$rwd}\:via-#{$key} {
           $tw-gradient-via-position: #{$value} !global;
@@ -492,7 +492,7 @@ $GradientColorStops2: (
       }
       x*/
 
-      @each $key, $value in $GradientColorStops {
+      @each $key, $value in $GradientColorStops-color {
         /*x
         @mixin #{$rwd}\:to-#{$key} {
           $tw-gradient-to: #{$value} !global;
@@ -511,7 +511,7 @@ $GradientColorStops2: (
         }
       }
 
-      @each $key, $value in $GradientColorStops2 {
+      @each $key, $value in $GradientColorStops-position {
         /*x
         @mixin #{$rwd}\:to-#{$key} {
           $tw-gradient-to-position: #{$value} !global;
@@ -542,7 +542,7 @@ $GradientColorStops2: (
       }
     }
     x*/
-    @each $key, $value in $GradientColorStops {
+    @each $key, $value in $GradientColorStops-color {
       /*x
       @mixin from-#{$key}\/($v) {
         $tw-gradient-from: c(#{$value}, $v) !global;
@@ -571,7 +571,7 @@ $GradientColorStops2: (
         }
       }
       x*/
-      @each $key, $value in $GradientColorStops {
+      @each $key, $value in $GradientColorStops-color {
         /*x
         @mixin #{$rwd}\:from-#{$key}\/($v) {
           $tw-gradient-from: c(#{$value}, $v) !global;
@@ -600,7 +600,7 @@ $GradientColorStops2: (
       }
     }
     x*/
-    @each $key, $value in $GradientColorStops {
+    @each $key, $value in $GradientColorStops-color {
       /*x
       @mixin via-#{$key}\/($v) {
         $tw-gradient-via: c(#{$value}, $v) !global;
@@ -629,7 +629,7 @@ $GradientColorStops2: (
         }
       }
       x*/
-      @each $key, $value in $GradientColorStops {
+      @each $key, $value in $GradientColorStops-color {
         /*x
         @mixin #{$rwd}\:via-#{$key}\/($v) {
           $tw-gradient-via: c(#{$value}, $v) !global;
@@ -658,7 +658,7 @@ $GradientColorStops2: (
       }
     }
     x*/
-    @each $key, $value in $GradientColorStops {
+    @each $key, $value in $GradientColorStops-color {
       /*x
       @mixin to-#{$key}\/($v) {
         $tw-gradient-to: c(#{$value}, $v) !global;
@@ -687,7 +687,7 @@ $GradientColorStops2: (
         }
       }
       x*/
-      @each $key, $value in $GradientColorStops {
+      @each $key, $value in $GradientColorStops-color {
         /*x
         @mixin #{$rwd}\:to-#{$key}\/($v) {
           $tw-gradient-to: c(#{$value}, $v) !global;
