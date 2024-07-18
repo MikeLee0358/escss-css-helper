@@ -1,5 +1,6 @@
 @use '../../setting' as *;
 
+// Custom same as @mixin outline-($v)
 $OutlineWidth: (
   'outline-0': 0px,
   'outline-1': 1px,
@@ -27,33 +28,5 @@ $OutlineWidth: (
       }
       x*/
     }
-  }
-}
-
-@if $isCustom {
-  /*x
-  @mixin outline-($v) {
-    @if meta.type-of($v)==color or list.index(inherit currentColor transparent, $v) {
-      @include outline-color($v);
-    }
-
-    @else {
-      @include outline-width($v);
-    }
-  }
-  x*/
-
-  @each $rwd in $rwdBox {
-    /*x
-    @mixin #{$rwd}\:outline-($v) {
-      @if meta.type-of($v)==color or list.index(inherit currentColor transparent, $v) {
-        @include outline-color($v, $#{$rwd});
-      }
-
-      @else {
-        @include outline-width($v, $#{$rwd});
-      }
-    }
-    x*/
   }
 }

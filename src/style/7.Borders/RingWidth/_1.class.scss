@@ -1,5 +1,6 @@
 @use '../../setting' as *;
 
+// Custom same as @mixin ring-($v)
 $RingWidth: (
   'ring-0': '0px + $tw-ring-offset-width',
   'ring-1': '1px + $tw-ring-offset-width',
@@ -58,39 +59,5 @@ $RingWidth2: (
       }
       x*/
     }
-  }
-}
-
-@if $isCustom {
-  /*x
-  @mixin ring-($v) {
-    @if meta.type-of($v)==color or list.index(inherit currentColor transparent, $v) {
-      $tw-ring-color: $v !global;
-    }
-
-    @else {
-      $tw-dummy-not-match--ring-offset-width: true !global;
-      $tw-dummy-ring-width: $v + $tw-ring-offset-width !global;
-    }
-
-    @include box-shadow(get_box-shadow());
-  }
-  x*/
-
-  @each $rwd in $rwdBox {
-    /*x
-    @mixin #{$rwd}\:ring-($v) {
-      @if meta.type-of($v)==color or list.index(inherit currentColor transparent, $v) {
-        $tw-ring-color: $v !global;
-      }
-
-      @else {
-        $tw-dummy-not-match--ring-offset-width: true !global;
-        $tw-dummy-ring-width: $v + $tw-ring-offset-width !global;
-      }
-
-      @include box-shadow(get_box-shadow(), $#{$rwd});
-    }
-    x*/
   }
 }

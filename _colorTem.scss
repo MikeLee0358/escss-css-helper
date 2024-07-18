@@ -249,7 +249,6 @@ $AccentColor: (
 );
 
 @if $isBasic {
-
   /*x
   @mixin accent-auto {
     @include accent-color(auto);
@@ -264,7 +263,6 @@ $AccentColor: (
   }
   x*/
   @each $key, $value in $AccentColor {
-
     /*x
     @mixin accent-#{$key} {
       @include accent-color(#{$value});
@@ -303,7 +301,7 @@ $AccentColor: (
         @include accent-color(#{$value}, $#{$rwd});
       }
       x*/
-      @if $Origin {
+      @if $isVanilla {
         @each $opacityKey, $opacityValue in $opacityColor {
           /*x
           @mixin #{$rwd}\:accent-#{$key}\/#{$opacityKey} {
@@ -317,7 +315,6 @@ $AccentColor: (
 }
 
 @if $isCustom {
-
   /*x
   @mixin accent-($v) {
     @include accent-color($v);
@@ -332,7 +329,6 @@ $AccentColor: (
   }
 
   @each $rwd in $rwdBox {
-
     /*x
     @mixin #{$rwd}\:accent-($v) {
       @include accent-color($v, $#{$rwd});

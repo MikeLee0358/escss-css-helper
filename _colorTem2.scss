@@ -1,6 +1,7 @@
 @use '../../setting' as *;
 
-$TextDecorationColor: (
+$AccentColor: (
+  'transparent': transparent,
   'black': '$black',
   'white': '$white',
   'slate-50': '$slate-50',
@@ -249,76 +250,88 @@ $TextDecorationColor: (
 
 @if $isBasic {
   /*x
-  @mixin decoration-inherit {
-    @include text-decoration-color(inherit);
+  @mixin accent-inherit {
+    @include accent-color(inherit);
   }
 
-  @mixin decoration-current {
-    @include text-decoration-color(currentColor);
-  }
-
-  @mixin decoration-transparent {
-    @include text-decoration-color(transparent);
+  @mixin accent-current {
+    @include accent-color(currentColor);
   }
   x*/
-  @each $key, $value in $TextDecorationColor {
+  @each $key, $value in $AccentColor {
     /*x
-    @mixin decoration-#{$key}($v: 1) {
-      @include text-decoration-color(c(#{$value}, $v));
+    @mixin accent-#{$key} {
+      @include accent-color(#{$value});
     }
     x*/
+    @if $isVanilla {
+      @each $opacityKey, $opacityValue in $opacityColor {
+        /*x
+        @mixin accent-#{$key}\/#{$opacityKey} {
+          @include accent-color(c(#{$value}, #{$opacityValue}));
+        }
+        x*/
+      }
+    }
   }
 }
 
 @if $isRwd {
   @each $rwd in $rwdBox {
     /*x
-    @mixin #{$rwd}\:decoration-inherit {
-      @include text-decoration-color(inherit, $#{$rwd});
+    @mixin #{$rwd}\:accent-inherit {
+      @include accent-color(inherit, $#{$rwd});
     }
 
-    @mixin #{$rwd}\:decoration-current {
-      @include text-decoration-color(currentColor, $#{$rwd});
-    }
-
-    @mixin #{$rwd}\:decoration-transparent {
-      @include text-decoration-color(transparent, $#{$rwd});
+    @mixin #{$rwd}\:accent-current {
+      @include accent-color(currentColor, $#{$rwd});
     }
     x*/
-    @each $key, $value in $TextDecorationColor {
+    @each $key, $value in $AccentColor {
       /*x
-      @mixin #{$rwd}\:decoration-#{$key}($v: 1) {
-        @include text-decoration-color(c(#{$value}, $v), $#{$rwd});
+      @mixin #{$rwd}\:accent-#{$key} {
+        @include accent-color(#{$value}, $#{$rwd});
       }
       x*/
+      @if $isVanilla {
+        @each $opacityKey, $opacityValue in $opacityColor {
+          /*x
+          @mixin #{$rwd}\:accent-#{$key}\/#{$opacityKey} {
+            @include accent-color(c(#{$value}, #{$opacityValue}), $#{$rwd});
+          }
+          x*/
+        }
+      }
     }
   }
 }
 
 @if $isCustom {
   /*x
-  @mixin decoration-($v) {
-    @if meta.type-of($v)==color or list.index(inherit currentColor transparent, $v) {
-      @include text-decoration-color($v);
-    }
-
-    @else {
-      @include text-decoration-thickness($v);
-    }
+  @mixin accent-($v) {
+    @include accent-color($v);
   }
   x*/
+  @each $key, $value in $AccentColor {
+    /*x
+    @mixin accent-#{$key}\/($v) {
+      @include accent-color(c(#{$value}, $v));
+    }
+    x*/
+  }
 
   @each $rwd in $rwdBox {
     /*x
-    @mixin #{$rwd}\:decoration-($v) {
-      @if meta.type-of($v)==color or list.index(inherit currentColor transparent, $v) {
-        @include text-decoration-color($v, $#{$rwd});
-      }
-
-      @else {
-        @include text-decoration-thickness($v, $#{$rwd});
-      }
+    @mixin #{$rwd}\:accent-($v) {
+      @include accent-color($v, $#{$rwd});
     }
     x*/
+    @each $key, $value in $AccentColor {
+      /*x
+      @mixin #{$rwd}\:accent-#{$key}\/($v) {
+        @include accent-color(c(#{$value}, $v), $#{$rwd});
+      }
+      x*/
+    }
   }
 }

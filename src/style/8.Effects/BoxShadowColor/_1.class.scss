@@ -1,6 +1,5 @@
 @use '../../setting' as *;
 
-// Custom same as @mixin shadow-($v)
 $BoxShadowColor: (
   'black': '$black',
   'white': '$white',
@@ -309,5 +308,67 @@ $BoxShadowColor: (
       }
       x*/
     }
+  }
+}
+
+@if $isCustom {
+  /*x
+  @mixin shadow-($v) {
+    @if meta.type-of($v)==color or list.index(inherit currentColor transparent, $v) {
+      $tw-dummy-not-match--shadow-color: true !global;
+      $tw-shadow-color: $v !global;
+    }
+
+    // custom shadow e.g shadow-(inset 0px 0px 5px 10px red)
+    @else if meta.type-of($v)==list {
+      @if $tw-dummy-not-match--shadow-color {
+        @error ("e.g.「 shadow-(0px 0px 5px 10px red) 」should go before「 shadow-sky-500 」(to have same behavior as tailwind)");
+      }
+
+      $tw-dummy-shadow-token: custom !global;
+      $tw-shadow-color: list.nth($v, -1) !global; // red
+
+      @if list.nth($v, 1)==inset {
+        $tw-dummy-shadow-width: list.set-nth($v, -1, #/*x{""}) !global; // inset 0px 0px 5px 10px
+      }
+
+      @else {
+        $tw-dummy-shadow-width: list.set-nth($v, -1, #/*x{""}) !global; // inset 0px 0px 5px 10px
+      }
+    }
+
+    @include box-shadow(get_box-shadow());
+  }
+  x*/
+
+  @each $rwd in $rwdBox {
+    /*x
+    @mixin #{$rwd}\:shadow-($v) {
+      @if meta.type-of($v)==color or list.index(inherit currentColor transparent, $v) {
+        $tw-dummy-not-match--shadow-color: true !global;
+        $tw-shadow-color: $v !global;
+      }
+
+      // custom shadow e.g shadow-(inset 0px 0px 5px 10px red)
+      @else if meta.type-of($v)==list {
+        @if $tw-dummy-not-match--shadow-color {
+          @error ("e.g.「 shadow-(0px 0px 5px 10px red) 」should go before「 shadow-sky-500 」(to have same behavior as tailwind)");
+        }
+
+        $tw-dummy-shadow-token: custom !global;
+        $tw-shadow-color: list.nth($v, -1) !global; // red
+
+        @if list.nth($v, 1)==inset {
+          $tw-dummy-shadow-width: list.set-nth($v, -1, #/*x{""}) !global; // inset 0px 0px 5px 10px
+        }
+
+        @else {
+          $tw-dummy-shadow-width: list.set-nth($v, -1, #/*x{""}) !global; // inset 0px 0px 5px 10px
+        }
+      }
+
+      @include box-shadow(get_box-shadow(), $#{$rwd});
+    }
+    x*/
   }
 }

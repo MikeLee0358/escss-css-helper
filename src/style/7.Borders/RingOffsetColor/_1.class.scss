@@ -1,6 +1,5 @@
 @use '../../setting' as *;
 
-// Custom same as @mixin ring-offset-($v)
 $RingOffsetColor: (
   'black': '$black',
   'white': '$white',
@@ -301,5 +300,45 @@ $RingOffsetColor: (
       }
       x*/
     }
+  }
+}
+
+@if $isCustom {
+  /*x
+  @mixin ring-offset-($v) {
+    @if meta.type-of($v)==color or list.index(inherit currentColor transparent, $v) {
+      $tw-ring-offset-color: $v !global;
+    }
+
+    @else {
+      @if $tw-dummy-not-match--ring-offset-width {
+        @error ("「 ring-offset-* 」should go before「 ring-* (to have same behavior as tailwind)");
+      }
+
+      $tw-ring-offset-width: $v !global;
+    }
+
+    @include box-shadow(get_box-shadow());
+  }
+  x*/
+
+  @each $rwd in $rwdBox {
+    /*x
+    @mixin #{$rwd}\:ring-offset-($v) {
+      @if meta.type-of($v)==color or list.index(inherit currentColor transparent, $v) {
+        $tw-ring-offset-color: $v !global;
+      }
+
+      @else {
+        @if $tw-dummy-not-match--ring-offset-width {
+          @error ("「 ring-offset-* 」should go before「 ring-* (to have same behavior as tailwind)");
+        }
+
+        $tw-ring-offset-width: $v !global;
+      }
+
+      @include box-shadow(get_box-shadow(), $#{$rwd});
+    }
+    x*/
   }
 }
