@@ -589,7 +589,7 @@
 
           @include expect {
             box-shadow:
-              0 0 0 0 whitesmoke,
+              0 0 0 0 #f5f5f5,
               0 0 0 0 rgba(59, 130, 246, 0.5),
               0 0 0 0 #fff;
           }
@@ -4568,7 +4568,7 @@
           @include expect {
             @media (min-width: $sm) {
               box-shadow:
-                0 0 0 0 whitesmoke,
+                0 0 0 0 #f5f5f5,
                 0 0 0 0 rgba(59, 130, 246, 0.5),
                 0 0 0 0 #fff;
             }
@@ -8960,7 +8960,7 @@
           @include expect {
             @media (min-width: $md) {
               box-shadow:
-                0 0 0 0 whitesmoke,
+                0 0 0 0 #f5f5f5,
                 0 0 0 0 rgba(59, 130, 246, 0.5),
                 0 0 0 0 #fff;
             }
@@ -13352,7 +13352,7 @@
           @include expect {
             @media (min-width: $lg) {
               box-shadow:
-                0 0 0 0 whitesmoke,
+                0 0 0 0 #f5f5f5,
                 0 0 0 0 rgba(59, 130, 246, 0.5),
                 0 0 0 0 #fff;
             }
@@ -17744,7 +17744,7 @@
           @include expect {
             @media (min-width: $xl) {
               box-shadow:
-                0 0 0 0 whitesmoke,
+                0 0 0 0 #f5f5f5,
                 0 0 0 0 rgba(59, 130, 246, 0.5),
                 0 0 0 0 #fff;
             }
@@ -22136,7 +22136,7 @@
           @include expect {
             @media (min-width: $\2xl) {
               box-shadow:
-                0 0 0 0 whitesmoke,
+                0 0 0 0 #f5f5f5,
                 0 0 0 0 rgba(59, 130, 246, 0.5),
                 0 0 0 0 #fff;
             }

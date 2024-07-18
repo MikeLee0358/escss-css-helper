@@ -58,7 +58,7 @@
 
           @include expect {
             > * ~ * {
-              border-color: black;
+              border-color: #000;
             }
           }
         }
@@ -73,7 +73,7 @@
 
           @include expect {
             > * ~ * {
-              border-color: white;
+              border-color: #fff;
             }
           }
         }
@@ -598,7 +598,7 @@
 
           @include expect {
             > * ~ * {
-              border-color: whitesmoke;
+              border-color: #f5f5f5;
             }
           }
         }
@@ -3772,7 +3772,7 @@
           @include expect {
             @media (min-width: $sm) {
               > * ~ * {
-                border-color: black;
+                border-color: #000;
               }
             }
           }
@@ -3789,7 +3789,7 @@
           @include expect {
             @media (min-width: $sm) {
               > * ~ * {
-                border-color: white;
+                border-color: #fff;
               }
             }
           }
@@ -4384,7 +4384,7 @@
           @include expect {
             @media (min-width: $sm) {
               > * ~ * {
-                border-color: whitesmoke;
+                border-color: #f5f5f5;
               }
             }
           }
@@ -7971,7 +7971,7 @@
           @include expect {
             @media (min-width: $md) {
               > * ~ * {
-                border-color: black;
+                border-color: #000;
               }
             }
           }
@@ -7988,7 +7988,7 @@
           @include expect {
             @media (min-width: $md) {
               > * ~ * {
-                border-color: white;
+                border-color: #fff;
               }
             }
           }
@@ -8583,7 +8583,7 @@
           @include expect {
             @media (min-width: $md) {
               > * ~ * {
-                border-color: whitesmoke;
+                border-color: #f5f5f5;
               }
             }
           }
@@ -12170,7 +12170,7 @@
           @include expect {
             @media (min-width: $lg) {
               > * ~ * {
-                border-color: black;
+                border-color: #000;
               }
             }
           }
@@ -12187,7 +12187,7 @@
           @include expect {
             @media (min-width: $lg) {
               > * ~ * {
-                border-color: white;
+                border-color: #fff;
               }
             }
           }
@@ -12782,7 +12782,7 @@
           @include expect {
             @media (min-width: $lg) {
               > * ~ * {
-                border-color: whitesmoke;
+                border-color: #f5f5f5;
               }
             }
           }
@@ -16369,7 +16369,7 @@
           @include expect {
             @media (min-width: $xl) {
               > * ~ * {
-                border-color: black;
+                border-color: #000;
               }
             }
           }
@@ -16386,7 +16386,7 @@
           @include expect {
             @media (min-width: $xl) {
               > * ~ * {
-                border-color: white;
+                border-color: #fff;
               }
             }
           }
@@ -16981,7 +16981,7 @@
           @include expect {
             @media (min-width: $xl) {
               > * ~ * {
-                border-color: whitesmoke;
+                border-color: #f5f5f5;
               }
             }
           }
@@ -20568,7 +20568,7 @@
           @include expect {
             @media (min-width: $\2xl) {
               > * ~ * {
-                border-color: black;
+                border-color: #000;
               }
             }
           }
@@ -20585,7 +20585,7 @@
           @include expect {
             @media (min-width: $\2xl) {
               > * ~ * {
-                border-color: white;
+                border-color: #fff;
               }
             }
           }
@@ -21180,7 +21180,7 @@
           @include expect {
             @media (min-width: $\2xl) {
               > * ~ * {
-                border-color: whitesmoke;
+                border-color: #f5f5f5;
               }
             }
           }

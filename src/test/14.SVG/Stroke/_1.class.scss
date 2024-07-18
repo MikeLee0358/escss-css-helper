@@ -480,7 +480,7 @@
           }
 
           @include expect {
-            stroke: whitesmoke;
+            stroke: #f5f5f5;
           }
         }
       }
@@ -3727,7 +3727,7 @@
 
           @include expect {
             @media (min-width: $sm) {
-              stroke: whitesmoke;
+              stroke: #f5f5f5;
             }
           }
         }
@@ -7387,7 +7387,7 @@
 
           @include expect {
             @media (min-width: $md) {
-              stroke: whitesmoke;
+              stroke: #f5f5f5;
             }
           }
         }
@@ -11047,7 +11047,7 @@
 
           @include expect {
             @media (min-width: $lg) {
-              stroke: whitesmoke;
+              stroke: #f5f5f5;
             }
           }
         }
@@ -14707,7 +14707,7 @@
 
           @include expect {
             @media (min-width: $xl) {
-              stroke: whitesmoke;
+              stroke: #f5f5f5;
             }
           }
         }
@@ -18367,7 +18367,7 @@
 
           @include expect {
             @media (min-width: $\2xl) {
-              stroke: whitesmoke;
+              stroke: #f5f5f5;
             }
           }
         }
