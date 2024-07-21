@@ -1,12 +1,11 @@
 {
-  "name": "escss-scss",
-  "license": "View license",
+  "name": "escss-css-helper",
   "scripts": {
     "format": "bun prettier . --write --cache"
   },
   "devDependencies": {
     "prettier": "3.3.2",
-    "sass": "^1.77.2",
+    "sass": "^1.77.8",
     "sass-true": "^8.0.0"
   }
 }
