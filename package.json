@@ -1,5 +1,8 @@
 {
   "name": "escss-css-helper",
+  "version": "1.0.0",
+  "description": "May CSS ecosystem be unity make developers less frustrated",
+  "author": "Mike(yingchun) Lee",
   "scripts": {
     "format": "bun prettier . --write --cache"
   },
